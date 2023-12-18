@@ -1,0 +1,4 @@
+{"text": "initEnviroument", "label": "initEnviroument", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038440000##7031##548365##8661##14546##27187968", "label": "getTodayTotalDetailSteps = {timestamp}##{int}##{int}##{int}##{int}##{int}", "type": 1}
+{"text": "startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1", "label": "startSync hiSyncOption = HiSyncOption{syncAction={action}, syncMethod={method}, syncScope={scope}, syncDataType={data_type}, syncModel={model}, pushAction={action}},app = {app} who = {id}", "type": 1}
+{"text": "flush sensor data", "label": "flush sensor data", "type": 1}

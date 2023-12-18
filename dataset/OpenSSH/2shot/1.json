@@ -1,0 +1,2 @@
+{"text": "Invalid user postgres1 from 187.141.143.180", "label": "Invalid user {user} from {ip}", "type": 1}
+{"text": "reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!", "label": "reverse mapping checking getaddrinfo for {hostname} [{ip_address}] failed - POSSIBLE BREAK-IN ATTEMPT!", "type": 1}

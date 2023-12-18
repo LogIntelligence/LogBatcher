@@ -1,0 +1,5 @@
+LogMessage,LogStatement,LogTemplate
+"2016-09-29 00:01:46, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+","log_printf(""Warning: Unrecognized packageExtended attribute."")",Warning: Unrecognized packageExtended attribute.
+"2016-09-29 02:04:01, Info                  CBS    Session: 30546354_2973972282 initialized by client WindowsUpdateAgent.
+","log_printf(""Session: %d initialized by client %s."", %d, %s)",Session: <*> initialized by client WindowsUpdateAgent.

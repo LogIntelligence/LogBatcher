@@ -1,0 +1,4 @@
+{"text": "Sending DIFF", "label": "Sending DIFF", "type": 1}
+{"text": "Cannot open channel to 3 at election address /10.10.34.13:3888", "label": "Cannot open channel to {channel} at election address {ip_address}", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Notification time out: 60000", "label": "Notification time out: {timeout}", "type": 1}

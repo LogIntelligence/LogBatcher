@@ -1,0 +1,449 @@
+LogMessage,LogStatement,LogTemplate,LogTemplate_fromLS
+"17/06/09 20:10:40 INFO executor.CoarseGrainedExecutorBackend: Registered signal handlers for [TERM, HUP, INT]
+","logInfo(""Registered signal handlers for [TERM, HUP, INT]"")","Registered signal handlers for [TERM, HUP, INT]","Registered signal handlers for [TERM, HUP, INT]"
+"17/06/09 20:10:40 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+","logInfo(""Changing view acls to: $users"")",Changing view acls to: <*>,Changing view acls to: <*>
+"17/06/09 20:10:40 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+","logInfo(""Changing modify acls to: $users"")",Changing modify acls to: <*>,Changing modify acls to: <*>
+"17/06/09 20:10:40 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+","logInfo(""SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"")","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+"17/06/09 20:10:41 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+","logInfo(""Changing view acls to: $users"")",Changing view acls to: <*>,Changing view acls to: <*>
+"17/06/09 20:10:41 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+","logInfo(""Changing modify acls to: $users"")",Changing modify acls to: <*>,Changing modify acls to: <*>
+"17/06/09 20:10:41 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+","logInfo(""SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"")","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+"17/06/09 20:10:41 INFO slf4j.Slf4jLogger: Slf4jLogger started
+","logInfo(""Slf4jLogger started"")",Slf4jLogger started,Slf4jLogger started
+"17/06/09 20:10:41 INFO Remoting: Starting remoting
+","logInfo(""Starting remoting"")",Starting remoting,Starting remoting
+"17/06/09 20:10:41 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]
+","logInfo(""Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]"")",Remoting started; listening on addresses :[<*>],Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]
+"17/06/09 20:10:41 INFO util.Utils: Successfully started service 'sparkExecutorActorSystem' on port 55904.
+","logInfo(""Successfully started service 'sparkExecutorActorSystem' on port $port."")",Successfully started service 'sparkExecutorActorSystem' on port <*>.,Successfully started service 'sparkExecutorActorSystem' on port <*>.
+"17/06/09 20:10:41 INFO storage.DiskBlockManager: Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4
+","logInfo(s""Created local directory at $directoryPath"")",Created local directory at <*>,Created local directory at <*>
+"17/06/09 20:10:41 INFO storage.MemoryStore: MemoryStore started with capacity 17.7 GB
+","logInfo(s""MemoryStore started with capacity $capacity"")",MemoryStore started with capacity <*> GB,MemoryStore started with capacity <*>
+"17/06/09 20:10:42 INFO executor.CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069
+","logInfo(s""Connecting to driver: $driverUrl"")",Connecting to driver: <*>,Connecting to driver: <*>
+"17/06/09 20:10:42 INFO executor.CoarseGrainedExecutorBackend: Successfully registered with driver
+","logInfo(""Successfully registered with driver"")",Successfully registered with driver,Successfully registered with driver
+"17/06/09 20:10:42 INFO executor.Executor: Starting executor ID 5 on host mesos-slave-07
+","logInfo(s""Starting executor ID $executorId on host $host"")",Starting executor ID <*> on host <*>,Starting executor ID <*> on host <*>
+"17/06/09 20:10:42 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.
+","logInfo(s""Successfully started service '$serviceName' on port $portNumber."")",Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,Successfully started service '<*>' on port <*>.
+"17/06/09 20:10:42 INFO netty.NettyBlockTransferService: Server created on 40984
+","logInfo(s""Server created on $port"")",Server created on <*>,Server created on <*>
+"17/06/09 20:10:42 INFO storage.BlockManagerMaster: Trying to register BlockManager
+","logInfo(""Trying to register BlockManager"")",Trying to register BlockManager,Trying to register BlockManager
+"17/06/09 20:10:42 INFO storage.BlockManagerMaster: Registered BlockManager
+","logInfo(""Registered BlockManager"")",Registered BlockManager,Registered BlockManager
+"17/06/09 20:10:45 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 0
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:45 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:45 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 2
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:45 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 3
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:45 INFO executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:45 INFO executor.Executor: Running task 2.0 in stage 0.0 (TID 2)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:45 INFO executor.Executor: Running task 1.0 in stage 0.0 (TID 1)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:45 INFO executor.Executor: Running task 3.0 in stage 0.0 (TID 3)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:45 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 4
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:45 INFO executor.Executor: Running task 4.0 in stage 0.0 (TID 4)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:45 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 9
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:45 INFO storage.MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 5.2 KB, free 5.2 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:45 INFO broadcast.TorrentBroadcast: Reading broadcast variable 9 took 160 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:46 INFO storage.MemoryStore: Block broadcast_9 stored as values in memory (estimated size 8.8 KB, free 14.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:46 INFO spark.CacheManager: Partition rdd_2_1 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:46 INFO spark.CacheManager: Partition rdd_2_3 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:46 INFO spark.CacheManager: Partition rdd_2_0 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:46 INFO spark.CacheManager: Partition rdd_2_2 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:46 INFO spark.CacheManager: Partition rdd_2_4 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:46 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292
+","logInfo(s""Input split: $inputSplit"")",Input split: <*>,Input split: <*>
+"17/06/09 20:10:46 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292
+","logInfo(s""Input split: $inputSplit"")",Input split: <*>,Input split: <*>
+"17/06/09 20:10:46 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:0+7292
+","logInfo(s""Input split: $inputSplit"")",Input split: <*>,Input split: <*>
+"17/06/09 20:10:46 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:7292+7292
+","logInfo(s""Input split: $inputSplit"")",Input split: <*>,Input split: <*>
+"17/06/09 20:10:46 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:29168+7292
+","logInfo(s""Input split: $inputSplit"")",Input split: <*>,Input split: <*>
+"17/06/09 20:10:46 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 8
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:46 INFO storage.MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 21.4 KB, free 35.4 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:46 INFO broadcast.TorrentBroadcast: Reading broadcast variable 8 took 19 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:46 INFO storage.MemoryStore: Block broadcast_8 stored as values in memory (estimated size 281.6 KB, free 317.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+","logInfo(""Configuration.deprecation: $message"")","mapred.tip.id is deprecated. Instead, use mapreduce.task.id",Configuration.deprecation: <*>
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+","logInfo(""Configuration.deprecation: $deprecatedProperty is deprecated. Instead, use $newProperty"")","mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id","Configuration.deprecation: <*> is deprecated. Instead, use <*>"
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+","logInfo(""Configuration.deprecation: $message"")","mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",Configuration.deprecation: <*>
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+","logInfo(""Configuration.deprecation: $property is deprecated. Instead, use $newProperty"")","mapred.job.id is deprecated. Instead, use mapreduce.job.id","Configuration.deprecation: <*> is deprecated. Instead, use <*>"
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+","logInfo(""Configuration.deprecation: $message"")","mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",Configuration.deprecation: <*>
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 0
+","logInfo(""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 93.0 B, free 317.1 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Reading broadcast variable 0 took 21 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 384.0 B, free 317.5 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 4
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 95.0 B, free 317.6 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Reading broadcast variable 4 took 18 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_4 stored as values in memory (estimated size 384.0 B, free 318.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 3
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 152.0 B, free 318.1 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Reading broadcast variable 3 took 17 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 384.0 B, free 318.5 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 1
+","logInfo(""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 107.0 B, free 318.6 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Reading broadcast variable 1 took 16 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 384.0 B, free 319.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 2
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 93.0 B, free 319.0 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO broadcast.TorrentBroadcast: Reading broadcast variable 2 took 16 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 384.0 B, free 319.4 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 1072, boot = 856, init = 210, finish = 6
+","logInfo(s""Times: total = $totalTimeMs, boot = $bootTimeMs, init = $initTimeMs, finish = $finishTimeMs"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 1114, boot = 885, init = 223, finish = 6
+","logInfo(s""Times: total = $totalTimeMs, boot = $bootTimeMs, init = $initTimeMs, finish = $finishTimeMs"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 1074, boot = 869, init = 199, finish = 6
+","logInfo(s""Times: total = $totalTimeMs, boot = $bootTimeMs, init = $initTimeMs, finish = $finishTimeMs"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 1078, boot = 851, init = 219, finish = 8
+","logInfo(s""Times: total = $totalTimeMs, boot = $bootTimeMs, init = $initTimeMs, finish = $finishTimeMs"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 1077, boot = 865, init = 206, finish = 6
+","logInfo(s""Times: total = $totalTimeMs, boot = $bootTimeMs, init = $initTimeMs, finish = $finishTimeMs"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block rdd_2_2 stored as bytes in memory (estimated size 850.0 B, free 320.3 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block rdd_2_3 stored as bytes in memory (estimated size 930.0 B, free 321.2 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block rdd_2_1 stored as bytes in memory (estimated size 935.0 B, free 322.1 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block rdd_2_0 stored as bytes in memory (estimated size 913.0 B, free 323.0 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block rdd_2_4 stored as bytes in memory (estimated size 890.0 B, free 323.8 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 38, boot = 11, init = 27, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 42, boot = 12, init = 30, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 41, boot = 15, init = 26, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 40, boot = 7, init = 33, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 42, boot = 13, init = 28, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:48 INFO executor.Executor: Finished task 3.0 in stage 0.0 (TID 3). 2703 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:48 INFO executor.Executor: Finished task 1.0 in stage 0.0 (TID 1). 2703 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:48 INFO executor.Executor: Finished task 2.0 in stage 0.0 (TID 2). 2703 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:48 INFO executor.Executor: Finished task 4.0 in stage 0.0 (TID 4). 2703 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:48 INFO executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 2703 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 42
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 0.0 in stage 1.0 (TID 42)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 56
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 1.0 in stage 1.0 (TID 56)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 69
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 10
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 2.0 in stage 1.0 (TID 69)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 78
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 3.0 in stage 1.0 (TID 78)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 79
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 4.0 in stage 1.0 (TID 79)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO storage.MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 5.8 KB, free 329.6 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:52 INFO broadcast.TorrentBroadcast: Reading broadcast variable 10 took 17 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:52 INFO storage.MemoryStore: Block broadcast_10 stored as values in memory (estimated size 9.6 KB, free 339.2 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_0 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_3 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_4 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_2 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_1 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 42, boot = -4131, init = 4172, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 41, boot = -4122, init = 4162, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 42, boot = -4121, init = 4162, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 42, boot = -4138, init = 4179, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 42, boot = -4134, init = 4175, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 4.0 in stage 1.0 (TID 79). 2685 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 1.0 in stage 1.0 (TID 56). 2428 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 0.0 in stage 1.0 (TID 42). 2474 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 3.0 in stage 1.0 (TID 78). 2651 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 2.0 in stage 1.0 (TID 69). 2523 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 87
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 0.0 in stage 2.0 (TID 87)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 101
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 1.0 in stage 2.0 (TID 101)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 112
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 2.0 in stage 2.0 (TID 112)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 118
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 3.0 in stage 2.0 (TID 118)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 11
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:52 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 119
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:52 INFO executor.Executor: Running task 4.0 in stage 2.0 (TID 119)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:52 INFO storage.MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 5.4 KB, free 344.7 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:52 INFO broadcast.TorrentBroadcast: Reading broadcast variable 11 took 15 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:52 INFO storage.MemoryStore: Block broadcast_11 stored as values in memory (estimated size 9.2 KB, free 353.9 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_4 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_3 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_2 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_0 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO storage.BlockManager: Found block rdd_2_1 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 39, boot = -147, init = 186, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 39, boot = -147, init = 186, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 41, boot = -139, init = 179, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 38, boot = -156, init = 194, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO python.PythonRunner: Times: total = 39, boot = -159, init = 198, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 4.0 in stage 2.0 (TID 119). 2087 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 2.0 in stage 2.0 (TID 112). 2087 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 3.0 in stage 2.0 (TID 118). 2087 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 1.0 in stage 2.0 (TID 101). 2087 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:52 INFO executor.Executor: Finished task 0.0 in stage 2.0 (TID 87). 2087 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 122
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 0.0 in stage 3.0 (TID 122)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 136
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 1.0 in stage 3.0 (TID 136)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 150
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 2.0 in stage 3.0 (TID 150)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 158
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 3.0 in stage 3.0 (TID 158)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 12
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 159
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 4.0 in stage 3.0 (TID 159)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 5.6 KB, free 359.4 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO broadcast.TorrentBroadcast: Reading broadcast variable 12 took 30 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_12 stored as values in memory (estimated size 9.8 KB, free 369.3 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO spark.CacheManager: Partition rdd_6_4 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:53 INFO spark.CacheManager: Partition rdd_6_3 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:53 INFO spark.CacheManager: Partition rdd_6_0 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:53 INFO spark.CacheManager: Partition rdd_6_1 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:53 INFO spark.CacheManager: Partition rdd_6_2 not found, computing it
+","logInfo(s""Partition $partitionId not found, computing it"")","Partition <*> not found, computing it","Partition <*> not found, computing it"
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_2_4 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_2_3 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_2_1 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_2_0 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_2_2 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 38, boot = -170, init = 208, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 41, boot = -171, init = 212, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 41, boot = -160, init = 200, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 38, boot = -172, init = 210, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 40, boot = -173, init = 213, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block rdd_6_4 stored as bytes in memory (estimated size 287.0 B, free 369.5 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block rdd_6_3 stored as bytes in memory (estimated size 344.0 B, free 369.9 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block rdd_6_1 stored as bytes in memory (estimated size 330.0 B, free 370.2 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block rdd_6_2 stored as bytes in memory (estimated size 252.0 B, free 370.4 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block rdd_6_0 stored as bytes in memory (estimated size 265.0 B, free 370.7 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 38, boot = 14, init = 24, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 38, boot = 12, init = 26, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 41, boot = 19, init = 22, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 4.0 in stage 3.0 (TID 159). 2667 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 41, boot = 16, init = 25, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 3.0 in stage 3.0 (TID 158). 2667 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 40, boot = 5, init = 35, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 1.0 in stage 3.0 (TID 136). 2667 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 2.0 in stage 3.0 (TID 150). 2667 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 0.0 in stage 3.0 (TID 122). 2667 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 171
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 0.0 in stage 4.0 (TID 171)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 185
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 1.0 in stage 4.0 (TID 185)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 13
+","logInfo(s""Started reading broadcast variable $variableId"")",Started reading broadcast variable <*>,Started reading broadcast variable <*>
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 195
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 2.0 in stage 4.0 (TID 195)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 198
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 3.0 in stage 4.0 (TID 198)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 199
+","logInfo(""Got assigned task $taskId"")",Got assigned task <*>,Got assigned task <*>
+"17/06/09 20:10:53 INFO executor.Executor: Running task 4.0 in stage 4.0 (TID 199)
+","logInfo(s""Running task $taskId in stage $stageId (TID $taskAttemptId)"")",Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 5.7 KB, free 376.4 KB)
+","logInfo(s""Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO broadcast.TorrentBroadcast: Reading broadcast variable 13 took 41 ms
+","logInfo(s""Reading broadcast variable $variableId took $usedTimeMs ms"")",Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_13 stored as values in memory (estimated size 10.1 KB, free 386.5 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_6_0 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_6_4 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_6_3 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_6_2 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO storage.BlockManager: Found block rdd_6_1 locally
+","logInfo(s""Found block $blockId locally"")",Found block <*> locally,Found block <*> locally
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 39, boot = -141, init = 180, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 40, boot = -129, init = 169, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 41, boot = -134, init = 175, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 39, boot = -123, init = 162, finish = 0
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO python.PythonRunner: Times: total = 42, boot = -125, init = 166, finish = 1
+","logInfo(s""Times: total = $totalTime, boot = $bootTime, init = $initTime, finish = $finishTime"")","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 0.0 in stage 4.0 (TID 171). 2099 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 1.0 in stage 4.0 (TID 185). 2099 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 2.0 in stage 4.0 (TID 195). 2138 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 3.0 in stage 4.0 (TID 198). 2099 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+"17/06/09 20:10:53 INFO executor.Executor: Finished task 4.0 in stage 4.0 (TID 199). 2138 bytes result sent to driver
+","logInfo(s""Finished task $taskId in stage $stageId (TID $taskAttemptId). $resultSize bytes result sent to driver"")",Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
