@@ -1,12 +1,4 @@
-import json
-from llm import chatGPT
 import pandas as pd
-import time
-import random
-import csv
-
-
-import time
 import re
 
 def LS_to_LT(text):
@@ -19,20 +11,14 @@ def LS_to_LT(text):
 
         return ' '.join(quoted_text)
 
-def LS_to_LT_all(dateset):
+def LS_to_LT_all(dataset):
     # 读取CSV文件
-    df = pd.read_csv('output\\' + "Spark" + '.csv')
+    df = pd.read_csv('output\\' + dataset + '.csv')
     # 对LogStatement列的每一行应用replace_placeholders函数，并将结果存储在LogTemplate_fromLS列
     df['LogTemplate_fromLS'] = df['LogStatement'].apply(LS_to_LT)
     # 将修改后的DataFrame写回CSV文件
-    df.to_csv('output\\' + "Spark" + '.csv', index=False)
+    df.to_csv('output\\' + dataset + '.csv', index=False)
 
-
-
-
-# # 测试
-# text = 'logInfo(s"Block $blockId stored as bytes in memory (estimated size $estimatedSize, free $freeMemory)")'
-# print(replace_placeholders(text))
 
 
 

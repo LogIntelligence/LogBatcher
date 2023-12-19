@@ -40,6 +40,7 @@ for LM,LT in zip(log_messages[outputed_log_statements_nums:],log_templates[outpu
                 print('No more api key available')
                 exit()
         elif LS == 'RL1':
+            print(LS)
             time.sleep(20)
             continue
         else:

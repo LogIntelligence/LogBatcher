@@ -1,9 +1,10 @@
 openai:
   api_key: 
-    - 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
-    - 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
-
-# 
+    - sk-MWCZbiYqiQUjacuGF53a6c71E3134177A585CeFe79D10aD2 # rule no rate limited $5
+    - sk-uL7deboRaRY09ZP2293bFb4c24A44023A18d4785491a893e # rule no rate limited $5
+    - sk-S05CDJSCCEhk2LXN3026E832946645Ea83C091081062C314 # rule no rate limited $5
+    - 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 # direct rate limited  $5
+    - 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 # direct rate limited  $5
 instructions:
   Spark: >- #spark using scala
     Given the following raw log, generate the corresponding log statement by identifying the variable parts and replacing them with appropriate placeholders, only return the log statements (code) without additional explainations:

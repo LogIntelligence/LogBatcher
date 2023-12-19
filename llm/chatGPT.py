@@ -14,6 +14,7 @@ class Chat:
         with open(f'dataset\{dataset}\demonstrations.json') as file:
             self.demonstrations = json.load(file)
         self.client = OpenAI(
+            base_url="https://oneapi.xty.app/v1",
             api_key=self.api_keys[self.api_key_index],
             http_client=httpx.Client(
                 proxies="http://127.0.0.1:7890"
@@ -26,6 +27,7 @@ class Chat:
             return False
         self.api_key_index += 1
         self.client = OpenAI(
+            base_url="https://oneapi.xty.app/v1",
             api_key=self.api_keys[self.api_key_index],
             http_client=httpx.Client(
                 proxies="http://127.0.0.1:7890"

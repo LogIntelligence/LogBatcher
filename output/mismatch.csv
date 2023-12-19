@@ -1,0 +1,277 @@
+LogMessage,LogStatement,LogTemplate,LogTemplate_fromLS
+"17/06/09 20:10:41 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]
+","logInfo(""Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]"")",Remoting started; listening on addresses :[<*>],Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]
+"17/06/09 20:10:41 INFO storage.MemoryStore: MemoryStore started with capacity 17.7 GB
+","logInfo(s""MemoryStore started with capacity $capacity"")",MemoryStore started with capacity <*> GB,MemoryStore started with capacity <*>
+"17/06/09 20:10:42 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.
+","logInfo(s""Successfully started service '$serviceName' on port $portNumber."")",Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,Successfully started service '<*>' on port <*>.
+"17/06/09 20:10:46 INFO storage.MemoryStore: Block broadcast_9 stored as values in memory (estimated size 8.8 KB, free 14.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:46 INFO storage.MemoryStore: Block broadcast_8 stored as values in memory (estimated size 281.6 KB, free 317.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+","logInfo(""Configuration.deprecation: $message"")","mapred.tip.id is deprecated. Instead, use mapreduce.task.id",Configuration.deprecation: <*>
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+","logInfo(""Configuration.deprecation: $deprecatedProperty is deprecated. Instead, use $newProperty"")","mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id","Configuration.deprecation: <*> is deprecated. Instead, use <*>"
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+","logInfo(""Configuration.deprecation: $message"")","mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",Configuration.deprecation: <*>
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+","logInfo(""Configuration.deprecation: $property is deprecated. Instead, use $newProperty"")","mapred.job.id is deprecated. Instead, use mapreduce.job.id","Configuration.deprecation: <*> is deprecated. Instead, use <*>"
+"17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+","logInfo(""Configuration.deprecation: $message"")","mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",Configuration.deprecation: <*>
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 384.0 B, free 317.5 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_4 stored as values in memory (estimated size 384.0 B, free 318.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 384.0 B, free 318.5 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 384.0 B, free 319.0 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:48 INFO storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 384.0 B, free 319.4 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:52 INFO storage.MemoryStore: Block broadcast_10 stored as values in memory (estimated size 9.6 KB, free 339.2 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:52 INFO storage.MemoryStore: Block broadcast_11 stored as values in memory (estimated size 9.2 KB, free 353.9 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_12 stored as values in memory (estimated size 9.8 KB, free 369.3 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_13 stored as values in memory (estimated size 10.1 KB, free 386.5 KB)
+","logInfo(s""Block $blockId stored as $storageType in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_14 stored as values in memory (estimated size 9.6 KB, free 401.9 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_15 stored as values in memory (estimated size 9.2 KB, free 416.6 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $size, free $free)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_16_piece0 stored as bytes in memory (estimated size 5.6 KB, free 422.1 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:53 INFO storage.MemoryStore: Block broadcast_16 stored as values in memory (estimated size 9.8 KB, free 432.0 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_17_piece0 stored as bytes in memory (estimated size 5.7 KB, free 438.5 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_17 stored as values in memory (estimated size 10.1 KB, free 448.6 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_18_piece0 stored as bytes in memory (estimated size 5.8 KB, free 454.4 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_18 stored as values in memory (estimated size 9.6 KB, free 464.0 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $size, free $free)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_19 stored as values in memory (estimated size 9.2 KB, free 478.6 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_20 stored as values in memory (estimated size 9.8 KB, free 411.6 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $size, free $free)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_21 stored as values in memory (estimated size 10.1 KB, free 403.2 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_22 stored as values in memory (estimated size 9.6 KB, free 418.6 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_23_piece0 stored as bytes in memory (estimated size 5.4 KB, free 378.2 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_23 stored as values in memory (estimated size 9.2 KB, free 387.4 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_24 stored as values in memory (estimated size 9.8 KB, free 402.8 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_25_piece0 stored as bytes in memory (estimated size 5.7 KB, free 409.5 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_25 stored as values in memory (estimated size 10.1 KB, free 419.6 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_26_piece0 stored as bytes in memory (estimated size 5.8 KB, free 379.9 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_26 stored as values in memory (estimated size 9.7 KB, free 389.6 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:55 INFO storage.MemoryStore: Block broadcast_27 stored as values in memory (estimated size 9.2 KB, free 404.2 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:56 INFO storage.MemoryStore: Block broadcast_28 stored as values in memory (estimated size 9.8 KB, free 419.6 KB)
+","logInfo(s""Block $blockName stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:56 INFO storage.MemoryStore: Block broadcast_29_piece0 stored as bytes in memory (estimated size 5.7 KB, free 379.5 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:56 INFO storage.MemoryStore: Block broadcast_29 stored as values in memory (estimated size 10.1 KB, free 374.2 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:56 INFO storage.MemoryStore: Block broadcast_30 stored as values in memory (estimated size 9.7 KB, free 389.7 KB)
+","logInfo(s""Block $blockName stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:56 INFO storage.MemoryStore: Block broadcast_31 stored as values in memory (estimated size 9.8 KB, free 405.1 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:56 INFO storage.MemoryStore: Block broadcast_32_piece0 stored as bytes in memory (estimated size 5.7 KB, free 406.3 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:56 INFO storage.MemoryStore: Block broadcast_32 stored as values in memory (estimated size 10.1 KB, free 400.4 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:57 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1012
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:10:57 INFO storage.MemoryStore: Block broadcast_33 stored as values in memory (estimated size 82.1 KB, free 486.9 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000002_998: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}: Committed
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000003_1012: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}: Committed
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000001_984: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}_${taskId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}_${taskId}: Committed
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000000_970: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:57 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1125
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:10:57 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1126
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:10:57 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1129
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000044_1129: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}: Committed
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000043_1128: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}: Committed
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000040_1125: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000042_1127: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000041_1126: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:57 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000083_1138: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000084_1141: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000080_1135: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000082_1137: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000081_1136: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1150
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000124_1151: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000120_1145: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000122_1147: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000121_1146: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000123_1150: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000160_1155: Committed
+","logInfo(""attempt_$attemptId: Committed"")",<*>: Committed,attempt_<*>: Committed
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000163_1158: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000164_1159: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000162_1157: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}: Committed
+"17/06/09 20:10:58 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000161_1156: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:10:58 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1166
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:10:58 INFO storage.MemoryStore: Block broadcast_34 stored as values in memory (estimated size 77.4 KB, free 593.1 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:10:59 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:59 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:59 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:59 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:59 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+","logInfo(""File Output Committer Algorithm version is 1"")",File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is 1
+"17/06/09 20:10:59 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0025_m_000004_1199: Committed
+","logInfo(""Committed $taskAttemptId"")",<*>: Committed,Committed <*>
+"17/06/09 20:10:59 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0025_m_000003_1198: Committed
+","logInfo(""attempt_${jobId}_${taskType}_${taskAttemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskType}_${taskAttemptId}: Committed
+"17/06/09 20:10:59 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0025_m_000000_1166: Committed
+","logInfo(""Committed attempt_201706092018_0025_m_000000_1166"")",<*>: Committed,Committed attempt_201706092018_0025_m_000000_1166
+"17/06/09 20:10:59 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0025_m_000002_1194: Committed
+","logInfo(""attempt_$attemptId: Committed"")",<*>: Committed,attempt_<*>: Committed
+"17/06/09 20:10:59 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0025_m_000001_1180: Committed
+","logInfo(""attempt_${jobId}_${taskId}_${attemptId}: Committed"")",<*>: Committed,attempt_${jobId}_${taskId}_${attemptId}: Committed
+"17/06/09 20:11:07 INFO storage.MemoryStore: Block broadcast_37 stored as values in memory (estimated size 8.8 KB, free 500.9 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:11:07 INFO storage.MemoryStore: Block broadcast_36 stored as values in memory (estimated size 281.6 KB, free 803.9 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:11:07 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1207
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:07 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:51044+7292
+","logInfo(s""Input split: $inputPath:$offset+$length"")",Input split: <*>,Input split: <*>:<*>+<*>
+"17/06/09 20:11:08 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1219
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:08 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1220
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:08 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1229
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:08 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:226052+7292
+","logInfo(s""Input split: $inputPath:$startOffset+$length"")",Input split: <*>,Input split: <*>:<*>+<*>
+"17/06/09 20:11:08 INFO storage.MemoryStore: Block broadcast_38 stored as values in memory (estimated size 9.6 KB, free 853.7 KB)
+","logInfo(s""Block $blockName stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1249
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1254
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1259
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1264
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1267
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1268
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1270
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1278
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:09 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1279
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:10 INFO storage.MemoryStore: Block broadcast_39 stored as values in memory (estimated size 9.2 KB, free 868.3 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:11:10 INFO storage.MemoryStore: Block broadcast_40 stored as values in memory (estimated size 9.9 KB, free 884.2 KB)
+","logInfo(s""Block $blockId stored as $storageLevel in memory (estimated size $estimatedSize, free $freeMemory)"")","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as <*> in memory (estimated size <*>, free <*>)"
+"17/06/09 20:11:10 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1329
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:10 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1333
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:10 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1335
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:11 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1349
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
+"17/06/09 20:11:11 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1353
+","logInfo(""Got assigned task "" + taskId)",Got assigned task <*>,Got assigned task 
