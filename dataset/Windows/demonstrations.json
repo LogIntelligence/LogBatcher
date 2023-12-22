@@ -1,18 +1,19 @@
 [
     {
         "role": "user",
-        "content": "Log message: 2016-09-28 04:30:31, Info                  CSI    00000003@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa1c8728 @0x7fefa1c8856 @0xff83e474 @0xff83d7de @0xff83db2f)"
-    },
-    {
-        "role": "assistant",
-        "content": "log_printf(\"%d@%s WcpInitialize (wcp.dll version %s) called (stack @%x @%X @%x @%x @%x @%x)\")"
-    },
-    {
-        "role": "user",
         "content": "2016-09-28 04:30:33, Info                  CBS    Read out cached package applicability for package: Package_for_KB3121255~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112"
     },
     {
         "role": "assistant",
         "content": "log_printf(\"Read out cached package applicability for package: %s, ApplicableState: %d, CurrentState: %d\")"
+    },
+    {
+        "role": "user",
+        "content": "Log message: 2016-09-28 04:30:31, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]"
+    },
+    {
+        "role": "assistant",
+        "content": "log_printf(\"Failed to get next element [HRESULT = %lx - CBS_E_MANIFEST_INVALID_ITEM]\")"
     }
+    
 ]
