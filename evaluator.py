@@ -15,10 +15,9 @@ def evaluate(file):
 
     accuracy_exact_string_matching = accuracy_score(np.array(df.LogTemplate.values, dtype='str'),
                                                     np.array(df.LogTemplate_fromLS.values, dtype='str'))
+    
     # 找出不匹配的值
     df_mismatch = df[df.LogTemplate != df.LogTemplate_fromLS]
-
-    # 将 df_mismatch 写入 CSV 文件
     df_mismatch.to_csv('output\mismatch.csv', index=False)
 
 

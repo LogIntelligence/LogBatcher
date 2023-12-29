@@ -6,9 +6,5 @@ openai:
     - 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 # direct rate limited  $5
     - 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 # direct rate limited  $5
 instructions:
-  Spark: >- #spark using scala
-    Given the following raw log, generate the corresponding log statement by identifying the variable parts and replacing them with appropriate placeholders, only return the log statements (code) without additional explainations:
-  Windows: >- #windows using cpp
-    Given the following raw log, generate the corresponding log statement by identifying the variable parts and replacing them with appropriate placeholders, only return the log statements (code) without additional explainations:
-  Windows_new: >-
-    Log message reverse: given a log message, the AI assistant can generate the corresponding code that generated the log message. Any possible varible in the log message must be replaced in the form of placeholder If a log message is given, only return the code without additional explainations.
+  instruction1: >-
+    Given the following raw log, generate the corresponding logging statement by identifying the variable parts and replacing them with appropriate placeholders, only return the logging statements (code) without additional explainations:
