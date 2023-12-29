@@ -5,6 +5,9 @@ openai:
     - sk-S05CDJSCCEhk2LXN3026E832946645Ea83C091081062C314 # rule no rate limited $5
     - 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 # direct rate limited  $5
     - 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 # direct rate limited  $5
-instructions:
-  instruction1: >-
-    Given the following raw log, generate the corresponding logging statement by identifying the variable parts and replacing them with appropriate placeholders, only return the logging statements (code) without additional explainations:
+instruction: >-
+  Given the following raw log, firstly you should generate the corresponding logging statement (The logging statement is a single line of code that is used to log a message) by identifying the variable parts and replacing them with appropriate placeholders, only return the logging statements without additional explainations, then you should generate the corresponding log template by identifying the variable parts and replacing them with placeholders in the form of <*>, also return the log template without additional explainations:
+instruction_stage1: >-
+  Given the following raw log, generate the corresponding logging statement (code) by identifying the variable parts and replacing them with appropriate placeholders, only return the logging statements (code) without additional explainations:
+instruction_stage2: >-
+  Given the following logging statement (code), generate the corresponding log template by identifying the variable parts and replacing them with placeholders in the form of <*>, only return the log template without additional explainations:

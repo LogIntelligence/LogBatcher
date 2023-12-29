@@ -25,6 +25,18 @@ def LS_to_LT_Windows(code):
         return None
 
 
+def LS_to_LT_Android(code):
+    # 提取引号中的内容
+    pattern = r'\"(.+?)\"'
+    match = re.search(pattern, code)
+    if match:
+        log_msg = match.group(1)
+        # 将所有类似%d的占位符转化为<*>
+        template = re.sub(r'%\w+', '<*>', log_msg)
+        return template
+    else:
+        return None
+
 def LS_to_LT_all(dataset):
     # 读取CSV文件
     df = pd.read_csv('output\\' + dataset + '.csv')
