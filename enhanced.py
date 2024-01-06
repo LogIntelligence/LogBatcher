@@ -10,7 +10,7 @@ from tenacity import (
 import openai
 import backoff
 
-api_key = "sk-MWCZbiYqiQUjacuGF53a6c71E3134177A585CeFe79D10aD2"
+api_key = "sk-uL7deboRaRY09ZP2293bFb4c24A44023A18d4785491a893e"
 client = OpenAI(
     base_url="https://oneapi.xty.app/v1",  # 中转url
     api_key=api_key,                      # api_key
@@ -43,9 +43,9 @@ df = pd.DataFrame()
 datasets_now = ['Linux']
 
 # 打开文件
-f = open('temp.txt', 'w')
+f = open('Linux.txt', 'w')
 
-dataset = 'Hadoop'
+dataset = 'Linux'
 # for dataset in datasets_now:
 
 with open(f'dataset/{dataset}/{dataset}_2k.log', 'r') as logfile:
@@ -70,7 +70,6 @@ for log in tqdm(logs):
 df['EventTemplate'] = pd.read_csv(f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')['EventTemplate']
 df['LoggingStatement'] = LoggingStatements
 df.to_csv(f'outputs/enhanced_gpt/1shot/{dataset}.csv', index=False)
-f = open('temp.txt', 'w')
 f.close()
 messages.pop()
 messages.pop()  
