@@ -1,0 +1,162 @@
+{
+    "Spark": [
+        {
+            "role": "user",
+            "content": "Log: Block broadcast_0 stored as values in memory (estimated size 384.0 B, free 317.5 KB)"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"Block {} stored as values in memory (estimated size {}, free {})\", \"broadcast_0\", \"384.0 B\", \"317.5 KB\")"
+        }
+    ],
+    "Hadoop": [
+        {
+            "role": "user",
+            "content": "Log: attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"{} TaskAttempt Transitioned from NEW to UNASSIGNED\", \"attempt_1445144423722_0020_m_000000_0\")"
+        }
+    ],
+    "Linux": [
+        {
+            "role": "user",
+            "content": "Log: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"authentication failure; logname= uid={} euid={} tty={} ruser= rhost={}\", \"0\", \"0\", \"NODEVssh\", \"d211-116-254-214.rev.krline.net\")"
+        }
+    ],
+    "Zookeeper": [
+        {
+            "role": "user",
+            "content": "Log: Received connection request /10.10.34.11:45307"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"Received connection request {}: {}\", \"/10.10.34.11\", \"45307\")"
+        }
+    ],
+    "Android": [
+        {
+            "role": "user",
+            "content": "Log: setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=508 newVal=40000500 diff=40000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)\", \"40000500\", \"ffffffff\", \"508\", \"40000500\", \"40000008\", \"0\", \"0\", \"0\", \"0\", \"720\", \"1280\", \"0\", \"0\", \"0\", \"0\")"
+        }
+    ],
+    "HDFS": [
+        {
+            "role": "user",
+            "content": "Log: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.73.220:50010 is added to blk_7128370237687728475 size 67108864"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"BLOCK* NameSystem.addStoredBlock: blockMap updated: {} is added to {} size {}\", \"10.251.73.220: 50010\", \"blk_7128370237687728475\", \"67108864\")"
+        }
+    ],
+    "OpenSSH": [
+        {
+            "role": "user",
+            "content": "Log: Received disconnect from 52.80.34.196: 11: Bye Bye [preauth]"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"Received disconnect from {}: {}: Bye Bye [preauth]\", \"52.80.34.196\", \"11\")"
+        }
+    ],
+    "Proxifier": [
+        {
+            "role": "user",
+            "content": "Log: proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"{} open through proxy {} HTTPS\", \"proxy.cse.cuhk.edu.hk: 5070\", \"proxy.cse.cuhk.edu.hk: 5070\")"
+        }
+    ],
+    "BGL": [
+        {
+            "role": "user",
+            "content": "Log: generating core.2275"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"generating core.{}\", \"2275\")"
+        }
+    ],
+    "HealthApp": [
+        {
+            "role": "user",
+            "content": "Log: onExtend:1514038530000 14 0 4"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"onExtend:<*> <*> <*> <*>\", \"1514038530000\", \"14\", \"0\", \"4\")"
+        }
+    ],
+    "OpenStack": [
+        {
+            "role": "user",
+            "content": "Log: 10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2808621"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"{} \"GET {}\" status: {} len: {} time: {}\", \"10.11.10.1\", \"/v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\", \"200\", \"1910\", \"0\")"
+        }
+    ],
+    "HPC": [
+        {
+            "role": "user",
+            "content": "Log: ambient=28"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"ambient={}\", \"1514038530000\", \"28\")"
+        }
+    ],
+    "Mac": [
+        {
+            "role": "user",
+            "content": "Log: Cocoa scripting error for \"0x00660011\": four character codes must be four characters long."
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"Cocoa scripting error for \"{}\": four character codes must be four characters long.\", \"0x00660011\")"
+        }
+    ],
+    "Windows": [
+        {
+            "role": "user",
+            "content": "Log: Session: 30546173_4261722401 initialized by client WindowsUpdateAgent."
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"Session: {} initialized by client WindowsUpdateAgent.\", \"30546173_4261722401\")"
+        }
+    ],
+    "Apache": [
+        {
+            "role": "user",
+            "content": "Log: jk2_init() Found child 6725 in scoreboard slot 10"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"jk2_init() Found child {} in scoreboard slot {}\", \"6725\", \"10\")"
+        }
+    ],
+    "Thunderbird": [
+        {
+            "role": "user",
+            "content": "Log: data_thread() got not answer from any [Thunderbird_A8] datasource"
+        },
+        {
+            "role": "assistant",
+            "content": "Logging statement: logger(\"data_thread() got not answer from any [{}] datasource\", \"1514038530000\")"
+        }
+    ]
+}

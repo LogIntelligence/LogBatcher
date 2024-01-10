@@ -5,32 +5,32 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 
 
-def evaluate(file, dataset, shot):
+def evaluate(file, dataset):
 
     df = pd.read_csv(file)
 
     # Remove invalid groundtruth event Ids
-    null_logids = df[~df['EventTemplate'].isnull()].index
-    df = df.loc[null_logids]
+    # null_logids = df[~df['EventTemplate'].isnull()].index
+    # df = df.loc[null_logids]
 
     accuracy_exact_string_matching = accuracy_score(np.array(df.EventTemplate.values, dtype='str'),
-                                                    np.array(df.LogTemplate.values, dtype='str'))
+                                                    np.array(df.Output.values, dtype='str'))
     
     # 找出不匹配的值
-    df_mismatch = df[df.EventTemplate != df.LogTemplate]
-    df_mismatch.to_csv(f'outputs\mismatch_{dataset}_{shot}shot.csv', index=False)
+    df_mismatch = df[df.EventTemplate != df.Output]
+    df_mismatch.to_csv(f'outputs/enhanced_gpt/1shot/mismatch/{dataset}.csv', index=False)
 
 
     edit_distance_result = []
     for i, j in zip(np.array(df.EventTemplate.values, dtype='str'),
-                    np.array(df.LogTemplate.values, dtype='str')):
+                    np.array(df.Output.values, dtype='str')):
         edit_distance_result.append(edit_distance(i, j))
 
     edit_distance_result_mean = np.mean(edit_distance_result)
     edit_distance_result_std = np.std(edit_distance_result)
 
     (precision, recall, f_measure, accuracy_PA) = get_accuracy(df['EventTemplate'],
-                                                               df['LogTemplate'])
+                                                               df['Output'])
 
     print(
         'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
