@@ -27,12 +27,12 @@ E25,CentOS-<*> (Kernel Module GPG key)
 E26,Changing permissions on special file <*>
 E27,colour VGA+ <*>
 E28,Compressed image found at block <*>
-E29,"connection from <*>
+E29,connection from <*>
 E30,connection lost: 'Connection closed.'
 E31,Creating Topspin <*> entries:
 E32,data_thread() got not answer from any [<*>] datasource
 E33,Detected <*> MHz processor.
-E34,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report"
+E34,Device: <*> Temperature changed <*> Celsius to <*> Celsius since last report"
 E35,DHCPACK on <*> to <*> via eth1
 E36,DHCPDISCOVER from <*> via eth1
 E37,DHCPDISCOVER from <*> via eth1: network A_net: no free leases

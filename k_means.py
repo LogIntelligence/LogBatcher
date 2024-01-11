@@ -20,8 +20,18 @@ def cluster(vectorized_logs, num_clusters):
 
 
 def get_responce(indexs, label, logs_temp):
+    length = len(indexs)
+    # if length <= 20:
+    #     # strightly parsing
+    #     pass
+    # else:
+    #     # batching parsing
+    #     pass
     template = {"template": "", "index":[]}
     print(f"cluster {label}: len={len(indexs)}")
+    if label == 0 :
+        for log in logs_temp[:20]:
+            print(log)
 
 # 读取CSV文件
 dataset = 'Proxifier'
@@ -45,5 +55,5 @@ for i, label in enumerate(labels):
     logs_label[label].append(i)
 
 for label, indexs in enumerate(logs_label):
-    logs_temp = [logs[i] for i in list]
+    logs_temp = [logs[i] for i in indexs]
     get_responce(indexs, label, logs_temp)
