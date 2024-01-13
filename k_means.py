@@ -1,3 +1,4 @@
+from collections import Counter
 import random
 import pandas as pd
 import re
@@ -7,7 +8,7 @@ from openai import OpenAI
 import openai
 import backoff
 
-api_key = "sk-ShmyeH9VjAnRuT1S55A71a9fC69640948d20F73bA634C3A5"
+api_key = "sk-KlLjOnG8myjg3Hhg5dF71699E6814e8b9753F00bB076C400"
 client = OpenAI(
     base_url="https://oneapi.xty.app/v1",  # 中转url
     api_key=api_key,                      # api_key
@@ -81,18 +82,25 @@ def get_responce(f, indexs, label, logs_temp, k):
             batch = logs_temp[i:i+k]
             templates_batch = batch_parsing(batch)
             for template in templates_batch:
-                if template not in templates:
-                    templates.append(template)
+                templates.append(template)
 
         f.write(f"---------------------------\n")
         f.write(f"cluster {label}: len={length}\n")
         print(f"cluster {label}: len={length}")
-        for template in templates:
-            f.write(f"{template}\n")
-            print(template)
+        # 使用Counter计算频率
+        freq = Counter(templates)
+        # 打印结果
+        for key, value in freq.items():
+            f.write(f"{key}: {value}\n")
+            print(f"{key}: {value}")
+        # for template in templates:
+        #     f.write(f"{template}\n")
+        #     print(template)
         f.write(f"---------------------------\n")
+
+
 # 读取CSV文件
-dataset = 'Hadoop'
+dataset = 'OpenSSH'
 df = pd.read_csv(
     f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
 logs = df['Content'].tolist()
@@ -100,7 +108,7 @@ templates = [None for _ in range(2000)]
 
 tokenized_logs = [tokenize(log) for log in logs]
 
-k = 115
+k = 43
 
 logs_label = []
 
@@ -112,7 +120,7 @@ labels = cluster(vectorize(tokenized_logs), k)
 for i, label in enumerate(labels):
     logs_label[label].append(i)
 
-f = open(f'test_Spark.txt', 'w')
+f = open(f'outputs\k_means\{dataset}.txt', 'w')
 
 for label, indexs in enumerate(logs_label):
     logs_temp = [logs[i] for i in indexs]

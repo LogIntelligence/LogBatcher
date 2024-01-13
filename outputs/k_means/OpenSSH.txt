@@ -1,0 +1,174 @@
+---------------------------
+cluster 0: len=369
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=root: 18
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root: 1
+---------------------------
+---------------------------
+cluster 1: len=368
+Failed password for root from <*> port <*> ssh2: 18
+"Failed password for root from <*> port <*> ssh2": 1
+---------------------------
+---------------------------
+cluster 2: len=413
+Received disconnect from <*>: 11: Bye Bye [preauth]: 18
+Received disconnect from <*>: <*>: Bye Bye [preauth]: 3
+---------------------------
+---------------------------
+cluster 3: len=135
+pam_unix(sshd:auth): check pass; user unknown: 7
+---------------------------
+---------------------------
+cluster 4: len=85
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!: 5
+---------------------------
+---------------------------
+cluster 5: len=19
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=66
+input_userauth_request: invalid user <*> [preauth]: 4
+---------------------------
+---------------------------
+cluster 7: len=35
+Connection closed by <*> [preauth]: 2
+---------------------------
+---------------------------
+cluster 8: len=6
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 9: len=10
+Did not receive identification string from <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=45
+error: Received disconnect from <*>: 14: No more user authentication methods available. [preauth]: 3
+---------------------------
+---------------------------
+cluster 11: len=117
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>: 3
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=<*>: 3
+---------------------------
+---------------------------
+cluster 12: len=45
+Failed password for invalid user admin from <*> port <*> ssh2: 1
+Failed password for invalid user <*> from <*> port <*> ssh2: 2
+---------------------------
+---------------------------
+cluster 13: len=7
+PAM service(sshd) ignoring max retries; <*> > 3: 1
+---------------------------
+---------------------------
+cluster 14: len=21
+Invalid user admin from <*>: 1
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=10
+PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=root: 1
+---------------------------
+---------------------------
+cluster 16: len=21
+input_userauth_request: invalid user <*> [preauth]: 1
+input_<*>_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 17: len=6
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 18: len=6
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 19: len=69
+Failed password for invalid user <*> from <*> port <*> ssh2: 4
+---------------------------
+---------------------------
+cluster 20: len=3
+---------------------------
+---------------------------
+cluster 21: len=6
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=5
+---------------------------
+---------------------------
+cluster 23: len=3
+---------------------------
+---------------------------
+cluster 24: len=5
+---------------------------
+---------------------------
+cluster 25: len=7
+Received disconnect from <*>: 11: Closed due to user request. [preauth]: 1
+---------------------------
+---------------------------
+cluster 26: len=6
+Invalid user support from <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=6
+Invalid user <*> from <*>: 1
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 28: len=9
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Invalid user <*> from <*>: 1
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 29: len=3
+---------------------------
+---------------------------
+cluster 30: len=5
+---------------------------
+---------------------------
+cluster 31: len=5
+---------------------------
+---------------------------
+cluster 32: len=6
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 33: len=6
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=41
+Invalid user <*> from <*>: 3
+---------------------------
+---------------------------
+cluster 35: len=2
+---------------------------
+---------------------------
+cluster 36: len=2
+---------------------------
+---------------------------
+cluster 37: len=6
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+input_userauth_request: invalid user <*> [preauth]: 1
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 38: len=3
+---------------------------
+---------------------------
+cluster 39: len=6
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 40: len=3
+---------------------------
+---------------------------
+cluster 41: len=3
+---------------------------
+---------------------------
+cluster 42: len=6
+Invalid user <*> from <*>: 1
+---------------------------
