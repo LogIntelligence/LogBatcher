@@ -1,3 +1,4 @@
+import random
 import pandas as pd
 import re
 from sklearn.cluster import KMeans
@@ -12,7 +13,9 @@ client = OpenAI(
     api_key=api_key,                      # api_key
 )
 
-instruction_noindex = '''You will be provided with some log messages. You should check if the giving log messages share the same template. If so, abstract variables with ‘{placeholders}’ and return the template without additional explatation, otherwise return the templates'''
+ # instruction_noindex = '''You will be provided with some log messages. You should check whether the giving log messages share the same template. If so, abstract variables with ‘{placeholders}’ and return the template without additional explatation, otherwise return 'false' only.'''
+
+instruction_noindex = '''You will be provided with some log messages. You should check whether the giving log messages share the same template. If so, abstract variables with ‘{placeholders}’ and return the template without additional explatation'''
 
 instruction2 = '''Giving some log tempaltes, the AI assistant should merge the possibly same templates'''
 
@@ -63,6 +66,7 @@ def batch_parsing(batch_logs):
 def get_responce(f, indexs, label, logs_temp, k):
     length = len(indexs)
     templates = []
+    random.shuffle(logs_temp)
 
     # get all templates
     if length <= 5:
@@ -88,7 +92,7 @@ def get_responce(f, indexs, label, logs_temp, k):
             print(template)
         f.write(f"---------------------------\n")
 # 读取CSV文件
-dataset = 'Spark'
+dataset = 'Hadoop'
 df = pd.read_csv(
     f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
 logs = df['Content'].tolist()
@@ -96,7 +100,7 @@ templates = [None for _ in range(2000)]
 
 tokenized_logs = [tokenize(log) for log in logs]
 
-k = 40
+k = 115
 
 logs_label = []
 
