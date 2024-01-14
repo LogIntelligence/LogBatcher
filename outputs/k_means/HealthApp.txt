@@ -1,0 +1,282 @@
+---------------------------
+cluster 0: len=144
+processHandleBroadcastAction action:android.intent.action.TIME_TICK: 3
+---------------------------
+---------------------------
+cluster 1: len=517
+onExtend:<*> <*> <*> <*>: 2
+onExtend:<*> <*> 0 <*>: 1
+<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=260
+onStandStepChanged <*>: 5
+---------------------------
+---------------------------
+cluster 3: len=241
+calculateAltitudeWithCache totalAltitude=<*>: 5
+---------------------------
+---------------------------
+cluster 4: len=242
+getTodayTotalDetailSteps = <*>: 5
+---------------------------
+---------------------------
+cluster 5: len=241
+calculateCaloriesWithCache totalCalories=<*>: 5
+---------------------------
+---------------------------
+cluster 6: len=136
+REPORT : <*> <*> <*> 240: 3
+---------------------------
+---------------------------
+cluster 7: len=17
+---------------------------
+---------------------------
+cluster 8: len=17
+processHandleBroadcastAction action:android.intent.action.SCREEN_ON: 1
+---------------------------
+---------------------------
+cluster 9: len=17
+onReceive action: android.intent.action.SCREEN_OFF: 1
+---------------------------
+---------------------------
+cluster 10: len=8
+getBinderPackageName packageName = <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=17
+new date =<*>, type=<*>, <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=17
+<*> sensor data: 1
+---------------------------
+---------------------------
+cluster 13: len=5
+initUserPrivacy the userPrivacy is <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=5
+initDataPrivacy the <*> switch is open, start push health data!: 1
+---------------------------
+---------------------------
+cluster 15: len=6
+getTodaySportData mStepsRecordManager=com.huawei.health.g.c@<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+ifCanSync not! no cloud version: 1
+---------------------------
+---------------------------
+cluster 17: len=5
+timeStamp back,extendReportTimeStamp=<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=5
+startSync hiSyncOption = HiSyncOption<*>,app = 1 who = 1: 1
+---------------------------
+---------------------------
+cluster 19: len=3
+startTimer start <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=5
+upLoadOneMinuteDataToEngine <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=5
+needAutoSync autoSyncSwitch is <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=5
+sendSyncFailedBroadcast: 1
+---------------------------
+---------------------------
+cluster 23: len=5
+initDataPrivacy the dataPrivacy is true: 1
+---------------------------
+---------------------------
+cluster 24: len=2
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 25: len=4
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=3
+stepSyncOrNot appSynTimes is <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=2
+checkInsertStatus <*> is enough: 1
+---------------------------
+---------------------------
+cluster 28: len=2
+insertHiHealthData() end totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=5
+initUserPrivacy the userPrivacy switch is open, start push user data!: 1
+---------------------------
+---------------------------
+cluster 30: len=2
+getAppContext() isAppValid health or wear, packageName = <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=2
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=2
+startListenerChange subscribeList = <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=2
+insertHiHealthData() size = <*>,app = 1,One Data Type = <*>,packageName = com.huawei.health,writeStatType = 0: 1
+---------------------------
+---------------------------
+cluster 34: len=2
+getTodayBasicStandardSteps= <*>: 1
+---------------------------
+---------------------------
+cluster 35: len=2
+getDiffTotalSteps= <*>##0: 1
+---------------------------
+---------------------------
+cluster 36: len=2
+startInsertSportSync first <*> steps sync,do all sync: 1
+---------------------------
+---------------------------
+cluster 37: len=2
+insertHiHealthData() checkAppType  0 appID = 1: 1
+---------------------------
+---------------------------
+cluster 38: len=2
+saveHealthDetailData() deviceID = <*>: 1
+---------------------------
+---------------------------
+cluster 39: len=2
+startInsertSportSync start auto sync,app is <*>: 1
+---------------------------
+---------------------------
+cluster 40: len=2
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+screen status <*>,think screen on: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+re<*>StepCounter: 1
+---------------------------
+---------------------------
+cluster 43: len=2
+checkInsertStatus <*> or <*> is enough: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+insert<*>() bulkSaveDetail<*> fail errorCode = <*>, errorMessage = <*>: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+<*>: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+initEnvironment: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+writeDataToDB size <*>: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+<*> result <*>: 1
+---------------------------
+---------------------------
+cluster 49: len=1
+<*>TempCacheToDB by <*>: 1
+---------------------------
+---------------------------
+cluster 50: len=1
+upload<*>ToDB() onResult  type = <*> obj=<*>: 1
+---------------------------
+---------------------------
+cluster 51: len=1
+registersensorsuccess: <*>: 1
+---------------------------
+---------------------------
+cluster 52: len=1
+<*> success: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+---------------------------
+---------------------------
+cluster 54: len=1
+InsertEvent success begin:<*> end:<*>: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+setGoalNotifiShownRecord <*> <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+InsertCallBack() <*>  type = <*> data=<*>: 1
+---------------------------
+---------------------------
+cluster 57: len=1
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*>: 1
+---------------------------
+---------------------------
+cluster 58: len=1
+<*>Notification...: 1
+---------------------------
+---------------------------
+cluster 59: len=1
+getStepCounterStatus= <*>: 1
+---------------------------
+---------------------------
+cluster 60: len=1
+tryToRecordAsBasicStepData bWrite <*>: 1
+---------------------------
+---------------------------
+cluster 61: len=1
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>: 1
+---------------------------
+---------------------------
+cluster 62: len=1
+reload : <*> restar <*>: 1
+---------------------------
+---------------------------
+cluster 63: len=1
+---------------------------
+---------------------------
+cluster 64: len=1
+---------------------------
+---------------------------
+cluster 65: len=1
+<*> failed message=<*>: 1
+---------------------------
+---------------------------
+cluster 66: len=1
+isScreenOn <*>: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+theDayChanged <*>: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 70: len=2
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>: 1
+---------------------------

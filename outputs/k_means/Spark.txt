@@ -1,146 +1,152 @@
 ---------------------------
 cluster 0: len=305
-Got assigned task <*>
+Running task <*> in stage <*> (TID <*>): 7
 ---------------------------
 ---------------------------
-cluster 1: len=375
-Times: total = <*>, boot = <*>, init = <*>, finish = <*>
-Times: total = <*>, boot = <*>, init = <*>, finish = 0/1
-Times: total = <*>, boot = <*>, init = <*>, finish = 0
+cluster 1: len=305
+Got assigned task <*>: 7
 ---------------------------
 ---------------------------
-cluster 2: len=300
-Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
-Finished task <*> in stage <*> (TID <*>). 2364 bytes result sent to driver
-Finished task <*> in stage 29.0 (TID <*>). <*> bytes result sent to driver
+cluster 2: len=375
+Times: total = <*>, boot = <*>, init = <*>, finish = <*>: 8
 ---------------------------
 ---------------------------
 cluster 3: len=257
-Found block <*>_<*> locally
-Found block <*> locally
-Found block rdd_<*>_<*> locally
-Found block <*>_<*>_<*> locally
-Found block rdd_42_<*> locally
+Found block <*> locally: 6
 ---------------------------
 ---------------------------
-cluster 4: len=32
-Block <*> stored as values in memory (estimated size <*>, free <*>)
-Block broadcast_<*> stored as values in memory (estimated size <*>, free <*>)
+cluster 4: len=300
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver: 6
 ---------------------------
 ---------------------------
-cluster 5: len=305
-Running task <*> in stage <*> (TID <*>)
-Running task <*> in stage 24.0 (TID <*>)
+cluster 5: len=80
+Block <*> stored as bytes in memory (estimated size <*>, free <*>): 2
 ---------------------------
 ---------------------------
-cluster 6: len=45
-hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:<*>+7292
-hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+cluster 6: len=75
+Partition <*> not found, computing it: 2
 ---------------------------
 ---------------------------
 cluster 7: len=37
-Reading broadcast variable <*> took <*> ms
+Reading broadcast variable <*> took <*> ms: 1
 ---------------------------
 ---------------------------
 cluster 8: len=30
-File Output Committer Algorithm version is <*>
+File Output Committer Algorithm version is <*>: 1
 ---------------------------
 ---------------------------
-cluster 9: len=75
-Partition <*>_<*> not found, computing it
-Partition <*> not found, computing it
+cluster 9: len=45
+<*>: 1
 ---------------------------
 ---------------------------
 cluster 10: len=30
-attempt_201706092018_0024_m_<*>_112<*>: Committed
-attempt_<*>_m_<*>_1155: Committed
+<*>: Committed: 1
 ---------------------------
 ---------------------------
 cluster 11: len=30
-Saved output of task '<*>' to hdfs://<*>/pjhe/test/1/_temporary/0/<*>/task_<*>
-Saved output of task '<*>' to hdfs://10.10.34.11:9000/pjhe/test/<*>/_temporary/0/task_<*>
+Saved output of task '<*>' to <*>: 1
 ---------------------------
 ---------------------------
-cluster 12: len=80
-Block <*> stored as bytes in memory (estimated size <*> B, free <*> KB)
-Block <*>_<*>_<*> stored as bytes in memory (estimated size <*> B, free <*> KB)
-Block <*> stored as bytes in memory (estimated size <*>, free <*>)
+cluster 12: len=37
+Started reading broadcast variable <*>: 1
 ---------------------------
 ---------------------------
-cluster 13: len=37
-Started reading broadcast variable <*>
+cluster 13: len=32
+Block broadcast_<*> stored as values in memory (estimated size <*>, free <*>): 1
 ---------------------------
 ---------------------------
 cluster 14: len=2
+Changing view acls to: <*>: 1
 ---------------------------
 ---------------------------
-cluster 15: len=1
+cluster 15: len=32
+Block <*>_piece0 stored as bytes in memory (estimated size <*>, free <*>): 1
 ---------------------------
 ---------------------------
-cluster 16: len=32
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size <*>, free <*>)
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size <*>, free <*> KB)
+cluster 16: len=1
+Successfully started service '<*>' on port <*>.: 1
 ---------------------------
 ---------------------------
 cluster 17: len=1
+<*> is deprecated. Instead, use <*>: 1
 ---------------------------
 ---------------------------
 cluster 18: len=1
+Registered signal handlers for [<*>]: 1
 ---------------------------
 ---------------------------
-cluster 19: len=1
+cluster 19: len=2
+SecurityManager: authentication <*>; ui acls <*>; users with view permissions: Set(<*>); users with modify permissions: Set(<*>): 1
 ---------------------------
 ---------------------------
-cluster 20: len=2
+cluster 20: len=1
+Starting executor ID <*> on host <*>: 1
 ---------------------------
 ---------------------------
 cluster 21: len=1
+Created local directory at opt/hdfs/nodemanager/usercache/<*>/appcache/application_<*>/blockmgr-<*>: 1
 ---------------------------
 ---------------------------
 cluster 22: len=1
+Connecting to driver: <*>: 1
 ---------------------------
 ---------------------------
 cluster 23: len=1
+Registered BlockManager: 1
 ---------------------------
 ---------------------------
 cluster 24: len=1
+<*> started: 1
 ---------------------------
 ---------------------------
 cluster 25: len=1
+Remoting started; listening on addresses :[<*>]: 1
 ---------------------------
 ---------------------------
 cluster 26: len=1
+<*> registered with <*>: 1
 ---------------------------
 ---------------------------
 cluster 27: len=1
+Trying to register <*>: 1
 ---------------------------
 ---------------------------
 cluster 28: len=1
+Server created on <*>: 1
 ---------------------------
 ---------------------------
 cluster 29: len=1
+<*> is deprecated. Instead, use <*>: 1
 ---------------------------
 ---------------------------
 cluster 30: len=1
+MemoryStore started with capacity <*>.: 1
 ---------------------------
 ---------------------------
-cluster 31: len=5
+cluster 31: len=1
+<*> remoting: 1
 ---------------------------
 ---------------------------
-cluster 32: len=1
+cluster 32: len=5
+Block broadcast_<*> stored as values in memory (estimated size <*>, free <*>) KB: 1
 ---------------------------
 ---------------------------
 cluster 33: len=1
+<*> is deprecated. Instead, use <*>: 1
 ---------------------------
 ---------------------------
 cluster 34: len=1
+<*> is deprecated. Instead, use <*>: 1
 ---------------------------
 ---------------------------
 cluster 35: len=1
+<*> is deprecated. Instead, use <*>: 1
 ---------------------------
 ---------------------------
 cluster 36: len=2
+Changing modify acls to: <*>: 1
 ---------------------------
 ---------------------------
 cluster 37: len=1
+Successfully started service '<*>' on port <*>.: 1
 ---------------------------

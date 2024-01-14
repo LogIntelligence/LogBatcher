@@ -1,0 +1,64 @@
+---------------------------
+cluster 0: len=311
+PacketResponder <*> for block <*> terminating: 7
+---------------------------
+---------------------------
+cluster 1: len=314
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:50010 is added to <*> size 67108864: 6
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:50010 is added to <*> size <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=292
+Receiving block <*> src: <*> dest: <*>: 1
+Receiving block blk_<*> src: <*> dest: <*>: 3
+Receiving block <*> src: <*>:<*> dest: /<*>:50010: 2
+---------------------------
+---------------------------
+cluster 3: len=292
+Received block <*> of size <*> from /<*>: 5
+Received block blk_<*> of size <*> from /<*>: 1
+---------------------------
+---------------------------
+cluster 4: len=263
+Deleting block blk_<*> file mnt/hadoop/dfs/data/current/subdir<*>/blk_<*>: 3
+Deleting block <*> file mnt/hadoop/dfs/data/current/<*>/blk_<*>: 3
+---------------------------
+---------------------------
+cluster 5: len=224
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>: 5
+---------------------------
+---------------------------
+cluster 6: len=80
+<*> exception while serving <*> to /<*>: <*>: 1
+<*> exception while serving <*> to /<*>:: 1
+---------------------------
+---------------------------
+cluster 7: len=80
+<*>:50010 Served block blk_<*> to /<*>: 1
+<*> Served block <*> to /<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=115
+BLOCK* NameSystem.allocateBlock: user/root/<*>/_temporary/_task_<*>_<*>_<*>_<*>/part-<*>. blk_<*>: 2
+BLOCK* NameSystem.allocateBlock: user/root/<*>/_temporary/_task_<*>_m_<*>_0/part-<*>. blk_<*>: 1
+---------------------------
+---------------------------
+cluster 9: len=20
+Verification succeeded for blk_<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=5
+BLOCK* ask <*> to delete  <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=1
+<*> Starting thread to transfer block <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=2
+Received block <*> src: <*> dest: <*> of size <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=1
+BLOCK* ask <*> to replicate <*> to datanode(s) <*>: 1
+---------------------------

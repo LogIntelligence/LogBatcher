@@ -1,0 +1,1399 @@
+---------------------------
+cluster 0: len=9
+tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.434 error <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=45
+com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.: 1
+---------------------------
+---------------------------
+cluster 2: len=56
+AppleCamIn::systemWakeCall - messageType = <*>: 2
+---------------------------
+---------------------------
+cluster 3: len=29
+Sandbox: com.apple.Addres(<*>) deny(1) network-outbound /private/var/run/mDNSResponder: 1
+---------------------------
+---------------------------
+cluster 4: len=15
+nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=20
+CCFile::captureLog Received Capture notice id: <*>, reason = <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=71
+Cocoa scripting error for '<*>': four character codes must be four characters long.: 2
+---------------------------
+---------------------------
+cluster 7: len=32
+ARPT: <*>: wl0: MDNS: IPV6 Addr: <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=39
+Thermal pressure state: <*> Memory pressure state: <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=17
+FA||Url||taskID[<*>] dealloc: 1
+---------------------------
+---------------------------
+cluster 10: len=20
+Location icon should now be in state '<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=20
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=44
+dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=31
+CCFile::captureLogRun Skipping current file Dir file [<*>, Current File [<*>: 1
+---------------------------
+---------------------------
+cluster 14: len=12
+SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo=<*>: 1
+---------------------------
+---------------------------
+cluster 15: len=16
+__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=23
+<<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification: 1
+---------------------------
+---------------------------
+cluster 17: len=9
+ARPT: <*>: ARPT: Wake Reason: <*>: 1
+---------------------------
+---------------------------
+cluster 18: len=14
+KeychainGetICDPStatus: keychain: <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=18
+tcp_connection_handle_connect_conditions_bad <*> failed: <*> - <*> - No network route: 1
+---------------------------
+---------------------------
+cluster 20: len=20
+en0: channel changed to <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=13
+Error returned from iconservicesagent: (null): 1
+---------------------------
+---------------------------
+cluster 22: len=17
+CCFile::captureLog: 1
+---------------------------
+---------------------------
+cluster 23: len=20
+button report: <*>: 1
+---------------------------
+---------------------------
+cluster 24: len=36
+IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>: 1
+---------------------------
+---------------------------
+cluster 25: len=15
+AppleCamIn::handleWakeEvent_gated: 1
+---------------------------
+---------------------------
+cluster 26: len=21
+CCFile::copyFile fileName is [<*>, source path:<*>, dest <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=22
+CCFile::captureLogRun() Exiting CCFile::captureLogRun: 1
+---------------------------
+---------------------------
+cluster 28: len=16
+ARPT: <*>: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]: 1
+---------------------------
+---------------------------
+cluster 29: len=20
+AppleCamIn::wakeEventHandlerThread: 1
+---------------------------
+---------------------------
+cluster 30: len=17
+NETWORK: requery, 0, 0, 0, 0, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=20
+-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*>>.: 1
+---------------------------
+---------------------------
+cluster 32: len=2
+ARPT: <*>: IOPMPowerSource Information: onWake,  SleepType: <*>,  'ExternalConnected': <*>, 'TimeRemaining': <*>,: 1
+---------------------------
+---------------------------
+cluster 33: len=8
+ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: 4096: 1
+---------------------------
+---------------------------
+cluster 34: len=26
+send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out.: 1
+---------------------------
+---------------------------
+cluster 35: len=4
+Captive: CNPluginHandler <*>: Evaluating: 1
+---------------------------
+---------------------------
+cluster 36: len=3
+Path not allowed in target domain: type = <*>, path = <*>, error = 147: <*>, origin = <*>: 1
+---------------------------
+---------------------------
+cluster 37: len=22
+AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds: 1
+---------------------------
+---------------------------
+cluster 38: len=4
+[hh:mm:ss.sss] itemasync_CopyProperty signalled err=-12785 (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/Player/FigPlayer_Async.c line 2092: 1
+---------------------------
+---------------------------
+cluster 39: len=12
+USBMSC Identifier (non-unique): <*> 0x<*> 0x<*> 0x<*>, <*>: 1
+---------------------------
+---------------------------
+cluster 40: len=7
+AirPort: Link Down on <*>. Reason <*> (Unspecified).: 1
+---------------------------
+---------------------------
+cluster 41: len=11
+RTC: PowerByCalendarDate setting ignored: 1
+---------------------------
+---------------------------
+cluster 42: len=4
+mDNS_RegisterInterface: Frequent transitions for interface <*> (<*>): 1
+---------------------------
+---------------------------
+cluster 43: len=8
+<*> : BTLE scanner Powered On: 1
+---------------------------
+---------------------------
+cluster 44: len=17
+ARPT: <*>: AirPort_Brcm43xx::powerChange: System Sleep: 1
+---------------------------
+---------------------------
+cluster 45: len=9
+ASL Sender Statistics: 1
+---------------------------
+---------------------------
+cluster 46: len=17
+-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.: 1
+---------------------------
+---------------------------
+cluster 47: len=5
+SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> "query missing class name" (paramErr: error in user parameter list) UserInfo=<*>: 1
+---------------------------
+---------------------------
+cluster 48: len=11
+ARPT: <*>: wl0: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*>: 1
+---------------------------
+---------------------------
+cluster 49: len=9
+PM response took <*> ms (54, powerd): 1
+---------------------------
+---------------------------
+cluster 50: len=9
+in6_unlink_ifa: IPv6 address 0x<*> has no prefix: 1
+---------------------------
+---------------------------
+cluster 51: len=9
+CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions: 1
+---------------------------
+---------------------------
+cluster 52: len=9
+-[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID): 1
+---------------------------
+---------------------------
+cluster 53: len=8
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: <*> (0x01): 1
+---------------------------
+---------------------------
+cluster 54: len=29
+com.apple.Addres(<*>) deny network-outbound /private/var/run/mDNSResponder: 1
+---------------------------
+---------------------------
+cluster 55: len=15
+Previous sleep cause: <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=10
+<*>_getSysMsgList: 1
+---------------------------
+---------------------------
+cluster 57: len=10
+__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 58: len=7
+<*> : Scanning mode Contacts Only: 1
+---------------------------
+---------------------------
+cluster 59: len=10
+<*>: 1
+---------------------------
+---------------------------
+cluster 60: len=15
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL: 1
+---------------------------
+---------------------------
+cluster 61: len=4
+en0: Supported channels <*>: 1
+---------------------------
+---------------------------
+cluster 62: len=11
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true): 1
+---------------------------
+---------------------------
+cluster 63: len=7
+Setting BTCoex Config: enable_2G:<*>, profile_2g:<*>, enable_5G:<*>, profile_5G:<*>: 1
+---------------------------
+---------------------------
+cluster 64: len=13
+dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:<*> Err:-1 Errno:1 Operation not permitted: 1
+---------------------------
+---------------------------
+cluster 65: len=10
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*>: 1
+---------------------------
+---------------------------
+cluster 66: len=14
+-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=<*> confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319): 1
+---------------------------
+---------------------------
+cluster 67: len=12
+ARPT: <*>: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]: 1
+---------------------------
+---------------------------
+cluster 68: len=7
+CCIOReporterFormatter::addRegistryChildToChannelDictionary streams 7: 1
+---------------------------
+---------------------------
+cluster 69: len=15
+Received Capture Event: 1
+---------------------------
+---------------------------
+cluster 70: len=3
+**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x<*> ****: 1
+---------------------------
+---------------------------
+cluster 71: len=7
+network changed: <*> <*> DNS! Proxy SMB: 1
+---------------------------
+---------------------------
+cluster 72: len=12
+ARPT: <*>: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake: 1
+---------------------------
+---------------------------
+cluster 73: len=8
+ARPT: <*>: wl0: setup_keepalive: Remote IP: <*>: 1
+---------------------------
+---------------------------
+cluster 74: len=15
+AppleThunderboltNHIType2::prePCIWake - power up complete - took <*> us: 1
+---------------------------
+---------------------------
+cluster 75: len=5
+[com.apple.calendar.store.log.caldav.coredav] [Refusing to parse response to PROPPATCH because of content-type: [<*>].]: 1
+---------------------------
+---------------------------
+cluster 76: len=11
+Bluetooth -- LE is supported - Disable LE meta event: 1
+---------------------------
+---------------------------
+cluster 77: len=2
+<*>: 802.11d country code set to '<*>'.: 1
+---------------------------
+---------------------------
+cluster 78: len=8
+Unrecognized attribute value: t:<*>: 1
+---------------------------
+---------------------------
+cluster 79: len=11
+[<*>] FigAgglomeratorSetObjectForKey signalled err=<*> (<*>) (NULL key) at <*> line <*>: 1
+---------------------------
+---------------------------
+cluster 80: len=11
+AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = <*>: 1
+---------------------------
+---------------------------
+cluster 81: len=7
+ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*>: 1
+---------------------------
+---------------------------
+cluster 82: len=5
+setting hostname to "<*>": 1
+---------------------------
+---------------------------
+cluster 83: len=9
+ARPT: <*>: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.: 1
+---------------------------
+---------------------------
+cluster 84: len=4
+pages <*>, wire <*>, act <*>, inact <*>, cleaned <*> spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*>: 1
+---------------------------
+---------------------------
+cluster 85: len=6
+doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[<*>] - <*>: 1
+---------------------------
+---------------------------
+cluster 86: len=12
+ARPT: <*>: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]: 1
+---------------------------
+---------------------------
+cluster 87: len=10
+en0::IO80211Interface::postMessage bssid changed: 1
+---------------------------
+---------------------------
+cluster 88: len=5
+<IMMacNotificationCenterManager: <*>>:    NC Disabled: NO: 1
+---------------------------
+---------------------------
+cluster 89: len=35
+`com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.`: 1
+---------------------------
+---------------------------
+cluster 90: len=1
+[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}: 1
+---------------------------
+---------------------------
+cluster 91: len=16
+en0: BSSID changed to <*>: 1
+---------------------------
+---------------------------
+cluster 92: len=3
+[HID] [MT] AppleMultitouchDevice::willTerminate entered: 1
+---------------------------
+---------------------------
+cluster 93: len=4
+ARPT: <TIMESTAMP>: wl0: Roamed or switched channel, reason #<*>, bssid <*>, last RSSI <*>: 1
+---------------------------
+---------------------------
+cluster 94: len=8
+ARPT: <*>: framerdy 0x0 bmccmd 3 framecnt 1024: 1
+---------------------------
+---------------------------
+cluster 95: len=3
+Sandbox: QQ(<*>) deny(<*>) mach-lookup com.apple.networking.captivenetworksupport: 1
+---------------------------
+---------------------------
+cluster 96: len=4
+ASSERTION FAILED: dvcAddrRef != ((void *)0) -[DriverServices getDeviceAddress:] line: 2789: 1
+---------------------------
+---------------------------
+cluster 97: len=13
+AirPort: Link Up on <*>: 1
+---------------------------
+---------------------------
+cluster 98: len=8
+KeychainGetICDPStatus: status: <*>: 1
+---------------------------
+---------------------------
+cluster 99: len=3
+device_generate_desktop_screenshot: authw <*>(2000), shield <*>(2001): 1
+---------------------------
+---------------------------
+cluster 100: len=32
+com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.: 1
+---------------------------
+---------------------------
+cluster 101: len=3
+<<<< CRABS >>>> crabsFlumeHostAvailable: [0x<*>] Byte flume reports host available again.: 1
+---------------------------
+---------------------------
+cluster 102: len=5
+-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 103: len=8
+ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*>: 1
+---------------------------
+---------------------------
+cluster 104: len=2
+2017-07-06 14:57:16.667 <*>] [lvl=<*>] -[KSAgentApp(KeystoneDelegate) <*>] Keystone finished: errors=<*>: 1
+---------------------------
+---------------------------
+cluster 105: len=9
+ARPT: <*>: wl0: MDNS: <*> SRV Recs, <*> TXT Recs: 1
+---------------------------
+---------------------------
+cluster 106: len=4
+-[SOAPParser:0x<*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid): 1
+---------------------------
+---------------------------
+cluster 107: len=2
+\[lvl=\d\] -\[KSOutOfProcessFetcher beginFetchWithDelegate:\] KSOutOfProcessFetcher start fetch from URL: "<*>": 1
+---------------------------
+---------------------------
+cluster 108: len=4
+<*>(0): 1
+---------------------------
+---------------------------
+cluster 109: len=4
+Captive: CNPluginHandler <*>: Inactive: 1
+---------------------------
+---------------------------
+cluster 110: len=3
+tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: [50] Network is down: 1
+---------------------------
+---------------------------
+cluster 111: len=5
+Wake reason: RTC (Alarm): 1
+---------------------------
+---------------------------
+cluster 112: len=19
+com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.: 1
+---------------------------
+---------------------------
+cluster 113: len=24
+com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.: 1
+---------------------------
+---------------------------
+cluster 114: len=3
+network changed: <*> Proxy: 1
+---------------------------
+---------------------------
+cluster 115: len=7
+ARPT: <*>: AQM agg results 0x8001 len hi/lo: 0x0 0x<*> BAbitmap(0-3) 0 0 0 0: 1
+---------------------------
+---------------------------
+cluster 116: len=6
+AppleThunderboltNHIType2::waitForOk2Go2Sx - intel_rp = <*> dlla_reporting_supported = <*>: 1
+---------------------------
+---------------------------
+cluster 117: len=7
+Captive: CNPluginHandler <*>: Authenticated: 1
+---------------------------
+---------------------------
+cluster 118: len=2
+CCLogTap::profileRemoved, Owner: <*>, Name: <*>: 1
+---------------------------
+---------------------------
+cluster 119: len=17
+Location icon should now be in state '<*>: 1
+---------------------------
+---------------------------
+cluster 120: len=2
+ChromeExistion main isUndetectWithCommand = <*>: 1
+---------------------------
+---------------------------
+cluster 121: len=10
+com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.: 1
+---------------------------
+---------------------------
+cluster 122: len=6
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Original Seq: <*>, Ack: <*>, Win size: <*>: 1
+---------------------------
+---------------------------
+cluster 123: len=6
+ARPT: <*>: wlc_dump_aggfifo:: 1
+---------------------------
+---------------------------
+cluster 124: len=3
+<*> <*>] [lvl=<*>] -[<*> <*>] <*> for URL: "<*>": 1
+---------------------------
+---------------------------
+cluster 125: len=5
+RTC: Maintenance <*> <*>, sleep <*> <*>: 1
+---------------------------
+---------------------------
+cluster 126: len=3
+<*> is not powered on: 1
+---------------------------
+---------------------------
+cluster 127: len=4
+TBT W (2): 0x0040 [x]: 1
+---------------------------
+---------------------------
+cluster 128: len=4
+ARPT: <*>: wl0: setup_keepalive: Local IP: <*>: 1
+---------------------------
+---------------------------
+cluster 129: len=3
+CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake: 1
+---------------------------
+---------------------------
+cluster 130: len=2
+<*> : BTLE scanning started: 1
+---------------------------
+---------------------------
+cluster 131: len=6
+ARPT: <*>: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  'ExternalConnected': No, 'TimeRemaining': <*>,: 1
+---------------------------
+---------------------------
+cluster 132: len=2
+**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = <*> -- 0x<*> ****: 1
+---------------------------
+---------------------------
+cluster 133: len=1
+FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> secs. to complete, <*> reads >= <*> sec.: 1
+---------------------------
+---------------------------
+cluster 134: len=4
+\<*> | \<*> | \<*>  | <*>             | close video chat. llFriendUIN = \<*>.: 1
+---------------------------
+---------------------------
+cluster 135: len=1
+<*> <*>] [lvl=<*>] -[KSAgentApp <*> Checking for updates for "<*>" using engine <*>: 1
+---------------------------
+---------------------------
+cluster 136: len=3
+"<*> ksfetch[<*>/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin.": 1
+---------------------------
+---------------------------
+cluster 137: len=4
+NETWORK: no response from server, reachability, 2, queryRetries, <*>: 1
+---------------------------
+---------------------------
+cluster 138: len=4
+[<*>] Failed to read DnsConfig.: 1
+---------------------------
+---------------------------
+cluster 139: len=5
+AirPort: Link Down on <*>. Reason 8 (Disassociated because station leaving).: 1
+---------------------------
+---------------------------
+cluster 140: len=2
+hibernate_setup(0) took <*> ms: 1
+---------------------------
+---------------------------
+cluster 141: len=3
+DB Error: 1 "no such table: <*>": 1
+---------------------------
+---------------------------
+cluster 142: len=4
+Saw change in network reachability (isReachable=<*>): 1
+---------------------------
+---------------------------
+cluster 143: len=5
+sigio_handler: sigio_handler_active != <*>: 1
+---------------------------
+---------------------------
+cluster 144: len=2
+CCXPCService::setStreamEventHandler Registered for notification callback.: 1
+---------------------------
+---------------------------
+cluster 145: len=3
+[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>>] to failed operations.]: 1
+---------------------------
+---------------------------
+cluster 146: len=3
+Wake reason: <*> (Network): 1
+---------------------------
+---------------------------
+cluster 147: len=3
+Service "<*>" tried to hijack endpoint "<*>" from owner: <*>: 1
+---------------------------
+---------------------------
+cluster 148: len=2
+hibernate_page_list_setall found pageCount <*>: 1
+---------------------------
+---------------------------
+cluster 149: len=3
+polled file major 1, minor 0, blocksize 4096, pollers 5: 1
+---------------------------
+---------------------------
+cluster 150: len=5
+mDNS_DeregisterInterface: Frequent transitions for interface <*> (<*>): 1
+---------------------------
+---------------------------
+cluster 151: len=3
+Captive: [CNInfoNetworkActive:1748] en0: SSID '<*>' making interface primary (cache indicates network not captive): 1
+---------------------------
+---------------------------
+cluster 152: len=3
+network changed: <*> DNS- Proxy-: 1
+---------------------------
+---------------------------
+cluster 153: len=2
+could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>: 1
+---------------------------
+---------------------------
+cluster 154: len=1
+<IMMacNotificationCenterManager: 0x<*>>:   DND Enabled: <*>: 1
+---------------------------
+---------------------------
+cluster 155: len=2
+hibernate_machine_init pagesDone <*>, sum2 <*>, time: <*> ms, disk(0x20000) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s: 1
+---------------------------
+---------------------------
+cluster 156: len=3
+assertion failed: <*>: <*> + <*> [<*>]: <*>: 1
+---------------------------
+---------------------------
+cluster 157: len=4
+<<<< IQ-CA >>>> piqca_setUsePreQueue: (<*>) rejecting report of layer being serviced - IQ has not yet begun to update: 1
+---------------------------
+---------------------------
+cluster 158: len=1
+[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}: 1
+---------------------------
+---------------------------
+cluster 159: len=2
+Session <*> destroyed: 1
+---------------------------
+---------------------------
+cluster 160: len=6
+QQ(10018) deny mach-lookup <*>: 1
+---------------------------
+---------------------------
+cluster 161: len=2
+hibernate_teardown_pmap_structs done: last_valid_compact_indx <*>: 1
+---------------------------
+---------------------------
+cluster 162: len=2
+[<*>] [<*>] [Error] <*> Could not make a string from out connection notification key: 1
+---------------------------
+---------------------------
+cluster 163: len=3
+wake time set <*> s: 1
+---------------------------
+---------------------------
+cluster 164: len=2
+<*> exit: 1
+---------------------------
+---------------------------
+cluster 165: len=3
+IOPMrootDomain: idle cancel, state 1: 1
+---------------------------
+---------------------------
+cluster 166: len=2
+hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*>: 1
+---------------------------
+---------------------------
+cluster 167: len=2
+2017-07-?? ??:??:??.??? ksfetch[?????/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: ??????> <*> }) to folder:/tmp/KSOutOfProcessFetcher.<*>/download: 1
+---------------------------
+---------------------------
+cluster 168: len=2
+Page bounds <*> <*>}: 1
+---------------------------
+---------------------------
+cluster 169: len=2
+[BluetoothHIDDeviceController]ERROR: Could not find the <*> object: 1
+---------------------------
+---------------------------
+cluster 170: len=2
+<*> : Discoverable mode changed to Off: 1
+---------------------------
+---------------------------
+cluster 171: len=2
+CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data: 1
+---------------------------
+---------------------------
+cluster 172: len=1
+the url = <*>: 1
+---------------------------
+---------------------------
+cluster 173: len=2
+hibernate image path: <*>: 1
+---------------------------
+---------------------------
+cluster 174: len=2
+Unrecognized XSSimpleTypeDefinition: <*>: 1
+---------------------------
+---------------------------
+cluster 175: len=3
+device_generate_lock_screen_screenshot: authw <*>, <*>, <*>, <*>] shield <*>, dev [<*>]: 1
+---------------------------
+---------------------------
+cluster 176: len=1
+mv_ValidateRFC4281CodecId: Unrecognized codec <*>. Failed codec specific check.: 1
+---------------------------
+---------------------------
+cluster 177: len=1
+Opened file <*>, size <*>, extents <*>, maxio <*> ssd <*>: 1
+---------------------------
+---------------------------
+cluster 178: len=2
+Unexpected payload found for message <*>, dataLen <*>: 1
+---------------------------
+---------------------------
+cluster 179: len=5
+[HH:mm:ss.SSS] itemasync_SetProperty signalled err=-12785 (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/Player/FigPlayer_Async.c line 2306: 1
+---------------------------
+---------------------------
+cluster 180: len=2
+efi pagecount <*>: 1
+---------------------------
+---------------------------
+cluster 181: len=2
+<*> : Purged contact hashes: 1
+---------------------------
+---------------------------
+cluster 182: len=2
+Unable to start NetBIOS name service:: 1
+---------------------------
+---------------------------
+cluster 183: len=2
+Starting AirDrop server for user <*> on wake: 1
+---------------------------
+---------------------------
+cluster 184: len=1
+Failed to connect <*> outlet from <*> to <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 185: len=2
+2017-??-?? ??:??:??.??? GoogleSoftwareUpdateAgent[?????/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.: 1
+---------------------------
+---------------------------
+cluster 186: len=2
+Wake reason: <*>: 1
+---------------------------
+---------------------------
+cluster 187: len=2
+Unable to simultaneously satisfy constraints: ( "<NSLayoutConstraint:<*> H:[NSImageView:<*>(38)]>", "<NSLayoutConstraint:<*> H:|-(14)-[NSImageView:<*>]   (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(73)]   (Names: PageItemCell:<*> )>", "<NSLayoutConstraint:<*> <*>, "<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(14)-|   (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> <*> )  Will attempt to recover by breaking constraint <NSLayoutConstraint:<*> H:[NSImageView:<*>(38)]>  Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens.  And/or, break on objc_exception_throw to catch this in the debugger.: 1
+---------------------------
+---------------------------
+cluster 188: len=1
+VDCAssistant: Found a camera (<*>), but was not able to start it up (<*> -- (<*>)): 1
+---------------------------
+---------------------------
+cluster 189: len=1
+Invalidating <*>.: 1
+---------------------------
+---------------------------
+cluster 190: len=2
+<*>: <*>: 1
+---------------------------
+---------------------------
+cluster 191: len=2
+<*>_machine_init reading: 1
+---------------------------
+---------------------------
+cluster 192: len=2
+bitmap_size <*>, previewSize <*>, writing <*> pages @ <*>: 1
+---------------------------
+---------------------------
+cluster 193: len=1
+CoreAnimation: timed out fence <*>: 1
+---------------------------
+---------------------------
+cluster 194: len=2
+[BluetoothHIDDeviceController] <*>: 1
+---------------------------
+---------------------------
+cluster 195: len=1
+<*> is deprecated for <*>. Please use <*>.: 1
+---------------------------
+---------------------------
+cluster 196: len=1
+full wake request (reason <*>) <*> ms: 1
+---------------------------
+---------------------------
+cluster 197: len=4
+<*> : BTLE scanner Powered Off: 1
+---------------------------
+---------------------------
+cluster 198: len=2
+<*> : BTLE scanning stopped: 1
+---------------------------
+---------------------------
+cluster 199: len=2
+[Accounts] Failed to update account with identifier <*>, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)": 1
+---------------------------
+---------------------------
+cluster 200: len=1
+[<*>] <*> Calling <*>() outside of <*>.: 1
+---------------------------
+---------------------------
+cluster 201: len=2
+<<<< CRABS >>>> crabsFlumeHostUnavailable: [0x7f961cf08cf0] Byte flume reports host unavailable.: 1
+---------------------------
+---------------------------
+cluster 202: len=2
+hibernate_newruntime_map time: <*> ms, <*>(), <*> <*>: 1
+---------------------------
+---------------------------
+cluster 203: len=1
+<*> <*>] [lvl=<*>] -[<*> <*>] <*> for ticket(s): <*> Using server: <*>: 1
+---------------------------
+---------------------------
+cluster 204: len=1
+<*>: <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 205: len=2
+[Accounts] Current connection, <NSXPCConnection: <*>> connection from pid <*>, doesn't have account access.: 1
+---------------------------
+---------------------------
+cluster 206: len=1
+<*> : Started generating hashes: 1
+---------------------------
+---------------------------
+cluster 207: len=2
+BuildActDeviceEntry enter: 1
+---------------------------
+---------------------------
+cluster 208: len=2
+INIT -- <*> controller is <*>: 1
+---------------------------
+---------------------------
+cluster 209: len=2
+ARPT: <*>: ARPT: Wake Reason: Wake on TCP Timeout: 1
+---------------------------
+---------------------------
+cluster 210: len=1
+<*> completed - took <*> msecs: 1
+---------------------------
+---------------------------
+cluster 211: len=1
+[IOBluetoothFamily][<*>] -- Received Bluetooth Controller register service notification -- 0x<*>: 1
+---------------------------
+---------------------------
+cluster 212: len=1
+Configuration Notice: ASL Module "<*>" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.: 1
+---------------------------
+---------------------------
+cluster 213: len=2
+WARNING: hibernate_page_list_setall skipped <*> xpmapped pages: 1
+---------------------------
+---------------------------
+cluster 214: len=1
+network changed: <*> DNS+ Proxy+ SMB: 1
+---------------------------
+---------------------------
+cluster 215: len=1
+objc[<PID>]: Class <ClassName> is implemented in both <Path1> and <Path2>. One of the two will be used. Which one is undefined.: 1
+---------------------------
+---------------------------
+cluster 216: len=1
+hibernate_page_list_setall(preflight <*>) start: 1
+---------------------------
+---------------------------
+cluster 217: len=1
+CCProfileMonitor::<*>: 1
+---------------------------
+---------------------------
+cluster 218: len=1
+[QL] No sandbox token for request <<*>>, it will probably fail: 1
+---------------------------
+---------------------------
+cluster 219: len=1
+schedule invalidation <<*> 0x<*>, error: <*> (<*>)>: 1
+---------------------------
+---------------------------
+cluster 220: len=1
+[IOBluetoothFamily][<*>] -- Connected to the transport successfully -- <*> -- <*> -- <*> ****: 1
+---------------------------
+---------------------------
+cluster 221: len=1
+<*> did not resolve to internal address!: 1
+---------------------------
+---------------------------
+cluster 222: len=1
+<*> <*>] [lvl=<*>] <*> <*>: 1
+---------------------------
+---------------------------
+cluster 223: len=1
+host connection <NSXPCConnection: 0x<*>> connection from pid <*> invalidated: 1
+---------------------------
+---------------------------
+cluster 224: len=1
+Google Chrome He[PID] triggered unnest of range <*> of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits.: 1
+---------------------------
+---------------------------
+cluster 225: len=7
+ARPT: <*>: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  'ExternalConnected': <*>, 'TimeRemaining': <*>,: 1
+---------------------------
+---------------------------
+cluster 226: len=1
+---------------------------
+---------------------------
+cluster 227: len=2
+hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages: 1
+---------------------------
+---------------------------
+cluster 228: len=1
+YYYY-MM-DD HH:MM:SS.SSS <*>] [lvl=<*>] <*>() <*>: 1
+---------------------------
+---------------------------
+cluster 229: len=1
+hibernate_machine_init: state <*>, image pages <*>, sum was <*>, imageSize <*>, image1Size <*>, conflictCount <*>, nextFree <*>: 1
+---------------------------
+---------------------------
+cluster 230: len=1
+CCDataTap::profileRemoved, Owner: <*>, Name: <*>: 1
+---------------------------
+---------------------------
+cluster 231: len=1
+Arranged view frame: <*> <*>}: 1
+---------------------------
+---------------------------
+cluster 232: len=1
+Got an <*> error: <*>: 1
+---------------------------
+---------------------------
+cluster 233: len=1
+Error in <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 234: len=1
+<IMMacNotificationCenterManager: <*>>: Updating enabled: <*>   (Topics: <*>): 1
+---------------------------
+---------------------------
+cluster 235: len=1
+<*> <*>] [lvl=<*>] -[<*>] <*>: 1
+---------------------------
+---------------------------
+cluster 236: len=1
+enabling pid=<*> for plug-in <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 237: len=1
+<*> <*> <*> <*> [lvl=<*>] +[<*> <*> <*>] <*>: 1
+---------------------------
+---------------------------
+cluster 238: len=1
+<*> <*>] [lvl=<*>] -[<*> <*>] <*> <*> launched '<*>' with process id: <*>: 1
+---------------------------
+---------------------------
+cluster 239: len=1
+DB Path: <*>: 1
+---------------------------
+---------------------------
+cluster 240: len=1
+<*> [AirPlayUIAgent] <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 241: len=1
+[<*>] <*>: 1
+---------------------------
+---------------------------
+cluster 242: len=1
+WARNING: <*> font data isn't in the correct format required by the <*> Font Format specification.: 1
+---------------------------
+---------------------------
+cluster 243: len=1
+Wake reason: <*> (<*>): 1
+---------------------------
+---------------------------
+cluster 244: len=1
+Error in <*>: 1
+---------------------------
+---------------------------
+cluster 245: len=1
+[<*>] (<*>) signalled err=<*>: 1
+---------------------------
+---------------------------
+cluster 246: len=1
+hibernate_teardown: wired_pages <*>, free_pages <*>, active_pages <*>, inactive_pages <*>, speculative_pages <*>, cleaned_pages <*>, compressor_pages <*>: 1
+---------------------------
+---------------------------
+cluster 247: len=1
+<*>: manual intervention required!: 1
+---------------------------
+---------------------------
+cluster 248: len=1
+<*> time: <*> ms: 1
+---------------------------
+---------------------------
+cluster 249: len=1
+Failed to stop a scan - <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 250: len=1
+no application identifier provided, can't use provisioning profiles [pid=<*>]: 1
+---------------------------
+---------------------------
+cluster 251: len=1
+tcp_connection_<*>_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert: 1
+---------------------------
+---------------------------
+cluster 252: len=1
+[com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=<*> "<*>" UserInfo=<*>, CalDAVErrFromRefresh=<*>, CoreDAVHTTPHeaders=<CFBasicHash <*> [<*>, entries => 0 : Connection = <CFString <*> [<*> 3 : Content-Type = <*> 4 : Content-Length = <*> 5 : Server = <*> 6 : Date = <CFString <*> [<*> } }]: 1
+---------------------------
+---------------------------
+cluster 253: len=1
+<IMMacNotificationCenterManager: <*>>: Updating enabled: <*>   (Topics: <*>): 1
+---------------------------
+---------------------------
+cluster 254: len=1
+[<*>::setConfigState] calling <*>: 1
+---------------------------
+---------------------------
+cluster 255: len=1
+<*>::start Entered: 1
+---------------------------
+---------------------------
+cluster 256: len=1
+yyyy-mm-dd hh:mm:ss.sss <*>] [lvl=<*>] <*> <*>.: 1
+---------------------------
+---------------------------
+cluster 257: len=1
+<*> (<*> - <*>) - <*>: 1
+---------------------------
+---------------------------
+cluster 258: len=1
+Service exited with abnormal code: <*>: 1
+---------------------------
+---------------------------
+cluster 259: len=1
+Could not get event name for stream/token: <*>: <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 260: len=1
+<*> <*>: 1
+---------------------------
+---------------------------
+cluster 261: len=1
+Checking iCDP status for DSID <*> (checkWithServer=<*>): 1
+---------------------------
+---------------------------
+cluster 262: len=1
+network_reachability_changed : network is not reachable, <*> is shutting down: 1
+---------------------------
+---------------------------
+cluster 263: len=1
+<*> connection invalidated!: 1
+---------------------------
+---------------------------
+cluster 264: len=1
+<*> started: 1
+---------------------------
+---------------------------
+cluster 265: len=1
+payload Data <*> <*>: 1
+---------------------------
+---------------------------
+cluster 266: len=1
+<*> Asked to exit for <*>: 1
+---------------------------
+---------------------------
+cluster 267: len=1
+<*> warning for argument '<*>' of command '<*>' in suite '<*>': '<*>' is not a valid type name.: 1
+---------------------------
+---------------------------
+cluster 268: len=1
+<IMMacNotificationCenterManager: <*>>: notification observer: <*>   notification: __CFNotification <*>: 1
+---------------------------
+---------------------------
+cluster 269: len=1
+<<<< <*> >>>> <*>: [<*>] Wait time out - <*> (<*> <*>): 1
+---------------------------
+---------------------------
+cluster 270: len=1
+<*> <*> [<*>] [lvl=<*>] -[KSOmahaServer <*>] <*>: 1
+---------------------------
+---------------------------
+cluster 271: len=1
+<*> terminated: 1
+---------------------------
+---------------------------
+cluster 272: len=1
+<*> ERROR: <*>: <*> (<*> <*>); mMajorChangePending=<*>: 1
+---------------------------
+---------------------------
+cluster 273: len=1
+<*>::stop Entered: 1
+---------------------------
+---------------------------
+cluster 274: len=1
+Configuration Notice: ASL Module "<*>" sharing output destination "<*>" with ASL Module "<*>". Output parameters from ASL Module "<*>" override any specified in ASL Module "<*>".: 1
+---------------------------
+---------------------------
+cluster 275: len=1
+booter start at <*> ms smc <*> ms, [<*>] total <*> ms, dsply <*>, tramp <*> ms: 1
+---------------------------
+---------------------------
+cluster 276: len=1
+<*> <*>] [lvl=<*>] <*> <*>] <*>: 1
+---------------------------
+---------------------------
+cluster 277: len=2
+<IMMacNotificationCenterManager: <*>>:   DND Enabled: <*>: 1
+---------------------------
+---------------------------
+cluster 278: len=1
+<*> completed - discarded <*>: 1
+---------------------------
+---------------------------
+cluster 279: len=1
+<*>::stop Entered: 1
+---------------------------
+---------------------------
+cluster 280: len=1
+<*>::freeResources done: 1
+---------------------------
+---------------------------
+cluster 281: len=1
+**** [<*>] -- Delay HCI Reset by <*>ms  ****: 1
+---------------------------
+---------------------------
+cluster 282: len=1
+CoreAnimation: warning, deleted thread with uncommitted <*>; set CA_DEBUG_TRANSACTIONS=1 in environment to log backtraces.: 1
+---------------------------
+---------------------------
+cluster 283: len=1
+<*>Online; <*> devices? <*>: 1
+---------------------------
+---------------------------
+cluster 284: len=1
+NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, <*>): 1
+---------------------------
+---------------------------
+cluster 285: len=1
+hostControllerOnline - Number of PajsonOfPaired devices = <*>, List of Paired devices = ( "<*>" ): 1
+---------------------------
+---------------------------
+cluster 286: len=1
+-[<*>(ServiceReplyProtocol) notifyChanges:<*> toListWithIdentifier:<*>] Notified of item changes to list with identifier <*>: 1
+---------------------------
+---------------------------
+cluster 287: len=1
+<*> SSLHandshake failed (<*>): 1
+---------------------------
+---------------------------
+cluster 288: len=1
+BTLE discovered device with hash <<*>>: 1
+---------------------------
+---------------------------
+cluster 289: len=1
+<*> <*> [<*>] [lvl=<*>] -[<*> <*>] <*>: 1
+---------------------------
+---------------------------
+cluster 290: len=1
+nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [x86_64] libnetcore-<*> 0   libsystem_network.dylib             0x<*> __nw_create_backtrace_string + <*> 1   libsystem_network.dylib             0x<*> nw_path_evaluator_start_helper_connection + <*> 2   libdispatch.dylib                   0x<*> _dispatch_call_block_and_release + <*> 3   libdispatch.dylib                   0x<*> _dispatch_client_callout + <*> 4   libdispatch.dylib                   0x<*> _dispatch_queue_drain + <*> 5   libdispatch.dylib                   0x<*> _dispatch_queue_invoke + <*> 6   libdispatch.dylib                   0x<*> _dispatch_root_queue_drain + <*> 7   libdispatch.dylib                   0x<*> _dispatch_worker_thread3 + <*> 8   libsystem_pthread.dylib             0x<*> _pthread_wqthread + <*> 9   libsystem_pthread.dylib             0x<*> start_wqthread + <*>: 1
+---------------------------
+---------------------------
+cluster 291: len=1
+<*> CSI to go <*>.: 1
+---------------------------
+---------------------------
+cluster 292: len=1
+handle_will_sleep_auth_and_shield_windows: Reordering authw <*> (lock state: <*>): 1
+---------------------------
+---------------------------
+cluster 293: len=1
+<*>: message service is terminated: 1
+---------------------------
+---------------------------
+cluster 294: len=1
+[TIME] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=<*> (kFigMediaValidatorError_<*>) (video codec <*>) at  line <*>: 1
+---------------------------
+---------------------------
+cluster 295: len=1
+after trim url = <*>: 1
+---------------------------
+---------------------------
+cluster 296: len=1
+Sandbox: <*>(9854) deny(1) file-read-data <*>: 1
+---------------------------
+---------------------------
+cluster 297: len=2
+setting hostname to "calvisitor-<*>.calvisitor.1918.berkeley.edu": 1
+---------------------------
+---------------------------
+cluster 298: len=1
+extension <*> -> <*>: 1
+---------------------------
+---------------------------
+cluster 299: len=1
+ChromeExistion main strSendMsg = <*>: 1
+---------------------------
+---------------------------
+cluster 300: len=1
+<*> failed, <*> (<*>): 1
+---------------------------
+---------------------------
+cluster 301: len=1
+<*>: <*> took <*>: 1
+---------------------------
+---------------------------
+cluster 302: len=1
+[com.apple.calendar.store.log.caldav.queue] [Account <*> timed out when executing operation: <<*>>]: 1
+---------------------------
+---------------------------
+cluster 303: len=1
+Session <*> created: 1
+---------------------------
+---------------------------
+cluster 304: len=3
+en0: 802.11d country code set to '<*>'.: 1
+---------------------------
+---------------------------
+cluster 305: len=1
+<*> done: last_valid_compact_indx <*>: 1
+---------------------------
+---------------------------
+cluster 306: len=1
+Sandbox: <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 307: len=1
+2017-07-07 10:54:41.875 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): <*> productID=<*> version=<*> xc=<KSPathExistenceChecker:<*> path=<*>> serverType=Omaha url=<*> creationDate=<*> tagPath=<*> tagKey=KSChannelID brandPath=<*> brandKey=KSBrandID versionPath=<*> versionKey=KSVersion cohort=<*> cohortName=<*> ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*>> >: 1
+---------------------------
+---------------------------
+cluster 308: len=4
+securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo=<*>: 1
+---------------------------
+---------------------------
+cluster 309: len=1
+Unable to simultaneously satisfy constraints: (<*>, <*>, <*>, <*>, <*>)  Will attempt to recover by breaking constraint <*>  Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens.  And/or, break on objc_exception_throw to catch this in the debugger.: 1
+---------------------------
+---------------------------
+cluster 310: len=2
+Opened file /var/log/SleepWakeStacks.bin, size <*>, extents <*>, maxio <*> ssd <*>: 1
+---------------------------
+---------------------------
+cluster 311: len=1
+url host = <*>: 1
+---------------------------
+---------------------------
+cluster 312: len=1
+<*> took <*> ms: 1
+---------------------------
+---------------------------
+cluster 313: len=1
+<*> : Finished generating hashes: 1
+---------------------------
+---------------------------
+cluster 314: len=2
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- 0x5fd0 -- 0x9a00 -- <*> ****: 1
+---------------------------
+---------------------------
+cluster 315: len=1
+<*> is deprecated for <*>. Please use <*>.: 1
+---------------------------
+---------------------------
+cluster 316: len=1
+PM response took <*> ms (<*>, <*>): 1
+---------------------------
+---------------------------
+cluster 317: len=1
+<<<< <*> >>>> <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 318: len=3
+ARPT: <*>: IOPMPowerSource Information: onWake,  SleepType: <*>,  'ExternalConnected': <*>, 'TimeRemaining': <*>,: 1
+---------------------------
+---------------------------
+cluster 319: len=1
+<*> completed - took <*> msecs: 1
+---------------------------
+---------------------------
+cluster 320: len=5
+Path not allowed in target domain: type = <*>, path = <*>, error = <*>: The specified service did not ship in the requestor's bundle, origin = <*>: 1
+---------------------------
+---------------------------
+cluster 321: len=1
+[<*>] [<*>] AppleMultitouchDevice::start entered: 1
+---------------------------
+---------------------------
+cluster 322: len=1
+CCDataTap::profileRemoved, Owner: <*>, Name: <*>: 1
+---------------------------
+---------------------------
+cluster 323: len=1
+[<*>] [<*>] <*>::start <*>: 1
+---------------------------
+---------------------------
+cluster 324: len=1
+network changed: <*> <*> DNS Proxy SMB: 1
+---------------------------
+---------------------------
+cluster 325: len=1
+Failed to connect (<*>) outlet from (<*>) to (<*>): <*>: 1
+---------------------------
+---------------------------
+cluster 326: len=1
+PM response took <*> ms (<*>, <*>): 1
+---------------------------
+---------------------------
+cluster 327: len=1
+<*> is not powered on: 1
+---------------------------
+---------------------------
+cluster 328: len=1
+<*> <*>] [lvl=<*>] <*> <*>] <*>: 1
+---------------------------
+---------------------------
+cluster 329: len=1
+IOPolledFilePollersOpen(<*>) <*> ms: 1
+---------------------------
+---------------------------
+cluster 330: len=1
+<*> <*>] [lvl=<*>] -[KSOutOfProcessFetcher <*> <*>:] <*> fetching from URL: "<*>": 1
+---------------------------
+---------------------------
+cluster 331: len=1
+full wake promotion (<*>) <*> ms: 1
+---------------------------
+---------------------------
+cluster 332: len=1
+tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: [<*>] <*>: 1
+---------------------------
+---------------------------
+cluster 333: len=1
+<*> <*> <*> [<*>] -[<*> <*>] <*>: 1
+---------------------------
+---------------------------
+cluster 334: len=4
+-[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID): 1
+---------------------------
+---------------------------
+cluster 335: len=1
+<*>::profileRemoved, Owner: <*>, Name: <*>: 1
+---------------------------
+---------------------------
+cluster 336: len=1
+ARPT: <*>: IOPMPowerSource Information: <*>,  SleepType: <*>,  'ExternalConnected': <*>, 'TimeRemaining': <*>,: 1
+---------------------------
+---------------------------
+cluster 337: len=3
+Path not allowed in target domain: type = <*>, path = <*>, error = <*>: <*>, origin = <*>: 1
+---------------------------
+---------------------------
+cluster 338: len=2
+<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> sec. to complete, <*> reads >= <*> sec.: 1
+---------------------------
+---------------------------
+cluster 339: len=3
+Path not allowed in target domain: type = <*>, path = <*>, error = <*>: <*>, origin = <*>: 1
+---------------------------
+---------------------------
+cluster 340: len=1
+did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>: 1
+---------------------------
+---------------------------
+cluster 341: len=2
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=<*>}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}: 1
+---------------------------
+---------------------------
+cluster 342: len=1
+network changed: DNS <*>: 1
+---------------------------
+---------------------------
+cluster 343: len=1
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 "<*>" UserInfo=<*>" UserInfo=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=<*>}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=<*>}: 1
+---------------------------
+---------------------------
+cluster 344: len=1
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}: 1
+---------------------------
+---------------------------
+cluster 345: len=1
+PBRequester failed with Error <*> UserInfo=<*> UserInfo=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}: 1
+---------------------------
+---------------------------
+cluster 346: len=1
+objc[<*>]: Class <*> is implemented in both <*> and <*>. One of the two will be used. Which one is undefined.: 1
+---------------------------
+---------------------------
+cluster 347: len=1
+<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.: 1
+---------------------------
+---------------------------
+cluster 348: len=1
+type = <*>, path = <*> error = <*>: The specified service did not ship in the requestor's bundle, origin = <*>: 1
+---------------------------
+---------------------------
+cluster 349: len=1
+Configuration Notice: ASL Module "<*>" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.: 1
+---------------------------

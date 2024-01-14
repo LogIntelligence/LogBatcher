@@ -1,724 +1,773 @@
 ---------------------------
-cluster 0: len=413
-Received disconnect from <*>: 11: Bye Bye [preauth]: 8
-Received disconnect from <*>: <*>: Bye Bye [preauth]: 1
+cluster 0: len=5
+L2 cache: <*>K: 1
 ---------------------------
 ---------------------------
-cluster 1: len=369
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=root: 6
-pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>  user=root: 1
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root: 1
+cluster 1: len=819
+data_thread() got not answer from any [Thunderbird_<*>] datasource: 17
 ---------------------------
 ---------------------------
-cluster 2: len=368
-Failed password for root from <*> port <*> ssh2: 7
-"Failed password for root from <*> port <*> ssh2": 1
+cluster 2: len=568
+synchronized to <*>, stratum <*>: 5
+synchronized to <*>, stratum 3: 7
 ---------------------------
 ---------------------------
-cluster 3: len=135
-pam_unix(sshd:auth): check pass; user unknown: 3
+cluster 3: len=62
+[<*>:1455]: No topology change: 1
+<*>: No topology change: 1
 ---------------------------
 ---------------------------
-cluster 4: len=21
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 4: len=34
+Warning: we failed to resolve data source name <*>: 1
 ---------------------------
 ---------------------------
-cluster 5: len=83
-reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!: 2
+cluster 5: len=24
+session closed for user <*>: 1
 ---------------------------
 ---------------------------
-cluster 6: len=45
-error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]: 1
+cluster 6: len=62
+[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************: 2
 ---------------------------
 ---------------------------
-cluster 7: len=21
-Invalid user admin from <*>: 1
+cluster 7: len=1
+PCI Interrupt Link [<*>] (IRQs <*>): 1
 ---------------------------
 ---------------------------
-cluster 8: len=44
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 8: len=10
+jA9J1WSU011176: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: <*>: 1
 ---------------------------
 ---------------------------
-cluster 9: len=34
-Connection closed by <*> [preauth]: 1
+cluster 9: len=62
+"[ib_sm_sweep.c:1482]: No configuration change required": 1
+[ib_sm_sweep.c:1482]: No configuration change required: 1
 ---------------------------
 ---------------------------
-cluster 10: len=110
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>: 3
+cluster 10: len=2
+RRD_update (/var/lib/ganglia/rrds/C Nodes/<*>/pkts_out.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step): 1
 ---------------------------
 ---------------------------
-cluster 11: len=10
-Did not receive identification string from <*>: 1
+cluster 11: len=15
+DHCPDISCOVER from <*> via <*>: network <*>: no free leases: 1
 ---------------------------
 ---------------------------
-cluster 12: len=7
-Received disconnect from <*>: 11: Closed due to user request. [preauth]: 1
+cluster 12: len=14
+(root) CMD (run-parts /etc/cron.hourly): 1
 ---------------------------
 ---------------------------
-cluster 13: len=5
-Failed password for <*> from <*> port <*> ssh2: 1
+cluster 13: len=10
+from=root, size=<*>, class=0, nrcpts=1, msgid=<<*>>, relay=#7#@localhost: 1
 ---------------------------
 ---------------------------
-cluster 14: len=15
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 14: len=9
+DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.: 1
 ---------------------------
 ---------------------------
-cluster 15: len=7
-PAM service(sshd) ignoring max retries; <*> > 3: 1
+cluster 15: len=1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
-cluster 16: len=6
-PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>: 1
+cluster 16: len=11
+PCI interrupt <*>[A] -> GSI <*> (level, low) -> IRQ <*>: 1
 ---------------------------
 ---------------------------
-cluster 17: len=13
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 17: len=10
+unable to qualify my own domain name (<*>) -- using short name: 1
 ---------------------------
 ---------------------------
-cluster 18: len=5
-Invalid user <*> from <*>: 1
+cluster 18: len=4
+Processor [CPU<*>] (supports C1): 1
 ---------------------------
 ---------------------------
-cluster 19: len=15
-Invalid user <*> from <*>: 1
+cluster 19: len=2
+removing echo: 1
 ---------------------------
 ---------------------------
-cluster 20: len=2
-Disconnecting: Too many authentication failures for <*> [preauth]: 1
+cluster 20: len=5
+DHCPOFFER on <*> to <*> via <*>: 1
 ---------------------------
 ---------------------------
 cluster 21: len=6
-Invalid user <*> from <*>: 1
+Wait for ready failed before probe !: 1
 ---------------------------
 ---------------------------
-cluster 22: len=2
-[ Failed password for root from <*> port <*> ssh2]: 1
+cluster 22: len=10
+PCI Interrupt Routing Table [\_SB_.PCI0.<*>._PRT]: 1
 ---------------------------
 ---------------------------
-cluster 23: len=2
-Invalid user <*> from <*>: 1
+cluster 23: len=5
+Registered protocol family <*>: 1
 ---------------------------
 ---------------------------
-cluster 24: len=5
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=uucp: 1
+cluster 24: len=1
+MCFG (v001 <*> <*> <*> <*> <*> <*>) @ <*>: 1
 ---------------------------
 ---------------------------
-cluster 25: len=1
-pam_unix(sshd:session): session closed for user <*>: 1
+cluster 25: len=5
+My unqualified host name (<*>) unknown; sleeping for retry: 1
 ---------------------------
 ---------------------------
-cluster 26: len=6
-Invalid user support from <*>: 1
+cluster 26: len=4
+LAPIC (acpi_id[<*>] lapic_id[<*>] enabled): 1
 ---------------------------
 ---------------------------
-cluster 27: len=3
-Failed password for git from <*> port <*> ssh2: 1
+cluster 27: len=4
+(C) <*> Netfilter core team: 1
 ---------------------------
 ---------------------------
-cluster 28: len=6
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 28: len=1
+<*> startup succeeded: 1
 ---------------------------
 ---------------------------
-cluster 29: len=6
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 29: len=2
+allocating divert_blk for <*>: 1
 ---------------------------
 ---------------------------
 cluster 30: len=3
-Invalid user <*> from <*>: 1
+IOAPIC (id[<*>] address[<*>] gsi_base[<*>]): 1
 ---------------------------
 ---------------------------
-cluster 31: len=6
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 31: len=1
+MegaRAID Model: <*> RAID<*> <*> Rev: <*>: 1
 ---------------------------
 ---------------------------
 cluster 32: len=3
-input_userauth_request: invalid user <*> [preauth]: 1
+connection lost: '<*>: 1
 ---------------------------
 ---------------------------
 cluster 33: len=2
-error: Received disconnect from <*>: <*>: <*> [preauth]: 1
+<*> ...: 1
 ---------------------------
 ---------------------------
-cluster 34: len=6
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 34: len=19
+session opened for user <*> by (uid=<*>): 1
 ---------------------------
 ---------------------------
-cluster 35: len=3
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 35: len=2
+User <*>, coming from <*>, authenticated.: 1
 ---------------------------
 ---------------------------
-cluster 36: len=5
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 36: len=2
+removing time: 1
 ---------------------------
 ---------------------------
-cluster 37: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 37: len=3
+DHCPACK on <*> to <*> via <*>: 1
 ---------------------------
 ---------------------------
-cluster 38: len=5
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 38: len=1
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*> level): 1
 ---------------------------
 ---------------------------
 cluster 39: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+Autodetecting RAID arrays.: 1
 ---------------------------
 ---------------------------
-cluster 40: len=3
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 40: len=1
+<*> at <*>.: 1
 ---------------------------
 ---------------------------
-cluster 41: len=3
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=ftp: 1
+cluster 41: len=5
+DHCPDISCOVER from <*> via <*>: 1
 ---------------------------
 ---------------------------
 cluster 42: len=3
-Invalid user <*> from <*>: 1
+IRQ<*> used by override.: 1
 ---------------------------
 ---------------------------
-cluster 43: len=2
-Invalid user <*> from <*>: 1
+cluster 43: len=4
+LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]): 1
 ---------------------------
 ---------------------------
-cluster 44: len=3
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 44: len=5
+Physical Processor ID: <*>: 1
 ---------------------------
 ---------------------------
-cluster 45: len=2
-Failed password for sshd from <*> port <*> ssh2: 1
+cluster 45: len=1
+Direct-Access <*> SCSI revision: <*>: 1
 ---------------------------
 ---------------------------
 cluster 46: len=2
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=sshd: 1
+<*>: e1000_probe: <*> Network Connection: 1
 ---------------------------
 ---------------------------
-cluster 47: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 47: len=1
+registered new driver <*>: 1
 ---------------------------
 ---------------------------
 cluster 48: len=3
-Failed password for ftp from <*> port <*> ssh2: 1
+apic_id <*>, version <*>, address <*>, GSI <*>: 1
 ---------------------------
 ---------------------------
 cluster 49: len=2
-Failed password for mysql from <*> port <*> ssh2: 1
 ---------------------------
 ---------------------------
 cluster 50: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+probe new device <*>: bus <*>:slot <*>:func 0: 1
 ---------------------------
 ---------------------------
-cluster 51: len=3
-Failed none for invalid user <*> from <*> port <*> ssh2: 1
+cluster 51: len=5
+Trace cache: <*> uops, L1 D cache: <*>: 1
 ---------------------------
 ---------------------------
-cluster 52: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 52: len=2
+removing <*>: 1
 ---------------------------
 ---------------------------
-cluster 53: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 53: len=1
+PCI Interrupt Link [LNKH] (IRQs <*>) *<*>, disabled.: 1
 ---------------------------
 ---------------------------
-cluster 54: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 54: len=1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
-cluster 55: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 55: len=1
+kernel time sync enabled <*>: 1
 ---------------------------
 ---------------------------
 cluster 56: len=3
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=git: 1
+<*>: Connection closed.: 1
 ---------------------------
 ---------------------------
-cluster 57: len=3
-Invalid user <*> from <*>: 1
+cluster 57: len=1
+fw version:[<*>] bios version:[<*>]: 1
 ---------------------------
 ---------------------------
 cluster 58: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Using <*> MHz HPET timer.: 1
 ---------------------------
 ---------------------------
 cluster 59: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+(<*>) CMD (<*> <*>): 1
 ---------------------------
 ---------------------------
-cluster 60: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+cluster 60: len=2
+<*>: 1
 ---------------------------
 ---------------------------
 cluster 61: len=1
-Received disconnect from <*>: <*>: <*>: 1
 ---------------------------
 ---------------------------
-cluster 62: len=3
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 62: len=1
+Using <*> for IRQ routing: 1
 ---------------------------
 ---------------------------
-cluster 63: len=2
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+cluster 63: len=1
+Server listening on <*> port <*>.: 1
 ---------------------------
 ---------------------------
-cluster 64: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 64: len=2
+Now running on <*>'s privileges.: 1
 ---------------------------
 ---------------------------
-cluster 65: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 65: len=1
+time reset +<*> s: 1
 ---------------------------
 ---------------------------
 cluster 66: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Registering <*> hooks: 1
 ---------------------------
 ---------------------------
-cluster 67: len=1
-fatal: Write failed: <*> [preauth]: 1
+cluster 67: len=3
+mounted filesystem with ordered data mode.: 1
 ---------------------------
 ---------------------------
-cluster 68: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 68: len=1
+Unknown cmd fd(<*>) cmd(<*>) arg(<*>) on <*>: 1
 ---------------------------
 ---------------------------
 cluster 69: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+RSDP (v<*> <*> ) @ <*>: 1
 ---------------------------
 ---------------------------
-cluster 70: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 70: len=8
+RRD_update (/var/lib/ganglia/rrds/D Nodes/dn<*>/pkts_out.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step): 1
 ---------------------------
 ---------------------------
-cluster 71: len=3
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 71: len=1
+<*> at <*> irq <*>: 1
 ---------------------------
 ---------------------------
-cluster 72: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 72: len=3
+DHCPREQUEST for <*> (<*>) from <*> via <*>: 1
 ---------------------------
 ---------------------------
 cluster 73: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+<*> NFS filesystems: <*>: 1
 ---------------------------
 ---------------------------
 cluster 74: len=2
-pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=<*>: 1
+connection from "<*>": 1
 ---------------------------
 ---------------------------
 cluster 75: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Power Button (<*>) [<*>]: 1
 ---------------------------
 ---------------------------
 cluster 76: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Assuming <*> system bus speed for PIO modes; override with idebus=<*>: 1
 ---------------------------
 ---------------------------
 cluster 77: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+CentOS-<*> (Kernel Module GPG key): 1
 ---------------------------
 ---------------------------
-cluster 78: len=2
-Invalid user <*> from <*>: 1
+cluster 78: len=1
+Using MMCONFIG at <*>: 1
 ---------------------------
 ---------------------------
 cluster 79: len=1
-Invalid user boot from <*>: 1
+<*> not detected: 1
 ---------------------------
 ---------------------------
 cluster 80: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Probing PCI hardware (bus <*>): 1
 ---------------------------
 ---------------------------
-cluster 81: len=1
-Accepted password for <*> from <*> port <*> ssh2: 1
+cluster 81: len=2
+removing chargen: 1
 ---------------------------
 ---------------------------
 cluster 82: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Mounted root (<*> filesystem).: 1
 ---------------------------
 ---------------------------
 cluster 83: len=1
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+<*> printer: 1
 ---------------------------
 ---------------------------
 cluster 84: len=1
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+Using software <*> buffering for <*> (<*>): 1
 ---------------------------
 ---------------------------
 cluster 85: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Local APIC address <*>: 1
 ---------------------------
 ---------------------------
 cluster 86: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+I'm sorry, but in order to assist you, I'll need more information or context. Could you please provide me with the log messages you'd like me to compare?: 1
 ---------------------------
 ---------------------------
 cluster 87: len=1
-Invalid user <*> from <*>: 1
+<*> kshell: 1
 ---------------------------
 ---------------------------
 cluster 88: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+PCI Hot Plug PCI Core version: <*>: 1
 ---------------------------
 ---------------------------
 cluster 89: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Version <*> Starting: 1
 ---------------------------
 ---------------------------
-cluster 90: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 90: len=1
 ---------------------------
 ---------------------------
 cluster 91: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+Intel(R) Xeon(TM) CPU <*> stepping <*>: 1
 ---------------------------
 ---------------------------
 cluster 92: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+error: Bind to port <*> on <*> failed: <*>: 1
 ---------------------------
 ---------------------------
 cluster 93: len=1
-Invalid user <*> from <*>: 1
+Received SNMP packet(s) from #<*>#: 1
 ---------------------------
 ---------------------------
 cluster 94: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+probe of <*> failed with error <*>: 1
 ---------------------------
 ---------------------------
-cluster 95: len=2
-Invalid user <*> from <*>: 1
+cluster 95: len=1
+Compressed image found at block <*>: 1
 ---------------------------
 ---------------------------
 cluster 96: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Disk quotas <*>: 1
 ---------------------------
 ---------------------------
-cluster 97: len=2
-Invalid user <*> from <*>: 1
+cluster 97: len=1
+<*> controllers found: 1
 ---------------------------
 ---------------------------
 cluster 98: len=1
-Invalid user <*> from <*>: 1
+Cannot open file <*> for writing (No such file or directory): 1
 ---------------------------
 ---------------------------
-cluster 99: len=2
-Invalid user <*> from <*>: 1
+cluster 99: len=1
+root=LABEL=<*> initrd=<*> console=<*> console=<*> fastboot BOOT_IMAGE=<*>: 1
 ---------------------------
 ---------------------------
-cluster 100: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 100: len=1
+sys_ia32.c,v <*> <*> <*> <*> Exp $: 1
 ---------------------------
 ---------------------------
-cluster 101: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 101: len=1
+#ID# (Release Date: <*> <*> <*> <*> <*> <*>): 1
 ---------------------------
 ---------------------------
-cluster 102: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 102: len=1
+routing cache hash table of <*> buckets, <*>bytes: 1
 ---------------------------
 ---------------------------
 cluster 103: len=1
-Invalid user <*> from <*>: 1
+Creating <*> /<*> entries:: 1
 ---------------------------
 ---------------------------
-cluster 104: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 104: len=1
+syslog-ng version <*> starting: 1
 ---------------------------
 ---------------------------
-cluster 105: len=2
-Invalid user <*> from <*>: 1
+cluster 105: len=1
+<*>.: 1
 ---------------------------
 ---------------------------
 cluster 106: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+v<*>:USB HID core driver: 1
 ---------------------------
 ---------------------------
 cluster 107: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+not allocating divert_blk for non-ethernet device <*>: 1
 ---------------------------
 ---------------------------
-cluster 108: len=2
-Invalid user <*> from <*>: 1
+cluster 108: len=1
 ---------------------------
 ---------------------------
 cluster 109: len=1
-Invalid user <*> from <*>: 1
+Registering <*> module capability: 1
 ---------------------------
 ---------------------------
-cluster 110: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 110: len=1
+initializing netlink socket (<*>): 1
 ---------------------------
 ---------------------------
 cluster 111: len=1
-Invalid user <*> from <*>: 1
+PS/2 <*> common for all <*>: 1
 ---------------------------
 ---------------------------
-cluster 112: len=2
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 112: len=1
+scanning scsi channel <*> [virtual] for logical drives: 1
 ---------------------------
 ---------------------------
 cluster 113: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+<*> VGA+ 80x25: 1
 ---------------------------
 ---------------------------
 cluster 114: len=1
-Invalid user <*> from <*>: 1
+<*> <*> driver: 1
 ---------------------------
 ---------------------------
 cluster 115: len=1
-Invalid user <*> from <*>: 1
+Using configuration type <*>: 1
 ---------------------------
 ---------------------------
 cluster 116: len=1
-Invalid user Management from <*>: 1
+<*>: 1
 ---------------------------
 ---------------------------
 cluster 117: len=1
-Invalid user <*> from <*>: 1
+asking for <*> failed: 1
 ---------------------------
 ---------------------------
-cluster 118: len=2
-reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!: 1
+cluster 118: len=1
+Hash tables configured (established <*> bind <*>): 1
 ---------------------------
 ---------------------------
-cluster 119: len=2
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 119: len=1
+assuming drive cache: <*>: 1
 ---------------------------
 ---------------------------
 cluster 120: len=1
-Invalid user <*> from <*>: 1
+Using <*> based timekeeping.: 1
 ---------------------------
 ---------------------------
 cluster 121: len=1
-Invalid user <*> from <*>: 1
+PCI Root Bridge [PCI0] (<*>): 1
 ---------------------------
 ---------------------------
 cluster 122: len=1
-Invalid user <*> from <*>: 1
+<*> enabled: 1
 ---------------------------
 ---------------------------
-cluster 123: len=2
-PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>: 1
+cluster 123: len=1
+scanning scsi channel <*> [Phy <*>] for non-raid devices: 1
 ---------------------------
 ---------------------------
 cluster 124: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Installing <*>: 1
 ---------------------------
 ---------------------------
 cluster 125: len=1
-Invalid user <*> from <*>: 1
+md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>: 1
 ---------------------------
 ---------------------------
 cluster 126: len=1
-Invalid user api from <*>: 1
+PE/PV Model: <*> SCSI BP Rev: <*>: 1
 ---------------------------
 ---------------------------
 cluster 127: len=1
-Invalid user <*> from <*>: 1
+<*> ( <*> ) initialised: <*>: 1
 ---------------------------
 ---------------------------
 cluster 128: len=1
-Invalid user <*> from <*>: 1
+Changing permissions on special file <*>: 1
 ---------------------------
 ---------------------------
 cluster 129: len=1
-Invalid user <*> from <*>: 1
+Starting in <*> mode: 1
 ---------------------------
 ---------------------------
 cluster 130: len=1
-Invalid user error from <*>: 1
+Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report: 1
 ---------------------------
 ---------------------------
 cluster 131: len=1
-Invalid user <*> from <*>: 1
+Subsystem revision <*>: 1
 ---------------------------
 ---------------------------
 cluster 132: len=1
-Invalid user <*> from <*>: 1
+<*> ts_fixup: <*>: 1
 ---------------------------
 ---------------------------
 cluster 133: len=1
-Invalid user <*> from <*>: 1
+#<log_number#>-rh1 (Release Date: <*> <*> <*> <*> EST <*>): 1
 ---------------------------
 ---------------------------
 cluster 134: len=1
-Invalid user <*> from <*>: 1
+<*> started with <*> compiled in.: 1
 ---------------------------
 ---------------------------
 cluster 135: len=1
-Invalid user default from <*>: 1
 ---------------------------
 ---------------------------
 cluster 136: len=1
-Invalid user <*> from <*>: 1
+Transparent bridge - <*>: 1
 ---------------------------
 ---------------------------
 cluster 137: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+<*>: <*> available service: 1
 ---------------------------
 ---------------------------
 cluster 138: len=1
-Invalid user <*> from <*>: 1
+No logging message to compare.: 1
 ---------------------------
 ---------------------------
 cluster 139: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Using <*> for interrupt routing: 1
 ---------------------------
 ---------------------------
 cluster 140: len=1
-Invalid user <*> from <*>: 1
+START: tftp pid=<*> from=<*>: 1
 ---------------------------
 ---------------------------
 cluster 141: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
 ---------------------------
 ---------------------------
 cluster 142: len=1
-input_<*>_request: invalid user <*> [<*>]: 1
+Mounting <*> filesystems: <*>: 1
 ---------------------------
 ---------------------------
 cluster 143: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+HPET id: <*> base: <*>: 1
 ---------------------------
 ---------------------------
-cluster 144: len=1
-Invalid user <*> from <*>: 1
+cluster 144: len=2
+... autorun <*>.: 1
 ---------------------------
 ---------------------------
 cluster 145: len=1
-Invalid user <*> from <*>: 1
+<*> startup <*>: 1
 ---------------------------
 ---------------------------
 cluster 146: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+<*> startup succeeded: 1
 ---------------------------
 ---------------------------
 cluster 147: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Detected <*> MHz processor.: 1
 ---------------------------
 ---------------------------
 cluster 148: len=1
-Invalid user <*> from <*>: 1
+Unregistering <*> hooks: 1
 ---------------------------
 ---------------------------
 cluster 149: len=1
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+(root) CMD (<*> <*> <*>): 1
 ---------------------------
 ---------------------------
 cluster 150: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+<*>: <*>: NIC Link is Up <*> Mbps <*> Duplex: 1
 ---------------------------
 ---------------------------
 cluster 151: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+<*> startup succeeded: 1
 ---------------------------
 ---------------------------
 cluster 152: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+<*> startup <*>: 1
 ---------------------------
 ---------------------------
 cluster 153: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+(root) CMD (<*> get_temps <*>): 1
 ---------------------------
 ---------------------------
 cluster 154: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Warning: we failed to resolve trusted host name <*> <*>: 1
 ---------------------------
 ---------------------------
 cluster 155: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+PCI Interrupt Link [LNKA] (IRQs <*>) *<*>: 1
 ---------------------------
 ---------------------------
 cluster 156: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 157: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl): 1
 ---------------------------
 ---------------------------
 cluster 158: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+registered new driver <*>: 1
 ---------------------------
 ---------------------------
 cluster 159: len=1
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+PCI Interrupt Link [<*>] (IRQs <*>) *<*>: 1
 ---------------------------
 ---------------------------
 cluster 160: len=1
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+registered new driver <*>: 1
 ---------------------------
 ---------------------------
 cluster 161: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 162: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 163: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+HPET (v001 <*> <*> 0x<*> MSFT 0x<*>) @ 0x<*>: 1
 ---------------------------
 ---------------------------
 cluster 164: len=1
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+(<*>) CMD (<*>): 1
 ---------------------------
 ---------------------------
 cluster 165: len=1
-Failed password for invalid user <*> from <*> port <*> <*>: 1
+(root) CMD (/projects/<*>/temps/get_temps <*>): 1
 ---------------------------
 ---------------------------
 cluster 166: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+registered new <*> hub: 1
 ---------------------------
 ---------------------------
 cluster 167: len=1
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 168: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 169: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 170: len=1
-input_<*>_request: invalid user <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 171: len=1
-pam_unix(sshd:session): session opened for user <*> by (uid=<*>): 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 172: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 173: len=1
-input_userauth_request: invalid user <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
-cluster 174: len=4
-input_userauth_request: invalid user <*> [preauth]: 1
+cluster 174: len=1
+No log messages provided.: 1
 ---------------------------
 ---------------------------
-cluster 175: len=4
-Invalid user <*> from <*>: 1
+cluster 175: len=1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
-cluster 176: len=4
-Failed password for invalid user <*> from <*> port <*> ssh2: 1
+cluster 176: len=1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 177: len=1
-Failed <*> for invalid user <*> from <*> port <*> ssh2: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
-cluster 178: len=2
-PAM 5 more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=root: 1
+cluster 178: len=1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
 ---------------------------
 ---------------------------
 cluster 179: len=1
-Disconnecting: Too many authentication failures for <*> [preauth]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
+---------------------------
+---------------------------
+cluster 180: len=1
+PCI Interrupt Link [LNKG] (IRQs <*>) *<*>, <*>.: 1
+---------------------------
+---------------------------
+cluster 181: len=1
+i8042 KBD port at <*>, <*> irq <*>: 1
+---------------------------
+---------------------------
+cluster 182: len=1
+PCI Interrupt Link [LNKD] (IRQs <*>) *<*>, disabled.: 1
+---------------------------
+---------------------------
+cluster 183: len=1
+PCI Interrupt Link [<*>] (IRQs <*>) *<*>, disabled.: 1
+---------------------------
+---------------------------
+cluster 184: len=1
+kernel time sync disabled <*>: 1
+---------------------------
+---------------------------
+cluster 185: len=1
+PCI Interrupt Link [LNKE] (IRQs <*>) *<*>, disabled.: 1
+---------------------------
+---------------------------
+cluster 186: len=1
+Processor <*> revision: <*>: 1
+---------------------------
+---------------------------
+cluster 187: len=1
+MADT (<*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 188: len=1
+DSDT (v001 <*> <*> 0x00000001 <*> 0x0100000e) @ 0x0000000000000000: 1
+---------------------------
+---------------------------
+cluster 189: len=1
+FADT (v<*> <*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 190: len=1
+SPCR (v<*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 191: len=1
+RSDT (v<*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 192: len=1
+not allocating divert_blk for non-ethernet device <*>: 1
+---------------------------
+---------------------------
+cluster 193: len=1
+RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step): 1
 ---------------------------

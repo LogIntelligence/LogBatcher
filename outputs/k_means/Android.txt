@@ -1,0 +1,757 @@
+---------------------------
+cluster 0: len=1
+visible is <*> gt <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=275
+<*>: 6
+---------------------------
+---------------------------
+cluster 2: len=181
+setLightsOn(<*>): 3
+---------------------------
+---------------------------
+cluster 3: len=181
+setSystemUiVisibility vis=<*> mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0): 1
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>): 2
+setSystemUiVisibility vis=<*> mask=1 oldVal=<*> newVal=<*> diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0): 1
+---------------------------
+---------------------------
+cluster 4: len=85
+HBM brightnessIn =<*>: 2
+---------------------------
+---------------------------
+cluster 5: len=85
+HBM brightnessOut =<*>: 2
+---------------------------
+---------------------------
+cluster 6: len=52
+updateClipping isOverlap:false, getTopPadding=333.0, Translation=<*>: 1
+updateClipping isOverlap:false, getTopPadding=<*>, Translation=<*>: 1
+---------------------------
+---------------------------
+cluster 7: len=81
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output: 2
+---------------------------
+---------------------------
+cluster 8: len=69
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>: 2
+---------------------------
+---------------------------
+cluster 9: len=52
+updateDimmedActivatedHideSensitive overlap:false: 1
+updateDimmedActivatedHideSensitive overlap:<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=17
+querySoundEffectsEnabled...: 1
+---------------------------
+---------------------------
+cluster 11: len=33
+Acquiring suspend blocker "<*>".: 1
+---------------------------
+---------------------------
+cluster 12: len=85
+Animating brightness: target=<*>, rate=<*>: 2
+---------------------------
+---------------------------
+cluster 13: len=14
+Skipping, withExcluded: false, tr.intent:Intent <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=33
+Releasing suspend blocker "<*>".: 1
+---------------------------
+---------------------------
+cluster 15: len=23
+<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=14
+getRecentTasks: num=<*>,flags=62,totalTasks=46: 1
+---------------------------
+---------------------------
+cluster 17: len=12
+<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=14
+interceptKeyBeforeQueueing: key <*> , result : <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=20
+cancelPeek: <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=20
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg = <*>,id =<*>: 1
+---------------------------
+---------------------------
+cluster 21: len=15
+<*>: 1
+---------------------------
+---------------------------
+cluster 22: len=33
+shouldBlockLocation  ret:<*>: 1
+---------------------------
+---------------------------
+cluster 23: len=37
+shouldBlockLocation running ...: 1
+---------------------------
+---------------------------
+cluster 24: len=13
+updateNotificationShade: total=<*>, active=<*>: 1
+---------------------------
+---------------------------
+cluster 25: len=7
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=3
+Destroying surface Surface(name=<*>) called by <*> at <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=13
+updateClipping isOverlap:true, getTopPadding=<*>, Translation=<*>: 1
+---------------------------
+---------------------------
+cluster 28: len=8
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=WorkSource<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 29: len=7
+Skipping, withExcluded: false, tr.intent:Intent <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=37
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output: 1
+---------------------------
+---------------------------
+cluster 31: len=12
+isMusicActive...: 1
+---------------------------
+---------------------------
+cluster 32: len=9
+getLastAudibleStreamVolume  treamType: <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=13
+updateDimmedActivatedHideSensitive overlap:<*>: 1
+---------------------------
+---------------------------
+cluster 34: len=12
+<*>: 1
+---------------------------
+---------------------------
+cluster 35: len=10
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 36: len=6
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>: 1
+---------------------------
+---------------------------
+cluster 37: len=9
+<*>: 1
+---------------------------
+---------------------------
+cluster 38: len=19
+setSystemUiVisibility vis=<*> mask=ffffffff oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0): 1
+---------------------------
+---------------------------
+cluster 39: len=6
+The <*> in focus caused us to need to do a layout end: 1
+---------------------------
+---------------------------
+cluster 40: len=14
+Skipping, withExcluded: false, tr.intent:Intent <*>: 1
+---------------------------
+---------------------------
+cluster 41: len=8
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=WorkSource<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 42: len=10
+playSoundEffect   effectType: <*>: 1
+---------------------------
+---------------------------
+cluster 43: len=14
+Skipping, withExcluded: false, tr.intent:Intent <*>: 1
+---------------------------
+---------------------------
+cluster 44: len=6
+logNotificationVisibilityChanges <*> <*>: 1
+---------------------------
+---------------------------
+cluster 45: len=3
+disable: < expand <*> alerts <*> back home recent clock navigationbar search quick_settings >: 1
+---------------------------
+---------------------------
+cluster 46: len=8
+getRecentTasks: <*>: 1
+---------------------------
+---------------------------
+cluster 47: len=6
+logNotificationVisibilityChanges <*> <*>: 1
+---------------------------
+---------------------------
+cluster 48: len=6
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*>: 1
+---------------------------
+---------------------------
+cluster 49: len=10
+resumeSuspendedAutohide: 1
+---------------------------
+---------------------------
+cluster 50: len=6
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 51: len=6
+cleanUpApplicationRecord -- <*>: 1
+---------------------------
+---------------------------
+cluster 52: len=7
+release:lock=<*>, flg=0x<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 53: len=6
+updateLightsLocked,turn off notificationLight: 1
+---------------------------
+---------------------------
+cluster 54: len=14
+Destroying surface Surface(name=<*>) called by <*>: 1
+---------------------------
+---------------------------
+cluster 55: len=5
+<*> is <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=5
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>: 1
+---------------------------
+---------------------------
+cluster 57: len=6
+onNotificationVisibilityChanged called: 1
+---------------------------
+---------------------------
+cluster 58: len=5
+acquire lock=<*>, flags=<*>, tag="AudioMix", name=audioserver, ws=null, uid=1041, pid=0: 1
+---------------------------
+---------------------------
+cluster 59: len=3
+handle<*>: 1
+---------------------------
+---------------------------
+cluster 60: len=6
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>: 1
+---------------------------
+---------------------------
+cluster 61: len=4
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?<*>: 1
+---------------------------
+---------------------------
+cluster 62: len=2
+Skipping AppWindowToken<*>}} -- going to hide: 1
+---------------------------
+---------------------------
+cluster 63: len=7
+Skipping, withExcluded: false, tr.intent:Intent <*> typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }: 1
+---------------------------
+---------------------------
+cluster 64: len=3
+android.util.AndroidRuntimeException: Must execute in UI: 1
+---------------------------
+---------------------------
+cluster 65: len=4
+Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]: 1
+---------------------------
+---------------------------
+cluster 66: len=7
+Skipping, withExcluded: false, tr.intent:Intent <*> flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }: 1
+---------------------------
+---------------------------
+cluster 67: len=5
+getNeighboringCellInfo calling app is <*>: 1
+---------------------------
+---------------------------
+cluster 68: len=4
+m<*>: 1
+---------------------------
+---------------------------
+cluster 69: len=4
+shouldBlockLocation ret:<*>: 1
+---------------------------
+---------------------------
+cluster 70: len=3
+scheduleTimeTickEvent triggerAtTime = <*>: 1
+---------------------------
+---------------------------
+cluster 71: len=6
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*>: 1
+---------------------------
+---------------------------
+cluster 72: len=3
+getAllCellInfo is blocked by permission manager . callingPackage = <*>: 1
+---------------------------
+---------------------------
+cluster 73: len=4
+ActivityManagerService,attachApplication,callingPid = <*>: 1
+---------------------------
+---------------------------
+cluster 74: len=3
+Application requested orientation <*>, got rotation 0 which has compatible metrics: 1
+---------------------------
+---------------------------
+cluster 75: len=3
+getRingerMode...: 1
+---------------------------
+---------------------------
+cluster 76: len=2
+cancelNotificationLocked called,tell the app,reason = <*>: 1
+---------------------------
+---------------------------
+cluster 77: len=2
+sending alarm Alarm<*>}},repeatInterval = 0,listenerTag =null: 1
+---------------------------
+---------------------------
+cluster 78: len=3
+received broadcast <*> Android.intent.action.TIME_TICK: 1
+---------------------------
+---------------------------
+cluster 79: len=3
+Received <*> alarm; rescheduling: 1
+---------------------------
+---------------------------
+cluster 80: len=3
+<*> not in <*>.: 1
+---------------------------
+---------------------------
+cluster 81: len=1
+START u0 <*> cat=[<*>] flg=<*> cmp=<*> <*> from uid <*> on display <*>: 1
+---------------------------
+---------------------------
+cluster 82: len=7
+interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=2b000002 down true canceled false: 1
+---------------------------
+---------------------------
+cluster 83: len=1
+*** unregister callback for <*>: 1
+---------------------------
+---------------------------
+cluster 84: len=4
+getRecentTasks: <*>: 1
+---------------------------
+---------------------------
+cluster 85: len=3
+rotationForOrientationLw(orient=<*>, last=<*>); user=0 USER_ROTATION_LOCKED: 1
+---------------------------
+---------------------------
+cluster 86: len=1
+ActivityRecord info: ActivityInfo<*> <*>}, euid: <*>: 1
+---------------------------
+---------------------------
+cluster 87: len=2
+onInterceptTouchEvent MotionEvent <*>, actionButton=<*>, id[0]=<*>, x[0]=<*>, y[0]=<*>, toolType[0]=<*>, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false: 1
+---------------------------
+---------------------------
+cluster 88: len=2
+<*> called: 1
+---------------------------
+---------------------------
+cluster 89: len=3
+makeExpandedInvisible: mExpandedVisible=<*>: 1
+---------------------------
+---------------------------
+cluster 90: len=2
+<*>...: 1
+---------------------------
+---------------------------
+cluster 91: len=3
+sending alarm Alarm<*>}},repeatInterval = 0,listenerTag =time_tick: 1
+---------------------------
+---------------------------
+cluster 92: len=1
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>: 1
+---------------------------
+---------------------------
+cluster 93: len=2
+on<*>Started: 1
+---------------------------
+---------------------------
+cluster 94: len=2
+setWiredDeviceConnectionState  type: <*>  state: 0: 1
+---------------------------
+---------------------------
+cluster 95: len=2
+Sending non-protected broadcast <*> from system <*> pkg <*>: 1
+---------------------------
+---------------------------
+cluster 96: len=2
+addNotification <*>: 1
+---------------------------
+---------------------------
+cluster 97: len=2
+Marking notification as seen <*>: 1
+---------------------------
+---------------------------
+cluster 98: len=2
+onNotificationExpansionChanged called: 1
+---------------------------
+---------------------------
+cluster 99: len=1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x<*> color=0x<*> category=<*> vis=<*>: 1
+---------------------------
+---------------------------
+cluster 100: len=2
+RefreshBatteryInfo isBatteryLow: <*>: 1
+---------------------------
+---------------------------
+cluster 101: len=2
+ACTIVITY check resid: <*>, size=<*>: 1
+---------------------------
+---------------------------
+cluster 102: len=2
+onExpandingFinished: 1
+---------------------------
+---------------------------
+cluster 103: len=2
+applyOptionsLocked: Unknown animationType=<*>: 1
+---------------------------
+---------------------------
+cluster 104: len=2
+cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>: 1
+---------------------------
+---------------------------
+cluster 105: len=1
+[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>: 1
+---------------------------
+---------------------------
+cluster 106: len=1
+ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>: 1
+---------------------------
+---------------------------
+cluster 107: len=2
+getDevicesForStream  streamType: <*>: 1
+---------------------------
+---------------------------
+cluster 108: len=2
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>: 1
+---------------------------
+---------------------------
+cluster 109: len=1
+remove(PendingIntent<*> <*> <*>}}) changed bounds; rebatching: 1
+---------------------------
+---------------------------
+cluster 110: len=2
+enqueueNotificationInternal: n.getKey = <*>: 1
+---------------------------
+---------------------------
+cluster 111: len=1
+Killing <*> (adj <*>): empty for <*>s: 1
+---------------------------
+---------------------------
+cluster 112: len=2
+cancelNotificationLocked,remove =<*>: 1
+---------------------------
+---------------------------
+cluster 113: len=1
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 114: len=1
+visible is <*>: 1
+---------------------------
+---------------------------
+cluster 115: len=1
+DefaultState what=<*>: 1
+---------------------------
+---------------------------
+cluster 116: len=1
+<*>Animation <*>: 1
+---------------------------
+---------------------------
+cluster 117: len=1
+Bad activity token: <*>: 1
+---------------------------
+---------------------------
+cluster 118: len=2
+getRecentTasks: <*>: 1
+---------------------------
+---------------------------
+cluster 119: len=1
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent <*> cmp=<*> (has extras) }: 1
+---------------------------
+---------------------------
+cluster 120: len=1
+Sorry, I'll need the log messages to check for similarities.: 1
+---------------------------
+---------------------------
+cluster 121: len=1
+release:lock=<*>, flg=<*>, tag="<*>", name="<*>", ws=WorkSource<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 122: len=1
+---------------------------
+---------------------------
+cluster 123: len=1
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 124: len=1
+<*> <*> is null or empty: 1
+---------------------------
+---------------------------
+cluster 125: len=2
+ActivityRecord info: ActivityInfo<*>}}, euid: 0: 1
+---------------------------
+---------------------------
+cluster 126: len=1
+opening app wtoken = AppWindowToken<*>}}, allDrawn= <*>, startingDisplayed =  <*>, startingMoved =  <*>, isRelaunching =  <*>: 1
+---------------------------
+---------------------------
+cluster 127: len=1
+battery changed pluggedType: <*>: 1
+---------------------------
+---------------------------
+cluster 128: len=1
+Scheduling restart of crashed service <*> in <*>: 1
+---------------------------
+---------------------------
+cluster 129: len=1
+<*>State what=<*>: 1
+---------------------------
+---------------------------
+cluster 130: len=1
+release:lock=<*>, flg=<*>, tag="<*>", name="<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 131: len=1
+---------------------------
+---------------------------
+cluster 132: len=1
+setSpeakerphoneOn  on: <*>: 1
+---------------------------
+---------------------------
+cluster 133: len=1
+onReceive, action:<*>: 1
+---------------------------
+---------------------------
+cluster 134: len=1
+orientation change is complete, call <*>: 1
+---------------------------
+---------------------------
+cluster 135: len=1
+new Process app=ProcessRecord<*>, name: <processName>, euid: <euid>: 1
+---------------------------
+---------------------------
+cluster 136: len=1
+---------------------------
+---------------------------
+cluster 137: len=1
+is<*>On...: 1
+---------------------------
+---------------------------
+cluster 138: len=1
+on<*>Started: 1
+---------------------------
+---------------------------
+cluster 139: len=1
+Unable to start service Intent <*> cmp=<*> } U=0: not found: 1
+---------------------------
+---------------------------
+cluster 140: len=1
+ACTION_BATTERY_CHANGED pluggedType: <*>: 1
+---------------------------
+---------------------------
+cluster 141: len=1
+update<*>: charging=<*>: 1
+---------------------------
+---------------------------
+cluster 142: len=1
+Process <*> (pid <*>) has died: 1
+---------------------------
+---------------------------
+cluster 143: len=1
+onTrackingStopped: <*>: 1
+---------------------------
+---------------------------
+cluster 144: len=6
+The change in focus caused us to need to do a layout begin: 1
+---------------------------
+---------------------------
+cluster 145: len=1
+ChargingSpeed  Wattage: <*> ST: <*> --> <*>: 1
+---------------------------
+---------------------------
+cluster 146: len=1
+Screen frozen for +<*> due to <*>: 1
+---------------------------
+---------------------------
+cluster 147: len=1
+[<*>] stayAwake <*> uid: <*>, pid: <*>: 1
+---------------------------
+---------------------------
+cluster 148: len=1
+updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>: 1
+---------------------------
+---------------------------
+cluster 149: len=1
+unregister<*>...: 1
+---------------------------
+---------------------------
+cluster 150: len=1
+release:lock=<*>, flg=<*>, tag="<*>", name="<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 151: len=1
+I'm happy to help! Could you please provide me with the log messages that you'd like me to check for similarity?: 1
+---------------------------
+---------------------------
+cluster 152: len=1
+Pid:<*> MediaPlayer destructor: 1
+---------------------------
+---------------------------
+cluster 153: len=1
+Start proc <*> for service <*>: 1
+---------------------------
+---------------------------
+cluster 154: len=1
+setSpeakerphoneOn on:<*>: 1
+---------------------------
+---------------------------
+cluster 155: len=1
+java.lang.ClassCastException: <*> cannot be cast to <*>: 1
+---------------------------
+---------------------------
+cluster 156: len=1
+START u0 <*> from uid 10111 on display 0: 1
+---------------------------
+---------------------------
+cluster 157: len=1
+getStreamVolume  treamType: <*>: 1
+---------------------------
+---------------------------
+cluster 158: len=1
+Destroying surface Surface(name=<*>) called by <*> <*> <*> android.view.IWindowSession$Stub.onTransact:398 <*> android.os.Binder.execTransact:565 <bottom of call stack> <bottom of call stack>: 1
+---------------------------
+---------------------------
+cluster 159: len=1
+Start dump, calling from : pid=<*>, uid=<*>: 1
+---------------------------
+---------------------------
+cluster 160: len=1
+visible is <*>: 1
+---------------------------
+---------------------------
+cluster 161: len=1
+make<*>: <*>: 1
+---------------------------
+---------------------------
+cluster 162: len=3
+disable: < expand <*> alerts <*> back home recent clock navigationbar search quick_settings >: 1
+---------------------------
+---------------------------
+cluster 163: len=1
+visible is <*>: 1
+---------------------------
+---------------------------
+cluster 164: len=2
+onInterceptTouchEvent MotionEvent <*>, actionButton=<*>, id[0]=<*>, x[0]=<*>, y[0]=<*>, toolType[0]=<*>, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>: 1
+---------------------------
+---------------------------
+cluster 165: len=1
+<*>Animation <*>: 1
+---------------------------
+---------------------------
+cluster 166: len=1
+release:lock=<*>, flg=<*>, tag="<*>", name="<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 167: len=2
+Destroying surface Surface(name=<*>) called by <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 168: len=1
+getCellLocation is blocked by permission manager uid:<*> pid:<*>: 1
+---------------------------
+---------------------------
+cluster 169: len=1
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>: 1
+---------------------------
+---------------------------
+cluster 170: len=2
+Skipping <*> t761}}} -- going to hide: 1
+---------------------------
+---------------------------
+cluster 171: len=2
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?<*>: 1
+---------------------------
+---------------------------
+cluster 172: len=1
+received broadcast <*>: 1
+---------------------------
+---------------------------
+cluster 173: len=1
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 174: len=2
+Destroying surface <*> called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.AppWindowToken.destroySurfaces:374 com.android.server.wm.AppWindowToken.notifyAppStopped:400 com.android.server.wm.WindowManagerService.notifyAppStopped:4869 com.android.server.am.ActivityStack.activityStoppedLocked:1393 com.android.server.am.ActivityManagerService.activityStopped:7690: 1
+---------------------------
+---------------------------
+cluster 175: len=1
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 176: len=1
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>: 1
+---------------------------
+---------------------------
+cluster 177: len=1
+ActivityRecord info: ActivityInfo<*> <*>}}, euid: <*>: 1
+---------------------------
+---------------------------
+cluster 178: len=1
+visible is system.message.count gt <*>: 1
+---------------------------
+---------------------------
+cluster 179: len=1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=<*> sound=<*> tick defaults=<*> flags=<*> color=<*> vis=<*>): 1
+---------------------------
+---------------------------
+cluster 180: len=1
+register callback for <*> at <*>: 1
+---------------------------
+---------------------------
+cluster 181: len=1
+START u0 <*> from uid <*> on display <*>: 1
+---------------------------
+---------------------------
+cluster 182: len=1
+Destroying surface Surface(name=<*>) called by <*> at <*>: 1
+---------------------------
+---------------------------
+cluster 183: len=1
+remove(PendingIntent<*>}) changed bounds; rebatching: 1
+---------------------------
+---------------------------
+cluster 184: len=1
+"<*> surface Surface(name=<*>) called by <*> <*>": 1
+---------------------------
+---------------------------
+cluster 185: len=1
+Destroying surface Surface(name=<*>) called by <*> <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 186: len=1
+[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=<*>: 1
+---------------------------
+---------------------------
+cluster 187: len=1
+START u0 <*> from uid <*> on display <*>: 1
+---------------------------
+---------------------------
+cluster 188: len=1
+*** unregister callback for <*>: 1
+---------------------------

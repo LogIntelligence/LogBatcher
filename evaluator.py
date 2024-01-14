@@ -17,8 +17,8 @@ def evaluate(file, dataset):
                                                     np.array(df.Output.values, dtype='str'))
     
     # 找出不匹配的值
-    df_mismatch = df[df.EventTemplate != df.Output]
-    df_mismatch.to_csv(f'outputs/enhanced_gpt/1shot/mismatch/{dataset}.csv', index=False)
+    # df_mismatch = df[df.EventTemplate != df.Output]
+    # df_mismatch.to_csv(f'outputs/enhanced_gpt/1shot/mismatch/{dataset}.csv', index=False)
 
 
     edit_distance_result = []
