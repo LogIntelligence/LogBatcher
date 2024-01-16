@@ -1,0 +1,147 @@
+---------------------------
+cluster 0: len=135
+ground truth: pam_unix(sshd:auth): check pass; user unknown
+pam_unix(sshd:auth): check pass; user unknown: 3
+---------------------------
+---------------------------
+cluster 1: len=110
+ground truth: pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>: 2
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=34
+ground truth: Connection closed by <*> [preauth]
+Connection closed by <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 3: len=14
+ground truth: Invalid user <*> from <*>
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=14
+ground truth: input_userauth_request: invalid user <*> [preauth]
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 5: len=16
+ground truth: Failed password for invalid user <*> from <*> port <*> ssh2
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 6: len=413
+ground truth: Received disconnect from <*>: <*>: Bye Bye [preauth]
+Received disconnect from <*>: <*>: Bye Bye [preauth]: 9
+---------------------------
+---------------------------
+cluster 7: len=369
+ground truth: pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*> user=<*>: 1
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>: 7
+---------------------------
+---------------------------
+cluster 8: len=368
+ground truth: Failed password for <*> from <*> port <*> ssh2
+Failed password for <*> from <*> port <*> ssh2: 8
+---------------------------
+---------------------------
+cluster 9: len=7
+ground truth: PAM service(sshd) ignoring max retries; <*> > <*>
+PAM service(<*>) ignoring max retries; <*> > <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=10
+ground truth: Did not receive identification string from <*>
+Did not receive identification string from <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=83
+ground truth: reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!: 2
+---------------------------
+---------------------------
+cluster 12: len=6
+ground truth: Invalid user <*> from <*>
+Invalid user support from <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=6
+ground truth: input_userauth_request: invalid user <*> [preauth]
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 14: len=6
+ground truth: Failed password for invalid user <*> from <*> port <*> ssh2
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 15: len=5
+ground truth: pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=uucp: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+ground truth: Failed password for <*> from <*> port <*> ssh2
+Failed password for <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 17: len=5
+ground truth: Invalid user <*> from <*>
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 18: len=5
+ground truth: input_userauth_request: invalid user <*> [preauth]
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 19: len=5
+ground truth: Failed password for invalid user <*> from <*> port <*> ssh2
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 20: len=7
+ground truth: Received disconnect from <*>: <*>: Closed due to user request. [preauth]
+Received disconnect from <*>: <*>: Closed due to user request. [preauth]: 1
+---------------------------
+---------------------------
+cluster 21: len=21
+ground truth: Invalid user <*> from <*>
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=21
+ground truth: input_userauth_request: invalid user <*> [preauth]
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 23: len=44
+ground truth: Failed password for invalid user <*> from <*> port <*> ssh2
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 24: len=6
+ground truth: PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>
+PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>: 1
+---------------------------
+---------------------------
+cluster 25: len=45
+ground truth: error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]
+error: Received disconnect from <*>: <*>: <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 26: len=6
+ground truth: Invalid user <*> from <*>
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=6
+ground truth: input_userauth_request: invalid user <*> [preauth]
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 28: len=6
+ground truth: Failed password for invalid user <*> from <*> port <*> ssh2
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
