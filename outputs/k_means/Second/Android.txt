@@ -1,0 +1,331 @@
+---------------------------
+cluster 0: len=199
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*> (ground truth)
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=0x1,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>: 3
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>,userId=<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=5
+mVisiblity.getValue is <*> (ground truth)
+<*> is <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=52
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (ground truth)
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>: 2
+---------------------------
+---------------------------
+cluster 3: len=52
+updateDimmedActivatedHideSensitive overlap:<*> (ground truth)
+updateDimmedActivatedHideSensitive overlap:<*>: 2
+---------------------------
+---------------------------
+cluster 4: len=81
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output (ground truth)
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output: 2
+---------------------------
+---------------------------
+cluster 5: len=8
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 6: len=19
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>) (ground truth)
+setSystemUiVisibility vis=<*> mask=ffffffff oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>): 1
+---------------------------
+---------------------------
+cluster 7: len=15
+cancelAutohide (ground truth)
+cancelAutohide: 1
+---------------------------
+---------------------------
+cluster 8: len=19
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*> (ground truth)
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>: 1
+---------------------------
+---------------------------
+cluster 9: len=69
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*> (ground truth)
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>: 2
+---------------------------
+---------------------------
+cluster 10: len=10
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+acquire lock=<*>, flags=<*>, tag="RILJ_ACK_WL", name=com.android.phone, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=37
+shouldBlockLocation running ... (ground truth)
+shouldBlockLocation running ...: 1
+---------------------------
+---------------------------
+cluster 12: len=33
+shouldBlockLocation ret:<*> (ground truth)
+shouldBlockLocation ret:<*>: 1
+---------------------------
+---------------------------
+cluster 13: len=5
+getNeighboringCellInfo calling app is <*> (ground truth)
+getNeighboringCellInfo calling app is <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=7
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 15: len=6
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=33
+Releasing suspend blocker "PowerManagerService.WakeLocks". (ground truth)
+Releasing suspend blocker "<*>".: 1
+---------------------------
+---------------------------
+cluster 17: len=85
+HBM brightnessIn =<*> (ground truth)
+HBM brightnessIn =<*>: 2
+---------------------------
+---------------------------
+cluster 18: len=85
+HBM brightnessOut =<*> (ground truth)
+HBM brightnessOut =<*>: 2
+---------------------------
+---------------------------
+cluster 19: len=85
+Animating brightness: target=<*>, rate=<*> (ground truth)
+Animating brightness: target=<*>, rate=<*>: 2
+---------------------------
+---------------------------
+cluster 20: len=23
+suspendAutohide (ground truth)
+suspendAutohide: 1
+---------------------------
+---------------------------
+cluster 21: len=14
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*> (ground truth)
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=14
+interceptKeyBeforeQueueing: key <*> , result : <*> (ground truth)
+interceptKeyBeforeQueueing: key <*> , result : <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=10
+resumeSuspendedAutohide (ground truth)
+resumeSuspendedAutohide: 1
+---------------------------
+---------------------------
+cluster 24: len=17
+querySoundEffectsEnabled... (ground truth)
+querySoundEffectsEnabled...: 1
+---------------------------
+---------------------------
+cluster 25: len=8
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+---------------------------
+---------------------------
+cluster 26: len=33
+Acquiring suspend blocker "PowerManagerService.WakeLocks". (ground truth)
+Acquiring suspend blocker "<*>".: 1
+---------------------------
+---------------------------
+cluster 27: len=6
+updateLightsLocked,turn off notificationLight (ground truth)
+updateLightsLocked,turn off <*>: 1
+---------------------------
+---------------------------
+cluster 28: len=27
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*> (ground truth)
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>: 1
+---------------------------
+---------------------------
+cluster 29: len=13
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (ground truth)
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>: 1
+---------------------------
+---------------------------
+cluster 30: len=13
+updateDimmedActivatedHideSensitive overlap:<*> (ground truth)
+updateDimmedActivatedHideSensitive overlap:<*>: 1
+---------------------------
+---------------------------
+cluster 31: len=20
+cancelPeek: <*> (ground truth)
+cancelPeek: <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=6
+logNotificationVisibilityChanges runInThread start (ground truth)
+logNotificationVisibilityChanges <*> <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=6
+onNotificationVisibilityChanged called (ground truth)
+onNotificationVisibilityChanged called: 1
+---------------------------
+---------------------------
+cluster 34: len=6
+logNotificationVisibilityChanges runInThread over (ground truth)
+logNotificationVisibilityChanges <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 35: len=10
+playSoundEffect effectType: <*> (ground truth)
+playSoundEffect effectType: <*>: 1
+---------------------------
+---------------------------
+cluster 36: len=23
+cancelNotification,index:<*> (ground truth)
+cancelNotification,index:<*>: 1
+---------------------------
+---------------------------
+cluster 37: len=5
+cancelNotificationLocked:<*>|<*>|<*>|<*>|<*> (ground truth)
+cancelNotificationLocked:0|com.tencent.mobileqq|121|null|10111: 1
+---------------------------
+---------------------------
+cluster 38: len=13
+updateNotificationShade: total=<*>, active=<*> (ground truth)
+updateNotificationShade: total=<*>, active=<*>: 1
+---------------------------
+---------------------------
+cluster 39: len=6
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*> (ground truth)
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>: 1
+---------------------------
+---------------------------
+cluster 40: len=6
+The change in focus caused us to need to do a layout begin (ground truth)
+The change in focus caused us to need to do a layout begin: 1
+---------------------------
+---------------------------
+cluster 41: len=6
+The change in focus caused us to need to do a layout end (ground truth)
+The <*> caused us to need to do a layout end: 1
+---------------------------
+---------------------------
+cluster 42: len=181
+setLightsOn(<*>) (ground truth)
+setLightsOn(true): 4
+---------------------------
+---------------------------
+cluster 43: len=181
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>) (ground truth)
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>): 3
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>), dockedStackBounds=Rect(<*>): 1
+---------------------------
+---------------------------
+cluster 44: len=12
+removeNotificationChildren (ground truth)
+removeNotificationChildren: 1
+---------------------------
+---------------------------
+cluster 45: len=14
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[<*>,<*>][<*>,<*>] }: 1
+---------------------------
+---------------------------
+cluster 46: len=14
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }: 1
+---------------------------
+---------------------------
+cluster 47: len=14
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity (has extras) }: 1
+---------------------------
+---------------------------
+cluster 48: len=7
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=0x10800000 cmp=com.tencent.qqmusic/.business.lockscreen.LockScreenActivity (has extras) }: 1
+---------------------------
+---------------------------
+cluster 49: len=7
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=tel:<*> flg=<*> cmp=<*> (has extras) }: 1
+---------------------------
+---------------------------
+cluster 50: len=7
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Tencent/QQfile_recv/b.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }: 1
+---------------------------
+---------------------------
+cluster 51: len=14
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*> (ground truth)
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>: 1
+---------------------------
+---------------------------
+cluster 52: len=8
+getRecentTasks: topActivity=ComponentInfo{<*>} (ground truth)
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}: 1
+---------------------------
+---------------------------
+cluster 53: len=20
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*> (ground truth)
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =com.tencent.mobileqq,id =<*>: 1
+---------------------------
+---------------------------
+cluster 54: len=12
+closeQs (ground truth)
+closeQs: 1
+---------------------------
+---------------------------
+cluster 55: len=9
+instantCollapse (ground truth)
+instantCollapse: 1
+---------------------------
+---------------------------
+cluster 56: len=37
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output (ground truth)
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output: 1
+---------------------------
+---------------------------
+cluster 57: len=12
+isMusicActive... (ground truth)
+isMusicActive...: 1
+---------------------------
+---------------------------
+cluster 58: len=5
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 59: len=9
+getLastAudibleStreamVolume treamType: <*> (ground truth)
+getLastAudibleStreamVolume treamType: <*>: 1
+---------------------------
+---------------------------
+cluster 60: len=6
+cleanUpApplicationRecord -- <*> (ground truth)
+cleanUpApplicationRecord -- <*>: 1
+---------------------------
+---------------------------
+cluster 61: len=6
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*> (ground truth)
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*>: 1
+---------------------------
+---------------------------
+cluster 62: len=6
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*> (ground truth)
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>: 1
+---------------------------
+---------------------------
+cluster 63: len=6
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*> (ground truth)
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*>: 1
+---------------------------
+---------------------------
+cluster 64: len=6
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*> (ground truth)
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>: 1
+---------------------------
+---------------------------
+cluster 65: len=14
+Destroying surface Surface(name=<*>) called by <*> (ground truth)
+Destroying surface Surface(name=<*>) called by <*>: 1
+---------------------------

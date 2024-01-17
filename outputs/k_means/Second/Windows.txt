@@ -1,0 +1,43 @@
+---------------------------
+cluster 0: len=6
+<*>@<*>/<*>/<*>:<*>:<*>:<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>) (ground truth)
+<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*> @<*> @<*> @<*> @<*> @<*>): 1
+---------------------------
+---------------------------
+cluster 1: len=608
+Session: <*> initialized by client WindowsUpdateAgent. (ground truth)
+Session: <*> initialized by client WindowsUpdateAgent.: 13
+---------------------------
+---------------------------
+cluster 2: len=280
+Warning: Unrecognized packageExtended attribute. (ground truth)
+Warning: Unrecognized <*> attribute.: 5
+Warning: Unrecognized packageExtended attribute.: 1
+---------------------------
+---------------------------
+cluster 3: len=224
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth)
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]: 5
+---------------------------
+---------------------------
+cluster 4: len=224
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth)
+Failed to get next element [HRESULT = <*> - <*>]: 4
+Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]: 1
+---------------------------
+---------------------------
+cluster 5: len=18
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE] (ground truth)
+Failed to internally open package. [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 6: len=558
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*> (ground truth)
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>: 10
+Read out cached package applicability for package: <*>}}, ApplicableState: <*>, CurrentState:<*>: 2
+---------------------------
+---------------------------
+cluster 7: len=8
+Unloading offline registry hive: <*> (ground truth)
+Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/<*>: 1
+---------------------------

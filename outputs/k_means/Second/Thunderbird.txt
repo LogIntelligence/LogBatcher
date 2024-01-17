@@ -1,0 +1,128 @@
+---------------------------
+cluster 0: len=24
+session closed for user <*> (ground truth)
+session closed for user <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=19
+session opened for user <*> by (uid=<*>) (ground truth)
+session opened for user <*> by (uid=<*>): 1
+---------------------------
+---------------------------
+cluster 2: len=14
+(<*>) CMD (run-parts <*>) (ground truth)
+(<*>) CMD (run-parts <*>): 1
+---------------------------
+---------------------------
+cluster 3: len=819
+data_thread() got not answer from any [<*>] datasource (ground truth)
+data_thread() got not answer from any [<*>] datasource: 17
+---------------------------
+---------------------------
+cluster 4: len=567
+synchronized to <*>, stratum <*> (ground truth)
+synchronized to <*>, stratum <*>: 11
+<*> to <*>, stratum <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=62
+[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ******************** (ground truth)
+[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************: 1
+[<*>]: ********************** NEW SWEEP ********************: 1
+---------------------------
+---------------------------
+cluster 6: len=62
+[ib_sm_sweep.c:<*>]: No topology change (ground truth)
+[ib_sm_sweep.c:<*>]: No topology change: 1
+[<*>]: No topology change: 1
+---------------------------
+---------------------------
+cluster 7: len=62
+[ib_sm_sweep.c:<*>]: No configuration change required (ground truth)
+[ib_sm_sweep.c:<*>]: No configuration change required: 2
+---------------------------
+---------------------------
+cluster 8: len=10
+unable to qualify my own domain name (<*>) -- using short name (ground truth)
+unable to qualify my own domain name (<*>) -- using short name: 1
+---------------------------
+---------------------------
+cluster 9: len=10
+<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost (ground truth)
+plaintext <*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost: 1
+---------------------------
+---------------------------
+cluster 10: len=10
+<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>] (ground truth)
+<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]: 1
+---------------------------
+---------------------------
+cluster 11: len=5
+DHCPDISCOVER from <*> via eth1 (ground truth)
+DHCPDISCOVER from <*> via <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=5
+DHCPOFFER on <*> to <*> via eth1 (ground truth)
+DHCPOFFER on <*> to <*> via <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=15
+DHCPDISCOVER from <*> via eth1: network A_net: no free leases (ground truth)
+DHCPDISCOVER from <*> via <*>: network <*>: no free leases: 1
+---------------------------
+---------------------------
+cluster 14: len=9
+DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>. (ground truth)
+DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.: 1
+---------------------------
+---------------------------
+cluster 15: len=11
+RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step) (ground truth)
+RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step): 1
+---------------------------
+---------------------------
+cluster 16: len=5
+My unqualified host name (<*>) unknown; sleeping for retry (ground truth)
+My unqualified host name (<*>) unknown; sleeping for retry: 1
+---------------------------
+---------------------------
+cluster 17: len=10
+PCI Interrupt Routing Table [<*>] (ground truth)
+PCI Interrupt Routing Table [<*>._PRT]: 1
+---------------------------
+---------------------------
+cluster 18: len=11
+PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*> (ground truth)
+PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=5
+L2 cache: <*> (ground truth)
+L2 cache: <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=5
+Physical Processor ID: <*> (ground truth)
+Physical Processor ID: <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=5
+Trace cache: <*> uops, L1 D cache: <*> (ground truth)
+Trace cache: <*> uops, L1 D cache: <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=5
+Registered protocol family <*> (ground truth)
+Registered protocol family <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=6
+Wait for ready failed before probe ! (ground truth)
+Wait for <*> failed before probe !: 1
+---------------------------
+---------------------------
+cluster 24: len=34
+Warning: we failed to resolve data source name <*> (ground truth)
+Warning: we failed to resolve data source name <*>: 1
+---------------------------
