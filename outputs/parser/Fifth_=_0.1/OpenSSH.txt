@@ -1,0 +1,161 @@
+
+---------------------------
+cluster 12: len=6
+Invalid user <*> from <*> (ground truth)
+Invalid user support from <*>: 1
+---------------------------
+---------------------------
+cluster 36: len=2
+Disconnecting: Too many authentication failures for <*> [preauth] (ground truth)
+Disconnecting: Too many authentication failures for <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 51: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 50: len=1
+Invalid user <*> from <*> (ground truth)
+Invalid user default from <*>: 1
+---------------------------
+---------------------------
+cluster 54: len=3
+Failed password for <*> from <*> port <*> ssh2 (ground truth)
+Failed password for ftp from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 70: len=2
+Failed password for <*> from <*> port <*> ssh2 (ground truth)
+Failed password for sshd from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 74: len=1
+Invalid user <*> from <*> (ground truth)
+Invalid user operator from <*>: 1
+---------------------------
+---------------------------
+cluster 75: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 78: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 84: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 88: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for invalid user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 90: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 92: len=1
+Invalid user <*> from <*> (ground truth)
+Invalid user api from <*>: 1
+---------------------------
+---------------------------
+cluster 94: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 89: len=1
+Invalid user <*> from <*> (ground truth)
+Invalid user Management from <*>: 1
+---------------------------
+---------------------------
+cluster 97: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 102: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 111: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 121: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 137: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 138: len=2
+Failed password for <*> from <*> port <*> ssh2 (ground truth)
+Failed password for mysql from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 143: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 144: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 153: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 152: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 156: len=1
+Received disconnect from <*>: <*>: disconnected by user (ground truth)
+Received disconnect from <*>: <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 158: len=1
+Disconnecting: Too many authentication failures for <*> [preauth] (ground truth)
+Disconnecting: Too many authentication failures for <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 167: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> user <*> from <*> port <*> <*>: 1
+---------------------------
+---------------------------
+cluster 170: len=1
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 168: len=1
+Invalid user <*> from <*> (ground truth)
+Invalid user boot from <*>: 1
+---------------------------
+---------------------------
+cluster 169: len=1
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+<*>: invalid user <*> [<*>]: 1
+---------------------------
+---------------------------
+cluster 174: len=1
+fatal: Write failed: Connection reset by peer [preauth] (ground truth)
+fatal: Write failed: <*> [preauth]: 1
+---------------------------

@@ -1,0 +1,15 @@
+
+---------------------------
+cluster 8: len=64
+<*> "POST <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> HTTP/1.<*>" status: <*> len: <*> time: <*>: 1
+---------------------------
+cluster 17: len=22
+<*> "DELETE <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> HTTP/1.<*>" status: <*> len: <*> time: <*>: 1
+---------------------------
+cluster 0: len=931
+<*> "GET <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> HTTP/1.<*>" status: <*> len: <*> time: <*>: 1
+---------------------------
+

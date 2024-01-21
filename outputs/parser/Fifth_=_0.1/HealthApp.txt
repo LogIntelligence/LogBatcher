@@ -1,0 +1,320 @@
+---------------------------
+cluster 2: len=17
+onReceive action: android.intent.action.SCREEN_ON (ground truth)
+onReceive action: <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=8
+getBinderPackageName packageName = com.huawei.health (ground truth)
+getBinderPackageName packageName = <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=241
+calculateCaloriesWithCache totalCalories=<*> (ground truth)
+calculateCaloriesWithCache totalCalories=<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=241
+calculateAltitudeWithCache totalAltitude=<*> (ground truth)
+calculateAltitudeWithCache totalAltitude=<*>: 1
+---------------------------
+---------------------------
+cluster 5: len=242
+getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*> (ground truth)
+getTodayTotalDetailSteps = <*>#<*><*><*><*>#<*>: 1
+---------------------------
+---------------------------
+cluster 15: len=5
+startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*> (ground truth)
+startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=17
+new date =<*>, type=<*>,<*>,old=<*> (ground truth)
+new date =<*>, type=<*>,<*>,old=<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=17
+processHandleBroadcastAction action:android.intent.action.SCREEN_ON (ground truth)
+processHandleBroadcastAction action:<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=260
+onStandStepChanged <*> (ground truth)
+onStandStepChanged <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=274
+onExtend:<*> <*> <*> <*> (ground truth)
+onExtend:<*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=17
+flush sensor data (ground truth)
+flush sensor data: 1
+---------------------------
+---------------------------
+cluster 12: len=5
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*> (ground truth)
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=17
+onReceive action: android.intent.action.SCREEN_OFF (ground truth)
+onReceive action: android.intent.action.SCREEN_OFF: 1
+---------------------------
+---------------------------
+cluster 11: len=144
+processHandleBroadcastAction action:android.intent.action.TIME_TICK (ground truth)
+processHandleBroadcastAction action:<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+needAutoSync autoSyncSwitch is open (ground truth)
+needAutoSync <*> is open: 1
+---------------------------
+---------------------------
+cluster 9: len=136
+REPORT : <*> <*> <*> <*> (ground truth)
+REPORT : <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 17: len=5
+initDataPrivacy the dataPrivacy switch is open, start push health data! (ground truth)
+initDataPrivacy the dataPrivacy switch is open, start push health data!: 1
+---------------------------
+---------------------------
+cluster 20: len=5
+initUserPrivacy the userPrivacy is <*> (ground truth)
+initUserPrivacy the userPrivacy is <*>: 1
+---------------------------
+---------------------------
+cluster 18: len=5
+initDataPrivacy the dataPrivacy is <*> (ground truth)
+initDataPrivacy the dataPrivacy is <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=5
+initUserPrivacy the userPrivacy switch is open, start push user data! (ground truth)
+initUserPrivacy the userPrivacy switch is open, start push user data!: 1
+---------------------------
+---------------------------
+cluster 21: len=5
+ifCanSync not! no cloud version (ground truth)
+ifCanSync not! no cloud version: 1
+---------------------------
+---------------------------
+cluster 24: len=6
+getTodaySportData mStepsRecordManager=<*> (ground truth)
+getTodaySportData mStepsRecordManager=com.huawei.health.g.c@<*>: 1
+---------------------------
+---------------------------
+cluster 25: len=1
+isScreenOn <*> (ground truth)
+isScreenOn <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=1
+screen status unknown,think screen on (ground truth)
+screen status <*>,think screen <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=1
+flushTempCacheToDB by stand (ground truth)
+<*> by <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=5
+timeStamp back,extendReportTimeStamp=<*> (ground truth)
+timeStamp back,extendReportTimeStamp=<*>: 1
+---------------------------
+---------------------------
+cluster 28: len=1
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*> (ground truth)
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*>: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+writeDataToDB size <*> (ground truth)
+writeDataToDB size <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=2
+getAppContext() isAppValid health or wear, packageName = <*> (ground truth)
+getAppContext() isAppValid <*> or <*>, packageName = <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=2
+saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*> (ground truth)
+saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>: 1
+---------------------------
+---------------------------
+cluster 31: len=2
+insertHiHealthData() checkAppType <*> appID = <*> (ground truth)
+insertHiHealthData() checkAppType <*> appID = <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=2
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*> (ground truth)
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = com.huawei.health,writeStatType = <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=4
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*> (ground truth)
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>: 1
+---------------------------
+---------------------------
+cluster 35: len=2
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*> (ground truth)
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>: 1
+---------------------------
+---------------------------
+cluster 37: len=2
+startListenerChange subscribeList = [<*>] (ground truth)
+startListenerChange subscribeList = [<*>]: 1
+---------------------------
+---------------------------
+cluster 38: len=1
+insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT (ground truth)
+<*>() <*> fail errorCode = <*>,errorMessage = <*>: 1
+---------------------------
+---------------------------
+cluster 39: len=2
+insertHiHealthData() end totalTime = <*> (ground truth)
+insertHiHealthData() end totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 40: len=1
+uploadStaticsToDB() onResult type = <*> obj=<*> (ground truth)
+uploadStaticsToDB() onResult type = <*> obj=<*>: 1
+---------------------------
+---------------------------
+cluster 36: len=2
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*> (ground truth)
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+uploadStaticsToDB failed message=<*> (ground truth)
+uploadStaticsToDB failed message=<*>: 1
+---------------------------
+---------------------------
+cluster 45: len=2
+startInsertSportSync start auto sync,app is <*> (ground truth)
+startInsertSportSync start auto sync,app is <*>: 1
+---------------------------
+---------------------------
+cluster 43: len=2
+checkInsertStatus stepStatSum or calorieStatSum is enough (ground truth)
+checkInsertStatus <*> or <*> is enough: 1
+---------------------------
+---------------------------
+cluster 42: len=2
+checkInsertStatus stepSum or calorieSum is enough (ground truth)
+checkInsertStatus <*> or <*> is enough: 1
+---------------------------
+---------------------------
+cluster 46: len=2
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*> (ground truth)
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*> (ground truth)
+saveRealTimeHealthDatasStat() size = <*>, totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 49: len=1
+InsertCallBack() onSuccess type = <*> data=<*> (ground truth)
+InsertCallBack() onSuccess type = <*> data=<*>: 1
+---------------------------
+---------------------------
+cluster 44: len=2
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*> (ground truth)
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>: 1
+---------------------------
+---------------------------
+cluster 50: len=1
+InsertEvent success begin:<*> end:<*> (ground truth)
+InsertEvent success begin:<*> end:<*>: 1
+---------------------------
+---------------------------
+cluster 52: len=1
+setWriteDBLastDataMinute success (ground truth)
+<*> success: 1
+---------------------------
+---------------------------
+cluster 47: len=2
+startInsertSportSync first <*> steps sync,do all sync (ground truth)
+startInsertSportSync first <*> steps sync,do all sync: 1
+---------------------------
+---------------------------
+cluster 55: len=3
+stepSyncOrNot appSynTimes is <*> (ground truth)
+stepSyncOrNot appSynTimes is <*>: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+flush2DB result success (ground truth)
+<*> result <*>: 1
+---------------------------
+---------------------------
+cluster 59: len=1
+getStepCounterStatus= <*> (ground truth)
+getStepCounterStatus= <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+theDayChanged <*> (ground truth)
+theDayChanged <*>: 1
+---------------------------
+---------------------------
+cluster 61: len=1
+registersensorsuccess: <*> (ground truth)
+registersensorsuccess: <*>: 1
+---------------------------
+---------------------------
+cluster 64: len=1
+tryToRecordAsBasicStepData bWrite <*> (ground truth)
+<*> bWrite <*>: 1
+---------------------------
+---------------------------
+cluster 65: len=2
+getDiffTotalSteps= <*>##<*> (ground truth)
+getDiffTotalSteps= <*>##<*>: 1
+---------------------------
+---------------------------
+cluster 63: len=2
+getTodayBasicStandardSteps= <*>##<*>##<*> (ground truth)
+getTodayBasicStandardSteps= <*><*><*>: 1
+---------------------------
+---------------------------
+cluster 66: len=1
+setBasicStandardSteps basicStandardStep=<*> restartSteps=<*> (ground truth)
+setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+reload : <*> restar <*> (ground truth)
+reload : <*> restar <*>: 1
+---------------------------
+---------------------------
+cluster 70: len=1
+setGoalNotifiShownRecord <*> <*> (ground truth)
+setGoalNotifiShownRecord <*> <*>: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+next day:<*> (ground truth)
+next day:<*>: 1
+---------------------------
+---------------------------
+cluster 54: len=3
+startTimer start autoSync (ground truth)
+startTimer start autoSync: 1
+---------------------------
+---------------------------
+cluster 73: len=1
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*> (ground truth)
+checkCurrentDay a new day comes , reset <*>, currentDay is <*> oldDay is <*>: 1
+---------------------------

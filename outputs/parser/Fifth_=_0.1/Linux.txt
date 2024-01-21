@@ -1,0 +1,670 @@
+---------------------------
+cluster 16: len=76
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=43
+session opened for user <*> by (uid=<*>) (ground truth)
+session opened for user <*> by (uid=<*>): 1
+---------------------------
+---------------------------
+cluster 11: len=15
+connection from <*> (<*>) at <*> (ground truth)
+connection from <*> (<*>) at <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=6
+cupsd shutdown succeeded (ground truth)
+<*> shutdown succeeded: 1
+---------------------------
+---------------------------
+cluster 13: len=6
+cupsd startup succeeded (ground truth)
+<*> startup succeeded: 1
+---------------------------
+---------------------------
+cluster 9: len=36
+session opened for user <*> by (uid=<*>) (ground truth)
+session opened for user <*> by (uid=<*>): 1
+---------------------------
+---------------------------
+cluster 4: len=43
+session closed for user <*> (ground truth)
+session closed for user <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=43
+session closed for user <*> (ground truth)
+session closed for user <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=15
+connection from <*> (<*>) at <*> (ground truth)
+connection from <*> (<*>) at <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=43
+session opened for user <*> by (uid=<*>) (ground truth)
+session opened for user <*> by (uid=<*>): 1
+---------------------------
+---------------------------
+cluster 5: len=43
+ALERT exited abnormally with [<*>] (ground truth)
+ALERT exited abnormally with [<*>]: 1
+---------------------------
+---------------------------
+cluster 1: len=117
+check pass; user unknown (ground truth)
+check pass; user unknown: 1
+---------------------------
+---------------------------
+cluster 10: len=36
+session closed for user <*> (ground truth)
+session closed for user <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=8
+Authentication failed from <*> (<*>): Permission denied in replay cache code (ground truth)
+Authentication failed from <*> (<*>): Permission denied in replay cache code: 1
+---------------------------
+---------------------------
+cluster 17: len=13
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=23
+Kerberos authentication failed (ground truth)
+<*> authentication failed: 1
+---------------------------
+---------------------------
+cluster 18: len=31
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=216
+connection from <*> (<*>) at <*> (ground truth)
+connection from <*> (<*>) at <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=15
+Authentication failed from <*> (<*>): Software caused connection abort (ground truth)
+Authentication failed from <*> (<*>): <*>: 1
+---------------------------
+---------------------------
+cluster 24: len=23
+connection from <*> (<*>) at <*> (ground truth)
+connection from <*> (<*>) at <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=24
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=54
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 25: len=46
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 28: len=87
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=12
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=23
+connection from <*> (<*>) at <*> (ground truth)
+connection from <*> (<*>) at <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=91
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=118
+authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*> (ground truth)
+authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=372
+authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>  user=<*> (ground truth)
+authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>: 1
+---------------------------
+---------------------------
+cluster 32: len=16
+notify question section contains no SOA (ground truth)
+notify question section contains no <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+User unknown timed out after <*> seconds at <*> (ground truth)
+User <*> timed out after <*> seconds at <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=120
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=63
+connection from <*> () at <*> (ground truth)
+connection from <*> () at <*>: 1
+---------------------------
+---------------------------
+cluster 35: len=1
+*** info [mice.c(<*>)]: (ground truth)
+[<*> <*>(<*>)]:: 1
+---------------------------
+---------------------------
+cluster 36: len=1
+<*>: Auto-detected intellimouse <*> (ground truth)
+imps2: Auto-detected intellimouse PS/2: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+Received SNMP packet(s) from <*> (ground truth)
+Received SNMP packet(s) from <*>: 1
+---------------------------
+---------------------------
+cluster 37: len=1
+session opened for user <*> by LOGIN(uid=<*>) (ground truth)
+session opened for user <*> by <*>(uid=<*>): 1
+---------------------------
+---------------------------
+cluster 38: len=1
+ROOT LOGIN ON <*> (ground truth)
+<*> LOGIN ON <*>: 1
+---------------------------
+---------------------------
+cluster 39: len=1
+session closed for user <*> (ground truth)
+session closed for user <*>: 1
+---------------------------
+---------------------------
+cluster 40: len=4
+removing device node '<*>' (ground truth)
+removing device node '<*>': 1
+---------------------------
+---------------------------
+cluster 41: len=4
+creating device node '<*>' (ground truth)
+creating device node '<*>': 1
+---------------------------
+---------------------------
+cluster 42: len=1
+Couldn't authenticate user (ground truth)
+Couldn't authenticate <*>: 1
+---------------------------
+---------------------------
+cluster 43: len=2
+ANONYMOUS FTP LOGIN FROM <*>,  (anonymous) (ground truth)
+ANONYMOUS FTP LOGIN FROM <*>, (<*>): 1
+---------------------------
+---------------------------
+cluster 45: len=2
+warning: can't get client address: Connection reset by peer (ground truth)
+warning: can't get client address: Connection reset by peer: 1
+---------------------------
+---------------------------
+cluster 44: len=4
+getpeername (ftpd): Transport endpoint is not connected (ground truth)
+getpeername (ftpd): <*>: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+klogd <*>, log source = <*> started. (ground truth)
+klogd <*>, log source = <*> started.: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+Linux version <*> (<*>) (gcc version <*> <*> (Red Hat Linux <*>)) <*> <*> <*> <*> <*> EDT <*> (ground truth)
+Linux version <*> (<*>) (gcc version <*>) #<*> <*>: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+syslogd startup succeeded (ground truth)
+<*> startup succeeded: 1
+---------------------------
+---------------------------
+cluster 50: len=2
+<*>: <*> - <*> (usable) (ground truth)
+BIOS-e820: <*> - <*> (usable): 1
+---------------------------
+---------------------------
+cluster 49: len=1
+BIOS-provided physical RAM map: (ground truth)
+BIOS-provided physical RAM map:: 1
+---------------------------
+---------------------------
+cluster 51: len=3
+<*>: <*> - <*> (reserved) (ground truth)
+BIOS-e820: <*> - <*> (reserved): 1
+---------------------------
+---------------------------
+cluster 52: len=1
+<*> HIGHMEM available. (ground truth)
+<*> HIGHMEM available.: 1
+---------------------------
+---------------------------
+cluster 54: len=1
+zapping low mappings. (ground truth)
+zapping <*> mappings.: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+<*> LOWMEM available. (ground truth)
+<*> LOWMEM available.: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+klogd startup succeeded (ground truth)
+klogd <*> succeeded: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+On node <*> totalpages: <*> (ground truth)
+On node <*> totalpages: <*>: 1
+---------------------------
+---------------------------
+cluster 57: len=1
+DMA zone: <*> pages, LIFO batch:<*> (ground truth)
+DMA zone: <*> pages, LIFO batch:<*>: 1
+---------------------------
+---------------------------
+cluster 59: len=1
+irqbalance startup succeeded (ground truth)
+<*> startup succeeded: 1
+---------------------------
+---------------------------
+cluster 60: len=1
+HighMem zone: <*> pages, LIFO batch:<*> (ground truth)
+HighMem zone: <*> pages, LIFO batch:<*>: 1
+---------------------------
+---------------------------
+cluster 61: len=1
+DMI <*> present. (ground truth)
+DMI <*> present.: 1
+---------------------------
+---------------------------
+cluster 65: len=1
+Kernel command line: ro root=<*>=<*> rhgb quiet (ground truth)
+Kernel command line: ro <*>=<*> rhgb quiet: 1
+---------------------------
+---------------------------
+cluster 63: len=1
+You can enable it with acpi=<*> (ground truth)
+You can enable it with <*>: 1
+---------------------------
+---------------------------
+cluster 64: len=1
+Built <*> zonelists (ground truth)
+Built <*> zonelists: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+portmap startup succeeded (ground truth)
+<*> startup succeeded: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+Initializing <*> (ground truth)
+Initializing CPU#<*>: 1
+---------------------------
+---------------------------
+cluster 70: len=1
+PID hash table entries: <*> (order <*>: <*> bytes) (ground truth)
+PID hash table entries: <*> (order <*>: <*> bytes): 1
+---------------------------
+---------------------------
+cluster 66: len=1
+mapped <*> trampoline to <*>. (ground truth)
+mapped <*> trampoline to <*>.: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+CPU <*> irqstacks, hard=<*> soft=<*> (ground truth)
+CPU <*> irqstacks, hard=<*> soft=<*>: 1
+---------------------------
+---------------------------
+cluster 58: len=1
+Normal zone: <*> pages, LIFO batch:<*> (ground truth)
+Normal zone: <*> pages, LIFO batch:<*>: 1
+---------------------------
+---------------------------
+cluster 62: len=1
+ACPI disabled because your bios is from <*> and too old (ground truth)
+ACPI disabled because your bios is from <*> and too old: 1
+---------------------------
+---------------------------
+cluster 71: len=1
+Detected <*> MHz processor. (ground truth)
+Detected <*> MHz processor.: 1
+---------------------------
+---------------------------
+cluster 72: len=1
+Version <*> Starting (ground truth)
+Version <*> Starting: 1
+---------------------------
+---------------------------
+cluster 75: len=1
+Console: colour VGA+ <*> (ground truth)
+Console: colour <*> <*>: 1
+---------------------------
+---------------------------
+cluster 76: len=1
+Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem) (ground truth)
+Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem): 1
+---------------------------
+---------------------------
+cluster 78: len=1
+Security Scaffold <*> initialized (ground truth)
+Security Scaffold <*> initialized: 1
+---------------------------
+---------------------------
+cluster 77: len=1
+Calibrating delay loop... <*> BogoMIPS (ground truth)
+Calibrating delay loop... <*> BogoMIPS: 1
+---------------------------
+---------------------------
+cluster 79: len=1
+SELinux:  Initializing. (ground truth)
+SELinux: <*>.: 1
+---------------------------
+---------------------------
+cluster 81: len=1
+There is already a security framework initialized, <*>. (ground truth)
+There is already a <*> initialized, <*> failed.: 1
+---------------------------
+---------------------------
+cluster 80: len=1
+SELinux:  Starting in permissive mode (ground truth)
+SELinux: Starting in <*>: 1
+---------------------------
+---------------------------
+cluster 85: len=1
+<*> startup succeeded (ground truth)
+rpc.idmapd <*> <*>: 1
+---------------------------
+---------------------------
+cluster 82: len=1
+Failure registering capabilities with the kernel (ground truth)
+Failure registering capabilities with the <*>: 1
+---------------------------
+---------------------------
+cluster 86: len=1
+Dentry cache hash table entries: <*> (order: <*>, <*> bytes) (ground truth)
+Dentry cache hash table entries: <*> (order: <*>, <*> bytes): 1
+---------------------------
+---------------------------
+cluster 87: len=1
+Inode-cache hash table entries: <*> (order: <*>, <*> bytes) (ground truth)
+Inode-cache hash table entries: <*> (order: <*>, <*> bytes): 1
+---------------------------
+---------------------------
+cluster 74: len=1
+<*> startup succeeded (ground truth)
+rpc.statd <*> <*>: 1
+---------------------------
+---------------------------
+cluster 84: len=1
+Capability LSM initialized (ground truth)
+Capability <*> initialized: 1
+---------------------------
+---------------------------
+cluster 73: len=1
+Using tsc for high-res timesource (ground truth)
+Using <*> for <*>: 1
+---------------------------
+---------------------------
+cluster 88: len=1
+Mount-cache hash table entries: <*> (order: <*>, <*> bytes) (ground truth)
+Mount-cache hash table entries: <*> (order: <*>, <*> bytes): 1
+---------------------------
+---------------------------
+cluster 83: len=1
+<*>:  Registering secondary module capability (ground truth)
+selinux_register_security: Registering <*> module capability: 1
+---------------------------
+---------------------------
+cluster 89: len=1
+CPU: <*> I cache: <*>, <*> D cache: <*> (ground truth)
+CPU: L1 I cache: <*>, L1 D cache: <*>: 1
+---------------------------
+---------------------------
+cluster 90: len=1
+CPU: <*> cache: <*> (ground truth)
+CPU: L2 cache: <*>: 1
+---------------------------
+---------------------------
+cluster 91: len=1
+Intel machine check architecture supported. (ground truth)
+<*> machine check architecture supported.: 1
+---------------------------
+---------------------------
+cluster 93: len=1
+CPU: Intel Pentium III (Coppermine) stepping <*> (ground truth)
+CPU: Intel <*> <*> (<*>) stepping <*>: 1
+---------------------------
+---------------------------
+cluster 95: len=1
+Enabling unmasked SIMD FPU exception support... done. (ground truth)
+Enabling <*>... done.: 1
+---------------------------
+---------------------------
+cluster 96: len=1
+Checking '<*>' instruction... OK. (ground truth)
+Checking '<*>' instruction... <*>.: 1
+---------------------------
+---------------------------
+cluster 92: len=1
+Intel machine check reporting enabled on <*>. (ground truth)
+Intel machine check reporting enabled on CPU#<*>.: 1
+---------------------------
+---------------------------
+cluster 94: len=1
+Enabling fast FPU save and restore... done. (ground truth)
+Enabling <*> save and restore... <*>.: 1
+---------------------------
+---------------------------
+cluster 99: len=1
+NET: Registered protocol family <*> (ground truth)
+NET: Registered protocol family <*>: 1
+---------------------------
+---------------------------
+cluster 98: len=1
+POSIX conformance testing by UNIFIX (ground truth)
+POSIX conformance testing by <*>: 1
+---------------------------
+---------------------------
+cluster 103: len=1
+ACPI: Subsystem revision <*> (ground truth)
+ACPI: Subsystem revision <*>: 1
+---------------------------
+---------------------------
+cluster 102: len=1
+mtrr: <*> (<*>) (ground truth)
+mtrr: <*> (<*>): 1
+---------------------------
+---------------------------
+cluster 100: len=1
+PCI: PCI BIOS revision <*> entry at <*>, last bus=<*> (ground truth)
+PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>: 1
+---------------------------
+---------------------------
+cluster 101: len=1
+PCI: Using configuration type <*> (ground truth)
+PCI: Using configuration type <*>: 1
+---------------------------
+---------------------------
+cluster 104: len=1
+ACPI: Interpreter disabled. (ground truth)
+ACPI: <*> disabled.: 1
+---------------------------
+---------------------------
+cluster 97: len=1
+Initializing random number generator:  succeeded (ground truth)
+Initializing random number generator: <*>: 1
+---------------------------
+---------------------------
+cluster 105: len=1
+Linux Plug and Play Support <*> (c) Adam Belay (ground truth)
+Linux Plug and Play Support <*> (c) <*>: 1
+---------------------------
+---------------------------
+cluster 106: len=1
+Starting pcmcia:  succeeded (ground truth)
+Starting pcmcia: <*>: 1
+---------------------------
+---------------------------
+cluster 107: len=1
+usbcore: registered new driver <*> (ground truth)
+usbcore: registered new driver <*>: 1
+---------------------------
+---------------------------
+cluster 108: len=1
+usbcore: registered new driver <*> (ground truth)
+usbcore: registered new driver <*>: 1
+---------------------------
+---------------------------
+cluster 111: len=1
+PCI: Probing PCI hardware (ground truth)
+PCI: Probing <*> hardware: 1
+---------------------------
+---------------------------
+cluster 109: len=1
+ACPI: ACPI tables contain no PCI IRQ routing entries (ground truth)
+ACPI: ACPI tables contain no <*> IRQ routing entries: 1
+---------------------------
+---------------------------
+cluster 110: len=1
+PCI: Invalid ACPI-PCI IRQ routing table (ground truth)
+PCI: Invalid <*> IRQ routing table: 1
+---------------------------
+---------------------------
+cluster 112: len=1
+PCI: Probing PCI hardware (bus <*>) (ground truth)
+PCI: Probing PCI hardware (bus <*>): 1
+---------------------------
+---------------------------
+cluster 113: len=1
+Transparent bridge - <*> (ground truth)
+Transparent bridge - <*>: 1
+---------------------------
+---------------------------
+cluster 115: len=1
+apm: BIOS version <*> Flags <*> (Driver version <*>) (ground truth)
+apm: BIOS version <*> Flags <*> (Driver version <*>): 1
+---------------------------
+---------------------------
+cluster 116: len=1
+audit: initializing netlink socket (disabled) (ground truth)
+audit: initializing netlink socket (<*>): 1
+---------------------------
+---------------------------
+cluster 117: len=1
+<*> = <*> (ground truth)
+kernel.core_uses_pid = <*>: 1
+---------------------------
+---------------------------
+cluster 118: len=1
+HCI daemon ver <*> started (ground truth)
+HCI daemon ver <*> started: 1
+---------------------------
+---------------------------
+cluster 119: len=1
+hcid startup succeeded (ground truth)
+<*>} startup succeeded: 1
+---------------------------
+---------------------------
+cluster 120: len=1
+audit(<*>): initialized (ground truth)
+audit(<*>): <*>: 1
+---------------------------
+---------------------------
+cluster 121: len=1
+Setting network parameters:  succeeded (ground truth)
+Setting network parameters: <*>: 1
+---------------------------
+---------------------------
+cluster 123: len=1
+sdpd <*> started (ground truth)
+<*> <*> started: 1
+---------------------------
+---------------------------
+cluster 114: len=1
+PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*> (ground truth)
+PCI: Using IRQ router <*> [<*>/<*>] at <*>: 1
+---------------------------
+---------------------------
+cluster 125: len=1
+Bringing up loopback interface:  succeeded (ground truth)
+Bringing up <*> interface: <*>: 1
+---------------------------
+---------------------------
+cluster 122: len=1
+sdpd startup succeeded (ground truth)
+<*> startup succeeded: 1
+---------------------------
+---------------------------
+cluster 126: len=1
+VFS: Disk quotas <*> (ground truth)
+VFS: Disk quotas <*>: 1
+---------------------------
+---------------------------
+cluster 128: len=1
+SELinux:  Registering netfilter hooks (ground truth)
+SELinux: Registering netfilter hooks: 1
+---------------------------
+---------------------------
+cluster 124: len=1
+Total HugeTLB memory allocated, <*> (ground truth)
+Total HugeTLB memory allocated, <*>: 1
+---------------------------
+---------------------------
+cluster 131: len=1
+isapnp: Scanning for PnP cards... (ground truth)
+isapnp: <*>: 1
+---------------------------
+---------------------------
+cluster 132: len=1
+isapnp: No Plug & Play device found (ground truth)
+isapnp: <*>: 1
+---------------------------
+---------------------------
+cluster 130: len=1
+<*>: PCI Hot Plug PCI Core version: <*> (ground truth)
+pci_hotplug: PCI Hot Plug PCI Core version: <*>: 1
+---------------------------
+---------------------------
+cluster 133: len=1
+Real Time Clock Driver <*> (ground truth)
+Real Time Clock Driver <*>: 1
+---------------------------
+---------------------------
+cluster 134: len=1
+Linux agpgart interface <*> (c) Dave Jones (ground truth)
+Linux agpgart interface <*> (c) <*>: 1
+---------------------------
+---------------------------
+cluster 129: len=1
+Initializing Cryptographic API (ground truth)
+Initializing <*> API: 1
+---------------------------
+---------------------------
+cluster 127: len=1
+Dquot-cache hash table entries: <*> (order <*>, <*> bytes) (ground truth)
+Dquot-cache hash table entries: <*> (order <*>, <*> bytes): 1
+---------------------------

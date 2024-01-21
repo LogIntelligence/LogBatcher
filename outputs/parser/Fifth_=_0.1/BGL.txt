@@ -1,0 +1,665 @@
+---------------------------
+cluster 12: len=6
+exception syndrome register: <*> (ground truth)
+exception syndrome register: <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=721
+generating core.<*> (ground truth)
+generating core.<*>: 1
+---------------------------
+---------------------------
+cluster 7: len=30
+data storage interrupt (ground truth)
+data storage interrupt: 1
+---------------------------
+---------------------------
+cluster 0: len=42
+instruction cache parity error corrected (ground truth)
+instruction cache parity error corrected: 1
+---------------------------
+---------------------------
+cluster 6: len=60
+data TLB error interrupt (ground truth)
+data TLB error interrupt: 1
+---------------------------
+---------------------------
+cluster 5: len=18
+<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*> (ground truth)
+<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=5
+program interrupt: imprecise exception......<*> (ground truth)
+program interrupt: imprecise exception......<*>: 1
+---------------------------
+---------------------------
+cluster 13: len=10
+data store interrupt caused by dcbf.........<*> (ground truth)
+data store interrupt caused by <*>.........<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=8
+program interrupt: illegal instruction......<*> (ground truth)
+program interrupt: illegal instruction......<*>: 1
+---------------------------
+---------------------------
+cluster 9: len=8
+data address: <*> (ground truth)
+data address: <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=5
+machine check: i-fetch......................<*> (ground truth)
+machine check: i-fetch......................<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=21
+instruction address: <*> (ground truth)
+instruction address: <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=109
+<*> double-hummer alignment exceptions (ground truth)
+<*> double-hummer alignment exceptions: 1
+---------------------------
+---------------------------
+cluster 14: len=5
+program interrupt: privileged instruction...<*> (ground truth)
+program interrupt: privileged instruction...<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+auxiliary processor.........................<*> (ground truth)
+auxiliary processor.........................<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=5
+data address space................<*> (ground truth)
+data address space................<*>: 1
+---------------------------
+---------------------------
+cluster 19: len=7
+core configuration register: <*> (ground truth)
+core configuration register: <*>: 1
+---------------------------
+---------------------------
+cluster 17: len=5
+floating pt ex mode <*> enable......<*> (ground truth)
+floating pt ex mode <*> enable......<*>: 1
+---------------------------
+---------------------------
+cluster 20: len=13
+total of <*> ddr error(s) detected and corrected (ground truth)
+total of <*> ddr error(s) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 23: len=6
+Can not get assembly information for node card (ground truth)
+Can not get assembly information for <*> card: 1
+---------------------------
+---------------------------
+cluster 22: len=6
+Node card is not fully functional (ground truth)
+<*> is not fully functional: 1
+---------------------------
+---------------------------
+cluster 24: len=121
+<*> floating point alignment exceptions (ground truth)
+<*> floating point alignment exceptions: 1
+---------------------------
+---------------------------
+cluster 28: len=15
+ciod: Error loading <*>: invalid or missing program image, Exec format error (ground truth)
+ciod: Error loading <*>: invalid or missing program image, Exec format error: 1
+---------------------------
+---------------------------
+cluster 27: len=5
+Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK. (ground truth)
+Node card status: no ALERTs are active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK.: 1
+---------------------------
+---------------------------
+cluster 25: len=9
+Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*> (ground truth)
+Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=9
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed (ground truth)
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed: 1
+---------------------------
+---------------------------
+cluster 2: len=92
+CE sym <*>, at <*>, mask <*> (ground truth)
+CE sym <*>, at <*>, mask <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=35
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*) (ground truth)
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*): 1
+---------------------------
+---------------------------
+cluster 30: len=6
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=5
+ciod: generated <*> core files for program <*> (ground truth)
+ciod: generated <*> core files for program <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=15
+ciod: LOGIN chdir(<*>) failed: No such file or directory (ground truth)
+ciod: LOGIN chdir(<*>) failed: No such file or directory: 1
+---------------------------
+---------------------------
+cluster 33: len=208
+iar <*> dear <*> (ground truth)
+iar <*> dear <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=9
+Lustre mount FAILED : <*> : point <*> (ground truth)
+Lustre mount FAILED : <*> : point <*>: 1
+---------------------------
+---------------------------
+cluster 35: len=19
+ciod: Error loading <*>: invalid or missing program image, Permission denied (ground truth)
+ciod: Error loading <*>: invalid or missing program image, Permission denied: 1
+---------------------------
+---------------------------
+cluster 32: len=23
+ciod: generated <*> core files for program <*> (ground truth)
+ciod: generated <*> core files for program <*>: 1
+---------------------------
+---------------------------
+cluster 36: len=6
+data cache search parity error detected. attempting to correct (ground truth)
+data cache search <*> error detected. attempting to correct: 1
+---------------------------
+---------------------------
+cluster 39: len=7
+MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>) (ground truth)
+MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>): 1
+---------------------------
+---------------------------
+cluster 37: len=5
+Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (ground truth)
+Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>: 1
+---------------------------
+---------------------------
+cluster 40: len=8
+ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed (ground truth)
+ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed: 1
+---------------------------
+---------------------------
+cluster 38: len=16
+ciod: Received signal <*>, code=<*>, errno=<*>, address=<*> (ground truth)
+ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>: 1
+---------------------------
+---------------------------
+cluster 41: len=51
+<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr. (ground truth)
+<*> spent in the rbs signal handler during <*> calls. <*> was the maximum time for a single instance of a correctable ddr.: 1
+---------------------------
+---------------------------
+cluster 42: len=71
+<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt. (ground truth)
+<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.: 1
+---------------------------
+---------------------------
+cluster 43: len=7
+<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds (ground truth)
+<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 44: len=9
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (ground truth)
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*>: 1
+---------------------------
+---------------------------
+cluster 45: len=3
+ciod: failed to read message prefix on control stream (CioStream socket to <*> (ground truth)
+ciod: failed to read message prefix on control stream (CioStream socket to <*>: 1
+---------------------------
+---------------------------
+cluster 46: len=2
+force load/store alignment...............<*> (ground truth)
+force load/store alignment...............<*>: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+ciod: Message code <*> is not <*> or <*> (ground truth)
+ciod: Message code <*> is not <*> or <*>: 1
+---------------------------
+---------------------------
+cluster 54: len=2
+machine check enable..............<*> (ground truth)
+machine check enable..............<*>: 1
+---------------------------
+---------------------------
+cluster 50: len=2
+store operation.............................<*> (ground truth)
+store operation.............................<*>: 1
+---------------------------
+---------------------------
+cluster 51: len=4
+machine state register: <*> (ground truth)
+machine state register: <*>: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*> (ground truth)
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>: 1
+---------------------------
+---------------------------
+cluster 53: len=4
+floating point instr. enabled.....<*> (ground truth)
+floating point instr. enabled.....<*>: 1
+---------------------------
+---------------------------
+cluster 55: len=2
+program interrupt: unimplemented operation..<*> (ground truth)
+program interrupt: unimplemented operation..<*>: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+debug interrupt enable............<*> (ground truth)
+debug interrupt enable............<*>: 1
+---------------------------
+---------------------------
+cluster 52: len=3
+problem state (<*>=sup,<*>=usr).......<*> (ground truth)
+problem state (<*>=sup,<*>=usr).......<*>: 1
+---------------------------
+---------------------------
+cluster 49: len=1
+program interrupt: trap instruction.........<*> (ground truth)
+program interrupt: <*> instruction.........<*>: 1
+---------------------------
+---------------------------
+cluster 57: len=2
+byte ordering exception.....................<*> (ground truth)
+byte ordering exception.....................<*>: 1
+---------------------------
+---------------------------
+cluster 58: len=1
+program interrupt: fp cr update.............<*> (ground truth)
+program interrupt: <*> update.............<*>: 1
+---------------------------
+---------------------------
+cluster 59: len=2
+guaranteed instruction cache block touch.<*> (ground truth)
+guaranteed instruction cache block touch.<*>: 1
+---------------------------
+---------------------------
+cluster 61: len=1
+guaranteed data cache block touch........<*> (ground truth)
+guaranteed data cache block touch........<*>: 1
+---------------------------
+---------------------------
+cluster 60: len=4
+program interrupt: fp cr field .............<*> (ground truth)
+program interrupt: fp cr field .............<*>: 1
+---------------------------
+---------------------------
+cluster 65: len=1
+special purpose registers: (ground truth)
+special purpose registers:: 1
+---------------------------
+---------------------------
+cluster 62: len=3
+icache prefetch depth....................<*> (ground truth)
+icache prefetch <*>....................<*>: 1
+---------------------------
+---------------------------
+cluster 63: len=1
+wait state enable.................<*> (ground truth)
+wait state enable.................<*>: 1
+---------------------------
+---------------------------
+cluster 21: len=12
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: invalid or missing program image, No such file or directory: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+rts internal error (ground truth)
+rts internal error: 1
+---------------------------
+---------------------------
+cluster 68: len=2
+debug wait enable.................<*> (ground truth)
+debug wait enable.................<*>: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+instruction address space.........<*> (ground truth)
+instruction address space.........<*>: 1
+---------------------------
+---------------------------
+cluster 70: len=3
+disable store gathering..................<*> (ground truth)
+disable store gathering..................<*>: 1
+---------------------------
+---------------------------
+cluster 64: len=1
+critical input interrupt enable...<*> (ground truth)
+critical input interrupt enable...<*>: 1
+---------------------------
+---------------------------
+cluster 66: len=2
+lr:<*> cr:<*> xer:<*> ctr:<*> (ground truth)
+lr:<*> cr:<*> xer:<*> ctr:<*> r24=<*> r25=<*> r26=<*> r27=<*>: 1
+---------------------------
+---------------------------
+cluster 71: len=1
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>, <*>: 1
+---------------------------
+---------------------------
+cluster 72: len=1
+ciod: Error creating node map from file <*>: No child processes (ground truth)
+ciod: Error creating node map from file <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 73: len=1
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 74: len=3
+program interrupt (ground truth)
+<*>: 1
+---------------------------
+---------------------------
+cluster 76: len=1
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*> (ground truth)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>: 1
+---------------------------
+---------------------------
+cluster 75: len=1
+ciod: Error creating node map from file <*>: Bad file descriptor (ground truth)
+ciod: Error creating node map from file <*>: Bad file descriptor: 1
+---------------------------
+---------------------------
+cluster 78: len=2
+<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 83: len=1
+ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (ground truth)
+ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 82: len=1
+ciod: Error creating node map from file <*>: Permission denied (ground truth)
+ciod: Error creating node map from file <*>: Permission denied: 1
+---------------------------
+---------------------------
+cluster 84: len=1
+rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*> (ground truth)
+rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>: 1
+---------------------------
+---------------------------
+cluster 81: len=2
+rts panic! - stopping execution (ground truth)
+rts panic! - stopping execution: 1
+---------------------------
+---------------------------
+cluster 80: len=1
+ciod: Error creating node map from file <*>: Block device required (ground truth)
+ciod: Error creating node map from file <*>: Block device required: 1
+---------------------------
+---------------------------
+cluster 79: len=1
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*> (ground truth)
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 85: len=3
+New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*> (ground truth)
+New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>: 1
+---------------------------
+---------------------------
+cluster 77: len=2
+ciod: Missing or invalid fields on line <*> of node map file <*> (ground truth)
+ciod: Missing or invalid fields on line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 86: len=1
+NodeCard is not fully functional (ground truth)
+<*> is not fully functional: 1
+---------------------------
+---------------------------
+cluster 87: len=1
+Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK. (ground truth)
+Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. No temperature error. Temperature Limit Error Latch is clear. PGOOD is <*>. PGOOD error latch is clear. MPGOOD is <*>. MPGOOD error latch is clear. The <*> volt rail is <*>. The <*> volt rail is <*>.: 1
+---------------------------
+---------------------------
+cluster 88: len=2
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*> (ground truth)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>: 1
+---------------------------
+---------------------------
+cluster 89: len=1
+PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*> (ground truth)
+PrepareForService shutting down NodeCard(<*>) as part of Service Action <*>: 1
+---------------------------
+---------------------------
+cluster 90: len=1
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*> (ground truth)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>: 1
+---------------------------
+---------------------------
+cluster 91: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 92: len=3
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected (ground truth)
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected: 1
+---------------------------
+---------------------------
+cluster 95: len=1
+ciod: LOGIN chdir(<*>) failed: No such file or directory (ground truth)
+ciod: LOGIN chdir(<*>) failed: <*>: 1
+---------------------------
+---------------------------
+cluster 93: len=2
+ciod: LOGIN chdir(<*>) failed: No such file or directory (ground truth)
+ciod: LOGIN chdir(pwd) failed: No such file or directory: 1
+---------------------------
+---------------------------
+cluster 96: len=1
+<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 94: len=2
+NFS Mount failed on <*>, slept <*> seconds, retrying (<*>) (ground truth)
+NFS Mount failed on <*>, slept <*> seconds, retrying (<*>): 1
+---------------------------
+---------------------------
+cluster 101: len=1
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*> (ground truth)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>: 1
+---------------------------
+---------------------------
+cluster 97: len=3
+ciod: pollControlDescriptors: Detected the debugger died. (ground truth)
+ciod: pollControlDescriptors: Detected the debugger died.: 1
+---------------------------
+---------------------------
+cluster 100: len=2
+suppressing further interrupts of same type (ground truth)
+suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 98: len=1
+ciod: In packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*> <*> <*> <*>) (ground truth)
+ciod: In packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*>): 1
+---------------------------
+---------------------------
+cluster 103: len=3
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: invalid or missing program image, No such file or directory: 1
+---------------------------
+---------------------------
+cluster 99: len=1
+<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 102: len=1
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 105: len=1
+rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (ground truth)
+rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>: 1
+---------------------------
+---------------------------
+cluster 106: len=1
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 104: len=1
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: invalid or missing program image, <*>: 1
+---------------------------
+---------------------------
+cluster 108: len=1
+ciod: generated <*> core files for program <*> (ground truth)
+ciod: generated <*> core files for program <*>: 1
+---------------------------
+---------------------------
+cluster 107: len=1
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: invalid or missing program image, <*>: 1
+---------------------------
+---------------------------
+cluster 109: len=1
+critical input interrupt (unit=<*> bit=<*>): warning for torus y+ wire (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> <*> wire: 1
+---------------------------
+---------------------------
+cluster 110: len=1
+shutdown complete (ground truth)
+<*> complete: 1
+---------------------------
+---------------------------
+cluster 111: len=2
+ciod: Error loading <*>: invalid or missing program image, Exec format error (ground truth)
+ciod: Error loading <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 114: len=1
+ciod: generated <*> core files for program <*> (ground truth)
+ciod: generated <*> core files for program <*>: 1
+---------------------------
+---------------------------
+cluster 112: len=1
+critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> z- wire: 1
+---------------------------
+---------------------------
+cluster 113: len=1
+<*> L3 EDRAM error(s) (dcr <*>) detected and corrected (ground truth)
+<*> <*> EDRAM error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 115: len=2
+critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 118: len=2
+ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out (ground truth)
+ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out: 1
+---------------------------
+---------------------------
+cluster 116: len=2
+<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 117: len=2
+Lustre mount FAILED : <*> : block_id : location (ground truth)
+Lustre mount FAILED : <*> : block_id : location: 1
+---------------------------
+---------------------------
+cluster 119: len=4
+ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer (ground truth)
+ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer: 1
+---------------------------
+---------------------------
+cluster 120: len=1
+dbcr0=<*> dbsr=<*> ccr0=<*> (ground truth)
+dbcr0=<*> dbsr=<*> ccr0=<*>: 1
+---------------------------
+---------------------------
+cluster 122: len=1
+PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*> (ground truth)
+PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>: 1
+---------------------------
+---------------------------
+cluster 123: len=4
+total of <*> ddr error(s) detected and corrected over <*> seconds (ground truth)
+total of <*> ddr error(s) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 124: len=1
+minus normalized number..................<*> (ground truth)
+minus normalized number..................<*>: 1
+---------------------------
+---------------------------
+cluster 121: len=2
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds (ground truth)
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 125: len=1
+fraction rounded.........................<*> (ground truth)
+fraction rounded.........................<*>: 1
+---------------------------
+---------------------------
+cluster 127: len=1
+size of scratchpad portion of L3.........<*> (<*>) (ground truth)
+size of scratchpad portion of L3.........<*> (<*>): 1
+---------------------------
+---------------------------
+cluster 128: len=1
+ciod: LOGIN chdir(<*>) failed: Input/output error (ground truth)
+ciod: LOGIN chdir(<*>) failed: <*>: 1
+---------------------------
+---------------------------
+cluster 129: len=1
+<*> L3 EDRAM error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> <*> error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 126: len=1
+critical input interrupt (unit=<*> bit=<*>): warning for tree C1 wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 130: len=1
+ciod: Error loading <*>: program image too big, <*> > <*> (ground truth)
+ciod: Error loading <*>: program image too big, <*> > <*>: 1
+---------------------------
+---------------------------
+cluster 131: len=1
+fpr29=<*> (ground truth)
+fpr29=<*> ffffffff ffffffff ffffffff: 1
+---------------------------
+---------------------------
+cluster 132: len=1
+Machine State Register: <*> (ground truth)
+Machine State Register: <*>: 1
+---------------------------

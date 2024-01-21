@@ -1,3 +1,4 @@
+import os
 import scipy.special
 import pandas as pd
 from nltk.metrics.distance import edit_distance
@@ -5,20 +6,23 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 
 
-def evaluate(file, dataset):
+def evaluate(file, dataset, mismatch=False):
 
     df = pd.read_csv(file)
 
     # Remove invalid groundtruth event Ids
-    # null_logids = df[~df['EventTemplate'].isnull()].index
-    # df = df.loc[null_logids]
+    null_logids = df[~df['EventTemplate'].isnull()].index
+    df = df.loc[null_logids]
 
     accuracy_exact_string_matching = accuracy_score(np.array(df.EventTemplate.values, dtype='str'),
                                                     np.array(df.Output.values, dtype='str'))
     
-    # 找出不匹配的值
-    # df_mismatch = df[df.EventTemplate != df.Output]
-    # df_mismatch.to_csv(f'outputs/enhanced_gpt/1shot/mismatch/{dataset}.csv', index=False)
+    # find the mismatch values
+    if mismatch:
+        head,_,_ = file.rpartition('/')
+        os.makedirs(f'{head}/mismatch', exist_ok=True)
+        df_mismatch = df[df.EventTemplate != df.Output]
+        df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
 
 
     edit_distance_result = []
@@ -32,10 +36,10 @@ def evaluate(file, dataset):
     (precision, recall, f_measure, accuracy_PA) = get_accuracy(df['EventTemplate'],
                                                                df['Output'])
 
-    print(
-        'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
-            precision, recall, f_measure, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
-
+    # print(
+    #     'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
+    #         precision, recall, f_measure, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
+    print('%s: group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (dataset, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
     return accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, edit_distance_result_std
 
 
