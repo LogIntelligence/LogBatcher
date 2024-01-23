@@ -44,7 +44,7 @@ def cluster(vectorized_logs, num_clusters='10', cluster_method='kmeans'):
         cluster = KMeans(n_clusters=num_clusters)
     if cluster_method == 'dbscan':
         cluster = DBSCAN(eps=0.1, min_samples=5)
-    cluster.fit(vectorized_logs)
+    cluster.fit(vectorized_logs).fit(vectorized_logs)
     labels = cluster.labels_
     cluster_nums = max(labels) + 1
     return labels, cluster_nums
@@ -98,13 +98,12 @@ class Parser:
         return response.choices[0].message.content.strip('\n')
     
     def get_responce(self, f, input):
-        label,  logs, indexs, ground_truth = input
+        if len(input) == 4:
+            label,  logs, indexs, ground_truth = input
+        else:
+            label,  logs, indexs, ground_truth, template = input
         length = len(indexs)
         templates = []
-
-        # remove duplicate
-        logs = list(set(logs))
-
         if self.random:
             # seed = time.time()
             seed = 0
@@ -122,6 +121,9 @@ class Parser:
                 messages.append({"role": "system", "content": self.instruciton_one_log})
             else:
                 messages.append({"role": "system", "content": self.instruction_batch})
+
+            if len(input) > 4:
+                messages[0]['content'] += f'\nMaybe the template `{template}` is a good choice or a similar one.'
             # batch logs to str
             prompt = ""
             for log in batch_logs:
@@ -253,6 +255,10 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
         if inputs[label][3] == '':
             inputs[label][3] = df['EventTemplate'][i]
     
+    # small rag
+    candidate_tempaltes = []
+    split_tempaltes = []
+
     # Concurrent or not
     if isConcurrent:
         templates = []
@@ -264,8 +270,17 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
             for index in inputs[label][2]:
                 outputs[index] = template
     else:
-        for label in range(cluster_nums):
+        for label in tqdm(range(cluster_nums)):
+            for tmp_s, tmp_c in zip(split_tempaltes, candidate_tempaltes):
+                tmp_s = [element for element in tmp_s if '<*>' not in element]
+                if all(element in inputs[label][1][0] for element in tmp_s):
+                    print(tmp_s)
+                    inputs[label].append(tmp_c)
+                    break
             template = parser.get_responce(f, inputs[label])
+            if template not in candidate_tempaltes:
+                candidate_tempaltes.append(template)
+                split_tempaltes.append(template.split(' '))
             for index in inputs[label][2]:
                 outputs[index] = template
 
@@ -279,13 +294,13 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
                 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['Linux']
+    datasets = ['Linux', 'OpenStack', 'Proxifier']
     cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
     cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
                  # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
     output_dir = 'outputs/parser/Test/'
     for index, dataset in enumerate(datasets):
         k = cluster_nums[index]
-        single_dataset_paring(dataset, output_dir, cluster_method='dbscan')
+        single_dataset_paring(dataset, output_dir, cluster_method='dbscan', isConcurrent=False)
     
     # single_dataset_paring('Linux', cluster_method='dbscan')
