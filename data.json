@@ -1,0 +1,66 @@
+{
+    "HDFS": {
+        "length": 14,
+        "len2": 14
+    },
+    "Hadoop": {
+        "length": 114,
+        "len2": 114
+    },
+    "Spark": {
+        "length": 36,
+        "len2": 36
+    },
+    "Zookeeper": {
+        "length": 50,
+        "len2": 50
+    },
+    "BGL": {
+        "length": 120,
+        "len2": 120
+    },
+    "HPC": {
+        "length": 46,
+        "len2": 37
+    },
+    "Thunderbird": {
+        "length": 149,
+        "len2": 147
+    },
+    "Windows": {
+        "length": 50,
+        "len2": 50
+    },
+    "Linux": {
+        "length": 115,
+        "len2": 115
+    },
+    "Android": {
+        "length": 158,
+        "len2": 158
+    },
+    "HealthApp": {
+        "length": 75,
+        "len2": 75
+    },
+    "Apache": {
+        "length": 6,
+        "len2": 6
+    },
+    "Proxifier": {
+        "length": 8,
+        "len2": 8
+    },
+    "OpenSSH": {
+        "length": 26,
+        "len2": 25
+    },
+    "OpenStack": {
+        "length": 43,
+        "len2": 43
+    },
+    "Mac": {
+        "length": 341,
+        "len2": 335
+    }
+}

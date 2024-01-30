@@ -1,5 +1,6 @@
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
+from difflib import SequenceMatcher
 import os
 import random
 import pandas as pd
@@ -19,9 +20,10 @@ class clusters:
         self.logs = logs
         self.indexs = indexs
         self.ground_truth = ground_truth
-    
+
     def remove_duplicate(self):
         self.logs = list(set(self.logs))
+
 
 def tokenize(log_content, tokenize_pattern=r'[ ,]'):
     words = re.split(tokenize_pattern, log_content)
@@ -48,7 +50,7 @@ def cluster(vectorized_logs, num_clusters='10', cluster_method='kmeans'):
     labels = cluster.labels_
     cluster_nums = max(labels) + 1
     return labels, cluster_nums
-    
+
 
 def reassign_clusters(labels, cluster_nums, tokenized_logs):
     mergerd_logs = []
@@ -64,6 +66,7 @@ def reassign_clusters(labels, cluster_nums, tokenized_logs):
             cluster_nums += 1
     return labels, cluster_nums
 
+
 class Parser:
     def __init__(self, api_key, model='gpt-3.5-turbo', using_proxy=True, cluster_method='dbscan', batch_num=50):
         self.api_key = api_key
@@ -75,6 +78,22 @@ class Parser:
         Print the input log's template delimited by backticks.'''
         self.instruciton_one_log = '''You will be provided with a log message delimited by backticks. You must abstract variables with `{{placeholders}}` to extract the corresponding template.
         Print the input log's template delimited by backticks.'''
+        self.prompt_with_template_batch = '''You are an AI assistant for parsing logs.
+        You will be provided with some log messages. You should check if the giving log messages share the same template. If so, abstract variables with `<*>` to extract the corresponding template.
+        You will also be provided with a possible template. You might use the given template or generate a new one.
+        Log messages: 
+        {log}
+        Template: 
+        {template}
+        Print the input logs' template delimited by backticks: '''
+        self.prompt_with_template_one_log = '''You are an AI assistant for parsing logs.
+        You will be provided with a log message. You must abstract variables with `<*>` to extract the corresponding template.
+        You will also be provided with a possible template. You might use the given template or generate a new one.
+        Log message: 
+        {log}
+        Template: 
+        {template}
+        Print the input log's template delimited by backticks: '''
         if using_proxy:
             self.client = OpenAI(
                 base_url="https://oneapi.xty.app/v1",  # 中转url
@@ -96,12 +115,9 @@ class Parser:
             temperature=0.0,
         )
         return response.choices[0].message.content.strip('\n')
-    
+
     def get_responce(self, f, input):
-        if len(input) == 4:
-            label,  logs, indexs, ground_truth = input
-        else:
-            label,  logs, indexs, ground_truth, template = input
+        label, logs, indexs, ground_truth, template = input
         length = len(indexs)
         templates = []
         if self.random:
@@ -117,20 +133,25 @@ class Parser:
                 return batch_logs[0]
 
             messages = []
-            if len(batch_logs) == 1:
+            if len(batch_logs) == 1 and template == '':
                 messages.append({"role": "system", "content": self.instruciton_one_log})
-            else:
+                messages.append({"role": "user", "content": '\n'.join(batch_logs)})
+            elif len(batch_logs) > 1 and template == '':
                 messages.append({"role": "system", "content": self.instruction_batch})
+                messages.append({"role": "user", "content": '\n'.join(batch_logs)})
+            elif len(batch_logs) == 1 and template != '':
+                messages.append({"role": "user", "content": self.prompt_with_template_one_log.format(
+                    log=batch_logs[0], template=template)})
+            elif len(batch_logs) > 1 and template != '':
+                batch_logs = list(set(batch_logs))
+                messages.append({"role": "user", "content": self.prompt_with_template_batch.format(
+                    log='\n'.join(batch_logs), template=template)})
 
-            if len(input) > 4:
-                messages[0]['content'] += f'\nMaybe the template `{template}` is a good choice or a similar one.'
             # batch logs to str
-            prompt = ""
-            for log in batch_logs:
-                prompt += log + '\n'
-            messages.append({"role": "user", "content": prompt.strip('\n')})
+            
+            
             answer = self.chat(messages)
-            template =  postprocessing(answer , isafter=False)
+            template = postprocessing(answer, isafter=False)
             if template != '':
                 templates.append(template)
 
@@ -140,7 +161,7 @@ class Parser:
             # print(f"cluster {label}: len={length}")
 
             final_tempalte, freq = choose(templates)
-                
+
             # 打印结果
             for key, value in freq.items():
                 f.write(f"{key}: {value}\n")
@@ -149,9 +170,7 @@ class Parser:
             return final_tempalte
 
 
-
-
-def postprocessing(response, isafter = False):
+def postprocessing(response, isafter=False):
 
     response = response.strip().strip('\n')
     if "\n\n" in response:
@@ -164,7 +183,7 @@ def postprocessing(response, isafter = False):
         tmp = tmps[0]
     if len(tmps) > 1:
         tmp = max(tmps, key=len)
-    
+
     tmp = tmp.strip('\n').strip()
     tmp = re.sub(r'\{\{.*?\}\}', '<*>', tmp)
     template = tmp
@@ -178,8 +197,9 @@ def postprocessing(response, isafter = False):
             if re.match(r'^\d+$', tokens[i]):
                 tokens[i] = '<*>'
             for word in default_strings.union(boolean):
-                tokens[i] = re.sub(r'(?i)(?<![a-z])' + word + r'(?![a-z])','<*>', tokens[i], flags=re.IGNORECASE)
-            
+                tokens[i] = re.sub(
+                    r'(?i)(?<![a-z])' + word + r'(?![a-z])', '<*>', tokens[i], flags=re.IGNORECASE)
+
             if tokens[i].count('<*>') >= 2:
                 if tokens[i].startswith('/'):
                     tokens[i] = tokens[i][1:]
@@ -193,14 +213,12 @@ def postprocessing(response, isafter = False):
         template = ' '.join(tokens)
     return template
 
-    
-
 
 def choose(list):
 
     # majority vote
     freq = Counter(list)
-    length = len(freq) 
+    length = len(freq)
     candidates = freq.most_common(len(freq))
     final_template = ''
     if length == 0:
@@ -220,87 +238,105 @@ def choose(list):
             final_template = candidates[1][0]
     return final_template, freq
 
+def get_candidate_template(candidate_tempaltes, logs):
+    log = ' '.join(tokenize(logs[0]))
+    best_match = ''
+    best_similarity = 0
 
-def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', isConcurrent = True):
+    for candidate in candidate_tempaltes:
+        similarity = SequenceMatcher(None, log, candidate).ratio()
+
+        if similarity > best_similarity:
+            best_similarity = similarity
+            best_match = candidate
+
+    if best_similarity < 0.4:
+        best_match = ''
+
+    return best_match, best_similarity
+
+def single_dataset_paring(dataset, output_dir, k=10, cluster_method='kmeans', isConcurrent=True):
 
     parser = Parser(
         api_key='sk-mE91TMZY8yikxpif8fBa64F0BaBa4d76BcCdD0Cb13F437D2')
-    
+
     # load dataset
-    df = pd.read_csv(f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
+    df = pd.read_csv(
+        f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
     logs = df['Content'].tolist()
 
     # tokenize
     tokenized_logs = [tokenize(log) for log in logs]
-    
+
     # cluster 1st
-    labels, cluster_nums = cluster(vectorize(tokenized_logs), k, cluster_method)
-    
+    labels, cluster_nums = cluster(
+        vectorize(tokenized_logs), k, cluster_method)
+
     # reassign_clusters
-    labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
+    labels, cluster_nums = reassign_clusters(
+        labels, cluster_nums, tokenized_logs)
 
     # output file
     os.makedirs(output_dir, exist_ok=True)
     f = open(output_dir + f'{dataset}.txt', 'w')
 
     outputs = [None for _ in range(2000)]
-    
+
     inputs = []
     for i in range(cluster_nums):
-        inputs.append([-1, [], [], '']) # label, logs, indexs, ground_truth
+        inputs.append([-1, [], [], '', ''])  # label, logs, indexs, ground_truth, candidate_template
     for i, label in enumerate(labels):
         inputs[label][0] = label
         inputs[label][1].append(logs[i])
         inputs[label][2].append(i)
         if inputs[label][3] == '':
             inputs[label][3] = df['EventTemplate'][i]
-    
+
     # small rag
     candidate_tempaltes = []
-    split_tempaltes = []
 
     # Concurrent or not
     if isConcurrent:
         templates = []
         with ThreadPoolExecutor(max_workers=16) as executor:
             templates = list(
-                tqdm(executor.map(parser.get_responce,[f]*len(inputs), inputs),
-                    total=len(inputs)))
+                tqdm(executor.map(parser.get_responce, [f]*len(inputs), inputs),
+                     total=len(inputs)))
         for label, template in enumerate(templates):
             for index in inputs[label][2]:
                 outputs[index] = template
     else:
+        inputs = sorted(inputs, key=lambda x: len(x[1]), reverse=True)
         for label in tqdm(range(cluster_nums)):
-            for tmp_s, tmp_c in zip(split_tempaltes, candidate_tempaltes):
-                tmp_s = [element for element in tmp_s if '<*>' not in element]
-                if all(element in inputs[label][1][0] for element in tmp_s):
-                    print(tmp_s)
-                    inputs[label].append(tmp_c)
-                    break
+            candidate_tempalte, s = get_candidate_template(candidate_tempaltes, inputs[label][1])
+            inputs[label][4] = candidate_tempalte
             template = parser.get_responce(f, inputs[label])
             if template not in candidate_tempaltes:
                 candidate_tempaltes.append(template)
-                split_tempaltes.append(template.split(' '))
             for index in inputs[label][2]:
                 outputs[index] = template
 
     # write to file
     f.close()
     df['Output'] = outputs
-    df[['Content', 'EventTemplate', 'Output']].to_csv(output_dir+ f'{dataset}.csv', index=False)
+    df[['Content', 'EventTemplate', 'Output']].to_csv(
+        output_dir + f'{dataset}.csv', index=False)
 
 
 # main
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
                 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['Linux', 'OpenStack', 'Proxifier']
-    cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
-    cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
-                 # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
+    datasets = ['OpenSSH', 'Proxifier']
+    cluster_nums = [132, 14, 143, 71, 56, 180,
+                    14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
+    cluster_nums = [120, 14, 116, 75, 43,  26,
+                    8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
+    # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
     output_dir = 'outputs/parser/Test/'
     for index, dataset in enumerate(datasets):
         k = cluster_nums[index]
-        single_dataset_paring(dataset, output_dir, cluster_method='dbscan', isConcurrent=False)
-    
+        single_dataset_paring(dataset, output_dir,
+                              cluster_method='dbscan', isConcurrent=False)
+
     # single_dataset_paring('Linux', cluster_method='dbscan')
