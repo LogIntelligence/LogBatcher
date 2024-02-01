@@ -39,6 +39,7 @@ def evaluate(file, dataset, mismatch=False):
     # print(
     #     'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
     #         precision, recall, f_measure, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
+    dataset = ' ' * (12 - len(dataset)) + dataset 
     print('%s: group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (dataset, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
     return accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, edit_distance_result_std
 
