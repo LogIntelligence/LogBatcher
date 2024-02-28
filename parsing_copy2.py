@@ -71,13 +71,13 @@ def reassign_clusters(labels, cluster_nums, tokenized_logs):
     return labels, cluster_nums
 
 
-def find_closest_matches(target, list1, list2, n=5):
+def find_closest_matches(target, list1, list2, n=3):
     matches = difflib.get_close_matches(target, list1, n=n,cutoff=0.1)
     indices = [list1.index(match) for match in matches]
     return [list1[index] for index in indices],[list2[index] for index in indices]
 
 class Parser:
-    def __init__(self, api_key, model='gpt-3.5-turbo', using_proxy=True, cluster_method='dbscan', batch_num=50):
+    def __init__(self, api_key, model='gpt-4-0125-preview', using_proxy=False, cluster_method='dbscan', batch_num=50):
         self.api_key = api_key
         self.model = model
         self.cluster_method = cluster_method
@@ -89,15 +89,15 @@ class Parser:
         Print the input log's template delimited by backticks.'''
         if using_proxy:
             self.client = OpenAI(
-                base_url="https://oneapi.xty.app/v1",  # 中转url
+                base_url="https://4.0.996444.icu/v1",  # 中转url
                 api_key=api_key,                      # api_key
-                http_client=httpx.Client(
-                    proxies="http://127.0.0.1:7890"  # 代理地址
-                ),
+                # http_client=httpx.Client(
+                #     proxies="http://127.0.0.1:7890"  # 代理地址
+                # ),
             )
         else:
             self.client = OpenAI(
-                base_url="https://oneapi.xty.app/v1", api_key=api_key)
+                base_url="https://4.0.996444.icu/v1", api_key=api_key)
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
     @retry(wait=wait_random_exponential(min=1, max=30), stop=stop_after_attempt(5))
@@ -115,7 +115,7 @@ class Parser:
         templates = []
 
         # remove duplicate
-        logs = list(set(logs))
+        # logs = list(set(logs))
 
         if self.random:
             # seed = time.time()
@@ -138,14 +138,20 @@ class Parser:
             # add demonstration
             demonstration_templates
             demonstration_logs
-            list_t, list_l = find_closest_matches(logs[0], demonstration_templates, demonstration_logs, 3)
+            list_t, list_l = find_closest_matches(logs[0], demonstration_templates, demonstration_logs, 1)
             for template, log in zip(list_t, list_l):
                 messages.append({"role": "user", "content": log})
                 messages.append({"role": "assistant", "content": '`'+template+'`'})
             # batch logs to str
             prompt = ""
+            length_prompt = 0
             for log in batch_logs:
                 prompt += log + '\n'
+                length_prompt += len(log)
+            if length_prompt > 4096:
+                prompt = ""
+                for log in batch_logs[:5]:
+                    prompt += log + '\n'
             messages.append({"role": "user", "content": prompt.strip('\n')})
             # print(messages)
             answer = self.chat(messages)
@@ -241,10 +247,10 @@ def choose(list):
 
 
 def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', isConcurrent = True):
-
+    print(f'Parsing {dataset}...')
     parser = Parser(
-        api_key='sk-6ZwLXFPGK6pVfKrKFdDcA5D2B25f480285Be7a17A0385d8b') # sk-mE91TMZY8yikxpif8fBa64F0BaBa4d76BcCdD0Cb13F437D2
-    
+        api_key='sk-uKIBg7nO7tcSRH5kDcDe9646C50542Ca93Bd2cAd60B9C05a')  # sk-uKIBg7nO7tcSRH5kDcDe9646C50542Ca93Bd2cAd60B9C05a
+    # sk-j9uJ8yuwjNL2fgre21C203D01f1546EcA389F514C94829Ff
     
     # discard the target dataset
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
@@ -318,13 +324,11 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
                 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack']
+    datasets = ['Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
     cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
     cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
                  # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
-    
-    # datasets = ['Apache']
-    output_dir = 'outputs/parser/5_shot_2/'
+    output_dir = 'outputs/parser/gpt4_1shot_noRD/'
     # single_dataset_paring('Spark', output_dir, cluster_method='dbscan')
     for index, dataset in enumerate(datasets):
         k = cluster_nums[index]

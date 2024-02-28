@@ -10,6 +10,7 @@ from openai import OpenAI
 import httpx
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 from tqdm import tqdm
+from evaluator import evaluate
 from post_process import correct_single_template
 
 
@@ -65,7 +66,7 @@ def reassign_clusters(labels, cluster_nums, tokenized_logs):
     return labels, cluster_nums
 
 class Parser:
-    def __init__(self, api_key, model='gpt-3.5-turbo', using_proxy=True, cluster_method='dbscan', batch_num=50):
+    def __init__(self, api_key, model='gpt-3.5-turbo-16k-0613', using_proxy=False, cluster_method='dbscan', batch_num=50):
         self.api_key = api_key
         self.model = model
         self.cluster_method = cluster_method
@@ -77,11 +78,12 @@ class Parser:
         Print the input log's template delimited by backticks.'''
         if using_proxy:
             self.client = OpenAI(
-                base_url="https://oneapi.xty.app/v1",  # 中转url
+                # 3.5 https://oneapi.xty.app/v1
+                base_url="https://4.0.996444.icu/v1",  # 中转url
                 api_key=api_key,                      # api_key
-                http_client=httpx.Client(
-                    proxies="http://127.0.0.1:7890"  # 代理地址
-                ),
+                # http_client=httpx.Client(
+                #     proxies="http://127.0.0.1:7890"  # 代理地址
+                # ),
             )
         else:
             self.client = OpenAI(
@@ -98,12 +100,12 @@ class Parser:
         return response.choices[0].message.content.strip('\n')
     
     def get_responce(self, f, input):
-        label,  logs, indexs, ground_truth = input
+        label, logs, indexs, ground_truth = input
         length = len(indexs)
         templates = []
 
         # remove duplicate
-        logs = list(set(logs))
+        # logs = list(set(logs))
 
         if self.random:
             # seed = time.time()
@@ -124,8 +126,14 @@ class Parser:
                 messages.append({"role": "system", "content": self.instruction_batch})
             # batch logs to str
             prompt = ""
+            length_prompt = 0
             for log in batch_logs:
                 prompt += log + '\n'
+                length_prompt += len(log)
+            if length_prompt > 4096:
+                prompt = ""
+                for log in batch_logs[:5]:
+                    prompt += log + '\n'
             messages.append({"role": "user", "content": prompt.strip('\n')})
             answer = self.chat(messages)
             template =  postprocessing(answer , isafter=False)
@@ -220,10 +228,11 @@ def choose(list):
 
 
 def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', isConcurrent = True):
-
+    print(f'Parsing {dataset}...')
     parser = Parser(
-        api_key='sk-mE91TMZY8yikxpif8fBa64F0BaBa4d76BcCdD0Cb13F437D2')
-    
+        api_key='sk-j9uJ8yuwjNL2fgre21C203D01f1546EcA389F514C94829Ff')
+    # sk-4iNXitFaZ2fOJdtq8b89D44229Ec4fAd9c0f00D4087c6541 4.0
+    # sk-6ZwLXFPGK6pVfKrKFdDcA5D2B25f480285Be7a17A0385d8b 3.5
     # load dataset
     df = pd.read_csv(f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
     logs = df['Content'].tolist()
@@ -273,6 +282,7 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
     f.close()
     df['Output'] = outputs
     df[['Content', 'EventTemplate', 'Output']].to_csv(output_dir+ f'{dataset}.csv', index=False)
+    evaluate(output_dir + f'{dataset}.csv', dataset)
 
 
 # main
@@ -280,6 +290,7 @@ if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
                 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
     datasets = ['Linux']
+    # datasets = ['Thunderbird', 'Spark']
     cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
     cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
                  # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
