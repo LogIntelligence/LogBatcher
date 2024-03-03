@@ -66,7 +66,7 @@ def reassign_clusters(labels, cluster_nums, tokenized_logs):
     return labels, cluster_nums
 
 class Parser:
-    def __init__(self, api_key, model='gpt-3.5-turbo-16k-0613', using_proxy=False, cluster_method='dbscan', batch_num=50):
+    def __init__(self, api_key, model='gpt-3.5-turbo-0613', using_proxy=True, cluster_method='dbscan', batch_num=50):
         self.api_key = api_key
         self.model = model
         self.cluster_method = cluster_method
@@ -78,12 +78,12 @@ class Parser:
         Print the input log's template delimited by backticks.'''
         if using_proxy:
             self.client = OpenAI(
-                # 3.5 https://oneapi.xty.app/v1
-                base_url="https://4.0.996444.icu/v1",  # 中转url
+                # 3.5 https://4.0.996444.icu/v1
+                base_url="https://oneapi.xty.app/v1",  # 中转url
                 api_key=api_key,                      # api_key
-                # http_client=httpx.Client(
-                #     proxies="http://127.0.0.1:7890"  # 代理地址
-                # ),
+                http_client=httpx.Client(
+                    proxies="http://127.0.0.1:7890"  # 代理地址
+                ),
             )
         else:
             self.client = OpenAI(
@@ -107,6 +107,10 @@ class Parser:
         # remove duplicate
         # logs = list(set(logs))
 
+        # remove duplicate conditionally
+        # if len(list(set(logs))) == 1:
+        #     logs = list(set(logs))
+        
         if self.random:
             # seed = time.time()
             seed = 0
@@ -116,7 +120,7 @@ class Parser:
         for i in range(0, len(logs), self.batch_num):
             batch_logs = logs[i:i+self.batch_num]
             # if all logs's length is 1, and not contain any digit, return the log itself
-            if all(len(re.split(' ', log)) == 1 and not any(char.isdigit() for char in log[0]) for log in batch_logs):
+            if all(len(re.split(' ', log)) == 1 and not any(char.isdigit() for char in log) for log in batch_logs):
                 return batch_logs[0]
 
             messages = []
@@ -289,12 +293,12 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
                 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['Linux']
+    # datasets = ['Linux']
     # datasets = ['Thunderbird', 'Spark']
     cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
     cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
                  # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
-    output_dir = 'outputs/parser/Test/'
+    output_dir = 'outputs/parser/0613_0shot_RDC/'
     for index, dataset in enumerate(datasets):
         k = cluster_nums[index]
         single_dataset_paring(dataset, output_dir, cluster_method='dbscan')

@@ -1939,7 +1939,7 @@ Detected 731.219 MHz processor.,Detected <*> MHz processor.,Detected <*> MHz pro
 Version 1.0.6 Starting,Version <*> Starting,Version <*> Starting
 Using tsc for high-res timesource,Using tsc for high-res timesource,Using <*> for high-res timesource
 rpc.statd startup succeeded,<*> startup succeeded,rpc.statd <*> succeeded
-Console: colour VGA+ 80x25,Console: colour VGA+ <*>,Console: <*> VGA+ <*>
+Console: colour VGA+ 80x25,Console: colour VGA+ <*>,Console: <*> <*> <*>
 "Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)","Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)","Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
 Calibrating delay loop... 1445.88 BogoMIPS,Calibrating delay loop... <*> BogoMIPS,Calibrating delay loop... <*> BogoMIPS
 Security Scaffold v1.0.0 initialized,Security Scaffold <*> initialized,Security Scaffold <*> initialized
