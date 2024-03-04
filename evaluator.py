@@ -45,6 +45,14 @@ def evaluate(file, dataset, mismatch=False):
 
 
 def get_accuracy(series_groundtruth, series_parsedlog, debug=False):
+
+    # apply <*> <*> to <*>
+    # for log in series_parsedlog:
+    #     if type(log) != str:
+    #         continue
+    #     while '<*> <*>' in log:
+    #         log = log.replace('<*> <*>', '<*>')
+
     series_groundtruth_valuecounts = series_groundtruth.value_counts()
     real_pairs = 0
     for count in series_groundtruth_valuecounts:

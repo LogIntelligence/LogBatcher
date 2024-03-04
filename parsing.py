@@ -31,6 +31,8 @@ def tokenize(log_content, tokenize_pattern=r'[ ,]'):
             words[index] = word.split('=')[0]
         if re.search(r'\d', word):
             words[index] = ''
+        if '/' in word:
+            words[index] = ''
     words = [word for word in words if word]   # remove null
     return words
 
@@ -73,7 +75,7 @@ class Parser:
         self.batch_num = batch_num
         self.random = True
         self.instruction_batch = '''You will be provided with some log messages. You should check if the giving log messages share the same template. If so, abstract variables with `{{placeholders}}` to extract the corresponding template.
-        Print the input log's template delimited by backticks.'''
+        Print the input log's template delimited by backticks.'''  # The variables might be numbers, strings(name, url, path, data and time), or other types of data.
         self.instruciton_one_log = '''You will be provided with a log message delimited by backticks. You must abstract variables with `{{placeholders}}` to extract the corresponding template.
         Print the input log's template delimited by backticks.'''
         if using_proxy:
@@ -117,6 +119,8 @@ class Parser:
             random.seed(seed)
             random.shuffle(logs)
 
+
+
         for i in range(0, len(logs), self.batch_num):
             batch_logs = logs[i:i+self.batch_num]
             # if all logs's length is 1, and not contain any digit, return the log itself
@@ -144,19 +148,17 @@ class Parser:
             if template != '':
                 templates.append(template)
 
-            f.write(f"---------------------------\n")
-            f.write(f"cluster {label}: len={length}\n")
-            f.write(f"{ground_truth} (ground truth)\n")
-            # print(f"cluster {label}: len={length}")
+        final_tempalte, freq = choose(templates)
 
-            final_tempalte, freq = choose(templates)
-                
-            # 打印结果
-            for key, value in freq.items():
-                f.write(f"{key}: {value}\n")
-                # print(f"{key}: {value}")
-            f.write(f"---------------------------\n")
-            return final_tempalte
+        f.write(f"---------------------------\n")
+        f.write(f"cluster {label}: len={length}\n")
+        f.write(f"{ground_truth} (ground truth)\n")
+        # 打印结果
+        for key, value in freq.items():
+            f.write(f"{key}: {value}\n")
+            # print(f"{key}: {value}")
+        f.write(f"---------------------------\n")
+        return final_tempalte
 
 
 
@@ -215,8 +217,13 @@ def choose(list):
     final_template = ''
     if length == 0:
         pass
-    elif length == 1 or candidates[0][1] > candidates[1][1]:
+    elif length == 1:
         final_template = candidates[0][0]
+    elif not all(any (char.isdigit() for char in log) for log in list):
+            list = [log for log in list if not any(char.isdigit() for char in log)]
+            freq = Counter(list)
+            candidates = freq.most_common(len(freq))
+            final_template = candidates[0][0]
     else:
         count1 = 0
         count2 = 0
@@ -234,7 +241,7 @@ def choose(list):
 def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', isConcurrent = True):
     print(f'Parsing {dataset}...')
     parser = Parser(
-        api_key='sk-j9uJ8yuwjNL2fgre21C203D01f1546EcA389F514C94829Ff')
+        api_key='sk-6ZwLXFPGK6pVfKrKFdDcA5D2B25f480285Be7a17A0385d8b')
     # sk-4iNXitFaZ2fOJdtq8b89D44229Ec4fAd9c0f00D4087c6541 4.0
     # sk-6ZwLXFPGK6pVfKrKFdDcA5D2B25f480285Be7a17A0385d8b 3.5
     # load dataset
@@ -293,12 +300,12 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
                 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    # datasets = ['Linux']
+    datasets = ['Windows', 'Apache', 'Thunderbird', 'Spark']
     # datasets = ['Thunderbird', 'Spark']
     cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
     cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
                  # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
-    output_dir = 'outputs/parser/0613_0shot_RDC/'
+    output_dir = 'outputs/parser/Test/'
     for index, dataset in enumerate(datasets):
         k = cluster_nums[index]
         single_dataset_paring(dataset, output_dir, cluster_method='dbscan')
