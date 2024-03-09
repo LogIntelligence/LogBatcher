@@ -26,12 +26,13 @@ class clusters:
 
 def tokenize(log_content, tokenize_pattern=r'[ ,]'):
     words = re.split(tokenize_pattern, log_content)
+    list = ['/', 'kb', 'sec', 'byte', 'mb']
     for index, word in enumerate(words):
         if '=' in word:
             words[index] = word.split('=')[0]
         if re.search(r'\d', word):
             words[index] = ''
-        if '/' in word:
+        if any(i in word.lower() for i in list):
             words[index] = ''
     words = [word for word in words if word]   # remove null
     return words
@@ -68,7 +69,7 @@ def reassign_clusters(labels, cluster_nums, tokenized_logs):
     return labels, cluster_nums
 
 class Parser:
-    def __init__(self, api_key, model='gpt-3.5-turbo-0613', using_proxy=True, cluster_method='dbscan', batch_num=50):
+    def __init__(self, api_key, model='gpt-4-0125-preview', using_proxy=True, cluster_method='dbscan', batch_num=50):
         self.api_key = api_key
         self.model = model
         self.cluster_method = cluster_method
@@ -119,8 +120,6 @@ class Parser:
             random.seed(seed)
             random.shuffle(logs)
 
-
-
         for i in range(0, len(logs), self.batch_num):
             batch_logs = logs[i:i+self.batch_num]
             # if all logs's length is 1, and not contain any digit, return the log itself
@@ -132,6 +131,13 @@ class Parser:
                 messages.append({"role": "system", "content": self.instruciton_one_log})
             else:
                 messages.append({"role": "system", "content": self.instruction_batch})
+
+            # 1 demonstration
+            messages.append(
+                {"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
+            messages.append(
+                {"role": "assistant", "content": '''`{{TIME}} ksfetch[{{ID_AND_ADDRESS}}] [lvl={{LEVEL}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{ADDRESS}}> { URL: {{URL}} }) to folder:{{PATH}}`'''})
+
             # batch logs to str
             prompt = ""
             length_prompt = 0
@@ -241,10 +247,7 @@ def choose(list):
 def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', isConcurrent = True):
     print(f'Parsing {dataset}...')
     parser = Parser(
-        api_key='sk-6ZwLXFPGK6pVfKrKFdDcA5D2B25f480285Be7a17A0385d8b')
-    # sk-4iNXitFaZ2fOJdtq8b89D44229Ec4fAd9c0f00D4087c6541 4.0
-    # sk-6ZwLXFPGK6pVfKrKFdDcA5D2B25f480285Be7a17A0385d8b 3.5
-    # load dataset
+        api_key='sk-zY5LaAEd3EUdBVmKA75aDe77C9684c209b128b981826C043')
     df = pd.read_csv(f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
     logs = df['Content'].tolist()
 
@@ -300,7 +303,7 @@ def single_dataset_paring(dataset, output_dir, k = 10, cluster_method='kmeans', 
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
                 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['Windows', 'Apache', 'Thunderbird', 'Spark']
+    # datasets = ['Windows', 'Apache', 'Thunderbird', 'Spark']
     # datasets = ['Thunderbird', 'Spark']
     cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
     cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]

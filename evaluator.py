@@ -5,6 +5,12 @@ from nltk.metrics.distance import edit_distance
 from sklearn.metrics import accuracy_score
 import numpy as np
 
+def rule(log):
+    if type(log) != str:
+        return log
+    while '<*> <*>' in log:
+        log = log.replace('<*> <*>', '<*>')
+    return log
 
 def evaluate(file, dataset, mismatch=False):
 
@@ -14,8 +20,8 @@ def evaluate(file, dataset, mismatch=False):
     null_logids = df[~df['EventTemplate'].isnull()].index
     df = df.loc[null_logids]
 
-    accuracy_exact_string_matching = accuracy_score(np.array(df.EventTemplate.values, dtype='str'),
-                                                    np.array(df.Output.values, dtype='str'))
+    accuracy_exact_string_matching = accuracy_score(np.array(df['EventTemplate'].values, dtype='str'),
+                                                    np.array(df['Output'].apply(rule).values, dtype='str'))
     
     # find the mismatch values
     if mismatch:
@@ -34,7 +40,7 @@ def evaluate(file, dataset, mismatch=False):
     edit_distance_result_std = np.std(edit_distance_result)
 
     (precision, recall, f_measure, accuracy_PA) = get_accuracy(df['EventTemplate'],
-                                                               df['Output'])
+                                                               df['Output'].apply(rule))
 
     # print(
     #     'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
@@ -45,13 +51,6 @@ def evaluate(file, dataset, mismatch=False):
 
 
 def get_accuracy(series_groundtruth, series_parsedlog, debug=False):
-
-    # apply <*> <*> to <*>
-    # for log in series_parsedlog:
-    #     if type(log) != str:
-    #         continue
-    #     while '<*> <*>' in log:
-    #         log = log.replace('<*> <*>', '<*>')
 
     series_groundtruth_valuecounts = series_groundtruth.value_counts()
     real_pairs = 0
