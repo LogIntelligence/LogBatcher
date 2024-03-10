@@ -132,11 +132,34 @@ class Parser:
             else:
                 messages.append({"role": "system", "content": self.instruction_batch})
 
-            # 1 demonstration
-            # messages.append(
-            #     {"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
-            # messages.append(
-            #     {"role": "assistant", "content": '''`{{TIME}} ksfetch[{{ID_AND_ADDRESS}}] [lvl={{LEVEL}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{ADDRESS}}> { URL: {{URL}} }) to folder:{{PATH}}`'''})
+            # demonstrations
+                
+            # log + template
+            messages.append(
+                {"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
+            messages.append(
+                {"role": "assistant", "content": '''`{{TIME}} ksfetch[{{ID_AND_ADDRESS}}] [lvl={{LEVEL}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{ADDRESS}}> { URL: {{URL}} }) to folder:{{PATH}}`'''})
+            messages.append(
+                {"role": "user", "content": '''Loading offline registry hive: SOFTWARE, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SOFTWARE'.'''})
+            messages.append(
+                {"role": "assistant", "content": '''`Loading offline registry hive: {{HIVE}}, into registry key '{{KEY}}' from path '{{PATH}}'.`'''})
+            messages.append(
+                {"role": "user", "content": '''[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f9af3646900 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}'''})
+            messages.append(
+                {"role": "assistant", "content": '''`[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:{{URL}}] Error Domain=NSURLErrorDomain Code={{CODE}} "The request timed out." UserInfo={NSUnderlyingError={{ADDRESS}} {Error Domain=kCFErrorDomainCFNetwork Code={{CODE}} "The request timed out." UserInfo={NSErrorFailingURLStringKey={{URL}}, NSErrorFailingURLKey={{URL}}, _kCFStreamErrorCodeKey={{KEY}}, _kCFStreamErrorDomainKey={{KEY}}, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey={{URL}}, NSErrorFailingURLKey={{KEY}}, _kCFStreamErrorDomainKey={{KEY}}, _kCFStreamErrorCodeKey={{KEY}}, NSLocalizedDescription=The request timed out.}`'''})
+
+            # variable
+            messages.append(
+                {"role": "user", "content": '''Kernel detected 35591540 integer alignment exceptions (35591533) iar 0x0023f108, dear 0x1feaa260 (35591534) iar 0x00265564, dear 0x1feaa1c0 (35591535) iar 0x00265574, dear 0x1feaa1e0 (35591536) iar 0x00265578, dear 0x1feaa200 (35591537) iar 0x00265588, dear 0x1feaa220 (35591538) iar 0x0026558c, dear 0x1feaa240 (35591539) iar 0x00265594, dear 0x1feaa260 (35591540) iar 0x00265598, dear 0x1feaa280'''})
+            messages.append(
+                {"role": "assistant", "content": '''`Kernel detected {{COUNT}} integer alignment exceptions ({{ID}}) iar {{ADDRESS}}, dear {{ADDRESS}} ({{COUNT}}) iar {{ADDRESS}}, dear {{ADDRESS}} ({{COUNT}}) iar {{ADDRESS}}, dear {{ADDRESS}} ({{COUNT}}) iar {{ADDRESS}}, dear {{ADDRESS}} ({{COUNT}}) iar {{ADDRESS}}, dear {{ADDRESS}} ({{COUNT}}) iar {{ADDRESS}}, dear {{ADDRESS}} ({{COUNT}}) iar {{ADDRESS}}, dear {{ADDRESS}} ({{COUNT}}) iar {{ADDRESS}}, dear {{ADDRESS}}`'''})
+            messages.append(
+                {"role": "user", "content": '''2017-07-07 10:54:41.875 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:0x100365950 productID=com.google.Chrome version=59.0.3071.115 xc=<KSPathExistenceChecker:0x10036e950 path=/Applications/Google Chrome.app> serverType=Omaha url=https://tools.google.com/service/update2 creationDate=2017-02-18 15:41:18 tagPath=/Applications/Google Chrome.app/Contents/Info.plist tagKey=KSChannelID brandPath=/Users/xpc/Library/Google/Google Chrome Brand.plist brandKey=KSBrandID versionPath=/Applications/Google Chrome.app/Contents/Info.plist versionKey=KSVersion cohort=1:1y5: cohortName=Stable ticketVersion=1 > )} Using server: <KSOmahaServer:0x100243f20 engine=<KSUpdateEngine:0x1007161b0> >'''})
+            messages.append(
+                {"role": "assistant", "content": '''`{{TIME}} GoogleSoftwareUpdateAgent[{{ID}}] [lvl={{LEVEL}}] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:{{ADDRESS}} productID={{ID}} version={{VERSION}} xc=<KSPathExistenceChecker:{{ADDRESS}} path={{PATH}} serverType=Omaha url={{URL}} creationDate={{DATA}} tagPath={{PATH}} tagKey=KSChannelID brandPath={{PATH}} brandKey=KSBrandID versionPath={{PATH}} versionKey=KSVersion cohort={{ID}}: cohortName=Stable ticketVersion={{VERSION}} > )} Using server: <KSOmahaServer:{{ADDRESS}} engine=<KSUpdateEngine:{{ADDRESS}} >`'''})
+
+            # template
+
 
             # batch logs to str
             prompt = ""
@@ -308,7 +331,7 @@ if __name__ == "__main__":
     cluster_nums = [132, 14, 143, 71, 56, 180, 14, 51, 54, 350, 115, 189, 57, 6, 194, 38]
     cluster_nums = [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
                  # [120, 14, 116, 75, 43,  26,  8, 46, 50, 341, 114, 158, 50, 6, 149, 36]
-    output_dir = 'outputs/parser/Test/'
+    output_dir = 'outputs/parser/0125_2shot_V/'
     for index, dataset in enumerate(datasets):
         k = cluster_nums[index]
         single_dataset_paring(dataset, output_dir, cluster_method='dbscan')
