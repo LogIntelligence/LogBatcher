@@ -69,7 +69,7 @@ def reassign_clusters(labels, cluster_nums, tokenized_logs):
     return labels, cluster_nums
 
 class Parser:
-    def __init__(self, api_key, model='gpt-4-0125-preview', using_proxy=True, cluster_method='dbscan', batch_num=50):
+    def __init__(self, api_key, model='gpt-3.5-turbo-0125', using_proxy=True, cluster_method='dbscan', batch_num=50):
         self.api_key = api_key
         self.model = model
         self.cluster_method = cluster_method
@@ -133,10 +133,10 @@ class Parser:
                 messages.append({"role": "system", "content": self.instruction_batch})
 
             # 1 demonstration
-            messages.append(
-                {"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
-            messages.append(
-                {"role": "assistant", "content": '''`{{TIME}} ksfetch[{{ID_AND_ADDRESS}}] [lvl={{LEVEL}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{ADDRESS}}> { URL: {{URL}} }) to folder:{{PATH}}`'''})
+            # messages.append(
+            #     {"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
+            # messages.append(
+            #     {"role": "assistant", "content": '''`{{TIME}} ksfetch[{{ID_AND_ADDRESS}}] [lvl={{LEVEL}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{ADDRESS}}> { URL: {{URL}} }) to folder:{{PATH}}`'''})
 
             # batch logs to str
             prompt = ""
