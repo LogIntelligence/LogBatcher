@@ -1,0 +1,72 @@
+---------------------------
+cluster 5: len=20
+Verification succeeded for <*> (ground truth)
+Verification succeeded for <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=2
+Received block <*> src: <*>:<*> dest: <*>:<*> of size <*> (ground truth)
+Received block <*> src: <*> dest: <*> of size <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=1
+BLOCK* ask <*>:<*> to replicate <*> to datanode(s) <*>:<*> (ground truth)
+BLOCK* ask <*>:<*> to replicate <*> to datanode(s) <*>:<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=5
+BLOCK* ask <*>:<*> to delete <*> (ground truth)
+BLOCK* ask <*>:<*> to delete <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=1
+<*>:<*> Starting thread to transfer block <*> to <*>:<*> (ground truth)
+<*> Starting thread to transfer block <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=80
+<*>:<*>:Got exception while serving <*> to <*>: (ground truth)
+<*>:<*>:Got exception while serving <*> to <*>:: 2
+---------------------------
+---------------------------
+cluster 7: len=80
+<*>:<*> Served block <*> to <*> (ground truth)
+<*>:<*> Served block <*> to <*>: 2
+---------------------------
+---------------------------
+cluster 4: len=115
+BLOCK* NameSystem.allocateBlock: <*> <*> (ground truth)
+BLOCK* NameSystem.allocateBlock: <*> <*>: 2
+BLOCK* NameSystem.allocateBlock: <*>. <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=224
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*> (ground truth)
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*>: 5
+---------------------------
+---------------------------
+cluster 6: len=263
+Deleting block <*> file <*> (ground truth)
+Deleting block <*> file <*>: 6
+---------------------------
+---------------------------
+cluster 3: len=292
+Receiving block <*> src: <*>:<*> dest: <*>:<*> (ground truth)
+Receiving block <*> src: <*>:<*> dest: <*>:<*>: 4
+Receiving block <*> src: <*> dest: <*>: 2
+---------------------------
+---------------------------
+cluster 0: len=311
+PacketResponder <*> for block <*> terminating (ground truth)
+PacketResponder <*> for block <*> terminating: 7
+---------------------------
+---------------------------
+cluster 1: len=314
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*> (ground truth)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*>: 7
+---------------------------
+---------------------------
+cluster 2: len=292
+Received block <*> of size <*> from <*> (ground truth)
+Received block <*> of size <*> from <*>: 6
+---------------------------

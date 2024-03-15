@@ -1,0 +1,566 @@
+---------------------------
+cluster 5: len=12
+getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*> (ground truth)
+getResources() for application_1445144423722_0020: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:-<*> knownNMs=<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=8
+Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*> (ground truth)
+Registering class <*> for class <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=5
+Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (ground truth)
+Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>: 1
+---------------------------
+---------------------------
+cluster 12: len=10
+Processing the event EventType: <*> for container <*> taskAttempt <*> (ground truth)
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=11
+<*> Task Transitioned from NEW to SCHEDULED (ground truth)
+<*> Task Transitioned from NEW to SCHEDULED: 1
+---------------------------
+---------------------------
+cluster 9: len=10
+Assigned container <*> to <*> (ground truth)
+Assigned container <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=13
+Opening proxy : <*>:<*> (ground truth)
+Opening proxy : <*>.fareast.corp.microsoft.com:<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=39
+Resolved <*> to <*> (ground truth)
+Resolved <*>.fareast.corp.microsoft.com to <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=14
+<*> TaskAttempt Transitioned from NEW to UNASSIGNED (ground truth)
+<*> TaskAttempt Transitioned from NEW to UNASSIGNED: 1
+---------------------------
+---------------------------
+cluster 10: len=12
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (ground truth)
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>: 1
+---------------------------
+---------------------------
+cluster 13: len=10
+Launching <*> (ground truth)
+Launching <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=10
+<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED (ground truth)
+<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED: 1
+---------------------------
+---------------------------
+cluster 8: len=10
+Got allocated containers <*> (ground truth)
+Got allocated containers <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=10
+Shuffle port returned by ContainerManager for <*> : <*> (ground truth)
+Shuffle port returned by ContainerManager for <*> : <*>: 1
+---------------------------
+---------------------------
+cluster 17: len=10
+<*> TaskAttempt Transitioned from ASSIGNED to RUNNING (ground truth)
+<*> TaskAttempt Transitioned from ASSIGNED to RUNNING: 1
+---------------------------
+---------------------------
+cluster 16: len=10
+TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>:<*>] (ground truth)
+TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>]: 1
+---------------------------
+---------------------------
+cluster 19: len=10
+<*> Task Transitioned from SCHEDULED to RUNNING (ground truth)
+<*> Task Transitioned from SCHEDULED to RUNNING: 1
+---------------------------
+---------------------------
+cluster 18: len=10
+ATTEMPT_START <*> (ground truth)
+ATTEMPT_START <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=10
+JVM with ID: <*> given task: <*> (ground truth)
+JVM with ID: <*> given task: <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=10
+JVM with ID : <*> asked for a task (ground truth)
+JVM with ID : <*> asked for a task: 1
+---------------------------
+---------------------------
+cluster 20: len=10
+Auth successful for <*> (auth:SIMPLE) (ground truth)
+Auth successful for <*> (auth:<*>): 1
+---------------------------
+---------------------------
+cluster 28: len=1
+Created MRAppMaster for application <*> (ground truth)
+Created MRAppMaster for application <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+Executing with tokens: (ground truth)
+Executing with tokens:: 1
+---------------------------
+---------------------------
+cluster 7: len=130
+Reduce slow start threshold not met. completedMapsForReduceSlowstart <*> (ground truth)
+Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>: 3
+---------------------------
+---------------------------
+cluster 30: len=1
+Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>) (ground truth)
+Kind: <*>, Service: <*>, Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>): 1
+---------------------------
+---------------------------
+cluster 31: len=1
+Using mapred newApiCommitter. (ground truth)
+Using <*> newApiCommitter.: 1
+---------------------------
+---------------------------
+cluster 6: len=131
+Recalculating schedule, headroom=<memory:<*>, vCores:<*> (ground truth)
+Recalculating schedule, headroom=<memory:<*>, vCores:<*>: 2
+---------------------------
+---------------------------
+cluster 32: len=1
+OutputCommitter set in config <*> (ground truth)
+OutputCommitter set in config <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter (ground truth)
+OutputCommitter is <*>: 1
+---------------------------
+---------------------------
+cluster 36: len=1
+Emitting job history data to the timeline server is not enabled (ground truth)
+Emitting job history data to the <*> server is not enabled: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*> (ground truth)
+Registering class <*> for class <*>: 1
+---------------------------
+---------------------------
+cluster 35: len=3
+Default file system [hdfs://<*>:<*>] (ground truth)
+Default file system [hdfs://<*>:<*>]: 1
+---------------------------
+---------------------------
+cluster 37: len=1
+loaded properties from hadoop-metrics2.properties (ground truth)
+loaded properties from <*>: 1
+---------------------------
+---------------------------
+cluster 38: len=1
+Scheduled snapshot period at <*> second(s). (ground truth)
+Scheduled snapshot period at <*> second(s).: 1
+---------------------------
+---------------------------
+cluster 39: len=1
+MRAppMaster metrics system started (ground truth)
+<*> metrics system started: 1
+---------------------------
+---------------------------
+cluster 27: len=146
+Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS) (ground truth)
+Retrying connect to server: <*>. Already tried <*> time(s); retry policy is <*>: 3
+---------------------------
+---------------------------
+cluster 40: len=1
+Adding job token for <*> to jobTokenSecretManager (ground truth)
+Adding job token for <*> to jobTokenSecretManager: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+Input size for job <*> = <*>. Number of splits = <*> (ground truth)
+Input size for job <*> = <*>. Number of splits = <*>: 1
+---------------------------
+---------------------------
+cluster 43: len=1
+Number of reduces for job <*> = <*> (ground truth)
+Number of reduces for job <*> = <*>: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+<*> Transitioned from NEW to INITED (ground truth)
+Job Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=147
+ERROR IN CONTACTING RM. (ground truth)
+ERROR IN CONTACTING RM.: 3
+---------------------------
+---------------------------
+cluster 49: len=1
+Instantiated MRClientService at MININT-<*>/<*>:<*> (ground truth)
+Instantiated MRClientService at <*>/<*>:<*>: 1
+---------------------------
+---------------------------
+cluster 47: len=2
+Starting Socket Reader #<*> for port <*> (ground truth)
+Starting Socket Reader #<*> for port <*>: 1
+---------------------------
+---------------------------
+cluster 46: len=2
+Using callQueue class java.util.concurrent.LinkedBlockingQueue (ground truth)
+Using callQueue class <*>: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server (ground truth)
+Adding protocol <*> to the server: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+MRAppMaster launching normal, non-uberized, multi-container job <*>. (ground truth)
+MRAppMaster launching <*>, <*>, <*> job <*>.: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+Not uberizing <*> because: not enabled; too many maps; too much input; (ground truth)
+Not <*> because: not enabled; too many maps; too much input;: 1
+---------------------------
+---------------------------
+cluster 50: len=2
+IPC Server Responder: starting (ground truth)
+IPC Server Responder: starting: 1
+---------------------------
+---------------------------
+cluster 51: len=2
+IPC Server listener on <*>: starting (ground truth)
+IPC Server listener on <*>: starting: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+Http request log for http.requests.mapreduce is not defined (ground truth)
+Http request log for <*> is not defined: 1
+---------------------------
+---------------------------
+cluster 52: len=1
+Logging to <*>(org.mortbay.log) via <*> (ground truth)
+Logging to <*>(<*>) via <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static (ground truth)
+Added filter <*> (class=<*>) to context <*>: 1
+---------------------------
+---------------------------
+cluster 54: len=1
+Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter) (ground truth)
+Added global filter '<*>' (class=<*>): 1
+---------------------------
+---------------------------
+cluster 58: len=1
+Jetty bound to port <*> (ground truth)
+Jetty bound to port <*>: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce (ground truth)
+Added filter <*> (class=<*>) to context <*>: 1
+---------------------------
+---------------------------
+cluster 60: len=1
+Extract jar:file:<*> to <*> (ground truth)
+Extract jar:<*>!<*> to <*>: 1
+---------------------------
+---------------------------
+cluster 57: len=2
+adding path spec: <*> (ground truth)
+adding path spec: <*>: 1
+---------------------------
+---------------------------
+cluster 61: len=1
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*> (ground truth)
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>: 1
+---------------------------
+---------------------------
+cluster 62: len=1
+Web app <*> started at <*> (ground truth)
+Web app <*> started at <*>: 1
+---------------------------
+---------------------------
+cluster 59: len=3
+jetty-<*> (ground truth)
+<*>:<*>: 1
+---------------------------
+---------------------------
+cluster 63: len=1
+Registered webapp guice modules (ground truth)
+Registered webapp <*> modules: 1
+---------------------------
+---------------------------
+cluster 64: len=1
+JOB_CREATE <*> (ground truth)
+JOB_CREATE <*>: 1
+---------------------------
+---------------------------
+cluster 66: len=1
+maxTaskFailuresPerNode is <*> (ground truth)
+maxTaskFailuresPerNode is <*>: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+blacklistDisablePercent is <*> (ground truth)
+blacklistDisablePercent is <*>: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+Connecting to ResourceManager at <*>/<*>:<*> (ground truth)
+Connecting to ResourceManager at <*>:<*>: 1
+---------------------------
+---------------------------
+cluster 73: len=1
+<*> Transitioned from INITED to SETUP (ground truth)
+<*> Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+maxContainerCapability: <memory:<*>, vCores:<*> (ground truth)
+maxContainerCapability: <memory:<*>, vCores:<*>: 1
+---------------------------
+---------------------------
+cluster 70: len=1
+queue: default (ground truth)
+queue: <*>: 1
+---------------------------
+---------------------------
+cluster 74: len=1
+Processing the event EventType: JOB_SETUP (ground truth)
+Processing the event EventType: <*>: 1
+---------------------------
+---------------------------
+cluster 75: len=1
+<*> Transitioned from SETUP to RUNNING (ground truth)
+Job Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 76: len=1
+Event Writer setup for JobId: <*>, File: hdfs://<*> (ground truth)
+Event Writer setup for JobId: <*>, File: <*>: 1
+---------------------------
+---------------------------
+cluster 72: len=1
+yarn.client.max-cached-nodemanagers-proxies : <*> (ground truth)
+yarn.client.max-cached-nodemanagers-proxies : <*>: 1
+---------------------------
+---------------------------
+cluster 71: len=1
+Upper limit on the thread pool size is <*> (ground truth)
+Upper limit on the thread pool size is <*>: 1
+---------------------------
+---------------------------
+cluster 77: len=1
+The job-jar file on the remote FS is hdfs://<*> (ground truth)
+The job-jar file on the remote FS is hdfs://<*>:<*>/<*>: 1
+---------------------------
+---------------------------
+cluster 78: len=1
+The job-conf file on the remote FS is <*> (ground truth)
+The job-conf file on the remote FS is <*>: 1
+---------------------------
+---------------------------
+cluster 80: len=1
+Size of containertokens_dob is <*> (ground truth)
+Size of <*> is <*>: 1
+---------------------------
+---------------------------
+cluster 81: len=1
+Putting shuffle token in serviceData (ground truth)
+Putting <*> in <*>: 1
+---------------------------
+---------------------------
+cluster 85: len=1
+Done acknowledgement from <*> (ground truth)
+Done acknowledgement from <*>: 1
+---------------------------
+---------------------------
+cluster 86: len=1
+<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP (ground truth)
+<*> TaskAttempt Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 87: len=3
+Processing the event EventType: <*> for container <*> taskAttempt <*> (ground truth)
+Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container <*> taskAttempt <*>: 1
+---------------------------
+---------------------------
+cluster 88: len=3
+KILLING <*> (ground truth)
+KILLING <*>: 1
+---------------------------
+---------------------------
+cluster 84: len=1
+Container complete event for unknown container id <*> (ground truth)
+Container complete event for unknown container id <*>: 1
+---------------------------
+---------------------------
+cluster 82: len=1
+Cannot assign container Container: [ContainerId: <*>, NodeId: <*>:<*>, NodeHttpAddress: <*>:<*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*> (ground truth)
+Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>: 1
+---------------------------
+---------------------------
+cluster 83: len=2
+Received completed container <*> (ground truth)
+Received completed container <*>: 1
+---------------------------
+---------------------------
+cluster 79: len=1
+Adding #<*> tokens and #<*> secret keys for NM use for launching container (ground truth)
+Adding #<*> tokens and #<*> secret keys for NM use for launching container: 1
+---------------------------
+---------------------------
+cluster 89: len=1
+<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED (ground truth)
+TaskAttempt Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 90: len=1
+Task succeeded with attempt <*> (ground truth)
+Task succeeded with attempt <*>: 1
+---------------------------
+---------------------------
+cluster 92: len=1
+Num completed Tasks: <*> (ground truth)
+Num completed Tasks: <*>: 1
+---------------------------
+---------------------------
+cluster 91: len=1
+<*> Task Transitioned from RUNNING to SUCCEEDED (ground truth)
+<*> Task Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 93: len=1
+Reduce slow start threshold reached. Scheduling reduces. (ground truth)
+Reduce <*>. Scheduling <*>.: 1
+---------------------------
+---------------------------
+cluster 23: len=289
+Progress of TaskAttempt <*> is : <*> (ground truth)
+Progress of TaskAttempt <*> is : <*>: 6
+---------------------------
+---------------------------
+cluster 25: len=326
+Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ... (ground truth)
+Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...: 6
+---------------------------
+---------------------------
+cluster 99: len=1
+Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>:<*>, <*>:<*>] (ground truth)
+Slow <*> read fields took <*> (threshold=<*>); ack: seqno: <*> status: <*> status: <*> downstreamAckTimeNanos: <*>, targets: [<*>, <*>]: 1
+---------------------------
+---------------------------
+cluster 97: len=1
+Scheduling a redundant attempt for task <*> (ground truth)
+Scheduling a redundant attempt for task <*>: 1
+---------------------------
+---------------------------
+cluster 94: len=1
+All maps assigned. Ramping up all remaining reduces:<*> (ground truth)
+All maps assigned. Ramping up all remaining reduces:<*>: 1
+---------------------------
+---------------------------
+cluster 101: len=1
+Error Recovery for block BP-<*>:<*> in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*> (ground truth)
+Error Recovery for block <*> in pipeline <*>:<*> in pipeline <*>:<*>, <*>: 1
+---------------------------
+---------------------------
+cluster 96: len=1
+We launched <*> speculations. Sleeping <*> milliseconds. (ground truth)
+We launched <*> speculations. Sleeping <*> milliseconds.: 1
+---------------------------
+---------------------------
+cluster 102: len=1
+DataStreamer Exception (ground truth)
+<*> Exception: 1
+---------------------------
+---------------------------
+cluster 100: len=1
+DFSOutputStream ResponseProcessor exception for block BP-<*>:<*> (ground truth)
+DFSOutputStream ResponseProcessor exception for block <*>: 1
+---------------------------
+---------------------------
+cluster 98: len=1
+Diagnostics report from <*>: Container killed by the ApplicationMaster. (ground truth)
+Diagnostics report from <*>: Container killed by the ApplicationMaster.: 1
+---------------------------
+---------------------------
+cluster 95: len=1
+DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*> (ground truth)
+DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>: 1
+---------------------------
+---------------------------
+cluster 103: len=2
+Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost (ground truth)
+Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from <*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost: 1
+---------------------------
+---------------------------
+cluster 105: len=2
+<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP (ground truth)
+<*> TaskAttempt Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 104: len=4
+Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost (ground truth)
+Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from <*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost: 1
+---------------------------
+---------------------------
+cluster 107: len=2
+Processing the event EventType: TASK_ABORT (ground truth)
+Processing the event EventType: <*>: 1
+---------------------------
+---------------------------
+cluster 108: len=2
+Task cleanup failed for attempt <*> (ground truth)
+Task cleanup failed for attempt <*>: 1
+---------------------------
+---------------------------
+cluster 106: len=2
+<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP (ground truth)
+TaskAttempt Transitioned from <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 109: len=2
+<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED (ground truth)
+<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED: 1
+---------------------------
+---------------------------
+cluster 111: len=1
+Thread Thread[eventHandlingThread,<*>,main] threw an Exception. (ground truth)
+Thread Thread[<*>,<*>,<*>] threw an Exception.: 1
+---------------------------
+---------------------------
+cluster 113: len=2
+Added <*> to list of failed maps (ground truth)
+Added <*> to list of failed maps: 1
+---------------------------
+---------------------------
+cluster 110: len=1
+Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*> (ground truth)
+Error writing History Event: <*>: 1
+---------------------------
+---------------------------
+cluster 112: len=2
+<*> failures on node MININT-<*> (ground truth)
+<*> failures on node <*>: 1
+---------------------------
+---------------------------
+cluster 24: len=476
+Address change detected. Old: <*>/<*>:<*> New: <*>:<*> (ground truth)
+Address change detected. Old: msra-sa-41/<*>:<*> New: msra-sa-<*>:<*>: 7
+Address change detected. Old: msra-sa-41/<*> New: msra-sa-<*>:<*>: 3
+---------------------------

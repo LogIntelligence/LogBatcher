@@ -4,13 +4,15 @@ import pandas as pd
 from nltk.metrics.distance import edit_distance
 from sklearn.metrics import accuracy_score
 import numpy as np
+from post_process import correct_single_template
 
-def rule(log):
-    if type(log) != str:
-        return log
-    while '<*> <*>' in log:
-        log = log.replace('<*> <*>', '<*>')
-    return log
+def rule(template):
+    # correct_single_template(template)
+    if not isinstance(template, str):
+        template = str(template)
+    while '<*> <*>' in template:
+        template = template.replace('<*> <*>', '<*>')   
+    return template
 
 def evaluate(file, dataset, mismatch=False):
 
