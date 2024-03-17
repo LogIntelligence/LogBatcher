@@ -1,0 +1,11 @@
+Output,EventTemplate
+risBoot  (command 1903),risBoot (command <*>)
+ServerFileSystem: An ServerFileSystem domain panic has occurred on storage442,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+Command has been aborted,Command has been aborted
+power/control problem,power/control problem
+not-responding,not-responding
+starting,starting
+closing,closing
+risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+boot (command 2092) Error: HALT asserted\  cannot continue,boot (command <*>) Error: HALT asserted\ cannot continue
+Failed subcommands 3406,Failed subcommands <*>

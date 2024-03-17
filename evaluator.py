@@ -9,7 +9,7 @@ from post_process import correct_single_template
 def rule(template):
     # correct_single_template(template)
     if not isinstance(template, str):
-        template = str(template)
+        template = ''
     while '<*> <*>' in template:
         template = template.replace('<*> <*>', '<*>')   
     return template
@@ -44,12 +44,13 @@ def evaluate(file, dataset, mismatch=False):
     (precision, recall, f_measure, accuracy_PA) = get_accuracy(df['EventTemplate'],
                                                                df['Output'].apply(rule))
 
-    # print(
-    #     'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
-    #         precision, recall, f_measure, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
+    print(
+        'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
+            precision, recall, f_measure, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
     dataset = ' ' * (12 - len(dataset)) + dataset 
     print('%s: group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (dataset, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
     return accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, edit_distance_result_std
+
 
 
 def get_accuracy(series_groundtruth, series_parsedlog, debug=False):

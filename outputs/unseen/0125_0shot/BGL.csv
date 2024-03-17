@@ -1,0 +1,45 @@
+Output,EventTemplate
+ciod: cpu 0 at treeaddr 438 sent unrecognized message 0xffffffff,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>
+ciod: Message code 0 is not 51 or 4294967295,ciod: Message code <*> is not <*> or <*>
+program interrupt: trap instruction.........0,program interrupt: trap instruction.........<*>
+debug interrupt enable............0,debug interrupt enable............<*>
+program interrupt: fp cr update.............0,program interrupt: fp cr update.............<*>
+guaranteed data cache block touch........1,guaranteed data cache block touch........<*>
+icache prefetch depth....................0,icache prefetch depth....................<*>
+wait state enable.................0,wait state enable.................<*>
+critical input interrupt enable...0,critical input interrupt enable...<*>
+special purpose registers:,special purpose registers:
+lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000,lr:<*> cr:<*> xer:<*> ctr:<*>
+rts internal error,rts internal error
+instruction address space.........0,instruction address space.........<*>
+ciod: Error creating node map from file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map: No child processes,ciod: Error creating node map from file <*>: No child processes
+ciod: Error creating node map from file /p/gb2/welcome3/32k_128x256x1_8x4x4.map: Bad file descriptor,ciod: Error creating node map from file <*>: Bad file descriptor
+ciod: duplicate canonical-rank 31 to logical-rank 0 mapping at line 3 of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>
+ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map: Block device required,ciod: Error creating node map from file <*>: Block device required
+ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map: Permission denied,ciod: Error creating node map from file <*>: Permission denied
+ciod: Z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=42315, cpu=105, index=1207960804, total=2691015","rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>"
+NodeCard is not fully functional,NodeCard is not fully functional
+"Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.","Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK."
+"PrepareForService shutting down NodeCard(mLctn(R25-M1-N2), mCardSernum(203231503833343000000000594c31304b34333431303158), mLp(FF:F2:9F:16:CF:0F:00:0D:60:E9:30:F0), mIp(10.2.2.80), mType(4)) as part of Service Action 310","PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>"
+rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-,rts tree/torus link training failed: wanted: <*> got: <*>
+1 torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected
+"ciod: In packet from node 91.0 (R62-M1-Nf-C:J03-U11), message code 2 is not 3 or 4294967295 (softheader=003b005b 00030000 00000001 00000000)","ciod: In packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*> <*> <*> <*>)"
+1 torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected,<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected
+rts: bad message header: expecting type 57 instead of type 3 (softheader=00131db8 81aa0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>
+critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ wire,critical input interrupt (unit=<*> bit=<*>): warning for torus y+ wire
+shutdown complete,shutdown complete
+critical input interrupt (unit=0x0b bit=0x0b): warning for torus z- wire,critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire
+3 L3 EDRAM error(s) (dcr 0x0157) detected and corrected,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected
+dbcr0=0x00000000 dbsr=0x00000000 ccr0=0x40002000,dbcr0=<*> dbsr=<*> ccr0=<*>
+r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000,r24=<*> r25=<*> r26=<*> r27=<*>
+"PrepareForService shutting down Node card(mLctn(R10-M1-N2), mCardSernum(203231503833343000000000594c31304b34323934303257), mLp(FF:F2:9F:16:E0:DA:00:0D:60:E9:1F:25), mIp(10.1.1.164), mType(4)) as part of Service Action 648","PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>"
+minus normalized number..................0,minus normalized number..................<*>
+fraction rounded.........................0,fraction rounded.........................<*>
+"critical input interrupt (unit=0x0b bit=0x17): warning for tree C1 wire, suppressing further interrupts of same type","critical input interrupt (unit=<*> bit=<*>): warning for tree C1 wire, suppressing further interrupts of same type"
+size of scratchpad portion of L3.........0 (0M),size of scratchpad portion of L3.........<*> (<*>)
+ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/2183) failed: Input/output error,ciod: LOGIN chdir(<*>) failed: Input/output error
+2 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 282 seconds,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected over <*> seconds
+"ciod: Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe: program image too big, 361544528 > 266076160","ciod: Error loading <*>: program image too big, <*> > <*>"
+fpr29=0xffffffff ffffffff ffffffff ffffffff,fpr29=<*>
+Machine State Register: 0x0002f900,Machine State Register: <*>

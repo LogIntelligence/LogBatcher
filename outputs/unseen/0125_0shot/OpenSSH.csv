@@ -1,0 +1,6 @@
+Output,EventTemplate
+Accepted password for fztu from 119.137.62.142 port 49116 ssh2,Accepted password for <*> from <*> port <*> ssh2
+pam_unix(sshd:session): session opened for user fztu by (uid=0),pam_unix(sshd:session): session opened for user <*> by (uid=<*>)
+Received disconnect from 119.137.62.142: 11: disconnected by user,Received disconnect from <*>: <*>: disconnected by user
+pam_unix(sshd:session): session closed for user fztu,pam_unix(sshd:session): session closed for user <*>
+fatal: Write failed: Connection reset by peer [preauth],fatal: Write failed: Connection reset by peer [preauth]

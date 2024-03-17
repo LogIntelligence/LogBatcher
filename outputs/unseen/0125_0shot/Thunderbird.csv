@@ -1,0 +1,96 @@
+Output,EventTemplate
+START: tftp pid=16563 from=10.100.4.251,START: tftp pid=<*> from=<*>
+kernel time sync disabled 0041,kernel time sync disabled <*>
+time reset +0.182379 s,time reset +<*> s
+Received SNMP packet(s) from #34#,Received SNMP packet(s) from <*>
+kernel time sync enabled 0001,kernel time sync enabled <*>
+CentOS-4 (Kernel Module GPG key),CentOS-<*> (Kernel Module GPG key)
+(supports S0 S4 S5),(supports <*>)
+HPET id: 0xffffffff base: 0xfed00000,HPET id: <*> base: <*>
+INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl),INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level),INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)
+Interpreter enabled,Interpreter enabled
+Local APIC address 0xfee00000,Local APIC address <*>
+PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 10 *11 12),PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>)
+PCI Root Bridge [PCI0] (00:00),PCI <*> Bridge [PCI0] (<*>)
+Power Button (FF) [PWRF],Power Button (FF) [PWRF]
+RSDP (v000 DELL ) @ 0x00000000000fd650,RSDP (<*> DELL ) @ <*>
+Subsystem revision 20040816,Subsystem revision <*>
+Using IOAPIC for interrupt routing,Using IOAPIC for interrupt routing
+Intel(R) Xeon(TM) CPU 3.60GHz stepping 03,Intel(R) Xeon(TM) CPU <*> stepping <*>
+colour VGA+ 80x25,colour VGA+ <*>
+"sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $",<*> <*> <*> ak Exp $
+"routing cache hash table of 65536 buckets, 1024Kbytes","routing cache hash table of <*> buckets, <*>"
+PCI Hot Plug PCI Core version: 0.5,PCI Hot Plug PCI Core version: <*>
+"root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr","<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>"
+Using software bounce buffering for IO (SWIOTLB),Using software bounce buffering for IO (SWIOTLB)
+Probing PCI hardware (bus 00),Probing PCI hardware (bus <*>)
+Transparent bridge - 0000:00:1e.0,Transparent bridge - <*>
+Using ACPI for IRQ routing,Using ACPI for IRQ routing
+Using MMCONFIG at e0000000,Using MMCONFIG at <*>
+Using configuration type 1,Using configuration type <*>
+Compressed image found at block 0,Compressed image found at block <*>
+Disabled at runtime.,Disabled at runtime.
+Initializing.,Initializing.
+Registering netfilter hooks,Registering netfilter hooks
+Starting in permissive mode,Starting in permissive mode
+Unregistering netfilter hooks,Unregistering netfilter hooks
+Hash tables configured (established 262144 bind 65536),Hash tables configured (established <*> bind <*>)
+Direct-Access ANSI SCSI revision: 02,Direct-Access ANSI SCSI revision: <*>
+Processor ANSI SCSI revision: 02,Processor ANSI SCSI revision: <*>
+Disk quotas dquot_6.5.1,Disk quotas <*>
+Mounted root (ext2 filesystem).,Mounted <*> (ext2 filesystem).
+MegaRAID Model: LD 0 RAID1 139G Rev: 516A,MegaRAID Model: LD <*> RAID1 <*> Rev: <*>
+PE/PV Model: 1x2 SCSI BP Rev: 1.0,PE/PV Model: <*> SCSI BP Rev: <*>
+initialized,initialized
+initializing netlink socket (disabled),initializing netlink socket (disabled)
+passed.,passed.
+4.1.0-ioctl (2003-12-10) initialised: #36#@#37#,<*>-ioctl (<*>) initialised: <*>
+v2.0:USB HID core driver,<*>:USB HID core driver
+eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex,eth0: <*>: NIC Link is Up <*> Mbps Full Duplex
+no floppy controllers found,no floppy controllers found
+RNG not detected,RNG not detected
+Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,Assuming <*> system bus speed for PIO modes; override with idebus=xx
+Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+Installing public key data,Installing public key data
+"md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27","md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+fw version:[516A] bios version:[H418],fw version:[<*>] bios version:[<*>]
+probe new device 0x1028:0x0013:0x1028:0x016c: bus 2:slot 14:func 0,probe new device <*>: bus <*>:slot <*>:func <*>
+PS/2 mouse device common for all mice,PS/<*> mouse device common for all mice
+v2.0 (20020519),<*> (<*>)
+rpc.statd startup succeeded,rpc.statd startup succeeded
+portmap startup succeeded,portmap startup succeeded
+Starting ts_fixup: succeeded,Starting ts_fixup: succeeded
+Version 1.0.6 Starting,Version <*> Starting
+LSI Logic MegaRAID driver,LSI Logic MegaRAID driver
+scanning scsi channel 0 [Phy 0] for non-raid devices,scanning scsi channel <*> [Phy <*>] for non-raid devices
+scanning scsi channel 1 [virtual] for logical drives,scanning scsi channel <*> [virtual] for logical drives
+asking for cache data failed,asking for cache data failed
+assuming drive cache: write through,assuming drive cache: write through
+sda1 sda2 sda3 sda4,sda1 sda2 sda3 sda4
+Registering secondary module capability,Registering secondary module capability
+"i8042 AUX port at 0x60,0x64 irq 12","<*> AUX port at <*>,<*> irq <*>"
+"i8042 KBD port at 0x60,0x64 irq 1","<*> KBD port at <*>,<*> irq <*>"
+syslog-ng startup succeeded,syslog-ng startup succeeded
+syslog-ng version 1.6.7 starting,syslog-ng version <*> starting
+Detected 3591.360 MHz processor.,Detected <*> MHz processor.
+Using 14.318180 MHz HPET timer.,Using <*> MHz HPET timer.
+Using HPET based timekeeping.,Using HPET based timekeeping.
+Creating Topspin /dev entries:,Creating Topspin <*> entries:
+registered new driver hiddev,registered new driver hiddev
+registered new driver hub,registered new driver hub
+registered new driver usbfs,registered new driver usbfs
+registered new driver usbhid,registered new driver usbhid
+probe of vesafb0 failed with error -6,probe of vesafb0 failed with error <*>
+Mounting NFS filesystems: succeeded,Mounting NFS filesystems: succeeded
+Mounting other filesystems: failed,Mounting other filesystems: failed
+Warning: we failed to resolve trusted host name dadmin3 dadmin4,Warning: we failed to resolve trusted host name <*>
+gmetad startup succeeded,gmetad startup succeeded
+Server listening on :: port 22.,Server listening on :: port <*>.
+error: Bind to port 22 on 0.0.0.0 failed: Address already in use.,error: Bind to port <*> on <*> failed: Address already in use.
+Cannot open file /dev/logsurfer for writing (No such file or directory),Cannot open file <*> for writing (No such file or directory)
+Changing permissions on special file /dev/logsurfer,Changing permissions on special file <*>
+xinetd startup succeeded,xinetd startup succeeded
+Started working: 1 available service,Started working: <*> available service
+xinetd Version 2.3.13 started with libwrap loadavg options compiled in.,xinetd Version <*> started with libwrap loadavg options compiled in.
+"Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report","Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report"
