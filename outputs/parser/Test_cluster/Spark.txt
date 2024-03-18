@@ -1,0 +1,175 @@
+---------------------------
+cluster 2: len=37
+Started reading broadcast variable <*> (ground truth)
+Started reading broadcast variable <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=2
+Changing modify acls to: <*> (ground truth)
+Changing modify acls to: <*>,<*>: 1
+---------------------------
+---------------------------
+cluster 4: len=37
+Reading broadcast variable <*> took <*> ms (ground truth)
+Reading broadcast variable <*> took <*> ms: 1
+---------------------------
+---------------------------
+cluster 10: len=30
+File Output Committer Algorithm version is <*> (ground truth)
+File Output Committer Algorithm version is <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=45
+Input split: <*> (ground truth)
+Input split: hdfs://10.<*>:9000/pjhe/logs/2kSOSP.log:<*>+<*>: 1
+---------------------------
+---------------------------
+cluster 12: len=30
+<*>: Committed (ground truth)
+<*>: Committed: 1
+---------------------------
+---------------------------
+cluster 14: len=2
+Changing view acls to: <*> (ground truth)
+Changing view acls to: <*>,<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=30
+Saved output of task '<*>' to <*> (ground truth)
+Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_<*>: 1
+---------------------------
+---------------------------
+cluster 13: len=1
+Registered signal handlers for [TERM, HUP, INT] (ground truth)
+Registered signal handlers for [<*>]: 1
+---------------------------
+---------------------------
+cluster 5: len=75
+Partition <*> not found, computing it (ground truth)
+Partition <*> not found, computing it: 2
+---------------------------
+---------------------------
+cluster 17: len=1
+Slf4jLogger started (ground truth)
+Slf4jLogger started: 1
+---------------------------
+---------------------------
+cluster 20: len=1
+Successfully started service 'sparkExecutorActorSystem' on port <*>. (ground truth)
+Successfully started service '<*>' on port <*>.: 1
+---------------------------
+---------------------------
+cluster 18: len=1
+Starting remoting (ground truth)
+Starting remoting: 1
+---------------------------
+---------------------------
+cluster 21: len=1
+Created local directory at <*> (ground truth)
+Created local directory at <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=2
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi) (ground truth)
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(<*>); users with modify permissions: Set(<*>): 1
+---------------------------
+---------------------------
+cluster 19: len=1
+Remoting started; listening on addresses :[<*>] (ground truth)
+Remoting started; listening on addresses :[akka.tcp://<*>@<*>]: 1
+---------------------------
+---------------------------
+cluster 23: len=1
+Connecting to driver: <*> (ground truth)
+Connecting to driver: spark://<*>@<*>: 1
+---------------------------
+---------------------------
+cluster 22: len=1
+MemoryStore started with capacity <*> GB (ground truth)
+MemoryStore started with capacity <*> GB: 1
+---------------------------
+---------------------------
+cluster 25: len=1
+Starting executor ID <*> on host <*> (ground truth)
+Starting executor ID <*> on host <*>: 1
+---------------------------
+---------------------------
+cluster 24: len=1
+Successfully registered with driver (ground truth)
+Successfully registered with <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=1
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>. (ground truth)
+Successfully started service '<*>' on port <*>.: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+Registered BlockManager (ground truth)
+Registered BlockManager: 1
+---------------------------
+---------------------------
+cluster 28: len=1
+Trying to register BlockManager (ground truth)
+Trying to register <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=1
+mapred.tip.id is deprecated. Instead, use mapreduce.task.id (ground truth)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=1
+mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id (ground truth)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap (ground truth)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=1
+Server created on <*> (ground truth)
+Server created on <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+mapred.job.id is deprecated. Instead, use mapreduce.job.id (ground truth)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+mapred.task.partition is deprecated. Instead, use mapreduce.task.partition (ground truth)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=300
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver (ground truth)
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver: 6
+---------------------------
+---------------------------
+cluster 9: len=257
+Found block <*> locally (ground truth)
+Found block <*> locally: 6
+---------------------------
+---------------------------
+cluster 1: len=305
+Running task <*> in stage <*> (TID <*>) (ground truth)
+Running task <*> in stage <*> (TID <*>): 7
+---------------------------
+---------------------------
+cluster 0: len=305
+Got assigned task <*> (ground truth)
+Got assigned task <*>: 7
+---------------------------
+---------------------------
+cluster 3: len=149
+Block <*> stored as bytes in memory (estimated size <*>, free <*>) (ground truth)
+Block <*> stored as <*> in memory (estimated size <*>, free <*>): 3
+---------------------------
+---------------------------
+cluster 7: len=375
+Times: total = <*>, boot = <*>, init = <*>, finish = <*> (ground truth)
+Times: total = <*>, boot = <*>, init = <*>, finish = <*>: 8
+---------------------------
