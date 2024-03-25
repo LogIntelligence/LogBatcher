@@ -39,8 +39,7 @@ class ModelTester():
     self.warmup = warmup
     self.subname = subname
 
-    # split candidate set
-    self.log_test, self.log_cand, self.gt_test, self.gt_cand = self.splitCandidates(self.log_path, self.cand_ratio, self.split_method)
+     
 
     # build lookup map
     self.lookUpMap = self.buildLookupMap(self.map_path)
