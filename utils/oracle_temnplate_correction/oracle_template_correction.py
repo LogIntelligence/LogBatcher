@@ -16,7 +16,7 @@ Copyright (C) 2022 University of Luxembourg
 from __future__ import print_function
 
 import os
-from utils.common import correct_templates_and_update_files, datasets
+from utils.oracle_temnplate_correction.common import correct_templates_and_update_files, datasets
 
 
 def main():

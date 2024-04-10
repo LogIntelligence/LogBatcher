@@ -4,7 +4,6 @@ import pandas as pd
 from nltk.metrics.distance import edit_distance
 from sklearn.metrics import accuracy_score
 import numpy as np
-from post_process import correct_single_template
 
 def rule(template):
     # correct_single_template(template)

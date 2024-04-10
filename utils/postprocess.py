@@ -1,18 +1,22 @@
-import pandas as pd
 import re
-from collections import Counter
 
-param_regex = [
-    r'{([ :_#.\-\w\d]+)}',
-    r'{}'
-]
+def post_process(response):
 
-out_dir = "ChatGPT/zero_shot"
-
-datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
-            'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-# datasets = ["HDFS", "Spark", "BGL", "HPC", "Windows", "Linux", "Android", "HealthApp", "Apache", "OpenStack", "Mac"]
-
+    response = response.strip().strip('\n')
+    if "\n\n" in response:
+        response = response.split("\n\n")[0]
+    reg = re.compile("`([^`]+)`")
+    tmps = reg.findall(response)
+    tmps = [x.strip('\n').strip() for x in tmps]
+    tmp = ''
+    if len(tmps) == 1:
+        tmp = tmps[0]
+    if len(tmps) > 1:
+        tmp = max(tmps, key=len)
+    
+    tmp = tmp.strip('\n').strip()
+    tmp = re.sub(r'\{\{.*?\}\}', '<*>', tmp)
+    return correct_single_template(tmp)
 
 def correct_single_template(template, user_strings=None):
     """Apply all rules to process a template.
@@ -101,31 +105,3 @@ def correct_single_template(template, user_strings=None):
         template = template.replace("<*>:<*>", "<*>")
     return template
 
-
-if __name__ == '__main__':
-    for dname in datasets:
-        # try:
-        log_df = pd.read_csv(f"{out_dir}/{dname}_2k.log_structured.csv")
-        content = log_df.Content.tolist()
-        template = log_df.EventTemplate.tolist()
-        for i in range(len(content)):
-            c = content[i]
-            t = str(template[i])
-            for r in param_regex:
-                # print(r)
-                t = re.sub(r, "<*>", t)
-                # print(t)
-            # if "{{}}" in t:
-            #     print(t)
-            #     print(re.sub(r'\{\{}}', "<*>", t))
-            #     print(re.sub(r'{{}}', "<*>", t))
-            template[i] = correct_single_template(t)
-        log_df.EventTemplate = pd.Series(template)
-
-        unique_templates = sorted(Counter(template).items(), key=lambda k: k[1], reverse=True)
-        temp_df = pd.DataFrame(unique_templates, columns=['EventTemplate', 'Occurrences'])
-        # temp_df.sort_values(by=["Occurrences"], ascending=False, inplace=True)
-        log_df.to_csv(f"{out_dir}/{dname}_2k.log_structured_adjusted.csv")
-        temp_df.to_csv(f"{out_dir}/{dname}_2k.log_templates_adjusted.csv")
-        # except:
-        #     pass

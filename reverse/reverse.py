@@ -1,7 +1,7 @@
 import httpx
 from openai import OpenAI
 from tqdm import tqdm
-from config import extract_and_replace
+from reverse.config import extract_and_replace
 import pandas as pd
 import openai
 import backoff
