@@ -67,8 +67,8 @@ def single_dataset_paring(dataset, output_dir, parser, isConcurrent = True):
 # main
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    output_dir = 'outputs/parser/Test1/'
+    datasets = ['Healthapp']
+    output_dir = 'outputs/parser/Test2/'
 
     with open('config.json', 'r') as f:
         config = json.load(f)

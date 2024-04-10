@@ -12,7 +12,7 @@ class Cluster_Parser:
         self.batch_num = config['batch_num']
         self.instruction_for_batch_logs = config['instruction_for_batch_logs']
         self.instruction_for_one_log = config['instruction_for_one_log']
-        self.addition_incontext = config['additional_incontext']
+        self.additional_incontext = config['additional_incontext']
         if config['transfer_url']:
             self.client = OpenAI(
                 base_url=config['transfer_url'],  # 中转url
@@ -46,6 +46,9 @@ class Cluster_Parser:
             else:
                 messages.append({"role": "system", "content": self.instruction_for_batch_logs})
 
+            # add additional incontext
+            if self.additional_incontext:
+                messages[0]["content"] += self.additional_incontext
 
             # batch logs to str
             prompt = ""

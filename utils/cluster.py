@@ -19,18 +19,23 @@ class Cluster:
         random.seed(seed)
         random.shuffle(self.logs)
 
-def tokenize(log_content, tokenize_pattern=r'[ ,]'):
+def tokenize(log_content, tokenize_pattern=r'[ ,|]'):
     words = re.split(tokenize_pattern, log_content)
+    new_words = []
     list = ['/', 'kb', 'sec', 'byte', 'mb']
     for index, word in enumerate(words):
         if '=' in word:
-            words[index] = word.split('=')[0]
-        if re.search(r'\d', word):
-            words[index] = ''
-        if any(i in word.lower() for i in list):
-            words[index] = ''
-    words = [word for word in words if word]   # remove null
-    return words
+            new_words.append(word.split('=')[0])
+        elif re.search(r'\d', word):
+            pass
+        elif any(i in word.lower() for i in list):
+            pass
+        else:
+            new_words.append(word)
+    new_words = [word for word in new_words if word]   # remove null
+    if new_words == []:
+        new_words.append(re.sub(r'\d+(\.\d+)?', '0', log_content))
+    return new_words
 
 
 def vectorize(tokenized_logs):
