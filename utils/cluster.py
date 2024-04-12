@@ -1,15 +1,22 @@
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import DBSCAN
+from utils.sample_byword import dpp_sample
 import random
 
 class Cluster:
-    def __init__(self, label, logs, indexs, oracle_template):
+    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=False, remain_num=10, sample_method="dpp"):
         self.label = label
         self.logs = logs
         self.indexs = indexs
         self.oracle_template = oracle_template
+        self.sample_method = sample_method
         self.shuffle()
+        if remove_duplicate:
+            self.remove_duplicate()
+            if len(self.logs) > remain_num:
+                self.sample(remain_num)
     
     def remove_duplicate(self):
         self.logs = list(set(self.logs))
@@ -18,6 +25,22 @@ class Cluster:
         seed = 0
         random.seed(seed)
         random.shuffle(self.logs)
+
+    def sample(self, remain_num):
+        # vetorize logs
+        vectorizer = TfidfVectorizer()
+        tfidf_matrix = vectorizer.fit_transform(self.logs)  # logs 是你的文本日志列表
+        tfidf_matrix = tfidf_matrix.toarray()
+
+        # sample
+        if self.sample_method == "dpp":
+            similarity_matrix = cosine_similarity(tfidf_matrix)
+            result = dpp_sample(similarity_matrix, remain_num)
+        elif self.sample_method == "random":
+            random.seed(0)
+            result = random.sample(range(0, len(self.logs)), remain_num)
+        self.logs = [self.logs[i] for i in result]
+        return
 
 def tokenize(log_content, tokenize_pattern=r'[ ,|]'):
     words = re.split(tokenize_pattern, log_content)

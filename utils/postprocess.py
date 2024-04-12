@@ -97,9 +97,9 @@ def correct_single_template(template, user_strings=None):
         template = re.sub(r'<\*><\*>', '<*>', template)
         if prev == template:
             break
-
-    while "#<*>#" in template:
-        template = template.replace("#<*>#", "<*>")
+    # incorrect in HealthApp
+    # while "#<*>#" in template:
+    #     template = template.replace("#<*>#", "<*>")
 
     while "<*>:<*>" in template:
         template = template.replace("<*>:<*>", "<*>")

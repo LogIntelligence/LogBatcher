@@ -53,7 +53,7 @@ def extract_variables(log, template):
     else:
         return []
 
-def sample_byword(df, k, method='dpp'):
+def sample_byword(df, k, method='dpp', showLogs=False):
 
     logs = df['Content'].tolist()
     templates = df['EventTemplate'].tolist()
@@ -75,8 +75,11 @@ def sample_byword(df, k, method='dpp'):
     # extract variables
     vars = []
     for i in result:
+        if showLogs:
+            print(logs[i])
         variables = extract_variables(logs[i], templates[i])
         for var in variables:
             if var not in vars:
                 vars.append(var)
     return set(vars)
+
