@@ -48,7 +48,14 @@ def tokenize(log_content, tokenize_pattern=r'[ ,|]'):
     list = ['/', 'kb', 'sec', 'byte', 'mb']
     for index, word in enumerate(words):
         if '=' in word:
-            new_words.append(word.split('=')[0])
+            ws = word.split('=')
+            if len(ws) <= 2:
+                new_words.append(ws[0])
+            else:
+                # might be some parameters of a URL 
+                pass 
+            # new_words.append(word.split('=')[0])
+
         elif re.search(r'\d', word):
             pass
         elif any(i in word.lower() for i in list):
@@ -66,8 +73,8 @@ def vectorize(tokenized_logs):
     return vectorizer.fit_transform(tokenized_logs)
 
 
-def cluster(vectorized_logs):
-    cluster = DBSCAN(eps=0.1, min_samples=5)
+def cluster(vectorized_logs, eps=0.1):
+    cluster = DBSCAN(eps=eps, min_samples=5)
     cluster.fit(vectorized_logs)
     labels = cluster.labels_
     cluster_nums = max(labels) + 1

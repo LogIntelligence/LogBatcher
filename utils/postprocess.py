@@ -2,19 +2,15 @@ import re
 
 def post_process(response):
 
-    response = response.strip().strip('\n')
-    if "\n\n" in response:
-        response = response.split("\n\n")[0]
-    reg = re.compile("`([^`]+)`")
-    tmps = reg.findall(response)
-    tmps = [x.strip('\n').strip() for x in tmps]
+    response = response.replace('\n', '')
+    tmps = re.findall(r'`(.*?)`', response)
+    tmps = [x.strip() for x in tmps]
     tmp = ''
     if len(tmps) == 1:
         tmp = tmps[0]
     if len(tmps) > 1:
         tmp = max(tmps, key=len)
-    
-    tmp = tmp.strip('\n').strip()
+
     tmp = re.sub(r'\{\{.*?\}\}', '<*>', tmp)
     return correct_single_template(tmp)
 

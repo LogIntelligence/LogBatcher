@@ -55,13 +55,13 @@ class Cluster_Parser:
             length_prompt = 0
             for log in batch_logs:
                 prompt += log + '\n'
-            if len(prompt) > 4096:
-                f.write(f"+++++++++++++++++++++++++++\n")
-                f.write(f"cluster {label} is out of size, cut it\n")
-                f.write(f"+++++++++++++++++++++++++++\n")
-                prompt = ""
-                for log in batch_logs[:5]:
-                    prompt += log + '\n'
+            # if len(prompt) > 4096:
+            #     f.write(f"+++++++++++++++++++++++++++\n")
+            #     f.write(f"cluster {label} is out of size, cut it\n")
+            #     f.write(f"+++++++++++++++++++++++++++\n")
+            #     prompt = ""
+            #     for log in batch_logs[:5]:
+            #         prompt += log + '\n'
             messages.append({"role": "user", "content": prompt.strip('\n')})
             answer = self.chat(messages)
             template =  post_process(answer)

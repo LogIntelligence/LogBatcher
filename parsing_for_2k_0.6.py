@@ -17,7 +17,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
 
     # tokenize -> vectorize -> cluster -> reassign_clusters
     tokenized_logs = [tokenize(log) for log in logs]
-    labels, cluster_nums = cluster(vectorize(tokenized_logs))
+    labels, cluster_nums = cluster(vectorize(tokenized_logs), eps=0.6)
     labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
 
     # output file
@@ -38,7 +38,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     
     clusters = []
     for input in inputs:
-        c = Cluster(*input, remove_duplicate= False)
+        c = Cluster(*input)
         clusters.append(c)
 
     # Concurrent or not
@@ -68,7 +68,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
     output_dir = 'outputs/parser/Test/'
-    datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
+    datasets = ['Mac']
     with open('config.json', 'r') as f:
         config = json.load(f)
     parser = Cluster_Parser(config)

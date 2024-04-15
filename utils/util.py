@@ -13,8 +13,8 @@ def choose(list):
         final_template = candidates[0][0]
     elif not all(any (char.isdigit() for char in log) for log in list):
             list = [log for log in list if not any(char.isdigit() for char in log)]
-            freq = Counter(list)
-            candidates = freq.most_common(len(freq))
+            freq1 = Counter(list)
+            candidates = freq1.most_common(len(freq1))
             final_template = candidates[0][0]
     else:
         count1 = 0
