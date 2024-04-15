@@ -1,0 +1,278 @@
+Content,EventTemplate,Output
+"printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false","printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = <*>","printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = <*>"
+"acquire lock=233570404, flags=0x1, tag=""View Lock"", name=com.android.systemui, ws=null, uid=10037, pid=2227","acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>","acquire lock=<*>, flags=0x1, tag=""View Lock"", name=com.android.systemui, ws=<*>, uid=<*>, pid=<*>"
+Skipping AppWindowToken{df0798e token=Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide,Skipping <*> token=<*> <*> u0 <*>}}} -- going to hide
+visible is system.time.showampm,visible is <*>,visible is system.time.showampm
+visible is system.charge.show,visible is <*>,visible is system.charge.show
+visible is system.ownerinfo.show,visible is <*>,visible is system.ownerinfo.show
+"release:lock=233570404, flg=0x0, tag=""View Lock"", name=com.android.systemui"", ws=null, uid=10037, pid=2227","release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>","release:lock=<*>, flg=0x0, tag=""View Lock"", name=com.android.systemui"", ws=<*>, uid=<*>, pid=<*>"
+Skipping AppWindowToken{df0798e token=Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide,Skipping <*> token=<*> <*> u0 <*>}}} -- going to hide
+Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:942 com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:3407 com.android.server.wm.Session.performDeferredDestroy:225 android.view.IWindowSession$Stub.onTransact:398 com.android.server.wm.Session.onTransact:136 android.os.Binder.execTransact:565 <bottom of call stack> <bottom of call stack>,Destroying surface Surface(name=<*>) called by <*>,Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:<*>
+"orientation change is complete, call stopFreezingDisplayLocked","orientation change is complete, call stopFreezingDisplayLocked","<*> change is complete, call <*>"
+Screen frozen for +1s0ms due to Window{ca98d5 u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity},Screen frozen for <*> due to Window{<*> u0 <*>},Screen frozen for <*> due to <*> u0 <*>
+remove(PendingIntent{19abed0: PendingIntentRecord{a485420 com.tencent.qt.qtl broadcastIntent}}) changed bounds; rebatching,remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching,remove(<*>: <*> <*> broadcastIntent}}) changed bounds; rebatching
+Skipping AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}} -- going to hide,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide,Skipping <*> token=<*> <*> u0 <*>}}} -- going to hide
+Bad activity token: android.os.BinderProxy@2bd79ce,Bad activity token: <*>@<*>,Bad activity token: android.os.BinderProxy@<*>
+java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token,<*>: <*> cannot be cast to <*>$Token,java.lang.ClassCastException: <*> cannot be cast to <*>$Token
+Skipping AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}} -- going to hide,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide,Skipping <*> token=<*> <*> u0 <*>}}} -- going to hide
+Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2227:com.android.systemui/u0a37 pkg com.android.systemui,Sending non-protected broadcast <*> from system <*> pkg <*>,Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system <*> pkg com.android.systemui
+"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851646, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false","onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>","onInterceptTouchEvent MotionEvent { action=<*>, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>"
+"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851713, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false","onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>","onInterceptTouchEvent MotionEvent { action=<*>, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>"
+START u0 {act=com.tencent.mobileqq.action.MAINACTIVITY flg=0x14000000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid 10111 on display 0,START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,START u0 {act=com.tencent.mobileqq.action.MAINACTIVITY flg=0x14000000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid <*> on display <*>
+"ActivityRecord info: ActivityInfo{d1c8e63 com.tencent.mobileqq.activity.SplashActivity}, euid: 0","ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>","ActivityRecord info: <*>, euid: <*>"
+"cancelNotificationLocked,remove =com.tencent.mobileqq","cancelNotificationLocked,remove =<*>","cancelNotificationLocked,remove =com.tencent.mobileqq"
+removeNotification:0|com.tencent.mobileqq|121|null|10111,removeNotification:<*>|<*>|<*>|<*>|<*>,cancelNotificationLocked:<*>|<*>|<*>|<*>|<*>
+The change in focus caused us to need to do a layout begin,The change in focus caused us to need to do a layout begin,The <*> caused us to need to do a layout begin
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2227:com.android.systemui/u0a37 pkg com.android.systemui,Sending non-protected broadcast <*> from system <*> pkg <*>,Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system <*> pkg com.android.systemui
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+*** unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093,*** unregister callback for <*>@<*>,*** unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@<*>
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+isBluetoothA2dpOn...,isBluetoothA2dpOn...,<*>...
+"sending alarm Alarm{aa90550 type 3 when 509142332 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = 0,listenerTag =time_tick","sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick","sending alarm <*> type <*> when <*> <*>: <*> android broadcastIntent}},repeatInterval = <*>,listenerTag =time_tick"
+received broadcast android.intent.action.TIME_TICK,received broadcast <*>,received broadcast android.intent.action.TIME_TICK
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+"sending alarm Alarm{19069ff type 3 when 509169377 PendingIntent{50303cc: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = 0,listenerTag =null","sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*>","sending alarm <*> type <*> when <*> <*>: <*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*>"
+"sending alarm Alarm{c1705d3 type 3 when 509202333 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = 0,listenerTag =time_tick","sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick","sending alarm <*> type <*> when <*> <*>: <*> android broadcastIntent}},repeatInterval = <*>,listenerTag =time_tick"
+received broadcast android.intent.action.TIME_TICK,received broadcast <*>,received broadcast android.intent.action.TIME_TICK
+remove(PendingIntent{e4e2534: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}) changed bounds; rebatching,remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching,remove(<*>: <*> <*> broadcastIntent}}) changed bounds; rebatching
+Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=0: not found,Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found,Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=<*>: not found
+Process com.tencent.mobileqq:qzone (pid 12236) has died,Process <*>:qzone (pid <*>) has died,Process com.tencent.mobileqq:qzone (pid <*>) has died
+"new Process app=ProcessRecord{6eaaf00 0:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: 0","new Process app=ProcessRecord{<*> <*>}, name: <*>:qzone, euid: <*>","new Process app=ProcessRecord{6eaaf00 <*>:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: <*>"
+Start proc 13003:com.tencent.mobileqq:qzone/u0a111 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService,Start proc <*> for service <*>,Start proc <*>/<*> for service <*>
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+The change in focus caused us to need to do a layout begin,The change in focus caused us to need to do a layout begin,The <*> caused us to need to do a layout begin
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+enqueueNotificationInternal: pkg=com.tencent.mobileqq id=121 notification=Notification(pri=1 contentView=null vibrate=[100] sound=null tick defaults=0x0 flags=0x11 color=0x00000000 vis=PRIVATE),enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=PRIVATE),enqueueNotificationInternal: pkg=com.tencent.mobileqq id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=0x0 flags=0x11 color=0x00000000 vis=PRIVATE)
+"START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.android.notepad/.NotePadActivity bnds=[8,820][184,1011]} from uid 10057 on display 0",START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>,START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>]} from uid <*> on display <*>
+"ActivityRecord info: ActivityInfo{f39182 com.example.android.notepad.NotePadActivity}, euid: 0","ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>","ActivityRecord info: ActivityInfo{ <*> <*> }, euid: <*>"
+The change in focus caused us to need to do a layout begin,The change in focus caused us to need to do a layout begin,The <*> caused us to need to do a layout begin
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.example.android.notepad/com.example.android.notepad.NoteEditor},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.example.android.notepad/com.example.android.notepad.NoteEditor},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+The change in focus caused us to need to do a layout begin,The change in focus caused us to need to do a layout begin,The <*> caused us to need to do a layout begin
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.example.android.notepad/com.example.android.notepad.NoteEditor},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.example.android.notepad/com.example.android.notepad.NoteEditor},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity bnds=[360,820][536,1011]} from uid 10057 on display 0",START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>,START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>]} from uid <*> on display <*>
+"ActivityRecord info: ActivityInfo{71e60ba com.tencent.mobileqq.activity.SplashActivity}, euid: 0","ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>","ActivityRecord info: <*>, euid: <*>"
+The change in focus caused us to need to do a layout begin,The change in focus caused us to need to do a layout begin,The <*> caused us to need to do a layout begin
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+"cancelNotificationLocked,remove =com.tencent.mobileqq","cancelNotificationLocked,remove =<*>","cancelNotificationLocked,remove =com.tencent.mobileqq"
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+removeNotification:0|com.tencent.mobileqq|121|null|10111,removeNotification:<*>|<*>|<*>|<*>|<*>,cancelNotificationLocked:<*>|<*>|<*>|<*>|<*>
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,getAllCellInfo is blocked by permission manager . callingPackage = <*>,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,getAllCellInfo is blocked by permission manager . callingPackage = <*>,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,getAllCellInfo is blocked by permission manager . callingPackage = <*>,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+"sending alarm Alarm{d764221 type 3 when 509262332 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = 0,listenerTag =time_tick","sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick","sending alarm <*> type <*> when <*> <*>: <*> android broadcastIntent}},repeatInterval = <*>,listenerTag =time_tick"
+received broadcast android.intent.action.TIME_TICK,received broadcast <*>,received broadcast android.intent.action.TIME_TICK
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+received broadcast android.intent.action.BATTERY_CHANGED,received broadcast <*>,received broadcast android.intent.action.BATTERY_CHANGED
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+setLightsOn(true),setLightsOn(<*>),setLightsOn(true)
+The change in focus caused us to need to do a layout begin,The change in focus caused us to need to do a layout begin,The <*> caused us to need to do a layout begin
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+enqueueNotificationInternal: pkg=com.tencent.mm id=4097 notification=Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE),enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE),enqueueNotificationInternal: pkg=com.tencent.mm id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[] sound=<*> tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)
+"sending alarm Alarm{2741459 type 3 when 509267844 PendingIntent{f75f81e: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = 0,listenerTag =null","sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*>","sending alarm <*> type <*> when <*> <*>: <*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*>"
+"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=622.0, y[0]=86.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261991304, downTime=261991304, deviceId=3, source=0x1002 }, mBlockTouches=false","onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>","onInterceptTouchEvent MotionEvent { action=<*>, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>"
+"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=622.0, y[0]=86.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261991368, downTime=261991304, deviceId=3, source=0x1002 }, mBlockTouches=false","onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>","onInterceptTouchEvent MotionEvent { action=<*>, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>"
+START u0 {flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)} from uid 10112 on display 0,START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,START u0 {flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)} from uid <*> on display <*>
+"ActivityRecord info: ActivityInfo{80c2e70 com.tencent.mm.ui.LauncherUI}, euid: 0","ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>","ActivityRecord info: ActivityInfo{80c2e70 com.tencent.mm.ui.LauncherUI}, euid: <*>"
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}
+"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }","Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }"
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI},getRecentTasks: topActivity=ComponentInfo{<*>},getRecentTasks: topActivity=<*>}

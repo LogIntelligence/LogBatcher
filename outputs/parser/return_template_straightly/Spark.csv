@@ -1,23 +1,23 @@
 Content,EventTemplate,Output
-"Registered signal handlers for [TERM, HUP, INT]","Registered signal handlers for [TERM, HUP, INT]",Registered signal handlers for [<*>]
-"Changing view acls to: yarn,curi",Changing view acls to: <*>,"Changing view acls to: <*>,<*>"
-"Changing modify acls to: yarn,curi",Changing modify acls to: <*>,"Changing modify acls to: <*>,<*>"
-"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(<*>); users with modify permissions: Set(<*>)
-"Changing view acls to: yarn,curi",Changing view acls to: <*>,"Changing view acls to: <*>,<*>"
-"Changing modify acls to: yarn,curi",Changing modify acls to: <*>,"Changing modify acls to: <*>,<*>"
-"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(<*>); users with modify permissions: Set(<*>)
-Slf4jLogger started,Slf4jLogger started,<*> started
-Starting remoting,Starting remoting,Starting <*>
-Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904],Remoting started; listening on addresses :[<*>],Remoting started; listening on addresses :[akka.tcp://<*>@<*>]
-Successfully started service 'sparkExecutorActorSystem' on port 55904.,Successfully started service 'sparkExecutorActorSystem' on port <*>.,Successfully started service '<*>' on port <*>.
+"Registered signal handlers for [TERM, HUP, INT]","Registered signal handlers for [TERM, HUP, INT]","Registered signal handlers for [TERM, HUP, INT]"
+"Changing view acls to: yarn,curi",Changing view acls to: <*>,Changing view acls to: <*>
+"Changing modify acls to: yarn,curi",Changing modify acls to: <*>,Changing modify acls to: <*>
+"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+"Changing view acls to: yarn,curi",Changing view acls to: <*>,Changing view acls to: <*>
+"Changing modify acls to: yarn,curi",Changing modify acls to: <*>,Changing modify acls to: <*>
+"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)","SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+Slf4jLogger started,Slf4jLogger started,Slf4jLogger started
+Starting remoting,Starting remoting,Starting remoting
+Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904],Remoting started; listening on addresses :[<*>],Remoting started; listening on addresses :[<*>]
+Successfully started service 'sparkExecutorActorSystem' on port 55904.,Successfully started service 'sparkExecutorActorSystem' on port <*>.,Successfully started service 'sparkExecutorActorSystem' on port <*>.
 Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4,Created local directory at <*>,Created local directory at <*>
-MemoryStore started with capacity 17.7 GB,MemoryStore started with capacity <*> GB,MemoryStore started with capacity <*>
-Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069,Connecting to driver: <*>,Connecting to driver: spark://<*>@<*>
-Successfully registered with driver,Successfully registered with driver,Successfully registered with <*>
+MemoryStore started with capacity 17.7 GB,MemoryStore started with capacity <*> GB,MemoryStore started with capacity <*> GB
+Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069,Connecting to driver: <*>,Connecting to driver: <*>
+Successfully registered with driver,Successfully registered with driver,Successfully registered with driver
 Starting executor ID 5 on host mesos-slave-07,Starting executor ID <*> on host <*>,Starting executor ID <*> on host <*>
-Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,Successfully started service '<*>' on port <*>.
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.
 Server created on 40984,Server created on <*>,Server created on <*>
-Trying to register BlockManager,Trying to register BlockManager,Trying to register <*>
+Trying to register BlockManager,Trying to register BlockManager,Trying to register BlockManager
 Registered BlockManager,Registered BlockManager,Registered BlockManager
 Got assigned task 0,Got assigned task <*>,Got assigned task <*>
 Got assigned task 1,Got assigned task <*>,Got assigned task <*>
@@ -30,48 +30,48 @@ Running task 3.0 in stage 0.0 (TID 3),Running task <*> in stage <*> (TID <*>),Ru
 Got assigned task 4,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 0.0 (TID 4),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 9,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_9_piece0 stored as bytes in memory (estimated size 5.2 KB, free 5.2 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_9_piece0 stored as bytes in memory (estimated size 5.2 KB, free 5.2 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 9 took 160 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_9 stored as values in memory (estimated size 8.8 KB, free 14.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_9 stored as values in memory (estimated size 8.8 KB, free 14.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_2_1 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_2_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_2_0 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_2_2 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_2_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:0+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:7292+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:29168+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292,Input split: <*>,Input split: <*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292,Input split: <*>,Input split: <*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:0+7292,Input split: <*>,Input split: <*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:7292+7292,Input split: <*>,Input split: <*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:29168+7292,Input split: <*>,Input split: <*>
 Started reading broadcast variable 8,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_8_piece0 stored as bytes in memory (estimated size 21.4 KB, free 35.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_8_piece0 stored as bytes in memory (estimated size 21.4 KB, free 35.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 8 took 19 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_8 stored as values in memory (estimated size 281.6 KB, free 317.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
-"mapred.tip.id is deprecated. Instead, use mapreduce.task.id","mapred.tip.id is deprecated. Instead, use mapreduce.task.id","mapred.<*> is deprecated. Instead, use mapreduce.task.id"
-"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id","mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id","<*> is deprecated. Instead, use <*>"
-"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap","mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap","mapred.task.<*> is deprecated. Instead, use mapreduce.task.<*>"
+"Block broadcast_8 stored as values in memory (estimated size 281.6 KB, free 317.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
+"mapred.tip.id is deprecated. Instead, use mapreduce.task.id","mapred.tip.id is deprecated. Instead, use mapreduce.task.id","mapred.tip.id is deprecated. Instead, use mapreduce.task.id"
+"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id","mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id","mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id"
+"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap","mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap","mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap"
 "mapred.job.id is deprecated. Instead, use mapreduce.job.id","mapred.job.id is deprecated. Instead, use mapreduce.job.id","mapred.job.id is deprecated. Instead, use mapreduce.job.id"
-"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition","mapred.task.partition is deprecated. Instead, use mapreduce.task.partition","<*>.task.partition is deprecated. Instead, use mapreduce.task.partition"
+"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition","mapred.task.partition is deprecated. Instead, use mapreduce.task.partition","mapred.task.partition is deprecated. Instead, use mapreduce.task.partition"
 Started reading broadcast variable 0,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 "Block broadcast_0_piece0 stored as bytes in memory (estimated size 93.0 B, free 317.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 0 took 21 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_0 stored as values in memory (estimated size 384.0 B, free 317.5 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> B, free <*> KB)"
+"Block broadcast_0 stored as values in memory (estimated size 384.0 B, free 317.5 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Started reading broadcast variable 4,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 "Block broadcast_4_piece0 stored as bytes in memory (estimated size 95.0 B, free 317.6 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 4 took 18 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_4 stored as values in memory (estimated size 384.0 B, free 318.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> B, free <*> KB)"
+"Block broadcast_4 stored as values in memory (estimated size 384.0 B, free 318.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Started reading broadcast variable 3,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 "Block broadcast_3_piece0 stored as bytes in memory (estimated size 152.0 B, free 318.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 3 took 17 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_3 stored as values in memory (estimated size 384.0 B, free 318.5 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> B, free <*> KB)"
+"Block broadcast_3 stored as values in memory (estimated size 384.0 B, free 318.5 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Started reading broadcast variable 1,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 "Block broadcast_1_piece0 stored as bytes in memory (estimated size 107.0 B, free 318.6 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 1 took 16 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_1 stored as values in memory (estimated size 384.0 B, free 319.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> B, free <*> KB)"
+"Block broadcast_1 stored as values in memory (estimated size 384.0 B, free 319.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Started reading broadcast variable 2,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 "Block broadcast_2_piece0 stored as bytes in memory (estimated size 93.0 B, free 319.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 2 took 16 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_2 stored as values in memory (estimated size 384.0 B, free 319.4 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> B, free <*> KB)"
+"Block broadcast_2 stored as values in memory (estimated size 384.0 B, free 319.4 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Times: total = 1072, boot = 856, init = 210, finish = 6","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 1114, boot = 885, init = 223, finish = 6","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 1074, boot = 869, init = 199, finish = 6","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -103,9 +103,9 @@ Got assigned task 78,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 1.0 (TID 78),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 79,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 1.0 (TID 79),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_10_piece0 stored as bytes in memory (estimated size 5.8 KB, free 329.6 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_10_piece0 stored as bytes in memory (estimated size 5.8 KB, free 329.6 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 10 took 17 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_10 stored as values in memory (estimated size 9.6 KB, free 339.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_10 stored as values in memory (estimated size 9.6 KB, free 339.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
@@ -132,9 +132,9 @@ Running task 3.0 in stage 2.0 (TID 118),Running task <*> in stage <*> (TID <*>),
 Started reading broadcast variable 11,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 Got assigned task 119,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 2.0 (TID 119),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_11_piece0 stored as bytes in memory (estimated size 5.4 KB, free 344.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_11_piece0 stored as bytes in memory (estimated size 5.4 KB, free 344.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 11 took 15 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_11 stored as values in memory (estimated size 9.2 KB, free 353.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_11 stored as values in memory (estimated size 9.2 KB, free 353.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_2 locally,Found block <*> locally,Found block <*> locally
@@ -161,9 +161,9 @@ Running task 3.0 in stage 3.0 (TID 158),Running task <*> in stage <*> (TID <*>),
 Started reading broadcast variable 12,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 Got assigned task 159,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 3.0 (TID 159),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_12_piece0 stored as bytes in memory (estimated size 5.6 KB, free 359.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_12_piece0 stored as bytes in memory (estimated size 5.6 KB, free 359.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 12 took 30 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_12 stored as values in memory (estimated size 9.8 KB, free 369.3 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_12 stored as values in memory (estimated size 9.8 KB, free 369.3 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_6_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_6_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_6_0 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
@@ -205,9 +205,9 @@ Got assigned task 198,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 4.0 (TID 198),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 199,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 4.0 (TID 199),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_13_piece0 stored as bytes in memory (estimated size 5.7 KB, free 376.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_13_piece0 stored as bytes in memory (estimated size 5.7 KB, free 376.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 13 took 41 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_13 stored as values in memory (estimated size 10.1 KB, free 386.5 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_13 stored as values in memory (estimated size 10.1 KB, free 386.5 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_6_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_6_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_6_3 locally,Found block <*> locally,Found block <*> locally
@@ -234,9 +234,9 @@ Got assigned task 238,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 5.0 (TID 238),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 239,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 5.0 (TID 239),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_14_piece0 stored as bytes in memory (estimated size 5.8 KB, free 392.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_14_piece0 stored as bytes in memory (estimated size 5.8 KB, free 392.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 14 took 12 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_14 stored as values in memory (estimated size 9.6 KB, free 401.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_14 stored as values in memory (estimated size 9.6 KB, free 401.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -263,9 +263,9 @@ Got assigned task 278,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 6.0 (TID 278),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 279,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 6.0 (TID 279),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_15_piece0 stored as bytes in memory (estimated size 5.4 KB, free 407.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_15_piece0 stored as bytes in memory (estimated size 5.4 KB, free 407.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 15 took 15 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_15 stored as values in memory (estimated size 9.2 KB, free 416.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_15 stored as values in memory (estimated size 9.2 KB, free 416.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -292,9 +292,9 @@ Running task 3.0 in stage 7.0 (TID 318),Running task <*> in stage <*> (TID <*>),
 Started reading broadcast variable 16,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 Got assigned task 319,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 7.0 (TID 319),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_16_piece0 stored as bytes in memory (estimated size 5.6 KB, free 422.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_16_piece0 stored as bytes in memory (estimated size 5.6 KB, free 422.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 16 took 13 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_16 stored as values in memory (estimated size 9.8 KB, free 432.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_16 stored as values in memory (estimated size 9.8 KB, free 432.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_11_0 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_11_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_11_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
@@ -336,9 +336,9 @@ Got assigned task 358,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 8.0 (TID 358),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 359,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 8.0 (TID 359),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_17_piece0 stored as bytes in memory (estimated size 5.7 KB, free 438.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_17_piece0 stored as bytes in memory (estimated size 5.7 KB, free 438.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 17 took 12 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_17 stored as values in memory (estimated size 10.1 KB, free 448.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_17 stored as values in memory (estimated size 10.1 KB, free 448.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_11_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_11_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_11_3 locally,Found block <*> locally,Found block <*> locally
@@ -365,9 +365,9 @@ Started reading broadcast variable 18,Started reading broadcast variable <*>,Sta
 Running task 3.0 in stage 9.0 (TID 398),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 399,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 9.0 (TID 399),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_18_piece0 stored as bytes in memory (estimated size 5.8 KB, free 454.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_18_piece0 stored as bytes in memory (estimated size 5.8 KB, free 454.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 18 took 12 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_18 stored as values in memory (estimated size 9.6 KB, free 464.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_18 stored as values in memory (estimated size 9.6 KB, free 464.0 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -394,9 +394,9 @@ Running task 3.0 in stage 10.0 (TID 438),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 19,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 Got assigned task 439,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 10.0 (TID 439),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_19_piece0 stored as bytes in memory (estimated size 5.4 KB, free 469.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_19_piece0 stored as bytes in memory (estimated size 5.4 KB, free 469.4 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 19 took 12 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_19 stored as values in memory (estimated size 9.2 KB, free 478.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_19 stored as values in memory (estimated size 9.2 KB, free 478.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -423,9 +423,9 @@ Started reading broadcast variable 20,Started reading broadcast variable <*>,Sta
 Running task 3.0 in stage 11.0 (TID 478),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 479,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 11.0 (TID 479),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_20_piece0 stored as bytes in memory (estimated size 5.5 KB, free 416.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_20_piece0 stored as bytes in memory (estimated size 5.5 KB, free 416.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 20 took 15 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_20 stored as values in memory (estimated size 9.8 KB, free 411.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_20 stored as values in memory (estimated size 9.8 KB, free 411.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_16_0 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_16_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_16_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
@@ -467,9 +467,9 @@ Got assigned task 518,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 12.0 (TID 518),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 519,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 12.0 (TID 519),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_21_piece0 stored as bytes in memory (estimated size 5.7 KB, free 393.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_21_piece0 stored as bytes in memory (estimated size 5.7 KB, free 393.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 21 took 11 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_21 stored as values in memory (estimated size 10.1 KB, free 403.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_21 stored as values in memory (estimated size 10.1 KB, free 403.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_16_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_16_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_16_3 locally,Found block <*> locally,Found block <*> locally
@@ -496,9 +496,9 @@ Got assigned task 558,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 13.0 (TID 558),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 559,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 13.0 (TID 559),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_22_piece0 stored as bytes in memory (estimated size 5.8 KB, free 409.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_22_piece0 stored as bytes in memory (estimated size 5.8 KB, free 409.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 22 took 11 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_22 stored as values in memory (estimated size 9.6 KB, free 418.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_22 stored as values in memory (estimated size 9.6 KB, free 418.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -525,9 +525,9 @@ Got assigned task 598,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 14.0 (TID 598),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 599,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 14.0 (TID 599),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_23_piece0 stored as bytes in memory (estimated size 5.4 KB, free 378.2 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_23_piece0 stored as bytes in memory (estimated size 5.4 KB, free 378.2 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 23 took 11 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_23 stored as values in memory (estimated size 9.2 KB, free 387.4 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_23 stored as values in memory (estimated size 9.2 KB, free 387.4 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -554,9 +554,9 @@ Running task 3.0 in stage 15.0 (TID 638),Running task <*> in stage <*> (TID <*>)
 Got assigned task 639,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 15.0 (TID 639),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 24,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.6 KB, free 393.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 24 took 10 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_24 stored as values in memory (estimated size 9.8 KB, free 402.8 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_24 stored as values in memory (estimated size 9.8 KB, free 402.8 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_21_1 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_21_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_21_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
@@ -598,9 +598,9 @@ Started reading broadcast variable 25,Started reading broadcast variable <*>,Sta
 Running task 3.0 in stage 16.0 (TID 678),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 679,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 16.0 (TID 679),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_25_piece0 stored as bytes in memory (estimated size 5.7 KB, free 409.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_25_piece0 stored as bytes in memory (estimated size 5.7 KB, free 409.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 25 took 11 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_25 stored as values in memory (estimated size 10.1 KB, free 419.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_25 stored as values in memory (estimated size 10.1 KB, free 419.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_21_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_21_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_21_3 locally,Found block <*> locally,Found block <*> locally
@@ -627,9 +627,9 @@ Started reading broadcast variable 26,Started reading broadcast variable <*>,Sta
 Running task 3.0 in stage 17.0 (TID 718),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 719,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 17.0 (TID 719),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_26_piece0 stored as bytes in memory (estimated size 5.8 KB, free 379.9 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_26_piece0 stored as bytes in memory (estimated size 5.8 KB, free 379.9 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 26 took 10 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_26 stored as values in memory (estimated size 9.7 KB, free 389.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_26 stored as values in memory (estimated size 9.7 KB, free 389.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -656,9 +656,9 @@ Running task 3.0 in stage 18.0 (TID 758),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 27,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 Got assigned task 759,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 18.0 (TID 759),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_27_piece0 stored as bytes in memory (estimated size 5.4 KB, free 395.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_27_piece0 stored as bytes in memory (estimated size 5.4 KB, free 395.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 27 took 10 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_27 stored as values in memory (estimated size 9.2 KB, free 404.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_27 stored as values in memory (estimated size 9.2 KB, free 404.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -685,9 +685,9 @@ Running task 3.0 in stage 19.0 (TID 798),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 28,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 Got assigned task 799,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 19.0 (TID 799),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_28_piece0 stored as bytes in memory (estimated size 5.6 KB, free 409.8 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_28_piece0 stored as bytes in memory (estimated size 5.6 KB, free 409.8 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 28 took 9 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_28 stored as values in memory (estimated size 9.8 KB, free 419.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_28 stored as values in memory (estimated size 9.8 KB, free 419.6 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_26_0 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_26_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_26_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
@@ -729,9 +729,9 @@ Started reading broadcast variable 29,Started reading broadcast variable <*>,Sta
 Running task 3.0 in stage 20.0 (TID 838),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 839,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 20.0 (TID 839),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_29_piece0 stored as bytes in memory (estimated size 5.7 KB, free 379.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_29_piece0 stored as bytes in memory (estimated size 5.7 KB, free 379.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 29 took 11 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_29 stored as values in memory (estimated size 10.1 KB, free 374.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_29 stored as values in memory (estimated size 10.1 KB, free 374.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_26_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_26_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_26_3 locally,Found block <*> locally,Found block <*> locally
@@ -758,9 +758,9 @@ Running task 3.0 in stage 21.0 (TID 878),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 30,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 Got assigned task 879,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 21.0 (TID 879),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_30_piece0 stored as bytes in memory (estimated size 5.8 KB, free 380.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_30_piece0 stored as bytes in memory (estimated size 5.8 KB, free 380.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 30 took 8 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_30 stored as values in memory (estimated size 9.7 KB, free 389.7 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_30 stored as values in memory (estimated size 9.7 KB, free 389.7 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_2_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_2_3 locally,Found block <*> locally,Found block <*> locally
@@ -787,9 +787,9 @@ Running task 3.0 in stage 22.0 (TID 918),Running task <*> in stage <*> (TID <*>)
 Got assigned task 919,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 22.0 (TID 919),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 31,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_31_piece0 stored as bytes in memory (estimated size 5.6 KB, free 395.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_31_piece0 stored as bytes in memory (estimated size 5.6 KB, free 395.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 31 took 8 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_31 stored as values in memory (estimated size 9.8 KB, free 405.1 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_31 stored as values in memory (estimated size 9.8 KB, free 405.1 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_30_0 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_30_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Partition rdd_30_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
@@ -831,9 +831,9 @@ Got assigned task 958,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 23.0 (TID 958),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 959,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 23.0 (TID 959),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_32_piece0 stored as bytes in memory (estimated size 5.7 KB, free 406.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_32_piece0 stored as bytes in memory (estimated size 5.7 KB, free 406.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 32 took 16 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_32 stored as values in memory (estimated size 10.1 KB, free 400.4 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_32 stored as values in memory (estimated size 10.1 KB, free 400.4 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_30_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_30_3 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_30_2 locally,Found block <*> locally,Found block <*> locally
@@ -860,9 +860,9 @@ Running task 3.0 in stage 24.0 (TID 1012),Running task <*> in stage <*> (TID <*>
 Got assigned task 1026,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 24.0 (TID 1026),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 33,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_33_piece0 stored as bytes in memory (estimated size 29.5 KB, free 404.8 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_33_piece0 stored as bytes in memory (estimated size 29.5 KB, free 404.8 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 33 took 9 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_33 stored as values in memory (estimated size 82.1 KB, free 486.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_33 stored as values in memory (estimated size 82.1 KB, free 486.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_6_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_6_3 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_6_2 locally,Found block <*> locally,Found block <*> locally
@@ -878,11 +878,11 @@ File Output Committer Algorithm version is 1,File Output Committer Algorithm ver
 "Times: total = 42, boot = -343, init = 384, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 39, boot = -342, init = 381, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 41, boot = -343, init = 384, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-Saved output of task 'attempt_201706092018_0024_m_000003_1012' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000003,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0024_m_000004_1026' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000004,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0024_m_000002_998' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000002,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0024_m_000000_970' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000000,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0024_m_000001_984' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000001,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000003_1012' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000003,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0024_m_000004_1026' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000004,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0024_m_000002_998' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000002,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0024_m_000000_970' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000000,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0024_m_000001_984' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000001,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000004_1026: Committed,<*>: Committed,<*>: Committed
 attempt_201706092018_0024_m_000002_998: Committed,<*>: Committed,<*>: Committed
 attempt_201706092018_0024_m_000003_1012: Committed,<*>: Committed,<*>: Committed
@@ -918,15 +918,15 @@ File Output Committer Algorithm version is 1,File Output Committer Algorithm ver
 "Times: total = 40, boot = -400, init = 440, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 38, boot = -390, init = 428, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 41, boot = -398, init = 439, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-Saved output of task 'attempt_201706092018_0024_m_000044_1129' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000044,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000044_1129' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000044,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000044_1129: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000043_1128' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000043,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0024_m_000040_1125' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000040,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000043_1128' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000043,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0024_m_000040_1125' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000040,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000043_1128: Committed,<*>: Committed,<*>: Committed
 attempt_201706092018_0024_m_000040_1125: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000042_1127' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000042,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000042_1127' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000042,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000042_1127: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000041_1126' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000041,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000041_1126' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000041,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000041_1126: Committed,<*>: Committed,<*>: Committed
 Finished task 44.0 in stage 24.0 (TID 1129). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 43.0 in stage 24.0 (TID 1128). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -958,15 +958,15 @@ File Output Committer Algorithm version is 1,File Output Committer Algorithm ver
 "Times: total = 39, boot = -86, init = 125, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 42, boot = -81, init = 122, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 41, boot = -83, init = 123, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-Saved output of task 'attempt_201706092018_0024_m_000083_1138' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000083,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000083_1138' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000083,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000083_1138: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000084_1141' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000084,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0024_m_000080_1135' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000080,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000084_1141' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000084,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0024_m_000080_1135' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000080,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000084_1141: Committed,<*>: Committed,<*>: Committed
 attempt_201706092018_0024_m_000080_1135: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000082_1137' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000082,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000082_1137' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000082,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000082_1137: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000081_1136' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000081,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000081_1136' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000081,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000081_1136: Committed,<*>: Committed,<*>: Committed
 Finished task 83.0 in stage 24.0 (TID 1138). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 84.0 in stage 24.0 (TID 1141). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -990,7 +990,7 @@ Found block rdd_21_2 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_21_3 locally,Found block <*> locally,Found block <*> locally
 File Output Committer Algorithm version is 1,File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is <*>
 "Times: total = 40, boot = -82, init = 122, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-Saved output of task 'attempt_201706092018_0024_m_000124_1151' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000124,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000124_1151' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000124,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000124_1151: Committed,<*>: Committed,<*>: Committed
 Finished task 124.0 in stage 24.0 (TID 1151). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 File Output Committer Algorithm version is 1,File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is <*>
@@ -1003,12 +1003,12 @@ Running task 160.0 in stage 24.0 (TID 1155),Running task <*> in stage <*> (TID <
 "Times: total = 38, boot = -112, init = 150, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 40, boot = -107, init = 147, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 40, boot = -116, init = 156, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-Saved output of task 'attempt_201706092018_0024_m_000120_1145' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000120,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000120_1145' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000120,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000120_1145: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000122_1147' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000122,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0024_m_000121_1146' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000121,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000122_1147' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000122,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0024_m_000121_1146' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000121,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000122_1147: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000123_1150' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000123,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000123_1150' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000123,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000121_1146: Committed,<*>: Committed,<*>: Committed
 attempt_201706092018_0024_m_000123_1150: Committed,<*>: Committed,<*>: Committed
 Finished task 120.0 in stage 24.0 (TID 1145). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1030,16 +1030,16 @@ Found block rdd_26_1 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_26_2 locally,Found block <*> locally,Found block <*> locally
 "Times: total = 38, boot = -62, init = 100, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 File Output Committer Algorithm version is 1,File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is <*>
-Saved output of task 'attempt_201706092018_0024_m_000160_1155' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000160,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000160_1155' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000160,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000160_1155: Committed,<*>: Committed,<*>: Committed
 Finished task 160.0 in stage 24.0 (TID 1155). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 "Times: total = 38, boot = -45, init = 83, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 38, boot = -37, init = 75, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 File Output Committer Algorithm version is 1,File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is <*>
 File Output Committer Algorithm version is 1,File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is <*>
-Saved output of task 'attempt_201706092018_0024_m_000163_1158' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000163,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000163_1158' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000163,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000163_1158: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000164_1159' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000164,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000164_1159' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000164,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000164_1159: Committed,<*>: Committed,<*>: Committed
 Finished task 163.0 in stage 24.0 (TID 1158). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 164.0 in stage 24.0 (TID 1159). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1047,9 +1047,9 @@ Finished task 164.0 in stage 24.0 (TID 1159). 2364 bytes result sent to driver,F
 "Times: total = 37, boot = -62, init = 99, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 File Output Committer Algorithm version is 1,File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is <*>
 File Output Committer Algorithm version is 1,File Output Committer Algorithm version is <*>,File Output Committer Algorithm version is <*>
-Saved output of task 'attempt_201706092018_0024_m_000162_1157' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000162,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000162_1157' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000162,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000162_1157: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0024_m_000161_1156' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000161,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0024_m_000161_1156' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000161,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0024_m_000161_1156: Committed,<*>: Committed,<*>: Committed
 Finished task 162.0 in stage 24.0 (TID 1157). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 161.0 in stage 24.0 (TID 1156). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1064,9 +1064,9 @@ Running task 3.0 in stage 25.0 (TID 1198),Running task <*> in stage <*> (TID <*>
 Got assigned task 1199,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 25.0 (TID 1199),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 34,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_34_piece0 stored as bytes in memory (estimated size 28.8 KB, free 515.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_34_piece0 stored as bytes in memory (estimated size 28.8 KB, free 515.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 34 took 9 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_34 stored as values in memory (estimated size 77.4 KB, free 593.1 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_34 stored as values in memory (estimated size 77.4 KB, free 593.1 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_30_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_30_3 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_30_2 locally,Found block <*> locally,Found block <*> locally
@@ -1082,15 +1082,15 @@ File Output Committer Algorithm version is 1,File Output Committer Algorithm ver
 "Times: total = 39, boot = -700, init = 739, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 39, boot = -690, init = 729, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 41, boot = -699, init = 740, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-Saved output of task 'attempt_201706092018_0025_m_000004_1199' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000004,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0025_m_000004_1199' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000004,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0025_m_000004_1199: Committed,<*>: Committed,<*>: Committed
 Finished task 4.0 in stage 25.0 (TID 1199). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
-Saved output of task 'attempt_201706092018_0025_m_000003_1198' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000003,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0025_m_000003_1198' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000003,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0025_m_000003_1198: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0025_m_000000_1166' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000000,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0025_m_000000_1166' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000000,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0025_m_000000_1166: Committed,<*>: Committed,<*>: Committed
-Saved output of task 'attempt_201706092018_0025_m_000002_1194' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000002,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
-Saved output of task 'attempt_201706092018_0025_m_000001_1180' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000001,Saved output of task '<*>' to <*>,Saved output of task '<*>' to hdfs://10.<*>:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_<*>
+Saved output of task 'attempt_201706092018_0025_m_000002_1194' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000002,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
+Saved output of task 'attempt_201706092018_0025_m_000001_1180' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000001,Saved output of task '<*>' to <*>,Saved output of task '<*>' to <*>
 attempt_201706092018_0025_m_000002_1194: Committed,<*>: Committed,<*>: Committed
 attempt_201706092018_0025_m_000001_1180: Committed,<*>: Committed,<*>: Committed
 Finished task 3.0 in stage 25.0 (TID 1198). 2364 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1108,23 +1108,23 @@ Running task 3.0 in stage 26.0 (TID 1203),Running task <*> in stage <*> (TID <*>
 Got assigned task 1204,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 26.0 (TID 1204),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 37,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_37_piece0 stored as bytes in memory (estimated size 5.2 KB, free 569.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_37_piece0 stored as bytes in memory (estimated size 5.2 KB, free 569.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 37 took 14 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_37 stored as values in memory (estimated size 8.8 KB, free 500.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_37 stored as values in memory (estimated size 8.8 KB, free 500.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Partition rdd_42_0 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:0+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:0+7292,Input split: <*>,Input split: <*>
 Started reading broadcast variable 36,Started reading broadcast variable <*>,Started reading broadcast variable <*>
 "Partition rdd_42_4 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:29168+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:29168+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_3 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_2 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_1 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:7292+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
-"Block broadcast_36_piece0 stored as bytes in memory (estimated size 21.4 KB, free 522.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:7292+7292,Input split: <*>,Input split: <*>
+"Block broadcast_36_piece0 stored as bytes in memory (estimated size 21.4 KB, free 522.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 36 took 11 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_36 stored as values in memory (estimated size 281.6 KB, free 803.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_36 stored as values in memory (estimated size 281.6 KB, free 803.9 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 "Times: total = 47, boot = -8758, init = 8800, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_0 stored as bytes in memory (estimated size 913.0 B, free 804.8 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 55, boot = -8764, init = 8814, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1142,7 +1142,7 @@ Running task 5.0 in stage 26.0 (TID 1205),Running task <*> in stage <*> (TID <*>
 "Times: total = 41, boot = 21, init = 20, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 41, boot = 20, init = 20, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Partition rdd_42_5 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:36460+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:36460+7292,Input split: <*>,Input split: <*>
 "Times: total = 42, boot = 23, init = 19, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 42, boot = 20, init = 21, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 4.0 in stage 26.0 (TID 1204). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1158,13 +1158,13 @@ Running task 8.0 in stage 26.0 (TID 1208),Running task <*> in stage <*> (TID <*>
 Got assigned task 1209,Got assigned task <*>,Got assigned task <*>
 Running task 9.0 in stage 26.0 (TID 1209),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_6 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:43752+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:43752+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_7 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:51044+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:51044+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_8 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:58336+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:58336+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_9 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:65628+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:65628+7292,Input split: <*>,Input split: <*>
 "Times: total = 54, boot = 21, init = 28, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_5 stored as bytes in memory (estimated size 930.0 B, free 809.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 57, boot = 11, init = 41, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1180,7 +1180,7 @@ Finished task 5.0 in stage 26.0 (TID 1205). 2705 bytes result sent to driver,Fin
 Got assigned task 1210,Got assigned task <*>,Got assigned task <*>
 Running task 10.0 in stage 26.0 (TID 1210),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_10 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:72920+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:72920+7292,Input split: <*>,Input split: <*>
 "Times: total = 41, boot = 24, init = 17, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 38, boot = 18, init = 20, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 39, boot = 18, init = 21, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1196,15 +1196,15 @@ Finished task 7.0 in stage 26.0 (TID 1207). 2699 bytes result sent to driver,Fin
 Got assigned task 1213,Got assigned task <*>,Got assigned task <*>
 Running task 13.0 in stage 26.0 (TID 1213),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_11 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:80212+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:80212+7292,Input split: <*>,Input split: <*>
 Got assigned task 1214,Got assigned task <*>,Got assigned task <*>
 Running task 14.0 in stage 26.0 (TID 1214),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_12 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:87504+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:87504+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_13 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:94796+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:94796+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_14 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:102088+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:102088+7292,Input split: <*>,Input split: <*>
 "Times: total = 48, boot = 8, init = 35, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_10 stored as bytes in memory (estimated size 948.0 B, free 813.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 48, boot = 10, init = 33, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1220,7 +1220,7 @@ Finished task 10.0 in stage 26.0 (TID 1210). 2703 bytes result sent to driver,Fi
 Got assigned task 1215,Got assigned task <*>,Got assigned task <*>
 Running task 15.0 in stage 26.0 (TID 1215),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_15 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:109380+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:109380+7292,Input split: <*>,Input split: <*>
 "Times: total = 41, boot = 21, init = 20, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 39, boot = 20, init = 18, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 11.0 in stage 26.0 (TID 1211). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1232,19 +1232,19 @@ Got assigned task 1217,Got assigned task <*>,Got assigned task <*>
 "Times: total = 39, boot = 24, init = 14, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Running task 17.0 in stage 26.0 (TID 1217),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_16 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:116672+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:116672+7292,Input split: <*>,Input split: <*>
 Finished task 12.0 in stage 26.0 (TID 1212). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 14.0 in stage 26.0 (TID 1214). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 "Partition rdd_42_17 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:123964+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:123964+7292,Input split: <*>,Input split: <*>
 Got assigned task 1218,Got assigned task <*>,Got assigned task <*>
 Running task 18.0 in stage 26.0 (TID 1218),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 1219,Got assigned task <*>,Got assigned task <*>
 Running task 19.0 in stage 26.0 (TID 1219),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_18 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:131256+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:131256+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_19 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:138548+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:138548+7292,Input split: <*>,Input split: <*>
 "Times: total = 49, boot = 16, init = 28, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_15 stored as bytes in memory (estimated size 913.0 B, free 817.5 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 53, boot = 14, init = 34, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1260,7 +1260,7 @@ Finished task 15.0 in stage 26.0 (TID 1215). 2705 bytes result sent to driver,Fi
 Got assigned task 1220,Got assigned task <*>,Got assigned task <*>
 Running task 20.0 in stage 26.0 (TID 1220),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_20 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:145840+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:145840+7292,Input split: <*>,Input split: <*>
 "Times: total = 38, boot = 24, init = 14, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 43, boot = 23, init = 19, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 16.0 in stage 26.0 (TID 1216). 2701 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1270,9 +1270,9 @@ Running task 21.0 in stage 26.0 (TID 1221),Running task <*> in stage <*> (TID <*
 Got assigned task 1222,Got assigned task <*>,Got assigned task <*>
 Running task 22.0 in stage 26.0 (TID 1222),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_21 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:153132+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:153132+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_22 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:160424+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:160424+7292,Input split: <*>,Input split: <*>
 "Times: total = 38, boot = 20, init = 18, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 41, boot = 20, init = 21, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 18.0 in stage 26.0 (TID 1218). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1282,9 +1282,9 @@ Running task 23.0 in stage 26.0 (TID 1223),Running task <*> in stage <*> (TID <*
 Got assigned task 1224,Got assigned task <*>,Got assigned task <*>
 Running task 24.0 in stage 26.0 (TID 1224),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_23 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:167716+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:167716+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_24 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:175008+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:175008+7292,Input split: <*>,Input split: <*>
 "Times: total = 47, boot = 5, init = 37, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_20 stored as bytes in memory (estimated size 917.0 B, free 821.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 53, boot = 15, init = 33, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1300,7 +1300,7 @@ Finished task 20.0 in stage 26.0 (TID 1220). 2703 bytes result sent to driver,Fi
 Got assigned task 1225,Got assigned task <*>,Got assigned task <*>
 Running task 25.0 in stage 26.0 (TID 1225),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_25 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:182300+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:182300+7292,Input split: <*>,Input split: <*>
 "Times: total = 42, boot = 26, init = 16, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 39, boot = 23, init = 16, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 22.0 in stage 26.0 (TID 1222). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1310,11 +1310,11 @@ Running task 26.0 in stage 26.0 (TID 1226),Running task <*> in stage <*> (TID <*
 Got assigned task 1227,Got assigned task <*>,Got assigned task <*>
 Running task 27.0 in stage 26.0 (TID 1227),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_26 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:189592+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:189592+7292,Input split: <*>,Input split: <*>
 "Times: total = 38, boot = 21, init = 17, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 42, boot = 20, init = 22, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Partition rdd_42_27 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:196884+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:196884+7292,Input split: <*>,Input split: <*>
 Finished task 23.0 in stage 26.0 (TID 1223). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 24.0 in stage 26.0 (TID 1224). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Got assigned task 1228,Got assigned task <*>,Got assigned task <*>
@@ -1322,9 +1322,9 @@ Running task 28.0 in stage 26.0 (TID 1228),Running task <*> in stage <*> (TID <*
 Got assigned task 1229,Got assigned task <*>,Got assigned task <*>
 Running task 29.0 in stage 26.0 (TID 1229),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_28 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:204176+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:204176+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_29 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:211468+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:211468+7292,Input split: <*>,Input split: <*>
 "Times: total = 48, boot = 5, init = 38, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_25 stored as bytes in memory (estimated size 950.0 B, free 826.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 52, boot = 7, init = 40, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1340,7 +1340,7 @@ Finished task 25.0 in stage 26.0 (TID 1225). 2705 bytes result sent to driver,Fi
 Got assigned task 1230,Got assigned task <*>,Got assigned task <*>
 Running task 30.0 in stage 26.0 (TID 1230),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_30 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:218760+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:218760+7292,Input split: <*>,Input split: <*>
 "Times: total = 38, boot = 34, init = 4, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 42, boot = 24, init = 17, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 26.0 in stage 26.0 (TID 1226). 2705 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1351,9 +1351,9 @@ Got assigned task 1232,Got assigned task <*>,Got assigned task <*>
 Running task 32.0 in stage 26.0 (TID 1232),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Times: total = 42, boot = 22, init = 19, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Partition rdd_42_31 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:226052+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:226052+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_32 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:233344+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:233344+7292,Input split: <*>,Input split: <*>
 "Times: total = 39, boot = 20, init = 18, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 28.0 in stage 26.0 (TID 1228). 2705 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 29.0 in stage 26.0 (TID 1229). 2705 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1362,9 +1362,9 @@ Running task 33.0 in stage 26.0 (TID 1233),Running task <*> in stage <*> (TID <*
 Got assigned task 1234,Got assigned task <*>,Got assigned task <*>
 Running task 34.0 in stage 26.0 (TID 1234),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_34 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:247928+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:247928+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_33 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:240636+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:240636+7292,Input split: <*>,Input split: <*>
 "Times: total = 46, boot = 16, init = 25, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_30 stored as bytes in memory (estimated size 906.0 B, free 830.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 51, boot = 12, init = 34, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1379,7 +1379,7 @@ Running task 35.0 in stage 26.0 (TID 1235),Running task <*> in stage <*> (TID <*
 "Times: total = 50, boot = 2, init = 43, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Block rdd_42_34 stored as bytes in memory (estimated size 842.0 B, free 832.9 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Partition rdd_42_35 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:255220+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:255220+7292,Input split: <*>,Input split: <*>
 "Block rdd_42_33 stored as bytes in memory (estimated size 869.0 B, free 833.7 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 42, boot = 24, init = 18, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 38, boot = 23, init = 15, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1390,10 +1390,10 @@ Running task 36.0 in stage 26.0 (TID 1236),Running task <*> in stage <*> (TID <*
 Got assigned task 1237,Got assigned task <*>,Got assigned task <*>
 Running task 37.0 in stage 26.0 (TID 1237),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Partition rdd_42_36 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:262512+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:262512+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_37 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
 "Times: total = 43, boot = 17, init = 25, finish = 1","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:269804+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:269804+7292,Input split: <*>,Input split: <*>
 "Times: total = 38, boot = 12, init = 26, finish = 0","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 Finished task 34.0 in stage 26.0 (TID 1234). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
 Finished task 33.0 in stage 26.0 (TID 1233). 2703 bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
@@ -1403,9 +1403,9 @@ Got assigned task 1239,Got assigned task <*>,Got assigned task <*>
 Running task 39.0 in stage 26.0 (TID 1239),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 "Times: total = 47, boot = 17, init = 23, finish = 7","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Partition rdd_42_38 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:277096+7292,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:277096+7292,Input split: <*>,Input split: <*>
 "Partition rdd_42_39 not found, computing it","Partition <*> not found, computing it","Partition <*> not found, computing it"
-Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:284388+7303,Input split: <*>,hdfs://<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:284388+7303,Input split: <*>,Input split: <*>
 "Block rdd_42_35 stored as bytes in memory (estimated size 917.0 B, free 834.6 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 "Times: total = 53, boot = 8, init = 40, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
 "Times: total = 53, boot = 12, init = 36, finish = 5","Times: total = <*>, boot = <*>, init = <*>, finish = <*>","Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
@@ -1436,9 +1436,9 @@ Got assigned task 1243,Got assigned task <*>,Got assigned task <*>
 Running task 3.0 in stage 27.0 (TID 1243),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Got assigned task 1244,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 27.0 (TID 1244),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
-"Block broadcast_38_piece0 stored as bytes in memory (estimated size 5.8 KB, free 844.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_38_piece0 stored as bytes in memory (estimated size 5.8 KB, free 844.0 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 38 took 11 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_38 stored as values in memory (estimated size 9.6 KB, free 853.7 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_38 stored as values in memory (estimated size 9.6 KB, free 853.7 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_42_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_42_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_42_2 locally,Found block <*> locally,Found block <*> locally
@@ -1640,9 +1640,9 @@ Running task 3.0 in stage 28.0 (TID 1283),Running task <*> in stage <*> (TID <*>
 Got assigned task 1284,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 28.0 (TID 1284),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 39,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_39_piece0 stored as bytes in memory (estimated size 5.4 KB, free 859.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_39_piece0 stored as bytes in memory (estimated size 5.4 KB, free 859.1 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 39 took 716 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_39 stored as values in memory (estimated size 9.2 KB, free 868.3 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_39 stored as values in memory (estimated size 9.2 KB, free 868.3 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_42_1 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_42_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_42_3 locally,Found block <*> locally,Found block <*> locally
@@ -1844,9 +1844,9 @@ Running task 3.0 in stage 29.0 (TID 1323),Running task <*> in stage <*> (TID <*>
 Got assigned task 1324,Got assigned task <*>,Got assigned task <*>
 Running task 4.0 in stage 29.0 (TID 1324),Running task <*> in stage <*> (TID <*>),Running task <*> in stage <*> (TID <*>)
 Started reading broadcast variable 40,Started reading broadcast variable <*>,Started reading broadcast variable <*>
-"Block broadcast_40_piece0 stored as bytes in memory (estimated size 6.0 KB, free 874.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_40_piece0 stored as bytes in memory (estimated size 6.0 KB, free 874.3 KB)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)","Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
 Reading broadcast variable 40 took 10 ms,Reading broadcast variable <*> took <*> ms,Reading broadcast variable <*> took <*> ms
-"Block broadcast_40 stored as values in memory (estimated size 9.9 KB, free 884.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)"
+"Block broadcast_40 stored as values in memory (estimated size 9.9 KB, free 884.2 KB)","Block <*> stored as values in memory (estimated size <*>, free <*>)","Block <*> stored as values in memory (estimated size <*>, free <*>)"
 Found block rdd_42_0 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_42_4 locally,Found block <*> locally,Found block <*> locally
 Found block rdd_42_3 locally,Found block <*> locally,Found block <*> locally

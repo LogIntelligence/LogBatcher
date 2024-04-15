@@ -6,12 +6,13 @@ from utils.sample_byword import dpp_sample
 import random
 
 class Cluster:
-    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=False, remain_num=10, sample_method="dpp"):
+    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=False, remain_num=10, sample_method="dpp", max_num = 0):
         self.label = label
         self.logs = logs
         self.indexs = indexs
         self.oracle_template = oracle_template
         self.sample_method = sample_method
+        self.max_num = max_num
         self.shuffle()
         if remove_duplicate:
             self.remove_duplicate()

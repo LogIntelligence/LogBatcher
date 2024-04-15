@@ -1,0 +1,9 @@
+Content,EventTemplate,Output
+"screen status unknown,think screen on","screen status unknown,think screen on","screen status <*>, think screen <*>"
+"getAppContext() isAppValid health or wear, packageName = com.huawei.health","getAppContext() isAppValid health or wear, packageName = <*>","getAppContext() isAppValid health or wear, packageName = com.huawei.health"
+"bulkSaveDetailHiHealthData() size = 4,totalTime = 30","bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>","bulkSaveDetailHiHealthData() size = <*>, totalTime = <*>"
+"getAppContext() isAppValid health or wear, packageName = com.huawei.health","getAppContext() isAppValid health or wear, packageName = <*>","getAppContext() isAppValid health or wear, packageName = com.huawei.health"
+checkInsertStatus stepStatSum or calorieStatSum is enough,checkInsertStatus stepStatSum or calorieStatSum is enough,checkInsertStatus <*> is enough
+"bulkSaveDetailHiHealthData() size = 20,totalTime = 34","bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>","bulkSaveDetailHiHealthData() size = <*>, totalTime = <*>"
+setWriteDBLastDataMinute success,setWriteDBLastDataMinute success,<*> success
+checkInsertStatus stepStatSum or calorieStatSum is enough,checkInsertStatus stepStatSum or calorieStatSum is enough,checkInsertStatus <*> is enough

@@ -1,0 +1,21 @@
+Content,EventTemplate,Output
+Client attempting to renew session 0x24ed93119420016 at /10.10.34.13:37115,Client attempting to renew session <*> at <*>:<*>,Client attempting to renew session <*> at <*>
+Server environment:user.dir=/,Server environment:<*>,Server environment:user.dir=/
+My election bind port: 0.0.0.0/0.0.0.0:3888,My election bind port: <*>/<*>:<*>,My election bind port: <*>/<*>
+Server environment:host.name=mesos-master-1,Server environment:<*>,Server environment:host.name=<*>
+Server environment:java.vendor=Oracle Corporation,Server environment:<*>,Server environment:java.vendor=Oracle Corporation
+Client attempting to renew session 0x14f05578bd8001b at /10.10.34.20:56374,Client attempting to renew session <*> at <*>:<*>,Client attempting to renew session <*> at <*>
+"Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT",Server environment:<*>,"Server environment:zookeeper.version=<*>, built on <*>"
+Server environment:os.name=Linux,Server environment:<*>,Server environment:os.name=Linux
+Closed socket connection for client /10.10.34.11:56471 (no session established for client),Closed socket connection for client <*>:<*> (no session established for client),Closed socket connection for client <*> (no session established for client)
+Server environment:java.vendor=Oracle Corporation,Server environment:<*>,Server environment:java.vendor=Oracle Corporation
+maxSessionTimeout set to -1,maxSessionTimeout set to <*>,maxSessionTimeout set to -<*>
+Client attempting to renew session 0x24f0557806a0020 at /10.10.34.17:55969,Client attempting to renew session <*> at <*>:<*>,Client attempting to renew session <*> at <*>
+Closed socket connection for client /10.10.34.12:36401 (no session established for client),Closed socket connection for client <*>:<*> (no session established for client),Closed socket connection for client <*> (no session established for client)
+First is 0x0,First is <*>,First is 0x0
+Closed socket connection for client /10.10.34.13:54265 (no session established for client),Closed socket connection for client <*>:<*> (no session established for client),Closed socket connection for client <*> (no session established for client)
+Closed socket connection for client /10.10.34.13:54294 (no session established for client),Closed socket connection for client <*>:<*> (no session established for client),Closed socket connection for client <*> (no session established for client)
+minSessionTimeout set to -1,minSessionTimeout set to <*>,minSessionTimeout set to -<*>
+Server environment:os.name=Linux,Server environment:<*>,Server environment:os.name=Linux
+minSessionTimeout set to -1,minSessionTimeout set to <*>,minSessionTimeout set to -<*>
+Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre,Server environment:<*>,Server environment:java.home=<*>

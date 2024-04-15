@@ -1,0 +1,47 @@
+Content,EventTemplate,Output
+connection lost: 'Connection closed.',connection lost: 'Connection closed.',connection lost: '<*>'
+DSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000e) @ 0x0000000000000000,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,DSDT (v001 DELL PE BKC <*> MSFT <*>) @ <*>
+FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0
+HPET (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd81c,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,HPET (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd81c
+MADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd724,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,MADT (v001 DELL PE BKC <*> MSFT <*>) @ <*>
+MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,MCFG (v001 DELL PE BKC <*> MSFT <*>) @ <*>
+PCI Root Bridge [PCI0] (00:00),PCI <*> Bridge [PCI0] (<*>),PCI <*> Bridge [<*>] (<*>)
+Power Button (FF) [PWRF],Power Button (FF) [PWRF],<*> (<*>) [<*>]
+RSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd664,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,RSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd664
+SPCR (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd7cc,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,SPCR (v001 DELL PE BKC <*> MSFT <*>) @ <*>
+colour VGA+ 80x25,colour VGA+ <*>,colour VGA+ 80x25
+"sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $",<*> <*> <*> ak Exp $,"sys_ia32.c,v <*> 2002/03/24 <*> ak Exp $"
+"root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr","<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>","<*>=<*> initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>"
+Transparent bridge - 0000:00:1e.0,Transparent bridge - <*>,Transparent bridge - <*>:1e.<*>
+Disabled at runtime.,Disabled at runtime.,<*> at <*>.
+initializing netlink socket (disabled),initializing netlink socket (disabled),initializing netlink socket (<*>)
+not allocating divert_blk for non-ethernet device lo,not allocating divert_blk for non-ethernet device <*>,not allocating divert_blk for non-ethernet device lo
+eth0: e1000_probe: Intel(R) PRO/1000 Network Connection,<*>: <*>: Intel(R) PRO/<*> Network Connection,<*>: e1000_probe: Intel(R) PRO/1000 Network Connection
+eth1: e1000_probe: Intel(R) PRO/1000 Network Connection,<*>: <*>: Intel(R) PRO/<*> Network Connection,<*>: e1000_probe: Intel(R) PRO/1000 Network Connection
+no floppy controllers found,no floppy controllers found,no <*> found
+Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,Assuming <*> system bus speed for PIO modes; override with idebus=xx,Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>,Unknown cmd fd(<*>) cmd(<*>)<*>} arg(<*>) on <*>
+... autorun DONE.,... autorun DONE.,... autorun <*>.
+... autorun DONE.,... autorun DONE.,... autorun <*>.
+#38#-rh1 (Release Date: Fri Dec 10 19:02:14 EST 2004),<*> (Release Date: <*> <*>),#<*>#-<*> (Release Date: <*> <*> <*> <*> <*> <*>)
+#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004),<*> (Release Date: <*> <*>),<*> (Release Date: <*> <*> <*> <*> <*>)
+rpc.statd startup succeeded,rpc.statd startup succeeded,rpc.statd <*> succeeded
+Starting ts_fixup: succeeded,Starting ts_fixup: succeeded,Starting <*>: <*>
+sda1 sda2 sda3 sda4,sda1 sda2 sda3 sda4,<*> <*> <*> <*>
+"i8042 AUX port at 0x60,0x64 irq 12","<*> AUX port at <*>,<*> irq <*>","i8042 AUX port at <*>,<*> irq <*>"
+"i8042 KBD port at 0x60,0x64 irq 1","<*> KBD port at <*>,<*> irq <*>","i8042 KBD port at <*>,<*> irq <*>"
+syslog-ng startup succeeded,syslog-ng startup succeeded,<*> startup succeeded
+registered new driver hiddev,registered new driver hiddev,registered new driver <*>
+connection lost: 'Connection closed.',connection lost: 'Connection closed.',connection lost: '<*>'
+Mounting NFS filesystems: succeeded,Mounting NFS filesystems: succeeded,Mounting <*> filesystems: <*>
+Mounting other filesystems: failed,Mounting other filesystems: failed,Mounting other filesystems: <*>
+removing daytime,removing <*>,removing daytime
+removing daytime,removing <*>,removing daytime
+removing eklogin,removing <*>,removing eklogin
+removing ftp,removing <*>,removing ftp
+removing ntalk,removing <*>,removing ntalk
+removing printer,removing <*>,removing printer
+removing telnet,removing <*>,removing telnet
+removing time,removing <*>,removing time
+removing time,removing <*>,removing time
+connection lost: 'Connection closed.',connection lost: 'Connection closed.',connection lost: '<*>'

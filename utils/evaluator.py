@@ -22,7 +22,7 @@ def evaluate(file, dataset, mismatch=False):
     df = df.loc[null_logids]
 
     accuracy_exact_string_matching = accuracy_score(np.array(df['EventTemplate'].values, dtype='str'),
-                                                    np.array(df['Output'].apply(rule).values, dtype='str'))
+                                                    np.array(df['Output'], dtype='str'))  # .apply(rule).values
     
     # find the mismatch values
     if mismatch:
@@ -41,7 +41,7 @@ def evaluate(file, dataset, mismatch=False):
     edit_distance_result_std = np.std(edit_distance_result)
 
     (precision, recall, f_measure, accuracy_PA) = get_accuracy(df['EventTemplate'],
-                                                               df['Output'].apply(rule))
+                                                               df['Output'])  # .apply(rule)
 
     # print(
     #     'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (

@@ -1,0 +1,65 @@
+---------------------------
+cluster 30: len=21
+[instance: <*>] memory limit: <*> MB, free: <*> MB (ground truth)
+[instance: <*>] memory limit: <*> MB, free: <*> MB: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor. (ground truth)
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.: 1
+---------------------------
+---------------------------
+cluster 37: len=21
+[instance: <*>] VM Stopped (Lifecycle Event) (ground truth)
+[instance: <*>] VM Stopped (Lifecycle Event): 1
+---------------------------
+---------------------------
+cluster 39: len=5
+The instance sync for host '<*>' did not match. Re-created its InstanceList. (ground truth)
+The instance sync for host '<*>' did not match. Re-created its InstanceList.: 1
+---------------------------
+---------------------------
+cluster 33: len=21
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU (ground truth)
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU: 1
+---------------------------
+---------------------------
+cluster 35: len=21
+[instance: <*>] Claim successful (ground truth)
+[instance: <*>] Claim successful: 1
+---------------------------
+---------------------------
+cluster 32: len=21
+[instance: <*>] disk limit not specified, defaulting to unlimited (ground truth)
+[instance: <*>] disk limit not specified, defaulting to unlimited: 1
+---------------------------
+---------------------------
+cluster 34: len=21
+[instance: <*>] vcpu limit not specified, defaulting to unlimited (ground truth)
+[instance: <*>] vcpu limit not specified, defaulting to unlimited: 1
+---------------------------
+---------------------------
+cluster 31: len=21
+[instance: <*>] Total disk: <*> GB, used: <*> GB (ground truth)
+[instance: <*>] Total disk: <*> GB, used: <*> GB: 1
+---------------------------
+---------------------------
+cluster 40: len=2
+Successfully synced instances from host '<*>'. (ground truth)
+Successfully synced instances from host 'cp-<*>.slowvm1.tcloud-pg0.utah.cloudlab.us'.: 1
+---------------------------
+---------------------------
+cluster 36: len=21
+[instance: <*>] Creating image (ground truth)
+[instance: <*>] Creating image: 1
+---------------------------
+---------------------------
+cluster 38: len=9
+Base or swap file too young to remove: <*> (ground truth)
+Base or swap file too young to remove: <*>: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+Running instance usage audit for host <*> from <*> to <*>. <*> instances. (ground truth)
+Running instance usage audit for host cp-<*>.slowvm1.tcloud-pg0.utah.cloudlab.us from <*>-<*>-<*> <*> to <*>-<*>-<*> <*>. <*> instances.: 1
+---------------------------

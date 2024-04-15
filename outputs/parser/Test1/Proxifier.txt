@@ -1,0 +1,10 @@
+---------------------------
+cluster 6: len=2
+<*> open through proxy <*> SOCKS5 (ground truth)
+<*> open through proxy <*> SOCKS5: 1
+---------------------------
+---------------------------
+cluster 7: len=3
+<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly. (ground truth)
+<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy closed the connection unexpectedly.: 1
+---------------------------

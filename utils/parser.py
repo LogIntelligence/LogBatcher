@@ -17,6 +17,9 @@ class Cluster_Parser:
             self.client = OpenAI(
                 base_url=config['transfer_url'],  # 中转url
                 api_key=self.api_key,                      # api_key
+                http_client=httpx.Client(
+                    proxies=config['proxies']  # 代理地址
+                ),
             )
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
@@ -31,12 +34,20 @@ class Cluster_Parser:
     
     def get_responce(self, f, cluster):
         label, logs, indexs, ground_truth = cluster.label, cluster.logs, cluster.indexs, cluster.oracle_template
+
+        # Note: part to change
+        max_num = cluster.max_num
+        if label < min(max_num,30):
+            return ground_truth
+        # end
+    
         length = len(indexs)
         templates = []
 
         for i in range(0, len(logs), self.batch_num):
             batch_logs = logs[i:i+self.batch_num]
             # if all logs's length is 1, and not contain any digit, return the log itself
+            # can't handle log like setLightOn(true)
             if all(len(re.split(' ', log)) == 1 and not any(char.isdigit() for char in log) for log in batch_logs):
                 return batch_logs[0]
 
@@ -46,13 +57,19 @@ class Cluster_Parser:
             else:
                 messages.append({"role": "system", "content": self.instruction_for_batch_logs})
 
+            # Note: part to change
+            messages.append({"role": "user", "content": logs[0]})
+            messages.append(
+                {"role": "assistant", "content": f"template: `{ground_truth.replace('<*>', '{{varaible}}')}`"})
+            # end
+
+    
             # add additional incontext
             if self.additional_incontext:
                 messages[0]["content"] += self.additional_incontext
 
             # batch logs to str
             prompt = ""
-            length_prompt = 0
             for log in batch_logs:
                 prompt += log + '\n'
             # if len(prompt) > 4096:
