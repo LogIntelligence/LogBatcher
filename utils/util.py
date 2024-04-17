@@ -1,4 +1,5 @@
 from collections import Counter
+import random
 
 def choose(list):
 
@@ -28,3 +29,12 @@ def choose(list):
         if count1 < count2:
             final_template = candidates[1][0]
     return final_template, freq
+
+
+def mutate(token):
+    random_number = random.randint(0, 9)
+    token_list = list(token)
+    for index, char in enumerate(token_list):
+        if char.isdigit():
+            token_list[index] = str((int(char)+random_number) % 10)
+    return ''.join(token_list)

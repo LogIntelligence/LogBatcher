@@ -1,0 +1,344 @@
+---------------------------
+cluster 8: len=2
+Loaded Servicing Stack <*> with Core: <*>.dll (ground truth)
+Loaded Servicing Stack <*> with Core: <*> (final_template)
+Loaded Servicing Stack <*> with Core: <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=2
+SQM: Initializing online with Windows opt-in: <*> (ground truth)
+SQM: Initializing online with Windows opt-in: <*> (final_template)
+SQM: Initializing online with Windows opt-in: <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=2
+TrustedInstaller service starts successfully. (ground truth)
+<*> service starts successfully. (final_template)
+<*> service starts successfully.: 1
+---------------------------
+---------------------------
+cluster 0: len=6
+<*>@<*>/<*>/<*>:<*>:<*>:<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>) (ground truth)
+<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>) (final_template)
+<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>): 1
+---------------------------
+---------------------------
+cluster 5: len=18
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE] (ground truth)
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE] (final_template)
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]: 1
+---------------------------
+---------------------------
+cluster 13: len=2
+SQM: Cleaning up report files older than <*> days. (ground truth)
+SQM: Cleaning up report files older than <*> days. (final_template)
+SQM: Cleaning up report files older than <*> days.: 1
+---------------------------
+---------------------------
+cluster 10: len=2
+Starting the TrustedInstaller main loop. (ground truth)
+Starting the TrustedInstaller main loop. (final_template)
+Starting the TrustedInstaller main loop.: 1
+---------------------------
+---------------------------
+cluster 9: len=2
+Ending TrustedInstaller initialization. (ground truth)
+Ending TrustedInstaller initialization. (final_template)
+Ending TrustedInstaller initialization.: 1
+---------------------------
+---------------------------
+cluster 7: len=8
+Unloading offline registry hive: <*> (ground truth)
+Unloading offline registry hive: {bf1a281b-ad7b-<*>-ac95-f47682990ce7}GLOBALROOT/<*> (final_template)
+Unloading offline registry hive: {bf1a281b-ad7b-<*>-ac95-f47682990ce7}GLOBALROOT/<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=2
+SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL] (ground truth)
+SQM: Failed to start standard sample upload. [HRESULT = <*> - <*>] (final_template)
+SQM: Failed to start standard sample upload. [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 15: len=2
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - E_FAIL] (ground truth)
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - <*>] (final_template)
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 14: len=2
+SQM: Requesting upload of all unsent reports. (ground truth)
+SQM: Requesting upload of all unsent reports. (final_template)
+SQM: Requesting upload of all unsent reports.: 1
+---------------------------
+---------------------------
+cluster 19: len=2
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending. (ground truth)
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending. (final_template)
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.: 1
+---------------------------
+---------------------------
+cluster 17: len=2
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*> (ground truth)
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*> (final_template)
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=3
+<*> CSI Store <*> (<*>) initialized (ground truth)
+<*> CSI Store <*> (<*>) initialized (final_template)
+<*> CSI Store <*> (<*>) initialized: 1
+---------------------------
+---------------------------
+cluster 18: len=2
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL] (ground truth)
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - <*>] (final_template)
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 28: len=2
+Failed to create backup log cab. [HRESULT = <*> - ERROR_INVALID_FUNCTION] (ground truth)
+Failed to create backup log cab. [HRESULT = <*> - <*>] (final_template)
+Failed to create backup log cab. [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 23: len=3
+<*> Created NT transaction (seq <*>) result <*>, handle @<*> (ground truth)
+<*> Created NT transaction (seq <*>) result <*>, handle @<*> (final_template)
+<*> Created NT transaction (seq <*>) result <*>, handle @<*>: 1
+---------------------------
+---------------------------
+cluster 22: len=3
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)" (ground truth)
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)" (final_template)
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)": 1
+---------------------------
+---------------------------
+cluster 20: len=2
+NonStart: Checking to ensure startup processing was not required. (ground truth)
+NonStart: Checking to ensure startup processing was not required. (final_template)
+NonStart: Checking to ensure startup processing was not required.: 1
+---------------------------
+---------------------------
+cluster 25: len=2
+NonStart: Success, startup processing not required as expected. (ground truth)
+NonStart: Success, startup processing not required as expected. (final_template)
+NonStart: Success, startup processing not required as expected.: 1
+---------------------------
+---------------------------
+cluster 26: len=2
+Startup processing thread terminated normally (ground truth)
+Startup processing thread terminated normally (final_template)
+Startup processing thread terminated normally: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+Reboot mark refs incremented to: <*> (ground truth)
+Reboot mark refs incremented to: <*> (final_template)
+Reboot mark refs incremented to: <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=1
+Scavenge: Starts (ground truth)
+Scavenge: <*> (final_template)
+Scavenge: <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=2
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*> (ground truth)
+<*> <*> (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*> (final_template)
+<*> <*> (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>: 1
+---------------------------
+---------------------------
+cluster 24: len=3
+<*> CSI perf trace: (ground truth)
+<*>@<*> CSI perf trace: (final_template)
+<*>@<*> CSI perf trace:: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge. (ground truth)
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge. (final_template)
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.: 1
+---------------------------
+---------------------------
+cluster 36: len=1
+Scavenge: Completed, disposition: <*> (ground truth)
+Scavenge: <*>, disposition: <*> (final_template)
+Scavenge: <*>, disposition: <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>/" (ground truth)
+<*>@<*> CSI Transaction @<*> initialized for deployment engine <*> with flags <*> and client id [<*>]"<*>" (final_template)
+<*>@<*> CSI Transaction @<*> initialized for deployment engine <*> with flags <*> and client id [<*>]"<*>": 1
+---------------------------
+---------------------------
+cluster 38: len=1
+Reboot mark refs: <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 37: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> CSI Transaction @<*> destroyed (ground truth)
+<*>@<*> CSI Transaction @<*> destroyed (final_template)
+<*>@<*> CSI Transaction @<*> destroyed: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+<*> Performing <*> operations; <*> are not lock/unlock and follow: (ground truth)
+<*> Performing <*> operations; <*> are not lock/unlock and follow: (final_template)
+<*> Performing <*> operations; <*> are not lock/unlock and follow:: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+Ending TrustedInstaller finalization. (ground truth)
+Ending <*> finalization. (final_template)
+Ending <*> finalization.: 1
+---------------------------
+---------------------------
+cluster 35: len=1
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*> (ground truth)
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*> (final_template)
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>: 1
+---------------------------
+---------------------------
+cluster 49: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 39: len=1
+Idle processing thread terminated normally (ground truth)
+<*> processing thread terminated normally (final_template)
+<*> processing thread terminated normally: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+Scavenge: Begin CSI Store (ground truth)
+Scavenge: Begin <*> (final_template)
+Scavenge: Begin <*>: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+Disabling manifest caching, because the image is not writeable. (ground truth)
+Disabling manifest caching, because the image is not <*>. (final_template)
+Disabling manifest caching, because the image is not <*>.: 1
+---------------------------
+---------------------------
+cluster 40: len=1
+Ending the TrustedInstaller main loop. (ground truth)
+Ending the <*> main loop. (final_template)
+Ending the <*> main loop.: 1
+---------------------------
+---------------------------
+cluster 2: len=280
+Warning: Unrecognized packageExtended attribute. (ground truth)
+Warning: Unrecognized packageExtended attribute. (final_template)
+Warning: Unrecognized packageExtended attribute.: 5
+Warning: Unrecognized <*>: 1
+---------------------------
+---------------------------
+cluster 52: len=1
+Offline image is: read-only (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 45: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 54: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> PopulateComponentFamiliesKey - Begin (ground truth)
+<*>@<*> PopulateComponentFamiliesKey - Begin (final_template)
+<*>@<*> PopulateComponentFamiliesKey - Begin: 1
+---------------------------
+---------------------------
+cluster 43: len=1
+Starting TrustedInstaller initialization. (ground truth)
+Starting <*> initialization. (final_template)
+Starting <*> initialization.: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> PopulateComponentFamiliesKey - End (ground truth)
+<*>@<*> PopulateComponentFamiliesKey - End (final_template)
+<*>@<*> PopulateComponentFamiliesKey - End: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+Starting TrustedInstaller finalization. (ground truth)
+Starting <*> finalization. (final_template)
+Starting <*> finalization.: 1
+---------------------------
+---------------------------
+cluster 50: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 51: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 4: len=224
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth)
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (final_template)
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]: 4
+Failed to get next element [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+Session: <*> initialized by client SPP. (ground truth)
+Session: <*> initialized by client <*> (final_template)
+Session: <*> initialized by client <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=224
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth)
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (final_template)
+Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]: 2
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]: 3
+---------------------------
+---------------------------
+cluster 1: len=608
+Session: <*> initialized by client WindowsUpdateAgent. (ground truth)
+Session: <*> initialized by client WindowsUpdateAgent. (final_template)
+Session: <*> initialized by client WindowsUpdateAgent.: 12
+Session: <*> initialized by client <*>.: 1
+---------------------------
+---------------------------
+cluster 6: len=558
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*> (ground truth)
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*> (final_template)
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>: 11
+Read out cached package applicability for package: <*>}}, ApplicableState: <*>, CurrentState:<*>: 1
+---------------------------

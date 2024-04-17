@@ -70,8 +70,8 @@ def correct_single_template(template, user_strings=None):
 
         # apply WV
         if re.match(r'^[^\s\/]*<\*>[^\s\/]*$', token):
-            if token != '<*>/<*>':  # need to check this because `/` is not a deliminator
-                token = '<*>'
+            # if token != '<*>/<*>':  # need to check this because `/` is not a deliminator
+            token = '<*>'
 
         # collect the result
         new_tokens.append(token)

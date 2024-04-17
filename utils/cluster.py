@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import DBSCAN
 from utils.sample_byword import dpp_sample
+from utils.util import mutate
 import random
 
 class Cluster:
@@ -13,13 +14,24 @@ class Cluster:
         self.oracle_template = oracle_template
         self.sample_method = sample_method
         self.shuffle()
+        self.mutation()
         if remove_duplicate:
             self.remove_duplicate()
-            if len(self.logs) > remain_num:
-                self.sample(remain_num)
+            # if len(self.logs) > remain_num:
+            #     self.sample(remain_num)
+    
+    def mutation(self):
+        length = len(self.logs)
+        pattern1 = r'^[a-zA-Z]+[0-9]+$' # may not be a varaible
+        pattern2 = r"[^012][3-9]"  # may be a varaible
+        if length > 1:
+            for token in tokenize(self.logs[0], removeDight=False):
+                if re.search(pattern2, token) and not re.match(pattern1, token):
+                    self.logs[0].replace(token, mutate(token))
     
     def remove_duplicate(self):
         self.logs = list(set(self.logs))
+
 
     def shuffle(self):
         seed = 0
@@ -42,7 +54,7 @@ class Cluster:
         self.logs = [self.logs[i] for i in result]
         return
 
-def tokenize(log_content, tokenize_pattern=r'[ ,|]'):
+def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
     words = re.split(tokenize_pattern, log_content)
     new_words = []
     list = ['/', 'kb', 'sec', 'byte', 'mb']
@@ -56,7 +68,7 @@ def tokenize(log_content, tokenize_pattern=r'[ ,|]'):
                 pass 
             # new_words.append(word.split('=')[0])
 
-        elif re.search(r'\d', word):
+        elif removeDight and re.search(r'\d', word):
             pass
         elif any(i in word.lower() for i in list):
             pass
