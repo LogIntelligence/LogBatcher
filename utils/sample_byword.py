@@ -1,5 +1,4 @@
 import random
-import pandas as pd
 import re
 import numpy as np
 
@@ -38,14 +37,11 @@ def dpp_sample(S, k):
 
 
 def extract_variables(log, template):
-    # 将模板中的 <*> 替换为正则表达式的捕获组 (.*?)
-    # 为了避免正则表达式的特殊字符导致的问题，先将模板中除了 <*> 外的其他部分进行转义
-    # 然后将 <*> 替换为正则表达式的捕获组
-    # 这里假设模板中的 <*> 不紧邻正则特殊字符，如果有，需要更复杂的处理
+    # <*> -> (.*?)
     pattern_parts = template.split("<*>")
     pattern_parts_escaped = [re.escape(part) for part in pattern_parts]
     regex_pattern = "(.*?)".join(pattern_parts_escaped)
-    regex = "^" + regex_pattern + "$"  # 添加开始和结束锚点以确保完整匹配
+    regex = "^" + regex_pattern + "$"  
 
     matches = re.search(regex, log)
     if matches:

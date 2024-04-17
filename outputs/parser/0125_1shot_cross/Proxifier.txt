@@ -1,0 +1,47 @@
+---------------------------
+cluster 7: len=3
+<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly. (ground truth)
+<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.: 1
+---------------------------
+---------------------------
+cluster 4: len=20
+<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*> (ground truth)
+<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=2
+<*> open through proxy <*> SOCKS5 (ground truth)
+<*> open through proxy <*> <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=17
+<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*> (ground truth)
+<*> <*> : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=26
+<*> error : Could not connect to proxy <*> - connection attempt failed with error <*> (ground truth)
+<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=31
+<*> error : A connection request was canceled before the completion. (ground truth)
+<*> error : A connection request was canceled before the completion.: 1
+---------------------------
+---------------------------
+cluster 1: len=947
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>: 10
+<*> close, <*> bytes sent, <*> bytes received, lifetime <*>: 6
+<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>: 3
+---------------------------
+---------------------------
+cluster 0: len=954
+<*> open through proxy <*> HTTPS (ground truth)
+<*> open through proxy <*> HTTPS: 3
+<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS: 5
+<*> open through proxy <*> <*>: 7
+<*> open through proxy proxy.<*> HTTPS: 2
+<*> open through proxy proxy.<*> <*>: 1
+<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPSproxy.cse.cuhk.edu.hk:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> <*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS: 1
+---------------------------

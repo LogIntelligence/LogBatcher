@@ -34,12 +34,6 @@ class Cluster_Parser:
     
     def get_responce(self, f, cluster):
         label, logs, indexs, ground_truth = cluster.label, cluster.logs, cluster.indexs, cluster.oracle_template
-
-        # Note: part to change
-        max_num = cluster.max_num
-        if label < min(max_num,30):
-            return ground_truth
-        # end
     
         length = len(indexs)
         templates = []
@@ -57,17 +51,12 @@ class Cluster_Parser:
             else:
                 messages.append({"role": "system", "content": self.instruction_for_batch_logs})
 
-            # Note: part to change
-            messages.append({"role": "user", "content": logs[0]})
-            messages.append(
-                {"role": "assistant", "content": f"template: `{ground_truth.replace('<*>', '{{varaible}}')}`"})
-            # end
-
-    
             # add additional incontext
-            if self.additional_incontext:
-                messages[0]["content"] += self.additional_incontext
+            # if self.additional_incontext:
+            #     messages[0]["content"] += self.additional_incontext
 
+            messages.append({"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
+            messages.append({"role": "assistant", "content": '`{{timestamp}} ksfetch[{{process_and_thread_id}}] [lvl={{log_level}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{request_id}}> { URL: {{request_url}} }) to folder:{{folder_path}}`'})
             # batch logs to str
             prompt = ""
             for log in batch_logs:

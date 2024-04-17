@@ -1,0 +1,355 @@
+Content,EventTemplate,Output
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+(root) CMD (run-parts /etc/cron.hourly),(<*>) CMD (run-parts <*>),<*> CMD (run-parts <*>)
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+connection lost: 'Connection closed.',connection lost: 'Connection closed.',connection lost: '<*>'
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+"jA9J1UvC004306: from=root, size=629060, class=0, nrcpts=1, msgid=<200511091901.jA9J1UvC004306@eadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9J1UvC004306: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=659060, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+"jA9J1Wd7019391: from=root, size=1594553, class=0, nrcpts=1, msgid=<200511091901.jA9J1Wd7019391@cadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9J1Wd7019391: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1624553, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+"jA9J1WSU011176: from=root, size=1593894, class=0, nrcpts=1, msgid=<200511091901.jA9J1WSU011176@badmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9J1WSU011176: to=root, ctladdr=root (0/0), delay=00:00:03, xdelay=00:00:00, mailer=relay, pri=1623894, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+"jA9J1WFE024258: from=root, size=1597080, class=0, nrcpts=1, msgid=<200511091901.jA9J1WFE024258@dadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9J1WFE024258: to=root, ctladdr=root (0/0), delay=00:00:03, xdelay=00:00:00, mailer=relay, pri=1627080, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1,DHCPDISCOVER from <*> via eth1,<*> from <*> via <*>
+DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPOFFER on <*> to <*> via eth1,DHCPOFFER on <*> to <*> via <*>
+"jA9J1dQ7016560: from=root, size=1595423, class=0, nrcpts=1, msgid=<200511091901.jA9J1dQ7016560@aadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9J1dQ7016560: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1625423, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPACK on <*> to <*> via eth1,DHCPACK on <*> to <*> via <*>
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1,DHCPREQUEST for <*> (<*>) from <*> via eth1,DHCPREQUEST for <*> (<*>) from <*> via <*>
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPACK on <*> to <*> via eth1,DHCPACK on <*> to <*> via <*>
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1,DHCPDISCOVER from <*> via eth1,<*> from <*> via <*>
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1,DHCPDISCOVER from <*> via eth1,<*> from <*> via <*>
+DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPOFFER on <*> to <*> via eth1,DHCPOFFER on <*> to <*> via <*>
+DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPOFFER on <*> to <*> via eth1,DHCPOFFER on <*> to <*> via <*>
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1,DHCPREQUEST for <*> (<*>) from <*> via eth1,DHCPREQUEST for <*> (<*>) from <*> via <*>
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPACK on <*> to <*> via eth1,DHCPACK on <*> to <*> via <*>
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1,DHCPDISCOVER from <*> via eth1,<*> from <*> via <*>
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1,DHCPDISCOVER from <*> via eth1,<*> from <*> via <*>
+DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPOFFER on <*> to <*> via eth1,DHCPOFFER on <*> to <*> via <*>
+DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,DHCPOFFER on <*> to <*> via eth1,DHCPOFFER on <*> to <*> via <*>
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1,DHCPREQUEST for <*> (<*>) from <*> via eth1,DHCPREQUEST for <*> (<*>) from <*> via <*>
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+Received SNMP packet(s) from #34#,Received SNMP packet(s) from <*>,Received SNMP packet(s) from #<*>#
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+(root) CMD (/projects/tbird/temps/get_temps a),(<*>) CMD (<*> <*>),(<*>) CMD (<*>)
+(root) CMD (/projects/tbird/temps/get_temps b),(<*>) CMD (<*> <*>),(<*>) CMD (<*>)
+(root) CMD (/projects/tbird/temps/get_temps d),(<*>) CMD (<*> <*>),plaintext(<*>) CMD (<*>)
+(root) CMD (/projects/tbird/temps/get_temps e),(<*>) CMD (<*> <*>),<*> (<*>)
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+CentOS-4 (Kernel Module GPG key),CentOS-<*> (Kernel Module GPG key),<*>-<*> (<*>)
+(supports S0 S4 S5),(supports <*>),supports <*> <*> <*>
+DSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000e) @ 0x0000000000000000,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,<*> (<*> <*> <*> <*> <*> <*>) @ <*>
+FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,<*> (<*> <*> <*> <*> <*> <*>) @ <*>
+HPET (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd81c,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,<*> @ <*>
+INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl),INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),<*> (bus <*> bus_irq <*> global_irq <*> dfl <*> dfl)
+INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level),INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level),<*> (bus <*> bus_irq <*> global_irq <*> <*>)
+Interpreter enabled,Interpreter enabled,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+LAPIC_NMI (acpi_id[0x01] high edge lint[0x1]),LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),LAPIC_NMI (acpi_id[<*>] <*> edge lint[<*>])
+LAPIC_NMI (acpi_id[0x02] high edge lint[0x1]),LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),LAPIC_NMI (acpi_id[<*>] <*> edge lint[<*>])
+LAPIC_NMI (acpi_id[0x03] high edge lint[0x1]),LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),LAPIC_NMI (acpi_id[<*>] <*> edge lint[<*>])
+LAPIC_NMI (acpi_id[0x04] high edge lint[0x1]),LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),LAPIC_NMI (acpi_id[<*>] <*> edge lint[<*>])
+Local APIC address 0xfee00000,Local APIC address <*>,<*>
+MADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd724,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,<*> (<*> <*> <*> <*> <*> <*>) @ <*>
+MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,<*> (<*> <*> <*> <*>) @ <*>
+PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 10 11 12) *14,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>,PCI Interrupt Link [<*>] (IRQs <*>) <*>
+PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 10 *11 12),PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),PCI Interrupt Link [<*>] (IRQs <*>)
+PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 10 11 12) *15,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>,PCI Interrupt Link [<*>] (IRQs <*>) <*>
+"PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.","PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.","PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled."
+"PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.","PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.","PCI Interrupt Link [<*>] (IRQs <*>) <*>, <*>."
+"PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.","PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.","<*> Link [<*>] (IRQs <*>) <*>, <*>."
+"PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.","PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.","PCI Interrupt Link [<*>] (IRQs <*>) <*>, <*>."
+"PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.","PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.","PCI Interrupt Link [<*>] (IRQs <*>) <*>, <*>."
+PCI Interrupt Routing Table [\_SB_.PCI0.PALO.DOBA._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.PALO.DOBB._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.PALO._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.PBHI.PXB1._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.PBHI.PXB2._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.PBHI._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.PBLO._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.PICH._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0.VPR0._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Interrupt Routing Table [\_SB_.PCI0._PRT],PCI Interrupt Routing Table [<*>],PCI Interrupt Routing Table [<*>._PRT]
+PCI Root Bridge [PCI0] (00:00),PCI <*> Bridge [PCI0] (<*>),<*> [<*>] (<*>)
+"PCI interrupt 0000:00:02.0[A] -> GSI 16 (level, low) -> IRQ 169","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:00:04.0[A] -> GSI 16 (level, low) -> IRQ 169","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:00:05.0[A] -> GSI 16 (level, low) -> IRQ 169","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:00:06.0[A] -> GSI 16 (level, low) -> IRQ 169","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:02:0e.0[A] -> GSI 46 (level, low) -> IRQ 177","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:02:0e.0[A] -> GSI 46 (level, low) -> IRQ 177","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:06:07.0[A] -> GSI 64 (level, low) -> IRQ 185","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:06:07.0[A] -> GSI 64 (level, low) -> IRQ 185","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:07:08.0[A] -> GSI 65 (level, low) -> IRQ 193","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:07:08.0[A] -> GSI 65 (level, low) -> IRQ 193","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+"PCI interrupt 0000:09:0d.0[A] -> GSI 18 (level, low) -> IRQ 201","PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>","PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+Power Button (FF) [PWRF],Power Button (FF) [PWRF],<*> (<*>) [<*>]
+Processor [CPU0] (supports C1),Processor [<*>] (supports C1),
+Processor [CPU1] (supports C1),Processor [<*>] (supports C1),
+Processor [CPU2] (supports C1),Processor [<*>] (supports C1),
+Processor [CPU3] (supports C1),Processor [<*>] (supports C1),
+RSDP (v000 DELL ) @ 0x00000000000fd650,RSDP (<*> DELL ) @ <*>,<*> (<*> <*> ) @ <*>
+RSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd664,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,<*> (<*> <*> <*> <*> <*> <*> <*>) @ <*>
+SPCR (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd7cc,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,<*> (<*> <*> <*> <*> <*>) @ <*>
+Subsystem revision 20040816,Subsystem revision <*>,<*>
+Intel(R) Xeon(TM) CPU 3.60GHz stepping 03,Intel(R) Xeon(TM) CPU <*> stepping <*>,<*> CPU <*> stepping <*>
+"Trace cache: 12K uops, L1 D cache: 16K","Trace cache: <*> uops, L1 D cache: <*>",
+"Trace cache: 12K uops, L1 D cache: 16K","Trace cache: <*> uops, L1 D cache: <*>",
+"Trace cache: 12K uops, L1 D cache: 16K","Trace cache: <*> uops, L1 D cache: <*>",
+"Trace cache: 12K uops, L1 D cache: 16K","Trace cache: <*> uops, L1 D cache: <*>",
+"Trace cache: 12K uops, L1 D cache: 16K","Trace cache: <*> uops, L1 D cache: <*>",
+colour VGA+ 80x25,colour VGA+ <*>,<*> <*>
+"sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $",<*> <*> <*> ak Exp $,"<*>,v <*> <*> <*> <*> Exp $"
+"root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr","<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>",<*>=<*> initrd=<*> console=<*> fastboot BOOT_IMAGE=<*>
+Registered protocol family 1,Registered protocol family <*>,
+Registered protocol family 16,Registered protocol family <*>,
+Registered protocol family 17,Registered protocol family <*>,
+Registered protocol family 2,Registered protocol family <*>,
+Probing PCI hardware (bus 00),Probing PCI hardware (bus <*>),<*>
+Using MMCONFIG at e0000000,Using MMCONFIG at <*>,Using <*> at <*>
+Using configuration type 1,Using configuration type <*>,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+Compressed image found at block 0,Compressed image found at block <*>,<*>
+Starting in permissive mode,Starting in permissive mode,Starting in <*> mode
+Disk quotas dquot_6.5.1,Disk quotas <*>,<*> <*>
+Mounted root (ext2 filesystem).,Mounted <*> (ext2 filesystem).,Mounted <*> (<*> filesystem).
+MegaRAID Model: LD 0 RAID1 139G Rev: 516A,MegaRAID Model: LD <*> RAID1 <*> Rev: <*>,MegaRAID Model: <*>
+PE/PV Model: 1x2 SCSI BP Rev: 1.0,PE/PV Model: <*> SCSI BP Rev: <*>,<*>: <*> SCSI BP Rev: <*>
+initializing netlink socket (disabled),initializing netlink socket (disabled),<*>
+4.1.0-ioctl (2003-12-10) initialised: #36#@#37#,<*>-ioctl (<*>) initialised: <*>,<*>-ioctl (<*>) initialised: #<*>#@#<*>#
+allocating divert_blk for eth0,allocating divert_blk for <*>,
+allocating divert_blk for eth1,allocating divert_blk for <*>,
+v2.0:USB HID core driver,<*>:USB HID core driver,<*>
+eth0: e1000_probe: Intel(R) PRO/1000 Network Connection,<*>: <*>: Intel(R) PRO/<*> Network Connection,<*>: e1000_probe: <*>
+eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex,eth0: <*>: NIC Link is Up <*> Mbps Full Duplex,<*>: <*>: <*>
+eth1: e1000_probe: Intel(R) PRO/1000 Network Connection,<*>: <*>: Intel(R) PRO/<*> Network Connection,<*>: e1000_probe: <*>
+no floppy controllers found,no floppy controllers found,<*>
+RNG not detected,RNG not detected,<*>
+Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,Assuming <*> system bus speed for PIO modes; override with idebus=xx,Assuming <*> system bus speed for PIO modes; override with idebus=<*>
+Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>,Unknown cmd <*>(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+(C) 2000-2002 Netfilter core team,(C) <*>-<*> Netfilter core team,(C) <*> Netfilter core team
+(C) 2000-2002 Netfilter core team,(C) <*>-<*> Netfilter core team,(C) <*> Netfilter core team
+(C) 2000-2002 Netfilter core team,(C) <*>-<*> Netfilter core team,(C) <*> Netfilter core team
+(C) 2000-2002 Netfilter core team,(C) <*>-<*> Netfilter core team,(C) <*> Netfilter core team
+... autorun DONE.,... autorun DONE.,
+... autorun DONE.,... autorun DONE.,
+autorun ...,autorun ...,
+autorun ...,autorun ...,
+#38#-rh1 (Release Date: Fri Dec 10 19:02:14 EST 2004),<*> (Release Date: <*> <*>),<*>-<*> (Release Date: <*>)
+#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004),<*> (Release Date: <*> <*>),#<*># (Release Date: <*>)
+PS/2 mouse device common for all mice,PS/<*> mouse device common for all mice,<*> mouse device common for all mice
+v2.0 (20020519),<*> (<*>),<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+rpc.statd startup succeeded,rpc.statd startup succeeded,<*> startup succeeded
+portmap startup succeeded,portmap startup succeeded,<*> startup succeeded
+Starting ts_fixup: succeeded,Starting ts_fixup: succeeded,Starting <*>: <*>
+Version 1.0.6 Starting,Version <*> Starting,<*> Starting
+LSI Logic MegaRAID driver,LSI Logic MegaRAID driver,<*>
+scanning scsi channel 1 [virtual] for logical drives,scanning scsi channel <*> [virtual] for logical drives,scanning scsi channel <*> [<*>] for logical drives
+assuming drive cache: write through,assuming drive cache: write through,assuming drive cache: <*>
+sda1 sda2 sda3 sda4,sda1 sda2 sda3 sda4,<*> <*> <*> <*>
+Registering secondary module capability,Registering secondary module capability,<*>
+"i8042 AUX port at 0x60,0x64 irq 12","<*> AUX port at <*>,<*> irq <*>",<*> AUX port at <*> irq <*>
+"i8042 KBD port at 0x60,0x64 irq 1","<*> KBD port at <*>,<*> irq <*>",<*> <*> port at <*> irq <*>
+syslog-ng startup succeeded,syslog-ng startup succeeded,
+syslog-ng version 1.6.7 starting,syslog-ng version <*> starting,<*> version <*> starting
+Using 14.318180 MHz HPET timer.,Using <*> MHz HPET timer.,Using <*> MHz <*> timer.
+Using HPET based timekeeping.,Using HPET based timekeeping.,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+registered new driver usbfs,registered new driver usbfs,registered new driver <*>
+registered new driver usbhid,registered new driver usbhid,<*>
+probe of vesafb0 failed with error -6,probe of vesafb0 failed with error <*>,probe of <*> failed with error <*>
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+"connection from ""#28#""",connection from <*>,"connection from ""<*>"""
+Now running on #29#'s privileges.,Now running on <*>'s privileges.,
+connection lost: 'Connection closed.',connection lost: 'Connection closed.',connection lost: '<*>'
+Mounting NFS filesystems: succeeded,Mounting NFS filesystems: succeeded,
+Mounting other filesystems: failed,Mounting other filesystems: failed,Mounting other filesystems: <*>
+"connection from ""#28#""",connection from <*>,"connection from ""<*>"""
+Warning: we failed to resolve trusted host name dadmin3 dadmin4,Warning: we failed to resolve trusted host name <*>,Warning: we failed to resolve trusted host name <*> <*>
+gmetad startup succeeded,gmetad startup succeeded,<*> startup succeeded
+Now running on #29#'s privileges.,Now running on <*>'s privileges.,
+Registered protocol family 10,Registered protocol family <*>,
+not allocating divert_blk for non-ethernet device sit0,not allocating divert_blk for non-ethernet device <*>,<*>
+Server listening on :: port 22.,Server listening on :: port <*>.,Server listening on <*> port <*>.
+Cannot open file /dev/logsurfer for writing (No such file or directory),Cannot open file <*> for writing (No such file or directory),Cannot open file <*> for writing (<*>)
+xinetd startup succeeded,xinetd startup succeeded,<*> startup succeeded
+Started working: 1 available service,Started working: <*> available service,<*>: <*> available service(s)
+removing chargen,removing <*>,removing chargen
+removing chargen,removing <*>,removing chargen
+removing daytime,removing <*>,<*>[<*>/<*>] [lvl=<*>] <*>() <*>
+removing daytime,removing <*>,<*>[<*>/<*>] [lvl=<*>] <*>() <*>
+removing echo,removing <*>,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+removing echo,removing <*>,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+removing eklogin,removing <*>,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+removing ftp,removing <*>,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+removing klogin,removing <*>,<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+removing kshell,removing <*>,<*> [<*>] [lvl=<*>] main() fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+removing printer,removing <*>,<*> removing printer
+removing rsync,removing <*>,<*> removing rsync
+removing telnet,removing <*>,<*> <*>
+removing time,removing <*>,ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+removing time,removing <*>,ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>
+xinetd Version 2.3.13 started with libwrap loadavg options compiled in.,xinetd Version <*> started with libwrap loadavg options compiled in.,<*> Version <*> started with <*> compiled in.
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+"jA9JBVPb007417: from=root, size=629060, class=0, nrcpts=1, msgid=<200511091911.jA9JBVPb007417@eadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9JBVPb007417: to=root, ctladdr=root (0/0), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=659060, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+"jA9JBWxH019649: from=root, size=1596872, class=0, nrcpts=1, msgid=<200511091911.jA9JBWxH019649@aadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9JBWxH019649: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1626872, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+"jA9JBWEr014256: from=root, size=1593894, class=0, nrcpts=1, msgid=<200511091911.jA9JBWEr014256@badmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9JBWEr014256: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1623894, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+"jA9JBXgf022479: from=root, size=1594553, class=0, nrcpts=1, msgid=<200511091911.jA9JBXgf022479@cadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9JBXgf022479: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1624553, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+"jA9JBXVI027337: from=root, size=1597080, class=0, nrcpts=1, msgid=<200511091911.jA9JBXVI027337@dadmin1>, relay=#7#@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost","<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>@<*>, relay=#<*>#@localhost"
+"jA9JBXVI027337: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1627080, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]","<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+connection lost: 'Connection closed.',connection lost: 'Connection closed.',connection lost: '<*>'
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required
+[ib_sm_sweep.c:1455]: No topology change,[ib_sm_sweep.c:<*>]: No topology change,<*>: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required,[ib_sm_sweep.c:<*>]: No configuration change required,[<*>]: No configuration change required

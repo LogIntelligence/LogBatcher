@@ -39,7 +39,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     
     clusters = []
     for input in inputs:
-        c = Cluster(*input, remove_duplicate= False, max_num = num)
+        c = Cluster(*input, remove_duplicate= False)
         clusters.append(c)
 
     # Concurrent or not
@@ -68,7 +68,8 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
 # main
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    output_dir = 'outputs/parser/Test1/'
+    datasets.remove('Mac')
+    output_dir = 'outputs/parser/0125_1shot_cross/'
     with open('config.json', 'r') as f:
         config = json.load(f)
     parser = Cluster_Parser(config)

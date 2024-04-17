@@ -1,8 +1,0 @@
-Content,EventTemplate,Output
-data store interrupt caused by icbi.........0,data store interrupt caused by icbi.........<*>,data store interrupt caused by dcbf.........<*>
-data store interrupt caused by icbi.........0,data store interrupt caused by icbi.........<*>,data store interrupt caused by dcbf.........<*>
-data store interrupt caused by icbi.........0,data store interrupt caused by icbi.........<*>,data store interrupt caused by dcbf.........<*>
-icache prefetch threshold................0,icache prefetch threshold................<*>,icache prefetch depth....................<*>
-icache prefetch threshold................0,icache prefetch threshold................<*>,icache prefetch depth....................<*>
-data store interrupt caused by icbi.........0,data store interrupt caused by icbi.........<*>,data store interrupt caused by dcbf.........<*>
-data store interrupt caused by icbi.........0,data store interrupt caused by icbi.........<*>,data store interrupt caused by dcbf.........<*>

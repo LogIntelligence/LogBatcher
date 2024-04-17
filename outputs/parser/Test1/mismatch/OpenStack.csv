@@ -1,4 +1,0 @@
-Content,EventTemplate,Output
-Successfully synced instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us'.,Successfully synced instances from host '<*>'.,Successfully synced instances from host 'cp-<*>.slowvm1.tcloud-pg0.utah.cloudlab.us'.
-Running instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from 2017-05-16 05:00:00 to 2017-05-16 06:00:00. 87 instances.,Running instance usage audit for host <*> from <*> to <*>. <*> instances.,Running instance usage audit for host cp-<*>.slowvm1.tcloud-pg0.utah.cloudlab.us from <*>-<*>-<*> <*> to <*>-<*>-<*> <*>. <*> instances.
-Successfully synced instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us'.,Successfully synced instances from host '<*>'.,Successfully synced instances from host 'cp-<*>.slowvm1.tcloud-pg0.utah.cloudlab.us'.

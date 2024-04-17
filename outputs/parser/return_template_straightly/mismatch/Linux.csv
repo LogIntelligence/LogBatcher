@@ -1,2 +1,0 @@
-Content,EventTemplate,Output
-authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=,authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=,authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>
