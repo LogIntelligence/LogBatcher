@@ -3,6 +3,7 @@ from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 from utils.postprocess import post_process
 from utils.util import choose
+from utils.sample_byword import matches_template
 import httpx
 
 class Cluster_Parser:
@@ -32,7 +33,7 @@ class Cluster_Parser:
         )
         return response.choices[0].message.content.strip('\n')
     
-    def get_responce(self, f, cluster):
+    def get_responce(self, f, cluster, cached_templates=[]):
         label, logs, indexs, ground_truth = cluster.label, cluster.logs, cluster.indexs, cluster.oracle_template
     
         length = len(indexs)
@@ -44,6 +45,14 @@ class Cluster_Parser:
             # can't handle log like setLightOn(true)
             if all(len(re.split(' ', log)) == 1 and not any(char.isdigit() for char in log) for log in batch_logs):
                 return batch_logs[0]
+
+            # cache
+            additional_incontext = ''
+            for cached_template in cached_templates:
+                if matches_template(batch_logs[0], cached_template):
+                    additional_incontext = f"Based on the previous logs, the template is likely to be: {cached_template.replace('<*>', '{{variable}}')}"
+                    break
+            # end
 
             messages = []
             if len(batch_logs) == 1:
@@ -68,7 +77,10 @@ class Cluster_Parser:
             #     prompt = ""
             #     for log in batch_logs[:5]:
             #         prompt += log + '\n'
-            messages.append({"role": "user", "content": prompt.strip('\n')})
+            if additional_incontext:
+                messages.append({"role": "assistant", "content": prompt + additional_incontext})
+            else:
+                messages.append({"role": "user", "content": prompt.strip('\n')})
             answer = self.chat(messages)
             template =  post_process(answer)
             if template != '':

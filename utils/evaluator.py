@@ -9,8 +9,8 @@ def rule(template):
     # correct_single_template(template)
     if not isinstance(template, str):
         template = ''
-    while '<*> <*>' in template:
-        template = template.replace('<*> <*>', '<*>')   
+    while '<*>:<*>' in template:
+        template = template.replace('<*>:<*>', '<*>')   
     return template
 
 def evaluate(file, dataset, mismatch=False):
@@ -20,6 +20,9 @@ def evaluate(file, dataset, mismatch=False):
     # Remove invalid groundtruth event Ids
     null_logids = df[~df['EventTemplate'].isnull()].index
     df = df.loc[null_logids]
+
+    # if dataset == 'Zookeeper':
+    #     df['EventTemplate'] = df['EventTemplate'].apply(lambda x: rule(x))
 
     accuracy_exact_string_matching = accuracy_score(np.array(df['EventTemplate'].values, dtype='str'),
                                                     np.array(df['Output'], dtype='str'))

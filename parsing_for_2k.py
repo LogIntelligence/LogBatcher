@@ -43,6 +43,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
         clusters.append(c)
 
     # Concurrent or not
+    # if Concurrent, then the parsing process will be faster but we can't do something like cache parsing
     if Concurrent:
         templates = []
         with ThreadPoolExecutor(max_workers=16) as executor:
@@ -53,9 +54,13 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
             for index in inputs[label][2]:
                 outputs[index] = template
     else:
-        for label in tqdm(range(cluster_nums)):
-            template = parser.get_responce(f, inputs[label])
-            for index in inputs[label][2]:
+        clusters = sorted(clusters, key=lambda cluster: len(cluster.indexs), reverse=True)
+        cached_templates = []
+        for c in tqdm(clusters):
+            template = parser.get_responce(f, c, cached_templates)
+            if template not in cached_templates:
+                cached_templates.append(template)
+            for index in c.indexs:
                 outputs[index] = template
 
     # write to file
@@ -68,12 +73,11 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
 # main
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC',
-                'Zookeeper', 'Mac', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
+    datasets = ['OpenSSH']
     output_dir = 'outputs/parser/Test/'
     with open('config.json', 'r') as f:
         config = json.load(f)
     parser = Cluster_Parser(config)
 
     for index, dataset in enumerate(datasets):
-        single_dataset_paring(dataset, output_dir, parser, Concurrent=True)
+        single_dataset_paring(dataset, output_dir, parser, Concurrent=False)

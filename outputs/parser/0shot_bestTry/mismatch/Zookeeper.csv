@@ -1,0 +1,36 @@
+Content,EventTemplate,Output
+Unexpected Exception:,Unexpected Exception:,Unexpected Exception: <*>
+Server environment:user.dir=/,Server environment:<*>,Server environment:user.dir=<*>
+Server environment:host.name=mesos-master-1,Server environment:<*>,Server environment:host.name=<*>
+"Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEpoch), <*> (my state)"
+Server environment:java.vendor=Oracle Corporation,Server environment:<*>,Server environment:java.vendor=<*>
+"Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT",Server environment:<*>,"Server environment:zookeeper.version=<*>, built on <*> GMT"
+Server environment:user.name=zookeeper,Server environment:<*>,Server environment:user.name=<*>
+Server environment:os.name=Linux,Server environment:<*>,Server environment:os.name=<*>
+"Notification: 3 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0xb (n.peerEPoch), FOLLOWING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)"
+Server environment:java.vendor=Oracle Corporation,Server environment:<*>,Server environment:java.vendor=<*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still <*>
+Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,Got user-level KeeperException when processing sessionid:<*> type:<*> cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = <*> for <*>
+Starting quorum peer,Starting quorum peer,Starting <*>
+autopurge.purgeInterval set to 0,autopurge.purgeInterval set to <*>,<*>
+Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,Follower sid: <*> : <*> : <*>
+autopurge.purgeInterval set to 0,autopurge.purgeInterval set to <*>,<*>
+Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar,Server environment:<*>,Server environment:java.class.path=<*>
+"Notification: 2 (n.leader), 0xa0000009a (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xa (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEpoch), <*> (my state)"
+shutdown of request processor complete,shutdown of request processor complete,shutdown of <*> complete
+autopurge.purgeInterval set to 0,autopurge.purgeInterval set to <*>,<*>
+Sending DIFF,Sending DIFF,Sending <*>
+Server environment:os.name=Linux,Server environment:<*>,Server environment:os.name=<*>
+Server environment:user.name=zookeeper,Server environment:<*>,Server environment:user.name=<*>
+Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre,Server environment:<*>,Server environment:java.home=<*>

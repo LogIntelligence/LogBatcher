@@ -14,7 +14,7 @@ class Cluster:
         self.oracle_template = oracle_template
         self.sample_method = sample_method
         self.shuffle()
-        self.mutation()
+        # self.mutation()
         if remove_duplicate:
             self.remove_duplicate()
             # if len(self.logs) > remain_num:

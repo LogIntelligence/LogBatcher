@@ -49,6 +49,23 @@ def extract_variables(log, template):
     else:
         return []
 
+def matches_template(log, template):
+    # 将<*>替换为正则表达式(.*?)
+    pattern_parts = template.split("<*>")
+    pattern_parts_escaped = [re.escape(part) for part in pattern_parts]
+    regex_pattern = "(.*?)".join(pattern_parts_escaped)
+    regex = "^" + regex_pattern + "$"  
+
+    # 使用re.search检查log是否与构建的正则表达式匹配
+    matches = re.search(regex, log)
+    if matches:
+        for match in matches.groups():
+            if ' ' in match:
+                return False
+        return True
+    else:
+        return False
+
 def sample_byword(df, k, method='dpp', showLogs=False):
 
     logs = df['Content'].tolist()
