@@ -1,0 +1,14 @@
+Content,EventTemplate,Output
+message repeated 5 times: [ Failed password for root from 5.36.59.76 port 42393 ssh2],message repeated <*> times: [ Failed password for <*> from <*> port <*>],[ Failed password for <*> from <*> port <*> ssh2]
+PAM service(sshd) ignoring max retries; 6 > 3,PAM service(sshd) ignoring max retries; <*> > <*>,PAM service(<*>) ignoring max retries; <*> > <*>
+error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth],error: Received disconnect from <*>: <*>: <*>: Auth fail [preauth],error: Received disconnect from <*>: <*>: <*> [preauth]
+error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth],error: Received disconnect from <*>: <*>: <*>: Auth fail [preauth],error: Received disconnect from <*>: <*>: <*> [preauth]
+PAM service(sshd) ignoring max retries; 5 > 3,PAM service(sshd) ignoring max retries; <*> > <*>,PAM service(<*>) ignoring max retries; <*> > <*>
+PAM service(sshd) ignoring max retries; 5 > 3,PAM service(sshd) ignoring max retries; <*> > <*>,PAM service(<*>) ignoring max retries; <*> > <*>
+message repeated 5 times: [ Failed password for root from 106.5.5.195 port 50719 ssh2],message repeated <*> times: [ Failed password for <*> from <*> port <*>],[ Failed password for <*> from <*> port <*> ssh2]
+PAM service(sshd) ignoring max retries; 6 > 3,PAM service(sshd) ignoring max retries; <*> > <*>,PAM service(<*>) ignoring max retries; <*> > <*>
+PAM service(sshd) ignoring max retries; 5 > 3,PAM service(sshd) ignoring max retries; <*> > <*>,PAM service(<*>) ignoring max retries; <*> > <*>
+PAM service(sshd) ignoring max retries; 5 > 3,PAM service(sshd) ignoring max retries; <*> > <*>,PAM service(<*>) ignoring max retries; <*> > <*>
+Received disconnect from 119.137.62.142: 11: disconnected by user,Received disconnect from <*>: <*>: disconnected by user,Received disconnect from <*>: <*>: disconnected by <*>
+PAM service(sshd) ignoring max retries; 6 > 3,PAM service(sshd) ignoring max retries; <*> > <*>,PAM service(<*>) ignoring max retries; <*> > <*>
+fatal: Write failed: Connection reset by peer [preauth],fatal: Write failed: Connection reset by peer [preauth],fatal: Write failed: <*> [<*>]

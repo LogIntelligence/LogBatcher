@@ -1,0 +1,122 @@
+Content,EventTemplate,Output
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Unexpected Exception:,Unexpected Exception:,Unexpected Exception: <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Server environment:user.dir=/,Server environment:<*>,Server environment:user.dir=<*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Expiring session 0x24ede63a01b003b, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x34ede65503f0036, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Expiring session 0x34ede65503f005c, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ede63a01b0062, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Server environment:host.name=mesos-master-1,Server environment:<*>,Server environment:host.name=<*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Server environment:java.vendor=Oracle Corporation,Server environment:<*>,Server environment:java.vendor=<*>
+"Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT",Server environment:<*>,"Server environment:zookeeper.version=<*>, built on <*> GMT"
+Server environment:user.name=zookeeper,Server environment:<*>,Server environment:user.name=<*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Server environment:os.name=Linux,Server environment:<*>,Server environment:os.name=<*>
+"Notification: 2 (n.leader), 0xb00000084 (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEpoch), LOOKING (my state)"
+"Notification: 3 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0xb (n.peerEPoch), FOLLOWING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Server environment:java.vendor=Oracle Corporation,Server environment:<*>,Server environment:java.vendor=<*>
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while sock still open,Unexpected exception causing shutdown while <*> still open
+Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,Got user-level KeeperException when processing sessionid:<*> type:<*> cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:<*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), 0x2 (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)"
+"Expiring session 0x14ed93111f20020, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ed93119420033, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ed9311942002a, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x34ed9ac1c1e002b, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x34ed9ac1c1e0033, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x14ed93111f20068, timeout of 20000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Expiring session 0x34ed9ac1c1e0065, timeout of 20000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Expiring session 0x34ed9ac1c1e007f, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ed9311942008e, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Expiring session 0x14ed93111f2009f, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x34ed9ac1c1e008f, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ed931194200ad, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x14ed93111f200d2, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Starting quorum peer,Starting quorum peer,Starting <*> peer
+"Expiring session 0x34edfaa9c22000d, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24edfaa87170002, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24edfaa87170010, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x34edfaa9c220022, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x14edfaa86f6002a, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Expiring session 0x14edfaa86f60031, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,Follower sid: <*> : info : <*>
+"Expiring session 0x24ee30a54f50017, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ee30a54f5001d, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ee30a54f50025, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24ee30a54f50027, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x14ee3e057ed002a, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x34ee30a5c53002a, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+maxSessionTimeout set to -1,maxSessionTimeout set to <*>,<*> set to -<*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar,Server environment:<*>,Server environment:java.class.path=<*>
+"Notification: 2 (n.leader), 0xa0000009a (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xa (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)"
+"Expiring session 0x14f1724a6e80011, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x14f3fdae8ba0002, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24f3fdaf738000a, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+shutdown of request processor complete,shutdown of request processor complete,shutdown of <*> complete
+"Notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), 0x2 (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)"
+"Notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)","Notification: <*> (n.leader), <*> (n.zxid), 0x2 (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)"
+"Expiring session 0x14f3fdae8ba0017, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x14f3fdae8ba000c, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24f3fdaf7380008, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x24f4a631df90002, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Expiring session 0x34f4a63146b0048, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+Sending DIFF,Sending DIFF,Sending <*>
+"Expiring session 0x24f4a631df90029, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEpoch), LOOKING (my state)"
+"Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEpoch), LOOKING (my state)"
+"Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEpoch), LOOKING (my state)"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+"Notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)"
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+minSessionTimeout set to -1,minSessionTimeout set to <*>,<*> set to -<*>
+Server environment:os.name=Linux,Server environment:<*>,Server environment:os.name=<*>
+Server environment:user.name=zookeeper,Server environment:<*>,Server environment:user.name=<*>
+caught end of stream exception,caught end of stream exception,caught <*> of stream <*>
+minSessionTimeout set to -1,minSessionTimeout set to <*>,<*> set to -<*>
+Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre,Server environment:<*>,Server environment:java.home=<*>
+"Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)","Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEpoch), LOOKING (my state)"
+"Expiring session 0x14f05578bd80006, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"
+"Expiring session 0x14f05578bd8000f, timeout of 10000ms exceeded","Expiring session <*>, timeout of <*> exceeded","Expiring session <*>, timeout of 10000ms exceeded"

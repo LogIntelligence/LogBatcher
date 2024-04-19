@@ -99,5 +99,9 @@ def correct_single_template(template, user_strings=None):
 
     while "<*>:<*>" in template:
         template = template.replace("<*>:<*>", "<*>")
+
+    while "<*>/<*>" in template:
+        template = template.replace("<*>/<*>", "<*>")
+
     return template
 

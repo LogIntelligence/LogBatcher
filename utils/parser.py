@@ -18,9 +18,9 @@ class Cluster_Parser:
             self.client = OpenAI(
                 base_url=config['transfer_url'],  # 中转url
                 api_key=self.api_key,                      # api_key
-                http_client=httpx.Client(
-                    proxies=config['proxies']  # 代理地址
-                ),
+                # http_client=httpx.Client(
+                #     proxies=config['proxies']  # 代理地址
+                # ),
             )
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)

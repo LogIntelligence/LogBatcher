@@ -58,6 +58,7 @@ def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
     words = re.split(tokenize_pattern, log_content)
     new_words = []
     list = ['/', 'kb', 'sec', 'byte', 'mb']
+    list = ['/']
     for index, word in enumerate(words):
         if '=' in word:
             ws = word.split('=')

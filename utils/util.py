@@ -1,8 +1,16 @@
 from collections import Counter
 import random
 
-def choose(list):
+def choose(list : list):
+    """
+    choose the most frequent template from the list
 
+    Args: 
+        list of templates
+    Returns:
+        final_template: the most frequent template
+        freq: the frequency of each template
+    """
     # majority vote
     freq = Counter(list)
     length = len(freq) 
@@ -31,7 +39,16 @@ def choose(list):
     return final_template, freq
 
 
-def mutate(token):
+def mutate(token : str):
+    """
+    randomly change the number in the token
+
+    Args:
+        token: the token to be mutated
+
+    Returns:
+        token: the mutated token
+    """
     random_number = random.randint(0, 9)
     token_list = list(token)
     for index, char in enumerate(token_list):
