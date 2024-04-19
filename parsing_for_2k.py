@@ -58,8 +58,8 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
         cached_templates = []
         for c in tqdm(clusters):
             template = parser.get_responce(f, c, cached_templates)
-            if template not in cached_templates:
-                cached_templates.append(template)
+            if template not in cached_templates and template != '<*>':
+                cached_templates.append([c.logs[0],template])
             for index in c.indexs:
                 outputs[index] = template
 
@@ -73,7 +73,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
 # main
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['OpenSSH']
+    datasets = ['Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
     output_dir = 'outputs/parser/Test/'
     with open('config.json', 'r') as f:
         config = json.load(f)

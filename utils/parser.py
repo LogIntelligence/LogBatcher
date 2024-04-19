@@ -33,7 +33,7 @@ class Cluster_Parser:
         )
         return response.choices[0].message.content.strip('\n')
     
-    def get_responce(self, f, cluster, cached_templates=[]):
+    def get_responce(self, f, cluster, cached_pairs=[]):
         label, logs, indexs, ground_truth = cluster.label, cluster.logs, cluster.indexs, cluster.oracle_template
     
         length = len(indexs)
@@ -48,10 +48,12 @@ class Cluster_Parser:
 
             # cache
             additional_incontext = ''
-            for cached_template in cached_templates:
-                if matches_template(batch_logs[0], cached_template):
-                    additional_incontext = f"Based on the previous logs, the template is likely to be: {cached_template.replace('<*>', '{{variable}}')}"
-                    break
+            for cached_pair in cached_pairs:
+                match_result = matches_template(batch_logs[0], cached_pair)
+                if match_result != None:
+                    return match_result 
+                    # additional_incontext = f"Based on the previous logs, the template is likely to be: {cached_template.replace('<*>', '{{variable}}')}"
+                    # break
             # end
 
             messages = []
