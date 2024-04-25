@@ -73,8 +73,8 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
 # main
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets = ['Hadoop']
-    output_dir = 'outputs/parser/Test/'
+    datasets = ['Proxifier']
+    output_dir = 'outputs/parser/Test2/'
     with open('config.json', 'r') as f:
         config = json.load(f)
     parser = Cluster_Parser(config)

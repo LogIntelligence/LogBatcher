@@ -1,0 +1,24 @@
+---------------------------
+cluster 3: len=314
+Interrupted while waiting for message on queue (ground truth)
+Interrupted while waiting for message on queue (final_template)
+Interrupted while waiting for message on queue: 7
+---------------------------
+---------------------------
+cluster 1: len=299
+Received connection request <*> (ground truth)
+Received connection request <*> (final_template)
+Received connection request <*>: 6
+---------------------------
+---------------------------
+cluster 4: len=291
+Connection broken for id <*>, my id = <*>, error = (ground truth)
+Connection broken for id <*>, my id = <*>, error = (final_template)
+Connection broken for id <*>, my id = <*>, error =: 6
+---------------------------
+---------------------------
+cluster 5: len=266
+Interrupting SendWorker (ground truth)
+Interrupting SendWorker (final_template)
+Interrupting SendWorker: 6
+---------------------------
