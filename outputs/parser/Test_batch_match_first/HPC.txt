@@ -1,0 +1,303 @@
+---------------------------
+cluster 7: len=2
+clusterAddMember (command <*>) (ground truth)
+clusterAddMember (command <*>) (final_template)
+clusterAddMember (command <*>): 1
+---------------------------
+---------------------------
+cluster 6: len=21
+ClusterFileSystem: There is no server for ServerFileSystem domain <*> (ground truth)
+ClusterFileSystem: There is no server for ServerFileSystem domain <*> (final_template)
+ClusterFileSystem: There is no server for ServerFileSystem domain <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=3
+halt (command <*>) (ground truth)
+halt (command <*>) (final_template)
+halt (command <*>): 1
+---------------------------
+---------------------------
+cluster 12: len=2
+Temperature (<*>) exceeds warning threshold (ground truth)
+Temperature (<*>) exceeds warning threshold (final_template)
+Temperature (<*>) exceeds warning threshold: 1
+---------------------------
+---------------------------
+cluster 11: len=4
+Targeting domains:<*> nodes:<*> (ground truth)
+Targeting domains:node-<*> and nodes:node-<*> (final_template)
+Targeting domains:node-<*> and nodes:node-<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=1
+risBoot (command <*>) (ground truth)
+<*> (command <*>) (final_template)
+<*> (command <*>): 1
+---------------------------
+---------------------------
+cluster 2: len=66
+wait (command <*>) (ground truth)
+wait (command <*>) (final_template)
+wait (command <*>): 2
+---------------------------
+---------------------------
+cluster 0: len=12
+Component State Change: Component <*> is in the unavailable state (HWID=<*>) (ground truth)
+Component State Change: Component <*> is in the unavailable state (HWID=<*>) (final_template)
+Component State Change: Component <*> is in the unavailable state (HWID=<*>): 1
+---------------------------
+---------------------------
+cluster 4: len=5
+Targeting domains:<*> and nodes:node-[<*>-<*>] child of command <*> (ground truth)
+Targeting domains:<*> and nodes:<*> child of command <*> (final_template)
+Targeting domains:<*> and nodes:<*> child of command <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=5
+psu failure\ ambient=<*> (ground truth)
+psu failure\ ambient=<*> (final_template)
+psu failure\ ambient=<*>: 1
+---------------------------
+---------------------------
+cluster 9: len=2
+bootGenvmunix (command <*>) (ground truth)
+<*> (<*>) (final_template)
+<*> (<*>): 1
+---------------------------
+---------------------------
+cluster 3: len=10
+Command has completed successfully (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=67
+boot (command <*>) (ground truth)
+boot (command <*>) (final_template)
+boot (command <*>): 2
+---------------------------
+---------------------------
+cluster 7: len=44
+not responding (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 12: len=1
+power/control problem (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=12
+ServerFileSystem: ServerFileSystem domain <*> is full (ground truth)
+ServerFileSystem: ServerFileSystem domain <*> is full (final_template)
+ServerFileSystem: ServerFileSystem domain <*> is full: 1
+---------------------------
+---------------------------
+cluster 11: len=1
+Command has been aborted (ground truth)
+Command has been <*> (final_template)
+Command has been <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=11
+Fan speeds ( <*> <*> <*> <*> <*> <*> ) (ground truth)
+Fan speeds ( <*> <*> <*> <*> <*> <*> ) (final_template)
+Fan speeds ( <*> <*> <*> <*> <*> <*> ): 1
+---------------------------
+---------------------------
+cluster 13: len=2
+Link in reset (ground truth)
+<*> in reset (final_template)
+<*> in reset: 1
+---------------------------
+---------------------------
+cluster 15: len=4
+Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*> (ground truth)
+Link error on broadcast tree Interconnect-<*> (final_template)
+Link error on broadcast tree Interconnect-<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=9
+Link error (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=2
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (final_template)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=1
+Link ok (ground truth)
+Link <*> (final_template)
+Link <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=1
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (final_template)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=1
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (final_template)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=2
+NIFF: node <*> detected a failed network connection on network <*> via interface alt0 (ground truth)
+NIFF: node <*> detected a failed network connection on network <*> via interface <*> (final_template)
+NIFF: node <*> detected a failed network connection on network <*> via interface <*>: 1
+---------------------------
+---------------------------
+cluster 17: len=2
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (final_template)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=1
+ServerFileSystem: An ServerFileSystem domain panic has occurred on <*> (ground truth)
+ServerFileSystem: An <*> panic has occurred on <*> (final_template)
+ServerFileSystem: An <*> panic has occurred on <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=66
+configured out (ground truth)
+configured out (final_template)
+configured out: 1
+<*>: 1
+---------------------------
+---------------------------
+cluster 24: len=1
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <*> (ground truth)
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> (final_template)
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>: 1
+---------------------------
+---------------------------
+cluster 19: len=1
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (final_template)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=2
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <*> (ground truth)
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> (final_template)
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>: 1
+---------------------------
+---------------------------
+cluster 0: len=79
+Fan speeds ( <*> <*> <*> **** <*> <*> ) (ground truth)
+Fan speeds ( <*> <*> <*> **** <*> <*> ) (final_template)
+Fan speeds ( <*> <*> <*> **** <*> <*> ): 2
+---------------------------
+---------------------------
+cluster 4: len=29
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*> (final_template)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>: 1
+---------------------------
+---------------------------
+cluster 7: len=1
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <*> (ground truth)
+inconsistent nodesets <*> <*> <ok> (final_template)
+inconsistent nodesets <*> <*> <ok>: 1
+---------------------------
+---------------------------
+cluster 0: len=16
+not responding (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=103
+ambient=<*> (ground truth)
+ambient=<*> (final_template)
+ambient=<*>: 3
+---------------------------
+---------------------------
+cluster 1: len=1
+risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed> (ground truth)
+<*> (command <*>) Error: Timed out while waiting for <*> prompt: <*> code completed> (final_template)
+<*> (command <*>) Error: Timed out while waiting for <*> prompt: <*> code completed>: 1
+---------------------------
+---------------------------
+cluster 2: len=1
+boot (command <*>) Error: HALT asserted\ cannot continue (ground truth)
+boot (command <*>) Error: <*> cannot continue (final_template)
+boot (command <*>) Error: <*> cannot continue: 1
+---------------------------
+---------------------------
+cluster 0: len=342
+Linkerror event interval expired (ground truth)
+Linkerror event interval expired (final_template)
+Linkerror event interval expired: 6
+<*> event interval expired: 1
+---------------------------
+---------------------------
+cluster 2: len=1
+Failed subcommands <*> (ground truth)
+Failed subcommands <*> (final_template)
+Failed subcommands <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=91
+NIFF: node <*> has detected an available network connection on network <*> via interface ee0 (ground truth)
+NIFF: node <*> has detected an available network connection on network <*> via interface <*> (final_template)
+NIFF: node <*> has detected an available network connection on network <*> via interface <*>: 2
+---------------------------
+---------------------------
+cluster 0: len=56
+link errors remain current (ground truth)
+<*> (final_template)
+<*>: 2
+---------------------------
+---------cache_pairs---------
+Component State Change: Component <*> is in the unavailable state (HWID=<*>)
+boot (command <*>)
+wait (command <*>)
+Targeting domains:<*> and nodes:<*> child of command <*>
+psu failure\ ambient=<*>
+ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+clusterAddMember (command <*>)
+<*> (command <*>)
+<*> (<*>)
+halt (command <*>)
+Targeting domains:node-<*> and nodes:node-<*>
+Temperature (<*>) exceeds warning threshold
+Fan speeds ( <*> <*> <*> **** <*> <*> )
+Fan speeds ( <*> <*> <*> <*> <*> <*> )
+ServerFileSystem: ServerFileSystem domain <*> is full
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>
+running
+blocked
+configured out
+NIFF: node <*> detected a failed network connection on network <*> via interface <*>
+ServerFileSystem: An <*> panic has occurred on <*>
+Command has been <*>
+<*> in reset
+Link <*>
+Link error on broadcast tree Interconnect-<*>
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>
+active
+not-responding
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>
+normal
+warning
+ambient=<*>
+critical
+starting
+closing
+inconsistent nodesets <*> <*> <ok>
+Linkerror event interval expired
+<*> (command <*>) Error: Timed out while waiting for <*> prompt: <*> code completed>
+boot (command <*>) Error: <*> cannot continue
+NIFF: node <*> has detected an available network connection on network <*> via interface <*>
+Failed subcommands <*>

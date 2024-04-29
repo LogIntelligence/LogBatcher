@@ -1,0 +1,2728 @@
+---------------------------
+cluster 1: len=1
+MidplaneSwitchController performing bit sparing on <*> bit <*> (ground truth)
+<*> performing <*> on <*> bit <*> (final_template)
+<*> performing <*> on <*> bit <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=1999
+instruction cache parity error corrected (ground truth)
+<*> cache <*> corrected (final_template)
+<*> cache <*> corrected: 1
+---------------------------
+---------------------------
+cluster 1: len=19
+<*> ddr errors(s) detected and corrected on rank <*>, symbol <*> bit <*> (ground truth)
+<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*> (final_template)
+<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=1
+ddr: activating redundant bit steering: rank=<*> symbol=<*> (ground truth)
+ddr: activating redundant bit steering: rank=<*> symbol=<*> (final_template)
+ddr: activating redundant bit steering: rank=<*> symbol=<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=50
+generating core.<*> (ground truth)
+generating core.<*> (final_template)
+generating core.<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=1
+ddr: excessive soft failures, consider replacing the card (ground truth)
+ddr: <*>, consider replacing the <*> (final_template)
+ddr: <*>, consider replacing the <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=7
+<*> L3 <*> error(s) (dcr <*>) detected and corrected (ground truth)
+<*> L3 EDRAM error(s) (dcr <*>) detected and corrected (final_template)
+<*> L3 EDRAM error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 4: len=9
+total of <*> ddr error(s) detected and corrected (ground truth)
+total of <*> ddr error(s) detected and corrected (final_template)
+total of <*> ddr error(s) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 5: len=40
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (final_template)
+ciod: Error loading <*>: invalid or missing program image, No such file or directory: 1
+---------------------------
+---------------------------
+cluster 3: len=110
+CE sym <*>, at <*>, mask <*> (ground truth)
+CE sym <*>, at <*>, mask <*> (final_template)
+CE sym <*>, at <*>, mask <*>: 2
+---------------------------
+---------------------------
+cluster 6: len=2895
+<*> double-hummer alignment exceptions (ground truth)
+<*> double-hummer alignment exceptions (final_template)
+<*> double-hummer alignment exceptions: 5
+---------------------------
+---------------------------
+cluster 0: len=200
+ciod: LOGIN chdir(<*>) failed: No such file or directory (ground truth)
+ciod: LOGIN chdir(<*>) failed: No such file or directory (final_template)
+ciod: LOGIN chdir(<*>) failed: No such file or directory: 1
+---------------------------
+---------------------------
+cluster 9: len=91
+machine check enable..............<*> (ground truth)
+machine check enable..............<*> (final_template)
+machine check enable..............<*>: 1
+---------------------------
+---------------------------
+cluster 5: len=91
+critical input interrupt enable...<*> (ground truth)
+critical input interrupt <*>...<*> (final_template)
+critical input interrupt <*>...<*>: 1
+---------------------------
+---------------------------
+cluster 6: len=91
+external input interrupt enable...<*> (ground truth)
+external input interrupt enable...<*> (final_template)
+external input interrupt enable...<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=91
+machine state register: <*> (ground truth)
+machine state register: <*> (final_template)
+machine state register: <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=91
+core configuration register: <*> (ground truth)
+core configuration register: <*> (final_template)
+core configuration register: <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=91
+disable store gathering..................<*> (ground truth)
+disable store gathering..................<*> (final_template)
+disable store gathering..................<*>: 1
+---------------------------
+---------------------------
+cluster 20: len=91
+guaranteed data cache block touch........<*> (ground truth)
+guaranteed data cache block touch........<*> (final_template)
+guaranteed data cache block touch........<*>: 1
+---------------------------
+---------------------------
+cluster 14: len=91
+data address space................<*> (ground truth)
+data address space................<*> (final_template)
+data address space................<*>: 1
+---------------------------
+---------------------------
+cluster 12: len=91
+debug interrupt enable............<*> (ground truth)
+debug interrupt enable............<*> (final_template)
+debug interrupt enable............<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=182
+floating pt ex mode <*> enable......<*> (ground truth)
+floating pt ex mode <*> enable......<*> (final_template)
+floating pt ex mode <*> enable......<*>: 1
+---------------------------
+---------------------------
+cluster 13: len=91
+instruction address space.........<*> (ground truth)
+instruction address space.........<*> (final_template)
+instruction address space.........<*>: 1
+---------------------------
+---------------------------
+cluster 4: len=91
+wait state enable.................<*> (ground truth)
+wait state enable.................<*> (final_template)
+wait state enable.................<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=91
+floating point instr. enabled.....<*> (ground truth)
+floating point instr. enabled.....<*> (final_template)
+floating point instr. enabled.....<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=91
+debug wait enable.................<*> (ground truth)
+debug wait <*>................<*> (final_template)
+debug wait <*>................<*>: 1
+---------------------------
+---------------------------
+cluster 21: len=90
+force load/store alignment...............<*> (ground truth)
+force load/store alignment...............<*> (final_template)
+force load/store alignment...............<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=92
+instruction address: <*> (ground truth)
+instruction address: <*> (final_template)
+instruction address: <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=36
+icache prefetch depth....................<*> (ground truth)
+icache prefetch depth....................<*> (final_template)
+icache prefetch depth....................<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=379
+data TLB error interrupt (ground truth)
+data <*> interrupt (final_template)
+data <*> interrupt: 1
+---------------------------
+---------------------------
+cluster 27: len=35
+rts internal error (ground truth)
+rts internal error (final_template)
+rts internal error: 1
+---------------------------
+---------------------------
+cluster 28: len=4
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected (ground truth)
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected (final_template)
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected: 1
+---------------------------
+---------------------------
+cluster 19: len=91
+guaranteed instruction cache block touch.<*> (ground truth)
+guaranteed instruction cache block touch.<*> (final_template)
+guaranteed instruction cache block touch.<*>: 1
+---------------------------
+---------------------------
+cluster 26: len=35
+lr:<*> cr:<*> xer:<*> ctr:<*> (ground truth)
+lr:<*> cr:<*> xer:<*> ctr:<*> (final_template)
+lr:<*> cr:<*> xer:<*> ctr:<*>: 1
+---------------------------
+---------------------------
+cluster 17: len=91
+disable apu instruction broadcast........<*> (ground truth)
+disable <*> instruction broadcast........<*> (final_template)
+disable <*> instruction broadcast........<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=91
+disable trace broadcast..................<*> (ground truth)
+disable trace broadcast..................<*> (final_template)
+disable trace broadcast..................<*>: 1
+---------------------------
+---------------------------
+cluster 7: len=91
+problem state (<*>=sup,<*>=usr).......<*> (ground truth)
+problem state (<*>=sup,<*>=usr).......<*> (final_template)
+problem state (<*>=sup,<*>=usr).......<*>: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+machine check status register: <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 23: len=36
+general purpose registers: (ground truth)
+general purpose registers: <*> (final_template)
+general purpose registers: <*>: 1
+---------------------------
+---------------------------
+cluster 38: len=1
+tlb error.........................<*> (ground truth)
+tlb error.........................<*> (final_template)
+tlb error.........................<*>: 1
+---------------------------
+---------------------------
+cluster 30: len=1
+ciodb has been restarted. (ground truth)
+<*> has been restarted. (final_template)
+<*> has been restarted.: 1
+---------------------------
+---------------------------
+cluster 37: len=1
+data write plb error..............<*> (ground truth)
+data write <*> error..............<*> (final_template)
+data write <*> error..............<*>: 1
+---------------------------
+---------------------------
+cluster 36: len=1
+data read plb error...............<*> (ground truth)
+data read <*> error...............<*> (final_template)
+data read <*> error...............<*>: 1
+---------------------------
+---------------------------
+cluster 39: len=1
+i-cache parity error..............<*> (ground truth)
+i-cache <*> error..............<*> (final_template)
+i-cache <*> error..............<*>: 1
+---------------------------
+---------------------------
+cluster 25: len=36
+rts panic! - stopping execution (ground truth)
+rts panic! - stopping execution (final_template)
+rts panic! - stopping execution: 1
+---------------------------
+---------------------------
+cluster 24: len=36
+special purpose registers: (ground truth)
+special purpose registers: (final_template)
+special purpose registers:: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+d-cache flush parity error.......<*> (ground truth)
+<*>} flush parity error........<*> (final_template)
+<*>} flush parity error........<*>: 1
+---------------------------
+---------------------------
+cluster 31: len=1
+<*> L3 <*> error(s) (dcr <*>) detected and corrected (ground truth)
+<*> <*> directory error(s) (dcr <*>) detected and corrected (final_template)
+<*> <*> directory error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+idoproxydb has been started: $Name: <*> $ Input parameters: <*> (ground truth)
+<*> has been started: $Name: <*> $ Input parameters: <*> <*> <*> (final_template)
+<*> has been started: $Name: <*> $ Input parameters: <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver z- input pipe error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus receiver z- input pipe error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+summary...........................<*> (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 35: len=1
+instruction plb error.............<*> (ground truth)
+instruction <*> error.............<*> (final_template)
+instruction <*> error.............<*>: 1
+---------------------------
+---------------------------
+cluster 40: len=1
+d-cache search parity error.......<*> (ground truth)
+<*> search parity error.......<*> (final_template)
+<*> search parity error.......<*>: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+imprecise machine check...........<*> (ground truth)
+<*> machine check...........<*> (final_template)
+<*> machine check...........<*>: 1
+---------------------------
+---------------------------
+cluster 43: len=1
+lr:<*> cr:<*> xer:<*> ctr:<*> (ground truth)
+lr:<*> cr:<*> xer:<*> ctr:<*> (final_template)
+lr:<*> cr:<*> xer:<*> ctr:<*>: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver x- input pipe error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus receiver x- input pipe error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+machine check interrupt (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=47
+ciod: pollControlDescriptors: Detected the debugger died. (ground truth)
+<*>: <*>: Detected the debugger died. (final_template)
+<*>: <*>: Detected the debugger died.: 1
+---------------------------
+---------------------------
+cluster 0: len=55
+general purpose registers: (ground truth)
+general purpose registers: (final_template)
+general purpose registers:: 1
+---------------------------
+---------------------------
+cluster 1: len=1011
+ciod: Message code <*> is not <*> or <*> (ground truth)
+ciod: Message code <*> is not <*> or <*> (final_template)
+ciod: Message code <*> is not <*> or <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=52
+ciod: for node <*> read continuation request but ioState is <*> (ground truth)
+ciod: for node <*>, read continuation request but ioState is <*> (final_template)
+ciod: for node <*>, read continuation request but ioState is <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=1139
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*> (ground truth)
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*> (final_template)
+ciod: cpu <*> at treeaddr <*> sent unrecognized message 0xffffffff: 7
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=7
+d-cache flush parity error.......<*> (ground truth)
+<*> flush parity error........<*> (final_template)
+<*> flush parity error........<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=7
+summary...........................<*> (ground truth)
+summary...........................<*> (final_template)
+summary...........................<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=1
+disable speculative access...............<*> (ground truth)
+disable speculative access...............<*> (final_template)
+disable speculative access...............<*>: 1
+---------------------------
+---------------------------
+cluster 7: len=3249
+data storage interrupt (ground truth)
+<*> <*> (final_template)
+<*> <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=1
+close EDRAM pages as soon as possible....<*> (ground truth)
+close <*> pages as soon as possible....<*> (final_template)
+close <*> pages as soon as possible....<*>: 1
+---------------------------
+---------------------------
+cluster 5: len=34
+Can not get assembly information for node card (ground truth)
+Can not get assembly information for <*> (final_template)
+Can not get assembly information for <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=1
+disable all access to cache directory....<*> (ground truth)
+disable all access to cache directory....<*> (final_template)
+disable all access to cache directory....<*>: 1
+---------------------------
+---------------------------
+cluster 13: len=1
+size of scratchpad portion of L3.........<*> (<*>) (ground truth)
+size of scratchpad portion of L3.........<*> (<*>) (final_template)
+size of scratchpad portion of L3.........<*> (<*>): 1
+---------------------------
+---------------------------
+cluster 6: len=14
+Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*> (ground truth)
+Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*> (final_template)
+Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>: 1
+---------------------------
+---------------------------
+cluster 17: len=2
+prefetch depth for core <*>................<*> (ground truth)
+prefetch depth for core <*>................<*> (final_template)
+prefetch depth for core <*>................<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=1
+max number of outstanding prefetches.....<*> (ground truth)
+max number of outstanding prefetches.....<*> (final_template)
+max number of outstanding prefetches.....<*>: 1
+---------------------------
+---------------------------
+cluster 20: len=1
+disable write lines <*>..................<*> (ground truth)
+disable write lines <*>..................<*> (final_template)
+disable write lines <*>..................<*>: 1
+---------------------------
+---------------------------
+cluster 19: len=1
+turn on hidden refreshes.................<*> (ground truth)
+turn on hidden refreshes.................<*> (final_template)
+turn on hidden refreshes.................<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=4
+start initialization.....................<*> (ground truth)
+start <*>..........................<*> (final_template)
+start <*>..........................<*>: 1
+---------------------------
+---------------------------
+cluster 15: len=1
+write buffer commit threshold............<*> (ground truth)
+write buffer commit threshold............<*> (final_template)
+write buffer commit threshold............<*>: 1
+---------------------------
+---------------------------
+cluster 4: len=34
+Node card is not fully functional (ground truth)
+Node <*> is not fully functional (final_template)
+Node <*> is not fully functional: 1
+---------------------------
+---------------------------
+cluster 0: len=7
+machine check status register: <*> (ground truth)
+machine check status register: <*> (final_template)
+machine check status register: <*>: 1
+---------------------------
+---------------------------
+cluster 25: len=2
+uncorrectable error detected in directory <*>....<*> (ground truth)
+uncorrectable error detected in directory <*> (final_template)
+uncorrectable error detected in directory <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=1
+L3 ecc status register: <*> (ground truth)
+L3 ecc status register: <*> (final_template)
+L3 ecc status register: <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=1
+L3 global control register: <*> (ground truth)
+L3 global control register: <*> (final_template)
+L3 global control register: <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=1
+machine check interrupt (bit=<*>): L3 major internal error (ground truth)
+machine check interrupt (bit=<*>): <*> major internal error (final_template)
+machine check interrupt (bit=<*>): <*> major internal error: 1
+---------------------------
+---------------------------
+cluster 3: len=112
+ciod: LOGIN chdir(<*>) failed: Permission denied (ground truth)
+ciod: LOGIN chdir(<*>) failed: <*> (final_template)
+ciod: LOGIN chdir(<*>) failed: <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+uncorrectable error detected in external DDR...<*> (ground truth)
+uncorrectable error detected in external <*> (final_template)
+uncorrectable error detected in external <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=2
+correctable error detected in EDRAM bank <*> (ground truth)
+correctable error detected in EDRAM bank <*>.....<*> (final_template)
+correctable error detected in EDRAM bank <*>.....<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=1
+size of DDR we are caching...............<*> (<*>) (ground truth)
+size of DDR we are caching...............<*> (<*>) (final_template)
+size of DDR we are caching...............<*> (<*>): 1
+---------------------------
+---------------------------
+cluster 31: len=2
+number of correctable errors detected in L3 directories...<*> (ground truth)
+number of correctable errors detected in L3 <*>...<*> (final_template)
+number of correctable errors detected in L3 <*>...<*>: 1
+---------------------------
+---------------------------
+cluster 30: len=2
+parity error in read queue <*>...................<*> (ground truth)
+parity error in read queue <*>...................<*> (final_template)
+parity error in read queue <*>...................<*>: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+number of lines with parity errors written to L3 EDRAMs...<*> (ground truth)
+number of lines with <*> errors written to <*>...<*> (final_template)
+number of lines with <*> errors written to <*>...<*>: 1
+---------------------------
+---------------------------
+cluster 27: len=2
+uncorrectable error detected in EDRAM bank <*>...<*> (ground truth)
+uncorrectable error detected in EDRAM bank <*>...<*> (final_template)
+uncorrectable error detected in EDRAM bank <*>...<*>: 1
+---------------------------
+---------------------------
+cluster 21: len=1
+L3 ecc control register: <*> (ground truth)
+<*> ecc control register: <*> (final_template)
+<*> ecc control register: <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+DDR machine check register: <*> <*> (ground truth)
+DDR machine check register: <*> <*> (final_template)
+DDR machine check register: <*> <*>: 1
+---------------------------
+---------------------------
+cluster 37: len=1
+memory manager uncorrectable error...............<*> (ground truth)
+memory manager <*> error...............<*> (final_template)
+memory manager <*> error...............<*>: 1
+---------------------------
+---------------------------
+cluster 32: len=2
+interrupt threshold...<*> (ground truth)
+interrupt threshold...<*> (final_template)
+interrupt threshold...<*>: 1
+---------------------------
+---------------------------
+cluster 22: len=1
+disable flagging of DDR UE's as major internal error.<*> (ground truth)
+disable flagging of <*> UE's as <*> internal error.<*> (final_template)
+disable flagging of <*> UE's as <*> internal error.<*>: 1
+---------------------------
+---------------------------
+cluster 38: len=1
+memory manager strobe gate.......................<*> (ground truth)
+memory manager <*>.......................<*> (final_template)
+memory manager <*>.......................<*>: 1
+---------------------------
+---------------------------
+cluster 40: len=1
+memory manager miscompare........................<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 36: len=1
+command manager unit summary.....................<*> (ground truth)
+command manager unit summary.....................<*> (final_template)
+command manager unit summary.....................<*>: 1
+---------------------------
+---------------------------
+cluster 28: len=2
+parity error in bank <*>.........................<*> (ground truth)
+parity error in bank <*>.........................<*> (final_template)
+parity error in bank <*>.........................<*>: 1
+---------------------------
+---------------------------
+cluster 35: len=1
+memory and bus summary...........................<*> (ground truth)
+<*> summary...........................<*> (final_template)
+<*> summary...........................<*>: 1
+---------------------------
+---------------------------
+cluster 24: len=2
+correctable error detected in directory <*> (ground truth)
+correctable error detected in directory <*>......<*> (final_template)
+correctable error detected in directory <*>......<*>: 1
+---------------------------
+---------------------------
+cluster 39: len=1
+memory manager address parity error..............<*> (ground truth)
+<*> address parity error..............<*> (final_template)
+<*> address parity error..............<*>: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+address parity error..<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 54: len=1
+correctable error.....<*> (ground truth)
+correctable error.....<*> (final_template)
+correctable error.....<*>: 1
+---------------------------
+---------------------------
+cluster 49: len=1
+capture valid.........<*> (ground truth)
+capture valid.........<*> (final_template)
+capture valid.........<*>: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+state machine....................................<*> (ground truth)
+state machine....................................<*> (final_template)
+state machine....................................<*>: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+memory manager refresh counter timeout...........<*> (ground truth)
+memory manager refresh counter timeout...........<*> (final_template)
+memory manager refresh counter timeout...........<*>: 1
+---------------------------
+---------------------------
+cluster 43: len=1
+memory manager RMW buffer parity.................<*> (ground truth)
+memory manager <*> buffer parity.................<*> (final_template)
+memory manager <*> buffer parity.................<*>: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+memory manager refresh contention................<*> (ground truth)
+<*> refresh contention................<*> (final_template)
+<*> refresh contention................<*>: 1
+---------------------------
+---------------------------
+cluster 51: len=1
+mask..................<*> (ground truth)
+mask..................<*> (final_template)
+mask..................<*>: 1
+---------------------------
+---------------------------
+cluster 50: len=1
+symbol................<*> (ground truth)
+symbol................<*> (final_template)
+symbol................<*>: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+regctl scancom interface.........................<*> (ground truth)
+regctl scancom interface......................... (final_template)
+regctl scancom interface.........................: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+memory manager address error.....................<*> (ground truth)
+<*>: <*>.....................<*> (final_template)
+<*>: <*>.....................<*>: 1
+---------------------------
+---------------------------
+cluster 60: len=4
+machine check interrupt (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 58: len=2
+EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*> (ground truth)
+EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*> (final_template)
+EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*>: 1
+---------------------------
+---------------------------
+cluster 59: len=2
+EndServiceAction <*> performed upon <*> by <*> (ground truth)
+EndServiceAction <*> performed upon <*> by <*> (final_template)
+EndServiceAction <*> performed upon <*> by <*>: 1
+---------------------------
+---------------------------
+cluster 52: len=1
+miscompare............<*> (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+memory manager store buffer parity...............<*> (ground truth)
+memory manager store buffer parity...............<*> (final_template)
+memory manager store buffer parity...............<*>: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+memory manager / command manager address parity..<*> (ground truth)
+<*> address parity..<*> (final_template)
+<*> address parity..<*>: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+qw trapped............<*> (ground truth)
+<*>............<*> (final_template)
+<*>............<*>: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+Starting SystemController (ground truth)
+Starting <*> (final_template)
+Starting <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+chip select...........<*> (ground truth)
+chip select...........<*> (final_template)
+chip select...........<*>: 1
+---------------------------
+---------------------------
+cluster 64: len=2
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus sender <*>- retransmission error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus sender <*>- retransmission error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 63: len=1
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected (ground truth)
+<*> <*> sender <*> retransmission error(s) (dcr <*>) detected and corrected (final_template)
+<*> <*> sender <*> retransmission error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 61: len=2
+machine check interrupt (bit=<*>): L2 DCU read error (ground truth)
+machine check interrupt (bit=<*>): <*> <*> (final_template)
+machine check interrupt (bit=<*>): <*> <*>: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+Controlling BG/L rows [ <*> ] (ground truth)
+Controlling BG/L rows [ <*> ] (final_template)
+Controlling BG/L rows [ <*> ]: 1
+---------------------------
+---------------------------
+cluster 66: len=1
+L3 correctable errors exceeds threshold (iar <*> lr <*>) (ground truth)
+<*> correctable errors exceeds threshold (iar <*> lr <*>) (final_template)
+<*> correctable errors exceeds threshold (iar <*> lr <*>): 1
+---------------------------
+---------------------------
+cluster 69: len=1
+Running as background command (ground truth)
+Running as <*> (final_template)
+Running as <*>: 1
+---------------------------
+---------------------------
+cluster 65: len=1
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus sender <*>- retransmission error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus sender <*>- retransmission error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 62: len=1
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus sender <*>- retransmission error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus sender <*>- retransmission error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 57: len=2
+PrepareForService shutting down NodeCard(<*>, <*>, <*>, <*>, <*>) as part of Service Action <*> (ground truth)
+PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*> (final_template)
+PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=2789
+exception syndrome register: <*> (ground truth)
+exception syndrome register: <*> (final_template)
+exception syndrome register: <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=2597
+program interrupt: illegal instruction......<*> (ground truth)
+program interrupt: <*>......<*> (final_template)
+program interrupt: <*>......<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=2018
+program interrupt: privileged instruction...<*> (ground truth)
+program interrupt: <*>...<*> (final_template)
+program interrupt: <*>...<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=2879
+data store interrupt caused by dcbf.........<*> (ground truth)
+data store interrupt caused by <*>.........<*> (final_template)
+data store interrupt caused by <*>.........<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=2048
+program interrupt: unimplemented operation..<*> (ground truth)
+program interrupt: <*>..<*> (final_template)
+program interrupt: <*>..<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=2048
+program interrupt: fp cr update.............<*> (ground truth)
+program interrupt: <*> cr update.............<*> (final_template)
+program interrupt: <*> cr update.............<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=2048
+program interrupt: fp cr field .............<*> (ground truth)
+program interrupt: fp <*> field .............<*> (final_template)
+program interrupt: fp <*> field .............<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=29
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (ground truth)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (final_template)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected: 1
+---------------------------
+---------------------------
+cluster 12: len=8
+ciod: Error loading <*>: program image too big, <*> > <*> (ground truth)
+ciod: Error loading <*>: program image too big, <*> > <*> (final_template)
+ciod: Error loading <*>: program image too big, <*> > <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=21
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (ground truth)
+external input interrupt (unit=<*> bit=<*>): torus sender z- retransmission error was corrected (final_template)
+external input interrupt (unit=<*> bit=<*>): torus sender z- retransmission error was corrected: 1
+---------------------------
+---------------------------
+cluster 2: len=28
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (ground truth)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (final_template)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected: 1
+---------------------------
+---------------------------
+cluster 14: len=1108
+program interrupt (ground truth)
+program interrupt (final_template)
+program interrupt: 1
+---------------------------
+---------------------------
+cluster 10: len=6
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable (ground truth)
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable (final_template)
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable: 1
+---------------------------
+---------------------------
+cluster 11: len=6
+error threshold, consider replacing the card (ground truth)
+<*>, consider replacing the <*> (final_template)
+<*>, consider replacing the <*>: 1
+---------------------------
+---------------------------
+cluster 18: len=1
+external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold (ground truth)
+external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold (final_template)
+external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold: 1
+---------------------------
+---------------------------
+cluster 5: len=30
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (ground truth)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (final_template)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected: 1
+---------------------------
+---------------------------
+cluster 19: len=2
+suppressing further interrupts of same type (ground truth)
+suppressing further interrupts of <*> (final_template)
+suppressing further interrupts of <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=6
+BglIdoChip table has <*> IDOs with the same IP address <*> (ground truth)
+BglIdoChip table has <*> IDOs with the same IP address (<*>) (final_template)
+BglIdoChip table has <*> IDOs with the same IP address (<*>): 1
+---------------------------
+---------------------------
+cluster 15: len=144
+ciod: <*> coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (ground truth)
+ciod: X coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (final_template)
+ciod: X coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=256
+ciod: Unexpected eof at line <*> of node map file <*> (ground truth)
+ciod: Unexpected eof at line <*> of node map file <*> (final_template)
+ciod: Unexpected eof at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=6
+rror threshold, consider replacing the card (ground truth)
+Error threshold, consider replacing the <*> (final_template)
+Error threshold, consider replacing the <*>: 1
+---------------------------
+---------------------------
+cluster 17: len=3
+<*> torus processor sram reception error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus processor sram reception error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus processor sram reception error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 23: len=1
+NodeCard VPD is corrupt (ground truth)
+NodeCard <*> is corrupt (final_template)
+NodeCard <*> is corrupt: 1
+---------------------------
+---------------------------
+cluster 25: len=1
+critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> wire (final_template)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> wire: 1
+---------------------------
+---------------------------
+cluster 22: len=2
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> (ground truth)
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> (final_template)
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=2
+miscompare............<*> (ground truth)
+<*>............<*> (final_template)
+<*>............<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+<*> floating point alignment exceptions (ground truth)
+<*> floating point alignment exceptions (final_template)
+<*> floating point alignment exceptions: 1
+---------------------------
+---------------------------
+cluster 21: len=1
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*> (ground truth)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*> (final_template)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>: 1
+---------------------------
+---------------------------
+cluster 24: len=1
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*> (ground truth)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*> (final_template)
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=256
+ciod: Error creating node map from file <*>: No child processes (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 4: len=38
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (ground truth)
+external input interrupt (unit=<*> bit=<*>): torus sender x- retransmission error was corrected (final_template)
+external input interrupt (unit=<*> bit=<*>): torus sender x- retransmission error was corrected: 1
+---------------------------
+---------------------------
+cluster 13: len=8
+job <*> timed out. Block freed. (ground truth)
+job <*> timed out. Block freed. (final_template)
+job <*> timed out. Block freed.: 1
+---------------------------
+---------------------------
+cluster 3: len=33
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (ground truth)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected (final_template)
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected: 1
+---------------------------
+---------------------------
+cluster 0: len=5
+NodeCard temperature sensor chip <*> is not accessible (ground truth)
+NodeCard temperature sensor chip <*> is not accessible (final_template)
+NodeCard temperature sensor chip <*> is not accessible: 1
+---------------------------
+---------------------------
+cluster 5: len=1024
+ciod: Error creating node map from file <*>: Bad file descriptor (ground truth)
+ciod: Error creating node map from file <*>: <*> (final_template)
+ciod: Error creating node map from file <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=1024
+ciod: Missing or invalid fields on line <*> of node map file <*> (ground truth)
+ciod: Missing or invalid fields on line <*> of node map file <*> (final_template)
+ciod: Missing or invalid fields on line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=2
+Target=<*> Message=<*> (ground truth)
+Target=ido://<*>/JTAG/<*> Message=<*> (final_template)
+Target=ido://<*>/JTAG/<*> Message=<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=512
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason <*>: bad message header: expecting type <*>, type=<*>, cpu=<*>, index=<*>, total=<*> (final_template)
+rts: kernel terminated for reason <*>: bad message header: expecting type <*>, type=<*>, cpu=<*>, index=<*>, total=<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=6
+NodeCard is not fully functional (ground truth)
+<*> is not fully functional (final_template)
+<*> is not fully functional: 1
+---------------------------
+---------------------------
+cluster 7: len=17
+LinkCard power module <*> is not accessible (ground truth)
+LinkCard power module <*> is not accessible (final_template)
+LinkCard power module <*> is not accessible: 1
+---------------------------
+---------------------------
+cluster 3: len=6
+MailboxMonitor::serviceMailboxes() lib_ido_error: <*> socket closed (ground truth)
+MailboxMonitor::serviceMailboxes() lib_ido_error: <*> socket closed (final_template)
+MailboxMonitor::serviceMailboxes() lib_ido_error: <*> socket closed: 1
+---------------------------
+---------------------------
+cluster 1: len=26
+NodeCard power module <*> is not accessible (ground truth)
+NodeCard power module <*> is not accessible (final_template)
+NodeCard power module <*> is not accessible: 1
+---------------------------
+---------------------------
+cluster 9: len=14
+LinkCard is not fully functional (ground truth)
+<*> is not fully functional (final_template)
+<*> is not fully functional: 1
+---------------------------
+---------------------------
+cluster 18: len=1
+this link card is not fully functional (ground truth)
+this link <*> is not fully functional (final_template)
+this link <*> is not fully functional: 1
+---------------------------
+---------------------------
+cluster 12: len=1
+NodeCard VPD chip is not accessible (ground truth)
+<*> VPD chip is not accessible (final_template)
+<*> VPD chip is not accessible: 1
+---------------------------
+---------------------------
+cluster 6: len=42
+EndServiceAction is restarting the LinkCards in midplane <*> as part of Service Action <*> (ground truth)
+EndServiceAction is restarting the LinkCards in midplane <*>-<*> as part of Service Action <*> (final_template)
+EndServiceAction is restarting the LinkCards in midplane <*>-<*> as part of Service Action <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=24
+MidplaneSwitchController::sendTrain() port disconnected: <*> (ground truth)
+<*>::<*>() port disconnected: <*> (final_template)
+<*>::<*>() port disconnected: <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=16
+Target=<*> Message=<*> JtagId = <*> (ground truth)
+Target=ido://<*> Message=Invalid JtagId = ffffffff (final_template)
+Target=ido://<*> Message=Invalid JtagId = ffffffff: 1
+---------------------------
+---------------------------
+cluster 16: len=1
+<*> torus non-crc error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus non-crc error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus non-crc error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 14: len=3
+Target=<*> Message=<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 19: len=1
+ciod: In packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*>) (ground truth)
+ciod: In packet from node <*> (<*>-<*>-<*>-<*>), message code <*> is not <*> or <*> (softheader=<*>) (final_template)
+ciod: In packet from node <*> (<*>-<*>-<*>-<*>), message code <*> is not <*> or <*> (softheader=<*>): 1
+---------------------------
+---------------------------
+cluster 17: len=1
+shutdown complete (ground truth)
+<*> complete (final_template)
+<*> complete: 1
+---------------------------
+---------------------------
+cluster 13: len=1
+Node card status: <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. TEMPERATURE MASK IS ACTIVE. No temperature error. Temperature Limit Error Latch is clear. PGOOD is <*>. PGOOD error latch is clear. MPGOOD is <*>. MPGOOD error latch is clear. The <*> volt rail is <*>. The <*> volt rail is <*>. (ground truth)
+Node card status: <*>, <*>, <*>, <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. TEMPERATURE MASK IS <*>. <*>. Temperature Limit Error Latch is <*>. PGOOD is <*>. PGOOD error latch is <*>. MPGOOD is <*>. MPGOOD error latch is <*>. The <*> volt rail is <*>. The <*> volt rail is <*>. (final_template)
+Node card status: <*>, <*>, <*>, <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. TEMPERATURE MASK IS <*>. <*>. Temperature Limit Error Latch is <*>. PGOOD is <*>. PGOOD error latch is <*>. MPGOOD is <*>. MPGOOD error latch is <*>. The <*> volt rail is <*>. The <*> volt rail is <*>.: 1
+---------------------------
+---------------------------
+cluster 6: len=512
+ciod: <*> coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (ground truth)
+ciod: T coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (final_template)
+ciod: T coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=512
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*> (ground truth)
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*> (final_template)
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=1
+<*>, max=<*> (ground truth)
+<*>, max=<*> (final_template)
+<*>, max=<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=1
+parity error.......<*> (ground truth)
+<*> error.......<*> (final_template)
+<*> error.......<*>: 1
+---------------------------
+---------------------------
+cluster 5: len=512
+ciod: Error creating node map from file <*>: Device or resource busy (ground truth)
+ciod: Error creating node map from file <*>: <*> (final_template)
+ciod: Error creating node map from file <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=42
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>, (final_template)
+rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>,: 1
+---------------------------
+---------------------------
+cluster 11: len=1
+New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*> (ground truth)
+New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*> (final_template)
+New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>: 1
+---------------------------
+---------------------------
+cluster 12: len=1
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason <*>: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>, max=<*> (final_template)
+rts: kernel terminated for reason <*>: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>, max=<*>: 1
+---------------------------
+---------------------------
+cluster 7: len=8
+ciod: <*> coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (ground truth)
+ciod: Y coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (final_template)
+ciod: Y coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=1
+Problem reading the ethernet arl entries fro the service card: <*>: while executing I2C Operation caught <*>: Communication error: (<*> is in state = <*>, sequenceNumberIsOk = <*>, ExpectedSequenceNumber = <*>, Reply Sequence Number = <*>, timedOut = <*>, retries = <*>, timeout = <*>, Expected Op Command = <*>, Actual Op Reply = <*>, Expected Sync Command = <*>, Actual Sync Reply = <*>) (ground truth)
+Problem reading the ethernet arl entries for the service card: <*> caught <*>: <*> (final_template)
+Problem reading the ethernet arl entries for the service card: <*> caught <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=8
+ciod: Error creating node map from file <*>: Permission denied (ground truth)
+ciod: Error creating node map from file <*>: <*> (final_template)
+ciod: Error creating node map from file <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=5
+machine state register: <*> (ground truth)
+machine state register: <*> (final_template)
+machine state register: <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=6
+MidplaneSwitchController::parityAlignment() pap failed: <*> status=<*> (ground truth)
+MidplaneSwitchController::parityAlignment() pap failed: <*>, status=<*> (final_template)
+MidplaneSwitchController::parityAlignment() pap failed: <*>, status=<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=13
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason <*>: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>, m (final_template)
+rts: kernel terminated for reason <*>: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>, m: 1
+---------------------------
+---------------------------
+cluster 7: len=3
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*> (final_template)
+rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>: 1
+---------------------------
+---------------------------
+cluster 4: len=767
+ciod: <*> coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (ground truth)
+ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> (final_template)
+ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=520
+ciod: Error loading <*>: invalid or missing program image, Exec format error (ground truth)
+ciod: Error loading <*>: invalid or missing program image, Exec format error (final_template)
+ciod: Error loading <*>: invalid or missing program image, Exec format error: 1
+---------------------------
+---------------------------
+cluster 2: len=1264
+ciod: Error creating node map from file <*>: Permission denied (ground truth)
+ciod: Error creating node map from file <*>: Permission denied (final_template)
+ciod: Error creating node map from file <*>: Permission denied: 1
+---------------------------
+---------------------------
+cluster 5: len=1
+external input interrupt (unit=<*> bit=<*>): uncorrectable torus error (ground truth)
+external input interrupt (unit=<*> bit=<*>): uncorrectable torus error (final_template)
+external input interrupt (unit=<*> bit=<*>): uncorrectable torus error: 1
+---------------------------
+---------------------------
+cluster 1: len=13
+ax=<*> (ground truth)
+ax=<*> (final_template)
+ax=<*>: 1
+---------------------------
+---------------------------
+cluster 6: len=1
+Torus non-recoverable error DCRs follow. (ground truth)
+Torus non-recoverable error <*> follow. (final_template)
+Torus non-recoverable error <*> follow.: 1
+---------------------------
+---------------------------
+cluster 11: len=2
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*> (ground truth)
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*> (final_template)
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=1
+Added <*> subnets and <*> addresses to DB (ground truth)
+Added <*> subnets and <*> addresses to DB (final_template)
+Added <*> subnets and <*> addresses to DB: 1
+---------------------------
+---------------------------
+cluster 6: len=1
+ciodb exited normally with exit code <*> (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=74
+                                                                                                                                                                                                                                                                                                                                                                                                  Node card status: <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is <*>. PGOOD error latch is clear. MPGOOD is <*>. MPGOOD error latch is clear. The <*> volt rail is <*>. The <*> volt rail is <*>. (ground truth)
+Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. <*> temperature error. Temperature Limit Error Latch is <*>. PGOOD is <*>. PGOOD error latch is <*>. MPGOOD is <*>. MPGOOD error latch is <*>. The <*> volt rail is <*>. The <*> volt rail is <*>. (final_template)
+Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. <*> temperature error. Temperature Limit Error Latch is <*>. PGOOD is <*>. PGOOD error latch is <*>. MPGOOD is <*>. MPGOOD error latch is <*>. The <*> volt rail is <*>. The <*> volt rail is <*>.: 1
+---------------------------
+---------------------------
+cluster 8: len=1
+DeclareServiceNetworkCharacteristics has been run but the DB is not empty (ground truth)
+<*> has been run but the <*> is not empty (final_template)
+<*> has been run but the <*> is not empty: 1
+---------------------------
+---------------------------
+cluster 0: len=64
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading <*> -n <*>: <*> (final_template)
+ciod: Error loading <*> -n <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=2
+x=<*> (ground truth)
+x=<*> (final_template)
+x=<*>: 1
+---------------------------
+---------------------------
+cluster 9: len=1
+DeclareServiceNetworkCharacteristics has been run with the force option but the DB is not empty (ground truth)
+<*> has been run with the <*> option but the <*> is not empty (final_template)
+<*> has been run with the <*> option but the <*> is not empty: 1
+---------------------------
+---------------------------
+cluster 7: len=4
+Node card VPD check: missing <*>, VPD ecid <*> in processor card slot <*> (ground truth)
+Node card VPD check: missing <*>, VPD ecid <*> in processor card slot <*> (final_template)
+Node card VPD check: missing <*>, VPD ecid <*> in processor card slot <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=2360
+Found invalid node ecid in processor card slot <*>, ecid <*> (ground truth)
+Found invalid node ecid in processor card slot <*>, ecid <*> (final_template)
+Found invalid node ecid in processor card slot <*>, ecid <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=8
+Controlling BG/L rows [ <*> ] (ground truth)
+Controlling BG/L rows [ <*> <*> ] (final_template)
+Controlling BG/L rows [ <*> <*> ]: 1
+---------------------------
+---------------------------
+cluster 4: len=2
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason <*>: bad message header: <*>, type=<*>, cpu=<*>, index=<*>, total=<*> (final_template)
+rts: kernel terminated for reason <*>: bad message header: <*>, type=<*>, cpu=<*>, index=<*>, total=<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=8
+Lustre mount FAILED : <*> : block_id : location (ground truth)
+Lustre mount FAILED : <*> : block_id : location (final_template)
+Lustre mount FAILED : <*> : block_id : location: 1
+---------------------------
+---------------------------
+cluster 7: len=1
+Bad cable going into LinkCard (<*>) Jtag (<*>) Port (<*>) - <*> bad wires (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 5: len=1
+idoproxy exited normally with exit code <*> (ground truth)
+<*> exited normally with exit code <*> (final_template)
+<*> exited normally with exit code <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=16
+Error: unable to mount filesystem (ground truth)
+Error: unable to mount <*> (final_template)
+Error: unable to mount <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=8
+Bad cable going into LinkCard (<*>) Jtag (<*>) Port (<*>) - <*> bad wires (ground truth)
+Bad cable going into LinkCard <*> Jtag (<*>) Port (<*>) - <*> bad wires (final_template)
+Bad cable going into LinkCard <*> Jtag (<*>) Port (<*>) - <*> bad wires: 1
+---------------------------
+---------------------------
+cluster 8: len=1
+Missing reverse cable: Cable <*> is present BUT the reverse cable <*> is missing (ground truth)
+Missing reverse cable: Cable <*> --> <*> is present BUT the reverse cable <*> --> <*> is missing (final_template)
+Missing reverse cable: Cable <*> --> <*> is present BUT the reverse cable <*> --> <*> is missing: 1
+---------------------------
+---------------------------
+cluster 0: len=125
+Problem communicating with service card, ido chip: <*>. java.io.IOException: Could not find EthernetSwitch on port:address <*> (ground truth)
+Problem communicating with service card, ido chip: <*>. java.io.IOException: Could not find <*> on <*>:address <*> (final_template)
+Problem communicating with service card, ido chip: <*>. java.io.IOException: Could not find <*> on <*>:address <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=1
+Target=<*> Message=<*> (ground truth)
+Target=ido://<*>/JTAG/<*> Message=<*> (final_template)
+Target=ido://<*>/JTAG/<*> Message=<*>: 1
+---------------------------
+---------------------------
+cluster 4: len=2780
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*> (ground truth)
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*> (final_template)
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*>: 1
+---------------------------
+---------------------------
+cluster 6: len=1
+ciodb exited normally with exit code <*> (ground truth)
+<*> exited normally with exit code <*> (final_template)
+<*> exited normally with exit code <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=8
+miscompare............<*> (ground truth)
+miscompare............<*> (final_template)
+miscompare............<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=6
+MidplaneSwitchController::receiveTrain() iap failed: <*>, status=<*> (ground truth)
+<*>::receiveTrain() iap failed: <*>, status=<*> (final_template)
+<*>::receiveTrain() iap failed: <*>, status=<*>: 1
+---------------------------
+---------------------------
+cluster 5: len=9
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/<*> link training failed: wanted: <*> got: <*> (final_template)
+rts tree/<*> link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=25
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=27
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=9
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+<*> link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X- Y+ Y- Z+ Z- (final_template)
+<*> link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X- Y+ Y- Z+ Z-: 1
+---------------------------
+---------------------------
+cluster 0: len=446
+Microloader Assertion (ground truth)
+<*> Assertion (final_template)
+<*> Assertion: 1
+---------------------------
+---------------------------
+cluster 6: len=15
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=6
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=7
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=9
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ <*> X- Y+ <*> Y- Z+ Z- got: <*> X+ Y+ Y- Z+ Z- (final_template)
+rts tree/torus link training failed: wanted: <*> X+ <*> X- Y+ <*> Y- Z+ Z- got: <*> X+ Y+ Y- Z+ Z-: 1
+---------------------------
+---------------------------
+cluster 9: len=6
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X- Y+ Y- Z+ Z- (final_template)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X- Y+ Y- Z+ Z-: 1
+---------------------------
+---------------------------
+cluster 19: len=8
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=6
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y+ Y- Z+ Z- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y+ Y- Z+ Z-: 1
+---------------------------
+---------------------------
+cluster 4: len=9
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=5
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> C <*> <*> <*> <*> <*> <*> got: <*> C <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> C <*> <*> <*> <*> <*> <*> got: <*> C <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 17: len=12
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=3
+Target=<*> Message=<*> (ground truth)
+Target=ido://<*> Message=<*> (final_template)
+Target=ido://<*> Message=<*>: 1
+---------------------------
+---------------------------
+cluster 20: len=5
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=13
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 25: len=128
+ciod: Error loading <*>: invalid or missing program image, Permission denied (ground truth)
+ciod: Error loading <*>: <*> (final_template)
+ciod: Error loading <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 18: len=14
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=14
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=16
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>-: 1
+---------------------------
+---------------------------
+cluster 26: len=481
+ciod: generated <*> core files for program <*> (ground truth)
+ciod: generated <*> core files for program <*> (final_template)
+ciod: generated <*> core files for program <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=2
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*> (ground truth)
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*> (final_template)
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*>: 1
+---------------------------
+---------------------------
+cluster 35: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> X- Y- Z+ Z- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> X- Y- Z+ Z-: 1
+---------------------------
+---------------------------
+cluster 24: len=9
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=1
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*> (ground truth)
+<*> hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*> (final_template)
+<*> hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*>: 1
+---------------------------
+---------------------------
+cluster 34: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y- Z+ Z- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y- Z+ Z-: 1
+---------------------------
+---------------------------
+cluster 33: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 37: len=4
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> (final_template)
+wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>+ <*>- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>+ <*>-: 1
+---------------------------
+---------------------------
+cluster 39: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 41: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X- Y+ Y- Z+ (final_template)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X- Y+ Y- Z+: 1
+---------------------------
+---------------------------
+cluster 36: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 40: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y- Z- (final_template)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y- Z-: 1
+---------------------------
+---------------------------
+cluster 28: len=3
+Problem reading the ethernet arl entries fro the service card: <*>: while executing I2C Operation caught <*>: Communication error: (<*> is in state = <*>, sequenceNumberIsOk = <*>, ExpectedSequenceNumber = <*>, Reply Sequence Number = <*>, timedOut = <*>, retries = <*>, timeout = <*>, Expected Op Command = <*>, Actual Op Reply = <*>, Expected Sync Command = <*>, Actual Sync Reply = <*>) (ground truth)
+Problem reading the ethernet arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [<*>@/<*> with image version <*> and card type <*>] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = <*>, ExpectedSequenceNumber = <*>, Reply Sequence Number = -<*>, timedOut = <*>, retries = <*>, timeout = <*>, Expected Op Command = <*>, Actual Op Reply = -<*>, Expected Sync Command = <*>, Actual Sync Reply = -<*>) (final_template)
+Problem reading the ethernet arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [<*>@/<*> with image version <*> and card type <*>] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = <*>, ExpectedSequenceNumber = <*>, Reply Sequence Number = -<*>, timedOut = <*>, retries = <*>, timeout = <*>, Expected Op Command = <*>, Actual Op Reply = -<*>, Expected Sync Command = <*>, Actual Sync Reply = -<*>): 1
+---------------------------
+---------------------------
+cluster 44: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 48: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X+ X- Y- Z- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X+ X- Y- Z-: 1
+---------------------------
+---------------------------
+cluster 38: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*>- <*>+ <*>- <*>+ <*>- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*>- <*>+ <*>- <*>+ <*>-: 1
+---------------------------
+---------------------------
+cluster 49: len=4
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 54: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 43: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>+ <*>- <*>+: 1
+---------------------------
+---------------------------
+cluster 45: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>- <*>+ <*>- <*>+ (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>- <*>+ <*>- <*>+: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 51: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 57: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 52: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 47: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X+ X- Y- Z- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X+ X- Y- Z-: 1
+---------------------------
+---------------------------
+cluster 50: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y+ Y- Z+ (final_template)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y+ Y- Z+: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 63: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 64: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+<*> link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> X- Y- Z- (final_template)
+<*> link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> X- Y- Z-: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 58: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 65: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y+ Y- Z- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y+ Y- Z-: 1
+---------------------------
+---------------------------
+cluster 70: len=3
+ciodb exited abnormally due to signal: <*> (ground truth)
+<*> (final_template)
+<*>: 1
+---------------------------
+---------------------------
+cluster 53: len=2
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*> <*>+ <*>- <*>+ <*>+ (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*> <*>+ <*>- <*>+ <*>+: 1
+---------------------------
+---------------------------
+cluster 60: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> got: <*> (final_template)
+rts tree/torus link training failed: wanted: <*> got: <*>: 1
+---------------------------
+---------------------------
+cluster 62: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 61: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> got: <*> <*> <*> <*> (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> got: <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 59: len=4
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*> <*>+ <*>- <*>+ <*>- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*> <*>+ <*>- <*>+ <*>-: 1
+---------------------------
+---------------------------
+cluster 66: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*>+ <*>- <*>+ <*>- <*>- (final_template)
+rts tree/torus link training failed: wanted: <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*>+ <*>- <*>+ <*>- <*>-: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable error threshold, consider replacing the card (ground truth)
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable error threshold, consider replacing the card (final_template)
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable error threshold, consider replacing the card: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>- <*>+ <*>- (final_template)
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>- <*>+ <*>-: 1
+---------------------------
+---------------------------
+cluster 2: len=981
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed (ground truth)
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed (final_template)
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed: 20
+---------------------------
+---------------------------
+cluster 3: len=21
+rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (ground truth)
+rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (final_template)
+rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=3019
+rts: kernel terminated for reason <*> (ground truth)
+rts: kernel terminated for reason <*> (final_template)
+rts: kernel terminated for reason <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=3
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y- Z+ Z- (final_template)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y- Z+ Z-: 1
+---------------------------
+---------------------------
+cluster 7: len=3
+kernel panic (ground truth)
+kernel panic (final_template)
+kernel panic: 1
+---------------------------
+---------------------------
+cluster 2: len=51
+rts: bad message header: index <*> greater than total <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (ground truth)
+rts: bad message header: index <*> greater than total <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (final_template)
+rts: bad message header: index <*> greater than total <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>: 1
+---------------------------
+---------------------------
+cluster 5: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ <*> X- <*> Y+ <*> Y- <*> Z+ <*> Z- got: <*> X+ <*> Y+ <*> Y- <*> Z- (final_template)
+rts tree/torus link training failed: wanted: <*> X+ <*> X- <*> Y+ <*> Y- <*> Z+ <*> Z- got: <*> X+ <*> Y+ <*> Y- <*> Z-: 1
+---------------------------
+---------------------------
+cluster 1: len=124
+rts: bad message header: cpu <*> invalid (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (ground truth)
+rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (final_template)
+rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>: 1
+---------------------------
+---------------------------
+cluster 6: len=1
+rts tree/torus link training failed: wanted: <*> got: <*> (ground truth)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ X- Y- Z- (final_template)
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ X- Y- Z-: 1
+---------------------------
+---------------------------
+cluster 0: len=16
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase <*> --dbproperties <*> --iolog <*> --reconnect-blocks <*> --shutdown-timeout <*> (ground truth)
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog <*> --reconnect-blocks all --shutdown-timeout <*> (final_template)
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog <*> --reconnect-blocks all --shutdown-timeout <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=1
+ciodb exited abnormally due to signal: <*> (ground truth)
+<*> exited abnormally due to signal: <*> (final_template)
+<*> exited abnormally due to signal: <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=1
+external input interrupt (unit=<*> bit=<*>): 1M tree receiver <*> in resynch mode (ground truth)
+external input interrupt (unit=<*> bit=<*>): <*> (final_template)
+external input interrupt (unit=<*> bit=<*>): <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=2188
+iar <*> dear <*> (ground truth)
+iar <*> dear <*> (final_template)
+iar <*> dear <*>: 8
+---------------------------
+---------------------------
+cluster 0: len=2210
+NFS Mount failed on <*>, slept <*> seconds, retrying (<*>) (ground truth)
+NFS Mount failed on <*>, slept <*> seconds, retrying (<*>) (final_template)
+NFS Mount failed on <*>, slept <*> seconds, retrying (<*>): 44
+---------------------------
+---------------------------
+cluster 0: len=2335
+Lustre mount FAILED : <*> : point <*> (ground truth)
+Lustre mount FAILED : <*> : point <*> (final_template)
+Lustre mount FAILED : <*> : point <*>: 21
+---------------------------
+---------------------------
+cluster 0: len=5
+Error sending packet on tree network, packet at address <*> is not aligned (ground truth)
+Error sending packet on <*> network, packet at address <*> is not aligned (final_template)
+Error sending packet on <*> network, packet at address <*> is not aligned: 1
+---------------------------
+---------------------------
+cluster 2: len=2
+EndServiceAction <*> performed upon <*> by <*> (ground truth)
+EndServiceAction <*> was performed upon <*> by <*> (final_template)
+EndServiceAction <*> was performed upon <*> by <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=1
+data cache flush parity error detected. attempting to correct (ground truth)
+<*> parity error detected. attempting to <*> (final_template)
+<*> parity error detected. attempting to <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=3
+<*> torus receiver sram ecc error(s) (dcr <*>) detected and corrected (ground truth)
+<*> torus receiver sram ecc error(s) (dcr <*>) detected and corrected (final_template)
+<*> torus receiver sram ecc error(s) (dcr <*>) detected and corrected: 1
+---------------------------
+---------------------------
+cluster 1: len=3293
+data cache search parity error detected. attempting to correct (ground truth)
+<*> <*> error detected. attempting to correct (final_template)
+<*> <*> error detected. attempting to correct: 1
+---------------------------
+---------------------------
+cluster 4: len=1
+external input interrupt (unit=<*> bit=<*>): tree header with no target waiting (ground truth)
+external input interrupt (unit=<*> bit=<*>): <*> (final_template)
+external input interrupt (unit=<*> bit=<*>): <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=1
+EndServiceAction <*> performed upon <*> by <*> (ground truth)
+EndServiceAction <*> was performed upon <*> by <*> (final_template)
+EndServiceAction <*> was performed upon <*> by <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=1
+power module status fault detected on node card. status registers are: <*> (ground truth)
+power module status fault detected on <*> card. status registers are: <*> (final_template)
+power module status fault detected on <*> card. status registers are: <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=3
+Node card status: no ALERTs are active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS <*>. PGOOD ERROR LATCH IS <*>. MPGOOD IS <*>. MPGOOD ERROR LATCH IS <*>. The <*> volt rail is <*>. THE <*> VOLT RAIL IS <*>. (ground truth)
+Node card status: <*>. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. Temperature Error: <*>. Temperature Limit Error Latch is <*>. PGOOD IS <*>. PGOOD ERROR LATCH IS <*>. MPGOOD IS <*>. MPGOOD ERROR LATCH IS <*>. The <*> volt rail is <*>. THE <*> VOLT RAIL IS <*>. (final_template)
+Node card status: <*>. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. Temperature Error: <*>. Temperature Limit Error Latch is <*>. PGOOD IS <*>. PGOOD ERROR LATCH IS <*>. MPGOOD IS <*>. MPGOOD ERROR LATCH IS <*>. The <*> volt rail is <*>. THE <*> VOLT RAIL IS <*>.: 1
+---------------------------
+---------------------------
+cluster 3: len=1
+L3 major internal error (ground truth)
+L3 <*> internal error (final_template)
+L3 <*> internal error: 1
+---------------------------
+---------------------------
+cluster 0: len=1024
+Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (ground truth)
+Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*> (final_template)
+Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=111
+ddr: activating redundant bit steering for next allocation: rank=<*> symbol=<*> (ground truth)
+ddr: activating redundant bit steering for next allocation: rank=<*> symbol=<*> (final_template)
+ddr: activating redundant bit steering for next allocation: rank=<*> symbol=<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=996
+L1 DCACHE summary averages: #ofDirtyLines: <*> out of <*> #ofDirtyDblWord: <*> out of <*> (ground truth)
+L1 DCACHE summary averages: #ofDirtyLines: <*> out of <*> #ofDirtyDblWord: <*> out of <*> (final_template)
+L1 DCACHE summary averages: #ofDirtyLines: <*> out of <*> #ofDirtyDblWord: <*> out of <*>: 12
+---------------------------
+---------------------------
+cluster 0: len=6
+No power module <*> found found on link card (ground truth)
+No power module <*> found on <*> (final_template)
+No power module <*> found on <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=28
+critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire, suppressing further interrupts of same type (final_template)
+critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 15: len=66
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 1: len=972
+Temperature Over Limit on link card (ground truth)
+Temperature Over Limit on <*> card (final_template)
+Temperature Over Limit on <*> card: 1
+---------------------------
+---------------------------
+cluster 3: len=46
+critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> z+ wire, suppressing further interrupts of same type (final_template)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> z+ wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 4: len=53
+critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire, suppressing further interrupts of same type (final_template)
+critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 5: len=12
+critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> <*> wire, suppressing further interrupts of same type (final_template)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> <*> wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 2: len=349
+Link PGOOD error latched on link card (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 18: len=571
+ciod: Received signal <*>, code=<*>, errno=<*>, address=<*> (ground truth)
+ciod: Received signal <*>, code=<*>, errno=<*>, address=<*> (final_template)
+ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>: 1
+---------------------------
+---------------------------
+cluster 6: len=24
+critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> y+ wire, suppressing further interrupts of same type (final_template)
+critical input interrupt (unit=<*> bit=<*>): warning for <*> y+ wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 10: len=23
+<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds (ground truth)
+<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds (final_template)
+<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 11: len=23
+total of <*> ddr error(s) detected and corrected over <*> seconds (ground truth)
+total of <*> ddr error(s) detected and corrected over <*> seconds (final_template)
+total of <*> ddr error(s) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 7: len=10
+critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire, suppressing further interrupts of same type (ground truth)
+<*> input interrupt (unit=<*> bit=<*>): <*>, suppressing further interrupts of same type (final_template)
+<*> input interrupt (unit=<*> bit=<*>): <*>, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 9: len=67
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 12: len=99
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 17: len=9
+invalid operation exception summary......<*> (ground truth)
+invalid operation exception (<*>)...<*> (final_template)
+invalid operation exception (<*>)...<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=20
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds (ground truth)
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds (final_template)
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 19: len=64
+Power Good signal deactivated: <*>. A service action may be required. (ground truth)
+Power Good signal deactivated: <*>. A service action may be required. (final_template)
+Power Good signal deactivated: <*>. A service action may be required.: 1
+---------------------------
+---------------------------
+cluster 16: len=72
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus receiver z- input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus receiver z- input pipe error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 22: len=112
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus receiver x- input pipe error(s) (dcr 0x02ed) detected and corrected over <*> seconds (final_template)
+<*> torus receiver x- input pipe error(s) (dcr 0x02ed) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 30: len=3
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase <*> --dbproperties <*> --iolog <*> --reconnect-blocks <*> --shutdown-timeout <*> (ground truth)
+<*> has been started: <*> (final_template)
+<*> has been started: <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=64
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus receiver y- input pipe error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus receiver y- input pipe error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+idoproxy communication failure: socket closed (ground truth)
+idoproxy communication failure: <*> (final_template)
+idoproxy communication failure: <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=9
+critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire, suppressing further interrupts of same type (ground truth)
+critical input interrupt (unit=<*> bit=<*>): warning for torus x+ wire, suppressing further interrupts of same type (final_template)
+critical input interrupt (unit=<*> bit=<*>): warning for torus x+ wire, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 31: len=1
+<*> L3 <*> error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> <*> error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> <*> error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 37: len=3
+enable invalid operation exceptions......<*> (ground truth)
+enable <*> exceptions......<*> (final_template)
+enable <*> exceptions......<*>: 1
+---------------------------
+---------------------------
+cluster 36: len=3
+invalid operation exception (int cnvt)...<*> (ground truth)
+invalid operation exception (int <*>)...<*> (final_template)
+invalid operation exception (int <*>)...<*>: 1
+---------------------------
+---------------------------
+cluster 29: len=3
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*> --db2profile <*> --dbproperties <*> (ground truth)
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*> --db2profile <*> --dbproperties <*> (final_template)
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*> --db2profile <*> --dbproperties <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=3
+msr=<*> dear=<*> esr=<*> fpscr=<*> (ground truth)
+msr=<*> dear=<*> esr=<*> fpscr=<*> (final_template)
+msr=<*> dear=<*> esr=<*> fpscr=<*>: 1
+---------------------------
+---------------------------
+cluster 28: len=68
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds: 2
+---------------------------
+---------------------------
+cluster 39: len=2
+EndServiceAction is restarting the <*> cards in Midplane <*> as part of Service Action <*> (ground truth)
+EndServiceAction (final_template)
+EndServiceAction: 1
+---------------------------
+---------------------------
+cluster 35: len=3
+reserved.................................<*> (ground truth)
+reserved.................................<*> (final_template)
+reserved.................................<*>: 1
+---------------------------
+---------------------------
+cluster 27: len=64
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus sender y- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus sender y- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds: 2
+---------------------------
+---------------------------
+cluster 40: len=2
+Target=<*> Message=<*> JtagId = <*> (ground truth)
+Target=ido://<*> Message=<*> (final_template)
+Target=ido://<*> Message=<*>: 1
+---------------------------
+---------------------------
+cluster 34: len=3
+Floating Point Status and Control Register: <*> (ground truth)
+Floating Point Status and Control Register: <*> (final_template)
+Floating Point Status and Control Register: <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=96
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus sender y+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus sender y+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds: 2
+---------------------------
+---------------------------
+cluster 25: len=64
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus sender x+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus sender x+ retransmission error(s) (dcr 0x02f4) detected and corrected over <*> seconds: 1
+<*> torus sender x+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 38: len=2
+PrepareForService is being done on this Midplane (<*>, <*>, <*>) by <*> (ground truth)
+PrepareForService is being done on this Midplane (mLctn(<*>), mCardSernum(<*>), iWhichCardsToPwrOff(<*>)) by <*> (final_template)
+PrepareForService is being done on this Midplane (mLctn(<*>), mCardSernum(<*>), iWhichCardsToPwrOff(<*>)) by <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=64
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus sender z+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected over <*> seconds: 1
+<*> torus sender z+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 23: len=112
+<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus sender x- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus sender x- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds: 3
+---------------------------
+---------------------------
+cluster 24: len=507
+ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed (ground truth)
+ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed (final_template)
+ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed: 11
+---------------------------
+---------------------------
+cluster 2: len=73
+monitor caught <*>: while executing <*> caught <*>: Broken pipe and is stopping (ground truth)
+monitor caught <*>: while executing <*> Operation caught <*>: <*> and is stopping (final_template)
+monitor caught <*>: while executing <*> Operation caught <*>: <*> and is stopping: 1
+---------------------------
+---------------------------
+cluster 5: len=4
+<*> with VPD of <*>: IBM Part Number: <*>, Vendor: <*>, Vendor Serial Number: <*>, Assembly Revision: <*>, Code Revision: <*>, Manufacture Date: <*>, Manufacture Location: <*> is usable but not a supported version (ground truth)
+com.ibm.bgldevices.BulkPowerModule with VPD of <*>: IBM Part Number: <*>, Vendor: <*>, Vendor Serial Number: <*>, Assembly Revision: <*> (final_template)
+com.ibm.bgldevices.BulkPowerModule with VPD of <*>: IBM Part Number: <*>, Vendor: <*>, Vendor Serial Number: <*>, Assembly Revision: <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=1137
+MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>) (ground truth)
+MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>) (final_template)
+MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>): 1
+---------------------------
+---------------------------
+cluster 1: len=117
+monitor caught <*>: while executing <*> caught <*>: Broken pipe and is stopping (ground truth)
+monitor caught <*>: while executing <*> caught <*>: <*> and is stopping (final_template)
+monitor caught <*>: while executing <*> caught <*>: <*> and is stopping: 1
+---------------------------
+---------------------------
+cluster 6: len=1
+MACHINE CHECK PLB write IRQ (mc=<*> iar <*> lr <*>) (ground truth)
+MACHINE CHECK PLB write IRQ (mc=<*> iar <*> lr <*>) (final_template)
+MACHINE CHECK PLB write IRQ (mc=<*> iar <*> lr <*>): 1
+---------------------------
+---------------------------
+cluster 3: len=1024
+ciod: Error loading <*>: invalid or missing program image, No such file or directory (ground truth)
+ciod: Error loading -mode <*>: <*> (final_template)
+ciod: Error loading -mode <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=316
+ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer (ground truth)
+ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer (final_template)
+ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer: 7
+---------------------------
+---------------------------
+cluster 1: len=4
+invalid operation exception summary......<*> (ground truth)
+invalid operation exception summary......<*> (final_template)
+invalid operation exception summary......<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=2
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase <*> --dbproperties <*> --iolog <*> --reconnect-blocks <*> --shutdown-timeout <*> (ground truth)
+<*> has been started: <*> (final_template)
+<*> has been started: <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=2
+machine check interrupt (bit=<*>): L2 dcache unit read return parity error (ground truth)
+machine check interrupt (bit=<*>): <*> <*> <*> <*> (final_template)
+machine check interrupt (bit=<*>): <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=1
+EndServiceAction is restarting the <*> cards in Midplane <*> as part of Service Action <*> (ground truth)
+EndServiceAction is restarting the <*> in <*> <*>-<*> as part of Service Action <*> (final_template)
+EndServiceAction is restarting the <*> in <*> <*>-<*> as part of Service Action <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=1991
+ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out (ground truth)
+ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out (final_template)
+ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out: 38
+---------------------------
+---------------------------
+cluster 0: len=9
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase <*> --dbproperties <*> --iolog <*> --reconnect-blocks <*> --shutdown-timeout <*> (ground truth)
+<*> has been started: <*> (final_template)
+<*> has been started: <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=1
+<*> torus receiver sram ecc error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> <*> receiver sram ecc error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> <*> receiver sram ecc error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 1: len=24
+ciod: Error creating node map from file <*>: No such file or directory (ground truth)
+ciod: Error creating node map from file <*>: <*> (final_template)
+ciod: Error creating node map from file <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=8
+ciod: Error creating node map from file <*>: Argument list too long (ground truth)
+ciod: Error creating node map from file <*>: <*> (final_template)
+ciod: Error creating node map from file <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=2
+MidplaneSwitchController::clearPort() bll_clear_port failed: <*> (ground truth)
+<*>::clearPort() <*>: <*> (final_template)
+<*>::clearPort() <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=1892
+<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr. (ground truth)
+<*> spent in the rbs signal handler during <*> calls. <*> was the maximum time for a single instance of a correctable ddr. (final_template)
+<*> spent in the rbs signal handler during <*> calls. <*> was the maximum time for a single instance of a correctable ddr.: 1
+---------------------------
+---------------------------
+cluster 4: len=1885
+<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt. (ground truth)
+<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt. (final_template)
+<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.: 3
+---------------------------
+---------------------------
+cluster 2: len=4
+max time in a cr RAS KERNEL INFO <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt. (ground truth)
+max time in a cr RAS KERNEL INFO <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt. (final_template)
+max time in a cr RAS KERNEL INFO <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.: 1
+---------------------------
+---------------------------
+cluster 1: len=4
+instance of a correctable ddr. RAS KERNEL INFO <*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr. (ground truth)
+instance of a correctable <*>. <*> <*> spent in the <*> signal handler during <*> calls. <*> was the maximum time for a single instance of a correctable <*>. (final_template)
+instance of a correctable <*>. <*> <*> spent in the <*> signal handler during <*> calls. <*> was the maximum time for a single instance of a correctable <*>.: 1
+---------------------------
+---------------------------
+cluster 3: len=3
+external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold, suppressing further interrupts of same type (ground truth)
+external input interrupt (unit=<*> bit=<*>): number of corrected SRjson errors has exceeded threshold, suppressing further interrupts of same type (final_template)
+external input interrupt (unit=<*> bit=<*>): number of corrected SRjson errors has exceeded threshold, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 0: len=2447
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (ground truth)
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (final_template)
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 6
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 2
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*>: 9
+Kernel detected <*> integer alignment exceptions (<*>, dear <*>) iar <*>, dear <*> (<*>, dear <*>) iar <*>, dear <*> (<*>, dear <*>) iar <*>, dear <*> (<*>, dear <*>) iar <*>, dear <*>: 1
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 2
+Kernel detected <*> integer alignment exceptions (<*>), dear <*> (<*>) iar <*>, dear <*>: 1
+Kernel detected <number> integer alignment exceptions (<exception_count>) iar <instruction_address>, dear <data_address>: 1
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 1
+dear: 2
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 1
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 1
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 1
+long: 1
+---------------------------
+---------------------------
+cluster 4: len=1
+<*> torus processor sram injection error(s) (dcr <*>) detected and corrected over <*> seconds (ground truth)
+<*> torus processor sram injection error(s) (dcr <*>) detected and corrected over <*> seconds (final_template)
+<*> torus processor sram injection error(s) (dcr <*>) detected and corrected over <*> seconds: 1
+---------------------------
+---------------------------
+cluster 0: len=54
+external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold, suppressing further interrupts of same type (ground truth)
+external input interrupt (unit=<*> bit=<*>): number of corrected SRjsonAM errors has exceeded threshold, suppressing further interrupts of same type (final_template)
+external input interrupt (unit=<*> bit=<*>): number of corrected SRjsonAM errors has exceeded threshold, suppressing further interrupts of same type: 1
+---------------------------
+---------------------------
+cluster 2: len=38
+ciod: for node <*>, incomplete data written to core file core.<*> (ground truth)
+ciod: for node <*>, incomplete data written to core file core.<*> (final_template)
+ciod: for node <*>, incomplete data written to core file core.<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=7
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase <*> --dbproperties <*> --iolog <*> --reconnect-blocks <*> --shutdown-timeout <*> (ground truth)
+<*> has been started: <*> (final_template)
+<*> has been started: <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=2
+dear <*> (<*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (ground truth)
+dear <*> (<*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (final_template)
+dear <*> (<*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>: 1
+---------------------------
+---------cache_pairs---------
+<*> cache <*> corrected
+<*> performing <*> on <*> bit <*>
+generating core.<*>
+<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>
+<*> L3 EDRAM error(s) (dcr <*>) detected and corrected
+CE sym <*>, at <*>, mask <*>
+total of <*> ddr error(s) detected and corrected
+ciod: Error loading <*>: invalid or missing program image, No such file or directory
+<*> double-hummer alignment exceptions
+ddr: activating redundant bit steering: rank=<*> symbol=<*>
+ddr: <*>, consider replacing the <*>
+ciod: LOGIN chdir(<*>) failed: No such file or directory
+data <*> interrupt
+instruction address: <*>
+machine state register: <*>
+wait state enable.................<*>
+critical input interrupt <*>...<*>
+external input interrupt enable...<*>
+problem state (<*>=sup,<*>=usr).......<*>
+floating point instr. enabled.....<*>
+machine check enable..............<*>
+floating pt ex mode <*> enable......<*>
+debug wait <*>................<*>
+debug interrupt enable............<*>
+instruction address space.........<*>
+data address space................<*>
+core configuration register: <*>
+disable store gathering..................<*>
+disable <*> instruction broadcast........<*>
+disable trace broadcast..................<*>
+guaranteed instruction cache block touch.<*>
+guaranteed data cache block touch........<*>
+force load/store alignment...............<*>
+icache prefetch depth....................<*>
+general purpose registers: <*>
+special purpose registers:
+rts panic! - stopping execution
+lr:<*> cr:<*> xer:<*> ctr:<*>
+rts internal error
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
+<*> has been started: $Name: <*> $ Input parameters: <*> <*> <*>
+<*> has been restarted.
+<*> <*> directory error(s) (dcr <*>) detected and corrected
+instruction <*> error.............<*>
+data read <*> error...............<*>
+data write <*> error..............<*>
+tlb error.........................<*>
+i-cache <*> error..............<*>
+<*> search parity error.......<*>
+<*>} flush parity error........<*>
+<*> machine check...........<*>
+<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected
+<*> torus receiver x- input pipe error(s) (dcr <*>) detected and corrected
+<*> torus receiver z- input pipe error(s) (dcr <*>) detected and corrected
+general purpose registers:
+ciod: Message code <*> is not <*> or <*>
+<*>: <*>: Detected the debugger died.
+ciod: for node <*>, read continuation request but ioState is <*>
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>
+machine check status register: <*>
+summary...........................<*>
+<*> flush parity error........<*>
+ciod: LOGIN chdir(<*>) failed: <*>
+Node <*> is not fully functional
+Can not get assembly information for <*>
+Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>
+<*> <*>
+machine check interrupt (bit=<*>): <*> major internal error
+L3 global control register: <*>
+start <*>..........................<*>
+disable speculative access...............<*>
+close <*> pages as soon as possible....<*>
+size of scratchpad portion of L3.........<*> (<*>)
+disable all access to cache directory....<*>
+write buffer commit threshold............<*>
+size of DDR we are caching...............<*> (<*>)
+prefetch depth for core <*>................<*>
+max number of outstanding prefetches.....<*>
+turn on hidden refreshes.................<*>
+disable write lines <*>..................<*>
+<*> ecc control register: <*>
+disable flagging of <*> UE's as <*> internal error.<*>
+L3 ecc status register: <*>
+correctable error detected in directory <*>......<*>
+uncorrectable error detected in directory <*>
+correctable error detected in EDRAM bank <*>.....<*>
+uncorrectable error detected in EDRAM bank <*>...<*>
+parity error in bank <*>.........................<*>
+uncorrectable error detected in external <*>
+parity error in read queue <*>...................<*>
+number of correctable errors detected in L3 <*>...<*>
+interrupt threshold...<*>
+number of lines with <*> errors written to <*>...<*>
+DDR machine check register: <*> <*>
+<*> summary...........................<*>
+command manager unit summary.....................<*>
+memory manager <*> error...............<*>
+memory manager <*>.......................<*>
+<*> address parity error..............<*>
+<*>: <*>.....................<*>
+memory manager store buffer parity...............<*>
+memory manager <*> buffer parity.................<*>
+memory manager refresh counter timeout...........<*>
+<*> refresh contention................<*>
+state machine....................................<*>
+<*> address parity..<*>
+regctl scancom interface.........................
+capture valid.........<*>
+symbol................<*>
+mask..................<*>
+correctable error.....<*>
+<*>............<*>
+chip select...........<*>
+PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>
+EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*>
+EndServiceAction <*> performed upon <*> by <*>
+machine check interrupt (bit=<*>): <*> <*>
+<*> torus sender <*>- retransmission error(s) (dcr <*>) detected and corrected
+<*> <*> sender <*> retransmission error(s) (dcr <*>) detected and corrected
+<*> correctable errors exceeds threshold (iar <*> lr <*>)
+Starting <*>
+Controlling BG/L rows [ <*> ]
+Running as <*>
+exception syndrome register: <*>
+program interrupt: <*>......<*>
+program interrupt: <*>...<*>
+data store interrupt caused by <*>.........<*>
+program interrupt: <*>..<*>
+program interrupt: <*> cr update.............<*>
+program interrupt: fp <*> field .............<*>
+external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected
+external input interrupt (unit=<*> bit=<*>): torus sender z- retransmission error was corrected
+external input interrupt (unit=<*> bit=<*>): torus sender x- retransmission error was corrected
+BglIdoChip table has <*> IDOs with the same IP address (<*>)
+ciod: Unexpected eof at line <*> of node map file <*>
+Error threshold, consider replacing the <*>
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable
+<*>, consider replacing the <*>
+ciod: Error loading <*>: program image too big, <*> > <*>
+job <*> timed out. Block freed.
+program interrupt
+ciod: X coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+<*> floating point alignment exceptions
+<*> torus processor sram reception error(s) (dcr <*>) detected and corrected
+external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold
+suppressing further interrupts of <*>
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*>
+NodeCard <*> is corrupt
+critical input interrupt (unit=<*> bit=<*>): warning for <*> wire
+NodeCard temperature sensor chip <*> is not accessible
+NodeCard power module <*> is not accessible
+Target=ido://<*> Message=Invalid JtagId = ffffffff
+MailboxMonitor::serviceMailboxes() lib_ido_error: <*> socket closed
+<*>::<*>() port disconnected: <*>
+ciod: Error creating node map from file <*>: <*>
+EndServiceAction is restarting the LinkCards in midplane <*>-<*> as part of Service Action <*>
+LinkCard power module <*> is not accessible
+<*> is not fully functional
+rts: kernel terminated for reason <*>: bad message header: expecting type <*>, type=<*>, cpu=<*>, index=<*>, total=<*>
+ciod: Missing or invalid fields on line <*> of node map file <*>
+<*> VPD chip is not accessible
+Node card status: <*>, <*>, <*>, <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. TEMPERATURE MASK IS <*>. <*>. Temperature Limit Error Latch is <*>. PGOOD is <*>. PGOOD error latch is <*>. MPGOOD is <*>. MPGOOD error latch is <*>. The <*> volt rail is <*>. The <*> volt rail is <*>.
+Target=ido://<*>/JTAG/<*> Message=<*>
+<*> torus non-crc error(s) (dcr <*>) detected and corrected
+<*> complete
+this link <*> is not fully functional
+ciod: In packet from node <*> (<*>-<*>-<*>-<*>), message code <*> is not <*> or <*> (softheader=<*>)
+rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>
+rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>,
+MidplaneSwitchController::parityAlignment() pap failed: <*>, status=<*>
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>
+ciod: T coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+ciod: Y coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+Problem reading the ethernet arl entries for the service card: <*> caught <*>: <*>
+<*> error.......<*>
+New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>
+rts: kernel terminated for reason <*>: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>, max=<*>
+<*>, max=<*>
+rts: kernel terminated for reason <*>: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>, m
+ax=<*>
+ciod: Error creating node map from file <*>: Permission denied
+ciod: Error loading <*>: invalid or missing program image, Exec format error
+ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+external input interrupt (unit=<*> bit=<*>): uncorrectable torus error
+Torus non-recoverable error <*> follow.
+rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<*>, cpu=<*>, index=<*>, total=<*>
+ciod: Error loading <*> -n <*>: <*>
+Controlling BG/L rows [ <*> <*> ]
+Found invalid node ecid in processor card slot <*>, ecid <*>
+Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. <*> temperature error. Temperature Limit Error Latch is <*>. PGOOD is <*>. PGOOD error latch is <*>. MPGOOD is <*>. MPGOOD error latch is <*>. The <*> volt rail is <*>. The <*> volt rail is <*>.
+rts: kernel terminated for reason <*>: bad message header: <*>, type=<*>, cpu=<*>, index=<*>, total=<*>
+x=<*>
+Node card VPD check: missing <*>, VPD ecid <*> in processor card slot <*>
+<*> has been run but the <*> is not empty
+<*> has been run with the <*> option but the <*> is not empty
+Added <*> subnets and <*> addresses to DB
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*>
+Problem communicating with service card, ido chip: <*>. java.io.IOException: Could not find <*> on <*>:address <*>
+Bad cable going into LinkCard <*> Jtag (<*>) Port (<*>) - <*> bad wires
+Error: unable to mount <*>
+Lustre mount FAILED : <*> : block_id : location
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*>
+<*> exited normally with exit code <*>
+Missing reverse cable: Cable <*> --> <*> is present BUT the reverse cable <*> --> <*> is missing
+<*> Assertion
+miscompare............<*>
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed
+<*>::receiveTrain() iap failed: <*>, status=<*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>
+rts tree/<*> link training failed: wanted: <*> got: <*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> got: <*>
+rts tree/torus link training failed: wanted: <*> X+ <*> X- Y+ <*> Y- Z+ Z- got: <*> X+ Y+ Y- Z+ Z-
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X- Y+ Y- Z+ Z-
+<*> link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X- Y+ Y- Z+ Z-
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y+ Y- Z+ Z-
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> C <*> <*> <*> <*> <*> <*> got: <*> C <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>-
+ciod: Error loading <*>: <*>
+ciod: generated <*> core files for program <*>
+Target=ido://<*> Message=<*>
+Problem reading the ethernet arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [<*>@/<*> with image version <*> and card type <*>] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = <*>, ExpectedSequenceNumber = <*>, Reply Sequence Number = -<*>, timedOut = <*>, retries = <*>, timeout = <*>, Expected Op Command = <*>, Actual Op Reply = -<*>, Expected Sync Command = <*>, Actual Sync Reply = -<*>)
+<*> hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>+ <*>-
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y- Z+ Z-
+rts tree/torus link training failed: wanted: <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> X- Y- Z+ Z-
+wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*>- <*>+ <*>- <*>+ <*>-
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X- Y+ Y- Z+
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>+ <*>- <*>+ <*>- <*>+
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>- <*>+ <*>- <*>+
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y- Z-
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X+ X- Y- Z-
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y+ Y- Z+
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*> <*>+ <*>- <*>+ <*>+
+rts tree/torus link training failed: wanted: <*> <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*> <*>+ <*>- <*>+ <*>-
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> got: <*> <*> <*> <*>
+<*> link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> X- Y- Z-
+rts tree/torus link training failed: wanted: <*> <*> <*> X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> X- Y+ Y- Z-
+rts tree/torus link training failed: wanted: <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*>+ <*>- <*>+ <*>- <*>-
+rts tree/torus link training failed: wanted: <*> <*> <*>+ <*>- <*>+ <*>- <*>+ <*>- got: <*> <*> <*>- <*>+ <*>-
+ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable error threshold, consider replacing the card
+rts: kernel terminated for reason <*>
+rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>
+rts: bad message header: index <*> greater than total <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>
+rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ Y- Z+ Z-
+rts tree/torus link training failed: wanted: <*> X+ <*> X- <*> Y+ <*> Y- <*> Z+ <*> Z- got: <*> X+ <*> Y+ <*> Y- <*> Z-
+rts tree/torus link training failed: wanted: <*> X+ X- Y+ Y- Z+ Z- got: <*> X+ X- Y- Z-
+kernel panic
+mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog <*> --reconnect-blocks all --shutdown-timeout <*>
+iar <*> dear <*>
+external input interrupt (unit=<*> bit=<*>): <*>
+<*> exited abnormally due to signal: <*>
+NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)
+Lustre mount FAILED : <*> : point <*>
+Error sending packet on <*> network, packet at address <*> is not aligned
+<*> <*> error detected. attempting to correct
+EndServiceAction <*> was performed upon <*> by <*>
+power module status fault detected on <*> card. status registers are: <*>
+program
+<*> torus receiver sram ecc error(s) (dcr <*>) detected and corrected
+Node card status: <*>. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. Temperature Error: <*>. Temperature Limit Error Latch is <*>. PGOOD IS <*>. PGOOD ERROR LATCH IS <*>. MPGOOD IS <*>. MPGOOD ERROR LATCH IS <*>. The <*> volt rail is <*>. THE <*> VOLT RAIL IS <*>.
+<*> parity error detected. attempting to <*>
+Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>
+ddr: activating redundant bit steering for next allocation: rank=<*> symbol=<*>
+L1 DCACHE summary averages: #ofDirtyLines: <*> out of <*> #ofDirtyDblWord: <*> out of <*>
+L3 <*> internal error
+No power module <*> found on <*>
+Temperature Over Limit on <*> card
+critical input interrupt (unit=<*> bit=<*>): warning for <*> z+ wire, suppressing further interrupts of same type
+critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire, suppressing further interrupts of same type
+critical input interrupt (unit=<*> bit=<*>): warning for <*> <*> wire, suppressing further interrupts of same type
+critical input interrupt (unit=<*> bit=<*>): warning for <*> y+ wire, suppressing further interrupts of same type
+<*> input interrupt (unit=<*> bit=<*>): <*>, suppressing further interrupts of same type
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds
+<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds
+total of <*> ddr error(s) detected and corrected over <*> seconds
+<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds
+critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire, suppressing further interrupts of same type
+critical input interrupt (unit=<*> bit=<*>): warning for torus x+ wire, suppressing further interrupts of same type
+<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> torus receiver z- input pipe error(s) (dcr <*>) detected and corrected over <*> seconds
+invalid operation exception (<*>)...<*>
+ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>
+Power Good signal deactivated: <*>. A service action may be required.
+<*> torus sender z+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> torus sender y+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> torus receiver x- input pipe error(s) (dcr 0x02ed) detected and corrected over <*> seconds
+<*> torus sender x- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed
+<*> torus sender x+ retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> torus receiver y- input pipe error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> torus sender y- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*> --db2profile <*> --dbproperties <*>
+<*> has been started: <*>
+<*> <*> error(s) (dcr <*>) detected and corrected over <*> seconds
+idoproxy communication failure: <*>
+msr=<*> dear=<*> esr=<*> fpscr=<*>
+Floating Point Status and Control Register: <*>
+reserved.................................<*>
+invalid operation exception (int <*>)...<*>
+enable <*> exceptions......<*>
+PrepareForService is being done on this Midplane (mLctn(<*>), mCardSernum(<*>), iWhichCardsToPwrOff(<*>)) by <*>
+EndServiceAction
+ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer
+monitor caught <*>: while executing <*> caught <*>: <*> and is stopping
+monitor caught <*>: while executing <*> Operation caught <*>: <*> and is stopping
+ciod: Error loading -mode <*>: <*>
+MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>)
+com.ibm.bgldevices.BulkPowerModule with VPD of <*>: IBM Part Number: <*>, Vendor: <*>, Vendor Serial Number: <*>, Assembly Revision: <*>
+MACHINE CHECK PLB write IRQ (mc=<*> iar <*> lr <*>)
+ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out
+invalid operation exception summary......<*>
+EndServiceAction is restarting the <*> in <*> <*>-<*> as part of Service Action <*>
+machine check interrupt (bit=<*>): <*> <*> <*> <*>
+<*> spent in the rbs signal handler during <*> calls. <*> was the maximum time for a single instance of a correctable ddr.
+<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.
+<*>::clearPort() <*>: <*>
+<*> <*> receiver sram ecc error(s) (dcr <*>) detected and corrected over <*> seconds
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*>
+instance of a correctable <*>. <*> <*> spent in the <*> signal handler during <*> calls. <*> was the maximum time for a single instance of a correctable <*>.
+max time in a cr RAS KERNEL INFO <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.
+external input interrupt (unit=<*> bit=<*>): number of corrected SRjson errors has exceeded threshold, suppressing further interrupts of same type
+external input interrupt (unit=<*> bit=<*>): number of corrected SRjsonAM errors has exceeded threshold, suppressing further interrupts of same type
+ciod: for node <*>, incomplete data written to core file core.<*>
+dear <*> (<*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>
+<*> torus processor sram injection error(s) (dcr <*>) detected and corrected over <*> seconds

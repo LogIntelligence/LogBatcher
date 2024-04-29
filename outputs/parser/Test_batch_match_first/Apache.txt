@@ -1,0 +1,43 @@
+---------------------------
+cluster 3: len=1
+[client <*>] Directory index forbidden by rule: <*> (ground truth)
+[client <*>] Directory index forbidden by rule: <*> (final_template)
+[client <*>] Directory index forbidden by rule: <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=79
+jk2_init() Found child <*> in scoreboard slot <*> (ground truth)
+jk2_init() Found child <*> in scoreboard slot <*> (final_template)
+jk2_init() Found child <*> in scoreboard slot <*>: 2
+---------------------------
+---------------------------
+cluster 1: len=59
+mod_jk child workerEnv in error state <*> (ground truth)
+mod_jk child workerEnv in error state <*> (final_template)
+mod_jk child workerEnv in error state <*>: 2
+---------------------------
+---------------------------
+cluster 0: len=61
+workerEnv.init() ok <*> (ground truth)
+workerEnv.init() ok <*> (final_template)
+workerEnv.init() ok <*>: 2
+---------------------------
+---------------------------
+cluster 0: len=12
+jk2_init() Can't find child <*> in scoreboard (ground truth)
+jk2_init() Can't find child <*> in scoreboard (final_template)
+jk2_init() Can't find child <*> in scoreboard: 1
+---------------------------
+---------------------------
+cluster 1: len=12
+mod_jk child init <*> <*> (ground truth)
+mod_jk child init <*> <*> (final_template)
+mod_jk child init <*> <*>: 1
+---------------------------
+---------cache_pairs---------
+workerEnv.init() ok <*>
+mod_jk child workerEnv in error state <*>
+jk2_init() Found child <*> in scoreboard slot <*>
+[client <*>] Directory index forbidden by rule: <*>
+jk2_init() Can't find child <*> in scoreboard
+mod_jk child init <*> <*>

@@ -1,0 +1,262 @@
+---------------------------
+cluster 0: len=22
+Got assigned task <*> (ground truth)
+Got assigned task <*> (final_template)
+Got assigned task <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=2
+Changing view acls to: <*> (ground truth)
+Changing view acls to: <*>,<*> (final_template)
+Changing view acls to: <*>,<*>: 1
+---------------------------
+---------------------------
+cluster 15: len=2
+Changing modify acls to: <*> (ground truth)
+Changing modify acls to: <*>,<*> (final_template)
+Changing modify acls to: <*>,<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=22
+Running task <*> in stage <*> (TID <*>) (ground truth)
+Running task <*> in stage <*> (TID <*>) (final_template)
+Running task <*> in stage <*> (TID <*>): 1
+---------------------------
+---------------------------
+cluster 13: len=1
+Registered signal handlers for [TERM, HUP, INT] (ground truth)
+Registered signal handlers for [TERM, HUP, INT] (final_template)
+Registered signal handlers for [TERM, HUP, INT]: 1
+---------------------------
+---------------------------
+cluster 11: len=20
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver (ground truth)
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver (final_template)
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver: 1
+---------------------------
+---------------------------
+cluster 3: len=5
+Block <*> stored as bytes in memory (estimated size <*>, free <*>) (ground truth)
+Block <*> stored as bytes in memory (estimated size <*>, free <*>) (final_template)
+Block <*> stored as bytes in memory (estimated size <*>, free <*>): 1
+---------------------------
+---------------------------
+cluster 4: len=10
+Reading broadcast variable <*> took <*> ms (ground truth)
+Reading broadcast variable <*> took <*> ms (final_template)
+Reading broadcast variable <*> took <*> ms: 1
+---------------------------
+---------------------------
+cluster 9: len=5
+Block <*> stored as values in memory (estimated size <*>, free <*>) (ground truth)
+Block <*> stored as values in memory (estimated size <*> B, free <*> KB) (final_template)
+Block <*> stored as values in memory (estimated size <*> B, free <*> KB): 1
+---------------------------
+---------------------------
+cluster 19: len=1
+Remoting started; listening on addresses :[<*>] (ground truth)
+Remoting started; listening on addresses :[<*>@<*>] (final_template)
+Remoting started; listening on addresses :[<*>@<*>]: 1
+---------------------------
+---------------------------
+cluster 17: len=1
+Slf4jLogger started (ground truth)
+Slf4jLogger <*> (final_template)
+Slf4jLogger <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=1
+Created local directory at <*> (ground truth)
+Created local directory at <*> (final_template)
+Created local directory at <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=1
+MemoryStore started with capacity <*> GB (ground truth)
+MemoryStore started with capacity <*> (final_template)
+MemoryStore started with capacity <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=2
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi) (ground truth)
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi) (final_template)
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi): 1
+---------------------------
+---------------------------
+cluster 10: len=30
+Times: total = <*>, boot = <*>, init = <*>, finish = <*> (ground truth)
+Times: total = <*>, boot = <*>, init = <*>, finish = <*> (final_template)
+Times: total = <*>, boot = <*>, init = <*>, finish = <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=10
+Partition <*> not found, computing it (ground truth)
+Partition <*> not found, computing it (final_template)
+Partition <*> not found, computing it: 1
+---------------------------
+---------------------------
+cluster 5: len=5
+Block <*> stored as values in memory (estimated size <*>, free <*>) (ground truth)
+Block <*> stored as values in memory (estimated size <*>, free <*>) (final_template)
+Block <*> stored as values in memory (estimated size <*>, free <*>): 1
+---------------------------
+---------------------------
+cluster 8: len=15
+Block <*> stored as bytes in memory (estimated size <*>, free <*>) (ground truth)
+Block <*> stored as bytes in memory (estimated size <*>, free <*>) (final_template)
+Block <*> stored as bytes in memory (estimated size <*>, free <*>): 1
+---------------------------
+---------------------------
+cluster 24: len=1
+Successfully registered with driver (ground truth)
+Successfully registered with driver (final_template)
+Successfully registered with driver: 1
+---------------------------
+---------------------------
+cluster 25: len=1
+Starting executor ID <*> on host <*> (ground truth)
+Starting executor ID <*> on host <*> (final_template)
+Starting executor ID <*> on host <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=5
+Input split: <*> (ground truth)
+Input split: hdfs://<*>/pjhe/logs/<*>+<*> (final_template)
+Input split: hdfs://<*>/pjhe/logs/<*>+<*>: 1
+---------------------------
+---------------------------
+cluster 27: len=1
+Server created on <*> (ground truth)
+Server created on <*> (final_template)
+Server created on <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+Registered BlockManager (ground truth)
+Registered <*> (final_template)
+Registered <*>: 1
+---------------------------
+---------------------------
+cluster 2: len=11
+Started reading broadcast variable <*> (ground truth)
+Started reading broadcast variable <*> (final_template)
+Started reading broadcast variable <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=15
+Found block <*> locally (ground truth)
+Found block <*> locally (final_template)
+Found block <*> locally: 1
+---------------------------
+---------------------------
+cluster 18: len=1
+Starting remoting (ground truth)
+Starting <*> (final_template)
+Starting <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=1
+Connecting to driver: <*> (ground truth)
+Connecting to driver: spark://<*>@<*> (final_template)
+Connecting to driver: spark://<*>@<*>: 1
+---------------------------
+---------------------------
+cluster 20: len=1
+Successfully started service 'sparkExecutorActorSystem' on port <*>. (ground truth)
+Successfully started service '<*>' on port <*>. (final_template)
+Successfully started service '<*>' on port <*>.: 1
+---------------------------
+---------------------------
+cluster 28: len=1
+Trying to register BlockManager (ground truth)
+Trying to register <*> (final_template)
+Trying to register <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+mapred.job.id is deprecated. Instead, use mapreduce.job.id (ground truth)
+mapred.job.id is deprecated. Instead, use <*> (final_template)
+mapred.job.id is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+mapred.task.partition is deprecated. Instead, use mapreduce.task.partition (ground truth)
+<*> is deprecated. Instead, use <*> (final_template)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=1
+mapred.tip.id is deprecated. Instead, use mapreduce.task.id (ground truth)
+<*> is deprecated. Instead, use <*> (final_template)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=1
+mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id (ground truth)
+<*> is deprecated. Instead, use <*> (final_template)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap (ground truth)
+<*> is deprecated. Instead, use <*> (final_template)
+<*> is deprecated. Instead, use <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=1
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>. (ground truth)
+Successfully started service '<*>' on port <*>. (final_template)
+Successfully started service '<*>' on port <*>.: 1
+---------------------------
+---------------------------
+cluster 2: len=30
+<*>: Committed (ground truth)
+<*>: Committed (final_template)
+<*>: Committed: 1
+---------------------------
+---------------------------
+cluster 1: len=30
+Saved output of task '<*>' to <*> (ground truth)
+Saved output of task '<*>' to hdfs://<*>/pjhe/test/<*>/_temporary/0/task_<*>_m_<*> (final_template)
+Saved output of task '<*>' to hdfs://<*>/pjhe/test/<*>/_temporary/0/task_<*>_m_<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=30
+File Output Committer Algorithm version is <*> (ground truth)
+File Output Committer Algorithm version is <*> (final_template)
+File Output Committer Algorithm version is <*>: 1
+---------------------------
+---------cache_pairs---------
+Got assigned task <*>
+Running task <*> in stage <*> (TID <*>)
+Started reading broadcast variable <*>
+Block <*> stored as bytes in memory (estimated size <*>, free <*>)
+Reading broadcast variable <*> took <*> ms
+Block <*> stored as values in memory (estimated size <*>, free <*>)
+Partition <*> not found, computing it
+Input split: hdfs://<*>/pjhe/logs/<*>+<*>
+Block <*> stored as values in memory (estimated size <*> B, free <*> KB)
+Times: total = <*>, boot = <*>, init = <*>, finish = <*>
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+Found block <*> locally
+Registered signal handlers for [TERM, HUP, INT]
+Changing view acls to: <*>,<*>
+Changing modify acls to: <*>,<*>
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+Slf4jLogger <*>
+Starting <*>
+Remoting started; listening on addresses :[<*>@<*>]
+Successfully started service '<*>' on port <*>.
+Created local directory at <*>
+MemoryStore started with capacity <*>
+Connecting to driver: spark://<*>@<*>
+Successfully registered with driver
+Starting executor ID <*> on host <*>
+Server created on <*>
+Trying to register <*>
+Registered <*>
+<*> is deprecated. Instead, use <*>
+mapred.job.id is deprecated. Instead, use <*>
+File Output Committer Algorithm version is <*>
+Saved output of task '<*>' to hdfs://<*>/pjhe/test/<*>/_temporary/0/task_<*>_m_<*>
+<*>: Committed
