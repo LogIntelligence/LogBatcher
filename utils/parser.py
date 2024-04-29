@@ -51,6 +51,7 @@ class Cluster_Parser:
             for cached_pair in cached_pairs:
                 match_result = matches_template(batch_logs[0], cached_pair)
                 if match_result != None:
+                    print(f"match_result: {match_result}")
                     return match_result 
                     # additional_incontext = f"Based on the previous logs, the template is likely to be: {cached_template.replace('<*>', '{{variable}}')}"
                     # break
