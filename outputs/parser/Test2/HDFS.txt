@@ -1,0 +1,119 @@
+---------------------------
+cluster 1: len=314
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*> (ground truth)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*> (final_template)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {{DataNode}} is added to {{BlockID}} size {{Size}}: 1
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {{DataNode_IP}}:50010 is added to {{Block_ID}} size 67108864: 2
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {{ip_address}}:50010 is added to blk_{{block_id}} size 67108864: 1
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {{DataNode}} is added to {{Block}} size {{Size}}: 1
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {{datanode_ip}}:50010 is added to {{block_id}} size 67108864: 1
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {{DataNodeIP}}:50010 is added to {{BlockID}} size 67108864: 1
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>: 7
+---------------------------
+---------------------------
+cluster 0: len=311
+PacketResponder <*> for block <*> terminating (ground truth)
+PacketResponder <*> for block <*> terminating (final_template)
+PacketResponder {{responder_id}} for block {{block_id}} terminating: 2
+PacketResponder {{#}} for block blk_{{#}} terminating: 1
+PacketResponder {{*}} for block blk_{{*}} terminating: 1
+PacketResponder {{ResponderID}} for block blk_{{BlockID}} terminating: 2
+PacketResponder {{ResponderID}} for block {{BlockID}} terminating: 1
+PacketResponder <*> for block <*> terminating: 7
+---------------------------
+---------------------------
+cluster 2: len=292
+Received block <*> of size <*> from <*> (ground truth)
+Received block <*> of size <*> from <*> (final_template)
+Received block blk_{{block_id}} of size 67108864 from /{{source_ip}}: 2
+Received block blk_{{var1}} of size 67108864 from /{{var2}}: 1
+Received block {{block_id}} of size {{block_size}} from /{{source_ip}}: 2
+Received block blk_{{block_id}} of size {{block_size}} from /{{source_ip}}: 1
+Received block <*> of size <*> from <*>: 6
+---------------------------
+---------------------------
+cluster 3: len=292
+Receiving block <*> src: <*> dest: <*> (ground truth)
+Receiving block <*> src: <*> dest: <*> (final_template)
+Receiving block blk_{{block_id}} src: /{{source_ip}} dest: /{{destination_ip}}: 4
+Receiving block {{block_id}} src: /{{source_ip}} dest: /{{destination_ip}}: 2
+Receiving block <*> src: <*> dest: <*>: 6
+---------------------------
+---------------------------
+cluster 6: len=263
+Deleting block <*> file <*> (ground truth)
+Deleting block <*> file <*> (final_template)
+Deleting block blk_{{block_id}} file /mnt/hadoop/dfs/data/current/subdir{{subdir_id}}/blk_{{block_id}}: 1
+Deleting block blk_{{block_id}} file {{file_path}}: 1
+Deleting block {{block_id}} file /mnt/hadoop/dfs/data/current/{{directory}}/{{block_id}}: 2
+Deleting block {{block_id}} file {{file_path}}: 1
+Deleting block blk_{{variable1}} file /mnt/hadoop/dfs/data/current/subdir{{variable2}}/blk_{{variable1}}: 1
+Deleting block <*> file <*>: 6
+---------------------------
+---------------------------
+cluster 9: len=224
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*> (ground truth)
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*> (final_template)
+BLOCK* NameSystem.delete: {{block_id}} is added to invalidSet of {{ip_address}}:50010: 4
+BLOCK* NameSystem.delete: blk_{{number}} is added to invalidSet of {{ip_address}}:50010: 1
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>: 5
+---------------------------
+---------------------------
+cluster 4: len=115
+BLOCK* NameSystem.allocateBlock: <*> <*> (ground truth)
+BLOCK* NameSystem.allocateBlock: <*> <*> (final_template)
+BLOCK* NameSystem.allocateBlock: /user/root/{{folder}}/_temporary/_task_{{timestamp}}_{{task}}/part-{{part}}. blk_{{block}}: 1
+BLOCK* NameSystem.allocateBlock: /user/root/{{directory}}/_temporary/_task_{{timestamp}}_{{task_id}}_{{attempt_id}}/part-{{part_id}}. blk_{{block_id}}: 1
+BLOCK* NameSystem.allocateBlock: /user/root/{{directory}}/_temporary/_task_{{job_id}}_{{task_id}}_{{attempt_id}}/part-{{part_number}}. blk_{{block_id}}: 1
+BLOCK* NameSystem.allocateBlock: <*> <*>: 3
+---------------------------
+---------------------------
+cluster 7: len=80
+<*> Served block <*> to <*> (ground truth)
+<*> Served block <*> to <*> (final_template)
+{{Source}} Served block {{Block_ID}} to /{{Destination}}: 1
+{{ip_source}}:{{port}} Served block {{block_id}} to /{{ip_destination}}: 1
+<*> Served block <*> to <*>: 2
+---------------------------
+---------------------------
+cluster 8: len=80
+<*>:Got exception while serving <*> to <*>: (ground truth)
+<*>:Got exception while serving <*> to <*>: (final_template)
+{{ip_address}}:50010:Got exception while serving {{block_id}} to /{{client_ip}}:: 1
+<*>:Got exception while serving <*> to <*>:: 1
+---------------------------
+---------------------------
+cluster 5: len=20
+Verification succeeded for <*> (ground truth)
+Verification succeeded for <*> (final_template)
+Verification succeeded for blk_{{block_number}}: 1
+Verification succeeded for <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=5
+BLOCK* ask <*> to delete <*> (ground truth)
+BLOCK* ask <*> to delete <*> (final_template)
+BLOCK* ask {{IP_ADDRESS}}:50010 to delete  {{BLOCK_ID}}: 1
+BLOCK* ask <*> to delete <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=2
+Received block <*> src: <*> dest: <*> of size <*> (ground truth)
+Received block <*> src: <*> dest: <*> of size <*> (final_template)
+Received block {{block_id}} src: {{source}} dest: {{destination}} of size {{block_size}}: 1
+Received block <*> src: <*> dest: <*> of size <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=1
+<*> Starting thread to transfer block <*> to <*> (ground truth)
+<*> Starting thread to transfer block <*> to <*> (final_template)
+{{source_ip}}:{{source_port}} Starting thread to transfer block {{block_id}} to {{destination_ip}}:{{destination_port}}: 1
+<*> Starting thread to transfer block <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=1
+BLOCK* ask <*> to replicate <*> to datanode(s) <*> (ground truth)
+BLOCK* ask <*> to replicate <*> to datanode(s) <*> (final_template)
+BLOCK* ask {{source}} to replicate {{block}} to datanode(s) {{destination}}: 1
+BLOCK* ask <*> to replicate <*> to datanode(s) <*>: 1
+---------------------------

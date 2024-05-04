@@ -2,23 +2,385 @@
 cluster 3: len=314
 Interrupted while waiting for message on queue (ground truth)
 Interrupted while waiting for message on queue (final_template)
-Interrupted while waiting for message on queue: 7
+Interrupted while waiting for message on queue: 5
+Interrupted while waiting for message on {{queue}}: 2
+Interrupted while waiting for message on queue: 5
+Interrupted while waiting for message on <*>: 2
 ---------------------------
 ---------------------------
 cluster 1: len=299
 Received connection request <*> (ground truth)
 Received connection request <*> (final_template)
+Received connection request /{{IP}}:{{Port}}: 1
+Received connection request /{{ip}}:{{port}}: 2
+Received connection request /{{ip_address}}:{{port}}: 3
 Received connection request <*>: 6
 ---------------------------
 ---------------------------
 cluster 4: len=291
 Connection broken for id <*>, my id = <*>, error = (ground truth)
 Connection broken for id <*>, my id = <*>, error = (final_template)
+Connection broken for id {{id}}, my id = {{my_id}}, error =: 6
 Connection broken for id <*>, my id = <*>, error =: 6
 ---------------------------
 ---------------------------
 cluster 5: len=266
 Interrupting SendWorker (ground truth)
 Interrupting SendWorker (final_template)
-Interrupting SendWorker: 6
+Interrupting SendWorker: 3
+Interrupting {{WorkerType}}: 3
+Interrupting SendWorker: 3
+Interrupting <*>: 3
+---------------------------
+---------------------------
+cluster 2: len=262
+Send worker leaving thread (ground truth)
+Send worker leaving thread (final_template)
+Send worker leaving thread: 5
+Send worker leaving {{thread}}: 1
+Send worker leaving thread: 5
+Send worker leaving <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=86
+Cannot open channel to <*> at election address <*> (ground truth)
+Cannot open channel to <*> at election address <*> (final_template)
+Cannot open channel to {{node}} at election address /{{ip}}:{{port}}: 1
+Cannot open channel to {{channel_number}} at election address /{{ip_address}}:{{port}}: 1
+Cannot open channel to <*> at election address <*>: 2
+---------------------------
+---------------------------
+cluster 9: len=50
+Established session <*> with negotiated timeout <*> for client <*> (ground truth)
+Established session <*> with negotiated timeout <*> for client <*> (final_template)
+Established session {{session_id}} with negotiated timeout 10000 for client /10.10.34.{{client_ip}}:{{client_port}}: 1
+Established session <*> with negotiated timeout <*> for client <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=48
+Accepted socket connection from <*> (ground truth)
+Accepted socket connection from <*> (final_template)
+Accepted socket connection from /{{*}}:{{*}}: 1
+Accepted socket connection from <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=47
+Processed session termination for sessionid: <*> (ground truth)
+Processed session termination for sessionid: <*> (final_template)
+Processed session termination for sessionid: {{sessionid}}: 1
+Processed session termination for sessionid: <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=44
+Closed socket connection for client <*> which had sessionid <*> (ground truth)
+Closed socket connection for client <*> which had sessionid <*> (final_template)
+Closed socket connection for client /{{client_ip}}:{{client_port}} which had sessionid {{session_id}}: 1
+Closed socket connection for client <*> which had sessionid <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=41
+Client attempting to establish new session at <*> (ground truth)
+Client attempting to establish new session at <*> (final_template)
+Client attempting to establish new session at /{{ip}}:{{port}}: 1
+Client attempting to establish new session at <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=40
+Expiring session <*>, timeout of <*> exceeded (ground truth)
+Expiring session <*>, timeout of 10000ms exceeded (final_template)
+Expiring session {{session_id}}, timeout of 10000ms exceeded: 1
+Expiring session <*>, timeout of 10000ms exceeded: 1
+---------------------------
+---------------------------
+cluster 11: len=39
+Connection request from old client <*>; will be dropped if server is in r-o mode (ground truth)
+Connection request from old client <*>; will be dropped if server is in r-o mode (final_template)
+Connection request from old client /{{client_ip}}:{{client_port}}; will be dropped if server is in r-o mode: 1
+Connection request from old client <*>; will be dropped if server is in r-o mode: 1
+---------------------------
+---------------------------
+cluster 0: len=37
+Notification time out: <*> (ground truth)
+Notification time out: <*> (final_template)
+Notification time out: {{number}}: 1
+Notification time out: <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=37
+caught end of stream exception (ground truth)
+caught end of stream exception (final_template)
+caught end of stream exception: 1
+caught end of stream exception: 1
+---------------------------
+---------------------------
+cluster 15: len=19
+******* GOODBYE <*> ******** (ground truth)
+******* GOODBYE <*> ******** (final_template)
+******* GOODBYE /{{ip}}:{{port}} ********: 1
+******* GOODBYE <*> ********: 1
+---------------------------
+---------------------------
+cluster 17: len=12
+Unexpected exception causing shutdown while sock still open (ground truth)
+Unexpected exception causing shutdown while sock still open (final_template)
+Unexpected exception causing shutdown while sock still open: 1
+Unexpected exception causing shutdown while sock still open: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state) (ground truth)
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state) (final_template)
+Notification: {{n.leader}} (n.leader), {{n.zxid}} (n.zxid), {{n.round}} (n.round), LOOKING (n.state), {{n.sid}} (n.sid), {{n.peerEPoch}} (n.peerEPoch), LOOKING (my state): 1
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state): 1
+---------------------------
+---------------------------
+cluster 35: len=4
+Closed socket connection for client <*> (no session established for client) (ground truth)
+Closed socket connection for client <*> (no session established for client) (final_template)
+Closed socket connection for client /{{IP}}:{{port}} (no session established for client): 1
+Closed socket connection for client <*> (no session established for client): 1
+---------------------------
+---------------------------
+cluster 18: len=3
+Client attempting to renew session <*> at <*> (ground truth)
+Client attempting to renew session <*> at <*> (final_template)
+Client attempting to renew session {{session_id}} at /{{client_ip}}:{{client_port}}: 1
+Client attempting to renew session <*> at <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=3
+Revalidating client: <*> (ground truth)
+Revalidating client: <*> (final_template)
+Revalidating client: {{client_address}}: 1
+Revalidating client: <*>: 1
+---------------------------
+---------------------------
+cluster 36: len=3
+Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running (ground truth)
+Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running (final_template)
+Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running: 1
+Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running: 1
+---------------------------
+---------------------------
+cluster 40: len=3
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state) (ground truth)
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state) (final_template)
+Notification: {{n.leader}} (n.leader), {{n.zxid}} (n.zxid), {{n.round}} (n.round), LOOKING (n.state), {{n.sid}} (n.sid), {{n.peerEPoch}} (n.peerEPoch), LEADING (my state): 1
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state): 1
+---------------------------
+---------------------------
+cluster 43: len=3
+autopurge.purgeInterval set to <*> (ground truth)
+autopurge.purgeInterval set to <*> (final_template)
+autopurge.purgeInterval set to 0: 1
+autopurge.purgeInterval set to <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=2
+FOLLOWING - LEADER ELECTION TOOK - <*> (ground truth)
+FOLLOWING - LEADER ELECTION TOOK - <*> (final_template)
+FOLLOWING - LEADER ELECTION TOOK - {{duration}}: 1
+FOLLOWING - LEADER ELECTION TOOK - <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=2
+Server environment:<*> (ground truth)
+Server environment:java.vendor=<*> (final_template)
+Server environment:java.vendor={{vendor}}: 1
+Server environment:java.vendor=<*>: 1
+---------------------------
+---------------------------
+cluster 33: len=2
+Server environment:<*> (ground truth)
+Server environment:user.name=zookeeper (final_template)
+Server environment:user.name=zookeeper: 1
+Server environment:user.name=zookeeper: 1
+---------------------------
+---------------------------
+cluster 34: len=2
+Server environment:<*> (ground truth)
+Server environment:os.name=<*> (final_template)
+Server environment:os.name={{os_name}}: 1
+Server environment:os.name=<*>: 1
+---------------------------
+---------------------------
+cluster 42: len=2
+Snapshotting: <*> to <*> (ground truth)
+Snapshotting: <*> to <*> (final_template)
+Snapshotting: {{snapshot_id}} to {{snapshot_path}}: 1
+Snapshotting: <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 53: len=2
+Getting a snapshot from leader (ground truth)
+Getting a snapshot from <*> (final_template)
+Getting a snapshot from {{source}}: 1
+Getting a snapshot from <*>: 1
+---------------------------
+---------------------------
+cluster 55: len=2
+minSessionTimeout set to <*> (ground truth)
+minSessionTimeout set to <*> (final_template)
+minSessionTimeout set to {{value}}: 1
+minSessionTimeout set to <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=1
+Unexpected Exception: (ground truth)
+Unexpected Exception: <*> (final_template)
+Unexpected Exception: {{error_message}}: 1
+Unexpected Exception: <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=1
+Server environment:<*> (ground truth)
+Server environment:user.dir=<*> (final_template)
+Server environment:user.dir={{directory}}: 1
+Server environment:user.dir=<*>: 1
+---------------------------
+---------------------------
+cluster 22: len=1
+My election bind port: <*>/<*> (ground truth)
+My election bind port: <*> (final_template)
+My election bind port: {{ip_address}}:{{port}}: 1
+My election bind port: <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=1
+Have smaller server identifier, so dropping the connection: (<*>, <*>) (ground truth)
+Have smaller server identifier, so dropping the connection: <*> (final_template)
+Have smaller server identifier, so dropping the connection: {{server_id}}: 1
+Have smaller server identifier, so dropping the connection: <*>: 1
+---------------------------
+---------------------------
+cluster 25: len=1
+New election. My id = <*>, proposed zxid=<*> (ground truth)
+New election. My id = <*>, proposed zxid=<*> (final_template)
+New election. My id = {{id}}, proposed zxid={{zxid}}: 1
+New election. My id = <*>, proposed zxid=<*>: 1
+---------------------------
+---------------------------
+cluster 26: len=1
+Server environment:<*> (ground truth)
+Server environment:host.name=<*> (final_template)
+Server environment:host.name={{hostname}}: 1
+Server environment:host.name=<*>: 1
+---------------------------
+---------------------------
+cluster 28: len=1
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state) (ground truth)
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state) (final_template)
+Notification: {{n.leader}} (n.leader), {{n.zxid}} (n.zxid), {{n.round}} (n.round), {{n.state}} (n.state), {{n.sid}} (n.sid), {{n.peerEPoch}} (n.peerEPoch), {{my state}} (my state): 1
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state): 1
+---------------------------
+---------------------------
+cluster 29: len=1
+autopurge.snapRetainCount set to <*> (ground truth)
+autopurge.snapRetainCount set to <*> (final_template)
+autopurge.snapRetainCount set to {{count}}: 1
+autopurge.snapRetainCount set to <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+Server environment:<*> (ground truth)
+Server environment:zookeeper.version=<*>, built on <*> GMT (final_template)
+Server environment:zookeeper.version={{version}}, built on {{date}} GMT: 1
+Server environment:zookeeper.version=<*>, built on <*> GMT: 1
+---------------------------
+---------------------------
+cluster 37: len=1
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state) (ground truth)
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state) (match result)
+---------------------------
+---------------------------
+cluster 38: len=1
+tickTime set to <*> (ground truth)
+tickTime set to <*> (final_template)
+tickTime set to {{value}}: 1
+tickTime set to <*>: 1
+---------------------------
+---------------------------
+cluster 39: len=1
+Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*> (ground truth)
+Got user-level KeeperException when processing sessionid:<*> type:<*> cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:<*> (final_template)
+Got user-level KeeperException when processing sessionid:{{sessionid}} type:{{type}} cxid:{{cxid}} zxid:{{zxid}} txntype:{{txntype}} reqpath:{{reqpath}} Error Path:{{error_path}} Error:{{error_message}}: 1
+Got user-level KeeperException when processing sessionid:<*> type:<*> cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:<*>: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+Starting quorum peer (ground truth)
+Starting quorum peer (final_template)
+Starting quorum peer: 1
+Starting quorum peer: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*> (ground truth)
+Follower sid: <*> : info : <*>@<*> (final_template)
+Follower sid: {{sid}} : info : {{className}}@{{hashCode}}: 1
+Follower sid: <*> : info : <*>@<*>: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+maxSessionTimeout set to <*> (ground truth)
+<*> set to <*> (final_template)
+{{variable1}} set to {{variable2}}: 1
+<*> set to <*>: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+Server environment:<*> (ground truth)
+Server environment:java.class.path=<*> (final_template)
+Server environment:java.class.path={{classpath}}: 1
+Server environment:java.class.path=<*>: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+Have quorum of supporters; starting up and setting last processed zxid: <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 48: len=1
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state) (ground truth)
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state) (match result)
+---------------------------
+---------------------------
+cluster 49: len=1
+shutdown of request processor complete (ground truth)
+shutdown of <*> complete (final_template)
+shutdown of {{component}} complete: 1
+shutdown of <*> complete: 1
+---------------------------
+---------------------------
+cluster 50: len=1
+First is <*> (ground truth)
+First is <*> (final_template)
+First is {{value}}: 1
+First is <*>: 1
+---------------------------
+---------------------------
+cluster 51: len=1
+Reading snapshot <*> (ground truth)
+<*> (final_template)
+/var/lib/zookeeper/version-2/snapshot.b00000084: 1
+<*>: 1
+---------------------------
+---------------------------
+cluster 52: len=1
+Sending DIFF (ground truth)
+Sending <*> (final_template)
+Sending {{ACTION}}: 1
+Sending <*>: 1
+---------------------------
+---------------------------
+cluster 54: len=1
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state) (ground truth)
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state) (match result)
+---------------------------
+---------------------------
+cluster 56: len=1
+Server environment:<*> (ground truth)
+Server environment:java.home=<*>/jre (final_template)
+Server environment:java.home={{javaHome}}/jre: 1
+Server environment:java.home=<*>/jre: 1
 ---------------------------

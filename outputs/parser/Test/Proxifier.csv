@@ -1,7 +1,7 @@
 Content,EventTemplate,Output
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS,<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS,<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS
-proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS,<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS
+proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS, ,<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> sent, <*> received, lifetime <*>","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS,<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS,<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS

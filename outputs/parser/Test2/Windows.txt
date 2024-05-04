@@ -1,0 +1,397 @@
+---------------------------
+cluster 1: len=608
+Session: <*> initialized by client WindowsUpdateAgent. (ground truth)
+Session: <*> initialized by client WindowsUpdateAgent. (final_template)
+Session: {{session_id}} initialized by client WindowsUpdateAgent.: 7
+Session: {{session_id}} initialized by client {{client_name}}.: 1
+Session: {{SessionID}} initialized by client WindowsUpdateAgent.: 2
+Session: {{Session_ID}} initialized by client WindowsUpdateAgent.: 3
+Session: <*> initialized by client WindowsUpdateAgent.: 12
+Session: <*> initialized by client <*>.: 1
+---------------------------
+---------------------------
+cluster 6: len=558
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*> (ground truth)
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*> (final_template)
+Read out cached package applicability for package: {{Package}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 3
+Read out cached package applicability for package: {{PackageName}}~{{Architecture}}~~{{Version}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 1
+Read out cached package applicability for package: {{Package}}~{{Version}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 1
+Read out cached package applicability for package: {{Package_name}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 2
+Read out cached package applicability for package: {{Package}}~{{PackageID}}~{{Architecture}}~~{{Version}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 1
+Read out cached package applicability for package: {{Package_name}}~{{Architecture}}~{{Version}}~{{Package_ID}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 1
+Read out cached package applicability for package: {{PackageName}}~{{PackageArchitecture}}~~{{Version}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 1
+Read out cached package applicability for package: {{PackageID}}, ApplicableState: {{State1}}, CurrentState:{{State2}}: 1
+Read out cached package applicability for package: {{Package}}~{{Architecture}}~~{{Version}}, ApplicableState: {{ApplicableState}}, CurrentState:{{CurrentState}}: 1
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>: 12
+---------------------------
+---------------------------
+cluster 2: len=280
+Warning: Unrecognized packageExtended attribute. (ground truth)
+Warning: Unrecognized packageExtended attribute. (final_template)
+Warning: Unrecognized packageExtended attribute.: 6
+Warning: Unrecognized packageExtended attribute.: 6
+---------------------------
+---------------------------
+cluster 3: len=224
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth)
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (final_template)
+Expecting attribute name [HRESULT = {{HRESULT}} - CBS_E_MANIFEST_INVALID_ITEM]: 4
+Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]: 1
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]: 4
+Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]: 1
+---------------------------
+---------------------------
+cluster 4: len=224
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth)
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (final_template)
+Failed to get next element [HRESULT = {{HRESULT_CODE}} - {{ERROR_DESCRIPTION}}]: 1
+Failed to get next element [HRESULT = {{HRESULT}} - CBS_E_MANIFEST_INVALID_ITEM]: 3
+Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]: 1
+Failed to get next element [HRESULT = <*> - <*>]: 1
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]: 3
+Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]: 1
+---------------------------
+---------------------------
+cluster 5: len=18
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE] (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 7: len=8
+Unloading offline registry hive: <*> (ground truth)
+Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/<*> (final_template)
+Unloading offline registry hive: {{hive_id}}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/{{path}}: 1
+Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/<*>: 1
+---------------------------
+---------------------------
+cluster 0: len=6
+<*>@<*>/<*>/<*>:<*>:<*>:<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>) (ground truth)
+<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>) (final_template)
+{{timestamp}} WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{{stack_address}}): 1
+<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>): 1
+---------------------------
+---------------------------
+cluster 22: len=3
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)" (ground truth)
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)" (final_template)
+{{hexcode}} Creating NT transaction (seq {{sequence}}), objectname [6]"(null)": 1
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)": 1
+---------------------------
+---------------------------
+cluster 23: len=3
+<*> Created NT transaction (seq <*>) result <*>, handle @<*> (ground truth)
+Created NT transaction (seq <*>) result 0x00000000, handle @<*> (final_template)
+Created NT transaction (seq {{sequence_number}}) result 0x00000000, handle @{{handle_address}}: 1
+Created NT transaction (seq <*>) result 0x00000000, handle @<*>: 1
+---------------------------
+---------------------------
+cluster 24: len=3
+<*> CSI perf trace: (ground truth)
+<*>@<*> CSI perf trace: (final_template)
+{{id}}@{{date}}:{{time}} CSI perf trace:: 1
+<*>@<*> CSI perf trace:: 1
+---------------------------
+---------------------------
+cluster 27: len=3
+<*> CSI Store <*> (<*>) initialized (ground truth)
+<*> CSI Store <*> (<*>) initialized (final_template)
+{{sequence}} CSI Store {{store_id}} ({{store_address}}) initialized: 1
+<*> CSI Store <*> (<*>) initialized: 1
+---------------------------
+---------------------------
+cluster 8: len=2
+Loaded Servicing Stack <*> with Core: <*>.dll (ground truth)
+Loaded Servicing Stack <*> with Core: <*> (final_template)
+Loaded Servicing Stack v{{version}} with Core: {{core_path}}: 1
+Loaded Servicing Stack <*> with Core: <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=2
+Ending TrustedInstaller initialization. (ground truth)
+Ending TrustedInstaller initialization. (final_template)
+Ending TrustedInstaller initialization.: 1
+Ending TrustedInstaller initialization.: 1
+---------------------------
+---------------------------
+cluster 10: len=2
+Starting the TrustedInstaller main loop. (ground truth)
+Starting the TrustedInstaller main loop. (final_template)
+Starting the TrustedInstaller main loop.: 1
+Starting the TrustedInstaller main loop.: 1
+---------------------------
+---------------------------
+cluster 11: len=2
+TrustedInstaller service starts successfully. (ground truth)
+<*> service starts successfully. (final_template)
+{{serviceName}} service starts successfully.: 1
+<*> service starts successfully.: 1
+---------------------------
+---------------------------
+cluster 12: len=2
+SQM: Initializing online with Windows opt-in: <*> (ground truth)
+SQM: Initializing online with Windows opt-in: <*> (final_template)
+SQM: Initializing online with Windows opt-in: {{opt_in}}: 1
+SQM: Initializing online with Windows opt-in: <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=2
+SQM: Cleaning up report files older than <*> days. (ground truth)
+SQM: Cleaning up report files older than <*> days. (final_template)
+SQM: Cleaning up report files older than {{number}} days.: 1
+SQM: Cleaning up report files older than <*> days.: 1
+---------------------------
+---------------------------
+cluster 14: len=2
+SQM: Requesting upload of all unsent reports. (ground truth)
+SQM: Requesting upload of all unsent reports. (final_template)
+SQM: Requesting upload of all unsent reports.: 1
+SQM: Requesting upload of all unsent reports.: 1
+---------------------------
+---------------------------
+cluster 15: len=2
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - E_FAIL] (ground truth)
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - <*>] (final_template)
+SQM: Failed to start upload with file pattern: {{file_pattern}}, flags: {{flags}} [HRESULT = {{result_code}} - {{error_message}}]: 1
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 16: len=2
+SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL] (ground truth)
+SQM: Failed to start standard sample upload. [HRESULT = <*> - <*>] (final_template)
+SQM: Failed to start standard sample upload. [HRESULT = {{error_code}} - {{error_description}}]: 1
+SQM: Failed to start standard sample upload. [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 17: len=2
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*> (ground truth)
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*> (final_template)
+SQM: Queued {{count}} file(s) for upload with pattern: {{pattern}}, flags: {{flags}}: 1
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>: 1
+---------------------------
+---------------------------
+cluster 18: len=2
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL] (ground truth)
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - <*>] (final_template)
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = {{error_code}} - {{error_description}}]: 1
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 19: len=2
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending. (ground truth)
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending. (final_template)
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.: 1
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.: 1
+---------------------------
+---------------------------
+cluster 20: len=2
+NonStart: Checking to ensure startup processing was not required. (ground truth)
+NonStart: Checking to ensure startup processing was not required. (final_template)
+NonStart: Checking to ensure startup processing was not required.: 1
+NonStart: Checking to ensure startup processing was not required.: 1
+---------------------------
+---------------------------
+cluster 21: len=2
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*> (ground truth)
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*> (final_template)
+{{timestamp}} IAdvancedInstallerAwareStore_ResolvePendingTransactions (call {{call_number}}) (flags = {{flags}}, progress = {{progress}}, phase = {{phase}}, pdwDisposition = @{{memory_address}}: 1
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>: 1
+---------------------------
+---------------------------
+cluster 25: len=2
+NonStart: Success, startup processing not required as expected. (ground truth)
+NonStart: Success, startup processing not required as expected. (final_template)
+NonStart: Success, startup processing not required as expected.: 1
+NonStart: Success, startup processing not required as expected.: 1
+---------------------------
+---------------------------
+cluster 26: len=2
+Startup processing thread terminated normally (ground truth)
+<*> processing thread terminated normally (final_template)
+{{status}} processing thread terminated normally: 1
+<*> processing thread terminated normally: 1
+---------------------------
+---------------------------
+cluster 28: len=2
+Failed to create backup log cab. [HRESULT = <*> - ERROR_INVALID_FUNCTION] (ground truth)
+Failed to create backup log cab. [HRESULT = <*> - <*>] (final_template)
+Failed to create backup log cab. [HRESULT = {{error_code}} - {{error_description}}]: 1
+Failed to create backup log cab. [HRESULT = <*> - <*>]: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+Reboot mark refs incremented to: <*> (ground truth)
+Reboot mark refs incremented to: <*> (final_template)
+Reboot mark refs incremented to: {{count}}: 1
+Reboot mark refs incremented to: <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=1
+Scavenge: Starts (ground truth)
+Scavenge: <*> (final_template)
+Scavenge: {{Action}}: 1
+Scavenge: <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>/" (ground truth)
+<*> CSI Transaction @<*> initialized for deployment engine <*>} with flags <*> and client id [<*>] (final_template)
+{{time}} CSI Transaction @{{memory_address}} initialized for deployment engine {{{engine_id}}} with flags {{flags}} and client id [{{client_id}}]: 1
+<*> CSI Transaction @<*> initialized for deployment engine <*>} with flags <*> and client id [<*>]: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+Scavenge: Begin CSI Store (ground truth)
+Scavenge: Begin <*> (final_template)
+Scavenge: Begin {{operation}}: 1
+Scavenge: Begin <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+<*> Performing <*> operations; <*> are not lock/unlock and follow: (ground truth)
+<*> Performing <*> operations; <*> are not lock/unlock and follow: (final_template)
+{{Number}} Performing {{OperationCount}} operations; {{NonLockUnlockCount}} are not lock/unlock and follow:: 1
+<*> Performing <*> operations; <*> are not lock/unlock and follow:: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge. (ground truth)
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge. (final_template)
+{{Timestamp}} Store coherency cookie matches last scavenge cookie, skipping scavenge.: 1
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.: 1
+---------------------------
+---------------------------
+cluster 35: len=1
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*> (ground truth)
+<*>::Commit calling <*>::Apply - coldpatching=<*> applyflags=<*> (final_template)
+{{TransactionType}}::Commit calling {{TransactionInterface}}::Apply - coldpatching={{ColdPatchingFlag}} applyflags={{ApplyFlags}}: 1
+<*>::Commit calling <*>::Apply - coldpatching=<*> applyflags=<*>: 1
+---------------------------
+---------------------------
+cluster 36: len=1
+Scavenge: Completed, disposition: <*> (ground truth)
+Scavenge: <*>, disposition: <*> (final_template)
+Scavenge: {{status}}, disposition: {{result}}: 1
+Scavenge: <*>, disposition: <*>: 1
+---------------------------
+---------------------------
+cluster 37: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> CSI Transaction @<*> destroyed (ground truth)
+<*>@<*> CSI Transaction @<*> destroyed (final_template)
+{{address}}@{{year}}/{{month}}/{{day}}:{{hour}}:{{minute}}:{{second}}.{{millisecond}} CSI Transaction @{{memory_address}} destroyed: 1
+<*>@<*> CSI Transaction @<*> destroyed: 1
+---------------------------
+---------------------------
+cluster 38: len=1
+Reboot mark refs: <*> (ground truth)
+Reboot mark refs: <*> (final_template)
+Reboot mark refs: {{count}}: 1
+Reboot mark refs: <*>: 1
+---------------------------
+---------------------------
+cluster 39: len=1
+Idle processing thread terminated normally (ground truth)
+<*> processing thread terminated normally (match result)
+---------------------------
+---------------------------
+cluster 40: len=1
+Ending the TrustedInstaller main loop. (ground truth)
+Ending the <*> main loop. (final_template)
+Ending the {{service}} main loop.: 1
+Ending the <*> main loop.: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+Starting TrustedInstaller finalization. (ground truth)
+Starting <*> finalization. (final_template)
+Starting {{service}} finalization.: 1
+Starting <*> finalization.: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+Ending TrustedInstaller finalization. (ground truth)
+Ending <*> finalization. (final_template)
+Ending {{process_name}} finalization.: 1
+Ending <*> finalization.: 1
+---------------------------
+---------------------------
+cluster 43: len=1
+Starting TrustedInstaller initialization. (ground truth)
+Starting <*> initialization. (final_template)
+Starting {{service}} initialization.: 1
+Starting <*> initialization.: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (final_template)
+Loading offline registry hive: {{hive_name}}, into registry key '{{registry_key}}' from path '{{path}}'.: 1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 46: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 47: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 48: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 49: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 50: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 51: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 52: len=1
+Offline image is: read-only (ground truth)
+Offline image is: <*> (final_template)
+Offline image is: {{image_state}}: 1
+Offline image is: <*>: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+Disabling manifest caching, because the image is not writeable. (ground truth)
+Disabling manifest caching, because the image is not <*>. (final_template)
+Disabling manifest caching, because the image is not {{reason}}.: 1
+Disabling manifest caching, because the image is not <*>.: 1
+---------------------------
+---------------------------
+cluster 54: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> PopulateComponentFamiliesKey - Begin (ground truth)
+<*>@<*> <*> - <*> (final_template)
+{{SequenceNumber}}@{{Year}}/{{Month}}/{{Day}}:{{Hour}}:{{Minute}}:{{Second}}.{{Milliseconds}} {{Action}} - {{Status}}: 1
+<*>@<*> <*> - <*>: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> PopulateComponentFamiliesKey - End (ground truth)
+<*>@<*> <*> - <*> (match result)
+---------------------------
+---------------------------
+cluster 56: len=1
+Session: <*> initialized by client SPP. (ground truth)
+Session: <*> initialized by client <*>. (final_template)
+Session: {{session_id}} initialized by client {{client_name}}.: 1
+Session: <*> initialized by client <*>.: 1
+---------------------------

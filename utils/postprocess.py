@@ -1,18 +1,37 @@
 import re
+from utils.sample_byword import extract_variables
 
-def post_process(response):
+
+def post_process(response, reference_log):
 
     response = response.replace('\n', '')
     tmps = re.findall(r'`(.*?)`', response)
-    tmps = [x.strip() for x in tmps]
+    for tmp in tmps:
+        if tmp.replace(' ','').replace('<*>','') == '':
+            tmps.remove(tmp)
     tmp = ''
     if len(tmps) == 1:
         tmp = tmps[0]
     if len(tmps) > 1:
         tmp = max(tmps, key=len)
 
-    tmp = re.sub(r'\{\{.*?\}\}', '<*>', tmp)
-    return correct_single_template(tmp)
+    template = re.sub(r'\{\{.*?\}\}', '<*>', tmp)
+
+    # Todo: some varaible part might be '', need to correct the template, which should have a log to compare
+    template = correct_single_template(template)
+    matches = extract_variables(reference_log, template)
+    if matches == [] or template.strip() == '<*>':
+        # matche fail
+        template = ''
+    else:
+        parts = template.split('<*>')
+        template = parts[0]
+        for index, match in enumerate(matches):
+            if match != '':
+                template += '<*>'
+            template += parts[index + 1]
+
+    return tmp, template
 
 def correct_single_template(template, user_strings=None):
     """Apply all rules to process a template.
