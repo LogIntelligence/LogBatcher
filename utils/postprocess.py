@@ -62,6 +62,7 @@ def correct_single_template(template, user_strings=None):
         default_strings = default_strings.union(user_strings)
 
     # apply DS
+    # Note: this is not necessary while postprorcessing
     template = template.strip()
     template = re.sub(r'\s+', ' ', template)
 

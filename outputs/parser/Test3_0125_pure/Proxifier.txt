@@ -1,0 +1,109 @@
+---------------------------
+cluster 0: len=954
+<*> open through proxy <*> HTTPS (ground truth)
+<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS (final_template)
+{{domain}}:{{port}} open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS: 3
+{{origin}}:{{port}} open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS: 1
+{{host}}:{{port}} open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS: 14
+{{host}}:{{port}} open through proxy proxy.{{proxy_host}}:{{proxy_port}} {{protocol}}: 1
+{{hostname}}:{{port}} open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS: 1
+<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS: 19
+<*> open through proxy proxy.<*> <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=269
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> (final_template)
+{{host}}:{{port}} close, {{sent_bytes}} bytes ({{sent_kb}} KB) sent, {{received_bytes}} bytes ({{received_kb}} KB) received, lifetime {{duration}}: 4
+{{hostname}}:{{port}} close, {{sent_bytes}} bytes ({{sent_kb}} KB) sent, {{received_bytes}} bytes ({{received_kb}} KB) received, lifetime {{lifetime}}: 1
+{{host}}:{{port}} close, {{sent_bytes}} bytes ({{sent_kb}} KB) sent, {{received_bytes}} bytes ({{received_kb}} KB) received, lifetime {{lifetime}}: 1
+<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>: 6
+---------------------------
+---------------------------
+cluster 1: len=235
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes sent, <*> bytes received, lifetime <*> (final_template)
+{{host}}:{{port}} close, {{sent_bytes}} bytes sent, {{received_bytes}} bytes received, lifetime {{duration}}: 2
+{{host}}:{{port}} close, {{sent_bytes}} bytes sent, {{received_bytes}} bytes received, lifetime {{lifetime}}: 3
+<*> close, <*> bytes sent, <*> bytes received, lifetime <*>: 5
+---------------------------
+---------------------------
+cluster 5: len=224
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> (final_template)
+{{host}}:{{port}} close, {{sent_bytes}} bytes sent, {{received_bytes}} bytes ({{received_kb}} KB) received, lifetime {{lifetime}}: 2
+{{host}}:{{port}} close, {{sent_bytes}} bytes sent, {{received_bytes}} bytes ({{received_kb}} KB) received, lifetime {{duration}}: 2
+<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>: 4
+---------------------------
+---------------------------
+cluster 2: len=120
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec (final_template)
+{{host}}:{{port}} close, {{sent_bytes}} bytes sent, {{received_bytes}} bytes received, lifetime <1 sec: 1
+{{host}}:{{port}} close, {{sent}} bytes sent, {{received}} bytes received, lifetime <1 sec: 1
+{{hostname}}:{{port}} close, {{sent_bytes}} bytes sent, {{received_bytes}} bytes received, lifetime <1 sec: 1
+<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec: 3
+---------------------------
+---------------------------
+cluster 3: len=65
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec (final_template)
+{{hostname}}:{{port}} close, {{sent_bytes}} bytes sent, {{received_bytes}} bytes ({{received_kb}} KB) received, lifetime <1 sec: 1
+<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec: 1
+---------------------------
+---------------------------
+cluster 8: len=31
+<*> error : A connection request was canceled before the completion. (ground truth)
+<*> error : A connection request was canceled before the completion. (final_template)
+{{hostname}}:{{port}} error : A connection request was canceled before the completion.: 1
+<*> error : A connection request was canceled before the completion.: 1
+---------------------------
+---------------------------
+cluster 11: len=26
+<*> error : Could not connect to proxy <*> - connection attempt failed with error <*> (ground truth)
+<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*> (final_template)
+{{hostname}} error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061: 1
+<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=25
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec (final_template)
+{{host}}:{{port}} close, {{sent_bytes}} bytes ({{sent_kb}} KB) sent, {{received_bytes}} bytes ({{received_kb}} KB) received, lifetime <1 sec: 1
+<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec: 1
+---------------------------
+---------------------------
+cluster 10: len=20
+<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*> (ground truth)
+<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*> (final_template)
+{{hostname}}:{{port}} error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001: 1
+<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=17
+<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*> (ground truth)
+<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*> (final_template)
+{{host}} error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code {{status_code}}: 1
+<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=9
+<*> close, <*> sent, <*> received, lifetime <*> (ground truth)
+<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*> (final_template)
+{{host}}:{{port}} close, {{sent_bytes}} bytes ({{sent_kb}} KB) sent, {{received_bytes}} bytes ({{received_mb}} MB) received, lifetime {{duration}}: 1
+<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=3
+<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly. (ground truth)
+<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy closed the connection unexpectedly. (final_template)
+{{hostname}}:{{port}} error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.: 1
+<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy closed the connection unexpectedly.: 1
+---------------------------
+---------------------------
+cluster 12: len=2
+<*> open through proxy <*> SOCKS5 (ground truth)
+<*> open through proxy <*> SOCKS5 (final_template)
+{{source_ip}}:{{source_port}} open through proxy {{proxy_host}}:{{proxy_port}} SOCKS5: 1
+<*> open through proxy <*> SOCKS5: 1
+---------------------------

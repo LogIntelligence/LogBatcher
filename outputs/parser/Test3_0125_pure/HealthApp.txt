@@ -1,0 +1,459 @@
+---------------------------
+cluster 1: len=273
+onExtend:<*> <*> <*> <*> (ground truth)
+onExtend:<*> <*> <*> <*> (final_template)
+onExtend:{{timestamp}} 0 0 {{value}}: 4
+onExtend:{{timestamp}} {{value1}} 0 {{value2}}: 1
+onExtend:{{timestamp}} 0 0 {{number}}: 1
+onExtend:<*> <*> <*> <*>: 6
+---------------------------
+---------------------------
+cluster 0: len=260
+onStandStepChanged <*> (ground truth)
+onStandStepChanged <*> (final_template)
+onStandStepChanged {{number}}: 6
+onStandStepChanged <*>: 6
+---------------------------
+---------------------------
+cluster 5: len=242
+getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 6: len=241
+setTodayTotalDetailSteps=<*> (ground truth)
+setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*> (final_template)
+setTodayTotalDetailSteps=1514{{timestamp}}##{{var1}}##549659##8661##16256##{{var2}}: 1
+setTodayTotalDetailSteps=1514{{timestamp}}000##{{var1}}##549659##8661##16256##{{var2}}: 1
+setTodayTotalDetailSteps={{timestamp}}##{{var1}}##{{var2}}##{{var3}}##{{var4}}##{{var5}}: 3
+setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*>: 5
+---------------------------
+---------------------------
+cluster 7: len=241
+calculateCaloriesWithCache totalCalories=<*> (ground truth)
+calculateCaloriesWithCache totalCalories=<*> (final_template)
+calculateCaloriesWithCache totalCalories={{totalCalories}}: 5
+calculateCaloriesWithCache totalCalories=<*>: 5
+---------------------------
+---------------------------
+cluster 8: len=241
+calculateAltitudeWithCache totalAltitude=<*> (ground truth)
+calculateAltitudeWithCache totalAltitude=<*> (final_template)
+calculateAltitudeWithCache totalAltitude={{altitude}}: 4
+calculateAltitudeWithCache totalAltitude={{totalAltitude}}: 1
+calculateAltitudeWithCache totalAltitude=<*>: 5
+---------------------------
+---------------------------
+cluster 11: len=144
+processHandleBroadcastAction action:android.intent.action.TIME_TICK (ground truth)
+processHandleBroadcastAction action:android.intent.action.TIME_TICK (final_template)
+processHandleBroadcastAction action:android.intent.action.TIME_TICK: 3
+processHandleBroadcastAction action:android.intent.action.TIME_TICK: 3
+---------------------------
+---------------------------
+cluster 9: len=136
+REPORT : <*> <*> <*> <*> (ground truth)
+REPORT : <*> <*> <*> <*> (final_template)
+REPORT : {{number}} {{number}} {{number}} 240: 3
+REPORT : <*> <*> <*> <*>: 3
+---------------------------
+---------------------------
+cluster 2: len=17
+onReceive action: android.intent.action.SCREEN_ON (ground truth)
+onReceive action: android.intent.action.SCREEN_ON (final_template)
+onReceive action: android.intent.action.SCREEN_ON: 1
+onReceive action: android.intent.action.SCREEN_ON: 1
+---------------------------
+---------------------------
+cluster 3: len=17
+processHandleBroadcastAction action:android.intent.action.SCREEN_ON (ground truth)
+processHandleBroadcastAction action:android.intent.action.SCREEN_ON (final_template)
+processHandleBroadcastAction action:android.intent.action.SCREEN_ON: 1
+processHandleBroadcastAction action:android.intent.action.SCREEN_ON: 1
+---------------------------
+---------------------------
+cluster 4: len=17
+flush sensor data (ground truth)
+flush sensor data (final_template)
+flush sensor data: 1
+flush sensor data: 1
+---------------------------
+---------------------------
+cluster 10: len=17
+onReceive action: android.intent.action.SCREEN_OFF (ground truth)
+onReceive action: android.intent.action.SCREEN_OFF (final_template)
+onReceive action: android.intent.action.SCREEN_OFF: 1
+onReceive action: android.intent.action.SCREEN_OFF: 1
+---------------------------
+---------------------------
+cluster 14: len=17
+new date =<*>, type=<*>,<*>,old=<*> (ground truth)
+new date =<*>, type=<*>,<*>,old=<*> (final_template)
+new date ={{date}}, type={{type}},{{value}},old={{old}}: 1
+new date =<*>, type=<*>,<*>,old=<*>: 1
+---------------------------
+---------------------------
+cluster 13: len=8
+getBinderPackageName packageName = com.huawei.health (ground truth)
+getBinderPackageName packageName = <*> (final_template)
+getBinderPackageName packageName = {{packageName}}: 1
+getBinderPackageName packageName = <*>: 1
+---------------------------
+---------------------------
+cluster 24: len=6
+getTodaySportData mStepsRecordManager=<*> (ground truth)
+getTodaySportData mStepsRecordManager=com.huawei.health.g.c@<*> (final_template)
+getTodaySportData mStepsRecordManager=com.huawei.health.g.c@{{value}}: 1
+getTodaySportData mStepsRecordManager=com.huawei.health.g.c@<*>: 1
+---------------------------
+---------------------------
+cluster 12: len=5
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*> (ground truth)
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*> (final_template)
+upLoadOneMinuteDataToEngine time={{placeholder1}},0,{{placeholder2}},0,20002: 1
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>: 1
+---------------------------
+---------------------------
+cluster 15: len=5
+startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*> (ground truth)
+startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*> (final_template)
+startSync hiSyncOption = HiSyncOption{syncAction={{Number}}, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1: 1
+startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+needAutoSync autoSyncSwitch is open (ground truth)
+needAutoSync autoSyncSwitch is open (final_template)
+needAutoSync autoSyncSwitch is open: 1
+needAutoSync autoSyncSwitch is open: 1
+---------------------------
+---------------------------
+cluster 17: len=5
+initDataPrivacy the dataPrivacy switch is open, start push health data! (ground truth)
+initDataPrivacy the dataPrivacy switch is open, start push health data! (final_template)
+initDataPrivacy the dataPrivacy switch is open, start push health data!: 1
+initDataPrivacy the dataPrivacy switch is open, start push health data!: 1
+---------------------------
+---------------------------
+cluster 18: len=5
+initDataPrivacy the dataPrivacy is <*> (ground truth)
+initDataPrivacy the dataPrivacy is <*> (final_template)
+initDataPrivacy the dataPrivacy is true: 1
+initDataPrivacy the dataPrivacy is <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=5
+initUserPrivacy the userPrivacy switch is open, start push user data! (ground truth)
+initUserPrivacy the userPrivacy switch is open, start push user data! (final_template)
+initUserPrivacy the userPrivacy switch is open, start push user data!: 1
+initUserPrivacy the userPrivacy switch is open, start push user data!: 1
+---------------------------
+---------------------------
+cluster 20: len=5
+initUserPrivacy the userPrivacy is <*> (ground truth)
+initUserPrivacy the userPrivacy is <*> (final_template)
+initUserPrivacy the userPrivacy is true: 1
+initUserPrivacy the userPrivacy is <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=5
+ifCanSync not! no cloud version (ground truth)
+ifCanSync not! no cloud version (final_template)
+ifCanSync not! no cloud version: 1
+ifCanSync not! no cloud version: 1
+---------------------------
+---------------------------
+cluster 23: len=5
+timeStamp back,extendReportTimeStamp=<*> (ground truth)
+timeStamp back,extendReportTimeStamp=<*> (final_template)
+timeStamp back,extendReportTimeStamp={{timestamp}}: 1
+timeStamp back,extendReportTimeStamp=<*>: 1
+---------------------------
+---------------------------
+cluster 34: len=4
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*> (ground truth)
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*> (final_template)
+saveStatData() type ={{type}},time = {{time}},statClient = {{statClient}},who is {{who}}: 1
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>: 1
+---------------------------
+---------------------------
+cluster 54: len=3
+startTimer start autoSync (ground truth)
+startTimer start autoSync (final_template)
+startTimer start autoSync: 1
+startTimer start autoSync: 1
+---------------------------
+---------------------------
+cluster 55: len=3
+stepSyncOrNot appSynTimes is <*> (ground truth)
+stepSyncOrNot appSynTimes is <*> (final_template)
+stepSyncOrNot appSynTimes is 0: 1
+stepSyncOrNot appSynTimes is <*>: 1
+---------------------------
+---------------------------
+cluster 30: len=2
+getAppContext() isAppValid health or wear, packageName = <*> (ground truth)
+getAppContext() isAppValid <*> or <*>, packageName = <*> (final_template)
+getAppContext() isAppValid {{placeholder1}} or {{placeholder2}}, packageName = {{placeholder3}}: 1
+getAppContext() isAppValid <*> or <*>, packageName = <*>: 1
+---------------------------
+---------------------------
+cluster 31: len=2
+insertHiHealthData() checkAppType <*> appID = <*> (ground truth)
+insertHiHealthData() checkAppType <*> appID = <*> (final_template)
+insertHiHealthData() checkAppType  0 appID = 1: 1
+insertHiHealthData() checkAppType <*> appID = <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=2
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*> (ground truth)
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = com.huawei.health,writeStatType = <*> (final_template)
+insertHiHealthData() size = {{size}},app = 1,One Data Type = {{dataType}},packageName = com.huawei.health,writeStatType = 0: 1
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = com.huawei.health,writeStatType = <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=2
+saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*> (ground truth)
+saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*> (final_template)
+saveHealthDetailData() deviceID = {{placeholder1}},clientID={{placeholder2}},id={{placeholder3}}: 1
+saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>: 1
+---------------------------
+---------------------------
+cluster 35: len=2
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*> (ground truth)
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*> (final_template)
+saveHealthDetailData() saveOneDetailData fail hiHealthData = {{number}},type = {{number}}: 1
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>: 1
+---------------------------
+---------------------------
+cluster 36: len=2
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*> (ground truth)
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*> (final_template)
+bulkSaveDetailHiHealthData() size = {{size}},totalTime = {{totalTime}}: 1
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 37: len=2
+startListenerChange subscribeList = [<*>] (ground truth)
+startListenerChange subscribeList = [<*>] (final_template)
+startListenerChange subscribeList = [{{placeholder1}}]: 1
+startListenerChange subscribeList = [<*>]: 1
+---------------------------
+---------------------------
+cluster 39: len=2
+insertHiHealthData() end totalTime = <*> (ground truth)
+insertHiHealthData() end totalTime = <*> (final_template)
+insertHiHealthData() end totalTime = {{totalTime}}: 1
+insertHiHealthData() end totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 42: len=2
+checkInsertStatus stepSum or calorieSum is enough (ground truth)
+checkInsertStatus <*> is enough (final_template)
+checkInsertStatus {{placeholder}} is enough: 1
+checkInsertStatus <*> is enough: 1
+---------------------------
+---------------------------
+cluster 43: len=2
+checkInsertStatus stepStatSum or calorieStatSum is enough (ground truth)
+checkInsertStatus <*> is enough (match result)
+---------------------------
+---------------------------
+cluster 44: len=2
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*> (ground truth)
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*> (final_template)
+stepSyncOrNot appSynTimes is {{placeholder1}}, statsyncTimes is {{placeholder2}}: 1
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>: 1
+---------------------------
+---------------------------
+cluster 45: len=2
+startInsertSportSync start auto sync,app is <*> (ground truth)
+startInsertSportSync start auto sync,app is <*> (final_template)
+startInsertSportSync start auto sync,app is 1: 1
+startInsertSportSync start auto sync,app is <*>: 1
+---------------------------
+---------------------------
+cluster 46: len=2
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*> (ground truth)
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*> (final_template)
+checkFirstSyncByType no such data in db ,type is {{type}} deviceCode is {{deviceCode}}: 1
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>: 1
+---------------------------
+---------------------------
+cluster 47: len=2
+startInsertSportSync first <*> steps sync,do all sync (ground truth)
+startInsertSportSync first <*> steps sync,do all sync (final_template)
+startInsertSportSync first {{number}} steps sync,do all sync: 1
+startInsertSportSync first <*> steps sync,do all sync: 1
+---------------------------
+---------------------------
+cluster 63: len=2
+getTodayBasicStandardSteps= <*>##<*>##<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 65: len=2
+getDiffTotalSteps= <*>##<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 25: len=1
+isScreenOn <*> (ground truth)
+isScreenOn <*> (final_template)
+isScreenOn {{boolean}}: 1
+isScreenOn <*>: 1
+---------------------------
+---------------------------
+cluster 26: len=1
+screen status unknown,think screen on (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 27: len=1
+flushTempCacheToDB by stand (ground truth)
+<*> by <*> (final_template)
+{{action}} by {{user}}: 1
+<*> by <*>: 1
+---------------------------
+---------------------------
+cluster 28: len=1
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*> (ground truth)
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*> (final_template)
+Alarm uploadStaticsToDB totalSteps={{totalSteps}} Calories:{{calories}} Floor:{{floor}} Distance:{{distance}}: 1
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*>: 1
+---------------------------
+---------------------------
+cluster 29: len=1
+writeDataToDB size <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 38: len=1
+insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT (ground truth)
+<*>() <*> fail errorCode = <*>,errorMessage = <*> (final_template)
+insert{{Operation}}() bulkSaveDetail{{DataType}} fail errorCode = {{ErrorCode}},errorMessage = {{ErrorMessage}}: 1
+<*>() <*> fail errorCode = <*>,errorMessage = <*>: 1
+---------------------------
+---------------------------
+cluster 40: len=1
+uploadStaticsToDB() onResult type = <*> obj=<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 41: len=1
+uploadStaticsToDB failed message=<*> (ground truth)
+uploadStaticsToDB failed message=<*> (final_template)
+uploadStaticsToDB failed message={{boolean}}: 1
+uploadStaticsToDB failed message=<*>: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*> (ground truth)
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*> (final_template)
+saveRealTimeHealthDatasStat() size = {{size}},totalTime = {{totalTime}}: 1
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>: 1
+---------------------------
+---------------------------
+cluster 49: len=1
+InsertCallBack() onSuccess type = <*> data=<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 50: len=1
+InsertEvent success begin:<*> end:<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 51: len=1
+setWriteDBLastDataMinute=<*> (ground truth)
+setWriteDBLastDataMinute=<*> (final_template)
+setWriteDBLastDataMinute={{value}}: 1
+setWriteDBLastDataMinute=<*>: 1
+---------------------------
+---------------------------
+cluster 52: len=1
+setWriteDBLastDataMinute success (ground truth)
+<*> success (final_template)
+setWriteDB{{action}} success: 1
+<*> success: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+flush2DB result success (ground truth)
+<*> result <*> (final_template)
+{{action}} result {{status}}: 1
+<*> result <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+theDayChanged <*> (ground truth)
+theDayChanged <*> (final_template)
+theDayChanged {{timestamp}}: 1
+theDayChanged <*>: 1
+---------------------------
+---------------------------
+cluster 59: len=1
+getStepCounterStatus= <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 61: len=1
+registersensorsuccess: <*> (ground truth)
+registersensorsuccess: <*> (final_template)
+registersensorsuccess: {{boolean}}: 1
+registersensorsuccess: <*>: 1
+---------------------------
+---------------------------
+cluster 64: len=1
+tryToRecordAsBasicStepData bWrite <*> (ground truth)
+<*> bWrite <*> (final_template)
+tryToRecordAs{{action}}StepData bWrite {{value}}: 1
+<*> bWrite <*>: 1
+---------------------------
+---------------------------
+cluster 66: len=1
+setBasicStandardSteps basicStandardStep=<*> restartSteps=<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 67: len=1
+setDiffTotalSteps=<*> (ground truth)
+setDiffTotalSteps=<*> (final_template)
+setDiffTotalSteps={{number}}: 1
+setDiffTotalSteps=<*>: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+<*>|<*>|<*>|<*> (ground truth)
+<*>|<*>|<*>|<*> (final_template)
+tryToReload{{action}}{{timestamp}}|{{value1}}|{{value2}}|{{value3}}: 1
+<*>|<*>|<*>|<*>: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+reload : <*> restar <*> (ground truth)
+reload : <*> restar <*> (final_template)
+reload : {{number1}} restar {{number2}}: 1
+reload : <*> restar <*>: 1
+---------------------------
+---------------------------
+cluster 70: len=1
+next day:<*> (ground truth)
+next day:<*> (final_template)
+next day:steps{{number}}mLastReport{{number}}: 1
+next day:<*>: 1
+---------------------------
+---------------------------
+cluster 71: len=1
+setGoalNotifiShownRecord <*> <*> (ground truth)
+setGoalNotifiShownRecord <*> <*> (final_template)
+setGoalNotifiShownRecord {{timestamp}} {{boolean}}: 1
+setGoalNotifiShownRecord <*> <*>: 1
+---------------------------
+---------------------------
+cluster 74: len=1
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*> (ground truth)
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*> (final_template)
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is {{currentDay}} oldDay is {{oldDay}}: 1
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>: 1
+---------------------------
