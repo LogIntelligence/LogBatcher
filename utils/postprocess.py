@@ -85,7 +85,8 @@ def correct_single_template(template, user_strings=None):
                 token = '<*>'
 
         # apply DG
-        if re.match(r'^\d+$', token):
+        # Note: hexadecimal num also appears a lot in the logs
+        if re.match(r'^\d+$', token) or re.match(r'\b0[xX][0-9a-fA-F]+\b', token):
             token = '<*>'
 
         # apply WV

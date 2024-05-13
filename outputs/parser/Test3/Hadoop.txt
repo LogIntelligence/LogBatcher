@@ -1,0 +1,145 @@
+---------------------------
+cluster 24: len=476
+Address change detected. Old: <*> New: <*> (ground truth)
+Address change detected. Old: msra-sa-41/<*> New: msra-sa-<*> (final_template)
+Address change detected. Old: msra-sa-41/{{ip_address}}:{{port}} New: msra-sa-41:{{port}}: 1
+Address change detected. Old: msra-sa-41/<*> New: msra-sa-<*>: 1
+---------------------------
+---------------------------
+cluster 25: len=326
+Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ... (ground truth)
+Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ... (final_template)
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for {{number}} seconds.  Will retry shortly ...: 6
+Failed to renew lease for [DFSClient_NONMAPREDUCE_{{placeholder}}] for {{placeholder}} seconds.  Will retry shortly ...: 1
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for <*> seconds. Will retry shortly ...: 6
+Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...: 1
+---------------------------
+---------------------------
+cluster 23: len=289
+Progress of TaskAttempt <*> is : <*> (ground truth)
+Progress of TaskAttempt <*> is : <*> (final_template)
+Progress of TaskAttempt {{task_id}} is : {{progress}}: 3
+Progress of TaskAttempt <*> is : <*>: 3
+---------------------------
+---------------------------
+cluster 26: len=147
+ERROR IN CONTACTING RM. (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 27: len=146
+Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS) (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 6: len=131
+Recalculating schedule, headroom=<memory:<*>, vCores:<*> (ground truth)
+Recalculating schedule, headroom=<memory:<*>, vCores:<*> (final_template)
+Recalculating schedule, headroom=<memory:{{memory}}, vCores:{{vCores}}>: 1
+Recalculating schedule, headroom=<memory:<*>, vCores:<*>: 1
+---------------------------
+---------------------------
+cluster 7: len=130
+Reduce slow start threshold not met. completedMapsForReduceSlowstart <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 1: len=39
+Resolved <*> to <*> (ground truth)
+Resolved <*>.fareast.corp.microsoft.com to <*> (final_template)
+Resolved {{hostname}}.fareast.corp.microsoft.com to /default-rack: 1
+Resolved <*>.fareast.corp.microsoft.com to <*>: 1
+---------------------------
+---------------------------
+cluster 3: len=14
+<*> TaskAttempt Transitioned from NEW to UNASSIGNED (ground truth)
+<*> TaskAttempt Transitioned from NEW to UNASSIGNED (final_template)
+attempt_{{appid}}_{{taskid}}_{{tasktype}}_{{taskattempt}} TaskAttempt Transitioned from NEW to UNASSIGNED: 1
+<*> TaskAttempt Transitioned from NEW to UNASSIGNED: 1
+---------------------------
+---------------------------
+cluster 14: len=13
+Opening proxy : <*> (ground truth)
+Opening proxy : <*>.fareast.corp.microsoft.com:<*> (final_template)
+Opening proxy : {{hostname}}.fareast.corp.microsoft.com:{{port}}: 1
+Opening proxy : <*>.fareast.corp.microsoft.com:<*>: 1
+---------------------------
+---------------------------
+cluster 5: len=12
+getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*> (ground truth)
+getResources() for application_1445144423722_0020: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*> (final_template)
+getResources() for application_1445144423722_0020: ask={{Number}} release= {{Number}} newContainers={{Number}} finishedContainers={{Number}} resourcelimit=<memory:{{Number}}, vCores:{{Number}}> knownNMs={{Number}}: 1
+getResources() for application_1445144423722_0020: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>: 1
+---------------------------
+---------------------------
+cluster 10: len=12
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (ground truth)
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (final_template)
+After Scheduling: PendingReds:{{int}} ScheduledMaps:{{int}} ScheduledReds:{{int}} AssignedMaps:{{int}} AssignedReds:{{int}} CompletedMaps:{{int}} CompletedReds:{{int}} ContAlloc:{{int}} ContRel:{{int}} HostLocal:{{int}} RackLocal:{{int}}: 1
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=11
+<*> Task Transitioned from NEW to SCHEDULED (ground truth)
+<*> Task Transitioned from NEW to SCHEDULED (final_template)
+task_{{job_id}}_{{task_type}}_{{task_id}} Task Transitioned from NEW to SCHEDULED: 1
+<*> Task Transitioned from NEW to SCHEDULED: 1
+---------------------------
+---------------------------
+cluster 8: len=10
+Got allocated containers <*> (ground truth)
+Got allocated containers <*> (final_template)
+Got allocated containers {{number}}: 1
+Got allocated containers <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=10
+Assigned container <*> to <*> (ground truth)
+Assigned container <*> to <*> (final_template)
+Assigned container {{container_id}} to attempt_{{attempt_id}}: 1
+Assigned container <*> to <*>: 1
+---------------------------
+---------------------------
+cluster 11: len=10
+<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED (ground truth)
+<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED (final_template)
+attempt_{{appid}}_{{taskid}}_{{attemptid}} TaskAttempt Transitioned from UNASSIGNED to ASSIGNED: 1
+<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED: 1
+---------------------------
+---------------------------
+cluster 12: len=10
+Processing the event EventType: <*> for container <*> taskAttempt <*> (ground truth)
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*> (final_template)
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container {{container_id}} taskAttempt {{task_attempt_id}}: 1
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=10
+Launching <*> (ground truth)
+Launching <*> (final_template)
+Launching attempt_{{job_id}}_{{task_id}}_{{attempt_id}}: 1
+Launching <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=10
+Shuffle port returned by ContainerManager for <*> : <*> (ground truth)
+Shuffle port returned by ContainerManager for <*> : <*> (final_template)
+Shuffle port returned by ContainerManager for attempt_{{job_id}}_{{task_id}}_{{attempt_id}} : {{port_number}}: 1
+Shuffle port returned by ContainerManager for <*> : <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=10
+TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>] (ground truth)
+TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>] (final_template)
+TaskAttempt: [{{taskId}}] using containerId: [{{containerId}} on NM: [{{nodeManager}}]: 1
+TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>]: 1
+---------------------------
+---------------------------
+cluster 17: len=10
+<*> TaskAttempt Transitioned from ASSIGNED to RUNNING (ground truth)
+<*> TaskAttempt Transitioned from ASSIGNED to RUNNING (final_template)
+attempt_{{job_id}}_{{task_id}}_{{attempt_id}} TaskAttempt Transitioned from ASSIGNED to RUNNING: 1
+<*> TaskAttempt Transitioned from ASSIGNED to RUNNING: 1
+---------------------------
+---------------------------
+cluster 18: len=10

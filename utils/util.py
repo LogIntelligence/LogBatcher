@@ -85,3 +85,7 @@ def truncate(logs : list, max_length : int):
 
     prompt = '\n'.join(logs)
     return prompt
+
+
+# print(truncate(['Executing with tokens'], 4096))
+print('Executing with tokens')

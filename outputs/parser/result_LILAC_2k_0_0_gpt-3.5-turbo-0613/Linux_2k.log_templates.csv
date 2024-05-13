@@ -1,0 +1,111 @@
+EventId,EventTemplate
+E1,authentication failure; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>
+E2,check pass; user <*>
+E3,session opened for user <*> by (uid=<*>)
+E4,session closed for user <*>
+E5,ALERT exited abnormally with [<*>]
+E6,connection from <*> (<*>) at <*>
+E7,User <*> timed out after <*> seconds at <*>
+E8,cupsd shutdown succeeded
+E9,cupsd startup succeeded
+E10,restart.
+E11,Received SNMP packet(s) from <*>
+E12,Authentication failed from <*>: Permission denied in replay cache code
+E13,Kerberos authentication failed
+E14,Authentication failed from <*>: Software caused connection abort
+E15,*** info [<*>(<*>)]:
+E16,imps2: <*>
+E17,session opened for user <*> by LOGIN(uid=<*>)
+E18,<*> LOGIN ON <*>
+E19,removing device node '<*>'
+E20,creating device node '<*>'
+E21,Couldn't authenticate user
+E22,"ANONYMOUS FTP LOGIN FROM <*>, (anonymous)"
+E23,notify question section contains no <*>
+E24,getpeername (ftpd): <*>
+E25,warning: can't get client address: <*>
+E26,syslogd startup succeeded
+E27,"klogd <*>, log source = <*> started."
+E28,Linux version <*> (<*>) (gcc version <*>) <*> <*>
+E29,BIOS-provided physical RAM map:
+E30,BIOS-e820: <*> - <*> (usable)
+E31,BIOS-e820: <*> - <*> (reserved)
+E32,<*> HIGHMEM available.
+E33,<*> LOWMEM available.
+E34,zapping low mappings.
+E35,klogd startup succeeded
+E36,On node <*> totalpages: <*>
+E37,"DMA zone: <*> pages, LIFO batch:<*>"
+E38,"Normal zone: <*> pages, LIFO batch:<*>"
+E39,irqbalance startup succeeded
+E40,"HighMem zone: <*> pages, LIFO batch:<*>"
+E41,DMI <*> present.
+E42,ACPI disabled because your bios is from <*> and too old
+E43,You can enable it with <*>
+E44,Built <*> zonelists
+E45,Kernel command line: <*>
+E46,mapped <*> trampoline to <*>.
+E47,Initializing CPU#<*>
+E48,"CPU <*> irqstacks, hard=<*> soft=<*>"
+E49,portmap startup succeeded
+E50,PID hash table entries: <*> (order <*>: <*> bytes)
+E51,Detected <*> MHz processor.
+E52,Version <*> Starting
+E53,Using <*> for high-res timesource.
+E54,rpc.statd startup succeeded
+E55,Console: <*> <*>
+E56,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+E57,Calibrating delay loop... <*> BogoMIPS
+E58,Security Scaffold <*> initialized
+E59,SELinux: Initializing.
+E60,SELinux: Starting in <*> mode
+E61,"There is already a security framework initialized, <*> failed."
+E62,Failure registering capabilities with the kernel
+E63,selinux_register_security: Registering <*> module capability
+E64,Capability <*> initialized
+E65,rpc.idmapd startup succeeded
+E66,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)"
+E67,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)"
+E68,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)"
+E69,"CPU: L1 I cache: <*>, L1 D cache: <*>"
+E70,CPU: L2 cache: <*>
+E71,Intel machine check architecture supported.
+E72,Intel machine check reporting enabled on <*>.
+E73,CPU: <*> stepping <*>
+E74,Enabling fast FPU save and restore... done.
+E75,Enabling unmasked SIMD FPU exception support... done.
+E76,Checking <*> instruction... OK.
+E77,Initializing random number generator: <*>
+E78,POSIX conformance testing by <*>
+E79,NET: Registered protocol family <*>
+E80,"PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>"
+E81,PCI: Using configuration type <*>
+E82,mtrr: <*> (<*>)
+E83,ACPI: Subsystem revision <*>
+E84,ACPI: <*> disabled.
+E85,Linux Plug and Play Support v0.<*> (c) <*>
+E86,Starting pcmcia: <*>
+E87,usbcore: registered new driver <*>
+E88,ACPI: ACPI tables contain no PCI IRQ routing entries
+E89,PCI: <*>
+E90,Transparent bridge - <*>
+E91,apm: BIOS version <*> Flags <*> (Driver version <*>)
+E92,audit: initializing netlink socket (<*>)
+E93,kernel.core_uses_pid = <*>
+E94,HCI daemon ver <*> started
+E95,hcid startup succeeded
+E96,audit(<*>): initialized
+E97,Setting network parameters: <*>
+E98,sdpd startup succeeded
+E99,sdpd <*> started
+E100,"Total HugeTLB memory allocated, <*>"
+E101,Bringing up loopback interface: <*>
+E102,VFS: Disk quotas <*>
+E103,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)"
+E104,SELinux: Registering netfilter hooks
+E105,Initializing Cryptographic API
+E106,pci_hotplug: PCI Hot Plug PCI Core version: <*>
+E107,isapnp: Scanning for PnP cards...
+E108,isapnp: <*>
+E109,Real Time Clock Driver <*>
+E110,Linux agpgart interface <*> (c) Dave Jones

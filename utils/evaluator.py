@@ -13,38 +13,40 @@ def rule(template):
         template = template.replace('<*>:<*>', '<*>')   
     return template
 
-def evaluate(file, dataset, mismatch=False):
+def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
 
-    df = pd.read_csv(file)
+    df1 = pd.read_csv(output_file)
+    df2 = pd.read_csv(groundtruth_file)
 
     # Remove invalid groundtruth event Ids
-    null_logids = df[~df['EventTemplate'].isnull()].index
-    df = df.loc[null_logids]
+    null_logids = df1[~df1['EventTemplate'].isnull()].index
+    df1 = df1.loc[null_logids]
+    df2 = df2.loc[null_logids]
 
     # if dataset == 'Zookeeper':
     #     df['EventTemplate'] = df['EventTemplate'].apply(lambda x: rule(x))
 
-    accuracy_exact_string_matching = accuracy_score(np.array(df['EventTemplate'].values, dtype='str'),
-                                                    np.array(df['Output'], dtype='str'))
+    accuracy_exact_string_matching = accuracy_score(np.array(df1['EventTemplate'].values, dtype='str'),
+                                                    np.array(df2['EventTemplate'], dtype='str'))
     
     # find the mismatch values
-    if mismatch:
-        head,_,_ = file.rpartition('/')
-        os.makedirs(f'{head}/mismatch', exist_ok=True)
-        df_mismatch = df[df.EventTemplate != df.Output]
-        df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
+    # if mismatch:
+    #     head,_,_ = file.rpartition('/')
+    #     os.makedirs(f'{head}/mismatch', exist_ok=True)
+    #     df_mismatch = df[df.EventTemplate != df.Output]
+    #     df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
 
 
     edit_distance_result = []
-    for i, j in zip(np.array(df.EventTemplate.values, dtype='str'),
-                    np.array(df.Output.values, dtype='str')):
+    for i, j in zip(np.array(df1.EventTemplate.values, dtype='str'),
+                    np.array(df2.EventTemplate.values, dtype='str')):
         edit_distance_result.append(edit_distance(i, j))
 
     edit_distance_result_mean = np.mean(edit_distance_result)
     edit_distance_result_std = np.std(edit_distance_result)
 
-    (precision, recall, f_measure, accuracy_PA) = get_accuracy(df['EventTemplate'],
-                                                               df['Output'])
+    (precision, recall, f_measure, accuracy_PA) = get_accuracy(df1['EventTemplate'],
+                                                               df2['EventTemplate'])
 
     # print(
     #     'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (

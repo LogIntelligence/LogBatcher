@@ -1,0 +1,11 @@
+EventId,EventTemplate
+E1,<*> open through proxy <*> <*>
+E2,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+E3,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec"
+E4,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+E5,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec"
+E6,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+E7,"<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+E8,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
+E9,<*> error : <*>
+E10,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"

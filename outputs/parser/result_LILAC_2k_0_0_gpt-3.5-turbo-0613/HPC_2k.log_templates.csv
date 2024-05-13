@@ -1,0 +1,42 @@
+EventId,EventTemplate
+E1,Component State Change: Component <*> is in the <*> state (HWID=<*>)
+E2,clusterAddMember (command <*>)
+E3,risBoot (command <*>)
+E4,bootGenvmunix (command <*>)
+E5,boot (command <*>)
+E6,wait (command <*>)
+E7,halt (command <*>)
+E8,Command has completed successfully
+E9,Targeting domains:<*> and nodes:<*> child of command <*>
+E10,Targeting domains:<*> and nodes:<*>
+E11,psu failure\ ambient=<*>
+E12,Temperature (<*>) exceeds warning threshold
+E13,ClusterFileSystem: There is no server for <*> domain <*>.
+E14,NIFF: node <*> detected a failed network connection on network <*> via interface <*>
+E15,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+E16,Fan speeds ( <*> <*> <*> **** <*> <*> )
+E17,Fan speeds ( <*> <*> <*> <*> <*> <*> )
+E18,Command has been <*>
+E19,power/control problem
+E20,Link error
+E21,Link <*>
+E22,ServerFileSystem: ServerFileSystem domain <*> is full
+E23,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>
+E24,running
+E25,blocked
+E26,not responding
+E27,configured <*>
+E28,inconsistent nodesets <*>-<*> <*>
+E29,active
+E30,starting
+E31,closing
+E32,normal
+E33,warning
+E34,ambient=<*>
+E35,critical
+E36,<*> event interval expired
+E37,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+E38,boot (command <*>) Error: HALT asserted\ cannot continue
+E39,Failed subcommands <*>
+E40,link errors <*> current
+E41,NIFF: node <*> has detected an available network connection on network <*> via interface <*>

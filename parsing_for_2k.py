@@ -7,7 +7,7 @@ from tqdm import tqdm
 from utils.evaluator import evaluate
 from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
-from evaluate import evaluate_all_datasets
+from evaluate import evaluate_all_datasets, evaluate_single_dataset
 
 
 def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
@@ -42,7 +42,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     
     clusters = []
     for input in inputs:
-        c = Cluster(*input, remove_duplicate= False)
+        c = Cluster(*input, remove_duplicate= True)
         clusters.append(c)
 
     # Concurrent or not
@@ -72,15 +72,16 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     f.close()
     df['Tmps'] = tmps_list
     df['Output'] = outputs
-    df[['Content', 'EventTemplate', 'Tmps','Output']].to_csv(output_dir+ f'{dataset}.csv', index=False)
-    evaluate(output_dir + f'{dataset}.csv', dataset)
+    df[['Content', 'EventTemplate']].to_csv(
+        output_dir + f'{dataset}.csv', index=False)
+    evaluate_single_dataset(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
 
 
 # main
 if __name__ == "__main__":
-    datasets = [ 'Mac']
+    datasets = [ 'Hadoop']
     datasets = [dataset for dataset in datasets if dataset != 'HDFS']
-    theme = 'Test3_0125_pure'
+    theme = 'Test3'
     output_dir = f'outputs/parser/{theme}/'
     with open('config.json', 'r') as f:
         config = json.load(f)
@@ -88,4 +89,4 @@ if __name__ == "__main__":
 
     for index, dataset in enumerate(datasets):
         single_dataset_paring(dataset, output_dir, parser, Concurrent=False)
-    evaluate_all_datasets(theme,send_email=True)
+    # evaluate_all_datasets(theme,send_email=True)

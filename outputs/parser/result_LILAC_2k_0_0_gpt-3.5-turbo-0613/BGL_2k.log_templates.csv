@@ -1,0 +1,108 @@
+EventId,EventTemplate
+E1,instruction cache <*> corrected
+E2,<*> double-hummer alignment exceptions
+E3,"CE sym <*>, at <*>, mask <*>"
+E4,ciod: failed to read message prefix on control stream (CioStream socket to <*>
+E5,generating core.<*>
+E6,force load/store alignment...............<*>
+E7,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>
+E8,ciod: LOGIN chdir(<*>) failed: <*>
+E9,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
+E10,data TLB error interrupt
+E11,ciod: Message code <*> is not <*> or <*>
+E12,data storage <*>
+E13,instruction address: <*>
+E14,data address: <*>
+E15,machine check: <*>......................<*>
+E16,program interrupt: <*>......<*>
+E17,exception syndrome register: <*>
+E18,data store interrupt caused by <*>
+E19,store operation.............................<*>
+E20,machine state register: <*>
+E21,"problem state (<*>=sup,<*>=usr).......<*>"
+E22,floating point instr. enabled.....<*>
+E23,auxiliary processor.........................<*>
+E24,floating pt ex mode <*> enable......<*>
+E25,debug interrupt enable............<*>
+E26,byte ordering exception.....................<*>
+E27,core configuration register: <*>
+E28,guaranteed instruction cache block <*> touch.<*>
+E29,guaranteed data cache block touch........<*>
+E30,icache prefetch depth....................<*>
+E31,icache prefetch threshold................<*>
+E32,wait state enable.................<*>
+E33,critical input interrupt enable...<*>
+E34,special purpose registers:
+E35,lr:<*> cr:<*> xer:<*> ctr:<*>
+E36,<*> internal error
+E37,debug wait <*>.................<*>
+E38,disable store gathering..................<*>
+E39,total of <*> ddr error(s) detected and corrected
+E40,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
+E41,ciod: Error creating node map from file <*>: No child processes
+E42,Node card is not fully functional
+E43,ciod: Error creating node map from file <*>: Bad file descriptor
+E44,Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>
+E45,Can not get assembly information for <*>
+E46,ciod: Missing or invalid fields on line <*> of node map file <*>
+E47,<*> torus receiver z+ input pipe error(s) (<*>) detected and corrected
+E48,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>
+E49,ciod: Error creating node map from file <*>: Block device required
+E50,rts panic! - stopping execution
+E51,ciod: Error creating node map from file <*>: Permission denied
+E52,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+E53,"rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>"
+E54,<*> floating point alignment exceptions
+E55,New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>
+E56,<*> is not fully functional
+E57,Node card status: <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. <*>. Temperature Limit Error Latch is <*>. PGOOD is <*>. PGOOD error latch is <*>. MPGOOD is <*>. MPGOOD error latch is <*>. The <*> volt rail is <*>. The <*> volt rail is <*>.
+E58,"Node card VPD check: <*> node in <*> do not match. VPD ecid <*>, found <*>"
+E59,idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*>
+E60,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK.
+E61,"PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>"
+E62,rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*>
+E63,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
+E64,"ciod: Error loading <*>: invalid or missing program image, Exec format error"
+E65,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed
+E66,rts: kernel terminated for reason <*>
+E67,ciod: generated <*> core files for program <*>
+E68,iar <*> dear <*>
+E69,"NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)"
+E70,Lustre mount FAILED : <*>
+E71,<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected
+E72,ciod: pollControlDescriptors: Detected the <*> died.
+E73,"ciod: In packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*>)"
+E74,suppressing further interrupts of same type
+E75,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=00001f01 PSR1=<*> PRXF=<*> PIXF=<*>
+E76,critical input interrupt (unit=<*> bit=<*>): warning for torus y+ wire
+E77,"ciod: Error loading <*>: invalid or missing program image, <*>"
+E78,data cache search parity error detected. attempting to correct
+E79,shutdown complete
+E80,critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire
+E81,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*>) PSR0=00001f01 PSR1=<*> PRXF=<*> PIXF=<*>"
+E82,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected
+E83,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*>) PSR0=20021f01 PSR1=<*> PRXF=<*> PIXF=<*>"
+E84,"critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type"
+E85,<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+E86,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
+E87,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>)
+E88,"ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out"
+E89,"ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer"
+E90,dbcr0=<*> dbsr=<*> ccr0=<*>
+E91,"ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed"
+E92,r24=<*> r25=<*> r26=<*> r27=<*>
+E93,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds
+E94,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.
+E95,"<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."
+E96,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"
+E97,"PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>"
+E98,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*>"
+E99,total of <*> ddr error(s) detected and corrected over <*> seconds
+E100,minus normalized number..................<*>
+E101,fraction rounded.........................<*>
+E102,"critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire, suppressing further interrupts of same type"
+E103,size of scratchpad portion of L3.........<*> (<*>)
+E104,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected over <*> seconds
+E105,"ciod: Error loading <*>: program image too big, <*> > <*>"
+E106,fpr29=<*> <*>
+E107,Machine State Register: <*>

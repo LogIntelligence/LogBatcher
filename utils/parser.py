@@ -51,8 +51,13 @@ class Cluster_Parser:
         tmps = []
         templates = []
 
+        # remove duplicate logs
+        if len(set(logs)) == 1:
+            logs = logs[0]
+
         for i in range(0, len(logs), self.batch_num):
             batch_logs = logs[i:i+self.batch_num]
+
             # if all logs's length is 1, and not contain any digit, return the log itself
             # can't handle log like setLightOn(true)
             if all(len(re.split(' ', log)) == 1 and not any(char.isdigit() for char in log) for log in batch_logs):
@@ -95,6 +100,7 @@ class Cluster_Parser:
 
             for i in range(3):
                 answer = self.chat(messages, add=i)
+
                 tmp, template = post_process(response = answer, reference_log = batch_logs[0]) # tmp means the template before post process
                 if template != '':
                     tmps.append(tmp)

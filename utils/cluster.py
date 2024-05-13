@@ -82,7 +82,7 @@ def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
 
 
 def vectorize(tokenized_logs):
-    vectorizer = TfidfVectorizer(tokenizer=lambda x: x, lowercase=False)
+    vectorizer = TfidfVectorizer(tokenizer=lambda x: x, lowercase=False, token_pattern=None)
     return vectorizer.fit_transform(tokenized_logs)
 
 

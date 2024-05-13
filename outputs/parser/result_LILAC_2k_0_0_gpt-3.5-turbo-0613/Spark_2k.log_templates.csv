@@ -1,0 +1,35 @@
+EventId,EventTemplate
+E1,Registered signal handlers for <*>
+E2,Changing view acls to: <*>
+E3,Changing modify acls to: <*>
+E4,SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(<*>); users with modify permissions: Set(<*>)
+E5,Slf4jLogger started
+E6,Starting <*>
+E7,Remoting started; listening on addresses :[<*>]
+E8,Successfully started service <*> on port <*>.
+E9,Created local directory at <*>
+E10,MemoryStore started with capacity <*>
+E11,Connecting to driver: <*>://<*>
+E12,Successfully registered with driver
+E13,Server created on <*>
+E14,Trying to register <*>
+E15,Registered <*>
+E16,Got assigned task <*>
+E17,Running task <*> in stage <*> (TID <*>)
+E18,Started reading broadcast variable <*>
+E19,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+E20,Reading broadcast variable <*> took <*> ms
+E21,"Block <*> stored as values in memory (estimated size <*>, free <*>)"
+E22,"Partition <*> not found, computing it"
+E23,Input split: <*>+<*>
+E24,"mapred.tip.id is deprecated. Instead, use <*>"
+E25,"mapred.task.id is deprecated. Instead, use <*>."
+E26,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap"
+E27,"mapred.job.id is deprecated. Instead, use mapreduce.job.id"
+E28,"mapred.task.partition is deprecated. Instead, use <*>"
+E29,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+E30,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver.
+E31,Found block <*> locally
+E32,File Output Committer Algorithm version is <*>
+E33,Saved output of task <*> to <*>
+E34,<*>: Committed

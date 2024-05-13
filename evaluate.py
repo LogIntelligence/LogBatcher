@@ -14,7 +14,7 @@ def calculate_avg(numbers):
 
 def evaluate_all_datasets(file_name, send_email=False):
 
-    table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Windows Linux Android HealthApp Apache Proxifier OpenSSH OpenStack Mac'
+    table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Windows Linux Android HealthApp Apache OpenSSH OpenStack Mac'
     datasets = table_order.split(' ')
 
     table_data = {
@@ -24,16 +24,16 @@ def evaluate_all_datasets(file_name, send_email=False):
         'ED': []
     }
 
-    result_table_path = f'outputs/parser/{file_name}/result_table.csv'
+    result_table_path = f'outputs/parser/result_table_{file_name}.csv'
     if os.path.exists(result_table_path):
         df = pd.read_csv(result_table_path)
     else:
         ga, pa, ed = [], [], []
         for dataset in datasets:
             table_data['dataset'].append(dataset)
-            file_path = f'outputs/parser/{file_name}/{dataset}.csv'
+            output_file = f'outputs/parser/{file_name}/{dataset}_2k.log_structured.csv'
 
-            a, b, c, d = evaluate(file_path, dataset)
+            a, b, c, d = evaluate(output_file=output_file, groundtruth_file=f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset=dataset)
             ga.append(a)
             pa.append(b)
             ed.append(c)
@@ -51,4 +51,8 @@ def evaluate_all_datasets(file_name, send_email=False):
         sender = Email_send(file_name)
         sender.send_table(table)
     return table
+
+
+def evaluate_single_dataset(output_file, dataset):
+    evaluate(output_file, f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset)
 
