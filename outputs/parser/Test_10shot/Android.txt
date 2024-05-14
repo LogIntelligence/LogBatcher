@@ -1,0 +1,1150 @@
+---------------------------
+cluster 6: len=200
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>) (ground truth)
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>) (final_template)
+setSystemUiVisibility vis={{vis}} mask={{mask}} oldVal={{oldVal}} newVal={{newVal}} diff={{diff}} fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0): 1
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>): 1
+---------------------------
+---------------------------
+cluster 0: len=199
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*> (ground truth)
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=-<*>,adj=<*>.0userId=<*> (final_template)
+ready=true,policy=3,wakefulness=1,wksummary={{value1}},uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0: 1
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>: 1
+---------------------------
+---------------------------
+cluster 41: len=181
+setLightsOn(<*>) (ground truth)
+setLightsOn(<*>) (final_template)
+setLightsOn(true): 1
+setLightsOn(<*>): 1
+---------------------------
+---------------------------
+cluster 16: len=85
+HBM brightnessIn =<*> (ground truth)
+HBM brightnessIn =<*> (final_template)
+HBM brightnessIn ={{value}}: 1
+HBM brightnessIn =<*>: 1
+---------------------------
+---------------------------
+cluster 17: len=85
+HBM brightnessOut =<*> (ground truth)
+HBM brightnessOut =<*> (final_template)
+HBM brightnessOut ={{value}}: 1
+HBM brightnessOut =<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=85
+Animating brightness: target=<*>, rate=<*> (ground truth)
+Animating brightness: target=<*>, rate=<*> (final_template)
+Animating brightness: target={{target}}, rate={{rate}}: 1
+Animating brightness: target=<*>, rate=<*>: 1
+---------------------------
+---------------------------
+cluster 4: len=81
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output (ground truth)
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output (final_template)
+getRunningAppProcesses: caller {{caller_id}} does not hold REAL_GET_TASKS; limiting output: 1
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output: 1
+---------------------------
+---------------------------
+cluster 10: len=69
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*> (ground truth)
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*> (final_template)
+userActivityNoUpdateLocked: eventTime={{eventTime}}, event={{event}}, flags={{flags}}, uid={{uid}}: 1
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>: 1
+---------------------------
+---------------------------
+cluster 2: len=52
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (ground truth)
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (final_template)
+updateClipping isOverlap:false, getTopPadding=333.0, Translation={{Translation}}: 1
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>: 1
+---------------------------
+---------------------------
+cluster 3: len=52
+updateDimmedActivatedHideSensitive overlap:<*> (ground truth)
+updateDimmedActivatedHideSensitive overlap:<*> (final_template)
+updateDimmedActivatedHideSensitive overlap:false: 1
+updateDimmedActivatedHideSensitive overlap:<*>: 1
+---------------------------
+---------------------------
+cluster 12: len=37
+shouldBlockLocation running ... (ground truth)
+shouldBlockLocation running ... (final_template)
+shouldBlockLocation running ...: 1
+shouldBlockLocation running ...: 1
+---------------------------
+---------------------------
+cluster 53: len=37
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output (ground truth)
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output (final_template)
+getTasks: caller {{caller_id}} does not hold REAL_GET_TASKS; limiting output: 1
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output: 1
+---------------------------
+---------------------------
+cluster 13: len=33
+shouldBlockLocation ret:<*> (ground truth)
+shouldBlockLocation ret:<*> (final_template)
+shouldBlockLocation  ret:false: 1
+shouldBlockLocation ret:<*>: 1
+---------------------------
+---------------------------
+cluster 15: len=33
+Releasing suspend blocker "PowerManagerService.WakeLocks". (ground truth)
+Releasing suspend blocker "PowerManagerService.WakeLocks". (final_template)
+Releasing suspend blocker "PowerManagerService.WakeLocks".: 1
+Releasing suspend blocker "PowerManagerService.WakeLocks".: 1
+---------------------------
+---------------------------
+cluster 25: len=33
+Acquiring suspend blocker "PowerManagerService.WakeLocks". (ground truth)
+Acquiring suspend blocker "PowerManagerService.WakeLocks". (final_template)
+Acquiring suspend blocker "PowerManagerService.WakeLocks".: 1
+Acquiring suspend blocker "PowerManagerService.WakeLocks".: 1
+---------------------------
+---------------------------
+cluster 5: len=25
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*> (final_template)
+release:lock={{lock}}, flg={{flag}}, tag="{{tag}}", name={{name}}", ws={{worksource}}, uid={{uid}}, pid={{pid}}: 1
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=25
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (final_template)
+acquire lock={{lock}}, flags={{flags}}, tag="{{tag}}", name={{name}}, ws={{ws}}, uid={{uid}}, pid={{pid}}: 1
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 9: len=24
+Destroying surface Surface(name=<*>) called by <*> (ground truth)
+Destroying surface Surface(name=<*>) called by <*> <*> <*> <*> <*> (final_template)
+Destroying surface Surface(name={{surface_name}}) called by {{caller1}}:{{line1}} {{caller2}}:{{line2}} {{caller3}}:{{line3}} {{caller4}}:{{line4}} {{caller5}}:{{line5}}: 1
+Destroying surface Surface(name=<*>) called by <*> <*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 19: len=23
+suspendAutohide (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 37: len=23
+cancelNotification,index:<*> (ground truth)
+cancelNotification,index:<*> (final_template)
+cancelNotification,index:{{index}}: 1
+cancelNotification,index:<*>: 1
+---------------------------
+---------------------------
+cluster 45: len=21
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) } (final_template)
+Skipping, withExcluded: {{false}}, tr.intent:Intent { flg={{0x18800000}} cmp={{com.tencent.mm/.plugin.base.stub.WXEntryActivity}} (has extras) }: 1
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }: 1
+---------------------------
+---------------------------
+cluster 31: len=20
+cancelPeek: <*> (ground truth)
+cancelPeek: <*> (final_template)
+cancelPeek: false: 1
+cancelPeek: <*>: 1
+---------------------------
+---------------------------
+cluster 50: len=20
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*> (ground truth)
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*> (final_template)
+cancelNotificationWithTag pid {{pid}},uid = {{uid}},tag = {{tag}},pkg ={{package}},id ={{notification_id}}: 1
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=19
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*> (ground truth)
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*> (final_template)
+notifyUiVisibilityChanged:vis={{vis}}, SystemUiVisibility={{SystemUiVisibility}}: 1
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>: 1
+---------------------------
+---------------------------
+cluster 24: len=17
+querySoundEffectsEnabled... (ground truth)
+<*>... (final_template)
+query{{placeholder1}}Enabled...: 1
+<*>...: 1
+---------------------------
+---------------------------
+cluster 7: len=15
+cancelAutohide (ground truth)
+cancelAutohide (final_template)
+cancelAutohide: 1
+cancelAutohide: 1
+---------------------------
+---------------------------
+cluster 21: len=14
+interceptKeyBeforeQueueing: key <*> , result : <*> (ground truth)
+interceptKeyBeforeQueueing: key <*> , result : <*> (final_template)
+interceptKeyBeforeQueueing: key {{key}} , result : {{result}}: 1
+interceptKeyBeforeQueueing: key <*> , result : <*>: 1
+---------------------------
+---------------------------
+cluster 43: len=14
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=[<*>,<*>][<*>,<*>] } (final_template)
+Skipping, withExcluded: false, tr.intent:Intent { flg={{flg}} cmp={{component}} bnds=[{{left}},{{top}}][{{right}},{{bottom}}] }: 1
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=[<*>,<*>][<*>,<*>] }: 1
+---------------------------
+---------------------------
+cluster 44: len=14
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) } (final_template)
+Skipping, withExcluded: false, tr.intent:Intent { act={{action}} flg={{flags}} cmp={{component}} (has extras) }: 1
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }: 1
+---------------------------
+---------------------------
+cluster 48: len=14
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*> (ground truth)
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*> (final_template)
+getRecentTasks: num={{num}},flags={{flags}},totalTasks={{totalTasks}}: 1
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>: 1
+---------------------------
+---------------------------
+cluster 49: len=14
+getRecentTasks: topActivity=ComponentInfo{<*>} (ground truth)
+getRecentTasks: topActivity=ComponentInfo<*> (final_template)
+getRecentTasks: topActivity=ComponentInfo{{packageName}}/{{activityName}}: 1
+getRecentTasks: topActivity=ComponentInfo<*>: 1
+---------------------------
+---------------------------
+cluster 27: len=13
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*> (ground truth)
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*> (final_template)
+overlapAmount:{{overlapAmount}}, previousNotificationEnd:{{previousNotificationEnd}}, newYTranslation:{{newYTranslation}}, location:{{location}}, i:{{i}}, getTopPadding:{{getTopPadding}}, getLocationOnScreen():{{getLocationOnScreen()}}: 1
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>: 1
+---------------------------
+---------------------------
+cluster 29: len=13
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (ground truth)
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (match result)
+---------------------------
+---------------------------
+cluster 30: len=13
+updateDimmedActivatedHideSensitive overlap:<*> (ground truth)
+updateDimmedActivatedHideSensitive overlap:<*> (match result)
+---------------------------
+---------------------------
+cluster 38: len=13
+updateNotificationShade: total=<*>, active=<*> (ground truth)
+updateNotificationShade: total=<*>, active=<*> (final_template)
+updateNotificationShade: total={{total}}, active={{active}}: 1
+updateNotificationShade: total=<*>, active=<*>: 1
+---------------------------
+---------------------------
+cluster 28: len=12
+state.clipTopAmount:<*>, i:<*> (ground truth)
+state.clipTopAmount:<*>, i:<*> (final_template)
+state.clipTopAmount:{{amount}}, i:{{index}}: 1
+state.clipTopAmount:<*>, i:<*>: 1
+---------------------------
+---------------------------
+cluster 42: len=12
+removeNotificationChildren (ground truth)
+removeNotificationChildren (final_template)
+removeNotificationChildren: 1
+removeNotificationChildren: 1
+---------------------------
+---------------------------
+cluster 51: len=12
+closeQs (ground truth)
+closeQs (final_template)
+closeQs: 1
+closeQs: 1
+---------------------------
+---------------------------
+cluster 54: len=12
+isMusicActive... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 22: len=10
+resumeSuspendedAutohide (ground truth)
+resumeSuspendedAutohide (final_template)
+resumeSuspendedAutohide: 1
+resumeSuspendedAutohide: 1
+---------------------------
+---------------------------
+cluster 35: len=10
+playSoundEffect effectType: <*> (ground truth)
+playSoundEffect effectType: <*> (final_template)
+playSoundEffect   effectType: {{effectType}}: 1
+playSoundEffect effectType: <*>: 1
+---------------------------
+---------------------------
+cluster 52: len=9
+instantCollapse (ground truth)
+instantCollapse (final_template)
+instantCollapse: 1
+instantCollapse: 1
+---------------------------
+---------------------------
+cluster 55: len=9
+getLastAudibleStreamVolume treamType: <*> (ground truth)
+getLastAudibleStreamVolume treamType: <*> (final_template)
+getLastAudibleStreamVolume  treamType: {{placeholder}}: 1
+getLastAudibleStreamVolume treamType: <*>: 1
+---------------------------
+---------------------------
+cluster 36: len=8
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*> (ground truth)
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*> (final_template)
+animateCollapsePanels:flags={{flags}}, force={{force}}, delayed={{delayed}}, mExpandedVisible={{mExpandedVisible}}: 1
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>: 1
+---------------------------
+---------------------------
+cluster 20: len=7
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*> (ground truth)
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=2b000002 down <*> canceled <*> (final_template)
+interceptKeyTq keycode={{keycode}} interactive=true keyguardActive=false policyFlags=2b000002 down true canceled false: 1
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=2b000002 down <*> canceled <*>: 1
+---------------------------
+---------------------------
+cluster 23: len=7
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*> (ground truth)
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=2b000002 down <*> canceled <*> (match result)
+---------------------------
+---------------------------
+cluster 46: len=7
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) } (final_template)
+Skipping, withExcluded: false, tr.intent:Intent { act={{action}} dat={{data}} flg={{flags}} cmp={{component}} (has extras) }: 1
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }: 1
+---------------------------
+---------------------------
+cluster 47: len=7
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) } (ground truth)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) } (final_template)
+Skipping, withExcluded: false, tr.intent:Intent { act={{action}} dat={{data}} typ={{type}} flg={{flags}} cmp={{component}} (has extras) }: 1
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) }: 1
+---------------------------
+---------------------------
+cluster 26: len=6
+updateLightsLocked,turn off notificationLight (ground truth)
+updateLightsLocked,turn off notificationLight (final_template)
+updateLightsLocked,turn off notificationLight: 1
+updateLightsLocked,turn off notificationLight: 1
+---------------------------
+---------------------------
+cluster 32: len=6
+logNotificationVisibilityChanges runInThread start (ground truth)
+<*> runInThread <*> (final_template)
+log{{placeholder1}} runInThread {{placeholder2}}: 1
+<*> runInThread <*>: 1
+---------------------------
+---------------------------
+cluster 33: len=6
+onNotificationVisibilityChanged called (ground truth)
+onNotificationVisibilityChanged called (final_template)
+onNotificationVisibilityChanged called: 1
+onNotificationVisibilityChanged called: 1
+---------------------------
+---------------------------
+cluster 34: len=6
+logNotificationVisibilityChanges runInThread over (ground truth)
+<*> runInThread <*> (match result)
+---------------------------
+---------------------------
+cluster 39: len=6
+The change in focus caused us to need to do a layout begin (ground truth)
+The change in focus caused us to need to do a layout begin (final_template)
+The change in focus caused us to need to do a layout begin: 1
+The change in focus caused us to need to do a layout begin: 1
+---------------------------
+---------------------------
+cluster 40: len=6
+The change in focus caused us to need to do a layout end (ground truth)
+The change in focus caused us to need to do a layout end (final_template)
+The change in focus caused us to need to do a layout end: 1
+The change in focus caused us to need to do a layout end: 1
+---------------------------
+---------------------------
+cluster 56: len=6
+cleanUpApplicationRecord -- <*> (ground truth)
+cleanUpApplicationRecord -- <*> (final_template)
+cleanUpApplicationRecord -- {{number}}: 1
+cleanUpApplicationRecord -- <*>: 1
+---------------------------
+---------------------------
+cluster 57: len=6
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*> (ground truth)
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*> (final_template)
+cleanUpApplicationRecordLocked, pid: {{pid}}, restart: {{restart}}: 1
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*>: 1
+---------------------------
+---------------------------
+cluster 58: len=6
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*> (ground truth)
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*> (final_template)
+cleanUpApplicationRecordLocked, reset pid: {{pid}}, euid: {{euid}}: 1
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>: 1
+---------------------------
+---------------------------
+cluster 59: len=6
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*> (ground truth)
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*> (final_template)
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false: 1
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*>: 1
+---------------------------
+---------------------------
+cluster 60: len=6
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*> (ground truth)
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*> (final_template)
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount={{count}}: 1
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>: 1
+---------------------------
+---------------------------
+cluster 1: len=5
+mVisiblity.getValue is <*> (ground truth)
+<*> is <*> (final_template)
+{{functionName}} is {{value}}: 1
+<*> is <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=5
+getNeighboringCellInfo calling app is <*> (ground truth)
+getNeighboringCellInfo calling app is com.amap.android.ams (final_template)
+getNeighboringCellInfo calling app is com.amap.android.ams: 1
+getNeighboringCellInfo calling app is com.amap.android.ams: 1
+---------------------------
+---------------------------
+cluster 63: len=4
+Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide (ground truth)
+Skipping <*> -- going to hide (final_template)
+Skipping AppWindowToken{{token}} -- going to hide: 1
+Skipping <*> -- going to hide: 1
+---------------------------
+---------------------------
+cluster 84: len=4
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true (ground truth)
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true (final_template)
+updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true: 1
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true: 1
+---------------------------
+---------------------------
+cluster 99: len=4
+onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*> (ground truth)
+onInterceptTouchEvent MotionEvent { action=<*>, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*> (final_template)
+onInterceptTouchEvent MotionEvent { action={{action}}, actionButton=0, id[0]=0, x[0]={{x}}, y[0]={{y}}, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime={{eventTime}}, downTime={{downTime}}, deviceId={{deviceId}}, source=0x1002 }, mBlockTouches=false: 1
+onInterceptTouchEvent MotionEvent { action=<*>, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>: 1
+---------------------------
+---------------------------
+cluster 105: len=4
+cancelNotificationLocked:<*>|<*>|<*>|<*>|<*> (ground truth)
+<*>|<*>|<*>|<*>|<*> (final_template)
+{{action}}:{{status}}|{{package_name}}|{{notification_id}}|{{extra_info}}|{{code}}: 1
+<*>|<*>|<*>|<*>|<*>: 1
+---------------------------
+---------------------------
+cluster 108: len=4
+Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>] (ground truth)
+Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>] (final_template)
+Taking screenshot from Surface with crop:[Rect({{x1}}, {{y1}} - {{x2}}, {{y2}})], width:[{{width}}], height:[{{height}}], minLayer:[{{minLayer}}], maxLayer:[{{maxLayer}}], inRotation:[{{inRotation}}], rot:[{{rotation}}]: 1
+Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]: 1
+---------------------------
+---------------------------
+cluster 109: len=4
+makeExpandedInvisible: mExpandedVisible=<*> (ground truth)
+makeExpandedInvisible: mExpandedVisible=<*> (final_template)
+makeExpandedInvisible: mExpandedVisible={{mExpandedVisible}}: 1
+makeExpandedInvisible: mExpandedVisible=<*>: 1
+---------------------------
+---------------------------
+cluster 114: len=4
+ActivityManagerService,attachApplication,callingPid = <*> (ground truth)
+ActivityManagerService,attachApplication,callingPid = <*> (final_template)
+ActivityManagerService,attachApplication,callingPid = {{callingPid}}: 1
+ActivityManagerService,attachApplication,callingPid = <*>: 1
+---------------------------
+---------------------------
+cluster 143: len=4
+mHeadsUpExistenceChangedRunnable (ground truth)
+mHeadsUpExistenceChangedRunnable (final_template)
+mHeadsUpExistenceChangedRunnable: 1
+mHeadsUpExistenceChangedRunnable: 1
+---------------------------
+---------------------------
+cluster 149: len=4
+shouldBlockLocation ret:<*> (ground truth)
+shouldBlockLocation ret:<*> (match result)
+---------------------------
+---------------------------
+cluster 76: len=3
+rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED (ground truth)
+rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED (final_template)
+rotationForOrientationLw(orient={{orient}}, last=0); user=0 USER_ROTATION_LOCKED: 1
+rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED: 1
+---------------------------
+---------------------------
+cluster 77: len=3
+Application requested orientation <*>, got rotation <*> which has compatible metrics (ground truth)
+Application requested orientation <*>, got rotation <*> which has compatible metrics (final_template)
+Application requested orientation {{orientation}}, got rotation 0 which has compatible metrics: 1
+Application requested orientation <*>, got rotation <*> which has compatible metrics: 1
+---------------------------
+---------------------------
+cluster 83: len=3
+disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings > (ground truth)
+disable: < expand <*> alerts <*> back home recent clock navigationbar search quick_settings > (final_template)
+disable: < expand {{ICONS*}} alerts {{SYSTEM_INFO*}} back home recent clock navigationbar search quick_settings >: 1
+disable: < expand <*> alerts <*> back home recent clock navigationbar search quick_settings >: 1
+---------------------------
+---------------------------
+cluster 93: len=3
+registerCallback not in UI. (ground truth)
+registerCallback not in UI. (final_template)
+registerCallback not in UI.: 1
+registerCallback not in UI.: 1
+---------------------------
+---------------------------
+cluster 94: len=3
+<*>: Must execute in UI (ground truth)
+<*>: <*> (final_template)
+{{exception_type}}: {{error_message}}: 1
+<*>: <*>: 1
+---------------------------
+---------------------------
+cluster 110: len=3
+disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings > (ground truth)
+disable: < expand <*> alerts <*> back home recent clock navigationbar search quick_settings > (match result)
+---------------------------
+---------------------------
+cluster 121: len=3
+sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 122: len=3
+Received TIME_TICK alarm; rescheduling (ground truth)
+Received TIME_TICK alarm; rescheduling (final_template)
+Received TIME_TICK alarm; rescheduling: 1
+Received TIME_TICK alarm; rescheduling: 1
+---------------------------
+---------------------------
+cluster 123: len=3
+scheduleTimeTickEvent triggerAtTime = <*> (ground truth)
+scheduleTimeTickEvent triggerAtTime = <*> (final_template)
+scheduleTimeTickEvent triggerAtTime = {{triggerAtTime}}: 1
+scheduleTimeTickEvent triggerAtTime = <*>: 1
+---------------------------
+---------------------------
+cluster 124: len=3
+received broadcast <*> (ground truth)
+received broadcast android.intent.action.TIME_TICK (final_template)
+received broadcast android.intent.action.TIME_TICK: 1
+received broadcast android.intent.action.TIME_TICK: 1
+---------------------------
+---------------------------
+cluster 125: len=3
+handleTimeUpdate (ground truth)
+handleTimeUpdate (final_template)
+handleTimeUpdate: 1
+handleTimeUpdate: 1
+---------------------------
+---------------------------
+cluster 140: len=3
+getRingerMode... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 150: len=3
+getAllCellInfo is blocked by permission manager . callingPackage = <*> (ground truth)
+<*> is blocked by permission manager . callingPackage = <*> (final_template)
+{{function}} is blocked by permission manager . callingPackage = {{packageName}}: 1
+<*> is blocked by permission manager . callingPackage = <*>: 1
+---------------------------
+---------------------------
+cluster 80: len=2
+onTouchEvent::<*>, x=<*>, y=<*> (ground truth)
+onTouchEvent::<*>, x=<*>, y=<*> (final_template)
+onTouchEvent::{{id}}, x={{x}}, y={{y}}: 1
+onTouchEvent::<*>, x=<*>, y=<*>: 1
+---------------------------
+---------------------------
+cluster 82: len=2
+getRingtonePlayer... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 85: len=2
+onExpandingStarted (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 88: len=2
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*> (ground truth)
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*> (final_template)
+flingToHeight: vel={{velocity}}, expand={{expand}}, target={{target}}, collapseSpeedUpFactor={{speedUpFactor}}, expandBecauseOfFalsing={{expandBecauseOfFalsing}}: 1
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>: 1
+---------------------------
+---------------------------
+cluster 90: len=2
+onExpandingFinished (ground truth)
+onExpandingFinished (final_template)
+onExpandingFinished: 1
+onExpandingFinished: 1
+---------------------------
+---------------------------
+cluster 91: len=2
+Sending non-protected broadcast <*> from system <*> pkg <*> (ground truth)
+Sending non-protected broadcast <*> from <*> pkg <*> (final_template)
+Sending non-protected broadcast {{broadcast}} from {{sender}}:{{sender_uid}} pkg {{package}}: 1
+Sending non-protected broadcast <*> from <*> pkg <*>: 1
+---------------------------
+---------------------------
+cluster 101: len=2
+ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*> (ground truth)
+ActivityRecord info: <*> com.tencent.mobileqq.activity.SplashActivity}, euid: <*> (final_template)
+ActivityRecord info: ActivityInfo{{activity_id}} com.tencent.mobileqq.activity.SplashActivity}, euid: 0: 1
+ActivityRecord info: <*> com.tencent.mobileqq.activity.SplashActivity}, euid: <*>: 1
+---------------------------
+---------------------------
+cluster 102: len=2
+onNotificationClick called (ground truth)
+onNotificationClick called (final_template)
+onNotificationClick called: 1
+onNotificationClick called: 1
+---------------------------
+---------------------------
+cluster 103: len=2
+cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*> (ground truth)
+cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*> (final_template)
+cancelNotification,cancelNotificationLocked,callingUid = {{callingUid}},callingPid = {{callingPid}}: 1
+cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>: 1
+---------------------------
+---------------------------
+cluster 104: len=2
+cancelNotificationLocked called,tell the app,reason = <*> (ground truth)
+cancelNotificationLocked called,tell the app,reason = <*> (final_template)
+cancelNotificationLocked called,tell the app,reason = {{reason}}: 1
+cancelNotificationLocked called,tell the app,reason = <*>: 1
+---------------------------
+---------------------------
+cluster 106: len=2
+cancelNotificationLocked,remove =<*> (ground truth)
+cancelNotificationLocked,remove =com.tencent.mobileqq (final_template)
+cancelNotificationLocked,remove =com.tencent.mobileqq: 1
+cancelNotificationLocked,remove =com.tencent.mobileqq: 1
+---------------------------
+---------------------------
+cluster 107: len=2
+applyOptionsLocked: Unknown animationType=<*> (ground truth)
+applyOptionsLocked: Unknown animationType=<*> (final_template)
+applyOptionsLocked: Unknown animationType={{animationType}}: 1
+applyOptionsLocked: Unknown animationType=<*>: 1
+---------------------------
+---------------------------
+cluster 113: len=2
+setWiredDeviceConnectionState type: <*> state: <*> (ground truth)
+<*>: <*> (match result)
+---------------------------
+---------------------------
+cluster 117: len=2
+getDevicesForStream streamType: <*> (ground truth)
+getDevicesForStream streamType: <*> (final_template)
+getDevicesForStream  streamType: {{streamType}}: 1
+getDevicesForStream streamType: <*>: 1
+---------------------------
+---------------------------
+cluster 126: len=2
+sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 141: len=2
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?false (ground truth)
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?false (final_template)
+updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false: 1
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?false: 1
+---------------------------
+---------------------------
+cluster 145: len=2
+onNotificationExpansionChanged called (ground truth)
+onNotificationExpansionChanged called (final_template)
+onNotificationExpansionChanged called: 1
+onNotificationExpansionChanged called: 1
+---------------------------
+---------------------------
+cluster 146: len=2
+START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*> (ground truth)
+START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*>/.<*> bnds=[<*>,<*>][<*>,<*>]} from uid <*> on display <*> (final_template)
+START u0 {act={{android.intent.action.MAIN}} cat=[{{android.intent.category.LAUNCHER}}] flg=0x10200000 cmp={{com.example.android.notepad}}/.{{NotePadActivity}} bnds=[8,820][184,1011]} from uid 10057 on display 0: 1
+START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*>/.<*> bnds=[<*>,<*>][<*>,<*>]} from uid <*> on display <*>: 1
+---------------------------
+---------------------------
+cluster 148: len=2
+ACTIVITY check resid: <*>, size=<*> (ground truth)
+<*>: <*> (match result)
+---------------------------
+---------------------------
+cluster 164: len=2
+RefreshBatteryInfo isBatteryLow: <*> (ground truth)
+RefreshBatteryInfo isBatteryLow: <*> (final_template)
+RefreshBatteryInfo isBatteryLow: {{battery_level}}: 1
+RefreshBatteryInfo isBatteryLow: <*>: 1
+---------------------------
+---------------------------
+cluster 61: len=1
+printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 62: len=1
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (final_template)
+acquire lock={{lock}}, flags={{flags}}, tag="{{tag}}", name={{name}}, ws={{ws}}, uid={{uid}}, pid={{pid}}: 1
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 64: len=1
+visible is <*> (ground truth)
+<*> is <*> (match result)
+---------------------------
+---------------------------
+cluster 65: len=1
+visible is <*> (ground truth)
+<*> is <*> (match result)
+---------------------------
+---------------------------
+cluster 66: len=1
+visible is <*> gt <*> (ground truth)
+visible is system.call.count gt <*> (final_template)
+visible is system.call.count gt 0: 1
+visible is system.call.count gt <*>: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+visible is <*> gt <*> (ground truth)
+visible is system.message.count gt <*> (final_template)
+visible is system.message.count gt 0: 1
+visible is system.message.count gt <*>: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+visible is <*> (ground truth)
+<*> is <*> (match result)
+---------------------------
+---------------------------
+cluster 69: len=1
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth)
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*> (final_template)
+release:lock={{lock}}, flg={{flg}}, tag="{{tag}}", name={{name}}", ws={{ws}}, uid={{uid}}, pid={{pid}}: 1
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*>: 1
+---------------------------
+---------------------------
+cluster 70: len=1
+Destroying surface Surface(name=<*>) called by <*> (ground truth)
+Destroying surface Surface(name=<*>) called by <*> (final_template)
+Destroying surface Surface(name={{SurfaceName}}) called by {{Caller}}: 1
+Destroying surface Surface(name=<*>) called by <*>: 1
+---------------------------
+---------------------------
+cluster 71: len=1
+orientation change is complete, call stopFreezingDisplayLocked (ground truth)
+orientation change is complete, call stopFreezingDisplayLocked (final_template)
+orientation change is complete, call stopFreezingDisplayLocked: 1
+orientation change is complete, call stopFreezingDisplayLocked: 1
+---------------------------
+---------------------------
+cluster 72: len=1
+Screen frozen for <*> due to Window{<*> u0 <*>} (ground truth)
+Screen frozen for +<*> due to <*> (final_template)
+Screen frozen for +{{duration}} due to {{reason}}: 1
+Screen frozen for +<*> due to <*>: 1
+---------------------------
+---------------------------
+cluster 73: len=1
+startAnimation begin (ground truth)
+startAnimation begin (final_template)
+startAnimation begin: 1
+startAnimation begin: 1
+---------------------------
+---------------------------
+cluster 74: len=1
+startAnimation end (ground truth)
+startAnimation end (final_template)
+startAnimation end: 1
+startAnimation end: 1
+---------------------------
+---------------------------
+cluster 75: len=1
+remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching (ground truth)
+remove(<*>) changed bounds; rebatching (final_template)
+remove(PendingIntent{{placeholder1}}) changed bounds; rebatching: 1
+remove(<*>) changed bounds; rebatching: 1
+---------------------------
+---------------------------
+cluster 78: len=1
+Bad activity token: <*>@<*> (ground truth)
+Bad activity token: <*> (final_template)
+Bad activity token: {{activity_token}}: 1
+Bad activity token: <*>: 1
+---------------------------
+---------------------------
+cluster 79: len=1
+<*>: <*> cannot be cast to <*>$Token (ground truth)
+<*>: <*> (final_template)
+{{exceptionType}}: {{exceptionMessage}}: 1
+<*>: <*>: 1
+---------------------------
+---------------------------
+cluster 81: len=1
+schedulePeek (ground truth)
+schedulePeek (final_template)
+schedulePeek: 1
+schedulePeek: 1
+---------------------------
+---------------------------
+cluster 86: len=1
+onTrackingStarted (ground truth)
+onTrackingStarted (final_template)
+onTrackingStarted: 1
+onTrackingStarted: 1
+---------------------------
+---------------------------
+cluster 87: len=1
+state.clipTopAmount:<*>, i:<*> (ground truth)
+state.clipTopAmount:<*>, i:<*> (match result)
+---------------------------
+---------------------------
+cluster 89: len=1
+onTrackingStopped: <*> (ground truth)
+onTrackingStopped: <*> (final_template)
+onTrackingStopped: true: 1
+onTrackingStopped: <*>: 1
+---------------------------
+---------------------------
+cluster 92: len=1
+isSimPinSecure mSimDatas is <*> or empty (ground truth)
+isSimPinSecure <*> is <*> or empty (final_template)
+isSimPinSecure {{mSimDatas}} is null or empty: 1
+isSimPinSecure <*> is <*> or empty: 1
+---------------------------
+---------------------------
+cluster 95: len=1
+*** register callback for <*>@<*> (ground truth)
+*** register callback for <*> (final_template)
+*** register callback for {{component}}: 1
+*** register callback for <*>: 1
+---------------------------
+---------------------------
+cluster 96: len=1
+*** unregister callback for <*> (ground truth)
+*** unregister callback for <*> (final_template)
+*** unregister callback for {{null}}: 1
+*** unregister callback for <*>: 1
+---------------------------
+---------------------------
+cluster 97: len=1
+[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*> (ground truth)
+[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*> (final_template)
+[PhoneIntfMgr] getDataEnabled: subId={{subId}} phoneId={{phoneId}}: 1
+[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>: 1
+---------------------------
+---------------------------
+cluster 98: len=1
+[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=<*> (ground truth)
+[<*>] <*>: subId=<*> retVal=<*> (final_template)
+[{{component}}] {{action}}: subId={{subId}} retVal={{value}}: 1
+[<*>] <*>: subId=<*> retVal=<*>: 1
+---------------------------
+---------------------------
+cluster 100: len=1
+START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*> (ground truth)
+START <*> {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*> (final_template)
+START u{{user_id}} {act={{action}} flg={{flags}} cmp={{component}} (has extras)} from uid {{uid}} on display {{display}}: 1
+START <*> {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>: 1
+---------------------------
+---------------------------
+cluster 111: len=1
+*** unregister callback for <*>@<*> (ground truth)
+*** unregister callback for <*> (match result)
+---------------------------
+---------------------------
+cluster 112: len=1
+Start dump, calling from : pid=<*>, uid=<*> (ground truth)
+Start dump, calling from : pid=<*>, uid=<*> (final_template)
+Start dump, calling from : pid={{pid}}, uid={{uid}}: 1
+Start dump, calling from : pid=<*>, uid=<*>: 1
+---------------------------
+---------------------------
+cluster 115: len=1
+isBluetoothA2dpOn... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 116: len=1
+isBluetoothScoOn... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 118: len=1
+getMode... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 119: len=1
+setSpeakerphoneOn on: <*> (ground truth)
+setSpeakerphoneOn on: <*> (final_template)
+setSpeakerphoneOn  on: true: 1
+setSpeakerphoneOn on: <*>: 1
+---------------------------
+---------------------------
+cluster 120: len=1
+setSpeakerphoneOn on:<*> (ground truth)
+setSpeakerphoneOn on:<*> (final_template)
+setSpeakerphoneOn on:true: 1
+setSpeakerphoneOn on:<*>: 1
+---------------------------
+---------------------------
+cluster 127: len=1
+Killing <*> (adj <*>): empty for <*> (ground truth)
+Killing <*> (adj <*>): empty for <*> (final_template)
+Killing {{pid}}:{{process_name}}/{{user_id}} (adj {{adj}}): empty for {{duration}}s: 1
+Killing <*> (adj <*>): empty for <*>: 1
+---------------------------
+---------------------------
+cluster 128: len=1
+remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching (ground truth)
+remove(<*>) changed bounds; rebatching (match result)
+---------------------------
+---------------------------
+cluster 129: len=1
+Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found (ground truth)
+Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found (final_template)
+Unable to start service Intent { act={{action}} cmp={{component}} } U=0: not found: 1
+Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found: 1
+---------------------------
+---------------------------
+cluster 130: len=1
+unregisterAudioFocusListener... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 131: len=1
+abandonAudioFocus (ground truth)
+abandonAudioFocus (final_template)
+abandonAudioFocus: 1
+abandonAudioFocus: 1
+---------------------------
+---------------------------
+cluster 132: len=1
+[HSM] stayAwake <*> uid: <*>, pid: <*> (ground truth)
+[HSM] stayAwake <*> uid: <*>, pid: <*> (final_template)
+[HSM] stayAwake {{boolean}} uid: {{number}}, pid: {{number}}: 1
+[HSM] stayAwake <*> uid: <*>, pid: <*>: 1
+---------------------------
+---------------------------
+cluster 133: len=1
+Pid:<*> MediaPlayer destructor (ground truth)
+Pid:<*> <*> destructor (final_template)
+Pid:{{pid}} {{module}} destructor: 1
+Pid:<*> <*> destructor: 1
+---------------------------
+---------------------------
+cluster 134: len=1
+Process <*>:qzone (pid <*>) has died (ground truth)
+Process <*> (pid <*>) has died (final_template)
+Process {{process_name}} (pid {{pid}}) has died: 1
+Process <*> (pid <*>) has died: 1
+---------------------------
+---------------------------
+cluster 135: len=1
+Scheduling restart of crashed service <*> in <*> (ground truth)
+Scheduling restart of crashed service <*> in <*> (final_template)
+Scheduling restart of crashed service {{service_name}} in {{time}}ms: 1
+Scheduling restart of crashed service <*> in <*>: 1
+---------------------------
+---------------------------
+cluster 136: len=1
+new Process app=ProcessRecord{<*> <*>}, name: <*>:qzone, euid: <*> (ground truth)
+new Process app=ProcessRecord{6eaaf00 <*>}, name: <*>, euid: <*> (final_template)
+new Process app=ProcessRecord{6eaaf00 0:{{package}}:{{component}}/{{userId}}}, name: {{package}}:{{component}}, euid: {{euid}}: 1
+new Process app=ProcessRecord{6eaaf00 <*>}, name: <*>, euid: <*>: 1
+---------------------------
+---------------------------
+cluster 137: len=1
+Start proc <*> for service <*> (ground truth)
+Start proc <*> for service <*> (final_template)
+Start proc {{pid}}:{{process_name}}:{{uid}} for service {{service_name}}: 1
+Start proc <*> for service <*>: 1
+---------------------------
+---------------------------
+cluster 138: len=1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=PRIVATE) (ground truth)
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=<*>) (final_template)
+enqueueNotificationInternal: pkg={{pkg}} id={{id}} notification=Notification(pri={{pri}} contentView={{contentView}} vibrate=[{{vibrate}}] sound={{sound}} tick defaults={{defaults}} flags={{flags}} color={{color}} vis={{vis}}): 1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=<*>): 1
+---------------------------
+---------------------------
+cluster 139: len=1
+enqueueNotificationInternal: n.getKey = <*> (ground truth)
+enqueueNotificationInternal: n.getKey = <*>|<*>|<*>|<*>|<*> (final_template)
+enqueueNotificationInternal: n.getKey = {{notificationKey}}|{{packageName}}|{{notificationId}}|{{tag}}|{{userId}}: 1
+enqueueNotificationInternal: n.getKey = <*>|<*>|<*>|<*>|<*>: 1
+---------------------------
+---------------------------
+cluster 142: len=1
+addNotification key=<*>|<*>|<*>|<*>|<*> (ground truth)
+addNotification key=<*>|<*>|<*>|<*>|<*> (final_template)
+addNotification key={{key}}|{{package_name}}|{{user_id}}|{{message}}|{{notification_id}}: 1
+addNotification key=<*>|<*>|<*>|<*>|<*>: 1
+---------------------------
+---------------------------
+cluster 144: len=1
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (ground truth)
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (final_template)
+Marking notification as seen {{int}}|{{string}}|{{int}}|{{null}}|{{int}}: 1
+Marking notification as seen <*>|<*>|<*>|<*>|<*>: 1
+---------------------------
+---------------------------
+cluster 147: len=1
+ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 151: len=1
+getCellLocation is blocked by permission manager uid:<*> pid:<*> (ground truth)
+<*> is blocked by permission manager uid:<*> pid:<*> (final_template)
+{{function}} is blocked by permission manager uid:{{uid}} pid:{{pid}}: 1
+<*> is blocked by permission manager uid:<*> pid:<*>: 1
+---------------------------
+---------------------------
+cluster 152: len=1
+isWiredHeadsetOn... (ground truth)
+<*>... (match result)
+---------------------------
+---------------------------
+cluster 153: len=1
+setDataSource(<*>, <*>, <*>) (ground truth)
+setDataSource(<*>, <*>, <*>) (final_template)
+setDataSource({{int}}, {{int}}, {{int}}): 1
+setDataSource(<*>, <*>, <*>): 1
+---------------------------
+---------------------------
+cluster 154: len=1
+getStreamVolume treamType: <*> (ground truth)
+getStreamVolume treamType: <*> (final_template)
+getStreamVolume  treamType: {{streamType}}: 1
+getStreamVolume treamType: <*>: 1
+---------------------------
+---------------------------
+cluster 155: len=1
+updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*> (ground truth)
+updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*> (final_template)
+updateIsPoweredLocked: wasPowered={{boolean}}, mIsPowered={{boolean}}, oldPlugType={{int}}, mPlugType={{int}}, mBatteryLevel={{int}}: 1
+updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>: 1
+---------------------------
+---------------------------
+cluster 156: len=1
+received broadcast <*> (ground truth)
+received broadcast android.intent.action.BATTERY_CHANGED (final_template)
+received broadcast android.intent.action.BATTERY_CHANGED: 1
+received broadcast android.intent.action.BATTERY_CHANGED: 1
+---------------------------
+---------------------------
+cluster 157: len=1
+ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*> (ground truth)
+<*>: <*> (match result)
+---------------------------
+---------------------------
+cluster 158: len=1
+updateChargingLocked: charging=<*> (ground truth)
+updateChargingLocked: charging=<*> (final_template)
+updateChargingLocked: charging={{boolean}}: 1
+updateChargingLocked: charging=<*>: 1
+---------------------------
+---------------------------
+cluster 159: len=1
+onReceive, action:<*> (ground truth)
+onReceive, action:<*> (final_template)
+onReceive, action:{{action}}: 1
+onReceive, action:<*>: 1
+---------------------------
+---------------------------
+cluster 160: len=1
+ACTION_BATTERY_CHANGED pluggedType: <*> (ground truth)
+ACTION_BATTERY_CHANGED pluggedType: <*> (final_template)
+ACTION_BATTERY_CHANGED pluggedType: {{pluggedType}}: 1
+ACTION_BATTERY_CHANGED pluggedType: <*>: 1
+---------------------------
+---------------------------
+cluster 161: len=1
+ApStaDisabledState what=<*> (ground truth)
+<*> what=<*> (final_template)
+{{component}} what={{value}}: 1
+<*> what=<*>: 1
+---------------------------
+---------------------------
+cluster 162: len=1
+DefaultState what=<*> (ground truth)
+<*> what=<*> (match result)
+---------------------------
+---------------------------
+cluster 163: len=1
+battery changed pluggedType: <*> (ground truth)
+battery changed pluggedType: <*> (final_template)
+battery changed pluggedType: {{number}}: 1
+battery changed pluggedType: <*>: 1
+---------------------------
+---------------------------
+cluster 165: len=1
+ChargingSpeed Wattage: <*> ST: <*> --> <*> (ground truth)
+ChargingSpeed Wattage: <*> ST: <*> --> <*> (final_template)
+ChargingSpeed  Wattage: {{Wattage}} ST: {{ST}} --> {{NewST}}: 1
+ChargingSpeed Wattage: <*> ST: <*> --> <*>: 1
+---------------------------
+---------------------------
+cluster 166: len=1
+handleBatteryUpdate (ground truth)
+handleBatteryUpdate (final_template)
+handleBatteryUpdate: 1
+handleBatteryUpdate: 1
+---------------------------
+---------------------------
+cluster 167: len=1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE) (ground truth)
+enqueueNotificationInternal: pkg=<*> id=<*> notification=<*> (final_template)
+enqueueNotificationInternal: pkg={{pkg}} id={{id}} notification={{notification}}: 1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=<*>: 1
+---------------------------
+---------------------------
+cluster 168: len=1
+enqueueNotificationInternal: n.getKey = <*> (ground truth)
+enqueueNotificationInternal: n.getKey = <*>|<*>|<*>|<*>|<*> (match result)
+---------------------------
+---------------------------
+cluster 169: len=1
+addNotification key=<*>|<*>|<*>|<*>|<*> (ground truth)
+addNotification key=<*>|<*>|<*>|<*>|<*> (match result)
+---------------------------
+---------------------------
+cluster 170: len=1
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (ground truth)
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (match result)
+---------------------------
+---------------------------
+cluster 171: len=1
+START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*> (ground truth)
+START <*> {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*> (final_template)
+START u{{uid}} {flg={{flags}} cmp={{component}} (has extras)} from uid {{source_uid}} on display {{display}}: 1
+START <*> {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>: 1
+---------------------------
+---------------------------
+cluster 172: len=1
+ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*> (ground truth)
+ (final_template)
+---------------------------
+---------------------------
+cluster 173: len=1
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) } (ground truth)
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) } (final_template)
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg={{flag}} cmp={{component}} (has extras) }: 1
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) }: 1
+---------------------------

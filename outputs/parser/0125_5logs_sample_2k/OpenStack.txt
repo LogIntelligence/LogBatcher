@@ -1,0 +1,297 @@
+---------------------------
+cluster 0: len=931
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (final_template)
+{{client_ip}} "{{method}} {{url}} {{protocol}}" status: {{status_code}} len: {{response_length}} time: {{response_time}}: 1
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*>: 1
+---------------------------
+---------------------------
+cluster 4: len=82
+image <*> at (<*>): checking (ground truth)
+image <*> at (<*>): checking (final_template)
+image {{image_id}} at ({{file_path}}): checking: 1
+image <*> at (<*>): checking: 1
+---------------------------
+---------------------------
+cluster 5: len=82
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage (ground truth)
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage (final_template)
+image {{image_id}} at ({{image_path}}): in use: on this node {{local_count}} local, {{other_nodes_count}} on other nodes sharing this instance storage: 1
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage: 1
+---------------------------
+---------------------------
+cluster 6: len=82
+Active base files: <*> (ground truth)
+Active base files: <*> (final_template)
+Active base files: /var/lib/nova/instances/_base/{{hash_value}}: 1
+Active base files: <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=64
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (match result)
+---------------------------
+---------------------------
+cluster 9: len=44
+[instance: <*>] VM Resumed (Lifecycle Event) (ground truth)
+[instance: <*>] VM Resumed (Lifecycle Event) (final_template)
+[instance: {{instance_id}}] VM Resumed (Lifecycle Event): 1
+[instance: <*>] VM Resumed (Lifecycle Event): 1
+---------------------------
+---------------------------
+cluster 3: len=43
+[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip. (ground truth)
+[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip. (final_template)
+[instance: {{instance_id}}] During sync_power_state the instance has a pending task (spawning). Skip.: 1
+[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.: 1
+---------------------------
+---------------------------
+cluster 24: len=30
+Unknown base file: <*> (ground truth)
+Unknown base file: <*> (final_template)
+Unknown base file: /var/lib/nova/instances/_base/{{base_file}}: 1
+Unknown base file: <*>: 1
+---------------------------
+---------------------------
+cluster 25: len=30
+Removable base files: <*> (ground truth)
+Removable base files: <*> (final_template)
+Removable base files: /var/lib/nova/instances/_base/{{hash}}: 1
+Removable base files: <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=22
+[instance: <*>] VM Started (Lifecycle Event) (ground truth)
+[instance: <*>] VM Started (Lifecycle Event) (final_template)
+[instance: {{instance_id}}] VM Started (Lifecycle Event): 1
+[instance: <*>] VM Started (Lifecycle Event): 1
+---------------------------
+---------------------------
+cluster 2: len=22
+[instance: <*>] VM Paused (Lifecycle Event) (ground truth)
+[instance: <*>] VM Paused (Lifecycle Event) (final_template)
+[instance: {{instance_id}}] VM Paused (Lifecycle Event): 1
+[instance: <*>] VM Paused (Lifecycle Event): 1
+---------------------------
+---------------------------
+cluster 7: len=22
+Creating event network-vif-plugged:<*> for instance <*> (ground truth)
+Creating event network-vif-plugged:<*> for instance <*> (final_template)
+Creating event network-vif-plugged:{{vif_id}} for instance {{instance_id}}: 1
+Creating event network-vif-plugged:<*> for instance <*>: 1
+---------------------------
+---------------------------
+cluster 10: len=22
+[instance: <*>] Instance spawned successfully. (ground truth)
+[instance: <*>] Instance spawned successfully. (final_template)
+[instance: {{instance_id}}] Instance spawned successfully.: 1
+[instance: <*>] Instance spawned successfully.: 1
+---------------------------
+---------------------------
+cluster 11: len=22
+[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor. (ground truth)
+[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor. (final_template)
+[instance: {{instance_id}}] Took {{time}} seconds to spawn the instance on the hypervisor.: 1
+[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.: 1
+---------------------------
+---------------------------
+cluster 12: len=22
+[instance: <*>] Took <*> seconds to build instance. (ground truth)
+[instance: <*>] Took <*> seconds to build instance. (final_template)
+[instance: {{instance_id}}] Took {{duration}} seconds to build instance.: 1
+[instance: <*>] Took <*> seconds to build instance.: 1
+---------------------------
+---------------------------
+cluster 17: len=22
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (match result)
+---------------------------
+---------------------------
+cluster 18: len=22
+[instance: <*>] Terminating instance (ground truth)
+[instance: <*>] Terminating instance (final_template)
+[instance: {{instance_id}}] Terminating instance: 1
+[instance: <*>] Terminating instance: 1
+---------------------------
+---------------------------
+cluster 19: len=22
+[instance: <*>] Instance destroyed successfully. (ground truth)
+[instance: <*>] Instance destroyed successfully. (final_template)
+[instance: {{instance_id}}] Instance destroyed successfully.: 1
+[instance: <*>] Instance destroyed successfully.: 1
+---------------------------
+---------------------------
+cluster 20: len=21
+[instance: <*>] Deleting instance files <*> (ground truth)
+[instance: <*>] Deleting instance files <*> (final_template)
+[instance: {{instance_id}}] Deleting instance files /var/lib/nova/instances/{{instance_id}}_del: 1
+[instance: <*>] Deleting instance files <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=21
+[instance: <*>] Deletion of <*> complete (ground truth)
+[instance: <*>] Deletion of <*> complete (final_template)
+[instance: {{instance_id}}] Deletion of /var/lib/nova/instances/{{instance_id}}_del complete: 1
+[instance: <*>] Deletion of <*> complete: 1
+---------------------------
+---------------------------
+cluster 22: len=21
+[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor. (ground truth)
+[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor. (final_template)
+[instance: {{instance_id}}] Took {{duration}} seconds to destroy the instance on the hypervisor.: 1
+[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.: 1
+---------------------------
+---------------------------
+cluster 23: len=21
+[instance: <*>] Took <*> seconds to deallocate network for instance. (ground truth)
+[instance: <*>] Took <*> seconds to deallocate network for instance. (final_template)
+[instance: {{instance_id}}] Took {{time}} seconds to deallocate network for instance.: 1
+[instance: <*>] Took <*> seconds to deallocate network for instance.: 1
+---------------------------
+---------------------------
+cluster 26: len=21
+Removing base or swap file: <*> (ground truth)
+Removing base or swap file: <*> (final_template)
+Removing base or swap file: /var/lib/nova/instances/_base/{{hash}}: 1
+Removing base or swap file: <*>: 1
+---------------------------
+---------------------------
+cluster 27: len=21
+HTTP exception thrown: No instances found for any event (ground truth)
+HTTP exception thrown: No instances found for any event (final_template)
+HTTP exception thrown: No instances found for any event: 1
+HTTP exception thrown: No instances found for any event: 1
+---------------------------
+---------------------------
+cluster 28: len=21
+[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU (ground truth)
+[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU (final_template)
+[instance: {{instance_id}}] Attempting claim: memory {{memory}} MB, disk {{disk}} GB, vcpus {{vcpus}} CPU: 1
+[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU: 1
+---------------------------
+---------------------------
+cluster 29: len=21
+[instance: <*>] Total memory: <*> MB, used: <*> MB (ground truth)
+[instance: <*>] Total memory: <*> MB, used: <*> MB (final_template)
+[instance: {{instance_id}}] Total memory: {{total_memory}} MB, used: {{used_memory}} MB: 1
+[instance: <*>] Total memory: <*> MB, used: <*> MB: 1
+---------------------------
+---------------------------
+cluster 30: len=21
+[instance: <*>] memory limit: <*> MB, free: <*> MB (ground truth)
+[instance: <*>] memory limit: <*> MB, free: <*> MB (final_template)
+[instance: {{instance_id}}] memory limit: {{memory_limit}} MB, free: {{memory_free}} MB: 1
+[instance: <*>] memory limit: <*> MB, free: <*> MB: 1
+---------------------------
+---------------------------
+cluster 31: len=21
+[instance: <*>] Total disk: <*> GB, used: <*> GB (ground truth)
+[instance: <*>] Total disk: <*> GB, used: <*> GB (final_template)
+[instance: {{instance_id}}] Total disk: 15 GB, used: 0.00 GB: 1
+[instance: <*>] Total disk: <*> GB, used: <*> GB: 1
+---------------------------
+---------------------------
+cluster 32: len=21
+[instance: <*>] disk limit not specified, defaulting to unlimited (ground truth)
+[instance: <*>] disk limit not specified, defaulting to unlimited (final_template)
+[instance: {{instance_id}}] disk limit not specified, defaulting to unlimited: 1
+[instance: <*>] disk limit not specified, defaulting to unlimited: 1
+---------------------------
+---------------------------
+cluster 33: len=21
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU (ground truth)
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU (final_template)
+[instance: {{instance_id}}] Total vcpu: 16 VCPU, used: 0.00 VCPU: 1
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU: 1
+---------------------------
+---------------------------
+cluster 34: len=21
+[instance: <*>] vcpu limit not specified, defaulting to unlimited (ground truth)
+[instance: <*>] vcpu limit not specified, defaulting to unlimited (final_template)
+[instance: {{instance_id}}] vcpu limit not specified, defaulting to unlimited: 1
+[instance: <*>] vcpu limit not specified, defaulting to unlimited: 1
+---------------------------
+---------------------------
+cluster 35: len=21
+[instance: <*>] Claim successful (ground truth)
+[instance: <*>] Claim successful (final_template)
+[instance: {{instance_id}}] Claim successful: 1
+[instance: <*>] Claim successful: 1
+---------------------------
+---------------------------
+cluster 36: len=21
+[instance: <*>] Creating image (ground truth)
+[instance: <*>] Creating image (final_template)
+[instance: {{instance_id}}] Creating image: 1
+[instance: <*>] Creating image: 1
+---------------------------
+---------------------------
+cluster 37: len=21
+[instance: <*>] VM Stopped (Lifecycle Event) (ground truth)
+[instance: <*>] VM Stopped (Lifecycle Event) (final_template)
+[instance: {{instance_id}}] VM Stopped (Lifecycle Event): 1
+[instance: <*>] VM Stopped (Lifecycle Event): 1
+---------------------------
+---------------------------
+cluster 13: len=15
+Auditing locally available compute resources for node <*> (ground truth)
+Auditing locally available compute resources for node <*> (final_template)
+Auditing locally available compute resources for node {{node_name}}: 1
+Auditing locally available compute resources for node <*>: 1
+---------------------------
+---------------------------
+cluster 14: len=15
+Total usable vcpus: <*>, total allocated vcpus: <*> (ground truth)
+Total usable vcpus: <*>, total allocated vcpus: <*> (final_template)
+Total usable vcpus: {{total_usable_vcpus}}, total allocated vcpus: {{total_allocated_vcpus}}: 1
+Total usable vcpus: <*>, total allocated vcpus: <*>: 1
+---------------------------
+---------------------------
+cluster 15: len=15
+Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[] (ground truth)
+Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*> (final_template)
+Final resource view: name={{name}} phys_ram={{phys_ram}} used_ram={{used_ram}} phys_disk={{phys_disk}} used_disk={{used_disk}} total_vcpus={{total_vcpus}} used_vcpus={{used_vcpus}} pci_stats={{pci_stats}}: 1
+Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*>: 1
+---------------------------
+---------------------------
+cluster 16: len=15
+Compute_service record updated for <*> (ground truth)
+Compute_service record updated for <*> (final_template)
+Compute_service record updated for {{hostname}}:{{hostname}}: 1
+Compute_service record updated for <*>: 1
+---------------------------
+---------------------------
+cluster 38: len=9
+Base or swap file too young to remove: <*> (ground truth)
+Base or swap file too young to remove: <*> (final_template)
+Base or swap file too young to remove: /var/lib/nova/instances/_base/{{hash}}: 1
+Base or swap file too young to remove: <*>: 1
+---------------------------
+---------------------------
+cluster 39: len=5
+The instance sync for host '<*>' did not match. Re-created its InstanceList. (ground truth)
+The instance sync for host '<*>' did not match. Re-created its InstanceList. (final_template)
+The instance sync for host '{{hostname}}' did not match. Re-created its InstanceList.: 1
+The instance sync for host '<*>' did not match. Re-created its InstanceList.: 1
+---------------------------
+---------------------------
+cluster 40: len=2
+Successfully synced instances from host '<*>'. (ground truth)
+Successfully synced instances from host '<*>'. (final_template)
+Successfully synced instances from host '{{hostname}}'.: 1
+Successfully synced instances from host '<*>'.: 1
+---------------------------
+---------------------------
+cluster 41: len=1
+Running instance usage audit for host <*> from <*> to <*>. <*> instances. (ground truth)
+Running instance usage audit for host <*> from <*> to <*>. <*> instances. (final_template)
+Running instance usage audit for host {{hostname}} from {{start_time}} to {{end_time}}. {{num_instances}} instances.: 1
+Running instance usage audit for host <*> from <*> to <*>. <*> instances.: 1
+---------------------------
+---------------------------
+cluster 42: len=1
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor. (ground truth)
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor. (final_template)
+While synchronizing instance power states, found {{number1}} instances in the database and {{number2}} instances on the hypervisor.: 1
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.: 1
+---------------------------

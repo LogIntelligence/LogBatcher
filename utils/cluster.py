@@ -1,3 +1,4 @@
+from collections import OrderedDict
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -13,12 +14,12 @@ class Cluster:
         self.indexs = indexs
         self.oracle_template = oracle_template
         self.sample_method = sample_method
-        self.shuffle()
+        # self.shuffle()
         # self.mutation()
         if remove_duplicate:
             self.remove_duplicate()
-            # if len(self.logs) > remain_num:
-            #     self.sample(remain_num)
+            if len(self.logs) > remain_num:
+                self.sample(remain_num)
     
     def mutation(self):
         length = len(self.logs)
@@ -30,8 +31,8 @@ class Cluster:
                     self.logs[0].replace(token, mutate(token))
     
     def remove_duplicate(self):
-        self.logs = list(set(self.logs))
-
+        # self.logs = list(set(self.logs))
+        self.logs = list(OrderedDict.fromkeys(self.logs))
 
     def shuffle(self):
         seed = 0

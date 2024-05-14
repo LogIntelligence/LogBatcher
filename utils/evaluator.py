@@ -5,26 +5,16 @@ from nltk.metrics.distance import edit_distance
 from sklearn.metrics import accuracy_score
 import numpy as np
 
-def rule(template):
-    # correct_single_template(template)
-    if not isinstance(template, str):
-        template = ''
-    while '<*>:<*>' in template:
-        template = template.replace('<*>:<*>', '<*>')   
-    return template
-
 def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
 
     df1 = pd.read_csv(output_file)
     df2 = pd.read_csv(groundtruth_file)
 
     # Remove invalid groundtruth event Ids
-    null_logids = df1[~df1['EventTemplate'].isnull()].index
+    null_logids = df2[~df2['EventTemplate'].isnull()].index
     df1 = df1.loc[null_logids]
     df2 = df2.loc[null_logids]
 
-    # if dataset == 'Zookeeper':
-    #     df['EventTemplate'] = df['EventTemplate'].apply(lambda x: rule(x))
 
     accuracy_exact_string_matching = accuracy_score(np.array(df1['EventTemplate'].values, dtype='str'),
                                                     np.array(df2['EventTemplate'], dtype='str'))

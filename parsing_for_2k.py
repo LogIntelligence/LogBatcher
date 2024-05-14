@@ -42,7 +42,7 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     
     clusters = []
     for input in inputs:
-        c = Cluster(*input, remove_duplicate= True)
+        c = Cluster(*input, remove_duplicate= True, remain_num=5)
         clusters.append(c)
 
     # Concurrent or not
@@ -71,17 +71,18 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     # write to file
     f.close()
     df['Tmps'] = tmps_list
-    df['Output'] = outputs
-    df[['Content', 'EventTemplate']].to_csv(
-        output_dir + f'{dataset}.csv', index=False)
+    df['EventTemplate'] = outputs
+    df[['Content','Tmps','EventTemplate']].to_csv(
+        output_dir + f'{dataset}_2k.log_structured.csv', index=False)
     evaluate_single_dataset(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
 
 
 # main
 if __name__ == "__main__":
-    datasets = [ 'Hadoop']
-    datasets = [dataset for dataset in datasets if dataset != 'HDFS']
-    theme = 'Test3'
+    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
+    # datasets = ['OpenStack']
+
+    theme = 'Test_5shot'
     output_dir = f'outputs/parser/{theme}/'
     with open('config.json', 'r') as f:
         config = json.load(f)

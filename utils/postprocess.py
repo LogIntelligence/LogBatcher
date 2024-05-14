@@ -20,7 +20,9 @@ def post_process(response, reference_log):
     # Todo: some varaible part might be '', need to correct the template, which should have a log to compare
     template = correct_single_template(template)
     matches = extract_variables(reference_log, template)
-    if matches == [] or template.strip() == '<*>':
+    if template.strip() == '<*>':
+        template = reference_log
+    elif matches == []:
         # matche fail
         template = ''
     else:
@@ -90,7 +92,7 @@ def correct_single_template(template, user_strings=None):
             token = '<*>'
 
         # apply WV
-        if re.match(r'^[^\s\/]*<\*>[^\s\/]*$', token):
+        if re.match(r'^[^\s\/]*<\*>[^\s\/]*$', token) or all(x in token for x in {'<*>', '.', '/'}) or all(x in token for x in {'<*>', '/', ':'}):
             # if token != '<*>/<*>':  # need to check this because `/` is not a deliminator
             token = '<*>'
 

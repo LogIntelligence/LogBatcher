@@ -38,7 +38,7 @@ def dpp_sample(S, k):
 
 def extract_variables(log, template):
     # <*> -> (.*?)
-    log = re.sub(r'\s+', ' ', log)
+    log = re.sub(r'\s+', ' ', log.strip())
     pattern_parts = template.split("<*>")
     pattern_parts_escaped = [re.escape(part) for part in pattern_parts]
     regex_pattern = "(.*?)".join(pattern_parts_escaped)
@@ -56,7 +56,7 @@ def matches_template(log, cached_pair):
         return None
     
     # DS
-    log = re.sub(r'\s+', ' ', log)
+    log = re.sub(r'\s+', ' ', log.strip())
 
     pattern_parts = cached_pair[1].split("<*>")
     pattern_parts_escaped = [re.escape(part) for part in pattern_parts]
