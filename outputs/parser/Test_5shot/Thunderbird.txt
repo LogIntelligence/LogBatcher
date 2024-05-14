@@ -1,0 +1,1193 @@
+---------------------------
+cluster 3: len=819
+data_thread() got not answer from any [<*>] datasource (ground truth)
+data_thread() got not answer from any [<*>] datasource (final_template)
+data_thread() got not answer from any [{{email_client}}] datasource: 1
+data_thread() got not answer from any [<*>] datasource: 1
+---------------------------
+---------------------------
+cluster 4: len=568
+synchronized to <*>, stratum <*> (ground truth)
+<*> to <*>, stratum <*> (final_template)
+{{action}} to {{server}}, stratum {{stratum}}: 1
+<*> to <*>, stratum <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=62
+[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ******************** (ground truth)
+[<*>]: <*> (final_template)
+[{{file}}:{{line}}]: {{message}}: 1
+[<*>]: <*>: 1
+---------------------------
+---------------------------
+cluster 6: len=62
+[ib_sm_sweep.c:<*>]: No topology change (ground truth)
+[<*>]: <*> (final_template)
+[{{file}}:{{line}}]: {{message}}: 1
+[<*>]: <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=62
+[ib_sm_sweep.c:<*>]: No configuration change required (ground truth)
+[<*>]: <*> (match result)
+---------------------------
+---------------------------
+cluster 24: len=34
+Warning: we failed to resolve data source name <*> (ground truth)
+Warning: we failed to resolve data source name <*> (final_template)
+Warning: we failed to resolve data source name {{data_source_names}}: 1
+Warning: we failed to resolve data source name <*>: 1
+---------------------------
+---------------------------
+cluster 0: len=24
+session closed for user <*> (ground truth)
+session closed for user <*> (final_template)
+session closed for user {{username}}: 1
+session closed for user <*>: 1
+---------------------------
+---------------------------
+cluster 1: len=19
+session opened for user <*> by (uid=<*>) (ground truth)
+session opened for user <*> by (uid=<*>) (final_template)
+session opened for user {{user}} by (uid={{uid}}): 1
+session opened for user <*> by (uid=<*>): 1
+---------------------------
+---------------------------
+cluster 25: len=17
+Reading included configuration file: <*> [file=<*>] [line=<*>] (ground truth)
+Reading included configuration file: <*> [file=<*>] [line=<*>] (final_template)
+Reading included configuration file: /etc/xinetd.d/{{service}} [file=/etc/xinetd.d/{{service}}] [line={{line_number}}]: 1
+Reading included configuration file: <*> [file=<*>] [line=<*>]: 1
+---------------------------
+---------------------------
+cluster 13: len=15
+DHCPDISCOVER from <*> via eth1: network A_net: no free leases (ground truth)
+DHCPDISCOVER from <*> via <*>: network <*>: no free leases (final_template)
+DHCPDISCOVER from {{mac_address}} via {{interface}}: network {{network_name}}: no free leases: 1
+DHCPDISCOVER from <*> via <*>: network <*>: no free leases: 1
+---------------------------
+---------------------------
+cluster 2: len=14
+(<*>) CMD (run-parts <*>) (ground truth)
+<*> CMD (run-parts <*>) (final_template)
+{{username}} CMD (run-parts {{directory}}): 1
+<*> CMD (run-parts <*>): 1
+---------------------------
+---------------------------
+cluster 15: len=11
+RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step) (ground truth)
+RRD_update (<*> Nodes/<*>.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step) (final_template)
+RRD_update (/var/lib/ganglia/rrds/{{category}} Nodes/{{node}}/{{metric}}.rrd): illegal attempt to update using time {{update_time}} when last update time is {{last_update_time}} (minimum one second step): 1
+RRD_update (<*> Nodes/<*>.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step): 1
+---------------------------
+---------------------------
+cluster 18: len=11
+PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*> (ground truth)
+PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*> (final_template)
+PCI interrupt {{device}}[{{function}}] -> GSI {{gsi}} ({{trigger_type}}, {{trigger_level}}) -> IRQ {{irq}}: 1
+PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>: 1
+---------------------------
+---------------------------
+cluster 8: len=10
+unable to qualify my own domain name (<*>) -- using short name (ground truth)
+unable to qualify my own domain name (<*>) -- using short name (final_template)
+unable to qualify my own domain name ({{domain_name}}) -- using short name: 1
+unable to qualify my own domain name (<*>) -- using short name: 1
+---------------------------
+---------------------------
+cluster 9: len=10
+<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost (ground truth)
+<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=#<*>#@localhost (final_template)
+{{msgid}}: from=root, size={{size}}, class=0, nrcpts=1, msgid={{msgid}}, relay=#7#@localhost: 1
+<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=#<*>#@localhost: 1
+---------------------------
+---------------------------
+cluster 10: len=10
+<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>] (ground truth)
+<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>] (final_template)
+{{id}}: to=root, ctladdr=root (0/0), delay={{delay}}, xdelay={{xdelay}}, mailer=relay, pri={{pri}}, relay=[{{relay_ip}}] [{{relay_ip}}], dsn=4.0.0, stat=Deferred: Connection refused by [{{relay_ip}}]: 1
+<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]: 1
+---------------------------
+---------------------------
+cluster 17: len=10
+PCI Interrupt Routing Table [<*>] (ground truth)
+PCI Interrupt Routing Table [<*>._PRT] (final_template)
+PCI Interrupt Routing Table [{{pci_location}}._PRT]: 1
+PCI Interrupt Routing Table [<*>._PRT]: 1
+---------------------------
+---------------------------
+cluster 14: len=9
+DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>. (ground truth)
+DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>. (final_template)
+DHCPREQUEST for {{ip_address}} ({{server_ip}}) from {{mac_address}} via {{interface}}: unknown lease {{ip_address}}.: 1
+DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.: 1
+---------------------------
+---------------------------
+cluster 23: len=6
+Wait for ready failed before probe ! (ground truth)
+Wait for ready failed before probe ! (final_template)
+Wait for ready failed before probe !: 1
+Wait for ready failed before probe !: 1
+---------------------------
+---------------------------
+cluster 11: len=5
+DHCPDISCOVER from <*> via eth1 (ground truth)
+DHCPDISCOVER from <*> via <*> (final_template)
+DHCPDISCOVER from {{mac_address}} via {{interface}}: 1
+DHCPDISCOVER from <*> via <*>: 1
+---------------------------
+---------------------------
+cluster 12: len=5
+DHCPOFFER on <*> to <*> via eth1 (ground truth)
+DHCPOFFER on <*> to <*> via <*> (final_template)
+DHCPOFFER on {{ip_address}} to {{mac_address}} via {{interface}}: 1
+DHCPOFFER on <*> to <*> via <*>: 1
+---------------------------
+---------------------------
+cluster 16: len=5
+My unqualified host name (<*>) unknown; sleeping for retry (ground truth)
+My unqualified host name (<*>) unknown; sleeping for retry (final_template)
+My unqualified host name ({{hostname}}) unknown; sleeping for retry: 1
+My unqualified host name (<*>) unknown; sleeping for retry: 1
+---------------------------
+---------------------------
+cluster 19: len=5
+L2 cache: <*> (ground truth)
+L2 cache: <*> (final_template)
+L2 cache: {{size}}: 1
+L2 cache: <*>: 1
+---------------------------
+---------------------------
+cluster 20: len=5
+Physical Processor ID: <*> (ground truth)
+Physical Processor ID: <*> (final_template)
+Physical Processor ID: {{id}}: 1
+Physical Processor ID: <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=5
+Trace cache: <*> uops, L1 D cache: <*> (ground truth)
+Trace cache: <*> uops, L1 D cache: <*> (final_template)
+Trace cache: {{size}} uops, L1 D cache: {{size}}: 1
+Trace cache: <*> uops, L1 D cache: <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=5
+Registered protocol family <*> (ground truth)
+Registered protocol family <*> (final_template)
+Registered protocol family {{family_number}}: 1
+Registered protocol family <*>: 1
+---------------------------
+---------------------------
+cluster 51: len=4
+LAPIC (acpi_id[<*>] lapic_id[<*>] enabled) (ground truth)
+LAPIC (acpi_id[<*>] lapic_id[<*>] enabled) (final_template)
+LAPIC (acpi_id[{{acpi_id}}] lapic_id[{{lapic_id}}] enabled): 1
+LAPIC (acpi_id[<*>] lapic_id[<*>] enabled): 1
+---------------------------
+---------------------------
+cluster 52: len=4
+LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]) (ground truth)
+LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]) (final_template)
+LAPIC_NMI (acpi_id[{{acpi_id}}] high edge lint[{{lint}}]): 1
+LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]): 1
+---------------------------
+---------------------------
+cluster 66: len=4
+Processor [<*>] (supports C1) (ground truth)
+Processor [<*>] (supports C1) (final_template)
+Processor [{{CPU}}] (supports C1): 1
+Processor [<*>] (supports C1): 1
+---------------------------
+---------------------------
+cluster 112: len=4
+(C) <*>-<*> Netfilter core team (ground truth)
+<*> <*>-<*> Netfilter core team (final_template)
+{{(C)}} {{year1}}-{{year2}} Netfilter core team: 1
+<*> <*>-<*> Netfilter core team: 1
+---------------------------
+---------------------------
+cluster 26: len=3
+Local disconnected: Connection closed. (ground truth)
+Local disconnected: Connection closed. (final_template)
+Local disconnected: Connection closed.: 1
+Local disconnected: Connection closed.: 1
+---------------------------
+---------------------------
+cluster 27: len=3
+connection lost: 'Connection closed.' (ground truth)
+connection lost: '<*>' (final_template)
+connection lost: '{{reason}}': 1
+connection lost: '<*>': 1
+---------------------------
+---------------------------
+cluster 28: len=3
+DHCPACK on <*> to <*> via eth1 (ground truth)
+DHCPACK on <*> to <*> via <*> (final_template)
+DHCPACK on {{ip_address}} to {{mac_address}} via {{interface}}: 1
+DHCPACK on <*> to <*> via <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=3
+DHCPREQUEST for <*> (<*>) from <*> via eth1 (ground truth)
+DHCPREQUEST for <*> (<*>) from <*> via <*> (final_template)
+DHCPREQUEST for {{ip_address}} ({{server_ip}}) from {{mac_address}} via {{interface}}: 1
+DHCPREQUEST for <*> (<*>) from <*> via <*>: 1
+---------------------------
+---------------------------
+cluster 48: len=3
+IOAPIC (id[<*>] address[<*>] gsi_base[<*>]) (ground truth)
+IOAPIC (id[<*>] address[<*>] gsi_base[<*>]) (final_template)
+IOAPIC (id[{{id}}] address[{{address}}] gsi_base[{{gsi_base}}]): 1
+IOAPIC (id[<*>] address[<*>] gsi_base[<*>]): 1
+---------------------------
+---------------------------
+cluster 49: len=3
+<*> used by override. (ground truth)
+<*> used by override. (final_template)
+IRQ{{number}} used by override.: 1
+<*> used by override.: 1
+---------------------------
+---------------------------
+cluster 74: len=3
+mounted filesystem with ordered data mode. (ground truth)
+mounted filesystem with ordered data mode. (final_template)
+mounted filesystem with ordered data mode.: 1
+mounted filesystem with ordered data mode.: 1
+---------------------------
+---------------------------
+cluster 76: len=3
+apic_id <*>, version <*>, address <*>, GSI <*> (ground truth)
+apic_id <*>, version <*>, address <*>, GSI <*>-<*> (final_template)
+apic_id {{}}, version {{}}, address {{}}, GSI {{}}-{{}}: 1
+apic_id <*>, version <*>, address <*>, GSI <*>-<*>: 1
+---------------------------
+---------------------------
+cluster 103: len=2
+allocating divert_blk for <*> (ground truth)
+allocating divert_blk for <*> (final_template)
+allocating divert_blk for {{interface}}: 1
+allocating divert_blk for <*>: 1
+---------------------------
+---------------------------
+cluster 106: len=2
+<*>: <*>: Intel(R) PRO/<*> Network Connection (ground truth)
+<*>: e1000_probe: <*> Network Connection (final_template)
+{{interface}}: e1000_probe: {{driver}} Network Connection: 1
+<*>: e1000_probe: <*> Network Connection: 1
+---------------------------
+---------------------------
+cluster 114: len=2
+... autorun DONE. (ground truth)
+... autorun DONE. (final_template)
+... autorun DONE.: 1
+... autorun DONE.: 1
+---------------------------
+---------------------------
+cluster 115: len=2
+Autodetecting RAID arrays. (ground truth)
+Autodetecting RAID arrays. (final_template)
+Autodetecting RAID arrays.: 1
+Autodetecting RAID arrays.: 1
+---------------------------
+---------------------------
+cluster 116: len=2
+autorun ... (ground truth)
+autorun ... (final_template)
+autorun ...: 1
+autorun ...: 1
+---------------------------
+---------------------------
+cluster 148: len=2
+connection from <*> (ground truth)
+connection from "<*>" (final_template)
+connection from "{{source}}": 1
+connection from "<*>": 1
+---------------------------
+---------------------------
+cluster 149: len=2
+User <*>, coming from <*>, authenticated. (ground truth)
+User <*>, coming from <*>, authenticated. (final_template)
+User {{user_id}}, coming from {{source}}, authenticated.: 1
+User <*>, coming from <*>, authenticated.: 1
+---------------------------
+---------------------------
+cluster 150: len=2
+Now running on <*>'s privileges. (ground truth)
+Now running on <*>'s privileges. (final_template)
+Now running on {{number}}'s privileges.: 1
+Now running on <*>'s privileges.: 1
+---------------------------
+---------------------------
+cluster 156: len=2
+succeeded (ground truth)
+succeeded (final_template)
+{{message}}: 1
+succeeded: 1
+---------------------------
+---------------------------
+cluster 163: len=2
+removing <*> (ground truth)
+removing chargen (final_template)
+removing chargen: 1
+removing chargen: 1
+---------------------------
+---------------------------
+cluster 164: len=2
+removing <*> (ground truth)
+removing daytime (final_template)
+removing daytime: 1
+removing daytime: 1
+---------------------------
+---------------------------
+cluster 165: len=2
+removing <*> (ground truth)
+removing echo (final_template)
+removing echo: 1
+removing echo: 1
+---------------------------
+---------------------------
+cluster 174: len=2
+removing <*> (ground truth)
+removing time (final_template)
+removing time: 1
+removing time: 1
+---------------------------
+---------------------------
+cluster 30: len=1
+START: tftp pid=<*> from=<*> (ground truth)
+START: tftp pid=<*> from=<*> (final_template)
+START: tftp pid={{pid}} from={{source_ip}}: 1
+START: tftp pid=<*> from=<*>: 1
+---------------------------
+---------------------------
+cluster 31: len=1
+kernel time sync disabled <*> (ground truth)
+kernel time sync disabled <*> (final_template)
+kernel time sync disabled {{code}}: 1
+kernel time sync disabled <*>: 1
+---------------------------
+---------------------------
+cluster 32: len=1
+time reset +<*> s (ground truth)
+time reset +<*> s (final_template)
+time reset +{{number}} s: 1
+time reset +<*> s: 1
+---------------------------
+---------------------------
+cluster 33: len=1
+Received SNMP packet(s) from <*> (ground truth)
+Received SNMP packet(s) from <*> (final_template)
+Received SNMP packet(s) from {{source}}: 1
+Received SNMP packet(s) from <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+kernel time sync enabled <*> (ground truth)
+kernel time sync enabled <*> (final_template)
+kernel time sync enabled {{value}}: 1
+kernel time sync enabled <*>: 1
+---------------------------
+---------------------------
+cluster 35: len=1
+(<*>) CMD (<*> <*>) (ground truth)
+<*> CMD (<*>) (final_template)
+{{root}} CMD ({{command}}): 1
+<*> CMD (<*>): 1
+---------------------------
+---------------------------
+cluster 36: len=1
+(<*>) CMD (<*> <*>) (ground truth)
+<*> CMD (<*>) (match result)
+---------------------------
+---------------------------
+cluster 37: len=1
+(<*>) CMD (<*> <*>) (ground truth)
+<*> CMD (<*>) (match result)
+---------------------------
+---------------------------
+cluster 38: len=1
+(<*>) CMD (<*> <*>) (ground truth)
+<*> CMD (<*>) (match result)
+---------------------------
+---------------------------
+cluster 39: len=1
+(<*>) CMD (<*> <*>) (ground truth)
+<*> CMD (<*>) (match result)
+---------------------------
+---------------------------
+cluster 40: len=1
+CentOS-<*> (Kernel Module GPG key) (ground truth)
+<*>-<*> (<*> <*> <*>) (final_template)
+{{Operating System}}-{{Version}} ({{Component}} {{Type}} {{Name}}): 1
+<*>-<*> (<*> <*> <*>): 1
+---------------------------
+---------------------------
+cluster 41: len=1
+(supports <*>) (ground truth)
+(supports S0 S4 S5) (final_template)
+{{supports}}: 1
+(supports S0 S4 S5): 1
+---------------------------
+---------------------------
+cluster 42: len=1
+<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*> (ground truth)
+DSDT (<*> <*> <*> <*> <*> <*>) @ <*> (final_template)
+DSDT (v{{version}} {{manufacturer}} {{product}} 0x{{code1}} {{vendor1}} 0x{{code2}}) @ 0x{{memory_address}}: 1
+DSDT (<*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 43: len=1
+<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*> (ground truth)
+FADT (v001 <*> <*> <*> <*> <*>) @ <*> (final_template)
+FADT (v001 {{OEM_ID}} {{OEM_TABLE_ID}} 0x{{OEM_REVISION}} {{CREATOR_ID}} 0x{{CREATOR_REVISION}}) @ {{MEMORY_ADDRESS}}: 1
+FADT (v001 <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*> (ground truth)
+HPET (v001 <*> <*> <*> <*> <*> <*>) @ <*> (final_template)
+HPET (v001 {{manufacturer}} {{product}} {{revision}} 0x{{firmware_version}} {{oem_id}} 0x{{creator_id}}) @ 0x{{memory_address}}: 1
+HPET (v001 <*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+HPET id: <*> base: <*> (ground truth)
+HPET id: <*> base: <*> (final_template)
+HPET id: {{id}} base: {{base}}: 1
+HPET id: <*> base: <*>: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl) (ground truth)
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl) (final_template)
+INT_SRC_OVR (bus {{bus}} bus_irq {{bus_irq}} global_irq {{global_irq}} dfl dfl): 1
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl): 1
+---------------------------
+---------------------------
+cluster 47: len=1
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level) (ground truth)
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>) (final_template)
+INT_SRC_OVR (bus {{bus}} bus_irq {{bus_irq}} global_irq {{global_irq}} {{trigger_type}}): 1
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>): 1
+---------------------------
+---------------------------
+cluster 50: len=1
+Interpreter enabled (ground truth)
+Interpreter enabled (final_template)
+Interpreter enabled: 1
+Interpreter enabled: 1
+---------------------------
+---------------------------
+cluster 53: len=1
+Local APIC address <*> (ground truth)
+Local APIC address <*> (final_template)
+Local APIC address {{address}}: 1
+Local APIC address <*>: 1
+---------------------------
+---------------------------
+cluster 54: len=1
+<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*> (ground truth)
+MADT (<*> <*> <*> <*> <*> <*>) @ <*> (final_template)
+MADT (v{{version}} {{manufacturer}} {{product}} 0x{{code1}} {{vendor}} 0x{{code2}}) @ 0x{{memory_address}}: 1
+MADT (<*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 55: len=1
+<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*> (ground truth)
+MCFG (v001 <*> <*> <*> <*> <*> <*>) @ <*> (final_template)
+MCFG (v001 {{manufacturer}} {{product}} {{OEM_id}} 0x{{OEM_revision}} {{creator_id}} 0x{{creator_revision}}) @ 0x{{memory_address}}: 1
+MCFG (v001 <*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 56: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*> (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) <*> (final_template)
+PCI Interrupt Link [{{LinkName}}] (IRQs {{IRQs}}) *{{Number}}: 1
+PCI Interrupt Link [<*>] (IRQs <*>) <*>: 1
+---------------------------
+---------------------------
+cluster 57: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) (final_template)
+PCI Interrupt Link [{{link_name}}] (IRQs {{irq_list}}): 1
+PCI Interrupt Link [<*>] (IRQs <*>): 1
+---------------------------
+---------------------------
+cluster 58: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*> (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) <*> (match result)
+---------------------------
+---------------------------
+cluster 59: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled. (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled. (final_template)
+PCI Interrupt Link [{{LINK_NAME}}] (IRQs {{IRQ_LIST}}) *{{VALUE}}, disabled.: 1
+PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled.: 1
+---------------------------
+---------------------------
+cluster 60: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled. (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled. (match result)
+---------------------------
+---------------------------
+cluster 61: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled. (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled. (match result)
+---------------------------
+---------------------------
+cluster 62: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled. (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled. (match result)
+---------------------------
+---------------------------
+cluster 63: len=1
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled. (ground truth)
+PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled. (match result)
+---------------------------
+---------------------------
+cluster 64: len=1
+PCI <*> Bridge [PCI0] (<*>) (ground truth)
+PCI <*> Bridge [<*>] (<*>) (final_template)
+PCI Root Bridge [{{PCI_ID}}] ({{TIME}}): 1
+PCI <*> Bridge [<*>] (<*>): 1
+---------------------------
+---------------------------
+cluster 65: len=1
+Power Button (FF) [PWRF] (ground truth)
+Power Button (FF) [PWRF] (final_template)
+Power Button (FF) [PWRF]: 1
+Power Button (FF) [PWRF]: 1
+---------------------------
+---------------------------
+cluster 67: len=1
+RSDP (<*> DELL ) @ <*> (ground truth)
+RSDP (<*> <*> ) @ <*> (final_template)
+RSDP (v{{version}} {{manufacturer}} ) @ {{memory_address}}: 1
+RSDP (<*> <*> ) @ <*>: 1
+---------------------------
+---------------------------
+cluster 68: len=1
+<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*> (ground truth)
+RSDT (<*> <*> <*> <*> <*>) @ <*> (final_template)
+RSDT (v{{version}} {{manufacturer}} {{product}} {{code}} {{code2}}) @ {{memory_address}}: 1
+RSDT (<*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 69: len=1
+<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*> (ground truth)
+SPCR (<*> <*> <*> <*> <*> <*> <*>) @ <*> (final_template)
+SPCR (v{{version}} {{manufacturer}} {{product}} {{component}} {{error_code}} {{vendor}} {{error_code}}) @ {{memory_address}}: 1
+SPCR (<*> <*> <*> <*> <*> <*> <*>) @ <*>: 1
+---------------------------
+---------------------------
+cluster 70: len=1
+Subsystem revision <*> (ground truth)
+Subsystem revision <*> (final_template)
+Subsystem revision {{revision_date}}: 1
+Subsystem revision <*>: 1
+---------------------------
+---------------------------
+cluster 71: len=1
+Using IOAPIC for interrupt routing (ground truth)
+Using IOAPIC for interrupt routing (final_template)
+Using IOAPIC for interrupt routing: 1
+Using IOAPIC for interrupt routing: 1
+---------------------------
+---------------------------
+cluster 72: len=1
+Intel(R) Xeon(TM) CPU <*> stepping <*> (ground truth)
+Intel(R) Xeon(TM) CPU <*> stepping <*> (final_template)
+Intel(R) Xeon(TM) CPU {{version}} stepping {{stepping}}: 1
+Intel(R) Xeon(TM) CPU <*> stepping <*>: 1
+---------------------------
+---------------------------
+cluster 73: len=1
+colour VGA+ <*> (ground truth)
+colour <*> <*> (final_template)
+colour {{mode}} {{resolution}}: 1
+colour <*> <*>: 1
+---------------------------
+---------------------------
+cluster 75: len=1
+<*> <*> <*> ak Exp $ (ground truth)
+<*>,v <*> <*> <*> <*> Exp $ (final_template)
+sys_{{filename}},v {{version}} {{date}} {{time}} {{author}} Exp $: 1
+<*>,v <*> <*> <*> <*> Exp $: 1
+---------------------------
+---------------------------
+cluster 77: len=1
+routing cache hash table of <*> buckets, <*> (ground truth)
+routing cache hash table of <*> buckets, <*> (final_template)
+routing cache hash table of {{size}} buckets, {{memory}}: 1
+routing cache hash table of <*> buckets, <*>: 1
+---------------------------
+---------------------------
+cluster 78: len=1
+PCI Hot Plug PCI Core version: <*> (ground truth)
+PCI Hot Plug PCI Core version: <*> (final_template)
+PCI Hot Plug PCI Core version: {{version}}: 1
+PCI Hot Plug PCI Core version: <*>: 1
+---------------------------
+---------------------------
+cluster 79: len=1
+<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*> (ground truth)
+<*>=LABEL=<*> initrd=<*> console=tty0 console=ttyS0,<*> fastboot BOOT_IMAGE=<*> (final_template)
+root=LABEL={{root_label}} initrd={{initrd_path}} console=tty0 console=ttyS0,{{console_speed}} fastboot BOOT_IMAGE={{boot_image_path}}: 1
+<*>=LABEL=<*> initrd=<*> console=tty0 console=ttyS0,<*> fastboot BOOT_IMAGE=<*>: 1
+---------------------------
+---------------------------
+cluster 80: len=1
+Using software bounce buffering for IO (SWIOTLB) (ground truth)
+Using software bounce buffering for IO (SWIOTLB) (final_template)
+Using software bounce buffering for IO (SWIOTLB): 1
+Using software bounce buffering for IO (SWIOTLB): 1
+---------------------------
+---------------------------
+cluster 81: len=1
+Probing PCI hardware (bus <*>) (ground truth)
+Probing PCI hardware (bus <*>) (final_template)
+Probing PCI hardware (bus {{bus_number}}): 1
+Probing PCI hardware (bus <*>): 1
+---------------------------
+---------------------------
+cluster 82: len=1
+Transparent bridge - <*> (ground truth)
+Transparent bridge - <*> (final_template)
+Transparent bridge - {{PCI_address}}: 1
+Transparent bridge - <*>: 1
+---------------------------
+---------------------------
+cluster 83: len=1
+Using ACPI for IRQ routing (ground truth)
+Using ACPI for IRQ routing (final_template)
+Using ACPI for IRQ routing: 1
+Using ACPI for IRQ routing: 1
+---------------------------
+---------------------------
+cluster 84: len=1
+Using MMCONFIG at <*> (ground truth)
+Using MMCONFIG at <*> (final_template)
+Using MMCONFIG at {{memory_address}}: 1
+Using MMCONFIG at <*>: 1
+---------------------------
+---------------------------
+cluster 85: len=1
+Using configuration type <*> (ground truth)
+Using configuration type <*> (final_template)
+Using configuration type {{type}}: 1
+Using configuration type <*>: 1
+---------------------------
+---------------------------
+cluster 86: len=1
+Compressed image found at block <*> (ground truth)
+Compressed image found at block <*> (final_template)
+Compressed image found at block {{block_number}}: 1
+Compressed image found at block <*>: 1
+---------------------------
+---------------------------
+cluster 87: len=1
+Disabled at runtime. (ground truth)
+Disabled at runtime. (final_template)
+Disabled at runtime.: 1
+Disabled at runtime.: 1
+---------------------------
+---------------------------
+cluster 88: len=1
+Initializing. (ground truth)
+Initializing. (final_template)
+Initializing.: 1
+Initializing.: 1
+---------------------------
+---------------------------
+cluster 89: len=1
+Registering netfilter hooks (ground truth)
+Registering netfilter hooks (final_template)
+Registering netfilter hooks: 1
+Registering netfilter hooks: 1
+---------------------------
+---------------------------
+cluster 90: len=1
+Starting in permissive mode (ground truth)
+Starting in permissive mode (final_template)
+Starting in permissive mode: 1
+Starting in permissive mode: 1
+---------------------------
+---------------------------
+cluster 91: len=1
+Unregistering netfilter hooks (ground truth)
+Unregistering netfilter hooks (final_template)
+Unregistering netfilter hooks: 1
+Unregistering netfilter hooks: 1
+---------------------------
+---------------------------
+cluster 92: len=1
+Hash tables configured (established <*> bind <*>) (ground truth)
+Hash tables configured (established <*> bind <*>) (final_template)
+Hash tables configured (established {{number1}} bind {{number2}}): 1
+Hash tables configured (established <*> bind <*>): 1
+---------------------------
+---------------------------
+cluster 93: len=1
+Direct-Access ANSI SCSI revision: <*> (ground truth)
+Direct-Access ANSI SCSI revision: <*> (final_template)
+Direct-Access ANSI SCSI revision: {{revision}}: 1
+Direct-Access ANSI SCSI revision: <*>: 1
+---------------------------
+---------------------------
+cluster 94: len=1
+Processor ANSI SCSI revision: <*> (ground truth)
+Processor <*> revision: <*> (final_template)
+Processor {{type}} revision: {{revision}}: 1
+Processor <*> revision: <*>: 1
+---------------------------
+---------------------------
+cluster 95: len=1
+Disk quotas <*> (ground truth)
+Disk quotas <*> (final_template)
+Disk quotas {{module_version}}: 1
+Disk quotas <*>: 1
+---------------------------
+---------------------------
+cluster 96: len=1
+Mounted <*> (ext2 filesystem). (ground truth)
+Mounted <*> (<*> filesystem). (final_template)
+Mounted root ({{filesystem_type}} filesystem).: 1
+Mounted <*> (<*> filesystem).: 1
+---------------------------
+---------------------------
+cluster 97: len=1
+MegaRAID Model: LD <*> RAID1 <*> Rev: <*> (ground truth)
+MegaRAID Model: LD <*> <*> <*> Rev: <*> (final_template)
+MegaRAID Model: LD {{ld_number}} {{raid_level}} {{size}} Rev: {{revision}}: 1
+MegaRAID Model: LD <*> <*> <*> Rev: <*>: 1
+---------------------------
+---------------------------
+cluster 98: len=1
+PE/PV Model: <*> SCSI BP Rev: <*> (ground truth)
+PE/PV Model: <*> SCSI BP Rev: <*> (final_template)
+PE/PV Model: {{model}} SCSI BP Rev: {{revision}}: 1
+PE/PV Model: <*> SCSI BP Rev: <*>: 1
+---------------------------
+---------------------------
+cluster 99: len=1
+initialized (ground truth)
+initialized (final_template)
+{{initialized}}: 1
+initialized: 1
+---------------------------
+---------------------------
+cluster 100: len=1
+initializing netlink socket (disabled) (ground truth)
+initializing netlink socket (disabled) (final_template)
+initializing netlink socket (disabled): 1
+initializing netlink socket (disabled): 1
+---------------------------
+---------------------------
+cluster 101: len=1
+passed. (ground truth)
+passed. (final_template)
+passed.: 1
+passed.: 1
+---------------------------
+---------------------------
+cluster 102: len=1
+<*>-ioctl (<*>) initialised: <*> (ground truth)
+<*> (<*>) initialised: #<*>#@#<*># (final_template)
+{{version}} ({{date}}) initialised: #{{number}}#@#{{number}}#: 1
+<*> (<*>) initialised: #<*>#@#<*>#: 1
+---------------------------
+---------------------------
+cluster 104: len=1
+not allocating divert_blk for non-ethernet device <*> (ground truth)
+not allocating divert_blk for non-ethernet device lo (final_template)
+not allocating divert_blk for non-ethernet device lo: 1
+not allocating divert_blk for non-ethernet device lo: 1
+---------------------------
+---------------------------
+cluster 105: len=1
+<*>:USB HID core driver (ground truth)
+<*> core driver (final_template)
+{{version}}:{{module}} core driver: 1
+<*> core driver: 1
+---------------------------
+---------------------------
+cluster 107: len=1
+eth0: <*>: NIC Link is Up <*> Mbps Full Duplex (ground truth)
+<*>: <*>: NIC Link is Up <*> Mbps <*> (final_template)
+{{interface}}: {{driver}}_watchdog: NIC Link is Up {{speed}} Mbps {{duplex}}: 1
+<*>: <*>: NIC Link is Up <*> Mbps <*>: 1
+---------------------------
+---------------------------
+cluster 108: len=1
+no floppy controllers found (ground truth)
+no floppy controllers found (final_template)
+no floppy controllers found: 1
+no floppy controllers found: 1
+---------------------------
+---------------------------
+cluster 109: len=1
+RNG not detected (ground truth)
+RNG not detected (final_template)
+{{text}}: 1
+RNG not detected: 1
+---------------------------
+---------------------------
+cluster 110: len=1
+Assuming <*> system bus speed for PIO modes; override with idebus=xx (ground truth)
+Assuming <*> system bus speed for PIO modes; override with idebus=<*> (final_template)
+Assuming {{speed}} system bus speed for PIO modes; override with idebus={{xx}}: 1
+Assuming <*> system bus speed for PIO modes; override with idebus=<*>: 1
+---------------------------
+---------------------------
+cluster 111: len=1
+Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*> (ground truth)
+Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*> (final_template)
+Unknown cmd fd({{fd}}) cmd({{cmd}}){00} arg({{arg}}) on {{device}}: 1
+Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>: 1
+---------------------------
+---------------------------
+cluster 113: len=1
+Installing public key data (ground truth)
+Installing public key data (final_template)
+Installing public key data: 1
+Installing public key data: 1
+---------------------------
+---------------------------
+cluster 117: len=1
+md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*> (ground truth)
+md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*> (final_template)
+md driver {{version}} MAX_MD_DEVS={{max_devs}}, MD_SB_DISKS={{sb_disks}}: 1
+md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>: 1
+---------------------------
+---------------------------
+cluster 118: len=1
+<*> (Release Date: <*> <*>) (ground truth)
+#<*>#-<*> (Release Date: <*> <*> <*> <*> <*> <*>) (final_template)
+#{{version_number}}#-{{code_name}} (Release Date: {{day_of_week}} {{month}} {{day}} {{hour}}:{{minute}}:{{second}} {{time_zone}} {{year}}): 1
+#<*>#-<*> (Release Date: <*> <*> <*> <*> <*> <*>): 1
+---------------------------
+---------------------------
+cluster 119: len=1
+<*> (Release Date: <*> <*>) (ground truth)
+#<*># (Release Date: <*> <*> <*> <*> <*> <*>) (final_template)
+#39# (Release Date: {{Day}} {{Month}} {{DayOfMonth}} {{Hour}}:{{Minute}}:{{Second}} {{Timezone}} {{Year}}): 1
+#<*># (Release Date: <*> <*> <*> <*> <*> <*>): 1
+---------------------------
+---------------------------
+cluster 120: len=1
+fw version:[<*>] bios version:[<*>] (ground truth)
+fw version:[<*>] bios version:[<*>] (final_template)
+fw version:[{{fw_version}}] bios version:[{{bios_version}}]: 1
+fw version:[<*>] bios version:[<*>]: 1
+---------------------------
+---------------------------
+cluster 121: len=1
+probe new device <*>: bus <*>:slot <*>:func <*> (ground truth)
+probe new device <*>: bus <*>:slot <*>:func <*> (final_template)
+probe new device {{vendor_id}}:{{product_id}}:{{vendor_id}}:{{device_id}}: bus {{bus_number}}:slot {{slot_number}}:func {{func_number}}: 1
+probe new device <*>: bus <*>:slot <*>:func <*>: 1
+---------------------------
+---------------------------
+cluster 122: len=1
+PS/<*> mouse device common for all mice (ground truth)
+<*> mouse device common for all mice (final_template)
+{{interface_type}} mouse device common for all mice: 1
+<*> mouse device common for all mice: 1
+---------------------------
+---------------------------
+cluster 123: len=1
+<*> (<*>) (ground truth)
+<*> (<*>) (final_template)
+{{version}} ({{date}}): 1
+<*> (<*>): 1
+---------------------------
+---------------------------
+cluster 124: len=1
+rpc.statd startup succeeded (ground truth)
+rpc.statd startup succeeded (final_template)
+rpc.statd startup succeeded: 1
+rpc.statd startup succeeded: 1
+---------------------------
+---------------------------
+cluster 125: len=1
+portmap startup succeeded (ground truth)
+portmap startup succeeded (final_template)
+portmap startup succeeded: 1
+portmap startup succeeded: 1
+---------------------------
+---------------------------
+cluster 126: len=1
+Starting ts_fixup: succeeded (ground truth)
+Starting ts_fixup: succeeded (final_template)
+Starting ts_fixup: succeeded: 1
+Starting ts_fixup: succeeded: 1
+---------------------------
+---------------------------
+cluster 127: len=1
+Version <*> Starting (ground truth)
+Version <*> Starting (final_template)
+Version {{version}} Starting: 1
+Version <*> Starting: 1
+---------------------------
+---------------------------
+cluster 128: len=1
+LSI Logic MegaRAID driver (ground truth)
+LSI Logic MegaRAID driver (final_template)
+LSI Logic MegaRAID driver: 1
+LSI Logic MegaRAID driver: 1
+---------------------------
+---------------------------
+cluster 129: len=1
+scanning scsi channel <*> [Phy <*>] for non-raid devices (ground truth)
+scanning scsi channel <*> [Phy <*>] for non-raid devices (final_template)
+scanning scsi channel {{int}} [Phy {{int}}] for non-raid devices: 1
+scanning scsi channel <*> [Phy <*>] for non-raid devices: 1
+---------------------------
+---------------------------
+cluster 130: len=1
+scanning scsi channel <*> [virtual] for logical drives (ground truth)
+scanning scsi channel <*> [<*>] for logical drives (final_template)
+scanning scsi channel {{channel_number}} [{{channel_type}}] for logical drives: 1
+scanning scsi channel <*> [<*>] for logical drives: 1
+---------------------------
+---------------------------
+cluster 131: len=1
+asking for cache data failed (ground truth)
+asking for cache data failed (final_template)
+asking for cache data failed: 1
+asking for cache data failed: 1
+---------------------------
+---------------------------
+cluster 132: len=1
+assuming drive cache: write through (ground truth)
+assuming drive cache: write through (final_template)
+assuming drive cache: write through: 1
+assuming drive cache: write through: 1
+---------------------------
+---------------------------
+cluster 133: len=1
+sda1 sda2 sda3 sda4 (ground truth)
+<*> <*> <*> <*> (final_template)
+{{sda1}} {{sda2}} {{sda3}} {{sda4}}: 1
+<*> <*> <*> <*>: 1
+---------------------------
+---------------------------
+cluster 134: len=1
+Registering secondary module capability (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 135: len=1
+<*> AUX port at <*>,<*> irq <*> (ground truth)
+i8042 AUX port at <*>,<*> irq <*> (final_template)
+i8042 AUX port at {{hex_address1}},{{hex_address2}} irq {{irq_number}}: 1
+i8042 AUX port at <*>,<*> irq <*>: 1
+---------------------------
+---------------------------
+cluster 136: len=1
+<*> KBD port at <*>,<*> irq <*> (ground truth)
+<*> port at <*>,<*> irq <*> (final_template)
+{{controller}} port at {{port1}},{{port2}} irq {{irq}}: 1
+<*> port at <*>,<*> irq <*>: 1
+---------------------------
+---------------------------
+cluster 137: len=1
+syslog-ng startup succeeded (ground truth)
+<*> startup succeeded (final_template)
+{{service}} startup succeeded: 1
+<*> startup succeeded: 1
+---------------------------
+---------------------------
+cluster 138: len=1
+syslog-ng version <*> starting (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 139: len=1
+Detected <*> MHz processor. (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 140: len=1
+Using <*> MHz HPET timer. (ground truth)
+Using <*> MHz HPET timer. (final_template)
+Using {{frequency}} MHz HPET timer.: 1
+Using <*> MHz HPET timer.: 1
+---------------------------
+---------------------------
+cluster 141: len=1
+Using HPET based timekeeping. (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 142: len=1
+Creating Topspin <*> entries: (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 143: len=1
+registered new driver hiddev (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 144: len=1
+registered new driver hub (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 145: len=1
+registered new driver usbfs (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 146: len=1
+registered new driver usbhid (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 147: len=1
+probe of vesafb0 failed with error <*> (ground truth)
+probe of <*> failed with error <*> (final_template)
+probe of {{device}} failed with error {{error_code}}: 1
+probe of <*> failed with error <*>: 1
+---------------------------
+---------------------------
+cluster 151: len=1
+Mounting NFS filesystems: succeeded (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 152: len=1
+Mounting other filesystems: failed (ground truth)
+<*> <*> <*> <*> (match result)
+---------------------------
+---------------------------
+cluster 153: len=1
+Warning: we failed to resolve trusted host name <*> (ground truth)
+Warning: we failed to resolve trusted host name <*> <*> (final_template)
+Warning: we failed to resolve trusted host name {{hostname}} {{hostname}}: 1
+Warning: we failed to resolve trusted host name <*> <*>: 1
+---------------------------
+---------------------------
+cluster 154: len=1
+gmetad startup succeeded (ground truth)
+<*> startup succeeded (match result)
+---------------------------
+---------------------------
+cluster 155: len=1
+not allocating divert_blk for non-ethernet device <*> (ground truth)
+not allocating divert_blk for non-<*> device <*> (final_template)
+not allocating divert_blk for non-{{device_type}} device {{device_name}}: 1
+not allocating divert_blk for non-<*> device <*>: 1
+---------------------------
+---------------------------
+cluster 157: len=1
+Server listening on :: port <*>. (ground truth)
+Server listening on <*> port <*>. (final_template)
+Server listening on {{address}} port {{port}}.: 1
+Server listening on <*> port <*>.: 1
+---------------------------
+---------------------------
+cluster 158: len=1
+error: Bind to port <*> on <*> failed: Address already in use. (ground truth)
+error: Bind to port <*> on <*> failed: <*>. (final_template)
+error: Bind to port {{port}} on {{ip_address}} failed: {{error_message}}.: 1
+error: Bind to port <*> on <*> failed: <*>.: 1
+---------------------------
+---------------------------
+cluster 159: len=1
+Cannot open file <*> for writing (No such file or directory) (ground truth)
+Cannot open file <*> for writing (<*>) (final_template)
+Cannot open file {{file_path}} for writing ({{error_message}}): 1
+Cannot open file <*> for writing (<*>): 1
+---------------------------
+---------------------------
+cluster 160: len=1
+Changing permissions on special file <*> (ground truth)
+Changing permissions on special file <*> (final_template)
+Changing permissions on special file /dev/{{special_file}}: 1
+Changing permissions on special file <*>: 1
+---------------------------
+---------------------------
+cluster 161: len=1
+xinetd startup succeeded (ground truth)
+<*> startup succeeded (match result)
+---------------------------
+---------------------------
+cluster 162: len=1
+Started working: <*> available service (ground truth)
+Started working: <*> available service (final_template)
+Started working: {{number}} available service: 1
+Started working: <*> available service: 1
+---------------------------
+---------------------------
+cluster 166: len=1
+removing <*> (ground truth)
+removing eklogin (final_template)
+removing eklogin: 1
+removing eklogin: 1
+---------------------------
+---------------------------
+cluster 167: len=1
+removing <*> (ground truth)
+removing ftp (final_template)
+removing ftp: 1
+removing ftp: 1
+---------------------------
+---------------------------
+cluster 168: len=1
+removing <*> (ground truth)
+removing klogin (final_template)
+removing klogin: 1
+removing klogin: 1
+---------------------------
+---------------------------
+cluster 169: len=1
+removing <*> (ground truth)
+removing kshell (final_template)
+removing kshell: 1
+removing kshell: 1
+---------------------------
+---------------------------
+cluster 170: len=1
+removing <*> (ground truth)
+removing ntalk (final_template)
+removing ntalk: 1
+removing ntalk: 1
+---------------------------
+---------------------------
+cluster 171: len=1
+removing <*> (ground truth)
+removing printer (final_template)
+removing printer: 1
+removing printer: 1
+---------------------------
+---------------------------
+cluster 172: len=1
+removing <*> (ground truth)
+removing rsync (final_template)
+removing rsync: 1
+removing rsync: 1
+---------------------------
+---------------------------
+cluster 173: len=1
+removing <*> (ground truth)
+removing telnet (final_template)
+removing telnet: 1
+removing telnet: 1
+---------------------------
+---------------------------
+cluster 175: len=1
+xinetd Version <*> started with libwrap loadavg options compiled in. (ground truth)
+xinetd Version <*> started with <*> options compiled in. (final_template)
+xinetd Version {{version}} started with {{options}} options compiled in.: 1
+xinetd Version <*> started with <*> options compiled in.: 1
+---------------------------
+---------------------------
+cluster 176: len=1
+Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report (ground truth)
+Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report (final_template)
+Device: {{device}}, Temperature changed {{old_temp}} Celsius to {{new_temp}} Celsius since last report: 1
+Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report: 1
+---------------------------
