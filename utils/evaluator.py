@@ -20,11 +20,11 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
                                                     np.array(df2['EventTemplate'], dtype='str'))
     
     # find the mismatch values
-    # if mismatch:
-    #     head,_,_ = file.rpartition('/')
-    #     os.makedirs(f'{head}/mismatch', exist_ok=True)
-    #     df_mismatch = df[df.EventTemplate != df.Output]
-    #     df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
+    if mismatch:
+        head,_,_ = output_file.rpartition('/')
+        os.makedirs(f'{head}/mismatch', exist_ok=True)
+        df_mismatch = df2[df1.EventTemplate != df2.EventTemplate]
+        df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
 
 
     edit_distance_result = []
