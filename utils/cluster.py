@@ -18,6 +18,10 @@ class Cluster:
         # self.mutation()
         if remove_duplicate:
             self.remove_duplicate()
+
+            # ablation: without batching
+            # self.logs = [self.logs[0]]
+
             if len(self.logs) > remain_num:
                 self.sample(remain_num)
     

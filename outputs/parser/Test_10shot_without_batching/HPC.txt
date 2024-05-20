@@ -1,0 +1,343 @@
+---------------------------
+cluster 23: len=394
+Linkerror event interval expired (ground truth)
+Linkerror event interval expired (final_template)
+Linkerror event interval expired: 1
+Linkerror event interval expired: 1
+---------------------------
+---------------------------
+cluster 21: len=292
+ambient=<*> (ground truth)
+ambient=<*> (final_template)
+ambient={{value}}: 1
+ambient=<*>: 1
+---------------------------
+---------------------------
+cluster 19: len=206
+normal (ground truth)
+normal (final_template)
+normal: 1
+normal: 1
+---------------------------
+---------------------------
+cluster 20: len=205
+warning (ground truth)
+warning (final_template)
+{{message}}: 1
+warning: 1
+---------------------------
+---------------------------
+cluster 14: len=162
+running (ground truth)
+running (final_template)
+running: 1
+running: 1
+---------------------------
+---------------------------
+cluster 17: len=91
+configured out (ground truth)
+configured out (final_template)
+configured out: 1
+configured out: 1
+---------------------------
+---------------------------
+cluster 25: len=91
+NIFF: node <*> has detected an available network connection on network <*> via interface ee0 (ground truth)
+NIFF: node <*> has detected an available network connection on network <*> via interface <*> (final_template)
+NIFF: node {{node_name}} has detected an available network connection on network {{network_address}} via interface {{interface_name}}: 1
+NIFF: node <*> has detected an available network connection on network <*> via interface <*>: 1
+---------------------------
+---------------------------
+cluster 7: len=79
+Fan speeds ( <*> <*> <*> **** <*> <*> ) (ground truth)
+Fan speeds ( <*> <*> <*> **** <*> <*> ) (final_template)
+Fan speeds ( {{number}} {{number}} {{number}} **** {{number}} {{number}} ): 1
+Fan speeds ( <*> <*> <*> **** <*> <*> ): 1
+---------------------------
+---------------------------
+cluster 1: len=67
+boot (command <*>) (ground truth)
+boot (command <*>) (final_template)
+boot  (command {{PID}}): 1
+boot (command <*>): 1
+---------------------------
+---------------------------
+cluster 2: len=66
+wait (command <*>) (ground truth)
+wait (command <*>) (final_template)
+wait  (command {{PID}}): 1
+wait (command <*>): 1
+---------------------------
+---------------------------
+cluster 16: len=60
+not responding (ground truth)
+not responding (final_template)
+not responding: 1
+not responding: 1
+---------------------------
+---------------------------
+cluster 24: len=56
+link errors remain current (ground truth)
+link errors remain current (final_template)
+link errors remain current: 1
+link errors remain current: 1
+---------------------------
+---------------------------
+cluster 6: len=32
+ClusterFileSystem: There is no server for ServerFileSystem domain <*> (ground truth)
+ClusterFileSystem: There is no server for <*> domain <*> (final_template)
+ClusterFileSystem: There is no server for {{domain}} domain {{storage}}: 1
+ClusterFileSystem: There is no server for <*> domain <*>: 1
+---------------------------
+---------------------------
+cluster 13: len=29
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (final_template)
+ClusterFileSystem: ServerFileSystem domain {{domain}} is no longer served by node {{node}}: 1
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>: 1
+---------------------------
+---------------------------
+cluster 22: len=20
+critical (ground truth)
+critical (final_template)
+{{log_message}}: 1
+critical: 1
+---------------------------
+---------------------------
+cluster 15: len=15
+blocked (ground truth)
+blocked (final_template)
+blocked: 1
+blocked: 1
+---------------------------
+---------------------------
+cluster 9: len=13
+Link error (ground truth)
+Link error (final_template)
+Link error: 1
+Link error: 1
+---------------------------
+---------------------------
+cluster 11: len=13
+Link ok (ground truth)
+Link ok (final_template)
+Link ok: 1
+Link ok: 1
+---------------------------
+---------------------------
+cluster 0: len=12
+Component State Change: Component <*> is in the unavailable state (HWID=<*>) (ground truth)
+Component State Change: Component <*> is in the <*> state (HWID=<*>) (final_template)
+Component State Change: Component {{ComponentName}} is in the {{State}} state (HWID={{HWID}}): 1
+Component State Change: Component <*> is in the <*> state (HWID=<*>): 1
+---------------------------
+---------------------------
+cluster 12: len=12
+ServerFileSystem: ServerFileSystem domain <*> is full (ground truth)
+ServerFileSystem: ServerFileSystem domain <*> is full (final_template)
+ServerFileSystem: ServerFileSystem domain {{domain}} is full: 1
+ServerFileSystem: ServerFileSystem domain <*> is full: 1
+---------------------------
+---------------------------
+cluster 8: len=11
+Fan speeds ( <*> <*> <*> <*> <*> <*> ) (ground truth)
+Fan speeds ( <*> <*> <*> <*> <*> <*> ) (final_template)
+Fan speeds ( {{number}} {{number}} {{number}} {{number}} {{number}} {{number}} ): 1
+Fan speeds ( <*> <*> <*> <*> <*> <*> ): 1
+---------------------------
+---------------------------
+cluster 3: len=10
+Command has completed successfully (ground truth)
+Command has completed successfully (final_template)
+Command has completed successfully: 1
+Command has completed successfully: 1
+---------------------------
+---------------------------
+cluster 10: len=9
+Link in reset (ground truth)
+Link in reset (final_template)
+Link in reset: 1
+Link in reset: 1
+---------------------------
+---------------------------
+cluster 4: len=5
+Targeting domains:<*> and nodes:node-[<*>-<*>] child of command <*> (ground truth)
+Targeting domains:<*> and nodes:<*> child of command <*> (final_template)
+Targeting domains:{{domain}} and nodes:{{nodes}} child of command {{command}}: 1
+Targeting domains:<*> and nodes:<*> child of command <*>: 1
+---------------------------
+---------------------------
+cluster 5: len=5
+psu failure\ ambient=<*> (ground truth)
+<*> ambient=<*> (final_template)
+{{message}}\ ambient={{ambient}}: 1
+<*> ambient=<*>: 1
+---------------------------
+---------------------------
+cluster 18: len=5
+active (ground truth)
+active (final_template)
+{{message}}: 1
+active: 1
+---------------------------
+---------------------------
+cluster 30: len=4
+Targeting domains:<*> nodes:<*> (ground truth)
+Targeting domains:<*> and nodes:<*> (final_template)
+Targeting domains:{{domain}} and nodes:{{nodes}}: 1
+Targeting domains:<*> and nodes:<*>: 1
+---------------------------
+---------------------------
+cluster 36: len=4
+Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*> (ground truth)
+Link error on broadcast tree <*> (final_template)
+Link error on broadcast tree {{Interconnect-<port>:<slot>:<device>}}: 1
+Link error on broadcast tree <*>: 1
+---------------------------
+---------------------------
+cluster 29: len=3
+halt (command <*>) (ground truth)
+halt (command <*>) (final_template)
+halt  (command {{number}}): 1
+halt (command <*>): 1
+---------------------------
+---------------------------
+cluster 26: len=2
+clusterAddMember (command <*>) (ground truth)
+<*> (command <*>) (final_template)
+cluster{{action}} (command {{number}}): 1
+<*> (command <*>): 1
+---------------------------
+---------------------------
+cluster 28: len=2
+bootGenvmunix (command <*>) (ground truth)
+<*> (command <*>) (match result)
+---------------------------
+---------------------------
+cluster 31: len=2
+Temperature (<*>) exceeds warning threshold (ground truth)
+Temperature (<*>) exceeds warning threshold (final_template)
+Temperature ({{temperature}}) exceeds warning threshold: 1
+Temperature (<*>) exceeds warning threshold: 1
+---------------------------
+---------------------------
+cluster 32: len=2
+NIFF: node <*> detected a failed network connection on network <*> via interface alt0 (ground truth)
+NIFF: node <*> detected a failed network connection on network <*> via interface <*> (final_template)
+NIFF: node {{node_name}} detected a failed network connection on network {{network_address}} via interface {{interface_name}}: 1
+NIFF: node <*> detected a failed network connection on network <*> via interface <*>: 1
+---------------------------
+---------------------------
+cluster 38: len=2
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (match result)
+---------------------------
+---------------------------
+cluster 39: len=2
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (match result)
+---------------------------
+---------------------------
+cluster 42: len=2
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <*> (ground truth)
+inconsistent nodesets <*> <*> <ok> (final_template)
+inconsistent nodesets {{node}} {{address}} <ok>: 1
+inconsistent nodesets <*> <*> <ok>: 1
+---------------------------
+---------------------------
+cluster 27: len=1
+risBoot (command <*>) (ground truth)
+<*> (command <*>) (match result)
+---------------------------
+---------------------------
+cluster 33: len=1
+ServerFileSystem: An ServerFileSystem domain panic has occurred on <*> (ground truth)
+ServerFileSystem: An <*> panic has occurred on <*> (final_template)
+ServerFileSystem: An {{domain}} panic has occurred on {{storage}}: 1
+ServerFileSystem: An <*> panic has occurred on <*>: 1
+---------------------------
+---------------------------
+cluster 34: len=1
+Command has been aborted (ground truth)
+Command has been aborted (final_template)
+Command has been aborted: 1
+Command has been aborted: 1
+---------------------------
+---------------------------
+cluster 35: len=1
+power/control problem (ground truth)
+power/control problem (final_template)
+power/control problem: 1
+power/control problem: 1
+---------------------------
+---------------------------
+cluster 37: len=1
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (match result)
+---------------------------
+---------------------------
+cluster 40: len=1
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (match result)
+---------------------------
+---------------------------
+cluster 41: len=1
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (ground truth)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> (match result)
+---------------------------
+---------------------------
+cluster 43: len=1
+not-responding (ground truth)
+not-responding (final_template)
+{{message}}: 1
+not-responding: 1
+---------------------------
+---------------------------
+cluster 44: len=1
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <*> (ground truth)
+inconsistent nodesets <*> <*> <ok> (final_template)
+inconsistent nodesets {{node}} {{address}} <ok>: 1
+inconsistent nodesets <*> <*> <ok>: 1
+---------------------------
+---------------------------
+cluster 45: len=1
+starting (ground truth)
+starting (final_template)
+starting: 1
+starting: 1
+---------------------------
+---------------------------
+cluster 46: len=1
+closing (ground truth)
+closing (final_template)
+closing: 1
+closing: 1
+---------------------------
+---------------------------
+cluster 47: len=1
+inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <*> (ground truth)
+inconsistent nodesets <*> <*> <ok> (final_template)
+inconsistent nodesets {{node}} {{value}} <ok>: 1
+inconsistent nodesets <*> <*> <ok>: 1
+---------------------------
+---------------------------
+cluster 48: len=1
+risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed> (ground truth)
+<*> (command <*>) Error: Timed out while waiting for <*>: <*> (final_template)
+{{service}} (command {{command_id}}) Error: Timed out while waiting for {{error_message}}: <{{error_code}}>: 1
+<*> (command <*>) Error: Timed out while waiting for <*>: <*>: 1
+---------------------------
+---------------------------
+cluster 49: len=1
+boot (command <*>) Error: HALT asserted\ cannot continue (ground truth)
+boot (command <*>) Error: <*> cannot continue (final_template)
+boot (command {{PID}}) Error: {{ERROR_MESSAGE}} cannot continue: 1
+boot (command <*>) Error: <*> cannot continue: 1
+---------------------------
+---------------------------
+cluster 50: len=1
+Failed subcommands <*> (ground truth)
+Failed subcommands <*> (final_template)
+Failed subcommands {{number}}: 1
+Failed subcommands <*>: 1
+---------------------------

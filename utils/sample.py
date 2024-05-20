@@ -3,12 +3,38 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from utils.algorithms import dpp_sample, entropy_calculate
 from utils.sample_byword import extract_variables
+from utils.cluster import Cluster
 import random
 
 
 # entropy based sampling
 # messages.append({"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
 # messages.append({"role": "assistant", "content": '`{{timestamp}} ksfetch[{{process_and_thread_id}}] [lvl={{log_level}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{request_id}}> { URL: {{request_url}} }) to folder:{{folder_path}}`'})
+
+def sample_from_clusters(clusters, shot = 32):
+    clusters = sorted(clusters, key=lambda cluster: len(cluster.indexs), reverse=True)
+    # form a random list
+    random.seed(0)
+    random_int_list = [random.randint(0, 1000) for _ in range(10)]
+
+    sample_clusters = []
+    sample_pairs = []
+    for cluster in clusters:
+        if len(sample_clusters) >= shot:
+            break
+        if cluster.oracle_template not in [pair[1] for pair in sample_clusters]:
+            sample_clusters.append((cluster, cluster.oracle_template))
+
+    for random_int in random_int_list:
+        if len(sample_pairs) >= shot:
+            break
+        for item in sample_clusters:
+            length = len(item[0].logs)
+            if len(sample_pairs) >= shot:
+                break
+            else:
+                sample_pairs.append((item[0].logs[random_int%length], item[1]))
+    return sample_pairs
 def sample_based_on_entropy(dataset, shot = 5):
     # sample log-template pairs from other datasets
     datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
