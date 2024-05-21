@@ -1,0 +1,112 @@
+EventId,EventTemplate
+E1,Created MRAppMaster for application <*>
+E2,Executing with tokens:
+E3,"Kind: <*>, Service: <*>, Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)"
+E4,Using <*> newApiCommitter.
+E5,OutputCommitter set in config <*>
+E6,OutputCommitter is <*>
+E7,Registering class <*> for class <*>
+E8,Default file system [<*>]
+E9,Emitting job history data to the timeline server is <*>
+E10,loaded properties from <*>
+E11,Scheduled snapshot period at <*> second(s).
+E12,MRAppMaster metrics system <*>
+E13,Adding job token for <*> to jobTokenSecretManager
+E14,Not uberizing <*> because: not enabled; too many maps; too much input;
+E15,Input size for job <*> = <*>. Number of splits = <*>
+E16,Number of reduces for job <*> = <*>
+E17,<*> Transitioned from NEW to INITED
+E18,"MRAppMaster launching normal, non-uberized, multi-container job <*>."
+E19,Using callQueue class <*>
+E20,Starting Socket Reader <*> for port <*>
+E21,Adding protocol <*> to the server
+E22,Instantiated MRClientService at <*>
+E23,IPC Server Responder: <*>
+E24,IPC Server listener on <*>: starting
+E25,Logging to <*> via <*>
+E26,Http request log for <*> is not defined
+E27,Added global filter <*> (class=<*>)
+E28,Added filter <*> (class=<*>) to context <*>
+E29,adding path spec: <*>
+E30,Jetty bound to port <*>
+E31,jetty-<*>
+E32,Extract jar:<*> to <*>
+E33,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>
+E34,Web app <*> started at <*>
+E35,Registered webapp guice modules
+E36,JOB_CREATE <*>
+E37,nodeBlacklistingEnabled:true
+E38,maxTaskFailuresPerNode is <*>
+E39,blacklistDisablePercent is <*>
+E40,Connecting to ResourceManager at <*>
+E41,"maxContainerCapability: <memory:<*>, vCores:<*>"
+E42,queue: <*>
+E43,Upper limit on the thread pool size is <*>
+E44,yarn.client.max-cached-nodemanagers-proxies : <*>
+E45,<*> Transitioned from INITED to SETUP
+E46,Processing the event EventType: <*>
+E47,<*> Transitioned from SETUP to RUNNING
+E48,Resolved <*> to <*>
+E49,<*> Transitioned from NEW to SCHEDULED
+E50,<*> TaskAttempt Transitioned from NEW to UNASSIGNED
+E51,"mapResourceRequest:<memory:<*>, vCores:<*>"
+E52,"Event Writer setup for JobId: <*>, File: <*>"
+E53,"reduceResourceRequest:<memory:<*>, vCores:<*>"
+E54,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+E55,"getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>"
+E56,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+E57,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+E58,Got allocated containers <*>
+E59,Assigned container <*> to <*>
+E60,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+E61,The job-jar file on the remote FS is <*>
+E62,The job-conf file on the remote FS is <*>
+E63,Adding <*> tokens and <*> secret keys for NM use for launching container
+E64,Size of containertokens_dob is <*>
+E65,Putting shuffle token in <*>
+E66,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+E67,Launching <*>
+E68,Opening proxy : <*>
+E69,Shuffle port returned by ContainerManager for <*> : <*>
+E70,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>]
+E71,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+E72,ATTEMPT_START <*>
+E73,<*> Task Transitioned from SCHEDULED to RUNNING
+E74,Auth successful for <*> (<*>)
+E75,JVM with ID : <*> asked for a task
+E76,JVM with ID: <*> given task: <*>
+E77,Progress of TaskAttempt <*> is : <*>
+E78,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <*>, Priority: <*>, Token: Token { kind: <*>, service: <*> }, ] for a map as either container memory less than required <*> or no pending map tasks - maps.isEmpty=<*>"
+E79,Received completed container <*>
+E80,Container complete event for unknown container id <*>
+E81,Done acknowledgement from <*>
+E82,<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP
+E83,KILLING <*>
+E84,<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED
+E85,Task succeeded with attempt <*>
+E86,<*> Task Transitioned from RUNNING to SUCCEEDED
+E87,Num completed Tasks: <*>
+E88,Reduce slow start threshold reached. Scheduling reduces.
+E89,All maps assigned. Ramping up all remaining reduces:<*>
+E90,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>
+E91,We launched <*> speculations. Sleeping <*> milliseconds.
+E92,Scheduling a redundant attempt for task <*>
+E93,Diagnostics report from <*>: Container killed by the ApplicationMaster.
+E94,Address change detected. Old: <*> New: <*>
+E95,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...
+E96,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: <*> status: <*> downstreamAckTimeNanos: <*>, targets: [<*>, <*>]"
+E97,DFSOutputStream ResponseProcessor exception for block <*>
+E98,"Error Recovery for block <*> in pipeline <*>, <*>: bad datanode <*>"
+E99,DataStreamer <*>
+E100,ERROR IN CONTACTING RM.
+E101,"Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)"
+E102,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+E103,Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+E104,<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP
+E105,<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP
+E106,Task cleanup failed for attempt <*>
+E107,<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED
+E108,Error writing History Event: <*>
+E109,"Thread Thread[<*>,<*>,main] threw an Exception."
+E110,<*> failures on node MININT-<*>.fareast.corp.microsoft.com
+E111,Added <*> to list of failed maps
