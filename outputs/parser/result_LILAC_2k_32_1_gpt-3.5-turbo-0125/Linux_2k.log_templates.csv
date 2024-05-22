@@ -1,0 +1,112 @@
+EventId,EventTemplate
+E1,authentication failure; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>
+E2,check pass; user unknown
+E3,session opened for user <*> by (uid=<*>)
+E4,session closed for user <*>
+E5,ALERT exited abnormally with [<*>]
+E6,connection from <*> (<*>) at <*>
+E7,User <*> timed out after <*> seconds at <*>
+E8,cupsd shutdown succeeded
+E9,cupsd startup succeeded
+E10,restart.
+E11,Received SNMP packet(s) from <*>
+E12,Authentication failed from <*> (<*>): Permission denied in replay cache code
+E13,Kerberos authentication failed
+E14,Authentication failed from <*> (<*>): <*>
+E15,*** info [<*>]:
+E16,imps2: Auto-detected <*> PS/<*>
+E17,session opened for user <*> by LOGIN(uid=<*>)
+E18,ROOT LOGIN ON <*>
+E19,removing device node '<*>'
+E20,creating device node '/udev/<*>'
+E21,Couldn't authenticate user
+E22,"ANONYMOUS FTP LOGIN FROM <*>, (<*>)"
+E23,notify question section contains no SOA
+E24,getpeername (ftpd): Transport endpoint is not connected
+E25,warning: can't get client address: Connection reset by peer
+E26,syslogd startup succeeded
+E27,"klogd <*>, log source = <*> started."
+E28,Linux version <*> (<*>) (gcc version <*> <*> (Red Hat Linux <*>)) <*> <*> <*> <*> EDT <*>
+E29,BIOS-provided physical RAM map:
+E30,BIOS-e820: <*> - <*> (usable)
+E31,BIOS-e820: <*> - <*> (reserved)
+E32,<*> HIGHMEM available.
+E33,<*> LOWMEM available.
+E34,zapping low mappings.
+E35,klogd startup succeeded
+E36,On node <*> totalpages: <*>
+E37,"DMA zone: <*> pages, LIFO batch:<*>"
+E38,"Normal zone: <*> pages, LIFO batch:<*>"
+E39,irqbalance startup succeeded
+E40,"HighMem zone: <*> pages, LIFO batch:<*>"
+E41,DMI <*> present.
+E42,ACPI disabled because your bios is from <*> and too old
+E43,You can enable it with <*>
+E44,Built <*> zonelists
+E45,Kernel command line: <*> root=<*> rhgb quiet
+E46,mapped <*>/4G trampoline to ffff3000.
+E47,Initializing CPU#<*>
+E48,"CPU <*> irqstacks, hard=<*> soft=<*>"
+E49,portmap startup succeeded
+E50,PID hash table entries: <*> (order <*>: <*> bytes)
+E51,Detected <*> MHz processor.
+E52,Version <*> Starting
+E53,Using tsc for high-res timesource
+E54,rpc.statd startup succeeded
+E55,Console: colour <*> <*>
+E56,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+E57,Calibrating delay loop... <*> BogoMIPS
+E58,Security Scaffold <*> initialized
+E59,SELinux: <*>.
+E60,"There is already a security framework initialized, register_security failed."
+E61,Failure registering capabilities with the kernel
+E62,<*>: Registering secondary module capability
+E63,Capability LSM initialized
+E64,rpc.idmapd startup succeeded
+E65,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)"
+E66,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)"
+E67,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)"
+E68,"CPU: L1 I cache: <*>, L1 D cache: <*>"
+E69,CPU: L2 cache: <*>
+E70,Intel machine check architecture supported.
+E71,Intel machine check reporting enabled on CPU#<*>.
+E72,CPU: <*> <*> stepping <*>
+E73,Enabling fast FPU save and restore... <*>
+E74,Enabling <*> SIMD FPU exception support... done.
+E75,Checking <*> instruction... <*>.
+E76,Initializing random number generator: <*>
+E77,<*> conformance testing by <*>
+E78,NET: Registered protocol family <*>
+E79,"PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>"
+E80,PCI: Using configuration type <*>
+E81,mtrr: <*> (<*>)
+E82,ACPI: Subsystem revision <*>
+E83,ACPI: Interpreter disabled.
+E84,Linux Plug and Play Support <*> (c) Adam Belay
+E85,Starting pcmcia: succeeded
+E86,usbcore: registered new driver <*>
+E87,ACPI: ACPI tables contain no PCI IRQ routing entries
+E88,PCI: Invalid ACPI-PCI IRQ routing table
+E89,PCI: Probing PCI hardware
+E90,PCI: Probing PCI hardware (bus <*>)
+E91,Transparent bridge - <*>
+E92,PCI: Using IRQ router PIIX/ICH [<*>] at <*>
+E93,apm: BIOS version <*> Flags <*> (Driver version <*>)
+E94,audit: initializing netlink socket (<*>)
+E95,kernel.core_uses_pid = <*>
+E96,HCI daemon ver <*> started
+E97,hcid startup succeeded
+E98,audit(<*>): initialized
+E99,Setting network parameters: <*> succeeded
+E100,sdpd startup succeeded
+E101,<*> <*> started
+E102,"Total HugeTLB memory allocated, <*>"
+E103,Bringing up loopback interface: <*>
+E104,VFS: Disk quotas <*>
+E105,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)"
+E106,Initializing Cryptographic API
+E107,pci_hotplug: PCI Hot Plug PCI Core version: <*>
+E108,isapnp: Scanning for PnP cards...
+E109,isapnp: No Plug & Play device found
+E110,<*> Time Clock Driver <*>
+E111,Linux agpgart interface <*> (c) Dave Jones

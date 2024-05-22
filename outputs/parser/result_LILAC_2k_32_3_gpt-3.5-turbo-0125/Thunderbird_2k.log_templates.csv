@@ -1,0 +1,155 @@
+EventId,EventTemplate
+E1,session closed for user <*>
+E2,session opened for user <*> by (uid=<*>)
+E3,(<*>) CMD (run-parts <*>)
+E4,data_thread() got not answer from any [<*>] datasource
+E5,"synchronized to <*>, stratum <*>"
+E6,[<*>: <*>]: ********************** NEW SWEEP ********************
+E7,[ib_sm_sweep.c:<*>]: No topology change
+E8,[ib_sm_sweep.c:<*>]: No configuration change required
+E9,Local disconnected: <*> closed.
+E10,connection lost: '<*>'
+E11,unable to qualify my own domain name (<*>) -- using short name
+E12,"jA9J1UvC004306: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9J1UvC004306@eadmin1>, relay=#<*>#@localhost"
+E13,"<*>: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>: Connection refused by [<*>]"
+E14,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid={<*>.cadmin1>}, relay=#<*>#@<*>"
+E15,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid={<*>, relay=<*>@localhost}"
+E16,DHCPDISCOVER from <*> via eth1
+E17,DHCPOFFER on <*> to <*> via eth1
+E18,DHCPDISCOVER from <*> via eth1: network <*>: no free leases
+E19,DHCPACK on <*> to <*> via eth1
+E20,DHCPREQUEST for <*> (<*>) from <*> via eth1
+E21,START: tftp pid=<*> from=<*>
+E22,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.
+E23,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+E24,kernel time sync disabled <*>
+E25,time reset +<*> s
+E26,Received SNMP packet(s) from <*>
+E27,kernel time sync enabled <*>
+E28,(<*>) CMD (<*>/get_temps <*>)
+E29,My unqualified host name (<*>) unknown; sleeping for retry
+E30,CentOS-<*> (Kernel Module GPG key)
+E31,(supports <*> <*> <*>)
+E32,DSDT (<*> <*> <*> <*> <*>) @ <*>
+E33,FADT (<*> <*> <*> <*> <*> <*>) @ <*>
+E34,HPET (v001 <*> <*> <*> <*> <*> <*>) @ <*>
+E35,HPET id: <*> base: <*>
+E36,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+E37,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>)
+E38,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+E39,<*> used by <*>.
+E40,Interpreter enabled
+E41,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+E42,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+E43,Local APIC address <*>
+E44,MADT (<*> <*> <*> <*> <*> <*>) @ <*>
+E45,MCFG (<*> <*> <*> <*> <*> <*>) @ <*>
+E46,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>
+E47,PCI Interrupt Routing Table [<*>]
+E48,PCI Root Bridge [<*>] (<*>)
+E49,"PCI interrupt <*> -> GSI <*> (<*>, <*>) -> IRQ <*>"
+E50,Power Button (FF) [PWRF]
+E51,Processor [<*>] (supports <*>)
+E52,RSDP (<*> <*> ) @ <*>
+E53,RSDT (<*> <*> <*> <*> <*> <*>) @ <*>
+E54,SPCR (v001 <*> <*> <*> <*> <*>) @ <*>
+E55,Subsystem revision <*>
+E56,Using <*> for interrupt routing
+E57,Intel(R) Xeon(TM) CPU <*> stepping <*>
+E58,L2 cache: <*>
+E59,Physical Processor ID: <*>
+E60,"Trace cache: <*> uops, L1 D cache: <*>"
+E61,colour VGA+ <*>
+E62,mounted filesystem with ordered data mode.
+E63,"sys_ia32.c,v <*> <*> <*> <*> Exp $"
+E64,"apic_id <*>, version <*>, address <*>, GSI <*>"
+E65,"routing cache hash table of <*> buckets, <*>"
+E66,PCI Hot Plug PCI Core version: <*>
+E67,"root=<*> initrd=<*>/initrd-<*>-<*>-<*>-<*>-<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>/vmlinuz-<*>-<*>-<*>-<*>-<*>"
+E68,Registered protocol family <*>
+E69,Using software bounce buffering for IO (SWIOTLB)
+E70,Probing PCI hardware (bus <*>)
+E71,Transparent bridge - <*>
+E72,Using ACPI for IRQ routing
+E73,Using MMCONFIG at <*>
+E74,Using configuration type <*>
+E75,Compressed image found at block <*>
+E76,Disabled at runtime.
+E77,Initializing.
+E78,Registering netfilter hooks
+E79,Starting in <*> mode
+E80,Unregistering netfilter hooks
+E81,Hash tables configured (established <*> bind <*>)
+E82,Direct-Access ANSI SCSI revision: <*>
+E83,Processor ANSI SCSI revision: <*>
+E84,Disk quotas <*>
+E85,Mounted root (<*> filesystem).
+E86,MegaRAID Model: LD <*> <*> <*> Rev: <*>
+E87,PE/PV Model: <*> SCSI BP Rev: <*>
+E88,initialized
+E89,initializing netlink socket (<*>)
+E90,passed.
+E91,<*>-ioctl (<*>) initialised: <*>@#<*>#
+E92,allocating divert_blk for <*>
+E93,not allocating divert_blk for non-ethernet device <*>
+E94,<*>:USB HID core driver
+E95,eth0: <*>: Intel(R) PRO/<*> Network Connection
+E96,eth0: <*>: NIC Link is Up <*> Mbps Full Duplex
+E97,eth1: e1000_probe: <*> Network Connection
+E98,no floppy controllers found
+E99,RNG not detected
+E100,Wait for ready failed before probe !
+E101,Assuming <*> system bus speed for PIO modes; override with idebus=<*>
+E102,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on /dev/sda
+E103,(C) <*>-<*> Netfilter core team
+E104,Installing public key data
+E105,... autorun DONE.
+E106,Autodetecting RAID arrays.
+E107,autorun ...
+E108,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+E109,<*>-rh1 (Release Date: <*> <*> <*> <*> <*>)
+E110,<*> (Release Date: <*> <*> <*> <*> <*> <*>)
+E111,fw version:[<*>] bios version:[<*>]
+E112,probe new device <*>
+E113,PS/<*> mouse device common for all mice
+E114,v2.<*> (<*>)
+E115,rpc.statd startup succeeded
+E116,portmap startup succeeded
+E117,Starting ts_fixup: <*>
+E118,Version <*> Starting
+E119,LSI Logic MegaRAID driver
+E120,scanning scsi channel <*> [Phy <*>] for non-raid devices
+E121,scanning scsi channel <*> [<*>] for logical drives
+E122,asking for cache data failed
+E123,assuming drive cache: <*> <*>
+E124,sda1 sda2 sda3 sda4
+E125,Registering secondary module capability
+E126,"<*> AUX port at <*>,<*> irq <*>"
+E127,"<*> KBD port at <*>,<*> irq <*>"
+E128,syslog-ng startup succeeded
+E129,syslog-ng version <*> starting
+E130,Detected <*> MHz processor.
+E131,Using <*> MHz HPET timer.
+E132,Using <*> based timekeeping.
+E133,Creating Topspin <*> entries:
+E134,registered new driver <*>
+E135,probe of vesafb0 failed with error <*>
+E136,"connection from ""<*>"""
+E137,"User <*>, coming from <*>, authenticated."
+E138,Now running on #<*>#'s privileges.
+E139,Mounting NFS filesystems: succeeded
+E140,Mounting other filesystems: failed
+E141,Warning: we failed to resolve data source name <*>
+E142,Warning: we failed to resolve trusted host name <*> <*>
+E143,gmetad startup succeeded
+E144,succeeded
+E145,Server listening on <*> port <*>.
+E146,error: Bind to port <*> on <*> failed: <*>
+E147,Cannot open file <*> for writing (No such file or directory)
+E148,Changing permissions on special file <*>
+E149,xinetd startup succeeded
+E150,Reading included configuration file: <*> [file=<*>] [line=<*>]
+E151,Started working: <*> available service
+E152,removing <*>
+E153,xinetd Version <*> started with libwrap loadavg options compiled in.
+E154,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report"

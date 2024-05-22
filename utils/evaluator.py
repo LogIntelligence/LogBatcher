@@ -28,12 +28,19 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
 
 
     edit_distance_result = []
+    normalized_ed_result = []
     for i, j in zip(np.array(df1.EventTemplate.values, dtype='str'),
                     np.array(df2.EventTemplate.values, dtype='str')):
-        edit_distance_result.append(edit_distance(i, j))
+        ed = edit_distance(i, j)
+        normalized_ed = 1 - ed / max(len(i), len(j))
+        edit_distance_result.append(ed)
+        normalized_ed_result.append(normalized_ed)
 
     edit_distance_result_mean = np.mean(edit_distance_result)
     edit_distance_result_std = np.std(edit_distance_result)
+
+    normalized_ed_result_mean = np.mean(normalized_ed_result)
+    
 
     (precision, recall, f_measure, accuracy_PA) = get_accuracy(df1['EventTemplate'],
                                                                df2['EventTemplate'])
@@ -42,8 +49,8 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
     #     'Precision: %.4f, Recall: %.4f, F1_measure: %.4f, Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (
     #         precision, recall, f_measure, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
     dataset = ' ' * (12 - len(dataset)) + dataset 
-    print('%s: group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f' % (dataset, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean))
-    return accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, edit_distance_result_std
+    print('%s: group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f, Normalized Edit Distance: %.6f' % (dataset, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, normalized_ed_result_mean))
+    return accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, normalized_ed_result_mean
 
 
 

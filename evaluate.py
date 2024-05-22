@@ -5,10 +5,10 @@ from IPython.display import HTML
 from utils.email import Email_send
 
 
-def calculate_avg(numbers):
+def calculate_avg(numbers, round_num = 4):
     avg = sum(numbers) / len(numbers)
     numbers.append(avg)
-    numbers = [round(num, 3) for num in numbers]
+    numbers = [round(num, round_num) for num in numbers]
     return numbers
 
 
@@ -28,7 +28,7 @@ def evaluate_all_datasets(file_name, send_email=False):
     if os.path.exists(result_table_path):
         df = pd.read_csv(result_table_path)
     else:
-        ga, pa, ed = [], [], []
+        ga, pa, ed,n_ed = [], [], [], []
         for dataset in datasets:
             table_data['dataset'].append(dataset)
             output_file = f'outputs/parser/{file_name}/{dataset}_2k.log_structured.csv'
@@ -37,11 +37,13 @@ def evaluate_all_datasets(file_name, send_email=False):
             ga.append(a)
             pa.append(b)
             ed.append(c)
+            n_ed.append(d)
 
         table_data['dataset'].append('avg')
         table_data['GA'] = calculate_avg(ga)
         table_data['PA'] = calculate_avg(pa)
         table_data['ED'] = calculate_avg(ed)
+        table_data['N_ED'] = calculate_avg(n_ed,5)
 
         df = pd.DataFrame(table_data)
         df.to_csv(result_table_path, index=False)

@@ -8,7 +8,8 @@ from utils.evaluator import evaluate
 from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
 from evaluate import evaluate_all_datasets, evaluate_single_dataset
-
+from utils.sample import sample_from_clusters
+from utils.prune import prune_from_cluster
 
 def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     print(f'Parsing {dataset}...')
@@ -60,10 +61,26 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
         clusters = sorted(clusters, key=lambda cluster: len(cluster.indexs), reverse=True)
         cache_pairs = []
         for c in tqdm(clusters):
-            tmps, template = parser.get_responce(f, c, cache_pairs)
+            #ablation: without caching
+            # tmps, template = parser.get_responce(f, c, [])
+            tmps, template, has_result = parser.get_responce(f, c, cache_pairs)
+
+            # Matching & Pruning
+            if has_result:
+                c, new_c =  prune_from_cluster(template, c, cluster_nums)
+                if new_c != None:
+                    clusters.append(new_c)
+                    cluster_nums += 1
+                    f.write(f"---------------------------\n")
+                    f.write(f"cluster {c.label}: form a new cluster\n")
+                    f.write(f"---------------------------\n")
+
+
+            # update cache
             template_exist = any(pair[1] == template for pair in cache_pairs)
             if not template_exist and template != '<*>' and template.strip() != '':
                 cache_pairs.append([c.logs[0],template])
+
             for index in c.indexs:
                 outputs[index] = template
                 tmps_list[index] = '\n'.join(tmps)
@@ -80,9 +97,9 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
 # main
 if __name__ == "__main__":
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    datasets = ['OpenStack']
+    datasets = ['BGL', 'HDFS', 'HealthApp']
 
-    theme = 'Test100'
+    theme = 'Test_10shot_with_pruning'
     output_dir = f'outputs/parser/{theme}/'
     with open('config.json', 'r') as f:
         config = json.load(f)

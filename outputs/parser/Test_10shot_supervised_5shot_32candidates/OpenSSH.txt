@@ -1,0 +1,106 @@
+---------------------------
+cluster 6: len=413
+Received disconnect from <*>: <*>: Bye Bye [preauth] (ground truth)
+Received disconnect from <*>: <*>: Bye Bye [preauth] (final_template)
+Received disconnect from <*>: <*>: Bye Bye [preauth]: 1
+Received disconnect from <*>: <*>: Bye Bye [preauth]: 1
+---------------------------
+---------------------------
+cluster 7: len=384
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*> (ground truth)
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*> (final_template)
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>: 1
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>: 1
+---------------------------
+---------------------------
+cluster 8: len=368
+Failed password for <*> from <*> port <*> ssh2 (ground truth)
+Failed password for <*> from <*> port <*> ssh2 (final_template)
+Failed password for root from <*> port <*> ssh2: 1
+Failed password for <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 0: len=135
+pam_unix(sshd:auth): check pass; user unknown (ground truth)
+pam_unix(sshd:auth): check pass; user unknown (final_template)
+pam_unix(sshd:auth): check pass; user unknown: 1
+pam_unix(sshd:auth): check pass; user unknown: 1
+---------------------------
+---------------------------
+cluster 1: len=110
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> (ground truth)
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> (final_template)
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>: 1
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>: 1
+---------------------------
+---------------------------
+cluster 11: len=83
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT! (ground truth)
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT! (final_template)
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!: 1
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!: 1
+---------------------------
+---------------------------
+cluster 24: len=45
+error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth] (ground truth)
+error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth] (final_template)
+error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]: 1
+error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]: 1
+---------------------------
+---------------------------
+cluster 22: len=44
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for invalid user <*> from <*> port <*> ssh2 (final_template)
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+Failed password for invalid user <*> from <*> port <*> ssh2: 1
+---------------------------
+---------------------------
+cluster 2: len=34
+Connection closed by <*> [preauth] (ground truth)
+Connection closed by <*> [preauth] (final_template)
+Connection closed by <*> [preauth]: 1
+Connection closed by <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 20: len=21
+Invalid user <*> from <*> (ground truth)
+Invalid user <*> from <*> (final_template)
+Invalid user <*> from <*>: 1
+Invalid user <*> from <*>: 1
+---------------------------
+---------------------------
+cluster 21: len=21
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+input_userauth_request: invalid user <*> [preauth] (final_template)
+input_userauth_request: invalid user <*> [preauth]: 1
+input_userauth_request: invalid user <*> [preauth]: 1
+---------------------------
+---------------------------
+cluster 3: len=15
+Invalid user <*> from <*> (ground truth)
+Invalid user <*> from <*> (match result)
+---------------------------
+---------------------------
+cluster 4: len=15
+input_userauth_request: invalid user <*> [preauth] (ground truth)
+input_userauth_request: invalid user <*> [preauth] (match result)
+---------------------------
+---------------------------
+cluster 5: len=13
+Failed password for invalid user <*> from <*> port <*> ssh2 (ground truth)
+Failed password for invalid user <*> from <*> port <*> ssh2 (match result)
+---------------------------
+---------------------------
+cluster 10: len=10
+Did not receive identification string from <*> (ground truth)
+Did not receive identification string from <*> (final_template)
+Did not receive identification string from <*>: 1
+Did not receive identification string from <*>: 1
+---------------------------
+---------------------------
+cluster 9: len=7
+PAM service(sshd) ignoring max retries; <*> > <*> (ground truth)
+PAM service(sshd) ignoring max retries; <*> > <*> (final_template)
+PAM service(sshd) ignoring max retries; <*> > <*>: 1
+PAM service(sshd) ignoring max retries; <*> > <*>: 1
+---------------------------

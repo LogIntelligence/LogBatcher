@@ -10,6 +10,7 @@ import random
 class Cluster:
     def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=False, remain_num=10, sample_method="dpp"):
         self.label = label
+        self.static_logs = logs
         self.logs = logs
         self.indexs = indexs
         self.oracle_template = oracle_template
@@ -18,6 +19,10 @@ class Cluster:
         # self.mutation()
         if remove_duplicate:
             self.remove_duplicate()
+
+            # ablation: without batching
+            # self.logs = [self.logs[0]]
+
             if len(self.logs) > remain_num:
                 self.sample(remain_num)
     
