@@ -1,0 +1,870 @@
+---------------------------
+cluster 6: len=200
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>) (ground truth of sampled log)
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>) (final_template)
+---------------------------
+---------------------------
+cluster 0: len=199
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*> (ground truth of sampled log)
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=-<*>,adj=<*>.0userId=<*> (final_template)
+---------------------------
+---------------------------
+cluster 41: len=181
+setLightsOn(<*>) (ground truth of sampled log)
+setLightsOn(<*>) (final_template)
+---------------------------
+---------------------------
+cluster 16: len=85
+HBM brightnessIn =<*> (ground truth of sampled log)
+HBM brightnessIn =<*> (final_template)
+---------------------------
+---------------------------
+cluster 17: len=85
+HBM brightnessOut =<*> (ground truth of sampled log)
+HBM brightnessOut =<*> (final_template)
+---------------------------
+---------------------------
+cluster 18: len=85
+Animating brightness: target=<*>, rate=<*> (ground truth of sampled log)
+Animating brightness: target=<*>, rate=<*> (final_template)
+---------------------------
+---------------------------
+cluster 4: len=81
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output (ground truth of sampled log)
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output (final_template)
+---------------------------
+---------------------------
+cluster 10: len=69
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*> (ground truth of sampled log)
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*> (final_template)
+---------------------------
+---------------------------
+cluster 2: len=52
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (ground truth of sampled log)
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (final_template)
+---------------------------
+---------------------------
+cluster 3: len=52
+updateDimmedActivatedHideSensitive overlap:<*> (ground truth of sampled log)
+updateDimmedActivatedHideSensitive overlap:<*> (final_template)
+---------------------------
+---------------------------
+cluster 12: len=37
+shouldBlockLocation running ... (ground truth of sampled log)
+shouldBlockLocation running ... (final_template)
+---------------------------
+---------------------------
+cluster 53: len=37
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output (ground truth of sampled log)
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output (final_template)
+---------------------------
+---------------------------
+cluster 13: len=33
+shouldBlockLocation ret:<*> (ground truth of sampled log)
+shouldBlockLocation ret:<*> (final_template)
+---------------------------
+---------------------------
+cluster 15: len=33
+Releasing suspend blocker "PowerManagerService.WakeLocks". (ground truth of sampled log)
+Releasing suspend blocker "PowerManagerService.WakeLocks". (final_template)
+---------------------------
+---------------------------
+cluster 25: len=33
+Acquiring suspend blocker "PowerManagerService.WakeLocks". (ground truth of sampled log)
+Acquiring suspend blocker "<*>". (final_template)
+---------------------------
+---------------------------
+cluster 5: len=25
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth of sampled log)
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*> (final_template)
+---------------------------
+---------------------------
+cluster 11: len=25
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth of sampled log)
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (final_template)
+---------------------------
+---------------------------
+cluster 9: len=24
+Destroying surface Surface(name=<*>) called by <*> (ground truth of sampled log)
+Destroying surface Surface(name=<*>) called by <*> (final_template)
+---------------------------
+---------------------------
+cluster 19: len=23
+suspendAutohide (ground truth of sampled log)
+suspendAutohide (final_template)
+---------------------------
+---------------------------
+cluster 37: len=23
+cancelNotification,index:<*> (ground truth of sampled log)
+cancelNotification,index:<*> (final_template)
+---------------------------
+---------------------------
+cluster 45: len=21
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) } (ground truth of sampled log)
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) } (final_template)
+---------------------------
+---------------------------
+cluster 31: len=20
+cancelPeek: <*> (ground truth of sampled log)
+cancelPeek: <*> (final_template)
+---------------------------
+---------------------------
+cluster 50: len=20
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*> (ground truth of sampled log)
+cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*> (final_template)
+---------------------------
+---------------------------
+cluster 8: len=19
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*> (ground truth of sampled log)
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*> (final_template)
+---------------------------
+---------------------------
+cluster 24: len=17
+querySoundEffectsEnabled... (ground truth of sampled log)
+querySoundEffectsEnabled... (final_template)
+---------------------------
+---------------------------
+cluster 7: len=15
+cancelAutohide (ground truth of sampled log)
+cancelAutohide (final_template)
+---------------------------
+---------------------------
+cluster 21: len=14
+interceptKeyBeforeQueueing: key <*> , result : <*> (ground truth of sampled log)
+interceptKeyBeforeQueueing: key <*> , result : <*> (final_template)
+---------------------------
+---------------------------
+cluster 43: len=14
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> } (ground truth of sampled log)
+Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=com.android.systemui/.recents.RecentsActivity bnds=[<*>,<*>][<*>,<*>] } (final_template)
+---------------------------
+---------------------------
+cluster 44: len=14
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) } (ground truth of sampled log)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.MAIN flg=<*> cmp=com.android.incallui/.InCallActivity (has extras) } (final_template)
+---------------------------
+---------------------------
+cluster 48: len=14
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*> (ground truth of sampled log)
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*> (final_template)
+---------------------------
+---------------------------
+cluster 49: len=14
+getRecentTasks: topActivity=ComponentInfo{<*>} (ground truth of sampled log)
+getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity} (final_template)
+---------------------------
+---------------------------
+cluster 27: len=13
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*> (ground truth of sampled log)
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*> (final_template)
+---------------------------
+---------------------------
+cluster 29: len=13
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (ground truth)
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*> (match result)
+---------------------------
+---------------------------
+cluster 30: len=13
+updateDimmedActivatedHideSensitive overlap:<*> (ground truth)
+updateDimmedActivatedHideSensitive overlap:<*> (match result)
+---------------------------
+---------------------------
+cluster 38: len=13
+updateNotificationShade: total=<*>, active=<*> (ground truth of sampled log)
+updateNotificationShade: total=<*>, active=<*> (final_template)
+---------------------------
+---------------------------
+cluster 28: len=12
+state.clipTopAmount:<*>, i:<*> (ground truth of sampled log)
+state.clipTopAmount:<*>, i:<*> (final_template)
+---------------------------
+---------------------------
+cluster 42: len=12
+removeNotificationChildren (ground truth of sampled log)
+removeNotificationChildren (final_template)
+---------------------------
+---------------------------
+cluster 51: len=12
+closeQs (ground truth of sampled log)
+closeQs (final_template)
+---------------------------
+---------------------------
+cluster 54: len=12
+isMusicActive... (ground truth of sampled log)
+isMusicActive... (final_template)
+---------------------------
+---------------------------
+cluster 22: len=10
+resumeSuspendedAutohide (ground truth of sampled log)
+resumeSuspendedAutohide (final_template)
+---------------------------
+---------------------------
+cluster 35: len=10
+playSoundEffect effectType: <*> (ground truth of sampled log)
+playSoundEffect effectType: <*> (final_template)
+---------------------------
+---------------------------
+cluster 52: len=9
+instantCollapse (ground truth of sampled log)
+instantCollapse (final_template)
+---------------------------
+---------------------------
+cluster 55: len=9
+getLastAudibleStreamVolume treamType: <*> (ground truth of sampled log)
+getLastAudibleStreamVolume treamType: <*> (final_template)
+---------------------------
+---------------------------
+cluster 36: len=8
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*> (ground truth of sampled log)
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*> (final_template)
+---------------------------
+---------------------------
+cluster 20: len=7
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*> (ground truth of sampled log)
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=2b000002 down <*> canceled <*> (final_template)
+---------------------------
+---------------------------
+cluster 23: len=7
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*> (ground truth)
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=2b000002 down <*> canceled <*> (match result)
+---------------------------
+---------------------------
+cluster 46: len=7
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) } (ground truth of sampled log)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=<*> cmp=com.android.contacts/.ChooseSubActivity (has extras) } (final_template)
+---------------------------
+---------------------------
+cluster 47: len=7
+Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) } (ground truth of sampled log)
+Skipping, withExcluded: <*>, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Tencent/QQfile_recv/b.apk typ=application/vnd.android.package-archive flg=<*> cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) } (final_template)
+---------------------------
+---------------------------
+cluster 26: len=6
+updateLightsLocked,turn off notificationLight (ground truth of sampled log)
+updateLightsLocked,turn off notificationLight (final_template)
+---------------------------
+---------------------------
+cluster 32: len=6
+logNotificationVisibilityChanges runInThread start (ground truth of sampled log)
+<*> runInThread <*> (final_template)
+---------------------------
+---------------------------
+cluster 33: len=6
+onNotificationVisibilityChanged called (ground truth of sampled log)
+onNotificationVisibilityChanged called (final_template)
+---------------------------
+---------------------------
+cluster 34: len=6
+logNotificationVisibilityChanges runInThread over (ground truth)
+<*> runInThread <*> (match result)
+---------------------------
+---------------------------
+cluster 39: len=6
+The change in focus caused us to need to do a layout begin (ground truth of sampled log)
+The change in focus caused us to need to do a layout begin (final_template)
+---------------------------
+---------------------------
+cluster 40: len=6
+The change in focus caused us to need to do a layout end (ground truth of sampled log)
+The change in focus caused us to need to do a layout end (final_template)
+---------------------------
+---------------------------
+cluster 56: len=6
+cleanUpApplicationRecord -- <*> (ground truth of sampled log)
+cleanUpApplicationRecord -- <*> (final_template)
+---------------------------
+---------------------------
+cluster 57: len=6
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*> (ground truth of sampled log)
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*> (final_template)
+---------------------------
+---------------------------
+cluster 58: len=6
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*> (ground truth of sampled log)
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*> (final_template)
+---------------------------
+---------------------------
+cluster 59: len=6
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*> (ground truth of sampled log)
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*> (final_template)
+---------------------------
+---------------------------
+cluster 60: len=6
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*> (ground truth of sampled log)
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*> (final_template)
+---------------------------
+---------------------------
+cluster 1: len=5
+mVisiblity.getValue is <*> (ground truth of sampled log)
+<*> is <*> (final_template)
+---------------------------
+---------------------------
+cluster 14: len=5
+getNeighboringCellInfo calling app is <*> (ground truth of sampled log)
+getNeighboringCellInfo calling app is com.amap.android.ams (final_template)
+---------------------------
+---------------------------
+cluster 63: len=4
+Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide (ground truth of sampled log)
+Skipping <*>} -- going to hide (final_template)
+---------------------------
+---------------------------
+cluster 84: len=4
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true (ground truth of sampled log)
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true (final_template)
+---------------------------
+---------------------------
+cluster 99: len=4
+onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*> (ground truth of sampled log)
+onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*> (final_template)
+---------------------------
+---------------------------
+cluster 105: len=4
+cancelNotificationLocked:<*>|<*>|<*>|<*>|<*> (ground truth of sampled log)
+<*>|<*>|<*>|<*>|<*> (final_template)
+---------------------------
+---------------------------
+cluster 108: len=4
+Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>] (ground truth of sampled log)
+Taking screenshot from Surface with crop:[Rect(<*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>] (final_template)
+---------------------------
+---------------------------
+cluster 109: len=4
+makeExpandedInvisible: mExpandedVisible=<*> (ground truth of sampled log)
+makeExpandedInvisible: mExpandedVisible=<*> (final_template)
+---------------------------
+---------------------------
+cluster 114: len=4
+ActivityManagerService,attachApplication,callingPid = <*> (ground truth of sampled log)
+ActivityManagerService,attachApplication,callingPid = <*> (final_template)
+---------------------------
+---------------------------
+cluster 143: len=4
+mHeadsUpExistenceChangedRunnable (ground truth of sampled log)
+mHeadsUpExistenceChangedRunnable (final_template)
+---------------------------
+---------------------------
+cluster 149: len=4
+shouldBlockLocation ret:<*> (ground truth)
+shouldBlockLocation ret:<*> (match result)
+---------------------------
+---------------------------
+cluster 76: len=3
+rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED (ground truth of sampled log)
+rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED (final_template)
+---------------------------
+---------------------------
+cluster 77: len=3
+Application requested orientation <*>, got rotation <*> which has compatible metrics (ground truth of sampled log)
+Application requested orientation <*>, got rotation <*> which has compatible metrics (final_template)
+---------------------------
+---------------------------
+cluster 83: len=3
+disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings > (ground truth of sampled log)
+disable: < expand <*> alerts <*> back home recent clock navigationbar search quick_settings > (final_template)
+---------------------------
+---------------------------
+cluster 93: len=3
+registerCallback not in UI. (ground truth of sampled log)
+registerCallback not in UI. (final_template)
+---------------------------
+---------------------------
+cluster 94: len=3
+<*>: Must execute in UI (ground truth of sampled log)
+<*>: <*> (final_template)
+---------------------------
+---------------------------
+cluster 110: len=3
+disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings > (ground truth)
+disable: < expand <*> alerts <*> back home recent clock navigationbar search quick_settings > (match result)
+---------------------------
+---------------------------
+cluster 121: len=3
+sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick (ground truth of sampled log)
+sending alarm Alarm{aa90550 type <*> when <*> PendingIntent{<*>: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick (final_template)
+---------------------------
+---------------------------
+cluster 122: len=3
+Received TIME_TICK alarm; rescheduling (ground truth of sampled log)
+Received <*> alarm; rescheduling (final_template)
+---------------------------
+---------------------------
+cluster 123: len=3
+scheduleTimeTickEvent triggerAtTime = <*> (ground truth of sampled log)
+scheduleTimeTickEvent triggerAtTime = <*> (final_template)
+---------------------------
+---------------------------
+cluster 124: len=3
+received broadcast <*> (ground truth of sampled log)
+received broadcast android.intent.action.TIME_TICK (final_template)
+---------------------------
+---------------------------
+cluster 125: len=3
+handleTimeUpdate (ground truth of sampled log)
+handleTimeUpdate (final_template)
+---------------------------
+---------------------------
+cluster 140: len=3
+getRingerMode... (ground truth of sampled log)
+getRingerMode... (final_template)
+---------------------------
+---------------------------
+cluster 150: len=3
+getAllCellInfo is blocked by permission manager . callingPackage = <*> (ground truth of sampled log)
+getAllCellInfo is blocked by permission manager . callingPackage = <*> (final_template)
+---------------------------
+---------------------------
+cluster 80: len=2
+onTouchEvent::<*>, x=<*>, y=<*> (ground truth of sampled log)
+onTouchEvent::<*>, x=<*>, y=<*> (final_template)
+---------------------------
+---------------------------
+cluster 82: len=2
+getRingtonePlayer... (ground truth of sampled log)
+getRingtonePlayer... (final_template)
+---------------------------
+---------------------------
+cluster 85: len=2
+onExpandingStarted (ground truth of sampled log)
+onExpandingStarted (final_template)
+---------------------------
+---------------------------
+cluster 88: len=2
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*> (ground truth of sampled log)
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*> (final_template)
+---------------------------
+---------------------------
+cluster 90: len=2
+onExpandingFinished (ground truth of sampled log)
+onExpandingFinished (final_template)
+---------------------------
+---------------------------
+cluster 91: len=2
+Sending non-protected broadcast <*> from system <*> pkg <*> (ground truth of sampled log)
+Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system <*> pkg <*> (final_template)
+---------------------------
+---------------------------
+cluster 101: len=2
+ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*> (ground truth of sampled log)
+ActivityRecord info: ActivityInfo{d1c8e63 com.tencent.mobileqq.activity.SplashActivity}, euid: <*> (final_template)
+---------------------------
+---------------------------
+cluster 102: len=2
+onNotificationClick called (ground truth of sampled log)
+onNotificationClick called (final_template)
+---------------------------
+---------------------------
+cluster 103: len=2
+cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*> (ground truth of sampled log)
+cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*> (final_template)
+---------------------------
+---------------------------
+cluster 104: len=2
+cancelNotificationLocked called,tell the app,reason = <*> (ground truth of sampled log)
+cancelNotificationLocked called,tell the app,reason = <*> (final_template)
+---------------------------
+---------------------------
+cluster 106: len=2
+cancelNotificationLocked,remove =<*> (ground truth of sampled log)
+cancelNotificationLocked,remove =com.tencent.mobileqq (final_template)
+---------------------------
+---------------------------
+cluster 107: len=2
+applyOptionsLocked: Unknown animationType=<*> (ground truth of sampled log)
+applyOptionsLocked: Unknown animationType=<*> (final_template)
+---------------------------
+---------------------------
+cluster 113: len=2
+setWiredDeviceConnectionState type: <*> state: <*> (ground truth)
+<*>: <*> (match result)
+---------------------------
+---------------------------
+cluster 117: len=2
+getDevicesForStream streamType: <*> (ground truth of sampled log)
+getDevicesForStream streamType: <*> (final_template)
+---------------------------
+---------------------------
+cluster 126: len=2
+sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*> (ground truth of sampled log)
+sending alarm Alarm{19069ff type <*> when <*> PendingIntent{50303cc: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = <*>,listenerTag =<*> (final_template)
+---------------------------
+---------------------------
+cluster 141: len=2
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?false (ground truth of sampled log)
+updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?false (final_template)
+---------------------------
+---------------------------
+cluster 145: len=2
+onNotificationExpansionChanged called (ground truth of sampled log)
+onNotificationExpansionChanged called (final_template)
+---------------------------
+---------------------------
+cluster 146: len=2
+START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*> (ground truth of sampled log)
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=<*> cmp=com.example.android.notepad/.NotePadActivity bnds=[<*>,<*>][<*>,<*>]} from uid <*> on display <*> (final_template)
+---------------------------
+---------------------------
+cluster 148: len=2
+ACTIVITY check resid: <*>, size=<*> (ground truth)
+<*>: <*> (match result)
+---------------------------
+---------------------------
+cluster 164: len=2
+RefreshBatteryInfo isBatteryLow: <*> (ground truth of sampled log)
+RefreshBatteryInfo isBatteryLow: <*> (final_template)
+---------------------------
+---------------------------
+cluster 61: len=1
+printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = <*> (ground truth of sampled log)
+printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = <*> (final_template)
+---------------------------
+---------------------------
+cluster 62: len=1
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth of sampled log)
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (final_template)
+---------------------------
+---------------------------
+cluster 64: len=1
+visible is <*> (ground truth)
+<*> is <*> (match result)
+---------------------------
+---------------------------
+cluster 65: len=1
+visible is <*> (ground truth)
+<*> is <*> (match result)
+---------------------------
+---------------------------
+cluster 66: len=1
+visible is <*> gt <*> (ground truth of sampled log)
+visible is system.call.count gt <*> (final_template)
+---------------------------
+---------------------------
+cluster 67: len=1
+visible is <*> gt <*> (ground truth of sampled log)
+visible is system.message.count gt <*> (final_template)
+---------------------------
+---------------------------
+cluster 68: len=1
+visible is <*> (ground truth)
+<*> is <*> (match result)
+---------------------------
+---------------------------
+cluster 69: len=1
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*> (ground truth of sampled log)
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>", ws=<*>, uid=<*>, pid=<*> (final_template)
+---------------------------
+---------------------------
+cluster 70: len=1
+Destroying surface Surface(name=<*>) called by <*> (ground truth of sampled log)
+Destroying surface Surface(name=<*>) called by <*> (final_template)
+---------------------------
+---------------------------
+cluster 71: len=1
+orientation change is complete, call stopFreezingDisplayLocked (ground truth of sampled log)
+orientation change is complete, call stopFreezingDisplayLocked (final_template)
+---------------------------
+---------------------------
+cluster 72: len=1
+Screen frozen for <*> due to Window{<*> u0 <*>} (ground truth of sampled log)
+Screen frozen for +<*> due to <*> (final_template)
+---------------------------
+---------------------------
+cluster 73: len=1
+startAnimation begin (ground truth of sampled log)
+startAnimation begin (final_template)
+---------------------------
+---------------------------
+cluster 74: len=1
+startAnimation end (ground truth of sampled log)
+startAnimation end (final_template)
+---------------------------
+---------------------------
+cluster 75: len=1
+remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching (ground truth of sampled log)
+remove(PendingIntent{19abed0: PendingIntentRecord{a485420 com.tencent.qt.qtl broadcastIntent}}) changed bounds; rebatching (final_template)
+---------------------------
+---------------------------
+cluster 78: len=1
+Bad activity token: <*>@<*> (ground truth of sampled log)
+Bad activity token: <*> (final_template)
+---------------------------
+---------------------------
+cluster 79: len=1
+<*>: <*> cannot be cast to <*>$Token (ground truth of sampled log)
+<*>: <*> (final_template)
+---------------------------
+---------------------------
+cluster 81: len=1
+schedulePeek (ground truth of sampled log)
+schedulePeek (final_template)
+---------------------------
+---------------------------
+cluster 86: len=1
+onTrackingStarted (ground truth of sampled log)
+onTrackingStarted (final_template)
+---------------------------
+---------------------------
+cluster 87: len=1
+state.clipTopAmount:<*>, i:<*> (ground truth)
+state.clipTopAmount:<*>, i:<*> (match result)
+---------------------------
+---------------------------
+cluster 89: len=1
+onTrackingStopped: <*> (ground truth of sampled log)
+onTrackingStopped: <*> (final_template)
+---------------------------
+---------------------------
+cluster 92: len=1
+isSimPinSecure mSimDatas is <*> or empty (ground truth of sampled log)
+isSimPinSecure <*> is <*> or empty (final_template)
+---------------------------
+---------------------------
+cluster 95: len=1
+*** register callback for <*>@<*> (ground truth of sampled log)
+*** register callback for com.android.systemui.statusbar.policy.KeyguardMonitor@<*> (final_template)
+---------------------------
+---------------------------
+cluster 96: len=1
+*** unregister callback for <*> (ground truth of sampled log)
+*** unregister callback for <*> (final_template)
+---------------------------
+---------------------------
+cluster 97: len=1
+[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*> (ground truth of sampled log)
+[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*> (final_template)
+---------------------------
+---------------------------
+cluster 98: len=1
+[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=<*> (ground truth of sampled log)
+[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=<*> (final_template)
+---------------------------
+---------------------------
+cluster 100: len=1
+START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*> (ground truth of sampled log)
+START u0 {act=com.tencent.mobileqq.action.MAINACTIVITY flg=<*> cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid <*> on display <*> (final_template)
+---------------------------
+---------------------------
+cluster 111: len=1
+*** unregister callback for <*>@<*> (ground truth)
+*** unregister callback for <*> (match result)
+---------------------------
+---------------------------
+cluster 112: len=1
+Start dump, calling from : pid=<*>, uid=<*> (ground truth of sampled log)
+Start dump, calling from : pid=<*>, uid=<*> (final_template)
+---------------------------
+---------------------------
+cluster 115: len=1
+isBluetoothA2dpOn... (ground truth of sampled log)
+isBluetoothA2dpOn... (final_template)
+---------------------------
+---------------------------
+cluster 116: len=1
+isBluetoothScoOn... (ground truth of sampled log)
+isBluetoothScoOn... (final_template)
+---------------------------
+---------------------------
+cluster 118: len=1
+getMode... (ground truth of sampled log)
+getMode... (final_template)
+---------------------------
+---------------------------
+cluster 119: len=1
+setSpeakerphoneOn on: <*> (ground truth of sampled log)
+setSpeakerphoneOn on: <*> (final_template)
+---------------------------
+---------------------------
+cluster 120: len=1
+setSpeakerphoneOn on:<*> (ground truth of sampled log)
+setSpeakerphoneOn on:<*> (final_template)
+---------------------------
+---------------------------
+cluster 127: len=1
+Killing <*> (adj <*>): empty for <*> (ground truth of sampled log)
+Killing <*> (adj <*>): empty for <*> (final_template)
+---------------------------
+---------------------------
+cluster 128: len=1
+remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching (ground truth of sampled log)
+remove(PendingIntent{e4e2534: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}) changed bounds; rebatching (final_template)
+---------------------------
+---------------------------
+cluster 129: len=1
+Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found (ground truth of sampled log)
+Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found (final_template)
+---------------------------
+---------------------------
+cluster 130: len=1
+unregisterAudioFocusListener... (ground truth of sampled log)
+unregisterAudioFocusListener... (final_template)
+---------------------------
+---------------------------
+cluster 131: len=1
+abandonAudioFocus (ground truth of sampled log)
+abandonAudioFocus (final_template)
+---------------------------
+---------------------------
+cluster 132: len=1
+[HSM] stayAwake <*> uid: <*>, pid: <*> (ground truth of sampled log)
+[HSM] stayAwake <*> uid: <*>, pid: <*> (final_template)
+---------------------------
+---------------------------
+cluster 133: len=1
+Pid:<*> MediaPlayer destructor (ground truth of sampled log)
+Pid:<*> MediaPlayer destructor (final_template)
+---------------------------
+---------------------------
+cluster 134: len=1
+Process <*>:qzone (pid <*>) has died (ground truth of sampled log)
+Process <*> (pid <*>) has died (final_template)
+---------------------------
+---------------------------
+cluster 135: len=1
+Scheduling restart of crashed service <*> in <*> (ground truth of sampled log)
+Scheduling restart of crashed service <*> in <*> (final_template)
+---------------------------
+---------------------------
+cluster 136: len=1
+new Process app=ProcessRecord{<*> <*>}, name: <*>:qzone, euid: <*> (ground truth of sampled log)
+new Process app=ProcessRecord{6eaaf00 <*>/u<*>}, name: <*>, euid: <*> (final_template)
+---------------------------
+---------------------------
+cluster 137: len=1
+Start proc <*> for service <*> (ground truth of sampled log)
+Start proc <*> for service <*> (final_template)
+---------------------------
+---------------------------
+cluster 138: len=1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=PRIVATE) (ground truth of sampled log)
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=<*> sound=<*> tick defaults=<*> flags=<*> color=<*> vis=<*> (final_template)
+---------------------------
+---------------------------
+cluster 139: len=1
+enqueueNotificationInternal: n.getKey = <*> (ground truth of sampled log)
+enqueueNotificationInternal: n.getKey = <*>|<*>|<*>|<*>|<*> (final_template)
+---------------------------
+---------------------------
+cluster 142: len=1
+addNotification key=<*>|<*>|<*>|<*>|<*> (ground truth of sampled log)
+addNotification key=<*>|<*>|<*>|<*>|<*> (final_template)
+---------------------------
+---------------------------
+cluster 144: len=1
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (ground truth of sampled log)
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (final_template)
+---------------------------
+---------------------------
+cluster 147: len=1
+ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*> (ground truth of sampled log)
+ActivityRecord info: ActivityInfo{f39182 com.example.android.notepad.NotePadActivity}, euid: <*> (final_template)
+---------------------------
+---------------------------
+cluster 151: len=1
+getCellLocation is blocked by permission manager uid:<*> pid:<*> (ground truth of sampled log)
+getCellLocation is blocked by permission manager uid:<*> pid:<*> (final_template)
+---------------------------
+---------------------------
+cluster 152: len=1
+isWiredHeadsetOn... (ground truth of sampled log)
+isWiredHeadsetOn... (final_template)
+---------------------------
+---------------------------
+cluster 153: len=1
+setDataSource(<*>, <*>, <*>) (ground truth of sampled log)
+setDataSource(<*>, <*>, <*>) (final_template)
+---------------------------
+---------------------------
+cluster 154: len=1
+getStreamVolume treamType: <*> (ground truth of sampled log)
+getStreamVolume treamType: <*> (final_template)
+---------------------------
+---------------------------
+cluster 155: len=1
+updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*> (ground truth of sampled log)
+updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*> (final_template)
+---------------------------
+---------------------------
+cluster 156: len=1
+received broadcast <*> (ground truth of sampled log)
+received broadcast android.intent.action.BATTERY_CHANGED (final_template)
+---------------------------
+---------------------------
+cluster 157: len=1
+ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*> (ground truth)
+<*>: <*> (match result)
+---------------------------
+---------------------------
+cluster 158: len=1
+updateChargingLocked: charging=<*> (ground truth of sampled log)
+updateChargingLocked: charging=<*> (final_template)
+---------------------------
+---------------------------
+cluster 159: len=1
+onReceive, action:<*> (ground truth of sampled log)
+onReceive, action:<*> (final_template)
+---------------------------
+---------------------------
+cluster 160: len=1
+ACTION_BATTERY_CHANGED pluggedType: <*> (ground truth of sampled log)
+ACTION_BATTERY_CHANGED pluggedType: <*> (final_template)
+---------------------------
+---------------------------
+cluster 161: len=1
+ApStaDisabledState what=<*> (ground truth of sampled log)
+<*> what=<*> (final_template)
+---------------------------
+---------------------------
+cluster 162: len=1
+DefaultState what=<*> (ground truth)
+<*> what=<*> (match result)
+---------------------------
+---------------------------
+cluster 163: len=1
+battery changed pluggedType: <*> (ground truth of sampled log)
+battery changed pluggedType: <*> (final_template)
+---------------------------
+---------------------------
+cluster 165: len=1
+ChargingSpeed Wattage: <*> ST: <*> --> <*> (ground truth of sampled log)
+ChargingSpeed Wattage: -<*> ST: <*> --> <*> (final_template)
+---------------------------
+---------------------------
+cluster 166: len=1
+handleBatteryUpdate (ground truth of sampled log)
+handleBatteryUpdate (final_template)
+---------------------------
+---------------------------
+cluster 167: len=1
+enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE) (ground truth of sampled log)
+enqueueNotificationInternal: pkg=<*> id=<*> notification=<*> (final_template)
+---------------------------
+---------------------------
+cluster 168: len=1
+enqueueNotificationInternal: n.getKey = <*> (ground truth)
+enqueueNotificationInternal: n.getKey = <*>|<*>|<*>|<*>|<*> (match result)
+---------------------------
+---------------------------
+cluster 169: len=1
+addNotification key=<*>|<*>|<*>|<*>|<*> (ground truth)
+addNotification key=<*>|<*>|<*>|<*>|<*> (match result)
+---------------------------
+---------------------------
+cluster 170: len=1
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (ground truth)
+Marking notification as seen <*>|<*>|<*>|<*>|<*> (match result)
+---------------------------
+---------------------------
+cluster 171: len=1
+START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*> (ground truth of sampled log)
+START u0 {flg=<*> cmp=com.tencent.mm/.ui.LauncherUI (has extras)} from uid <*> on display <*> (final_template)
+---------------------------
+---------------------------
+cluster 172: len=1
+ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*> (ground truth of sampled log)
+ActivityRecord info: ActivityInfo{80c2e70 com.tencent.mm.ui.LauncherUI}, euid: <*> (final_template)
+---------------------------
+---------------------------
+cluster 173: len=1
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) } (ground truth of sampled log)
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=com.tencent.mm/.ui.LauncherUI (has extras) } (final_template)
+---------------------------

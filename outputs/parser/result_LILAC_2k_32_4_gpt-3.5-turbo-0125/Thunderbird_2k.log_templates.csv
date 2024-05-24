@@ -1,0 +1,162 @@
+EventId,EventTemplate
+E1,session closed for user <*>
+E2,session opened for user <*> by (uid=<*>)
+E3,(<*>) CMD (run-parts <*>)
+E4,data_thread() got not answer from any [<*>] datasource
+E5,"synchronized to <*>, stratum <*>"
+E6,[<*>: <*>]: ********************** NEW SWEEP ********************
+E7,[ib_sm_sweep.c:<*>]: No topology change
+E8,[<*>]: No configuration change required
+E9,Local disconnected: <*> closed.
+E10,connection lost: '<*>'
+E11,unable to qualify my own domain name (<*>) -- using short name
+E12,"jA9J1UvC004306: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9J1UvC004306@eadmin1>, relay=#<*>#@localhost"
+E13,"<*>: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>"
+E14,"jA9J1Wd7019391: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9J1Wd7019391@cadmin1>, relay=#<*>#@localhost"
+E15,"jA9J1WSU011176: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9J1WSU011176@badmin1>, relay=#<*>#@localhost"
+E16,"jA9J1WFE024258: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9J1WFE024258@dadmin1>, relay=#<*>#@localhost"
+E17,DHCPDISCOVER from <*> via eth1
+E18,DHCPOFFER on <*> to <*> via eth1
+E19,"jA9J1dQ7016560: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9J1dQ7016560@aadmin1>, relay=#<*>#@localhost"
+E20,DHCPDISCOVER from <*> via eth1: network A_net: no free leases
+E21,DHCPACK on <*> to <*> via eth1
+E22,DHCPREQUEST for <*> (<*>) from <*> via eth1
+E23,START: tftp pid=<*> from=<*>
+E24,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.
+E25,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+E26,kernel time sync disabled <*>
+E27,time reset +<*> s
+E28,Received SNMP packet(s) from <*>
+E29,kernel time sync enabled <*>
+E30,(<*>) CMD (<*>/get_temps <*>)
+E31,My unqualified host name (<*>) unknown; sleeping for retry
+E32,CentOS-<*> (Kernel Module GPG key)
+E33,(supports <*> <*> <*>)
+E34,DSDT (v001 <*> <*> <*> <*> <*>) @ <*>
+E35,FADT (<*> <*> <*> <*> <*> <*>) @ <*>
+E36,HPET (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+E37,HPET id: <*> base: <*>
+E38,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+E39,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>)
+E40,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+E41,<*> used by override.
+E42,Interpreter enabled
+E43,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+E44,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+E45,Local APIC address <*>
+E46,MADT (<*> <*> <*> <*> <*> <*>) @ <*>
+E47,MCFG (<*> <*> <*> <*> <*> <*>) @ <*>
+E48,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>
+E49,PCI Interrupt Routing Table [<*>]
+E50,PCI Root Bridge [<*>] (<*>)
+E51,"PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+E52,Power Button (<*>) [<*>]
+E53,Processor [<*>] (supports <*>)
+E54,RSDP (<*> ) @ <*>
+E55,RSDT (<*> <*> <*> <*> <*>) @ <*>
+E56,SPCR (v001 <*> <*> <*> <*> <*>) @ <*>
+E57,Subsystem revision <*>
+E58,Using IOAPIC for interrupt routing
+E59,Intel(R) Xeon(TM) CPU <*> stepping <*>
+E60,L2 cache: <*>
+E61,Physical Processor ID: <*>
+E62,"Trace cache: <*> uops, L1 D cache: <*>"
+E63,colour VGA+ <*>
+E64,mounted filesystem with ordered data mode.
+E65,"sys_ia32.c,v <*> <*> <*> ak Exp $"
+E66,"apic_id <*>, version <*>, address <*>, GSI <*>-<*>"
+E67,"routing cache hash table of <*> buckets, <*>"
+E68,PCI Hot Plug PCI Core version: <*>
+E69,"root=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>"
+E70,Registered protocol family <*>
+E71,Using software bounce buffering for IO (SWIOTLB)
+E72,Probing PCI hardware (bus <*>)
+E73,Transparent bridge - <*>
+E74,Using ACPI for IRQ routing
+E75,Using MMCONFIG at <*>
+E76,Using configuration type <*>
+E77,Compressed image found at block <*>
+E78,Disabled at runtime.
+E79,Initializing.
+E80,Registering netfilter hooks
+E81,Starting in permissive mode
+E82,Unregistering netfilter hooks
+E83,Hash tables configured (established <*> bind <*>)
+E84,Direct-Access ANSI SCSI revision: <*>
+E85,Processor ANSI SCSI revision: <*>
+E86,Disk quotas <*>
+E87,Mounted root (<*> filesystem).
+E88,MegaRAID Model: LD <*> <*> <*> Rev: <*>
+E89,PE/PV Model: <*> SCSI BP Rev: <*>
+E90,initialized
+E91,initializing netlink socket (disabled)
+E92,passed.
+E93,<*> (<*>-<*>-<*>) initialised: <*>
+E94,allocating divert_blk for <*>
+E95,not allocating divert_blk for non-ethernet device <*>
+E96,<*>:USB HID core driver
+E97,eth0: <*>: <*> Network Connection
+E98,eth0: <*>: NIC Link is Up <*> Mbps Full Duplex
+E99,eth1: <*>: Intel(R) PRO/<*> Network Connection
+E100,no floppy controllers found
+E101,RNG not detected
+E102,Wait for ready failed before probe !
+E103,Assuming <*> system bus speed for PIO modes; override with idebus=xx
+E104,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+E105,(C) <*>-<*> Netfilter core team
+E106,Installing public key data
+E107,... autorun DONE.
+E108,Autodetecting RAID arrays.
+E109,autorun ...
+E110,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+E111,<*>-rh1 (Release Date: <*> <*> <*> <*> <*> <*>)
+E112,<*> (Release Date: <*> <*> <*> <*> <*>)
+E113,fw version:[<*>] bios version:[<*>]
+E114,probe new device <*>
+E115,PS/<*> mouse device common for all mice
+E116,v2.<*> (<*>)
+E117,rpc.statd startup succeeded
+E118,portmap startup succeeded
+E119,Starting ts_fixup: <*>
+E120,Version <*> Starting
+E121,LSI Logic MegaRAID driver
+E122,scanning scsi channel <*> [Phy <*>] for non-raid devices
+E123,scanning scsi channel <*> [virtual] for logical drives
+E124,asking for cache data failed
+E125,assuming drive cache: <*>
+E126,sda1 sda2 sda3 sda4
+E127,Registering secondary module capability
+E128,"<*> AUX port at <*>,<*> irq <*>"
+E129,"i8042 KBD port at <*>,<*> irq <*>"
+E130,syslog-ng startup succeeded
+E131,syslog-ng version <*> starting
+E132,Detected <*> MHz processor.
+E133,Using <*> MHz HPET timer.
+E134,Using HPET based timekeeping.
+E135,Creating Topspin <*> entries:
+E136,registered new driver <*>
+E137,probe of vesafb0 failed with error {<*>}
+E138,"connection from ""<*>"""
+E139,"User #<*>#, coming from #<*>#, authenticated."
+E140,Now running on <*>'s privileges.
+E141,Mounting NFS filesystems: succeeded
+E142,Mounting other filesystems: failed
+E143,Warning: we failed to resolve data source name <*>
+E144,Warning: we failed to resolve trusted host name <*> <*>
+E145,gmetad startup succeeded
+E146,succeeded
+E147,Server listening on <*> port <*>.
+E148,error: Bind to port <*> on <*> failed: Address already in use
+E149,Cannot open file <*> for writing (No such file or directory)
+E150,Changing permissions on special file <*>
+E151,xinetd startup succeeded
+E152,Reading included configuration file: <*> [file=<*>] [line=<*>]
+E153,Started working: <*> available service
+E154,removing <*>
+E155,xinetd Version <*> started with <*> options compiled in.
+E156,"jA9JBVPb007417: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9JBVPb007417@eadmin1>, relay=#<*>#@localhost"
+E157,"jA9JBWxH019649: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9JBWxH019649@aadmin1>, relay=#<*>#@localhost"
+E158,"jA9JBWEr014256: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9JBWEr014256@badmin1>, relay=#<*>#@localhost"
+E159,"jA9JBXgf022479: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9JBXgf022479@cadmin1>, relay=#<*>#@localhost"
+E160,"jA9JBXVI027337: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>.jA9JBXVI027337@dadmin1>, relay=#<*>#@localhost"
+E161,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report"

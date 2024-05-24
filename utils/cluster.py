@@ -8,7 +8,7 @@ from utils.util import mutate
 import random
 
 class Cluster:
-    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=False, remain_num=10, sample_method="dpp"):
+    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=True, remain_num=10, sample_method="dpp"):
         self.label = label
         self.static_logs = logs
         self.logs = logs

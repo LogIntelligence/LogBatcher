@@ -1,17 +1,16 @@
+import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
 import os
-import time
 import pandas as pd
 from tqdm import tqdm
-from utils.evaluator import evaluate
 from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
 from evaluate import evaluate_all_datasets, evaluate_single_dataset
 from utils.sample import sample_from_clusters
-from utils.prune import prune_from_cluster
 
-def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
+
+def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size ,Concurrent=True):
     print(f'Parsing {dataset}...')
 
     # initialize
@@ -43,8 +42,11 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     
     clusters = []
     for input in inputs:
-        c = Cluster(*input, remove_duplicate= True, remain_num=5)
+        c = Cluster(*input, remove_duplicate=True, remain_num=batch_size)
         clusters.append(c)
+
+    # sample from clusters
+    sample_pairs = sample_from_clusters(clusters, candidate)
 
     # Concurrent or not
     # if Concurrent, then the parsing process will be faster but we can't do something like cache parsing
@@ -60,21 +62,17 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     else:
         clusters = sorted(clusters, key=lambda cluster: len(cluster.indexs), reverse=True)
         cache_pairs = []
-        for c in tqdm(clusters):
+        for index, c in enumerate(clusters):
+            print(f"=" * 40)
+            print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
             #ablation: without caching
             # tmps, template = parser.get_responce(f, c, [])
-            tmps, template, has_result = parser.get_responce(f, c, cache_pairs)
+            tmps, template, c, new_cluster = parser.get_responce(f, c, cluster_nums, cache_pairs, sample_pairs, shot)
 
-            # Matching & Pruning
-            if has_result:
-                c, new_c =  prune_from_cluster(template, c, cluster_nums)
-                if new_c != None:
-                    clusters.append(new_c)
-                    cluster_nums += 1
-                    f.write(f"---------------------------\n")
-                    f.write(f"cluster {c.label}: form a new cluster\n")
-                    f.write(f"---------------------------\n")
-
+            # update clusters
+            if new_cluster != None:
+                clusters.append(new_cluster)
+                cluster_nums += 1
 
             # update cache
             template_exist = any(pair[1] == template for pair in cache_pairs)
@@ -94,17 +92,39 @@ def single_dataset_paring(dataset, output_dir, parser, Concurrent = True):
     evaluate_single_dataset(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
 
 
-# main
-if __name__ == "__main__":
-    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    datasets = ['BGL', 'HDFS', 'HealthApp']
+def set_args():
+    # 定义命令行参数
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--candidate', type=int, default=32,
+                        help='The num of candidate pairs.')
+    parser.add_argument('--shot', type=int, default=3,
+                        help='The num of demostrations.')
+    parser.add_argument('--batch_size', type=int, default=10, 
+                        help='The size of a batch')
+    # 解析命令行参数
+    args = parser.parse_args()
+    # 调用处理函数
+    return args
 
-    theme = 'Test_10shot_with_pruning'
+
+if __name__ == "__main__":
+    args = set_args()
+    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
+                'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
+    datasets = ['Linux']
+    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize"
     output_dir = f'outputs/parser/{theme}/'
     with open('config.json', 'r') as f:
         config = json.load(f)
-    parser = Cluster_Parser(config)
-
+    parser = Cluster_Parser(theme, config)
     for index, dataset in enumerate(datasets):
-        single_dataset_paring(dataset, output_dir, parser, Concurrent=False)
+        single_dataset_paring(
+            dataset=dataset, 
+            output_dir=output_dir, 
+            parser=parser, 
+            shot=args.shot,
+            candidate=args.candidate,
+            batch_size=args.batch_size,
+            Concurrent=False
+        )
     # evaluate_all_datasets(theme,send_email=True)

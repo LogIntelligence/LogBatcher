@@ -4,8 +4,5 @@
     "instruction_for_one_log": "You will be provided with some log messages delimited by backticks. You must abstract variables with `{{placeholders}}` to extract the corresponding template.\nPrint the input log's template delimited by backticks.",
     "instruction_for_batch_logs": "You will be provided with some log messages. You should check if the giving log messages share the same template. If so, abstract variables with `{{placeholders}}` to extract the corresponding template.\nPrint the input log's template delimited by backticks.",
     "instruction_for_reverse": "Given the following raw log, you should generate the corresponding logging statement. The logging statement is a single line of code that is used to log a message. You need to understand the information in the raw log, extract all possible variables and replace them with placeholders, and finally generate the logging statement. All extracted variables should be passed as arguments to the logging function.\nPrint the input log's template delimited by backticks.",
-    "additional_incontext": "",
-    "batch_num": 50,
-    "transfer_url": "",
-    "proxies":"http://127.0.0.1:7890"
+    "batch_num": 10
 }

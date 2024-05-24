@@ -1,0 +1,285 @@
+---------------------------
+cluster 1: len=608
+Session: <*> initialized by client WindowsUpdateAgent. (ground truth of sampled log)
+Session: <*> initialized by client WindowsUpdateAgent. (final_template)
+---------------------------
+---------------------------
+cluster 6: len=558
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*> (ground truth of sampled log)
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*> (final_template)
+---------------------------
+---------------------------
+cluster 2: len=280
+Warning: Unrecognized packageExtended attribute. (ground truth of sampled log)
+Warning: Unrecognized packageExtended attribute. (final_template)
+---------------------------
+---------------------------
+cluster 3: len=224
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth of sampled log)
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (final_template)
+---------------------------
+---------------------------
+cluster 4: len=224
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (ground truth of sampled log)
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM] (final_template)
+---------------------------
+---------------------------
+cluster 5: len=18
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE] (ground truth of sampled log)
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE] (final_template)
+---------------------------
+---------------------------
+cluster 7: len=8
+Unloading offline registry hive: <*> (ground truth of sampled log)
+Unloading offline registry hive: <*> (final_template)
+---------------------------
+---------------------------
+cluster 0: len=6
+<*>@<*>/<*>/<*>:<*>:<*>:<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>) (ground truth of sampled log)
+<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>) (final_template)
+---------------------------
+---------------------------
+cluster 22: len=3
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)" (ground truth of sampled log)
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)" (final_template)
+---------------------------
+---------------------------
+cluster 23: len=3
+<*> Created NT transaction (seq <*>) result <*>, handle @<*> (ground truth of sampled log)
+<*> Created NT transaction (seq <*>) result <*>, handle @<*> (final_template)
+---------------------------
+---------------------------
+cluster 24: len=3
+<*> CSI perf trace: (ground truth of sampled log)
+<*> CSI perf trace: (final_template)
+---------------------------
+---------------------------
+cluster 27: len=3
+<*> CSI Store <*> (<*>) initialized (ground truth of sampled log)
+<*> CSI Store <*> (<*>) initialized (final_template)
+---------------------------
+---------------------------
+cluster 8: len=2
+Loaded Servicing Stack <*> with Core: <*>.dll (ground truth of sampled log)
+Loaded Servicing Stack <*> with Core: <*>.dll (final_template)
+---------------------------
+---------------------------
+cluster 9: len=2
+Ending TrustedInstaller initialization. (ground truth of sampled log)
+Ending TrustedInstaller initialization. (final_template)
+---------------------------
+---------------------------
+cluster 10: len=2
+Starting the TrustedInstaller main loop. (ground truth of sampled log)
+Starting the TrustedInstaller main loop. (final_template)
+---------------------------
+---------------------------
+cluster 11: len=2
+TrustedInstaller service starts successfully. (ground truth of sampled log)
+TrustedInstaller service starts successfully. (final_template)
+---------------------------
+---------------------------
+cluster 12: len=2
+SQM: Initializing online with Windows opt-in: <*> (ground truth of sampled log)
+SQM: Initializing online with Windows opt-in: <*> (final_template)
+---------------------------
+---------------------------
+cluster 13: len=2
+SQM: Cleaning up report files older than <*> days. (ground truth of sampled log)
+SQM: Cleaning up report files older than <*> days. (final_template)
+---------------------------
+---------------------------
+cluster 14: len=2
+SQM: Requesting upload of all unsent reports. (ground truth of sampled log)
+SQM: Requesting upload of all unsent reports. (final_template)
+---------------------------
+---------------------------
+cluster 15: len=2
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - E_FAIL] (ground truth of sampled log)
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - E_FAIL] (final_template)
+---------------------------
+---------------------------
+cluster 16: len=2
+SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL] (ground truth of sampled log)
+SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL] (final_template)
+---------------------------
+---------------------------
+cluster 17: len=2
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*> (ground truth of sampled log)
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*> (final_template)
+---------------------------
+---------------------------
+cluster 18: len=2
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL] (ground truth of sampled log)
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL] (final_template)
+---------------------------
+---------------------------
+cluster 19: len=2
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending. (ground truth of sampled log)
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending. (final_template)
+---------------------------
+---------------------------
+cluster 20: len=2
+NonStart: Checking to ensure startup processing was not required. (ground truth of sampled log)
+NonStart: Checking to ensure startup processing was not required. (final_template)
+---------------------------
+---------------------------
+cluster 21: len=2
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*> (ground truth of sampled log)
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*> (final_template)
+---------------------------
+---------------------------
+cluster 25: len=2
+NonStart: Success, startup processing not required as expected. (ground truth of sampled log)
+NonStart: Success, startup processing not required as expected. (final_template)
+---------------------------
+---------------------------
+cluster 26: len=2
+Startup processing thread terminated normally (ground truth of sampled log)
+Startup processing thread terminated normally (final_template)
+---------------------------
+---------------------------
+cluster 28: len=2
+Failed to create backup log cab. [HRESULT = <*> - ERROR_INVALID_FUNCTION] (ground truth of sampled log)
+Failed to create backup log cab. [HRESULT = <*> - ERROR_INVALID_FUNCTION] (final_template)
+---------------------------
+---------------------------
+cluster 29: len=1
+Reboot mark refs incremented to: <*> (ground truth of sampled log)
+Reboot mark refs incremented to: <*> (final_template)
+---------------------------
+---------------------------
+cluster 30: len=1
+Scavenge: Starts (ground truth of sampled log)
+Scavenge: Starts (final_template)
+---------------------------
+---------------------------
+cluster 31: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>/" (ground truth of sampled log)
+<*>@<*> CSI Transaction @<*> initialized for deployment engine <*>} with flags <*> and client id [<*>]"<*>/" (final_template)
+---------------------------
+---------------------------
+cluster 32: len=1
+Scavenge: Begin CSI Store (ground truth of sampled log)
+Scavenge: Begin CSI Store (final_template)
+---------------------------
+---------------------------
+cluster 33: len=1
+<*> Performing <*> operations; <*> are not lock/unlock and follow: (ground truth of sampled log)
+0000000a Performing <*> operations; <*> are not lock/unlock and follow: (final_template)
+---------------------------
+---------------------------
+cluster 34: len=1
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge. (ground truth of sampled log)
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge. (final_template)
+---------------------------
+---------------------------
+cluster 35: len=1
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*> (ground truth of sampled log)
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*> (final_template)
+---------------------------
+---------------------------
+cluster 36: len=1
+Scavenge: Completed, disposition: <*> (ground truth of sampled log)
+Scavenge: Completed, disposition: <*> (final_template)
+---------------------------
+---------------------------
+cluster 37: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> CSI Transaction @<*> destroyed (ground truth of sampled log)
+<*>@2016/9/27:<*> CSI Transaction @<*> destroyed (final_template)
+---------------------------
+---------------------------
+cluster 38: len=1
+Reboot mark refs: <*> (ground truth of sampled log)
+Reboot mark refs: <*> (final_template)
+---------------------------
+---------------------------
+cluster 39: len=1
+Idle processing thread terminated normally (ground truth of sampled log)
+Idle processing thread terminated normally (final_template)
+---------------------------
+---------------------------
+cluster 40: len=1
+Ending the TrustedInstaller main loop. (ground truth of sampled log)
+Ending the TrustedInstaller main loop. (final_template)
+---------------------------
+---------------------------
+cluster 41: len=1
+Starting TrustedInstaller finalization. (ground truth of sampled log)
+<*> TrustedInstaller <*>. (final_template)
+---------------------------
+---------------------------
+cluster 42: len=1
+Ending TrustedInstaller finalization. (ground truth)
+<*> TrustedInstaller <*>. (match result)
+---------------------------
+---------------------------
+cluster 43: len=1
+Starting TrustedInstaller initialization. (ground truth)
+<*> TrustedInstaller <*>. (match result)
+---------------------------
+---------------------------
+cluster 44: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth of sampled log)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/<*>' from path '<*>'. (final_template)
+---------------------------
+---------------------------
+cluster 45: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 46: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 47: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 48: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 49: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/<*>' from path '<*>'. (match result)
+---------------------------
+---------------------------
+cluster 50: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth of sampled log)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/<*>' from path '<*>'. (final_template)
+---------------------------
+---------------------------
+cluster 51: len=1
+Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'. (ground truth of sampled log)
+Loading offline registry hive: <*>, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\system32\smi\store\Machine\schema.dat'. (final_template)
+---------------------------
+---------------------------
+cluster 52: len=1
+Offline image is: read-only (ground truth of sampled log)
+Offline image is: read-only (final_template)
+---------------------------
+---------------------------
+cluster 53: len=1
+Disabling manifest caching, because the image is not writeable. (ground truth of sampled log)
+Disabling manifest caching, because the image is not writeable. (final_template)
+---------------------------
+---------------------------
+cluster 54: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> PopulateComponentFamiliesKey - Begin (ground truth of sampled log)
+<*>@<*> PopulateComponentFamiliesKey - Begin (final_template)
+---------------------------
+---------------------------
+cluster 55: len=1
+<*>@<*>/<*>/<*>:<*>:<*>:<*> PopulateComponentFamiliesKey - End (ground truth of sampled log)
+<*>@2016/9/28:<*> PopulateComponentFamiliesKey - End (final_template)
+---------------------------
+---------------------------
+cluster 56: len=1
+Session: <*> initialized by client SPP. (ground truth of sampled log)
+Session: 11152_142416105 initialized by client SPP. (final_template)
+---------------------------

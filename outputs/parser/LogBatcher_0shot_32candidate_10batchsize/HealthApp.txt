@@ -1,0 +1,375 @@
+---------------------------
+cluster 1: len=273
+onExtend:<*> <*> <*> <*> (ground truth of sampled log)
+onExtend:<*> <*> <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 0: len=260
+onStandStepChanged <*> (ground truth of sampled log)
+onStandStepChanged <*> (final_template)
+---------------------------
+---------------------------
+cluster 5: len=242
+getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*> (ground truth of sampled log)
+getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*> (final_template)
+---------------------------
+---------------------------
+cluster 6: len=241
+setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*> (ground truth of sampled log)
+setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*> (final_template)
+---------------------------
+---------------------------
+cluster 7: len=241
+calculateCaloriesWithCache totalCalories=<*> (ground truth of sampled log)
+calculateCaloriesWithCache totalCalories=<*> (final_template)
+---------------------------
+---------------------------
+cluster 8: len=241
+calculateAltitudeWithCache totalAltitude=<*> (ground truth of sampled log)
+calculateAltitudeWithCache totalAltitude=<*> (final_template)
+---------------------------
+---------------------------
+cluster 11: len=144
+processHandleBroadcastAction action:android.intent.action.TIME_TICK (ground truth of sampled log)
+processHandleBroadcastAction action:<*> (final_template)
+---------------------------
+---------------------------
+cluster 9: len=136
+REPORT : <*> <*> <*> <*> (ground truth of sampled log)
+REPORT : <*> <*> <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 2: len=17
+onReceive action: android.intent.action.SCREEN_ON (ground truth of sampled log)
+onReceive action: android.intent.action.SCREEN_ON (final_template)
+---------------------------
+---------------------------
+cluster 3: len=17
+processHandleBroadcastAction action:android.intent.action.SCREEN_ON (ground truth)
+processHandleBroadcastAction action:<*> (match result)
+---------------------------
+---------------------------
+cluster 4: len=17
+flush sensor data (ground truth of sampled log)
+flush sensor data (final_template)
+---------------------------
+---------------------------
+cluster 10: len=17
+onReceive action: android.intent.action.SCREEN_OFF (ground truth of sampled log)
+onReceive action: android.intent.action.SCREEN_OFF (final_template)
+---------------------------
+---------------------------
+cluster 14: len=17
+new date =<*>, type=<*>,<*>,old=<*> (ground truth of sampled log)
+new date =<*>, type=<*>,<*>,old=<*> (final_template)
+---------------------------
+---------------------------
+cluster 13: len=8
+getBinderPackageName packageName = com.huawei.health (ground truth of sampled log)
+getBinderPackageName packageName = <*> (final_template)
+---------------------------
+---------------------------
+cluster 24: len=6
+getTodaySportData mStepsRecordManager=<*> (ground truth of sampled log)
+getTodaySportData mStepsRecordManager=<*> (final_template)
+---------------------------
+---------------------------
+cluster 12: len=5
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*> (ground truth of sampled log)
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*> (final_template)
+---------------------------
+---------------------------
+cluster 15: len=5
+startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*> (ground truth of sampled log)
+startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*> (final_template)
+---------------------------
+---------------------------
+cluster 16: len=5
+needAutoSync autoSyncSwitch is open (ground truth of sampled log)
+needAutoSync autoSyncSwitch is open (final_template)
+---------------------------
+---------------------------
+cluster 17: len=5
+initDataPrivacy the dataPrivacy switch is open, start push health data! (ground truth of sampled log)
+initDataPrivacy the dataPrivacy switch is open, start push health data! (final_template)
+---------------------------
+---------------------------
+cluster 18: len=5
+initDataPrivacy the dataPrivacy is <*> (ground truth of sampled log)
+initDataPrivacy the dataPrivacy is <*> (final_template)
+---------------------------
+---------------------------
+cluster 19: len=5
+initUserPrivacy the userPrivacy switch is open, start push user data! (ground truth of sampled log)
+initUserPrivacy the userPrivacy switch is open, start push user data! (final_template)
+---------------------------
+---------------------------
+cluster 20: len=5
+initUserPrivacy the userPrivacy is <*> (ground truth of sampled log)
+initUserPrivacy the userPrivacy is <*> (final_template)
+---------------------------
+---------------------------
+cluster 21: len=5
+ifCanSync not! no cloud version (ground truth of sampled log)
+ifCanSync not! no cloud version (final_template)
+---------------------------
+---------------------------
+cluster 22: len=5
+sendSyncFailedBroadcast (ground truth of sampled log)
+sendSyncFailedBroadcast (final_template)
+---------------------------
+---------------------------
+cluster 23: len=5
+timeStamp back,extendReportTimeStamp=<*> (ground truth of sampled log)
+timeStamp back,extendReportTimeStamp=<*> (final_template)
+---------------------------
+---------------------------
+cluster 34: len=4
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*> (ground truth of sampled log)
+saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*> (final_template)
+---------------------------
+---------------------------
+cluster 54: len=3
+startTimer start autoSync (ground truth of sampled log)
+startTimer start autoSync (final_template)
+---------------------------
+---------------------------
+cluster 55: len=3
+stepSyncOrNot appSynTimes is <*> (ground truth of sampled log)
+stepSyncOrNot appSynTimes is <*> (final_template)
+---------------------------
+---------------------------
+cluster 30: len=2
+getAppContext() isAppValid health or wear, packageName = <*> (ground truth of sampled log)
+getAppContext() isAppValid health or wear, packageName = com.huawei.health (final_template)
+---------------------------
+---------------------------
+cluster 31: len=2
+insertHiHealthData() checkAppType <*> appID = <*> (ground truth of sampled log)
+insertHiHealthData() checkAppType <*> appID = <*> (final_template)
+---------------------------
+---------------------------
+cluster 32: len=2
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*> (ground truth of sampled log)
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*> (final_template)
+---------------------------
+---------------------------
+cluster 33: len=2
+saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*> (ground truth of sampled log)
+saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*> (final_template)
+---------------------------
+---------------------------
+cluster 35: len=2
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*> (ground truth of sampled log)
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*> (final_template)
+---------------------------
+---------------------------
+cluster 36: len=2
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*> (ground truth of sampled log)
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*> (final_template)
+---------------------------
+---------------------------
+cluster 37: len=2
+startListenerChange subscribeList = [<*>] (ground truth of sampled log)
+startListenerChange subscribeList = [<*>] (final_template)
+---------------------------
+---------------------------
+cluster 39: len=2
+insertHiHealthData() end totalTime = <*> (ground truth of sampled log)
+insertHiHealthData() end totalTime = <*> (final_template)
+---------------------------
+---------------------------
+cluster 42: len=2
+checkInsertStatus stepSum or calorieSum is enough (ground truth of sampled log)
+checkInsertStatus stepSum or calorieSum is enough (final_template)
+---------------------------
+---------------------------
+cluster 43: len=2
+checkInsertStatus stepStatSum or calorieStatSum is enough (ground truth of sampled log)
+checkInsertStatus stepStatSum or calorieStatSum is enough (final_template)
+---------------------------
+---------------------------
+cluster 44: len=2
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*> (ground truth of sampled log)
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*> (final_template)
+---------------------------
+---------------------------
+cluster 45: len=2
+startInsertSportSync start auto sync,app is <*> (ground truth of sampled log)
+startInsertSportSync start auto sync,app is <*> (final_template)
+---------------------------
+---------------------------
+cluster 46: len=2
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*> (ground truth of sampled log)
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*> (final_template)
+---------------------------
+---------------------------
+cluster 47: len=2
+startInsertSportSync first <*> steps sync,do all sync (ground truth of sampled log)
+startInsertSportSync first <*> steps sync,do all sync (final_template)
+---------------------------
+---------------------------
+cluster 63: len=2
+getTodayBasicStandardSteps= <*>##<*>##<*> (ground truth of sampled log)
+getTodayBasicStandardSteps= <*>##<*>##<*> (final_template)
+---------------------------
+---------------------------
+cluster 65: len=2
+getDiffTotalSteps= <*>##<*> (ground truth of sampled log)
+getDiffTotalSteps= <*>##<*> (final_template)
+---------------------------
+---------------------------
+cluster 25: len=1
+isScreenOn <*> (ground truth of sampled log)
+isScreenOn <*> (final_template)
+---------------------------
+---------------------------
+cluster 26: len=1
+screen status unknown,think screen on (ground truth of sampled log)
+screen status unknown,think screen on (final_template)
+---------------------------
+---------------------------
+cluster 27: len=1
+flushTempCacheToDB by stand (ground truth of sampled log)
+flushTempCacheToDB by stand (final_template)
+---------------------------
+---------------------------
+cluster 28: len=1
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*> (ground truth of sampled log)
+Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*> (final_template)
+---------------------------
+---------------------------
+cluster 29: len=1
+writeDataToDB size <*> (ground truth of sampled log)
+writeDataToDB size <*> (final_template)
+---------------------------
+---------------------------
+cluster 38: len=1
+insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT (ground truth of sampled log)
+insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = <*> (final_template)
+---------------------------
+---------------------------
+cluster 40: len=1
+uploadStaticsToDB() onResult type = <*> obj=<*> (ground truth of sampled log)
+uploadStaticsToDB() onResult type = <*> obj=<*> (final_template)
+---------------------------
+---------------------------
+cluster 41: len=1
+uploadStaticsToDB failed message=<*> (ground truth of sampled log)
+uploadStaticsToDB failed message=<*> (final_template)
+---------------------------
+---------------------------
+cluster 48: len=1
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*> (ground truth of sampled log)
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*> (final_template)
+---------------------------
+---------------------------
+cluster 49: len=1
+InsertCallBack() onSuccess type = <*> data=<*> (ground truth of sampled log)
+InsertCallBack() onSuccess type = <*> data=<*> (final_template)
+---------------------------
+---------------------------
+cluster 50: len=1
+InsertEvent success begin:<*> end:<*> (ground truth of sampled log)
+InsertEvent success begin:<*> end:<*> (final_template)
+---------------------------
+---------------------------
+cluster 51: len=1
+setWriteDBLastDataMinute=<*> (ground truth of sampled log)
+setWriteDBLastDataMinute=<*> (final_template)
+---------------------------
+---------------------------
+cluster 52: len=1
+setWriteDBLastDataMinute success (ground truth of sampled log)
+setWriteDBLastDataMinute success (final_template)
+---------------------------
+---------------------------
+cluster 53: len=1
+flush2DB result success (ground truth of sampled log)
+flush2DB result success (final_template)
+---------------------------
+---------------------------
+cluster 56: len=1
+theDayChanged <*> (ground truth of sampled log)
+theDayChanged <*> (final_template)
+---------------------------
+---------------------------
+cluster 57: len=1
+initEnviroument (ground truth of sampled log)
+initEnviroument (final_template)
+---------------------------
+---------------------------
+cluster 58: len=1
+getStepCounterStatus (ground truth of sampled log)
+getStepCounterStatus (final_template)
+---------------------------
+---------------------------
+cluster 59: len=1
+getStepCounterStatus= <*> (ground truth of sampled log)
+getStepCounterStatus= <*> (final_template)
+---------------------------
+---------------------------
+cluster 60: len=1
+reStartStepCounter (ground truth of sampled log)
+reStartStepCounter (final_template)
+---------------------------
+---------------------------
+cluster 61: len=1
+registersensorsuccess: <*> (ground truth of sampled log)
+registersensorsuccess: <*> (final_template)
+---------------------------
+---------------------------
+cluster 62: len=1
+clear() (ground truth of sampled log)
+clear() (final_template)
+---------------------------
+---------------------------
+cluster 64: len=1
+tryToRecordAsBasicStepData bWrite <*> (ground truth of sampled log)
+tryToRecordAsBasicStepData bWrite <*> (final_template)
+---------------------------
+---------------------------
+cluster 66: len=1
+setBasicStandardSteps basicStandardStep=<*> restartSteps=<*> (ground truth of sampled log)
+setBasicStandardSteps basicStandardStep=<*> restartSteps=<*> (final_template)
+---------------------------
+---------------------------
+cluster 67: len=1
+setDiffTotalSteps=<*> (ground truth of sampled log)
+setDiffTotalSteps=<*> (final_template)
+---------------------------
+---------------------------
+cluster 68: len=1
+<*>|<*>|<*>|<*> (ground truth of sampled log)
+<*>|<*>|<*>|<*> (final_template)
+---------------------------
+---------------------------
+cluster 69: len=1
+reload : <*> restar <*> (ground truth of sampled log)
+reload : <*> restar <*> (final_template)
+---------------------------
+---------------------------
+cluster 70: len=1
+next day:<*> (ground truth of sampled log)
+next day:<*> (final_template)
+---------------------------
+---------------------------
+cluster 71: len=1
+setGoalNotifiShownRecord <*> <*> (ground truth of sampled log)
+setGoalNotifiShownRecord <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 72: len=1
+closeNotification... (ground truth of sampled log)
+closeNotification... (final_template)
+---------------------------
+---------------------------
+cluster 73: len=1
+deleteHealthNotification() (ground truth of sampled log)
+deleteHealthNotification() (final_template)
+---------------------------
+---------------------------
+cluster 74: len=1
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*> (ground truth of sampled log)
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*> (final_template)
+---------------------------

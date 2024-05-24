@@ -1,0 +1,42 @@
+EventId,EventTemplate
+E1,"<*> ""<*> <*> <*> <*>"" status: <*> len: <*> time: <*>"
+E2,[instance: <*>] VM Started (Lifecycle Event)
+E3,[instance: <*>] VM Paused (Lifecycle Event)
+E4,[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.
+E5,image <*> at (<*>): checking
+E6,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+E7,Active base files: <*>
+E8,Creating event network-vif-plugged:<*> for instance <*>
+E9,[instance: <*>] VM Resumed (Lifecycle Event)
+E10,[instance: <*>] Instance spawned successfully.
+E11,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.
+E12,[instance: <*>] Took <*> seconds to build instance.
+E13,Auditing locally available compute resources for node <*>
+E14,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+E15,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+E16,Compute_service record updated for <*>
+E17,[instance: <*>] Terminating instance
+E18,[instance: <*>] Instance destroyed successfully.
+E19,[instance: <*>] Deleting instance files /var/lib/nova/instances/<*>_del
+E20,[instance: <*>] Deletion of /var/lib/nova/instances/<*>_del complete
+E21,[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.
+E22,[instance: <*>] Took <*> seconds to deallocate network for instance.
+E23,Unknown base file: <*>
+E24,Removable base files: <*>
+E25,Removing base or swap file: <*>
+E26,HTTP exception thrown: No instances found for any event
+E27,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+E28,"[instance: <*>] Total memory: <*> MB, used: <*> MB"
+E29,"[instance: <*>] memory limit: <*> MB, free: <*> MB"
+E30,"[instance: <*>] Total disk: <*> GB, used: <*> GB"
+E31,"[instance: <*>] disk limit not specified, defaulting to unlimited"
+E32,"[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU"
+E33,"[instance: <*>] vcpu limit not specified, defaulting to unlimited"
+E34,[instance: <*>] Claim successful
+E35,[instance: <*>] Creating image
+E36,[instance: <*>] VM Stopped (Lifecycle Event)
+E37,Successfully synced instances from host '<*>'.
+E38,Running instance usage audit for host <*> from <*> to <*>. <*> instances.
+E39,Base or swap file too young to remove: <*>
+E40,The instance sync for host <*> did not match. Re-created its InstanceList.
+E41,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."

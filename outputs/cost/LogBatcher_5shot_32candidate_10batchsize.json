@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `generating core.3276`\nLog template: `generating core.{{variable}}`\nLog message: `core configuration register: 0x00002000`\nLog template: `core configuration register: {{variable}}`\nLog message: `ciod: generated 58 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts`\nLog template: `ciod: generated {{variable}} core files for program {{variable}}`\nLog message: `ciod: Error loading /bgl/apps/followup/SPaSM_static/SPaSM.460-1115: invalid or missing program image, Permission denied`\nLog template: `ciod: Error loading {{variable}}: invalid or missing program image, Permission denied`\nLog message: `iar 003a926c dear 00f2b078`\nLog template: `iar {{variable}} dear {{variable}}`\nLog message: `generating core.2275`\n`generating core.862`\n`generating core.728`\n`generating core.775`\n`generating core.3276`\n`generating core.1717`\n`generating core.3919`\n`generating core.2079`\n`generating core.1414`\n`generating core.3055`"
+    }
+]

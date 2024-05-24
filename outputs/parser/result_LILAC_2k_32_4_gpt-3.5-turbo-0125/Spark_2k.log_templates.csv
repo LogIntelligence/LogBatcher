@@ -1,0 +1,37 @@
+EventId,EventTemplate
+E1,"Registered signal handlers for [TERM, HUP, INT]"
+E2,Changing view acls to: <*>
+E3,Changing modify acls to: <*>
+E4,SecurityManager: authentication <*>; ui acls <*>; users with view permissions: Set(<*>); users with modify permissions: Set(<*>)
+E5,<*> started
+E6,Starting remoting
+E7,Remoting started; listening on addresses :[akka.tcp://<*>]
+E8,Successfully started service 'sparkExecutorActorSystem' on port <*>.
+E9,Created local directory at <*>
+E10,MemoryStore started with capacity <*> GB
+E11,Connecting to driver: spark://<*>
+E12,Successfully registered with driver
+E13,Starting executor ID <*> on host <*>
+E14,Successfully started service <*> on port <*>.
+E15,Server created on <*>
+E16,Trying to register BlockManager
+E17,Registered BlockManager
+E18,Got assigned task <*>
+E19,Running task <*> in stage <*> (TID <*>)
+E20,Started reading broadcast variable <*>
+E21,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+E22,Reading broadcast variable <*> took <*> ms
+E23,"Block <*> stored as values in memory (estimated size <*>, free <*>)"
+E24,"Partition <*> not found, computing it"
+E25,Input split: <*>
+E26,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id"
+E27,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id"
+E28,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap"
+E29,"mapred.job.id is deprecated. Instead, use mapreduce.job.id"
+E30,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition"
+E31,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+E32,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+E33,Found block <*> locally
+E34,File Output Committer Algorithm version is <*>
+E35,Saved output of task <*> to <*>
+E36,<*>: Committed

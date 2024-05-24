@@ -1,0 +1,154 @@
+EventId,EventTemplate
+E1,session closed for user <*>
+E2,session opened for user <*> by (uid=<*>)
+E3,(<*>) CMD (run-parts <*>)
+E4,data_thread() got not answer from any [<*>] datasource
+E5,"synchronized to <*>, stratum <*>"
+E6,[<*>: <*>]: ********************** NEW SWEEP ********************
+E7,[<*>]: No topology change
+E8,[<*>]: No configuration change required
+E9,Local disconnected: Connection closed.
+E10,connection lost: '<*>'
+E11,unable to qualify my own domain name (<*>) -- using short name
+E12,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>"
+E13,"<*>: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>: <*> by [<*>]"
+E14,DHCPDISCOVER from <*> via eth1
+E15,DHCPOFFER on <*> to <*> via eth1
+E16,DHCPDISCOVER from <*> via eth1: network <*>: no free leases
+E17,DHCPACK on <*> to <*> via eth1
+E18,DHCPREQUEST for <*> (<*>) from <*> via eth1
+E19,START: tftp pid=<*> from=<*>
+E20,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.
+E21,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+E22,kernel time sync disabled <*>
+E23,time reset +<*> s
+E24,Received SNMP packet(s) from <*>
+E25,kernel time sync enabled <*>
+E26,(<*>) CMD (<*>/get_temps <*>)
+E27,My unqualified host name (<*>) unknown; sleeping for retry
+E28,<*> (Kernel Module GPG key)
+E29,(supports <*> <*> <*>)
+E30,DSDT (v001 <*> <*> <*> <*> <*>) @ <*>
+E31,FADT (v001 <*> PE BKC <*> MSFT <*>) @ <*>
+E32,HPET (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+E33,HPET id: <*> base: <*>
+E34,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+E35,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>)
+E36,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+E37,IRQ0 used by override.
+E38,<*> used by override.
+E39,Interpreter enabled
+E40,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+E41,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+E42,Local APIC address <*>
+E43,MADT (v001 <*> PE BKC <*> MSFT <*>) @ <*>
+E44,MCFG (<*> <*> <*> <*> <*>) @ <*>
+E45,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>
+E46,PCI Interrupt Routing Table [<*>]
+E47,PCI Root Bridge [PCI0] (<*>)
+E48,"PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>"
+E49,Power Button (FF) [PWRF]
+E50,Processor [<*>] (supports <*>)
+E51,RSDP (<*> ) @ <*>
+E52,RSDT (v001 <*> <*> <*> <*>) @ <*>
+E53,SPCR (v001 <*> PE BKC <*> MSFT <*>) @ <*>
+E54,Subsystem revision <*>
+E55,Using IOAPIC for interrupt routing
+E56,Intel(R) Xeon(TM) CPU <*> stepping <*>
+E57,L2 cache: <*>
+E58,Physical Processor ID: <*>
+E59,"Trace cache: <*> uops, L1 D cache: <*>"
+E60,colour VGA+ <*>
+E61,mounted filesystem with ordered data mode.
+E62,"sys_ia32.c,v <*> <*> <*> ak Exp $"
+E63,"apic_id <*>, version <*>, address <*>, GSI <*>-<*>"
+E64,"routing cache hash table of <*> buckets, <*>"
+E65,PCI Hot Plug PCI Core version: <*>
+E66,"root=<*> initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>"
+E67,Registered protocol family <*>
+E68,Using software bounce buffering for IO (SWIOTLB)
+E69,Probing PCI hardware (bus <*>)
+E70,Transparent bridge - <*>
+E71,Using ACPI for IRQ routing
+E72,Using MMCONFIG at <*>
+E73,Using configuration type <*>
+E74,Compressed image found at block <*>
+E75,Disabled at runtime.
+E76,Initializing.
+E77,Registering netfilter hooks
+E78,Starting in permissive mode
+E79,Unregistering netfilter hooks
+E80,Hash tables configured (established <*> bind <*>)
+E81,Direct-Access ANSI SCSI revision: <*>
+E82,Processor ANSI SCSI revision: <*>
+E83,Disk quotas <*>
+E84,Mounted root (<*> filesystem).
+E85,MegaRAID Model: LD <*> <*> <*> Rev: <*>
+E86,PE/PV Model: <*> SCSI BP Rev: <*>
+E87,initialized
+E88,initializing netlink socket (disabled)
+E89,passed.
+E90,<*> (<*>-<*>-<*>) initialised: <*>
+E91,allocating divert_blk for <*>
+E92,not allocating divert_blk for non-ethernet device <*>
+E93,<*>:USB HID core driver
+E94,eth0: <*>: Intel(R) PRO/<*> Network Connection
+E95,eth0: <*>: NIC Link is Up <*> Mbps Full Duplex
+E96,eth1: e1000_probe: <*> Network Connection
+E97,no floppy controllers found
+E98,RNG not detected
+E99,Wait for ready failed before probe !
+E100,Assuming <*> system bus speed for PIO modes; override with idebus=<*>
+E101,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+E102,(C) <*>-<*> Netfilter core team
+E103,Installing public key data
+E104,... autorun DONE.
+E105,Autodetecting RAID arrays.
+E106,autorun ...
+E107,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+E108,<*>-rh1 (Release Date: <*> <*> <*> <*> <*> <*>)
+E109,<*> (Release Date: <*> <*> <*> <*> <*>)
+E110,fw version:[<*>] bios version:[<*>]
+E111,probe new device <*>
+E112,PS/<*> mouse device common for all mice
+E113,v2.<*> (<*>)
+E114,rpc.statd startup succeeded
+E115,portmap startup succeeded
+E116,Starting ts_fixup: succeeded
+E117,Version <*> Starting
+E118,LSI Logic MegaRAID driver
+E119,scanning scsi channel <*> [Phy <*>] for non-raid devices
+E120,scanning scsi channel <*> [<*>] for logical drives
+E121,asking for cache data failed
+E122,assuming drive cache: <*>
+E123,sda1 sda2 sda3 sda4
+E124,Registering secondary module capability
+E125,"<*> AUX port at <*>,<*> irq <*>"
+E126,"<*> KBD port at <*>,<*> irq <*>"
+E127,syslog-ng startup succeeded
+E128,syslog-ng version <*> starting
+E129,Detected <*> MHz processor.
+E130,Using <*> MHz HPET timer.
+E131,Using HPET based timekeeping.
+E132,Creating Topspin <*> entries:
+E133,registered new driver <*>
+E134,probe of vesafb0 failed with error <*>
+E135,"connection from ""<*>"""
+E136,"User <*>, coming from <*>, authenticated."
+E137,Now running on <*>'s privileges.
+E138,Mounting NFS filesystems: succeeded
+E139,Mounting other filesystems: failed
+E140,Warning: we failed to resolve data source name <*>
+E141,Warning: we failed to resolve trusted host name <*> <*>
+E142,gmetad startup succeeded
+E143,succeeded
+E144,Server listening on <*> port <*>.
+E145,error: Bind to port <*> on <*> failed: <*>
+E146,Cannot open file <*> for writing (No such file or directory)
+E147,Changing permissions on special file <*>
+E148,xinetd startup succeeded
+E149,Reading included configuration file: <*> [file=<*>] [line=<*>]
+E150,Started working: <*> available service
+E151,removing <*>
+E152,xinetd Version <*> started with <*> options compiled in.
+E153,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report"

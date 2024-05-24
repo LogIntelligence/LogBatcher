@@ -2,10 +2,15 @@ import re
 from utils.sample_byword import extract_variables
 
 
-def post_process(response, reference_log):
+def post_process(response):
 
     response = response.replace('\n', '')
-    tmps = re.findall(r'`(.*?)`', response)
+    first_backtick_index = response.find('`')
+    last_backtick_index = response.rfind('`')
+    if first_backtick_index == -1 or last_backtick_index == -1 or first_backtick_index == last_backtick_index:
+        tmps = []
+    else:
+        tmps = response[first_backtick_index: last_backtick_index + 1].split('`')
     for tmp in tmps:
         if tmp.replace(' ','').replace('<*>','') == '':
             tmps.remove(tmp)
@@ -16,22 +21,10 @@ def post_process(response, reference_log):
         tmp = max(tmps, key=len)
 
     template = re.sub(r'\{\{.*?\}\}', '<*>', tmp)
-
     # Todo: some varaible part might be '', need to correct the template, which should have a log to compare
     template = correct_single_template(template)
-    matches = extract_variables(reference_log, template)
-    if template.strip() == '<*>':
-        template = reference_log
-    elif matches == []:
-        # matche fail
+    if template.replace('<*>', '').strip() == '':
         template = ''
-    else:
-        parts = template.split('<*>')
-        template = parts[0]
-        for index, match in enumerate(matches):
-            if match != '':
-                template += '<*>'
-            template += parts[index + 1]
 
     return tmp, template
 

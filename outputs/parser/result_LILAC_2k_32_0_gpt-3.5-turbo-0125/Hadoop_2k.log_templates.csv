@@ -1,0 +1,98 @@
+EventId,EventTemplate
+E1,Created MRAppMaster for application <*>
+E2,Executing with tokens:
+E3,"Kind: <*>, Service: <*>, Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)"
+E4,Using <*>.
+E5,OutputCommitter set in config <*>
+E6,OutputCommitter is <*>
+E7,Registering class <*> for class <*>
+E8,Default file system [<*>]
+E9,Emitting job history data to the timeline server is not enabled
+E10,loaded properties from <*>
+E11,Scheduled snapshot period at <*> second(s).
+E12,MRAppMaster metrics system started
+E13,Adding job token for <*> to jobTokenSecretManager
+E14,Not uberizing <*> because: <*>.
+E15,Input size for job <*> = <*>. Number of splits = <*>
+E16,Number of reduces for job <*> = <*>
+E17,<*> Transitioned from <*> to <*>
+E18,"MRAppMaster launching normal, non-uberized, multi-container job <*>."
+E19,Starting Socket Reader <*> for port <*>
+E20,Adding protocol <*> to the server
+E21,Instantiated MRClientService at <*>
+E22,IPC Server Responder: <*>
+E23,IPC Server listener on <*>: starting
+E24,Logging to <*> via <*>
+E25,Http request log for <*> is not defined
+E26,Added global filter <*> (class=<*>)
+E27,Added filter <*> (class=<*>) to context <*>
+E28,adding path spec: <*>
+E29,Jetty bound to port <*>
+E30,jetty-<*>
+E31,Extract <*> to <*>
+E32,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>
+E33,Web app /mapreduce started at <*>
+E34,Registered webapp <*> modules
+E35,JOB_CREATE <*>
+E36,nodeBlacklistingEnabled:true
+E37,maxTaskFailuresPerNode is <*>
+E38,blacklistDisablePercent is <*>
+E39,Connecting to ResourceManager at <*>
+E40,"maxContainerCapability: <memory:<*>, vCores:<*>"
+E41,queue: <*>
+E42,Upper limit on the thread pool size is <*>
+E43,yarn.client.max-cached-nodemanagers-proxies : <*>
+E44,Processing the event EventType: <*>
+E45,Resolved <*> to <*>
+E46,"mapResourceRequest:<memory:<*>, vCores:<*>"
+E47,"Event Writer setup for JobId: <*>, File: <*>"
+E48,"reduceResourceRequest:<memory:<*>, vCores:<*>"
+E49,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+E50,"getResources() for <*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>"
+E51,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+E52,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+E53,Got allocated containers <*>
+E54,Assigned container <*> to <*>
+E55,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+E56,The job-jar file on the remote FS is <*>
+E57,The job-conf file on the remote FS is <*>
+E58,Adding <*> tokens and <*> secret keys for NM use for launching container
+E59,Size of <*> is <*>
+E60,Putting shuffle token in <*>
+E61,Launching <*>
+E62,Opening proxy : <*>
+E63,Shuffle port returned by ContainerManager for <*> : <*>
+E64,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>]
+E65,ATTEMPT_START <*>
+E66,Auth successful for <*> (auth:<*>)
+E67,JVM with ID : <*> asked for a task
+E68,JVM with ID: <*> given task: <*>
+E69,Progress of TaskAttempt <*> is : <*>
+E70,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=true"
+E71,Received completed container <*>
+E72,Container complete event for unknown container id <*>
+E73,Done acknowledgement from <*>
+E74,KILLING <*>
+E75,Task succeeded with attempt <*>
+E76,Num completed Tasks: <*>
+E77,Reduce slow start threshold reached. Scheduling reduces.
+E78,All maps assigned. Ramping up all remaining reduces:<*>
+E79,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>
+E80,We launched <*> speculations. Sleeping <*> milliseconds.
+E81,Scheduling a redundant attempt for task <*>
+E82,Diagnostics report from <*>: Container killed by the ApplicationMaster.
+E83,Address change detected. Old: <*> New: <*>
+E84,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...
+E85,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: <*> status: <*> downstreamAckTimeNanos: <*>, targets: [<*>, <*>]"
+E86,DFSOutputStream ResponseProcessor exception for block <*>
+E87,"Error Recovery for block <*> in pipeline <*>, <*>: bad datanode <*>"
+E88,DataStreamer <*>
+E89,ERROR IN CONTACTING RM.
+E90,Retrying connect to server: <*>. Already tried <*> time(s); retry policy is <*>
+E91,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: <*>
+E92,Diagnostics report from <*>: Error: <*> from <*> to <*> failed on <*>: <*>; For more details see: <*>
+E93,Task cleanup failed for attempt <*>
+E94,Error writing History Event: <*>
+E95,Thread <*> threw an Exception.
+E96,<*> failures on node <*>
+E97,Added <*> to list of failed <*>
