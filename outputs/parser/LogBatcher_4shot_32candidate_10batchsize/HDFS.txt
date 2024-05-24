@@ -1,0 +1,75 @@
+---------------------------
+cluster 1: len=314
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*> (ground truth of sampled log)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4385764838827095986 size <*> (final_template)
+---------------------------
+---------------------------
+cluster 0: len=311
+PacketResponder <*> for block <*> terminating (ground truth of sampled log)
+PacketResponder <*> for block blk_38865049064139660 terminating (final_template)
+---------------------------
+---------------------------
+cluster 2: len=292
+Received block <*> of size <*> from <*> (ground truth of sampled log)
+Received block <*> of size <*> from <*> (final_template)
+---------------------------
+---------------------------
+cluster 3: len=292
+Receiving block <*> src: <*> dest: <*> (ground truth of sampled log)
+Receiving block <*> src: <*> dest: <*> (final_template)
+---------------------------
+---------------------------
+cluster 6: len=263
+Deleting block <*> file <*> (ground truth of sampled log)
+Deleting block <*> file <*> (final_template)
+---------------------------
+---------------------------
+cluster 9: len=224
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*> (ground truth of sampled log)
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*> (final_template)
+---------------------------
+---------------------------
+cluster 4: len=115
+BLOCK* NameSystem.allocateBlock: <*> <*> (ground truth of sampled log)
+BLOCK* NameSystem.allocateBlock: <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 7: len=80
+<*> Served block <*> to <*> (ground truth of sampled log)
+<*> Served block <*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 8: len=80
+<*>:Got exception while serving <*> to <*>: (ground truth of sampled log)
+<*>:Got exception while serving blk_7505828172725463922 to <*>: (final_template)
+---------------------------
+---------------------------
+cluster 5: len=20
+Verification succeeded for <*> (ground truth of sampled log)
+Verification succeeded for <*> (final_template)
+---------------------------
+---------------------------
+cluster 10: len=5
+BLOCK* ask <*> to delete <*> (ground truth of sampled log)
+BLOCK* ask <*> to delete <*> (final_template)
+---------------------------
+---------------------------
+cluster 12: len=2
+Received block <*> src: <*> dest: <*> of size <*> (ground truth of sampled log)
+Received block <*> src: <*> dest: <*> of size <*> (final_template)
+---------------------------
+---------------------------
+cluster 11: len=1
+<*> Starting thread to transfer block <*> to <*> (ground truth of sampled log)
+<*> Starting thread to transfer block <*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 13: len=1
+BLOCK* ask <*> to replicate <*> to datanode(s) <*> (ground truth of sampled log)
+BLOCK* ask <*> to replicate <*> to datanode(s) <*> (final_template)
+---------------------------
+---------------------------
+cluster 14: len=40
+ (ground truth of sampled log)
+<*>:Got exception while serving <*> to <*>: (final_template)
+---------------------------

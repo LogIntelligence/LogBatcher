@@ -67,7 +67,7 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
             print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
             #ablation: without caching
             # tmps, template = parser.get_responce(f, c, [])
-            tmps, template, c, new_cluster = parser.get_responce(f, c, cluster_nums, cache_pairs, sample_pairs, shot)
+            tmp, template, c, new_cluster = parser.get_responce(f, c, cluster_nums, cache_pairs, sample_pairs, shot)
 
             # update clusters
             if new_cluster != None:
@@ -81,7 +81,7 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
 
             for index in c.indexs:
                 outputs[index] = template
-                tmps_list[index] = '\n'.join(tmps)
+                tmps_list[index] = tmp
 
     # write to file
     f.close()

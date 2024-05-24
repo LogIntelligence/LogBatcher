@@ -1,0 +1,1835 @@
+---------------------------
+cluster 104: len=71
+Cocoa scripting error for '<*>': four character codes must be four characters long. (ground truth of sampled log)
+Cocoa scripting error for '<*>': four character codes must be four characters long. (final_template)
+---------------------------
+---------------------------
+cluster 12: len=56
+AppleCamIn::systemWakeCall - messageType = <*> (ground truth of sampled log)
+AppleCamIn::systemWakeCall - messageType = <*> (final_template)
+---------------------------
+---------------------------
+cluster 14: len=45
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (ground truth of sampled log)
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (final_template)
+---------------------------
+---------------------------
+cluster 55: len=44
+dnssd_clientstub ConnectToServer: connect()-> No of tries: <*> (ground truth of sampled log)
+dnssd_clientstub ConnectToServer: connect()-> No of tries: <*> (final_template)
+---------------------------
+---------------------------
+cluster 1: len=39
+Thermal pressure state: <*> Memory pressure state: <*> (ground truth of sampled log)
+Thermal pressure state: <*> Memory pressure state: <*> (final_template)
+---------------------------
+---------------------------
+cluster 0: len=36
+<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*> (ground truth of sampled log)
+<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*> (final_template)
+---------------------------
+---------------------------
+cluster 16: len=35
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (ground truth)
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (match result)
+---------------------------
+---------------------------
+cluster 24: len=32
+ARPT: <*>: wl0: MDNS: IPV6 Addr: <*> (ground truth of sampled log)
+ARPT: <*>: wl0: MDNS: IPV6 Addr: <*> (final_template)
+---------------------------
+---------------------------
+cluster 32: len=32
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (ground truth)
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (match result)
+---------------------------
+---------------------------
+cluster 94: len=31
+CCFile::captureLogRun Skipping current file Dir file [<*>,<*>,<*>]-<*>, Current File [<*>,<*>,<*>]-<*> (ground truth of sampled log)
+CCFile::captureLogRun Skipping current file Dir file [<*>,<*>,<*>]-<*>-<*>, Current File [<*>,<*>,<*>]-<*>-<*> (final_template)
+---------------------------
+---------------------------
+cluster 23: len=29
+<*>(<*>) deny network-outbound <*> (ground truth of sampled log)
+<*>(<*>) deny network-outbound <*> (final_template)
+---------------------------
+---------------------------
+cluster 26: len=29
+Sandbox: <*>(<*>) deny(<*>) network-outbound <*> (ground truth of sampled log)
+Sandbox: com.apple.Addres(<*>) deny(<*>) network-outbound <*> (final_template)
+---------------------------
+---------------------------
+cluster 67: len=26
+send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out. (ground truth of sampled log)
+send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out. (final_template)
+---------------------------
+---------------------------
+cluster 20: len=24
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (ground truth)
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (match result)
+---------------------------
+---------------------------
+cluster 87: len=23
+[<*>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification (ground truth of sampled log)
+[<*>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification (final_template)
+---------------------------
+---------------------------
+cluster 22: len=22
+CCFile::captureLogRun() Exiting CCFile::captureLogRun (ground truth of sampled log)
+CCFile::captureLogRun() Exiting CCFile::captureLogRun (final_template)
+---------------------------
+---------------------------
+cluster 28: len=22
+AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds (ground truth of sampled log)
+AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds (final_template)
+---------------------------
+---------------------------
+cluster 34: len=20
+AppleCamIn::wakeEventHandlerThread (ground truth of sampled log)
+AppleCamIn::wakeEventHandlerThread (final_template)
+---------------------------
+---------------------------
+cluster 37: len=20
+en0: channel changed to <*> (ground truth of sampled log)
+en0: channel changed to <*> (final_template)
+---------------------------
+---------------------------
+cluster 39: len=20
+CCFile::captureLog Received Capture notice id: <*>, reason = AuthFail:sts:<*>_rsn:<*> (ground truth of sampled log)
+CCFile::captureLog Received Capture notice id: <*>, reason = <*>:sts:<*> (final_template)
+---------------------------
+---------------------------
+cluster 40: len=20
+<*>::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED (ground truth of sampled log)
+<*>::setAwdlOperatingMode Setting the AWDL operation mode from <*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 44: len=20
+button report: <*> (ground truth of sampled log)
+button report: <*> (final_template)
+---------------------------
+---------------------------
+cluster 45: len=20
+Location icon should now be in state 'Inactive' (ground truth of sampled log)
+Location icon should now be in state 'Inactive' (final_template)
+---------------------------
+---------------------------
+cluster 63: len=20
+-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*>. (ground truth of sampled log)
+-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*>. (final_template)
+---------------------------
+---------------------------
+cluster 49: len=19
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (ground truth)
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (match result)
+---------------------------
+---------------------------
+cluster 76: len=18
+tcp_connection_handle_connect_conditions_bad <*> failed: <*> - No network route (ground truth of sampled log)
+tcp_connection_handle_connect_conditions_bad <*> failed: <*> - No network route (final_template)
+---------------------------
+---------------------------
+cluster 2: len=17
+FA||Url||taskID[<*>] dealloc (ground truth of sampled log)
+FA||Url||taskID[<*>] dealloc (final_template)
+---------------------------
+---------------------------
+cluster 50: len=17
+-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record. (ground truth of sampled log)
+-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record. (final_template)
+---------------------------
+---------------------------
+cluster 59: len=17
+Location icon should now be in state 'Active' (ground truth of sampled log)
+Location icon should now be in state 'Active' (final_template)
+---------------------------
+---------------------------
+cluster 69: len=17
+NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*> (ground truth of sampled log)
+NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*> (final_template)
+---------------------------
+---------------------------
+cluster 92: len=17
+CCFile::captureLog (ground truth of sampled log)
+CCFile::captureLog (final_template)
+---------------------------
+---------------------------
+cluster 102: len=17
+ARPT: <*>: <*>::powerChange: System Sleep (ground truth of sampled log)
+ARPT: <*>: AirPort_Brcm43xx::powerChange: System Sleep (final_template)
+---------------------------
+---------------------------
+cluster 4: len=16
+ARPT: <*>: <*>::platformWoWEnable: WWEN[disable] (ground truth of sampled log)
+ARPT: <*>: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable] (final_template)
+---------------------------
+---------------------------
+cluster 9: len=16
+<*>-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*> (ground truth of sampled log)
+__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*> (final_template)
+---------------------------
+---------------------------
+cluster 54: len=16
+en0: BSSID changed to <*> (ground truth of sampled log)
+en0: BSSID changed to 5c:<*>:bc:<*> (final_template)
+---------------------------
+---------------------------
+cluster 10: len=15
+<*>::setAwdlAutoMode Resuming AWDL (ground truth of sampled log)
+<*>::setAwdlAutoMode Resuming AWDL (final_template)
+---------------------------
+---------------------------
+cluster 19: len=15
+<*> successfully changed NAT64 ifstate from <*> to <*> (ground truth of sampled log)
+nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from <*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 70: len=15
+Previous sleep cause: <*> (ground truth of sampled log)
+Previous sleep cause: <*> (final_template)
+---------------------------
+---------------------------
+cluster 72: len=15
+<*>::prePCIWake - power up complete - took <*> us (ground truth of sampled log)
+AppleThunderboltNHIType2::prePCIWake - power up complete - took <*> us (final_template)
+---------------------------
+---------------------------
+cluster 79: len=15
+Path not allowed in target domain: type = pid, path = <*> error = <*>: The specified service did not ship in the requestor's bundle, origin = <*> (ground truth of sampled log)
+Path not allowed in target domain: type = pid, path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/<*>/Contents/MacOS/<*> error = <*>: The specified service did not ship in the requestor's bundle, origin = <*> (final_template)
+---------------------------
+---------------------------
+cluster 86: len=15
+Received Capture Event (ground truth of sampled log)
+Received Capture Event (final_template)
+---------------------------
+---------------------------
+cluster 91: len=15
+AppleCamIn::handleWakeEvent_gated (ground truth of sampled log)
+AppleCamIn::handleWakeEvent_gated (final_template)
+---------------------------
+---------------------------
+cluster 36: len=14
+-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (<*>) UASuggestedActionType=<*> (<*>)/(<*>) opts=(<*>) when=<*> (ground truth of sampled log)
+-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (<*>) UASuggestedActionType=<*> (<*>)/(<*>) opts=(<*>) when=<*>-<*>-<*> <*> +<*> confidence=<*> from=(<*>)/(<*>) (UABestAppSuggestionManager.m #<*>) (final_template)
+---------------------------
+---------------------------
+cluster 81: len=14
+KeychainGetICDPStatus: keychain: <*> (ground truth of sampled log)
+KeychainGetICDPStatus: keychain: <*> (final_template)
+---------------------------
+---------------------------
+cluster 25: len=13
+AirPort: Link Up on en0 (ground truth of sampled log)
+AirPort: Link Up on <*> (final_template)
+---------------------------
+---------------------------
+cluster 62: len=13
+dnssd_clientstub ConnectToServer: connect() failed path:<*> Socket:<*> Err:<*> Errno:<*> Operation not permitted (ground truth of sampled log)
+dnssd_clientstub ConnectToServer: connect() failed path:<*> Socket:<*> Err:-<*> Errno:<*> Operation not permitted (final_template)
+---------------------------
+---------------------------
+cluster 64: len=13
+Error returned from iconservicesagent: (<*>) (ground truth of sampled log)
+<*> returned from <*>: <*> (final_template)
+---------------------------
+---------------------------
+cluster 3: len=12
+ARPT: <*>: <*>::syncPowerState: WWEN[enabled] (ground truth of sampled log)
+ARPT: <*>: AirPort_Brcm43xx::syncPowerState: WWEN[enabled] (final_template)
+---------------------------
+---------------------------
+cluster 27: len=12
+ARPT: <*>: <*>::platformWoWEnable: WWEN[enable] (ground truth of sampled log)
+ARPT: <*>: AirPort_Brcm43xx::platformWoWEnable: WWEN[<*>] (final_template)
+---------------------------
+---------------------------
+cluster 42: len=12
+SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=<*> "Account identity not set" UserInfo={NSDescription=Account identity not set} (ground truth of sampled log)
+SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=<*> "Account identity not set" UserInfo={NSDescription=Account identity not set} (final_template)
+---------------------------
+---------------------------
+cluster 52: len=12
+USBMSC Identifier (non-unique): <*> (ground truth of sampled log)
+USBMSC Identifier (non-unique): <*> <*> <*> <*>, <*> (final_template)
+---------------------------
+---------------------------
+cluster 93: len=12
+ARPT: <*>: <*>::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake (ground truth of sampled log)
+ARPT: <*>: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake (final_template)
+---------------------------
+---------------------------
+cluster 21: len=11
+<*>::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(<*>) (ground truth of sampled log)
+<*>::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(<*>) (final_template)
+---------------------------
+---------------------------
+cluster 29: len=11
+<*>::<*> - retries = <*> (ground truth of sampled log)
+AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = <*> (final_template)
+---------------------------
+---------------------------
+cluster 46: len=11
+ARPT: <*>: wl0: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*> (ground truth of sampled log)
+ARPT: <*>: wl0: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*> (final_template)
+---------------------------
+---------------------------
+cluster 58: len=11
+RTC: PowerByCalendarDate setting ignored (ground truth of sampled log)
+RTC: PowerByCalendarDate setting ignored (final_template)
+---------------------------
+---------------------------
+cluster 75: len=11
+Bluetooth -- LE is supported - Disable LE meta event (ground truth of sampled log)
+Bluetooth -- LE is supported - Disable LE meta event (final_template)
+---------------------------
+---------------------------
+cluster 84: len=11
+[<*>] FigAgglomeratorSetObjectForKey signalled err=<*> (kFigStringConformerError_ParamErr) (<*> key) at <*> line <*> (ground truth of sampled log)
+[<*>] FigAgglomeratorSetObjectForKey signalled err=-<*> (kFigStringConformerError_ParamErr) (<*> key) at <*> line <*> (final_template)
+---------------------------
+---------------------------
+cluster 30: len=10
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*> (ground truth of sampled log)
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*> (final_template)
+---------------------------
+---------------------------
+cluster 31: len=10
+<*>::<*>::postMessage bssid changed (ground truth of sampled log)
+en0::IO80211Interface::postMessage bssid changed (final_template)
+---------------------------
+---------------------------
+cluster 47: len=10
+<*>-[NETClientConnection <*>]_block_invoke CI46 - Hit by torpedo! <*> (ground truth of sampled log)
+__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! <*> <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 89: len=10
+############################## _getSysMsgList (ground truth of sampled log)
+############################## _getSysMsgList (final_template)
+---------------------------
+---------------------------
+cluster 100: len=10
+jemmytest (ground truth of sampled log)
+jemmytest (final_template)
+---------------------------
+---------------------------
+cluster 103: len=10
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (ground truth)
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (match result)
+---------------------------
+---------------------------
+cluster 8: len=9
+ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload (ground truth of sampled log)
+ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload (final_template)
+---------------------------
+---------------------------
+cluster 11: len=9
+ARPT: <*>: wl0: MDNS: <*> SRV Recs, <*> TXT Recs (ground truth of sampled log)
+ARPT: <*>: wl0: MDNS: <*> SRV Recs, <*> TXT Recs (final_template)
+---------------------------
+---------------------------
+cluster 18: len=9
+PM response took <*> ms (<*>, powerd) (ground truth of sampled log)
+PM response took <*> ms (<*>, powerd) (final_template)
+---------------------------
+---------------------------
+cluster 56: len=9
+-[NETClientConnection effectiveBundleID] using process name apsd as bundle ID (this is expected for daemons without bundle ID (ground truth of sampled log)
+-[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID (final_template)
+---------------------------
+---------------------------
+cluster 65: len=9
+tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.<*> error <*> (ground truth of sampled log)
+tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.<*> error <*> (final_template)
+---------------------------
+---------------------------
+cluster 78: len=9
+ASL Sender Statistics (ground truth of sampled log)
+ASL Sender Statistics (final_template)
+---------------------------
+---------------------------
+cluster 82: len=9
+ARPT: <*>: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on. (ground truth of sampled log)
+ARPT: <*>: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on. (final_template)
+---------------------------
+---------------------------
+cluster 83: len=9
+<*>: IPv6 address <*> has no prefix (ground truth of sampled log)
+in6_unlink_ifa: IPv6 address <*> has no prefix (final_template)
+---------------------------
+---------------------------
+cluster 97: len=9
+CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions (ground truth of sampled log)
+CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions (final_template)
+---------------------------
+---------------------------
+cluster 35: len=8
+ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*> (ground truth of sampled log)
+ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*> (final_template)
+---------------------------
+---------------------------
+cluster 41: len=8
+Unrecognized attribute value: t:AbchPersonItemType (ground truth of sampled log)
+Unrecognized attribute value: t:AbchPersonItemType (final_template)
+---------------------------
+---------------------------
+cluster 43: len=8
+<*> : BTLE scanner Powered On (ground truth of sampled log)
+<*> : BTLE scanner Powered On (final_template)
+---------------------------
+---------------------------
+cluster 53: len=8
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (<*>) (ground truth of sampled log)
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (<*>) (final_template)
+---------------------------
+---------------------------
+cluster 60: len=8
+ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*> (ground truth of sampled log)
+ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*> (final_template)
+---------------------------
+---------------------------
+cluster 95: len=8
+ARPT: <*>: framerdy <*> bmccmd <*> framecnt <*> (ground truth of sampled log)
+ARPT: <*>: framerdy <*> bmccmd <*> framecnt <*> (final_template)
+---------------------------
+---------------------------
+cluster 96: len=8
+ARPT: <*>: wl0: setup_keepalive: Remote IP: <*> (ground truth of sampled log)
+ARPT: <*>: wl0: setup_keepalive: Remote IP: <*> (final_template)
+---------------------------
+---------------------------
+cluster 101: len=8
+KeychainGetICDPStatus: status: off (ground truth of sampled log)
+KeychainGetICDPStatus: status: off (final_template)
+---------------------------
+---------------------------
+cluster 6: len=7
+ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>, (ground truth of sampled log)
+ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>, (final_template)
+---------------------------
+---------------------------
+cluster 15: len=7
+CCIOReporterFormatter::addRegistryChildToChannelDictionary streams <*> (ground truth of sampled log)
+CCIOReporterFormatter::addRegistryChildToChannelDictionary streams <*> (final_template)
+---------------------------
+---------------------------
+cluster 17: len=7
+AirPort: Link Down on awdl0. Reason <*> (Unspecified). (ground truth of sampled log)
+AirPort: Link Down on awdl0. Reason <*> (Unspecified). (final_template)
+---------------------------
+---------------------------
+cluster 38: len=7
+ARPT: <*>: AQM agg results <*> len hi/lo: <*> BAbitmap(<*>) <*> (ground truth of sampled log)
+ARPT: <*>: AQM agg results <*> len hi/lo: <*> <*> BAbitmap(<*>-<*>) <*> <*> <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 48: len=7
+Setting BTCoex Config: <*>, <*>, <*>, <*> (ground truth of sampled log)
+Setting BTCoex Config: enable_2G:<*>, profile_2g:<*>, enable_5G:<*>, profile_5G:<*> (final_template)
+---------------------------
+---------------------------
+cluster 73: len=7
+network changed: <*>(<*>) <*>(<*>) DNS! Proxy SMB (ground truth of sampled log)
+network changed: v4(<*>) v6(<*>) DNS! Proxy SMB (final_template)
+---------------------------
+---------------------------
+cluster 77: len=7
+Captive: CNPluginHandler en0: Authenticated (ground truth of sampled log)
+Captive: CNPluginHandler en0: Authenticated (final_template)
+---------------------------
+---------------------------
+cluster 85: len=7
+ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> minlen <*> adjlen <*> (ground truth of sampled log)
+ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*> (final_template)
+---------------------------
+---------------------------
+cluster 90: len=7
+<*> : Scanning mode Contacts Only (ground truth of sampled log)
+<*> : Scanning mode Contacts Only (final_template)
+---------------------------
+---------------------------
+cluster 7: len=6
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Original Seq: <*>, Ack: <*>, Win size: <*> (ground truth of sampled log)
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Original Seq: <*>, Ack: <*>, Win size: <*> (final_template)
+---------------------------
+---------------------------
+cluster 33: len=6
+<*>::<*> - intel_rp = <*> dlla_reporting_supported = <*> (ground truth of sampled log)
+AppleThunderboltNHIType2::waitForOk2Go2Sx - intel_rp = <*> dlla_reporting_supported = <*> (final_template)
+---------------------------
+---------------------------
+cluster 61: len=6
+<*>(<*>) deny mach-lookup com.apple.networking.captivenetworksupport (ground truth of sampled log)
+QQ(<*>) deny mach-lookup com.apple.networking.captivenetworksupport (final_template)
+---------------------------
+---------------------------
+cluster 74: len=6
+ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>, (ground truth of sampled log)
+ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>, (final_template)
+---------------------------
+---------------------------
+cluster 98: len=6
+ARPT: <*>: wlc_dump_aggfifo: (ground truth of sampled log)
+ARPT: <*>: wlc_dump_aggfifo: (final_template)
+---------------------------
+---------------------------
+cluster 99: len=6
+doSaveChannels@<*>: Will write to: <*> (ground truth of sampled log)
+doSaveChannels@<*>: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[<*>-<*>-<*>,<*>,<*>] - <*>:sts:<*>.xml (final_template)
+---------------------------
+---------------------------
+cluster 5: len=5
+mDNS_DeregisterInterface: Frequent transitions for interface awdl0 (<*>) (ground truth of sampled log)
+mDNS_DeregisterInterface: Frequent transitions for interface awdl0 (FE80:<*>:D8A5:90FF:FEF5:7FFF) (final_template)
+---------------------------
+---------------------------
+cluster 13: len=5
+setting hostname to "<*>" (ground truth of sampled log)
+setting hostname to "<*>" (final_template)
+---------------------------
+---------------------------
+cluster 51: len=5
+AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving). (ground truth of sampled log)
+AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving). (final_template)
+---------------------------
+---------------------------
+cluster 57: len=5
+RTC: Maintenance <*>, sleep <*> (ground truth of sampled log)
+RTC: Maintenance 2017/7/1 <*>, sleep 2017/7/1 <*> (final_template)
+---------------------------
+---------------------------
+cluster 66: len=5
+SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name} (ground truth of sampled log)
+SecOSStatusWith error:[-<*>] Error Domain=NSOSStatusErrorDomain Code=-<*> "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name} (final_template)
+---------------------------
+---------------------------
+cluster 68: len=5
+[com.apple.calendar.store.log.caldav.coredav] [Refusing to parse response to PROPPATCH because of content-type: [text/html; charset=UTF-<*>].] (ground truth of sampled log)
+[com.apple.calendar.store.log.caldav.coredav] [Refusing to parse response to PROPPATCH because of content-type: [text/html; charset=UTF-<*>].] (final_template)
+---------------------------
+---------------------------
+cluster 71: len=5
+Wake reason: RTC (Alarm) (ground truth of sampled log)
+Wake reason: RTC (Alarm) (final_template)
+---------------------------
+---------------------------
+cluster 80: len=5
+[<*>] itemasync_SetProperty signalled err=<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*> (ground truth of sampled log)
+[<*>] itemasync_SetProperty signalled err=-<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*> (final_template)
+---------------------------
+---------------------------
+cluster 88: len=5
+sigio_handler: sigio_handler_active != <*> (ground truth of sampled log)
+sigio_handler: sigio_handler_active != <*> (final_template)
+---------------------------
+---------------------------
+cluster 105: len=5
+<IMMacNotificationCenterManager: <*>: NC Disabled: NO (ground truth of sampled log)
+<IMMacNotificationCenterManager: <*>: NC Disabled: NO (final_template)
+---------------------------
+---------------------------
+cluster 106: len=5
+-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! <*> (ground truth of sampled log)
+-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 108: len=4
+ARPT: <*>: wl0: Roamed or switched channel, reason #<*>, bssid <*>, last RSSI <*> (ground truth of sampled log)
+ARPT: <*>: wl0: Roamed or switched channel, reason #<*>, bssid <*>, last RSSI <*> (final_template)
+---------------------------
+---------------------------
+cluster 110: len=4
+mDNS_RegisterInterface: Frequent transitions for interface en0 (<*>) (ground truth of sampled log)
+mDNS_RegisterInterface: Frequent transitions for interface <*> (<*>) (final_template)
+---------------------------
+---------------------------
+cluster 113: len=4
+securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=NSOSStatusErrorDomain Code=<*> "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name} (ground truth of sampled log)
+securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=NSOSStatusErrorDomain Code=-<*> "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name} (final_template)
+---------------------------
+---------------------------
+cluster 116: len=4
+Captive: CNPluginHandler en0: Evaluating (ground truth of sampled log)
+Captive: CNPluginHandler en0: Evaluating (final_template)
+---------------------------
+---------------------------
+cluster 119: len=4
+[<*>:WARNING:dns_config_service_posix.cc(<*>)] Failed to read DnsConfig. (ground truth of sampled log)
+[0701/114930:WARNING:dns_config_service_posix.cc(<*>)] Failed to read DnsConfig. (final_template)
+---------------------------
+---------------------------
+cluster 120: len=4
+Saw change in network reachability (isReachable=<*>) (ground truth of sampled log)
+Saw change in network reachability (isReachable=<*>) (final_template)
+---------------------------
+---------------------------
+cluster 125: len=4
+pages <*>, wire <*>, act <*>, inact <*>, cleaned <*> spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*> (ground truth of sampled log)
+pages <*>, wire <*>, act <*>, inact <*>, cleaned <*> spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*> (final_template)
+---------------------------
+---------------------------
+cluster 136: len=4
+<*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>. (ground truth of sampled log)
+2017/07/02 <*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = ******2341. (final_template)
+---------------------------
+---------------------------
+cluster 138: len=4
+ARPT: <*>: wl0: setup_keepalive: Local IP: <*> (ground truth of sampled log)
+ARPT: <*>: wl0: setup_keepalive: Local IP: <*> (final_template)
+---------------------------
+---------------------------
+cluster 139: len=4
+TBT W (<*>): <*> [x] (ground truth of sampled log)
+<*> W (<*>): <*> [x] (final_template)
+---------------------------
+---------------------------
+cluster 144: len=4
+[<*>] <<<< IQ-CA >>>> piqca_setUsePreQueue: (<*>) rejecting report of layer being serviced - IQ has not yet begun to update (ground truth of sampled log)
+[<*>] <<<< IQ-CA >>>> piqca_setUsePreQueue: (<*>) rejecting report of layer being serviced - IQ has not yet begun to update (final_template)
+---------------------------
+---------------------------
+cluster 148: len=4
+Captive: CNPluginHandler en0: Inactive (ground truth of sampled log)
+Captive: CNPluginHandler en0: Inactive (final_template)
+---------------------------
+---------------------------
+cluster 152: len=4
+<*> : BTLE scanner Powered Off (ground truth of sampled log)
+<*> : BTLE scanner Powered Off (final_template)
+---------------------------
+---------------------------
+cluster 169: len=4
+[<*>] itemasync_CopyProperty signalled err=<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*> (ground truth of sampled log)
+[<*>] itemasync_CopyProperty signalled err=-<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*> (final_template)
+---------------------------
+---------------------------
+cluster 171: len=4
+NETWORK: no response from server, reachability, <*>, queryRetries, <*> (ground truth of sampled log)
+NETWORK: no response from server, reachability, <*>, queryRetries, <*> (final_template)
+---------------------------
+---------------------------
+cluster 173: len=4
+en0: Supported channels <*> (ground truth of sampled log)
+en0: Supported channels <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 198: len=4
+ASSERTION FAILED: dvcAddrRef != ((void *)<*>) -[DriverServices getDeviceAddress:] line: <*> (ground truth of sampled log)
+ASSERTION FAILED: dvcAddrRef != ((void *)<*>) -[DriverServices getDeviceAddress:] line: <*> (final_template)
+---------------------------
+---------------------------
+cluster 227: len=4
+-[SOAPParser:<*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid) (ground truth of sampled log)
+-[SOAPParser:<*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid) (final_template)
+---------------------------
+---------------------------
+cluster 278: len=4
+-[NETClientConnection effectiveBundleID] using process name CalendarAgent as bundle ID (this is expected for daemons without bundle ID (ground truth)
+-[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID (match result)
+---------------------------
+---------------------------
+cluster 107: len=3
+[<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [<*>] Byte flume reports host available again. (ground truth of sampled log)
+[<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [<*>] Byte flume reports host available again. (final_template)
+---------------------------
+---------------------------
+cluster 114: len=3
+Captive: [CNInfoNetworkActive:<*>] en0: SSID 'CalVisitor' making interface primary (cache indicates network not captive) (ground truth of sampled log)
+Captive: [CNInfoNetworkActive:<*>] en0: SSID '<*>' making interface primary (cache indicates network not captive) (final_template)
+---------------------------
+---------------------------
+cluster 117: len=3
+tcp_connection_destination_perform_socket_connect <*> connectx to <*>@<*> failed: [<*>] Network is down (ground truth of sampled log)
+tcp_connection_destination_perform_socket_connect <*> connectx to <*>@<*> failed: [<*>] Network is down (final_template)
+---------------------------
+---------------------------
+cluster 121: len=3
+en0: <*> country code set to '<*>'. (ground truth of sampled log)
+en0: <*>.11d country code set to 'X3'. (final_template)
+---------------------------
+---------------------------
+cluster 122: len=3
+[HID] [MT] AppleMultitouchDevice::willTerminate entered (ground truth of sampled log)
+[HID] [MT] AppleMultitouchDevice::willTerminate entered (final_template)
+---------------------------
+---------------------------
+cluster 131: len=3
+device_generate_desktop_screenshot: authw <*>(<*>), shield <*>(<*>) (ground truth of sampled log)
+device_generate_desktop_screenshot: authw <*>, shield <*> (final_template)
+---------------------------
+---------------------------
+cluster 140: len=3
+network changed: DNS* Proxy (ground truth of sampled log)
+network changed: DNS* Proxy (final_template)
+---------------------------
+---------------------------
+cluster 147: len=3
+ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>, (ground truth of sampled log)
+ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>, (final_template)
+---------------------------
+---------------------------
+cluster 150: len=3
+device_generate_lock_screen_screenshot: authw <*>(<*>)[<*>, <*>, <*>, <*>] shield <*>(<*>), dev [<*>,<*>] (ground truth of sampled log)
+device_generate_lock_screen_screenshot: authw <*>[<*>] shield <*>, dev [<*>] (final_template)
+---------------------------
+---------------------------
+cluster 151: len=3
+<*> ksfetch[<*>] [lvl=<*>] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin. (ground truth of sampled log)
+<*>-<*>-<*> <*> ksfetch[32776/0x7fff79824000] [lvl=<*>] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin. (final_template)
+---------------------------
+---------------------------
+cluster 153: len=3
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.} (ground truth of sampled log)
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-<*> "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=-<*> "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.} (final_template)
+---------------------------
+---------------------------
+cluster 154: len=3
+Sandbox: <*>(<*>) deny(<*>) mach-lookup <*> (ground truth of sampled log)
+Sandbox: <*>(<*>) deny(<*>) mach-lookup <*> (final_template)
+---------------------------
+---------------------------
+cluster 158: len=3
+wake time set <*> s (ground truth of sampled log)
+wake time set +<*> s (final_template)
+---------------------------
+---------------------------
+cluster 162: len=3
+IOPMrootDomain: idle cancel, state <*> (ground truth of sampled log)
+IOPMrootDomain: idle cancel, state <*> (final_template)
+---------------------------
+---------------------------
+cluster 170: len=3
+Opened file <*>, size <*>, extents <*>, maxio <*> ssd <*> (ground truth of sampled log)
+Opened file <*>, size <*>, extents <*>, maxio <*> ssd <*> (final_template)
+---------------------------
+---------------------------
+cluster 185: len=3
+network changed: <*>(<*>) DNS- Proxy- (ground truth of sampled log)
+network changed: v6(en0-:<*>:f140:<*>:d8d1:d506:<*>:43e4) DNS- Proxy- (final_template)
+---------------------------
+---------------------------
+cluster 200: len=3
+assertion failed: <*> [<*>]: <*> (ground truth of sampled log)
+assertion failed: 15G1510: com.apple.telemetry + <*> [10D2E324-788C-30CC-A749-55AE67AEC7BC]: <*> (final_template)
+---------------------------
+---------------------------
+cluster 206: len=3
+polled file major <*>, minor <*>, blocksize <*>, pollers <*> (ground truth of sampled log)
+polled file major <*>, minor <*>, blocksize <*>, pollers <*> (final_template)
+---------------------------
+---------------------------
+cluster 209: len=3
+Wake reason: ARPT (Network) (ground truth of sampled log)
+Wake reason: ARPT (Network) (final_template)
+---------------------------
+---------------------------
+cluster 233: len=3
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "<*>" (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=a70d6372a4e45a6cbba61cd7f057c79bf73c79db1b1951dc17c605e870f0419b&cup2key=<*>" (final_template)
+---------------------------
+---------------------------
+cluster 235: len=3
+CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake (ground truth of sampled log)
+<*>: posting kCGSDisplayDidWake (final_template)
+---------------------------
+---------------------------
+cluster 236: len=3
+Peripheral manager is not powered on (ground truth of sampled log)
+Peripheral manager is not powered on (final_template)
+---------------------------
+---------------------------
+cluster 250: len=3
+**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- <*> **** (ground truth of sampled log)
+**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- <*> **** (final_template)
+---------------------------
+---------------------------
+cluster 273: len=3
+DB Error: <*> "no such table: <*>" (ground truth of sampled log)
+DB Error: <*> "no such table: tb_c2cMsg_2658655094" (final_template)
+---------------------------
+---------------------------
+cluster 306: len=3
+[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>] to failed operations.] (ground truth of sampled log)
+[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: <*>; Sequence: 0>] to failed operations.] (final_template)
+---------------------------
+---------------------------
+cluster 308: len=3
+Service "com.apple.xpc.launchd.unmanaged.loginwindow.<*>" tried to hijack endpoint "com.apple.tsm.uiserver" from owner: com.apple.SystemUIServer.agent (ground truth of sampled log)
+Service "com.apple.xpc.launchd.unmanaged.loginwindow.<*>" tried to hijack endpoint "com.apple.tsm.uiserver" from owner: com.apple.SystemUIServer.agent (final_template)
+---------------------------
+---------------------------
+cluster 111: len=2
+CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data (ground truth of sampled log)
+CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data (final_template)
+---------------------------
+---------------------------
+cluster 118: len=2
+CCXPCService::setStreamEventHandler Registered for notification callback. (ground truth of sampled log)
+CCXPCService::setStreamEventHandler Registered for notification callback. (final_template)
+---------------------------
+---------------------------
+cluster 132: len=2
+hibernate_page_list_setall found pageCount <*> (ground truth of sampled log)
+<*> found pageCount <*> (final_template)
+---------------------------
+---------------------------
+cluster 133: len=2
+[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key (ground truth of sampled log)
+[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key (final_template)
+---------------------------
+---------------------------
+cluster 137: len=2
+<*> : Discoverable mode changed to Off (ground truth of sampled log)
+<*> : Discoverable mode changed to Off (final_template)
+---------------------------
+---------------------------
+cluster 142: len=2
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'. (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=<*>] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'. (final_template)
+---------------------------
+---------------------------
+cluster 143: len=2
+<*> ksfetch[<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*> (ground truth of sampled log)
+<*>-<*>-<*> <*> ksfetch[32435/0x7fff79824000] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=<*> }) to folder:<*> (final_template)
+---------------------------
+---------------------------
+cluster 149: len=2
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> "The request timed out." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> "The request timed out." UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.} (ground truth of sampled log)
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-<*> "The request timed out." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=-<*> "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=-<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=-<*>, NSLocalizedDescription=The request timed out.} (final_template)
+---------------------------
+---------------------------
+cluster 156: len=2
+Wake reason: ? (ground truth of sampled log)
+Wake reason: ? (final_template)
+---------------------------
+---------------------------
+cluster 157: len=2
+<*> : BTLE scanning stopped (ground truth of sampled log)
+<*>: BTLE scanning stopped (final_template)
+---------------------------
+---------------------------
+cluster 160: len=2
+<*> : Purged contact hashes (ground truth of sampled log)
+<*> : Purged contact hashes (final_template)
+---------------------------
+---------------------------
+cluster 161: len=2
+<*> : BTLE scanning started (ground truth of sampled log)
+<*> : BTLE scanning started (final_template)
+---------------------------
+---------------------------
+cluster 163: len=2
+ARPT: <*>: ARPT: Wake Reason: Wake on TCP Timeout (ground truth of sampled log)
+ARPT: <*>: ARPT: Wake Reason: Wake on TCP Timeout (final_template)
+---------------------------
+---------------------------
+cluster 164: len=2
+hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*> (ground truth of sampled log)
+hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*> (final_template)
+---------------------------
+---------------------------
+cluster 165: len=2
+hibernate_teardown_pmap_structs done: last_valid_compact_indx <*> (ground truth of sampled log)
+hibernate_teardown_pmap_structs done: last_valid_compact_indx <*> (final_template)
+---------------------------
+---------------------------
+cluster 172: len=2
+Unexpected payload found for message <*>, dataLen <*> (ground truth of sampled log)
+Unexpected payload found for message <*>, dataLen <*> (final_template)
+---------------------------
+---------------------------
+cluster 179: len=2
+<*> : Starting AirDrop server for user <*> on wake (ground truth of sampled log)
+<*> : Starting AirDrop server for user <*> on wake (final_template)
+---------------------------
+---------------------------
+cluster 184: len=2
+<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> to complete, <*> reads >= <*> sec. (ground truth of sampled log)
+<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> sec. to complete, <*> reads >= <*> sec. (final_template)
+---------------------------
+---------------------------
+cluster 190: len=2
+[<*>] <<<< CRABS >>>> crabsFlumeHostUnavailable: [<*>] Byte flume reports host unavailable. (ground truth of sampled log)
+[<*>] <<<< CRABS >>>> crabsFlumeHostUnavailable: [<*>] Byte flume reports host unavailable. (final_template)
+---------------------------
+---------------------------
+cluster 195: len=2
+hibernate image path: <*> (ground truth of sampled log)
+hibernate image path: <*> (final_template)
+---------------------------
+---------------------------
+cluster 196: len=2
+hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages (ground truth of sampled log)
+<*>: buffer_cache_gc freed up <*> wired pages (final_template)
+---------------------------
+---------------------------
+cluster 197: len=2
+hibernate_machine_init pagesDone <*> sum2 <*>, time: <*> ms, disk(<*>) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s (ground truth of sampled log)
+hibernate_machine_init pagesDone <*> sum2 81cafc41, time: <*> ms, disk(<*>) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s (final_template)
+---------------------------
+---------------------------
+cluster 199: len=2
+hibernate_machine_init reading (ground truth of sampled log)
+hibernate_machine_init reading (final_template)
+---------------------------
+---------------------------
+cluster 201: len=2
+hibernate_setup(<*>) took <*> ms (ground truth of sampled log)
+hibernate_setup(<*>) took <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 202: len=2
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- <*> -- <*> -- <*> **** (ground truth of sampled log)
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- <*> -- <*> -- <*> **** (final_template)
+---------------------------
+---------------------------
+cluster 205: len=2
+INIT -- Host controller is published (ground truth of sampled log)
+<*> -- Host controller is published (final_template)
+---------------------------
+---------------------------
+cluster 207: len=2
+BuildActDeviceEntry exit (ground truth of sampled log)
+BuildActDeviceEntry exit (final_template)
+---------------------------
+---------------------------
+cluster 212: len=2
+en0: <*> country code set to '<*>'. (ground truth of sampled log)
+en0: <*>.11d country code set to 'US'. (final_template)
+---------------------------
+---------------------------
+cluster 213: len=2
+WARNING: hibernate_page_list_setall skipped <*> xpmapped pages (ground truth of sampled log)
+<*>: hibernate_page_list_setall skipped <*> xpmapped pages (final_template)
+---------------------------
+---------------------------
+cluster 215: len=2
+[BluetoothHIDDeviceController] EventServiceConnectedCallback (ground truth of sampled log)
+[<*>] EventServiceConnectedCallback (final_template)
+---------------------------
+---------------------------
+cluster 218: len=2
+BuildActDeviceEntry enter (ground truth of sampled log)
+BuildActDeviceEntry enter (final_template)
+---------------------------
+---------------------------
+cluster 228: len=2
+CCLogTap::profileRemoved, Owner: com.apple.iokit.<*>, Name: <*> (ground truth of sampled log)
+<*>::profileRemoved, Owner: com.apple.iokit.IO80211Family, Name: IO80211AWDLPeerManager (final_template)
+---------------------------
+---------------------------
+cluster 230: len=2
+[Accounts] Current connection, <NSXPCConnection: <*> connection from pid <*>, doesn't have account access. (ground truth of sampled log)
+[Accounts] Current connection, <NSXPCConnection: <*> connection from pid <*>, doesn't have account access. (final_template)
+---------------------------
+---------------------------
+cluster 231: len=2
+[Accounts] Failed to update account with identifier <*>, error: Error Domain=ABAddressBookErrorDomain Code=<*> "(<*>)" (ground truth of sampled log)
+[Accounts] Failed to update account with identifier 76FE6715-3D27-4F21-AA35-C88C1EA820E8, error: Error Domain=ABAddressBookErrorDomain Code=<*> "(<*>)" (final_template)
+---------------------------
+---------------------------
+cluster 251: len=2
+hibernate_newruntime_map time: <*> ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled <*> (ground truth of sampled log)
+hibernate_newruntime_map time: <*> ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled <*> (final_template)
+---------------------------
+---------------------------
+cluster 259: len=2
+<IMMacNotificationCenterManager: <*>: DND Enabled: NO (ground truth of sampled log)
+<IMMacNotificationCenterManager: <*>: DND Enabled: NO (final_template)
+---------------------------
+---------------------------
+cluster 265: len=2
+ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>, (ground truth of sampled log)
+ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>, (final_template)
+---------------------------
+---------------------------
+cluster 266: len=2
+IOHibernatePollerOpen(<*>) (ground truth of sampled log)
+IOHibernatePollerOpen(<*>) (final_template)
+---------------------------
+---------------------------
+cluster 271: len=2
+bitmap_size <*>, previewSize <*>, writing <*> pages @ <*> (ground truth of sampled log)
+bitmap_size <*>, previewSize <*>, writing <*> pages @ <*> (final_template)
+---------------------------
+---------------------------
+cluster 276: len=2
+setting hostname to "<*>" (ground truth)
+setting hostname to "<*>" (match result)
+---------------------------
+---------------------------
+cluster 279: len=2
+could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*> (ground truth of sampled log)
+could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*> (final_template)
+---------------------------
+---------------------------
+cluster 283: len=2
+AppleActuatorHIDEventDriver: stop (ground truth of sampled log)
+AppleActuatorHIDEventDriver: stop (final_template)
+---------------------------
+---------------------------
+cluster 284: len=2
+**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = <*> -- <*> **** (ground truth of sampled log)
+**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = <*> -- <*> **** (final_template)
+---------------------------
+---------------------------
+cluster 296: len=2
+Unable to start NetBIOS name service: (ground truth of sampled log)
+Unable to start NetBIOS name service: (final_template)
+---------------------------
+---------------------------
+cluster 301: len=2
+ChromeExistion main isUndetectWithCommand = <*> (ground truth of sampled log)
+<*> main isUndetectWithCommand = <*> (final_template)
+---------------------------
+---------------------------
+cluster 309: len=2
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=<*> (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=<*>] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=<*> (final_template)
+---------------------------
+---------------------------
+cluster 315: len=2
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "<*>" (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=5e15fbe422c816bef7c133cfffdb516e16923579b9be2dfae4d7d8d211b25017&cup2key=<*>" (final_template)
+---------------------------
+---------------------------
+cluster 316: len=2
+Page bounds {{<*>, <*>} {<*>, <*>}} (ground truth of sampled log)
+Page bounds <*> (final_template)
+---------------------------
+---------------------------
+cluster 330: len=2
+Unrecognized XSSimpleTypeDefinition: OneOff (ground truth of sampled log)
+Unrecognized XSSimpleTypeDefinition: <*> (final_template)
+---------------------------
+---------------------------
+cluster 335: len=2
+Session <*> destroyed (ground truth of sampled log)
+Session <*> destroyed (final_template)
+---------------------------
+---------------------------
+cluster 352: len=2
+efi pagecount <*> (ground truth of sampled log)
+<*> pagecount <*> (final_template)
+---------------------------
+---------------------------
+cluster 358: len=2
+[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object (ground truth of sampled log)
+[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object (final_template)
+---------------------------
+---------------------------
+cluster 109: len=1
+network_reachability_changed : network is not reachable, netbiosd is shutting down (ground truth of sampled log)
+<*> : network is not reachable, netbiosd is shutting down (final_template)
+---------------------------
+---------------------------
+cluster 112: len=1
+<*> : BTLE discovered device with hash <*> (ground truth of sampled log)
+<*> : BTLE discovered device with hash <01faa200 <*> 0000> (final_template)
+---------------------------
+---------------------------
+cluster 115: len=1
+<*> : Finished generating hashes (ground truth of sampled log)
+<*> : Finished generating hashes (final_template)
+---------------------------
+---------------------------
+cluster 123: len=1
+[BluetoothHIDDeviceController] EventServiceDisconnectedCallback (ground truth of sampled log)
+[BluetoothHIDDeviceController] EventServiceDisconnectedCallback (final_template)
+---------------------------
+---------------------------
+cluster 124: len=1
+PMStats: Hibernate read took <*> ms (ground truth of sampled log)
+PMStats: Hibernate read took <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 126: len=1
+VDCAssistant: Found a camera (<*>) , but was not able to start it up (<*> -- (os/kern) successful) (ground truth of sampled log)
+VDCAssistant: Found a camera (<*>) , but was not able to start it up (<*> -- (os/kern) successful) (final_template)
+---------------------------
+---------------------------
+cluster 127: len=1
+handle_will_sleep_auth_and_shield_windows: Reordering authw <*>(<*>) (lock state: <*>) (ground truth of sampled log)
+handle_will_sleep_auth_and_shield_windows: Reordering authw <*>(<*>) (lock state: <*>) (final_template)
+---------------------------
+---------------------------
+cluster 128: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path="<*>" lockFile=<KSLockFile:<*> path="<*>" locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path=<*> errors=<*> > (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path="<*>" lockFile=<KSLockFile:<*> path="<*>" locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path="<*>"> errors=<*> > (final_template)
+---------------------------
+---------------------------
+cluster 129: len=1
+WARNING: Type1 font data isn't in the correct format required by the Adobe Type <*> Font Format specification. (ground truth of sampled log)
+WARNING: Type1 font data isn't in the correct format required by the Adobe Type <*> Font Format specification. (final_template)
+---------------------------
+---------------------------
+cluster 130: len=1
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (ground truth)
+com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. (match result)
+---------------------------
+---------------------------
+cluster 134: len=1
+[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- <*> (ground truth of sampled log)
+[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- <*> (final_template)
+---------------------------
+---------------------------
+cluster 135: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path="<*>" lockFile=<KSLockFile:<*> path="<*>" locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path="<*>"> errors=<*> > (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[32012/0x7000002a0000] [lvl=<*>] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path="<*>" lockFile=<KSLockFile:<*> path="<*>" locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path="<*>"> errors=<*> > (final_template)
+---------------------------
+---------------------------
+cluster 141: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '<*>' with process id: <*> (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '<*>' with process id: <*> (final_template)
+---------------------------
+---------------------------
+cluster 145: len=1
+host connection <NSXPCConnection: <*> connection from pid <*> invalidated (ground truth of sampled log)
+host connection <NSXPCConnection: <*> connection from pid <*> invalidated (final_template)
+---------------------------
+---------------------------
+cluster 146: len=1
+Error in CoreDragRemoveReceiveHandler: <*> (ground truth of sampled log)
+Error in CoreDragRemoveReceiveHandler: -<*> (final_template)
+---------------------------
+---------------------------
+cluster 155: len=1
+Configuration Notice: ASL Module "<*>" claims selected messages. Those messages may not appear in standard system log files or in the ASL database. (ground truth of sampled log)
+Configuration Notice: ASL Module "com.apple.performance" claims selected messages. Those messages may not appear in standard system log files or in the ASL database. (final_template)
+---------------------------
+---------------------------
+cluster 159: len=1
+[HID] [MT] MTActuatorManagement::getActuatorRef Calling MTActuatorOpen() outside of MTTrackpadHIDManager. (ground truth of sampled log)
+[HID] [MT] MTActuatorManagement::getActuatorRef Calling MTActuatorOpen() outside of MTTrackpadHIDManager. (final_template)
+---------------------------
+---------------------------
+cluster 166: len=1
+enabling pid=<*> for plug-in com.apple.ncplugin.weather(<*>) <*> (ground truth of sampled log)
+enabling pid=<*> for plug-in com.apple.ncplugin.weather(<*>) <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 167: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path=<*> lockFile=<KSLockFile:<*> path=<*> locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path=<*> errors=<*> > (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=<*>] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path="<*>" lockFile=<KSLockFile:<*> path="<*>" locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path="<*>"> errors=<*> > (final_template)
+---------------------------
+---------------------------
+cluster 168: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation. (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=<*>] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation. (final_template)
+---------------------------
+---------------------------
+cluster 174: len=1
+Internal name did not resolve to internal address! (ground truth of sampled log)
+Internal name did not resolve to internal address! (final_template)
+---------------------------
+---------------------------
+cluster 175: len=1
+Service exited with abnormal code: <*> (ground truth of sampled log)
+Service exited with abnormal code: <*> (final_template)
+---------------------------
+---------------------------
+cluster 176: len=1
+Central manager is not powered on (ground truth of sampled log)
+Central manager is not powered on (final_template)
+---------------------------
+---------------------------
+cluster 177: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-03_13,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-03_13,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_13,<*>,<*>]=AssocFail:sts:2_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-03_13,<*>,<*>]-io80211Family-<*>.pcapng (final_template)
+---------------------------
+---------------------------
+cluster 178: len=1
+<IMMacNotificationCenterManager: <*>: DND Enabled: YES (ground truth of sampled log)
+<IMMacNotificationCenterManager: <*>: DND Enabled: YES (final_template)
+---------------------------
+---------------------------
+cluster 180: len=1
+<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> to complete, <*> reads >= <*> sec. (ground truth of sampled log)
+<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> secs. to complete, <*> reads >= <*> sec. (final_template)
+---------------------------
+---------------------------
+cluster 181: len=1
+network changed: <*>(<*>) <*>(<*>) DNS Proxy SMB (ground truth of sampled log)
+network changed: v4(en0:<*>) v6(en0!:<*>) DNS Proxy SMB (final_template)
+---------------------------
+---------------------------
+cluster 182: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-03_15,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[<*>-<*>-03_15,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[<*>-<*>-03_15,<*>,<*>]=AuthFail:sts:5_rsn:0/DriverLogs//[<*>-<*>-03_15,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt (final_template)
+---------------------------
+---------------------------
+cluster 183: len=1
+CCLogTap::profileRemoved, Owner: com.apple.iokit.<*>, Name: <*> (ground truth of sampled log)
+CCLogTap::profileRemoved, Owner: com.apple.iokit.IO80211Family, Name: OneStats (final_template)
+---------------------------
+---------------------------
+cluster 186: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_16,<*>,<*>]=AuthFail:sts:5_rsn:0/OneStats//[<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml (final_template)
+---------------------------
+---------------------------
+cluster 187: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-03_16,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-03_16,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_16,<*>,<*>]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-03_16,<*>,<*>]-io80211Family-<*>.pcapng (final_template)
+---------------------------
+---------------------------
+cluster 188: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth)
+CCFile::copyFile fileName is [<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_16,<*>,<*>]=AuthFail:sts:5_rsn:0/OneStats//[<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml (match result)
+---------------------------
+---------------------------
+cluster 189: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth)
+CCFile::copyFile fileName is [<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_16,<*>,<*>]=AuthFail:sts:5_rsn:0/OneStats//[<*>-<*>-03_16,<*>,<*>]-CCIOReporter-<*>.xml (match result)
+---------------------------
+---------------------------
+cluster 191: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth)
+CCFile::copyFile fileName is [<*>-<*>-03_16,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-03_16,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_16,<*>,<*>]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-03_16,<*>,<*>]-io80211Family-<*>.pcapng (match result)
+---------------------------
+---------------------------
+cluster 192: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-03_16,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[<*>-<*>-03_16,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[<*>-<*>-03_16,<*>,<*>]=AuthFail:sts:5_rsn:0/DriverLogs//[<*>-<*>-03_16,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt (final_template)
+---------------------------
+---------------------------
+cluster 193: len=1
+tcp_connection_destination_perform_socket_connect <*> connectx to <*>@<*> failed: [<*>] Network is unreachable (ground truth of sampled log)
+tcp_connection_destination_perform_socket_connect <*> connectx to <*>@<*> failed: [<*>] Network is unreachable (final_template)
+---------------------------
+---------------------------
+cluster 194: len=1
+[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=<*> "The request timed out." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> "The request timed out." UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.} (ground truth of sampled log)
+[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/] Error Domain=NSURLErrorDomain Code=-<*> "The request timed out." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=-<*> "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorCodeKey=-<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=-<*>, NSLocalizedDescription=The request timed out.} (final_template)
+---------------------------
+---------------------------
+cluster 203: len=1
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- <*> -- <*> -- <*> **** (ground truth of sampled log)
+**** [<*>][<*>] -- Connected to the transport successfully -- <*> -- <*> -- <*> **** (final_template)
+---------------------------
+---------------------------
+cluster 204: len=1
+hciControllerOnline; HID devices? <*> (ground truth of sampled log)
+<*>; HID devices? <*> (final_template)
+---------------------------
+---------------------------
+cluster 208: len=1
+ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Standby, 'ExternalConnected': No, 'TimeRemaining': <*>, (ground truth of sampled log)
+ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Standby, 'ExternalConnected': No, 'TimeRemaining': <*>, (final_template)
+---------------------------
+---------------------------
+cluster 210: len=1
+AppleActuatorHIDEventDriver: message service is terminated (ground truth of sampled log)
+AppleActuatorHIDEventDriver: message service is terminated (final_template)
+---------------------------
+---------------------------
+cluster 211: len=1
+payload Data <*> (ground truth of sampled log)
+payload Data <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 214: len=1
+hibernate_teardown: wired_pages <*>, free_pages <*>, active_pages <*>, inactive_pages <*>, speculative_pages <*>, cleaned_pages <*>, compressor_pages <*> (ground truth of sampled log)
+hibernate_teardown: wired_pages <*>, free_pages <*>, active_pages <*>, inactive_pages <*>, speculative_pages <*>, cleaned_pages <*>, compressor_pages <*> (final_template)
+---------------------------
+---------------------------
+cluster 216: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-03_19,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-03_19,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_19,<*>,<*>]=AuthFail:sts:2_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-03_19,<*>,<*>]-io80211Family-<*>.pcapng (final_template)
+---------------------------
+---------------------------
+cluster 217: len=1
+hibernate_rebuild_pmap_structs done: last_valid_compact_indx <*> (ground truth of sampled log)
+<*> done: last_valid_compact_indx <*> (final_template)
+---------------------------
+---------------------------
+cluster 219: len=1
+(ImportBailout.Error:<*>) Asked to exit for Diskarb (ground truth of sampled log)
+(ImportBailout.Error:<*>) Asked to exit for Diskarb (final_template)
+---------------------------
+---------------------------
+cluster 220: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=<*> version=<*> xc=<KSPathExistenceChecker:<*> path=<*> url=<*> creationDate=<*> ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*> > (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=com.google.Keystone version=<*> xc=<KSPathExistenceChecker:<*> path=<*> url=https://tools.google.com/service/update2 creationDate=<*>-<*>-<*> <*> ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*> > (final_template)
+---------------------------
+---------------------------
+cluster 221: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-03_21,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-03_21,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-03_21,<*>,<*>]=AuthFail:sts:5_rsn:0/OneStats//[<*>-<*>-03_21,<*>,<*>]-CCIOReporter-<*>.xml (final_template)
+---------------------------
+---------------------------
+cluster 222: len=1
+Checking iCDP status for DSID <*> (checkWithServer=<*>) (ground truth of sampled log)
+Checking iCDP status for DSID <*> (checkWithServer=<*>) (final_template)
+---------------------------
+---------------------------
+cluster 223: len=1
+network changed: DNS* (ground truth of sampled log)
+network changed: DNS* (final_template)
+---------------------------
+---------------------------
+cluster 224: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '<*>' with the requirement 'anchor apple generic and certificate <*>[field.<*>] exists and certificate leaf[field.<*>] exists and certificate leaf[subject.OU]="<*>" and (identifier="com.google.Keystone")' (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=<*>] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '<*>' with the requirement 'anchor apple generic and certificate <*>[field.<*>] exists and certificate leaf[field.<*>] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")' (final_template)
+---------------------------
+---------------------------
+cluster 225: len=1
+<*> ksfetch[<*>] [lvl=<*>] main() ksfetch done fetching. (ground truth of sampled log)
+<*> <*> <*>[<*>] [lvl=<*>] <*>() <*> done fetching. (final_template)
+---------------------------
+---------------------------
+cluster 226: len=1
+network changed: <*>(<*>!:<*>) DNS+ Proxy+ SMB (ground truth of sampled log)
+network changed: v4(en0!:<*>) DNS+ Proxy+ SMB (final_template)
+---------------------------
+---------------------------
+cluster 229: len=1
+extension com.apple.ncplugin.WorldClock -> (<*>) (ground truth of sampled log)
+extension com.apple.ncplugin.WorldClock -> (<*>) (final_template)
+---------------------------
+---------------------------
+cluster 232: len=1
+Session <*> created (ground truth of sampled log)
+Session <*> created (final_template)
+---------------------------
+---------------------------
+cluster 234: len=1
+kern_open_file_for_direct_io took <*> ms (ground truth of sampled log)
+kern_open_file_for_direct_io took <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 237: len=1
+PM response took <*> ms (<*>, WeChat) (ground truth of sampled log)
+PM response took <*> ms (<*>, <*>) (final_template)
+---------------------------
+---------------------------
+cluster 238: len=1
+.sdef warning for argument '' of command 'can continue previous list' in suite 'Microsoft Word Suite': '<*>' is not a valid type name. (ground truth of sampled log)
+.sdef warning for argument '' of command 'can continue previous list' in suite 'Microsoft Word Suite': '<*>' is not a valid type name. (final_template)
+---------------------------
+---------------------------
+cluster 239: len=1
+objc[<*>]: Class TSUAtomicLRUCache is implemented in both <*> and <*> One of the two will be used. Which one is undefined. (ground truth of sampled log)
+objc[<*>]: Class <*> is implemented in both <*> and <*>. One of the two will be used. Which one is undefined. (final_template)
+---------------------------
+---------------------------
+cluster 240: len=1
+Invalidating watch set. (ground truth of sampled log)
+Invalidating watch set. (final_template)
+---------------------------
+---------------------------
+cluster 241: len=1
+objc[<*>]: Class TSUCustomFormatData is implemented in both <*> and <*> One of the two will be used. Which one is undefined. (ground truth)
+objc[<*>]: Class <*> is implemented in both <*> and <*>. One of the two will be used. Which one is undefined. (match result)
+---------------------------
+---------------------------
+cluster 242: len=1
+<*> : Started generating hashes (ground truth of sampled log)
+<*> : Started generating hashes (final_template)
+---------------------------
+---------------------------
+cluster 243: len=1
+<*>-_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas. (ground truth of sampled log)
+-_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas. (final_template)
+---------------------------
+---------------------------
+cluster 244: len=1
+<*>-deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY. (ground truth of sampled log)
+-deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY. (final_template)
+---------------------------
+---------------------------
+cluster 245: len=1
+[<*>] (Fig) signalled err=<*> (ground truth of sampled log)
+[<*>] (Fig) signalled err=-<*> (final_template)
+---------------------------
+---------------------------
+cluster 246: len=1
+[<*>] <<<< CRABS >>>> crabsWaitForLoad: [<*>] Wait time out - <*> (msRequestTimeout <*>) (ground truth of sampled log)
+[<*>] <<<< CRABS >>>> crabsWaitForLoad: [<*>] Wait time out - -<*> (msRequestTimeout -<*>) (final_template)
+---------------------------
+---------------------------
+cluster 247: len=1
+Configuration Notice: ASL Module "<*>" claims selected messages. Those messages may not appear in standard system log files or in the ASL database. (ground truth of sampled log)
+Configuration Notice: ASL Module "com.apple.corecdp.osx.asl" claims selected messages. Those messages may not appear in standard system log files or in the ASL database. (final_template)
+---------------------------
+---------------------------
+cluster 248: len=1
+Failed to stop a scan - central is not powered on: <*> (ground truth of sampled log)
+Failed to stop a scan - central is not powered on: <*> (final_template)
+---------------------------
+---------------------------
+cluster 249: len=1
+Wake reason: EC.SleepTimer (SleepTimer) (ground truth of sampled log)
+Wake reason: <*> (<*>) (final_template)
+---------------------------
+---------------------------
+cluster 252: len=1
+vm_compressor_fastwake_warmup (<*> - <*>) - starting (ground truth of sampled log)
+<*> (<*> - <*>) - starting (final_template)
+---------------------------
+---------------------------
+cluster 253: len=1
+<IMMacNotificationCenterManager: <*>: Updating enabled: YES (Topics: (<*>)) (ground truth of sampled log)
+<IMMacNotificationCenterManager: <*>: Updating enabled: YES (Topics: ( "com.apple.private.alloy.icloudpairing", "com.apple.private.alloy.continuity.encryption", "com.apple.private.alloy.continuity.activity", "com.apple.ess", "com.apple.private.ids", "com.apple.private.alloy.phonecontinuity", "com.apple.madrid", "com.apple.private.ac", "com.apple.private.alloy.phone.auth", "com.apple.private.alloy.keychainsync", "com.apple.private.alloy.fmf", "com.apple.private.alloy.sms", "com.apple.private.alloy.screensharing", "com.apple.private.alloy.maps", "com.apple.private.alloy.thumper.keys", "com.apple.private.alloy.continuity.tethering" )) (final_template)
+---------------------------
+---------------------------
+cluster 254: len=1
+<*> ksfetch[<*>] [lvl=<*>] main() Fetcher received a request: <NSMutableURLRequest: <*> { URL: <*> } (ground truth of sampled log)
+<*>-<*>-<*> <*> ksfetch[35863/0x7fff79824000] [lvl=<*>] main() Fetcher received a request: <NSMutableURLRequest: <*> { URL: https://tools.google.com/service/update2?cup2hreq=a7873a51b1cb55518e420d20dff47d463781ed3f7aa83c3153129eefb148070b&cup2key=<*> } (final_template)
+---------------------------
+---------------------------
+cluster 255: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch. (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=<*>] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch. (final_template)
+---------------------------
+---------------------------
+cluster 256: len=1
+<IMMacNotificationCenterManager: <*>: notification observer: com.apple.FaceTime notification: __CFNotification <*> {name = _NSDoNotDisturbEnabledNotification} (ground truth of sampled log)
+<IMMacNotificationCenterManager: <*>: notification observer: com.apple.FaceTime notification: __CFNotification <*> {name = _NSDoNotDisturbEnabledNotification} (final_template)
+---------------------------
+---------------------------
+cluster 257: len=1
+CCProfileMonitor::freeResources done (ground truth of sampled log)
+CCProfileMonitor::freeResources done (final_template)
+---------------------------
+---------------------------
+cluster 258: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-05_11,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-05_11,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-05_11,<*>,<*>]=AuthFail:sts:5_rsn:0/OneStats//[<*>-<*>-05_11,<*>,<*>]-CCIOReporter-<*>.xml (final_template)
+---------------------------
+---------------------------
+cluster 260: len=1
+Daemon connection invalidated! (ground truth of sampled log)
+Daemon connection invalidated! (final_template)
+---------------------------
+---------------------------
+cluster 261: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-05_14,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[<*>-<*>-05_14,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[<*>-<*>-05_14,<*>,<*>]=AuthFail:sts:5_rsn:0/DriverLogs//[<*>-<*>-05_14,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt (final_template)
+---------------------------
+---------------------------
+cluster 262: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-05_14,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-05_14,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-05_14,<*>,<*>]=AuthFail:sts:5_rsn:0/OneStats//[<*>-<*>-05_14,<*>,<*>]-CCIOReporter-<*>.xml (final_template)
+---------------------------
+---------------------------
+cluster 263: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-05_14,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-05_14,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-05_14,<*>,<*>]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-05_14,<*>,<*>]-io80211Family-<*>.pcapng (final_template)
+---------------------------
+---------------------------
+cluster 264: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth)
+CCFile::copyFile fileName is [<*>-<*>-05_14,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-05_14,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-05_14,<*>,<*>]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-05_14,<*>,<*>]-io80211Family-<*>.pcapng (match result)
+---------------------------
+---------------------------
+cluster 267: len=1
+hibernate_machine_init: state <*>, image pages <*>, sum was <*>, imageSize <*>, image1Size <*>, conflictCount <*>, nextFree <*> (ground truth of sampled log)
+hibernate_machine_init: state <*>, image pages <*>, sum was <*>, imageSize <*>, image1Size <*>, conflictCount <*>, nextFree <*> (final_template)
+---------------------------
+---------------------------
+cluster 268: len=1
+hibernate_rebuild completed - took <*> msecs (ground truth of sampled log)
+hibernate_rebuild completed - took <*> msecs (final_template)
+---------------------------
+---------------------------
+cluster 269: len=1
+AppleActuatorDevice::stop Entered (ground truth of sampled log)
+AppleActuatorDevice::stop Entered (final_template)
+---------------------------
+---------------------------
+cluster 270: len=1
+AppleActuatorDevice::start Entered (ground truth of sampled log)
+AppleActuatorDevice::start Entered (final_template)
+---------------------------
+---------------------------
+cluster 272: len=1
+en0: manual intervention required! (ground truth of sampled log)
+en0: manual intervention required! (final_template)
+---------------------------
+---------------------------
+cluster 274: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "<*>" (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=<*>" (final_template)
+---------------------------
+---------------------------
+cluster 275: len=1
+<IMMacNotificationCenterManager: <*>: Updating enabled: NO (Topics: ( )) (ground truth of sampled log)
+<IMMacNotificationCenterManager: <*>: Updating enabled: NO (Topics: ( )) (final_template)
+---------------------------
+---------------------------
+cluster 277: len=1
+arp_client_transmit(<*>) failed, Network is down (<*>) (ground truth of sampled log)
+arp_client_transmit(en0) failed, Network is down (<*>) (final_template)
+---------------------------
+---------------------------
+cluster 280: len=1
+booter start at <*> ms smc <*> ms, [<*>, <*>, <*>] total <*> ms, dsply <*>, <*> ms, tramp <*> ms (ground truth of sampled log)
+booter start at <*> ms smc <*> ms, [<*>, <*>, <*>] total <*> ms, dsply <*>, <*> ms, tramp <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 281: len=1
+hostControllerOnline - Number of Paired devices = <*>, List of Paired devices = ( "<*>" ) (ground truth of sampled log)
+hostControllerOnline - Number of Paired devices = <*>, List of Paired devices = ( "<*>-<*>-<*>-<*>-db-e1" ) (final_template)
+---------------------------
+---------------------------
+cluster 282: len=1
+**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by <*> **** (ground truth of sampled log)
+**** [<*>][<*>] -- Delay HCI Reset by <*> **** (final_template)
+---------------------------
+---------------------------
+cluster 285: len=1
+AppleActuatorDeviceUserClient::start Entered (ground truth of sampled log)
+AppleActuatorDeviceUserClient::start Entered (final_template)
+---------------------------
+---------------------------
+cluster 286: len=1
+<*> ksfetch[<*>] [lvl=<*>] main() Fetcher is exiting. (ground truth of sampled log)
+<*>-<*>-<*> <*> ksfetch[36439/0x7fff79824000] [lvl=<*>] main() Fetcher is exiting. (final_template)
+---------------------------
+---------------------------
+cluster 287: len=1
+Google Chrome He[<*>] triggered unnest of range <*> of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits. (ground truth of sampled log)
+Google Chrome He[<*>] triggered unnest of range <*>->0x7fff93e00000 of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits. (final_template)
+---------------------------
+---------------------------
+cluster 288: len=1
+hibernate_page_list_setall(preflight <*>) start (ground truth of sampled log)
+hibernate_page_list_setall(preflight <*>) start (final_template)
+---------------------------
+---------------------------
+cluster 289: len=1
+hibernate_page_list_setall time: <*> ms (ground truth of sampled log)
+hibernate_page_list_setall time: <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 290: len=1
+IOPolledFilePollersOpen(<*>) <*> ms (ground truth of sampled log)
+IOPolledFilePollersOpen(<*>) <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 291: len=1
+hibernate_teardown completed - discarded <*> (ground truth of sampled log)
+hibernate_teardown completed - discarded <*> (final_template)
+---------------------------
+---------------------------
+cluster 292: len=1
+AppleActuatorDeviceUserClient::stop Entered (ground truth of sampled log)
+AppleActuatorDeviceUserClient::stop Entered (final_template)
+---------------------------
+---------------------------
+cluster 293: len=1
+[IOBluetoothHostController::setConfigState] calling registerService (ground truth of sampled log)
+[<*>::setConfigState] calling registerService (final_template)
+---------------------------
+---------------------------
+cluster 294: len=1
+[HID] [MT] AppleMultitouchDevice::start entered (ground truth of sampled log)
+[HID] [MT] AppleMultitouchDevice::start entered (final_template)
+---------------------------
+---------------------------
+cluster 295: len=1
+[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=<*> "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.} (ground truth of sampled log)
+[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/] Error Domain=NSURLErrorDomain Code=-<*> "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=-<*> "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%<*>.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.} (final_template)
+---------------------------
+---------------------------
+cluster 297: len=1
+Got an XPC error: Connection invalid (ground truth of sampled log)
+Got an XPC error: Connection invalid (final_template)
+---------------------------
+---------------------------
+cluster 298: len=1
+-[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier com.apple.LSSharedFileList.RecentApplications (ground truth of sampled log)
+-[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier com.apple.LSSharedFileList.RecentApplications (final_template)
+---------------------------
+---------------------------
+cluster 299: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply. (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[36726/0x7000002a0000] [lvl=<*>] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply. (final_template)
+---------------------------
+---------------------------
+cluster 300: len=1
+no sleep images for WillPowerOffWithImages (ground truth of sampled log)
+no sleep images for WillPowerOffWithImages (final_template)
+---------------------------
+---------------------------
+cluster 302: len=1
+after trim url = https://www.google.com/_/chrome/newtab?rlz=<*>&espv=<*>&ie=UTF-<*> (ground truth of sampled log)
+after trim url = https://www.google.com/_/chrome/newtab?rlz=1C5CHFA_enHK732HK732&espv=<*>&ie=UTF-<*> (final_template)
+---------------------------
+---------------------------
+cluster 303: len=1
+ChromeExistion main strSendMsg = {"websitekey":<*>,"commandkey":<*>,"browserkey":<*>} (ground truth of sampled log)
+ChromeExistion main strSendMsg = {"websitekey":<*>,"commandkey":<*>,"browserkey":<*>} (final_template)
+---------------------------
+---------------------------
+cluster 304: len=1
+url host = <*> (ground truth of sampled log)
+url host = www.baidu.com (final_template)
+---------------------------
+---------------------------
+cluster 305: len=1
+the url = <*> (ground truth of sampled log)
+the url = http://baike.baidu.com/item/%E8%<*>%9D%E9%<*>%<*>%E5%<*>%8C/462624?fr=aladdin (final_template)
+---------------------------
+---------------------------
+cluster 307: len=1
+hibernate_rebuild started (ground truth of sampled log)
+hibernate_rebuild started (final_template)
+---------------------------
+---------------------------
+cluster 310: len=1
+Sandbox: <*>(<*>) deny(<*>) file-read-data <*> (ground truth of sampled log)
+Sandbox: com.apple.WebKit(<*>) deny(<*>) file-read-data <*> (final_template)
+---------------------------
+---------------------------
+cluster 311: len=1
+<*> PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification (ground truth of sampled log)
+<*> <*> <*> [<*>] <*>: <*> (final_template)
+---------------------------
+---------------------------
+cluster 312: len=1
+full wake request (reason <*>) <*> ms (ground truth of sampled log)
+full wake request (reason <*>) <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 313: len=1
+kern_open_file_for_direct_io(<*>) (ground truth of sampled log)
+kern_open_file_for_direct_io(<*>) (final_template)
+---------------------------
+---------------------------
+cluster 314: len=1
+PM response took <*> ms (<*>, QQ) (ground truth)
+PM response took <*> ms (<*>, <*>) (match result)
+---------------------------
+---------------------------
+cluster 317: len=1
+Failed to connect (titleField) outlet from (MMSessionPickerChoosenRowView) to (NSTextField): missing setter or instance variable (ground truth of sampled log)
+Failed to connect (titleField) outlet from (MMSessionPickerChoosenRowView) to (NSTextField): missing setter or instance variable (final_template)
+---------------------------
+---------------------------
+cluster 318: len=1
+[com.apple.calendar.store.log.caldav.queue] [Account <*> timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>] (ground truth of sampled log)
+[com.apple.calendar.store.log.caldav.queue] [Account xpc_ben@<*>.com@https://caldav.<*>.com/caldav/principals/users/xpc_ben%<*>.com/ timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: <*>; Sequence: 0>] (final_template)
+---------------------------
+---------------------------
+cluster 319: len=1
+[com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=<*> "(<*>)" UserInfo={AccountName=<*>, CalDAVErrFromRefresh=YES, CoreDAVHTTPHeaders=<CFBasicHash <*> [<*>]>{type = immutable dict, count = <*>, entries => <*> : Connection = <CFString <*> [<*>]>{contents = "keep-alive"} <*> : Content-Type = text/html <*> : Content-Length = <*> : Server = nginx <*> : Date = <CFString <*> [<*>]>{contents = "<*> GMT"} } }] (ground truth of sampled log)
+[com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=<*> "(<*>)" UserInfo={AccountName=<*>, CalDAVErrFromRefresh=YES, CoreDAVHTTPHeaders=<CFBasicHash <*> [<*>]>{type = immutable dict, count = <*>, entries => <*> : Connection = <CFString <*> [<*>]>{contents = "keep-alive"} <*> : Content-Type = text/html <*> : Content-Length = <*> <*> : Server = nginx <*> : Date = <CFString <*> [<*>]>{contents = "Fri, <*> Jul <*> <*> GMT"} } }] (final_template)
+---------------------------
+---------------------------
+cluster 320: len=1
+Sandbox: <*>(<*>) deny(<*>) ipc-posix-shm-read-data CFPBS:<*>: (ground truth of sampled log)
+Sandbox: <*>(<*>) deny(<*>) <*> <*> (final_template)
+---------------------------
+---------------------------
+cluster 321: len=1
+no application identifier provided, can't use provisioning profiles [pid=<*>] (ground truth of sampled log)
+no application identifier provided, can't use provisioning profiles [pid=<*>] (final_template)
+---------------------------
+---------------------------
+cluster 322: len=1
+tcp_connection_destination_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert (ground truth of sampled log)
+tcp_connection_destination_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert (final_template)
+---------------------------
+---------------------------
+cluster 323: len=1
+CFNetwork SSLHandshake failed (<*>) (ground truth of sampled log)
+CFNetwork SSLHandshake failed (-<*>) (final_template)
+---------------------------
+---------------------------
+cluster 324: len=1
+Unable to simultaneously satisfy constraints: ( "<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>", "<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(<*>)] (Names: PageItemCell:<*> )>", "<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>", "<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(<*>)-| (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(>=NSSpace(<*>))-[NSTextField:<*>]>" ) Will attempt to recover by breaking constraint <NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger. (ground truth of sampled log)
+Unable to simultaneously satisfy constraints: ( "<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>", "<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(<*>)] (Names: PageItemCell:<*> )>", "<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>", "<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(>=NSSpace(<*>))-[NSTextField:<*>]>" ) Will attempt to recover by breaking constraint <NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger. (final_template)
+---------------------------
+---------------------------
+cluster 325: len=1
+Unable to simultaneously satisfy constraints: ( "<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>", "<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(<*>)] (Names: PageItemCell:<*> )>", "<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>", "<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(<*>)-| (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(>=NSSpace(<*>))-[NSTextField:<*>]>" ) Will attempt to recover by breaking constraint <NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger. (ground truth)
+Unable to simultaneously satisfy constraints: ( "<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>", "<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>", "<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(<*>)] (Names: PageItemCell:<*> )>", "<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>", "<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(>=NSSpace(<*>))-[NSTextField:<*>]>" ) Will attempt to recover by breaking constraint <NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger. (match result)
+---------------------------
+---------------------------
+cluster 326: len=1
+Configuration Notice: ASL Module "com.apple.authkit.osx.asl" sharing output destination "<*>" with ASL Module "com.apple.Accounts". Output parameters from ASL Module "com.apple.Accounts" override any specified in ASL Module "com.apple.authkit.osx.asl". (ground truth of sampled log)
+Configuration Notice: ASL Module "com.apple.authkit.osx.asl" sharing output destination "<*>" with ASL Module "com.apple.Accounts". Output parameters from ASL Module "com.apple.Accounts" override any specified in ASL Module "com.apple.authkit.osx.asl". (final_template)
+---------------------------
+---------------------------
+cluster 327: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-07_00,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-07_00,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-07_00,<*>,<*>]=AuthFail:sts:5_rsn:0/OneStats//[<*>-<*>-07_00,<*>,<*>]-CCIOReporter-<*>.xml (final_template)
+---------------------------
+---------------------------
+cluster 328: len=1
+(DiskStore.Normal:<*>) <*> (ground truth of sampled log)
+(DiskStore.Normal:<*>) 20cb04f <*> (final_template)
+---------------------------
+---------------------------
+cluster 329: len=1
+CCDataTap::profileRemoved, Owner: <*>, Name: <*> (ground truth of sampled log)
+CCDataTap::profileRemoved, Owner: com.apple.driver.AirPort.Brcm4360.<*>, Name: StateSnapshots (final_template)
+---------------------------
+---------------------------
+cluster 331: len=1
+DB Path: <*> (ground truth of sampled log)
+DB Path: <*> (final_template)
+---------------------------
+---------------------------
+cluster 332: len=1
+Could not get event name for stream/token: com.apple.xpc.activity/<*>: <*>: Request for stale data (ground truth of sampled log)
+Could not get event name for stream/token: com.apple.xpc.activity/4505: <*>: Request for stale data (final_template)
+---------------------------
+---------------------------
+cluster 333: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=<*> version=<*> xc=<KSPathExistenceChecker:<*> path=<*> serverType=Omaha url=<*> creationDate=<*> tagPath=<*> tagKey=KSChannelID brandPath=<*> brandKey=KSBrandID versionPath=<*> versionKey=KSVersion cohort=<*>: cohortName=Stable ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*> > (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=com.google.Chrome version=<*> xc=<KSPathExistenceChecker:<*> path=<*> Chrome.app> serverType=Omaha url=https://tools.google.com/service/update2 creationDate=<*>-<*>-<*> <*> tagPath=<*> Chrome.app/Contents/Info.plist tagKey=KSChannelID brandPath=<*> Chrome Brand.plist brandKey=KSBrandID versionPath=<*> Chrome.app/Contents/Info.plist versionKey=KSVersion cohort=<*>:1y5: cohortName=Stable ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*> > (final_template)
+---------------------------
+---------------------------
+cluster 334: len=1
+Error in CoreDragRemoveTrackingHandler: <*> (ground truth of sampled log)
+Error in CoreDragRemoveTrackingHandler: -<*> (final_template)
+---------------------------
+---------------------------
+cluster 336: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-07_12,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-07_12,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-07_12,<*>,<*>]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-07_12,<*>,<*>]-io80211Family-<*>.pcapng (final_template)
+---------------------------
+---------------------------
+cluster 337: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-07_13,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-07_13,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-07_13,<*>,<*>]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-07_13,<*>,<*>]-io80211Family-<*>.pcapng (final_template)
+---------------------------
+---------------------------
+cluster 338: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-07_16,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[<*>-<*>-07_16,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[<*>-<*>-07_16,<*>,<*>]=AssocFail:sts:2_rsn:0/DriverLogs//[<*>-<*>-07_16,<*>,<*>]-AirPortBrcm4360_Logs-<*>.txt (final_template)
+---------------------------
+---------------------------
+cluster 339: len=1
+Sandbox: <*>(<*>) deny(<*>) mach-lookup <*> (ground truth)
+Sandbox: <*>(<*>) deny(<*>) mach-lookup <*> (match result)
+---------------------------
+---------------------------
+cluster 340: len=1
+nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [<*>] libnetcore-<*> libsystem_network.dylib <*> __nw_create_backtrace_string + <*> libsystem_network.dylib <*> nw_path_evaluator_start_helper_connection + <*> libdispatch.dylib <*> _dispatch_call_block_and_release + <*> libdispatch.dylib <*> _dispatch_client_callout + <*> libdispatch.dylib <*> _dispatch_queue_drain + <*> libdispatch.dylib <*> _dispatch_queue_invoke + <*> libdispatch.dylib <*> _dispatch_root_queue_drain + <*> libdispatch.dylib <*> + <*> libsystem_pthread.dylib <*> _pthread_wqthread + <*> libsystem_pthread.dylib <*> start_wqthread + <*> (ground truth of sampled log)
+nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [x86_64] libnetcore-<*> <*> libsystem_network.dylib <*> __nw_create_backtrace_string + <*> <*> libsystem_network.dylib <*> nw_path_evaluator_start_helper_connection + <*> <*> libdispatch.dylib <*> _dispatch_call_block_and_release + <*> <*> libdispatch.dylib <*> _dispatch_client_callout + <*> <*> libdispatch.dylib <*> _dispatch_queue_drain + <*> <*> libdispatch.dylib <*> _dispatch_queue_invoke + <*> <*> libdispatch.dylib <*> _dispatch_root_queue_drain + <*> <*> libdispatch.dylib <*> _dispatch_worker_thread3 + <*> <*> libsystem_pthread.dylib <*> _pthread_wqthread + <*> <*> libsystem_pthread.dylib <*> start_wqthread + <*> (final_template)
+---------------------------
+---------------------------
+cluster 341: len=1
+CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS=<*> in environment to log backtraces. (ground truth of sampled log)
+CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS=<*> in environment to log backtraces. (final_template)
+---------------------------
+---------------------------
+cluster 342: len=1
+full wake promotion (reason <*>) <*> ms (ground truth of sampled log)
+full wake promotion (reason <*>) <*> ms (final_template)
+---------------------------
+---------------------------
+cluster 343: len=1
+NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, <*>) (ground truth of sampled log)
+NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -<*>) (final_template)
+---------------------------
+---------------------------
+cluster 344: len=1
+[QL] No sandbox token for request <QLThumbnailRequest vmware-usbarb-<*>.log>, it will probably fail (ground truth of sampled log)
+[QL] No sandbox token for request <QLThumbnailRequest vmware-usbarb-<*>.log>, it will probably fail (final_template)
+---------------------------
+---------------------------
+cluster 345: len=1
+schedule invalidation <DYTransport <*>, error: lost transport connection (<*>)> (ground truth of sampled log)
+schedule invalidation <DYTransport <*>, error: lost transport connection (<*>)> (final_template)
+---------------------------
+---------------------------
+cluster 346: len=1
+[<*>] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=<*> (kFigMediaValidatorError_VideoCodecNotSupported) (video codec <*>) at line <*> (ground truth of sampled log)
+[<*>] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=-<*> (kFigMediaValidatorError_VideoCodecNotSupported) (video codec <*>) at line <*> (final_template)
+---------------------------
+---------------------------
+cluster 347: len=1
+<<<< MediaValidator >>>> mv_LookupCodecSupport: Unrecognized codec <*> (ground truth of sampled log)
+<<<< MediaValidator >>>> mv_LookupCodecSupport: Unrecognized codec <*> (final_template)
+---------------------------
+---------------------------
+cluster 348: len=1
+<<<< MediaValidator >>>> <*>: Unrecognized codec <*>.(<*>). Failed codec specific check. (ground truth of sampled log)
+<<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: Unrecognized codec <*>.(<*>). Failed codec specific check. (final_template)
+---------------------------
+---------------------------
+cluster 349: len=1
+CoreAnimation: timed out fence <*> (ground truth of sampled log)
+CoreAnimation: timed out fence 5fe83 (final_template)
+---------------------------
+---------------------------
+cluster 350: len=1
+Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable (ground truth of sampled log)
+Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable (final_template)
+---------------------------
+---------------------------
+cluster 351: len=1
+<*> ERROR: <*>: timed out after <*> (<*>); mMajorChangePending=<*> (ground truth of sampled log)
+<*> ERROR: <*>: timed out after <*>.000s (<*> <*>); mMajorChangePending=<*> (final_template)
+---------------------------
+---------------------------
+cluster 353: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-08_02,<*>,<*>]-CCIOReporter-<*>.xml, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/OneStats//[<*>-<*>-08_02,<*>,<*>]-CCIOReporter-<*>.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-08_02,<*>,<*>]=AssocFail:sts:2_rsn:0/OneStats//[<*>-<*>-08_02,<*>,<*>]-CCIOReporter-<*>.xml (final_template)
+---------------------------
+---------------------------
+cluster 354: len=1
+did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*> (ground truth of sampled log)
+did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*> (final_template)
+---------------------------
+---------------------------
+cluster 355: len=1
+CCDataTap::profileRemoved, Owner: <*>, Name: <*> (ground truth of sampled log)
+CCDataTap::profileRemoved, Owner: com.apple.iokit.IO80211Family, Name: AssociationEventHistory (final_template)
+---------------------------
+---------------------------
+cluster 356: len=1
+Host controller terminated (ground truth of sampled log)
+Host controller terminated (final_template)
+---------------------------
+---------------------------
+cluster 357: len=1
+[HID] [MT] AppleActuatorHIDEventDriver::start entered (ground truth of sampled log)
+[HID] [MT] AppleActuatorHIDEventDriver::start entered (final_template)
+---------------------------
+---------------------------
+cluster 359: len=1
+vm_compressor_fastwake_warmup completed - took <*> msecs (ground truth of sampled log)
+vm_compressor_fastwake_warmup completed - took <*> msecs (final_template)
+---------------------------
+---------------------------
+cluster 360: len=1
+CCFile::copyFile fileName is [<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*> (ground truth of sampled log)
+CCFile::copyFile fileName is [<*>-<*>-08_05,<*>,<*>]-io80211Family-<*>.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[<*>-<*>-08_05,<*>,<*>]-io80211Family-<*>.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[<*>-<*>-08_05,<*>,<*>]=AssocFail:sts:2_rsn:0/IO80211AWDLPeerManager//[<*>-<*>-08_05,<*>,<*>]-io80211Family-<*>.pcapng (final_template)
+---------------------------
+---------------------------
+cluster 361: len=1
+Unable to simultaneously satisfy constraints: ( "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSScrollView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=--& V:[NSView:<*>(<*>)]>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSView:<*>] (Names: '|':NSView:<*> )>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>" ) Will attempt to recover by breaking constraint <NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger. (ground truth of sampled log)
+Unable to simultaneously satisfy constraints: ( "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSScrollView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=--& V:[NSView:<*>(<*>)]>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSView:<*>] (Names: '|':NSView:<*> )>", "<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>" ) Will attempt to recover by breaking constraint <NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger. (final_template)
+---------------------------
+---------------------------
+cluster 362: len=1
+<*> GoogleSoftwareUpdateAgent[<*>] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] About to run checks for any other apps. (ground truth of sampled log)
+<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] About to run checks for any other apps. (final_template)
+---------------------------
+---------------------------
+cluster 363: len=1
+Arranged view frame: {{<*>, <*>} {<*>, <*>}} (ground truth of sampled log)
+Arranged view frame: {{<*>, <*>} {<*>, <*>}} (final_template)
+---------------------------
+---------------------------
+cluster 364: len=1
+CCProfileMonitor::setStreamEventHandler (ground truth of sampled log)
+CCProfileMonitor::setStreamEventHandler (final_template)
+---------------------------
+---------------------------
+cluster 365: len=1
+Telling CSI to go low power. (ground truth of sampled log)
+Telling CSI to go low power. (final_template)
+---------------------------
+---------------------------
+cluster 366: len=4
+ (ground truth of sampled log)
+ARPT: <*>: wl0: MDNS: IPV4 Addr: <*> (final_template)
+---------------------------

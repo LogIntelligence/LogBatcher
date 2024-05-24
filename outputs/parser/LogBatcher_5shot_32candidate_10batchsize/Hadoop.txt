@@ -1,0 +1,580 @@
+---------------------------
+cluster 24: len=476
+Address change detected. Old: <*> New: <*> (ground truth of sampled log)
+Address change detected. Old: msra-sa-41/10.<*> New: msra-sa-<*> (final_template)
+---------------------------
+---------------------------
+cluster 25: len=326
+Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ... (ground truth of sampled log)
+Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ... (final_template)
+---------------------------
+---------------------------
+cluster 23: len=289
+Progress of TaskAttempt <*> is : <*> (ground truth of sampled log)
+Progress of TaskAttempt <*> is : <*> (final_template)
+---------------------------
+---------------------------
+cluster 26: len=147
+ERROR IN CONTACTING RM. (ground truth of sampled log)
+ERROR IN CONTACTING RM. (final_template)
+---------------------------
+---------------------------
+cluster 27: len=146
+Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS) (ground truth of sampled log)
+Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS) (final_template)
+---------------------------
+---------------------------
+cluster 6: len=131
+Recalculating schedule, headroom=<memory:<*>, vCores:<*> (ground truth of sampled log)
+Recalculating schedule, headroom=<memory:<*>, vCores:<*> (final_template)
+---------------------------
+---------------------------
+cluster 7: len=130
+Reduce slow start threshold not met. completedMapsForReduceSlowstart <*> (ground truth of sampled log)
+Reduce slow start threshold not met. completedMapsForReduceSlowstart <*> (final_template)
+---------------------------
+---------------------------
+cluster 1: len=39
+Resolved <*> to <*> (ground truth of sampled log)
+Resolved <*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 3: len=14
+<*> TaskAttempt Transitioned from NEW to UNASSIGNED (ground truth of sampled log)
+<*> TaskAttempt Transitioned from NEW to UNASSIGNED (final_template)
+---------------------------
+---------------------------
+cluster 14: len=13
+Opening proxy : <*> (ground truth of sampled log)
+Opening proxy : <*> (final_template)
+---------------------------
+---------------------------
+cluster 5: len=12
+getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*> (ground truth of sampled log)
+getResources() for application_1445144423722_0020: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:-17> knownNMs=<*> (final_template)
+---------------------------
+---------------------------
+cluster 10: len=12
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (ground truth of sampled log)
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (final_template)
+---------------------------
+---------------------------
+cluster 2: len=11
+<*> Task Transitioned from NEW to SCHEDULED (ground truth of sampled log)
+<*> Task Transitioned from NEW to SCHEDULED (final_template)
+---------------------------
+---------------------------
+cluster 8: len=10
+Got allocated containers <*> (ground truth of sampled log)
+Got allocated containers <*> (final_template)
+---------------------------
+---------------------------
+cluster 9: len=10
+Assigned container <*> to <*> (ground truth of sampled log)
+Assigned container <*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 11: len=10
+<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED (ground truth of sampled log)
+<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED (final_template)
+---------------------------
+---------------------------
+cluster 12: len=10
+Processing the event EventType: <*> for container <*> taskAttempt <*> (ground truth of sampled log)
+Processing the event EventType: <*> for container <*> taskAttempt <*> (final_template)
+---------------------------
+---------------------------
+cluster 13: len=10
+Launching <*> (ground truth of sampled log)
+Launching <*> (final_template)
+---------------------------
+---------------------------
+cluster 15: len=10
+Shuffle port returned by ContainerManager for <*> : <*> (ground truth of sampled log)
+Shuffle port returned by ContainerManager for <*> : <*> (final_template)
+---------------------------
+---------------------------
+cluster 16: len=10
+TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>] (ground truth of sampled log)
+TaskAttempt: [attempt_1445144423722_0020_m_000000_0] using containerId: [container_1445144423722_0020_01_000002 on NM: [04DN8IQ.fareast.corp.microsoft.com:<*>] (final_template)
+---------------------------
+---------------------------
+cluster 17: len=10
+<*> TaskAttempt Transitioned from ASSIGNED to RUNNING (ground truth of sampled log)
+<*> TaskAttempt Transitioned from ASSIGNED to RUNNING (final_template)
+---------------------------
+---------------------------
+cluster 18: len=10
+ATTEMPT_START <*> (ground truth of sampled log)
+ATTEMPT_START <*> (final_template)
+---------------------------
+---------------------------
+cluster 19: len=10
+<*> Task Transitioned from SCHEDULED to RUNNING (ground truth of sampled log)
+<*> Task Transitioned from SCHEDULED to RUNNING (final_template)
+---------------------------
+---------------------------
+cluster 20: len=10
+Auth successful for <*> (auth:SIMPLE) (ground truth of sampled log)
+Auth successful for <*> (auth:SIMPLE) (final_template)
+---------------------------
+---------------------------
+cluster 21: len=10
+JVM with ID : <*> asked for a task (ground truth of sampled log)
+JVM with ID : <*> asked for a task (final_template)
+---------------------------
+---------------------------
+cluster 22: len=10
+JVM with ID: <*> given task: <*> (ground truth of sampled log)
+JVM with ID: <*> given task: <*> (final_template)
+---------------------------
+---------------------------
+cluster 0: len=8
+Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*> (ground truth of sampled log)
+Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher (final_template)
+---------------------------
+---------------------------
+cluster 4: len=5
+Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (ground truth of sampled log)
+Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*> (final_template)
+---------------------------
+---------------------------
+cluster 106: len=4
+Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost (ground truth of sampled log)
+Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost (final_template)
+---------------------------
+---------------------------
+cluster 35: len=3
+Default file system [<*>] (ground truth of sampled log)
+Default file system [<*>] (final_template)
+---------------------------
+---------------------------
+cluster 89: len=3
+Processing the event EventType: <*> for container <*> taskAttempt <*> (ground truth)
+Processing the event EventType: <*> for container <*> taskAttempt <*> (match result)
+---------------------------
+---------------------------
+cluster 90: len=3
+KILLING <*> (ground truth of sampled log)
+KILLING attempt_1445144423722_0020_m_000003_0 (final_template)
+---------------------------
+---------------------------
+cluster 46: len=2
+Using callQueue class java.util.concurrent.LinkedBlockingQueue (ground truth of sampled log)
+Using callQueue class java.util.concurrent.LinkedBlockingQueue (final_template)
+---------------------------
+---------------------------
+cluster 47: len=2
+Starting Socket Reader #<*> for port <*> (ground truth of sampled log)
+Starting Socket Reader #<*> for port <*> (final_template)
+---------------------------
+---------------------------
+cluster 50: len=2
+IPC Server Responder: starting (ground truth of sampled log)
+IPC Server Responder: starting (final_template)
+---------------------------
+---------------------------
+cluster 51: len=2
+IPC Server listener on <*>: starting (ground truth of sampled log)
+IPC Server listener on <*>: starting (final_template)
+---------------------------
+---------------------------
+cluster 57: len=2
+adding path spec: <*> (ground truth of sampled log)
+adding path spec: <*> (final_template)
+---------------------------
+---------------------------
+cluster 85: len=2
+Received completed container <*> (ground truth of sampled log)
+Received completed container <*> (final_template)
+---------------------------
+---------------------------
+cluster 105: len=2
+Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost (ground truth of sampled log)
+Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.<*> to msra-sa-<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost (final_template)
+---------------------------
+---------------------------
+cluster 107: len=2
+<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP (ground truth of sampled log)
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP (final_template)
+---------------------------
+---------------------------
+cluster 108: len=2
+<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP (ground truth of sampled log)
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP (final_template)
+---------------------------
+---------------------------
+cluster 109: len=2
+Processing the event EventType: TASK_ABORT (ground truth of sampled log)
+Processing the event EventType: TASK_ABORT (final_template)
+---------------------------
+---------------------------
+cluster 110: len=2
+Task cleanup failed for attempt <*> (ground truth of sampled log)
+Task cleanup failed for attempt <*> (final_template)
+---------------------------
+---------------------------
+cluster 111: len=2
+<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED (ground truth of sampled log)
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED (final_template)
+---------------------------
+---------------------------
+cluster 114: len=2
+<*> failures on node MININT-<*> (ground truth of sampled log)
+<*> failures on node MININT-FNANLI5.fareast.corp.microsoft.com (final_template)
+---------------------------
+---------------------------
+cluster 115: len=2
+Added <*> to list of failed maps (ground truth of sampled log)
+Added <*> to list of failed maps (final_template)
+---------------------------
+---------------------------
+cluster 28: len=1
+Created MRAppMaster for application <*> (ground truth of sampled log)
+Created MRAppMaster for application <*> (final_template)
+---------------------------
+---------------------------
+cluster 29: len=1
+Executing with tokens: (ground truth of sampled log)
+Executing with tokens: (final_template)
+---------------------------
+---------------------------
+cluster 30: len=1
+Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>) (ground truth of sampled log)
+Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: -<*>) (final_template)
+---------------------------
+---------------------------
+cluster 31: len=1
+Using mapred newApiCommitter. (ground truth of sampled log)
+Using mapred newApiCommitter. (final_template)
+---------------------------
+---------------------------
+cluster 32: len=1
+OutputCommitter set in config <*> (ground truth of sampled log)
+OutputCommitter set in config <*> (final_template)
+---------------------------
+---------------------------
+cluster 33: len=1
+OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter (ground truth of sampled log)
+OutputCommitter is <*> (final_template)
+---------------------------
+---------------------------
+cluster 34: len=1
+Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*> (ground truth of sampled log)
+Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler (final_template)
+---------------------------
+---------------------------
+cluster 36: len=1
+Emitting job history data to the timeline server is not enabled (ground truth of sampled log)
+Emitting job history data to the timeline server is not enabled (final_template)
+---------------------------
+---------------------------
+cluster 37: len=1
+loaded properties from hadoop-metrics2.properties (ground truth of sampled log)
+loaded properties from hadoop-metrics2.properties (final_template)
+---------------------------
+---------------------------
+cluster 38: len=1
+Scheduled snapshot period at <*> second(s). (ground truth of sampled log)
+Scheduled snapshot period at <*> second(s). (final_template)
+---------------------------
+---------------------------
+cluster 39: len=1
+MRAppMaster metrics system started (ground truth of sampled log)
+MRAppMaster metrics system started (final_template)
+---------------------------
+---------------------------
+cluster 40: len=1
+Adding job token for <*> to jobTokenSecretManager (ground truth of sampled log)
+Adding job token for <*> to jobTokenSecretManager (final_template)
+---------------------------
+---------------------------
+cluster 41: len=1
+Not uberizing <*> because: not enabled; too many maps; too much input; (ground truth of sampled log)
+Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input; (final_template)
+---------------------------
+---------------------------
+cluster 42: len=1
+Input size for job <*> = <*>. Number of splits = <*> (ground truth of sampled log)
+Input size for job <*> = <*>. Number of splits = <*> (final_template)
+---------------------------
+---------------------------
+cluster 43: len=1
+Number of reduces for job <*> = <*> (ground truth of sampled log)
+Number of reduces for job <*> = <*> (final_template)
+---------------------------
+---------------------------
+cluster 44: len=1
+<*> Transitioned from NEW to INITED (ground truth of sampled log)
+job_1445144423722_0020Job Transitioned from NEW to INITED (final_template)
+---------------------------
+---------------------------
+cluster 45: len=1
+MRAppMaster launching normal, non-uberized, multi-container job <*>. (ground truth of sampled log)
+MRAppMaster launching normal, non-uberized, multi-container job <*> (final_template)
+---------------------------
+---------------------------
+cluster 48: len=1
+Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server (ground truth of sampled log)
+Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server (final_template)
+---------------------------
+---------------------------
+cluster 49: len=1
+Instantiated MRClientService at MININT-<*> (ground truth of sampled log)
+Instantiated MRClientService at MININT-FNANLI5.fareast.corp.microsoft.com/10.<*> (final_template)
+---------------------------
+---------------------------
+cluster 52: len=1
+Logging to <*>(org.mortbay.log) via <*> (ground truth of sampled log)
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog (final_template)
+---------------------------
+---------------------------
+cluster 53: len=1
+Http request log for http.requests.mapreduce is not defined (ground truth of sampled log)
+Http request log for http.requests.mapreduce is not defined (final_template)
+---------------------------
+---------------------------
+cluster 54: len=1
+Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter) (ground truth of sampled log)
+Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter) (final_template)
+---------------------------
+---------------------------
+cluster 55: len=1
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce (ground truth of sampled log)
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce (final_template)
+---------------------------
+---------------------------
+cluster 56: len=1
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static (ground truth of sampled log)
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static (final_template)
+---------------------------
+---------------------------
+cluster 58: len=1
+Jetty bound to port <*> (ground truth of sampled log)
+Jetty bound to port <*> (final_template)
+---------------------------
+---------------------------
+cluster 59: len=1
+jetty-<*> (ground truth of sampled log)
+jetty-<*> (final_template)
+---------------------------
+---------------------------
+cluster 60: len=1
+Extract jar:file:<*> to <*> (ground truth of sampled log)
+Extract jar:<*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 61: len=1
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*> (ground truth of sampled log)
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*> (final_template)
+---------------------------
+---------------------------
+cluster 62: len=1
+Web app <*> started at <*> (ground truth of sampled log)
+Web app <*> started at <*> (final_template)
+---------------------------
+---------------------------
+cluster 63: len=1
+Registered webapp guice modules (ground truth of sampled log)
+Registered webapp guice modules (final_template)
+---------------------------
+---------------------------
+cluster 64: len=1
+JOB_CREATE <*> (ground truth of sampled log)
+JOB_CREATE job_1445144423722_0020 (final_template)
+---------------------------
+---------------------------
+cluster 65: len=1
+nodeBlacklistingEnabled:<*> (ground truth of sampled log)
+nodeBlacklistingEnabled:<*> (final_template)
+---------------------------
+---------------------------
+cluster 66: len=1
+maxTaskFailuresPerNode is <*> (ground truth of sampled log)
+maxTaskFailuresPerNode is <*> (final_template)
+---------------------------
+---------------------------
+cluster 67: len=1
+blacklistDisablePercent is <*> (ground truth of sampled log)
+blacklistDisablePercent is <*> (final_template)
+---------------------------
+---------------------------
+cluster 68: len=1
+Connecting to ResourceManager at <*> (ground truth of sampled log)
+Connecting to ResourceManager at <*> (final_template)
+---------------------------
+---------------------------
+cluster 69: len=1
+maxContainerCapability: <memory:<*>, vCores:<*>> (ground truth of sampled log)
+maxContainerCapability: <memory:<*>, vCores:<*> (final_template)
+---------------------------
+---------------------------
+cluster 70: len=1
+queue: default (ground truth of sampled log)
+queue: default (final_template)
+---------------------------
+---------------------------
+cluster 71: len=1
+Upper limit on the thread pool size is <*> (ground truth of sampled log)
+Upper limit on the thread pool size is <*> (final_template)
+---------------------------
+---------------------------
+cluster 72: len=1
+yarn.client.max-cached-nodemanagers-proxies : <*> (ground truth of sampled log)
+yarn.client.max-cached-nodemanagers-proxies : <*> (final_template)
+---------------------------
+---------------------------
+cluster 73: len=1
+<*> Transitioned from INITED to SETUP (ground truth of sampled log)
+job_1445144423722_0020Job Transitioned from INITED to SETUP (final_template)
+---------------------------
+---------------------------
+cluster 74: len=1
+Processing the event EventType: JOB_SETUP (ground truth of sampled log)
+Processing the event EventType: JOB_SETUP (final_template)
+---------------------------
+---------------------------
+cluster 75: len=1
+<*> Transitioned from SETUP to RUNNING (ground truth of sampled log)
+job_1445144423722_0020Job Transitioned from SETUP to RUNNING (final_template)
+---------------------------
+---------------------------
+cluster 76: len=1
+mapResourceRequest:<memory:<*>, vCores:<*> (ground truth of sampled log)
+mapResourceRequest:<memory:<*>, vCores:<*> (final_template)
+---------------------------
+---------------------------
+cluster 77: len=1
+Event Writer setup for JobId: <*>, File: <*> (ground truth of sampled log)
+Event Writer setup for JobId: job_1445144423722_0020, File: hdfs://msra-sa-<*>:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist (final_template)
+---------------------------
+---------------------------
+cluster 78: len=1
+reduceResourceRequest:<memory:<*>, vCores:<*> (ground truth of sampled log)
+reduceResourceRequest:<memory:<*>, vCores:<*> (final_template)
+---------------------------
+---------------------------
+cluster 79: len=1
+The job-jar file on the remote FS is <*> (ground truth of sampled log)
+The job-jar file on the remote FS is <*> (final_template)
+---------------------------
+---------------------------
+cluster 80: len=1
+The job-conf file on the remote FS is <*> (ground truth of sampled log)
+The job-conf file on the remote FS is <*> (final_template)
+---------------------------
+---------------------------
+cluster 81: len=1
+Adding #<*> tokens and #<*> secret keys for NM use for launching container (ground truth of sampled log)
+Adding #<*> tokens and #<*> secret keys for NM use for launching container (final_template)
+---------------------------
+---------------------------
+cluster 82: len=1
+Size of containertokens_dob is <*> (ground truth of sampled log)
+Size of containertokens_dob is <*> (final_template)
+---------------------------
+---------------------------
+cluster 83: len=1
+Putting shuffle token in serviceData (ground truth of sampled log)
+Putting shuffle token in serviceData (final_template)
+---------------------------
+---------------------------
+cluster 84: len=1
+Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*> (ground truth of sampled log)
+Cannot assign container Container: [ContainerId: container_1445144423722_0020_01_000012, NodeId: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:1>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:1> or no pending map tasks - maps.isEmpty=<*> (final_template)
+---------------------------
+---------------------------
+cluster 86: len=1
+Container complete event for unknown container id <*> (ground truth of sampled log)
+Container complete event for unknown container id <*> (final_template)
+---------------------------
+---------------------------
+cluster 87: len=1
+Done acknowledgement from <*> (ground truth of sampled log)
+Done acknowledgement from <*> (final_template)
+---------------------------
+---------------------------
+cluster 88: len=1
+<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP (ground truth of sampled log)
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP (final_template)
+---------------------------
+---------------------------
+cluster 91: len=1
+<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED (ground truth of sampled log)
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED (final_template)
+---------------------------
+---------------------------
+cluster 92: len=1
+Task succeeded with attempt <*> (ground truth of sampled log)
+Task succeeded with attempt <*> (final_template)
+---------------------------
+---------------------------
+cluster 93: len=1
+<*> Task Transitioned from RUNNING to SUCCEEDED (ground truth of sampled log)
+<*> Task Transitioned from <*> to <*> (final_template)
+---------------------------
+---------------------------
+cluster 94: len=1
+Num completed Tasks: <*> (ground truth of sampled log)
+Num completed Tasks: <*> (final_template)
+---------------------------
+---------------------------
+cluster 95: len=1
+Reduce slow start threshold reached. Scheduling reduces. (ground truth of sampled log)
+Reduce slow start threshold reached. Scheduling reduces. (final_template)
+---------------------------
+---------------------------
+cluster 96: len=1
+All maps assigned. Ramping up all remaining reduces:<*> (ground truth of sampled log)
+All maps assigned. Ramping up all remaining reduces:<*> (final_template)
+---------------------------
+---------------------------
+cluster 97: len=1
+DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*> (ground truth of sampled log)
+DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*> (final_template)
+---------------------------
+---------------------------
+cluster 98: len=1
+We launched <*> speculations. Sleeping <*> milliseconds. (ground truth of sampled log)
+We launched <*> speculations. Sleeping <*> milliseconds. (final_template)
+---------------------------
+---------------------------
+cluster 99: len=1
+Scheduling a redundant attempt for task <*> (ground truth of sampled log)
+Scheduling a redundant attempt for task <*> (final_template)
+---------------------------
+---------------------------
+cluster 100: len=1
+Diagnostics report from <*>: Container killed by the ApplicationMaster. (ground truth of sampled log)
+Diagnostics report from attempt_1445144423722_0020_m_000003_0: Container killed by the ApplicationMaster. (final_template)
+---------------------------
+---------------------------
+cluster 101: len=1
+Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>, <*>] (ground truth of sampled log)
+Slow ReadProcessor read fields took 65020ms (threshold=30000ms); ack: seqno: -<*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>, <*>] (final_template)
+---------------------------
+---------------------------
+cluster 102: len=1
+DFSOutputStream ResponseProcessor exception for block BP-<*> (ground truth of sampled log)
+DFSOutputStream ResponseProcessor exception for block BP-<*>-<*>-<*>:blk_1073743512_2731 (final_template)
+---------------------------
+---------------------------
+cluster 103: len=1
+Error Recovery for block BP-<*> in pipeline <*>, <*>: bad datanode <*> (ground truth of sampled log)
+Error Recovery for block BP-<*>-<*>-<*>:blk_1073743512_2731 in pipeline <*>, <*>: bad datanode <*> (final_template)
+---------------------------
+---------------------------
+cluster 104: len=1
+DataStreamer Exception (ground truth of sampled log)
+DataStreamer Exception (final_template)
+---------------------------
+---------------------------
+cluster 112: len=1
+Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*> (ground truth of sampled log)
+Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@7317849d (final_template)
+---------------------------
+---------------------------
+cluster 113: len=1
+Thread Thread[eventHandlingThread,<*>,main] threw an Exception. (ground truth of sampled log)
+Thread Thread[eventHandlingThread,<*>,main] threw an Exception. (final_template)
+---------------------------
