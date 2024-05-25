@@ -10,7 +10,7 @@ from evaluate import evaluate_all_datasets, evaluate_single_dataset
 from utils.sample import sample_from_clusters
 
 
-def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size ,Concurrent=True):
+def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, Concurrent=True, sample_method = 'dpp'):
     print(f'Parsing {dataset}...')
 
     # initialize
@@ -42,7 +42,8 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     
     clusters = []
     for input in inputs:
-        c = Cluster(*input, remove_duplicate=True, remain_num=batch_size)
+        c = Cluster(*input, remove_duplicate=True,
+                    remain_num=batch_size, sample_method=sample_method)
         clusters.append(c)
 
     # sample from clusters
@@ -101,6 +102,8 @@ def set_args():
                         help='The num of demostrations.')
     parser.add_argument('--batch_size', type=int, default=10, 
                         help='The size of a batch')
+    parser.add_argument('--sample_method', type=str, default='dpp',
+                        help='Sample method: dpp, random, similar.')
     # 解析命令行参数
     args = parser.parse_args()
     # 调用处理函数
@@ -113,7 +116,8 @@ if __name__ == "__main__":
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
     # datasets = ['Linux']
     theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize"
-    output_dir = f'outputs/parser/{theme}/'
+    theme_for_ablation = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_with_{args.sample_method}"
+    output_dir = f'outputs/parser/{theme_for_ablation}/'
     with open('config.json', 'r') as f:
         config = json.load(f)
     parser = Cluster_Parser(theme, config)
@@ -125,6 +129,7 @@ if __name__ == "__main__":
             shot=args.shot,
             candidate=args.candidate,
             batch_size=args.batch_size,
-            Concurrent=False
+            Concurrent=False,
+            sample_method = args.sample_method
         )
     # evaluate_all_datasets(theme,send_email=True)

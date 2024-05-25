@@ -1,0 +1,215 @@
+---------------------------
+cluster 0: len=931
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (ground truth of sampled log)
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (final_template)
+---------------------------
+---------------------------
+cluster 4: len=82
+image <*> at (<*>): checking (ground truth of sampled log)
+image <*> at (<*>): checking (final_template)
+---------------------------
+---------------------------
+cluster 5: len=82
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage (ground truth of sampled log)
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage (final_template)
+---------------------------
+---------------------------
+cluster 6: len=82
+Active base files: <*> (ground truth of sampled log)
+Active base files: <*> (final_template)
+---------------------------
+---------------------------
+cluster 8: len=64
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (match result)
+---------------------------
+---------------------------
+cluster 9: len=44
+[instance: <*>] VM Resumed (Lifecycle Event) (ground truth of sampled log)
+[instance: <*>] VM Resumed (Lifecycle Event) (final_template)
+---------------------------
+---------------------------
+cluster 3: len=43
+[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip. (ground truth of sampled log)
+[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip. (final_template)
+---------------------------
+---------------------------
+cluster 24: len=30
+Unknown base file: <*> (ground truth of sampled log)
+Unknown base file: <*> (final_template)
+---------------------------
+---------------------------
+cluster 25: len=30
+Removable base files: <*> (ground truth of sampled log)
+Removable base files: <*> (final_template)
+---------------------------
+---------------------------
+cluster 1: len=22
+[instance: <*>] VM Started (Lifecycle Event) (ground truth of sampled log)
+[instance: <*>] VM Started (Lifecycle Event) (final_template)
+---------------------------
+---------------------------
+cluster 2: len=22
+[instance: <*>] VM Paused (Lifecycle Event) (ground truth of sampled log)
+[instance: <*>] VM Paused (Lifecycle Event) (final_template)
+---------------------------
+---------------------------
+cluster 7: len=22
+Creating event network-vif-plugged:<*> for instance <*> (ground truth of sampled log)
+Creating event network-vif-plugged:<*> for instance <*> (final_template)
+---------------------------
+---------------------------
+cluster 10: len=22
+[instance: <*>] Instance spawned successfully. (ground truth of sampled log)
+[instance: <*>] Instance spawned successfully. (final_template)
+---------------------------
+---------------------------
+cluster 11: len=22
+[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor. (ground truth of sampled log)
+[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor. (final_template)
+---------------------------
+---------------------------
+cluster 12: len=22
+[instance: <*>] Took <*> seconds to build instance. (ground truth of sampled log)
+[instance: <*>] Took <*> seconds to build instance. (final_template)
+---------------------------
+---------------------------
+cluster 17: len=22
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (ground truth)
+<*> "<*> <*> <*>" status: <*> len: <*> time: <*> (match result)
+---------------------------
+---------------------------
+cluster 18: len=22
+[instance: <*>] Terminating instance (ground truth of sampled log)
+[instance: <*>] Terminating instance (final_template)
+---------------------------
+---------------------------
+cluster 19: len=22
+[instance: <*>] Instance destroyed successfully. (ground truth of sampled log)
+[instance: <*>] Instance destroyed successfully. (final_template)
+---------------------------
+---------------------------
+cluster 20: len=21
+[instance: <*>] Deleting instance files <*> (ground truth of sampled log)
+[instance: <*>] Deleting instance files <*> (final_template)
+---------------------------
+---------------------------
+cluster 21: len=21
+[instance: <*>] Deletion of <*> complete (ground truth of sampled log)
+[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Deletion of <*> complete (final_template)
+---------------------------
+---------------------------
+cluster 22: len=21
+[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor. (ground truth of sampled log)
+[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor. (final_template)
+---------------------------
+---------------------------
+cluster 23: len=21
+[instance: <*>] Took <*> seconds to deallocate network for instance. (ground truth of sampled log)
+[instance: <*>] Took <*> seconds to deallocate network for instance. (final_template)
+---------------------------
+---------------------------
+cluster 26: len=21
+Removing base or swap file: <*> (ground truth of sampled log)
+Removing base or swap file: <*> (final_template)
+---------------------------
+---------------------------
+cluster 27: len=21
+HTTP exception thrown: No instances found for any event (ground truth of sampled log)
+HTTP exception thrown: No instances found for any event (final_template)
+---------------------------
+---------------------------
+cluster 28: len=21
+[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU (ground truth of sampled log)
+[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU (final_template)
+---------------------------
+---------------------------
+cluster 29: len=21
+[instance: <*>] Total memory: <*> MB, used: <*> MB (ground truth of sampled log)
+[instance: <*>] Total memory: <*> MB, used: <*> MB (final_template)
+---------------------------
+---------------------------
+cluster 30: len=21
+[instance: <*>] memory limit: <*> MB, free: <*> MB (ground truth of sampled log)
+[instance: <*>] memory limit: <*> MB, free: <*> MB (final_template)
+---------------------------
+---------------------------
+cluster 31: len=21
+[instance: <*>] Total disk: <*> GB, used: <*> GB (ground truth of sampled log)
+[instance: <*>] Total disk: <*> GB, used: <*> GB (final_template)
+---------------------------
+---------------------------
+cluster 32: len=21
+[instance: <*>] disk limit not specified, defaulting to unlimited (ground truth of sampled log)
+[instance: <*>] disk limit not specified, defaulting to unlimited (final_template)
+---------------------------
+---------------------------
+cluster 33: len=21
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU (ground truth of sampled log)
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU (final_template)
+---------------------------
+---------------------------
+cluster 34: len=21
+[instance: <*>] vcpu limit not specified, defaulting to unlimited (ground truth of sampled log)
+[instance: <*>] vcpu limit not specified, defaulting to unlimited (final_template)
+---------------------------
+---------------------------
+cluster 35: len=21
+[instance: <*>] Claim successful (ground truth of sampled log)
+[instance: <*>] Claim successful (final_template)
+---------------------------
+---------------------------
+cluster 36: len=21
+[instance: <*>] Creating image (ground truth of sampled log)
+[instance: <*>] Creating image (final_template)
+---------------------------
+---------------------------
+cluster 37: len=21
+[instance: <*>] VM Stopped (Lifecycle Event) (ground truth of sampled log)
+[instance: <*>] VM Stopped (Lifecycle Event) (final_template)
+---------------------------
+---------------------------
+cluster 13: len=15
+Auditing locally available compute resources for node <*> (ground truth of sampled log)
+Auditing locally available compute resources for node <*> (final_template)
+---------------------------
+---------------------------
+cluster 14: len=15
+Total usable vcpus: <*>, total allocated vcpus: <*> (ground truth of sampled log)
+Total usable vcpus: <*>, total allocated vcpus: <*> (final_template)
+---------------------------
+---------------------------
+cluster 15: len=15
+Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[] (ground truth of sampled log)
+Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*> (final_template)
+---------------------------
+---------------------------
+cluster 16: len=15
+Compute_service record updated for <*> (ground truth of sampled log)
+Compute_service record updated for <*> (final_template)
+---------------------------
+---------------------------
+cluster 38: len=9
+Base or swap file too young to remove: <*> (ground truth of sampled log)
+Base or swap file too young to remove: <*> (final_template)
+---------------------------
+---------------------------
+cluster 39: len=5
+The instance sync for host '<*>' did not match. Re-created its InstanceList. (ground truth of sampled log)
+The instance sync for host '<*>' did not match. Re-created its InstanceList. (final_template)
+---------------------------
+---------------------------
+cluster 40: len=2
+Successfully synced instances from host '<*>'. (ground truth of sampled log)
+Successfully synced instances from host '<*>'. (final_template)
+---------------------------
+---------------------------
+cluster 41: len=1
+Running instance usage audit for host <*> from <*> to <*>. <*> instances. (ground truth of sampled log)
+Running instance usage audit for host <*> from <*> to <*>. <*> instances. (final_template)
+---------------------------
+---------------------------
+cluster 42: len=1
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor. (ground truth of sampled log)
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor. (final_template)
+---------------------------

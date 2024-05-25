@@ -57,6 +57,8 @@ class Cluster:
         elif self.sample_method == "random":
             random.seed(0)
             result = random.sample(range(0, len(self.logs)), remain_num)
+        else:
+            raise ValueError("Invalid sample method")
         self.logs = [self.logs[i] for i in result]
         return
 
