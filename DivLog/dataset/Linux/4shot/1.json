@@ -1,0 +1,4 @@
+{"text": "audit(1122475266.4294965305:0): initialized", "label": "audit({timestamp}:{value}): initialized", "type": 1}
+{"text": "session opened for user news by (uid=0)", "label": "session opened for user {username} by (uid={uid})", "type": 1}
+{"text": "CPU 0 irqstacks, hard=02345000 soft=02344000", "label": "CPU {cpu} irqstacks, hard={address} soft={address}", "type": 1}
+{"text": "ALERT exited abnormally with [1]", "label": "ALERT exited abnormally with [{code}]", "type": 1}

@@ -1,6 +1,7 @@
 import json
 import os
 import math
+import httpx
 import numpy as np
 import pandas as pd
 import re
@@ -10,7 +11,8 @@ import tiktoken as tt
 from tqdm import tqdm
 from random import sample
 from sklearn.model_selection import train_test_split
-from openai.embeddings_utils import get_embedding, cosine_similarity
+from openai import OpenAI
+from scipy.spatial.distance import cosine
 from collections import Counter
 
 
@@ -195,7 +197,7 @@ class ModelParser():
         evaluate, # evaluate or not
     ):
 
-    self.log_path = log_path + "/{}/{}_2k.log_structured.csv".format(dataset,dataset)
+    self.log_path = log_path + "/{}/{}_2k.log_structured_corrected.csv".format(dataset,dataset)
     self.result_path = result_path
     self.map_path = map_path + "/{}_{}_lookupmap.json".format(cand_ratio,dataset)
     self.dataset = dataset
@@ -259,10 +261,20 @@ class ModelParser():
       return log_test, log_cand, gt_test, gt_cand
 
   def generateEmbeddings(self, str_list):
+      client = OpenAI(
+          api_key=self.api_key,   # api_key
+          http_client=httpx.Client(
+              proxies="http://127.0.0.1:7890"  # proxies
+          ),
+      )
+      embeddings = []
+      for log in str_list:
+          response = client.embeddings.create(engine="text-search-babbage-query-001", input=log)
+          embeddings.append(response.data[0].embedding)
       # each embedding has length 2048
       # engine: text-search-{ada, babbage, curie, davinci}-{query, doc}-001 
       # | code-search-{ada, babbage}-{code, text}-001
-      return [get_embedding(log, engine="text-search-babbage-query-001") for log in str_list]
+      return embeddings
 
   # generate a look up map that records the cosine similarity 
   # between two logs with descendant sequence
@@ -279,7 +291,8 @@ class ModelParser():
       for test_idx in tqdm(range(len(self.log_test))):
         dis_dict = {}
         for cand_idx in range(len(self.log_cand)):
-          dis_dict[cosine_similarity(test_embs[test_idx], cand_embs[cand_idx])] = cand_idx
+          similarity = 1 - cosine(test_embs[test_idx], cand_embs[cand_idx])
+          dis_dict[similarity] = cand_idx
         # get a list in sorted key (descending order), key = cosine similarity
         sorted_list = []
         for key in sorted(dis_dict, reverse=True): 
@@ -357,71 +370,76 @@ and put the template after <extraction> tag and between <START> and <END> tags."
       else:
         # if the result file does not exist, use api to generate result
         print("Result file does not exist, generating result ...")
+        list_prompt = []
         for line_idx in tqdm(range(len(self.log_test[:limit]))):
-          re_id = 0
-          temperature = 0
-          if line_idx >= limit: break
-          line = self.log_test[line_idx]
-          token_len = len(enc.encode(line.strip())) + 20
-          # get a prompt with five examples for each log message
-          prompt, similarist_gt = self.generatePrompt(line, nearest_num=N)
-          while True:
-            try:
-              response = openai.Completion.create(
-                                                  model=model, 
-                                                  prompt=instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ", 
-                                                  temperature=temperature,
-                                                  max_tokens=token_len)
-            except Exception as e: # if exception occurs
-              print(e)
-              re_id += 1
-              if re_id < 5:
-                time.sleep(0.1)
-              else:
-                result = similarist_gt
-                answer_list.append(result)
-                print("Too long waiting time, raw log: {}".format(line) + '\n')
-                break
-            else:
-              # if no exception, the model response a dict
-              # to avoid empty response
-              result = self.extractResultTemplate(response["choices"][0]["text"])
-              if result != "":
-                answer_list.append(result)
-                break
-              else:
-                if re_id >= 1:
-                  result = similarist_gt
-                  answer_list.append(result)
-                  break
-                else:
-                  token_len += 10
-                  re_id += 1
-                  temperature += 0.25
+            re_id = 0
+            temperature = 0
+            if line_idx >= limit: break
+            line = self.log_test[line_idx]
+            token_len = len(enc.encode(line.strip())) + 20
+            # get a prompt with five examples for each log message
+            prompt, similarist_gt = self.generatePrompt(line, nearest_num=N)
+            list_prompt.append(instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ")
+        with open(f'cost/cost_divlog_for_{self.dataset}.json', 'w', encoding='utf-8') as file:
+            json.dump(list_prompt, file, ensure_ascii=False, indent=4)
+        #   while True:
+        #     try:
+              
+        #       response = openai.Completion.create(
+        #                                           model=model, 
+        #                                           prompt=instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ", 
+        #                                           temperature=temperature,
+        #                                           max_tokens=token_len)
+        #     except Exception as e: # if exception occurs
+        #       print(e)
+        #       re_id += 1
+        #       if re_id < 5:
+        #         time.sleep(0.1)
+        #       else:
+        #         result = similarist_gt
+        #         answer_list.append(result)
+        #         print("Too long waiting time, raw log: {}".format(line) + '\n')
+        #         break
+            # else:
+            #   # if no exception, the model response a dict
+            #   # to avoid empty response
+            #   result = self.extractResultTemplate(response["choices"][0]["text"])
+            #   if result != "":
+            #     answer_list.append(result)
+            #     break
+            #   else:
+            #     if re_id >= 1:
+            #       result = similarist_gt
+            #       answer_list.append(result)
+            #       break
+            #     else:
+            #       token_len += 10
+            #       re_id += 1
+            #       temperature += 0.25
 
-      print("Writing result into {} ...".format(self.result_path))
-      if not os.path.exists(self.result_path):
-        self.writeResult(answer_list, self.result_path, limit)
-      print("Result file generated.")
+    #   print("Writing result into {} ...".format(self.result_path))
+    #   if not os.path.exists(self.result_path):
+    #     self.writeResult(answer_list, self.result_path, limit)
+    #   print("Result file generated.")
 
-      if self.evaluate:          
-        if not os.path.exists("DivLog_bechmark_result.csv"):
-          df = pd.DataFrame(columns=['Dataset', 'Parsing Accuracy', 'Precision Template Accuracy', 'Recall Template Accuracy', 'Grouping Accuracy'])
-        else:
-          df = pd.read_csv("DivLog_bechmark_result.csv")
-        df_groundtruth = pd.read_csv(self.log_path)
-        df_parsedlog = pd.read_csv(self.result_path)
-        PA = evaluatePA(df_groundtruth, df_parsedlog)
-        PTA = evaluatePTA(df_groundtruth, df_parsedlog)
-        RTA = evaluateRTA(df_groundtruth, df_parsedlog)
-        GA = evaluateGA(df_groundtruth, df_parsedlog)
-        print("{}:\t PA:\t{:.6f}\tPTA:\t{:.6f}\tRTA:\t{:.6f}\tGA:\t{:.6f}".format(self.dataset, PA, PTA, RTA, GA))
-        if self.dataset not in df['Dataset'].values:
-          df.loc[len(df)] = [self.dataset, PA, PTA, RTA, GA]
-        else:
-          df.loc[df['Dataset'] == self.dataset, 'Parsing Accuracy'] = PA
-          df.loc[df['Dataset'] == self.dataset, 'Precision Template Accuracy'] = PTA
-          df.loc[df['Dataset'] == self.dataset, 'Recall Template Accuracy'] = RTA
-          df.loc[df['Dataset'] == self.dataset, 'Grouping Accuracy'] = GA
-        df.to_csv("DivLog_bechmark_result.csv", index=False, float_format="%.6f")
+    #   if self.evaluate:          
+    #     if not os.path.exists("DivLog_bechmark_result.csv"):
+    #       df = pd.DataFrame(columns=['Dataset', 'Parsing Accuracy', 'Precision Template Accuracy', 'Recall Template Accuracy', 'Grouping Accuracy'])
+    #     else:
+    #       df = pd.read_csv("DivLog_bechmark_result.csv")
+    #     df_groundtruth = pd.read_csv(self.log_path)
+    #     df_parsedlog = pd.read_csv(self.result_path)
+    #     PA = evaluatePA(df_groundtruth, df_parsedlog)
+    #     PTA = evaluatePTA(df_groundtruth, df_parsedlog)
+    #     RTA = evaluateRTA(df_groundtruth, df_parsedlog)
+    #     GA = evaluateGA(df_groundtruth, df_parsedlog)
+    #     print("{}:\t PA:\t{:.6f}\tPTA:\t{:.6f}\tRTA:\t{:.6f}\tGA:\t{:.6f}".format(self.dataset, PA, PTA, RTA, GA))
+    #     if self.dataset not in df['Dataset'].values:
+    #       df.loc[len(df)] = [self.dataset, PA, PTA, RTA, GA]
+    #     else:
+    #       df.loc[df['Dataset'] == self.dataset, 'Parsing Accuracy'] = PA
+    #       df.loc[df['Dataset'] == self.dataset, 'Precision Template Accuracy'] = PTA
+    #       df.loc[df['Dataset'] == self.dataset, 'Recall Template Accuracy'] = RTA
+    #       df.loc[df['Dataset'] == self.dataset, 'Grouping Accuracy'] = GA
+    #     df.to_csv("DivLog_bechmark_result.csv", index=False, float_format="%.6f")
       return 

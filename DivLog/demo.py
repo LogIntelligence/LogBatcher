@@ -46,12 +46,12 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-key', type=str, default="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", help='openai key')
-    parser.add_argument('--log_path', type=str, default='../../data/loghub_2k', help='log path')
+    parser.add_argument('--log_path', type=str, default='dataset', help='log path')
     parser.add_argument('--result_path', type=str, default='results', help='result path')
     parser.add_argument('--map_path', type=str, default='maps', help='map path')
     parser.add_argument('--dataset', type=str, default='HDFS', help='dataset name')
     parser.add_argument('--emb_path', type=str, default='embeddings', help='embedding path')
-    parser.add_argument('--cand_ratio', type=float, default=0.1, help='ratio of candidate set')
+    parser.add_argument('--cand_ratio', type=float, default=0.016, help='ratio of candidate set')
     parser.add_argument('--split_method', type=str, default='DPP', help='random or DPP')
     parser.add_argument('--order_method', type=str, default='KNN', help='random or KNN')
     parser.add_argument('--permutation', type=str, default='ascend', help='ascend, descend, or random')
@@ -59,8 +59,10 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, default='curie', help='model name')
     parser.add_argument('--model_name', type=str, default='gptC', help='model name')
     parser.add_argument('--limit', type=int, default=2000, help='number of logs for testing')
-    parser.add_argument('--N', type=int, default=5, help='number of examples in the prompt')
+    parser.add_argument('--N', type=int, default=3, help='number of examples in the prompt')
     parser.add_argument('--subname', type=str, default='', help='subname of the files')
     parser.add_argument('--evaluate', type=bool, default=False, help='evaluate or not')
     args = parser.parse_args()
     main(args)
+
+# cand_ratio: 0.016

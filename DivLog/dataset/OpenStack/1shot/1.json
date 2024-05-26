@@ -1,0 +1,1 @@
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2494071", "label": "{ip_address} \"GET {endpoint}\" status: {status} len: {len} time: {time}"}

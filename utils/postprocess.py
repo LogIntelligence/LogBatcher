@@ -28,6 +28,19 @@ def post_process(response):
 
     return tmp, template
 
+
+def post_process_for_batch_output(response):
+    outputs = response.strip('\n').split('\n')
+    templates = []
+    for output in outputs:
+        template = re.sub(r'\{\{.*?\}\}', '<*>', output)
+        template = correct_single_template(template)
+        if template.replace('<*>', '').strip() == '':
+            template = ''
+        if template not in templates:
+            templates.append(template)
+    return templates
+
 def correct_single_template(template, user_strings=None):
     """Apply all rules to process a template.
 

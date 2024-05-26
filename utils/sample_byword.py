@@ -12,7 +12,7 @@ def extract_variables(log, template):
     if matches:
         return matches.groups()
     else:
-        return []
+        return None
 
 def matches_template(log, cached_pair):
 

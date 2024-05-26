@@ -1,8 +1,9 @@
 import json
 import re
 from openai import OpenAI
+from together import Together
 from tenacity import retry, stop_after_attempt, wait_random_exponential
-from utils.postprocess import post_process
+from utils.postprocess import post_process, post_process_for_batch_output
 from utils.prune import prune_from_cluster
 from utils.sample import nearest_k_pairs_from_log
 from utils.util import choose, truncate
@@ -14,16 +15,23 @@ import httpx
 class Cluster_Parser:
     
     def __init__(self, theme, config):
-        self.api_key = config['api_key']
+        
         self.model = config['model']
         self.batch_num = config['batch_num']
         self.theme = theme
-        self.client = OpenAI(
+        if 'gpt' in self.model:
+            self.api_key = config['api_key_from_openai']
+            self.client = OpenAI(
                 api_key=self.api_key,   # api_key
                 http_client=httpx.Client(
                     proxies="http://127.0.0.1:7890"  # proxies
                 ),
             )
+        else:
+            self.api_key = config['api_key_from_together']
+            self.client = Together(
+                    api_key=self.api_key   # api_key
+                )
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
     @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
@@ -45,17 +53,15 @@ class Cluster_Parser:
 
         # caching
         for cached_pair in cached_pairs:
-            match_result = matches_template(sample_log, cached_pair)
-            if match_result != None:
-                print(f"cache hit: {match_result}")
-                f.write(f"---------------------------\n")
-                f.write(f"cluster {cluster.label}: len={length}\n")
-                f.write(f"{cluster.oracle_template} (ground truth)\n")
-                f.write(f"{match_result} (match result)\n")
-                f.write(f"---------------------------\n")
-                return [], match_result, cluster, new_cluster
+            for log in cluster.static_logs:
+                match_result = matches_template(log, cached_pair)
+                if match_result != None:
 
-        additional_incontext = ''
+                    cluster, new_cluster = prune_from_cluster(
+                        cached_pair[1], cluster, clusters_num)
+                    print(f"cache hit: {match_result}")
+                    return '', match_result, cluster, new_cluster
+
         demonstrations = ''
         can_match = False
 
@@ -75,6 +81,9 @@ class Cluster_Parser:
         # prompt format: instruction + (demonstration) + query(logs)
         instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
 
+        # ablation for clustering
+        # instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template separated by line break."
+
         if demonstrations != '':
             query = demonstrations + 'Log message: ' + '\n'.join([f'`{log}`'for log in logs])
         else:
@@ -92,6 +101,8 @@ class Cluster_Parser:
         
         # for i in range(3):
         answer = self.chat(messages)
+
+
         tmp, template = post_process(answer)
         if template == '':
             can_match = False
@@ -99,7 +110,7 @@ class Cluster_Parser:
             # matching
             for log in logs:
                 matches = extract_variables(log, template)
-                if matches != []:
+                if matches != None:
                     # refine for the empty variable
                     parts = template.split('<*>')
                     template = parts[0]
@@ -113,16 +124,37 @@ class Cluster_Parser:
         if can_match:
             cluster, new_cluster = prune_from_cluster(
                 template, cluster, clusters_num)
-
-        if not can_match:
+        else:
             template = correct_single_template(sample_log)
             print(f"can not match any log in this batch, return a sampled log as template")
+
+        # ablation for clustering:
+        # tmp = ''
+        # match_template = ''
+        # templates = post_process_for_batch_output(answer)
+        # for template in templates:
+        #     for log in logs:
+        #         matches = extract_variables(log, template)
+        #         if matches != None:
+        #             # refine for the empty variable
+        #             parts = template.split('<*>')
+        #             template = parts[0]
+        #             for index, match in enumerate(matches):
+        #                 if match != '':
+        #                     template += '<*>'
+        #                 template += parts[index + 1]
+        #             match_template =template
+        #             break
+
+        # # pruning
+        # if match_template != '':
+        #     template = match_template
+        #     cluster, new_cluster = prune_from_cluster(
+        #         match_template, cluster, clusters_num)
+        # else:
+        #     template = correct_single_template(sample_log)
+        #     print(f"can not match any log in this batch, return a sampled log as template")
+
         
         print(f"final template: {template}")
-
-        f.write(f"---------------------------\n")
-        f.write(f"cluster {cluster.label}: len={length}\n")
-        f.write(f"{cluster.oracle_template} (ground truth of sampled log)\n")
-        f.write(f"{template} (final_template)\n")
-        f.write(f"---------------------------\n")
         return tmp, template, cluster, new_cluster

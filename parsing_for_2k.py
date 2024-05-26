@@ -49,6 +49,15 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     # sample from clusters
     sample_pairs = sample_from_clusters(clusters, candidate)
 
+    # ablation: without clustering
+    # clusters = []
+    # cluster_nums = int(2000 / batch_size)
+    # for i in range(cluster_nums):
+    #     clusters.append(Cluster(i, logs[i*batch_size:(i+1)*batch_size], [j for j in range(i*batch_size,(i+1)*batch_size)], '', remove_duplicate=True, remain_num=batch_size, sample_method=sample_method))
+
+
+
+
     # Concurrent or not
     # if Concurrent, then the parsing process will be faster but we can't do something like cache parsing
     if Concurrent:
@@ -96,9 +105,11 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
 def set_args():
     # 定义命令行参数
     parser = argparse.ArgumentParser()
+    parser.add_argument('--model', type=str, default='gpt-3.5-turbo-0125',
+                        help='use which model to parse the log.')
     parser.add_argument('--candidate', type=int, default=32,
                         help='The num of candidate pairs.')
-    parser.add_argument('--shot', type=int, default=3,
+    parser.add_argument('--shot', type=int, default=0,
                         help='The num of demostrations.')
     parser.add_argument('--batch_size', type=int, default=10, 
                         help='The size of a batch')
@@ -114,13 +125,21 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    # datasets = ['Linux']
+
+    model = args.model
+    if '/' in model:
+        theme_for_different_configuration = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model.replace('/','_')}"
+    else:
+        theme_for_different_configuration = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model}"
+
     theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize"
-    theme_for_ablation = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_with_{args.sample_method}"
-    output_dir = f'outputs/parser/{theme_for_ablation}/'
+    theme_for_ablation = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_clustering"
+
+    output_dir = f'outputs/parser/{theme_for_different_configuration}/'
     with open('config.json', 'r') as f:
         config = json.load(f)
-    parser = Cluster_Parser(theme, config)
+    config['model'] = args.model
+    parser = Cluster_Parser(theme_for_different_configuration, config)
     for index, dataset in enumerate(datasets):
         single_dataset_paring(
             dataset=dataset, 

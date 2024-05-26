@@ -1,0 +1,4 @@
+{"text": "Verification succeeded for blk_-8050165297538775793", "label": "Verification succeeded for {block}", "type": 1}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt4/_temporary/_task_200811101024_0010_m_001716_0/part-01716. blk_-2051219911597308805", "label": "BLOCK* NameSystem.allocateBlock: {path} {block}", "type": 1}
+{"text": "Deleting block blk_-6901909114834172466 file /mnt/hadoop/dfs/data/current/subdir57/blk_-6901909114834172466", "label": "Deleting block {block} file {path}", "type": 1}
+{"text": "10.250.10.223:50010:Got exception while serving blk_8478683141242372735 to /10.251.70.5:", "label": "{ip_address}:Got exception while serving {path} to {destination}:", "type": 1}

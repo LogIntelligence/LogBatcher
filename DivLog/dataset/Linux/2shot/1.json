@@ -1,0 +1,2 @@
+{"text": "audit(1122475266.4294965305:0): initialized", "label": "audit({timestamp}:{value}): initialized", "type": 1}
+{"text": "session opened for user news by (uid=0)", "label": "session opened for user {username} by (uid={uid})", "type": 1}

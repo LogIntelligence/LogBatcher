@@ -1,0 +1,4 @@
+{"text": "nodeBlacklistingEnabled:true", "label": "nodeBlacklistingEnabled:{bool}", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: {server}. Already tried {count} time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries={count}, sleepTime={count} MILLISECONDS)", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.44968578", "label": "Progress of TaskAttempt {task} is : {progress}", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:{memory}, vCores:{core}", "type": 1}

@@ -1,0 +1,16 @@
+[
+    {
+        "role": "user",
+        "content": "Log Message:03-17 16: 16: 03.355  1702 27353 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0"
+    },
+    {
+        "role": "assistant",
+        "content": "Logging Statement:Log.d(\"PowerManagerService\",\"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0\");\nLog Template:ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+    }
+]
+
+
+
+
+
+
