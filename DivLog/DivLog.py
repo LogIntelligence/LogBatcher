@@ -382,64 +382,43 @@ and put the template after <extraction> tag and between <START> and <END> tags."
             list_prompt.append(instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ")
         with open(f'cost/cost_divlog_for_{self.dataset}.json', 'w', encoding='utf-8') as file:
             json.dump(list_prompt, file, ensure_ascii=False, indent=4)
-        #   while True:
-        #     try:
-              
-        #       response = openai.Completion.create(
-        #                                           model=model, 
-        #                                           prompt=instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ", 
-        #                                           temperature=temperature,
-        #                                           max_tokens=token_len)
-        #     except Exception as e: # if exception occurs
-        #       print(e)
-        #       re_id += 1
-        #       if re_id < 5:
-        #         time.sleep(0.1)
-        #       else:
-        #         result = similarist_gt
-        #         answer_list.append(result)
-        #         print("Too long waiting time, raw log: {}".format(line) + '\n')
-        #         break
-            # else:
-            #   # if no exception, the model response a dict
-            #   # to avoid empty response
-            #   result = self.extractResultTemplate(response["choices"][0]["text"])
-            #   if result != "":
-            #     answer_list.append(result)
-            #     break
-            #   else:
-            #     if re_id >= 1:
-            #       result = similarist_gt
-            #       answer_list.append(result)
-            #       break
-            #     else:
-            #       token_len += 10
-            #       re_id += 1
-            #       temperature += 0.25
+        while True:
+            try:
+                response = openai.Completion.create(
+                    model=model, 
+                    prompt=instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ", 
+                    temperature=temperature,
+                    max_tokens=token_len)
+            except Exception as e: # if exception occurs
+                print(e)
+                re_id += 1
+                if re_id < 5:
+                    time.sleep(0.1)
+                else:
+                    result = similarist_gt
+                answer_list.append(result)
+                print("Too long waiting time, raw log: {}".format(line) + '\n')
+                break
+            else:
+                # if no exception, the model response a dict
+                # to avoid empty response
+                result = self.extractResultTemplate(response["choices"][0]["text"])
+                if result != "":
+                    answer_list.append(result)
+                    break
+                else:
+                    if re_id >= 1:
+                        result = similarist_gt
+                        answer_list.append(result)
+                        break
+                    else:
+                        token_len += 10
+                        re_id += 1
+                        temperature += 0.25
 
-    #   print("Writing result into {} ...".format(self.result_path))
-    #   if not os.path.exists(self.result_path):
-    #     self.writeResult(answer_list, self.result_path, limit)
-    #   print("Result file generated.")
+      print("Writing result into {} ...".format(self.result_path))
+      if not os.path.exists(self.result_path):
+        self.writeResult(answer_list, self.result_path, limit)
+      print("Result file generated.")
 
-    #   if self.evaluate:          
-    #     if not os.path.exists("DivLog_bechmark_result.csv"):
-    #       df = pd.DataFrame(columns=['Dataset', 'Parsing Accuracy', 'Precision Template Accuracy', 'Recall Template Accuracy', 'Grouping Accuracy'])
-    #     else:
-    #       df = pd.read_csv("DivLog_bechmark_result.csv")
-    #     df_groundtruth = pd.read_csv(self.log_path)
-    #     df_parsedlog = pd.read_csv(self.result_path)
-    #     PA = evaluatePA(df_groundtruth, df_parsedlog)
-    #     PTA = evaluatePTA(df_groundtruth, df_parsedlog)
-    #     RTA = evaluateRTA(df_groundtruth, df_parsedlog)
-    #     GA = evaluateGA(df_groundtruth, df_parsedlog)
-    #     print("{}:\t PA:\t{:.6f}\tPTA:\t{:.6f}\tRTA:\t{:.6f}\tGA:\t{:.6f}".format(self.dataset, PA, PTA, RTA, GA))
-    #     if self.dataset not in df['Dataset'].values:
-    #       df.loc[len(df)] = [self.dataset, PA, PTA, RTA, GA]
-    #     else:
-    #       df.loc[df['Dataset'] == self.dataset, 'Parsing Accuracy'] = PA
-    #       df.loc[df['Dataset'] == self.dataset, 'Precision Template Accuracy'] = PTA
-    #       df.loc[df['Dataset'] == self.dataset, 'Recall Template Accuracy'] = RTA
-    #       df.loc[df['Dataset'] == self.dataset, 'Grouping Accuracy'] = GA
-    #     df.to_csv("DivLog_bechmark_result.csv", index=False, float_format="%.6f")
       return 
