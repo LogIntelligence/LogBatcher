@@ -4,6 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import DBSCAN
 from utils.algorithms import dpp_sample
+from utils.sample import group_samples_clustering
 from utils.util import mutate
 import random
 
@@ -18,7 +19,7 @@ class Cluster:
         # self.shuffle()
         # self.mutation()
         if remove_duplicate:
-            self.remove_duplicate()
+            # self.remove_duplicate()
 
             # ablation: without batching
             # self.logs = [self.logs[0]]
@@ -52,11 +53,14 @@ class Cluster:
 
         # sample
         if self.sample_method == "dpp":
+        
             similarity_matrix = cosine_similarity(tfidf_matrix)
             result = dpp_sample(similarity_matrix, remain_num)
         elif self.sample_method == "random":
             random.seed(0)
             result = random.sample(range(0, len(self.logs)), remain_num)
+        elif self.sample_method == "similar":
+            result = group_samples_clustering(self.logs, remain_num)[0]
         else:
             raise ValueError("Invalid sample method")
         self.logs = [self.logs[i] for i in result]

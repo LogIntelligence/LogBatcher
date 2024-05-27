@@ -20,12 +20,10 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     # tokenize -> vectorize -> cluster -> reassign_clusters
     tokenized_logs = [tokenize(log) for log in logs]
     labels, cluster_nums = cluster(vectorize(tokenized_logs))
-    num = cluster_nums
     labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
 
     # output file
     os.makedirs(output_dir, exist_ok=True)
-    f = open(output_dir + f'{dataset}.txt', 'w')
 
     outputs = [None for _ in range(2000)]
     tmps_list = [None for _ in range(2000)]
@@ -56,8 +54,6 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     #     clusters.append(Cluster(i, logs[i*batch_size:(i+1)*batch_size], [j for j in range(i*batch_size,(i+1)*batch_size)], '', remove_duplicate=True, remain_num=batch_size, sample_method=sample_method))
 
 
-
-
     # Concurrent or not
     # if Concurrent, then the parsing process will be faster but we can't do something like cache parsing
     if Concurrent:
@@ -77,7 +73,7 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
             print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
             #ablation: without caching
             # tmps, template = parser.get_responce(f, c, [])
-            tmp, template, c, new_cluster = parser.get_responce(f, c, cluster_nums, cache_pairs, sample_pairs, shot)
+            tmp, template, c, new_cluster = parser.get_responce( c, cluster_nums, cache_pairs, sample_pairs, shot)
 
             # update clusters
             if new_cluster != None:
@@ -94,7 +90,6 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
                 tmps_list[index] = tmp
 
     # write to file
-    f.close()
     df['Tmps'] = tmps_list
     df['EventTemplate'] = outputs
     df[['Content','Tmps','EventTemplate']].to_csv(
@@ -125,21 +120,23 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-
     model = args.model
-    if '/' in model:
-        theme_for_different_configuration = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model.replace('/','_')}"
+    module = ''
+    if 'gpt' not in model:
+        if '/' in model:
+            theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model.replace('/','_')}"
+        else:
+            theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model}"
+    elif module:
+        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_{module}"
     else:
-        theme_for_different_configuration = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model}"
+        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_with_smilarity_sample"
 
-    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize"
-    theme_for_ablation = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_clustering"
-
-    output_dir = f'outputs/parser/{theme_for_different_configuration}/'
+    output_dir = f'outputs/parser/{theme}/'
     with open('config.json', 'r') as f:
         config = json.load(f)
     config['model'] = args.model
-    parser = Cluster_Parser(theme_for_different_configuration, config)
+    parser = Cluster_Parser(theme, config)
     for index, dataset in enumerate(datasets):
         single_dataset_paring(
             dataset=dataset, 

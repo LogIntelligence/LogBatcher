@@ -54228,3 +54228,223 @@
         "content": "ciod: generated 1 core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm\nciod: generated 64 core files for program IMB-MPI1.2MB_perf\nciod: generated 64 core files for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts\nciod: generated 108 core files for program /home/spelce1/HPCC_IBM/Urgent/VNM/32K/vnm.rts\nciod: generated 58 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts\nciod: generated 64 core files for program /home/rfisher/sodscaling/flash2\nciod: generated 128 core files for program /g/g20/valone1/SPaSM-shock/SPaSM_mpi\nciod: generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111\nciod: generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV\nciod: generated 128 core files for program /g/g24/germann2/SPaSM_mini/MEAM/r13"
     }
 ]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "generating core.26835\ngenerating core.201\ngenerating core.1125\ngenerating core.412\ngenerating core.7828\ngenerating core.5570\ngenerating core.8275\ngenerating core.4183\ngenerating core.6545\ngenerating core.4245"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "iar 00106b8c dear 0245ce8c\niar 00106b8c dear 0245cf5c\niar 0010635c dear 0245b62c\niar 001061cc dear 02f6667c\niar 001061ec dear 02f6668c\niar 0010650c dear 0246a95c\niar 00106988 dear 02f7bd6c\niar 00106cf8 dear 0246f9fc\niar 001069a8 dear 02f7bd7c\niar 001007b8 dear 065b4c7c"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "8 floating point alignment exceptions\n5 floating point alignment exceptions\n640764 floating point alignment exceptions\n487476 floating point alignment exceptions\n2354412 floating point alignment exceptions\n16469355 floating point alignment exceptions\n16736445 floating point alignment exceptions\n74350836 floating point alignment exceptions\n15 floating point alignment exceptions\n685 floating point alignment exceptions"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "111990296 double-hummer alignment exceptions\n255244071 double-hummer alignment exceptions\n259822751 double-hummer alignment exceptions\n344040 double-hummer alignment exceptions\n1146800 double-hummer alignment exceptions\n458720 double-hummer alignment exceptions\n632431728 double-hummer alignment exceptions\n634368144 double-hummer alignment exceptions\n632254896 double-hummer alignment exceptions\n633283776 double-hummer alignment exceptions"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "CE sym 0, at 0x1b858280, mask 0x40\nCE sym 0, at 0x1b8594e0, mask 0x40\nCE sym 6, at 0x1880a8e0, mask 0x40\nCE sym 5, at 0x0e37bbe0, mask 0x40\nCE sym 4, at 0x18f28be0, mask 0x40\nCE sym 9, at 0x12870760, mask 0x40\nCE sym 0, at 0x1b858ca0, mask 0x40\nCE sym 3, at 0x0b19b8a0, mask 0x08\nCE sym 0, at 0x12af93a0, mask 0x08\nCE sym 2, at 0x0fa3d060, mask 0x08"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "10765 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10692 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10660 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10752 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10676 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10728 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10712 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10644 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10738 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.\n10646 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt."
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "data TLB error interrupt"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr."
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "instruction cache parity error corrected"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "data storage interrupt"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: generated 64 core files for program IMB-MPI1.2MB_perf\nciod: generated 64 core files for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts\nciod: generated 108 core files for program /home/spelce1/HPCC_IBM/Urgent/VNM/32K/vnm.rts\nciod: generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts\nciod: generated 58 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts\nciod: generated 64 core files for program /home/rfisher/sodscaling/flash2\nciod: generated 128 core files for program /g/g20/valone1/SPaSM-shock/SPaSM_mpi\nciod: generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "instruction address: 0x00004ed8\ninstruction address: 0x0062fe04"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory\nciod: Error loading /bgl/apps/SWL/performance/MINIBEN//bandwidth.rts: invalid or missing program image, No such file or directory\nciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory\nciod: Error loading /home/yates//bandwidth.rts: invalid or missing program image, No such file or directory\nciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory\nciod: Error loading /bgl/apps/followup/MINIBEN/MB_254_051007/torus-latency.rts: invalid or missing program image, No such file or directory\nciod: Error loading allreduce_int_V1R1.rts: invalid or missing program image, No such file or directory\nciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1498./hpl_DD: invalid or missing program image, No such file or directory\nciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1501./hpl_DD: invalid or missing program image, No such file or directory\nciod: Error loading ./runtime_malloc: invalid or missing program image, No such file or directory"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/Gunnels/VNM64/vnm.rts: invalid or missing program image, Permission denied\nciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied\nciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts: invalid or missing program image, Permission denied\nciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.102905_opt_essl_cpm: invalid or missing program image, Permission denied\nciod: Error loading /g/g0/spelce1/HPCC_IBM/Urgent/COP/64K/RandomAccess.64R.rts: invalid or missing program image, Permission denied\nciod: Error loading /p/gb1/stella/SPPM/1322/sppm_DD: invalid or missing program image, Permission denied\nciod: Error loading /p/gb1/stella/UMT2K/1372/umt2k_DD: invalid or missing program image, Permission denied\nciod: Error loading /p/gb1/stella/UMT2K/1325/umt2k_DD: invalid or missing program image, Permission denied\nciod: Error loading /p/gb1/stella/UMT2K/1369/umt2k_DD: invalid or missing program image, Permission denied"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "1 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 6\n2 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 4\n1 ddr errors(s) detected and corrected on rank 0, symbol 8, bit 7\n1 ddr errors(s) detected and corrected on rank 0, symbol 17, bit 1\n3 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 0\n1 ddr errors(s) detected and corrected on rank 0, symbol 17, bit 7\n2 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 6\n1 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 1\n1 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 7\n1 ddr errors(s) detected and corrected on rank 0, symbol 20, bit 3"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error\nciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: LOGIN chdir(/home/germann2/SPaSM_static) failed: No such file or directory\nciod: LOGIN chdir(/home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST) failed: No such file or directory\nciod: LOGIN chdir(/home/yates/SWL_tests/BGL64k_SWL_tests_develop/MPI-VAL/MPITs_v050902/rundir) failed: No such file or directory\nciod: LOGIN chdir(/g/g0/spelce1/Linpack_SWL) failed: No such file or directory"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: Received signal 15, code=0, errno=0, address=0x000001b0\nciod: Received signal 15, code=0, errno=0, address=0x000001b2\nciod: Received signal 15, code=0, errno=0, address=0x0000044a\nciod: Received signal 15, code=0, errno=0, address=0x0000044d\nciod: Received signal 15, code=0, errno=0, address=0x00001a12\nciod: Received signal 15, code=0, errno=0, address=0x000001f8\nciod: Received signal 15, code=0, errno=0, address=0x000001f5\nciod: Received signal 15, code=0, errno=0, address=0x000001f2"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "total of 1 ddr error(s) detected and corrected\ntotal of 23 ddr error(s) detected and corrected\ntotal of 4 ddr error(s) detected and corrected\ntotal of 2 ddr error(s) detected and corrected\ntotal of 12 ddr error(s) detected and corrected"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "data store interrupt caused by dcbf.........0\ndata store interrupt caused by icbi.........0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "Node card VPD check: U11 node in processor card slot J16 do not match. VPD ecid 04DF80A7942FFFFF0C081AE08CD2, found 0000000000000000000000000000\nNode card VPD check: U01 node in processor card slot J14 do not match. VPD ecid 074C04C10F7BFFFF08051AE08ED2, found 04C180A5D12FFFFF05081BD088E2\nNode card VPD check: U11 node in processor card slot J18 do not match. VPD ecid 04CC81389C2FFFFF03071B7048DF, found 04D780871F2FFFFF08031BD046E2\nNode card VPD check: U01 node in processor card slot J15 do not match. VPD ecid 04DE7DB80D7BFFFF04051B70D8D9, found 04DE7DF2D37BFFFF09081B6088D9\nNode card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 04D97DB7937BFFFF05071B7054DA, found 04D081A3892FFFFF0D0B1C505AF3\nNode card VPD check: U01 node in processor card slot J08 do not match. VPD ecid 075F04E8A27BFFFF07021C3096ED, found 04D78137922FFFFF040E1C3052ED\nNode card VPD check: U11 node in processor card slot J04 do not match. VPD ecid 04D58088CB2FFFFF08031C104CE9, found 04CA80D8012FFFFF08061A8094CB\nNode card VPD check: U11 node in processor card slot J10 do not match. VPD ecid 07570DD8002FFFFF09031B7090E2, found 04D480D8482FFFFF0A071BA052DE\nNode card VPD check: U01 node in processor card slot J05 do not match. VPD ecid 04D37DF2DE7BFFFF0D081AF0DAD2, found 04DD80740E2FFFFF0A0C19D0CEBD"
+    }
+]

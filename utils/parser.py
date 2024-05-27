@@ -43,7 +43,7 @@ class Cluster_Parser:
         )
         return response.choices[0].message.content.strip('\n')
     
-    def get_responce(self, f, cluster, clusters_num, cached_pairs=[], sample_pairs=[], shot = 0):
+    def get_responce(self, cluster, clusters_num, cached_pairs=[], sample_pairs=[], shot = 0):
         logs =cluster.logs
         length = len(cluster.indexs)
         sample_log = logs[0]
@@ -56,7 +56,6 @@ class Cluster_Parser:
             for log in cluster.static_logs:
                 match_result = matches_template(log, cached_pair)
                 if match_result != None:
-
                     cluster, new_cluster = prune_from_cluster(
                         cached_pair[1], cluster, clusters_num)
                     print(f"cache hit: {match_result}")
@@ -70,22 +69,21 @@ class Cluster_Parser:
             nearest_k_pairs = nearest_k_pairs_from_log(
                 sample_log, sample_pairs, shot)
             for i in range(shot):
-                # demonstrations += f"\nThe template of log `{nearest_k_pairs[shot - i - 1][0]}` is `{nearest_k_pairs[shot - i - 1][1]}`"
-                demonstrations += f"Log message: `{nearest_k_pairs[i][0]}`\nLog template: `{nearest_k_pairs[i][1].replace('<*>', '{{variable}}')}`\n"
+                # demonstrations += f"\nThe template of log message `{nearest_k_pairs[shot - i - 1][0]}` is `{nearest_k_pairs[shot - i - 1][1]}`." 
+                demonstrations += f"Log message: `{nearest_k_pairs[shot - i - 1][0]}`\nLog template: `{nearest_k_pairs[shot - i - 1][1].replace('<*>', '{{variable}}')}`\n"
 
-        # # instruction for over parsing
-        # if len(logs) == 1 and not any(char.isdigit() for char in sample_log):
-        #     additional_incontext = ' There might be no variables in the log message.'
 
 
         # prompt format: instruction + (demonstration) + query(logs)
+        instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message." + demonstrations +"\nPrint the input log's template delimited by backticks."
         instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
-
+        
         # ablation for clustering
         # instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template separated by line break."
 
         if demonstrations != '':
-            query = demonstrations + 'Log message: ' + '\n'.join([f'`{log}`'for log in logs])
+            query = demonstrations + 'Log message: ' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
+            # query = 'Log message: ' + '\n'.join([f'`{log}`'for log in logs])
         else:
             query = '\n'.join(logs)
     

@@ -3,9 +3,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from utils.algorithms import dpp_sample, entropy_calculate
 from utils.sample_byword import extract_variables
-from utils.cluster import Cluster
 import random
-
+from sklearn.cluster import KMeans
+import numpy as np
 
 # entropy based sampling
 # messages.append({"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
@@ -101,3 +101,46 @@ def sample_byword(df, k, method='dpp', showLogs=False):
             if var not in vars:
                 vars.append(var)
     return set(vars)
+
+
+def group_samples_clustering(logs, num_in_batch):
+    def _calculate_cos_similarities(v1: np.array, v2: np.array):
+        num = np.dot(v1, v2.T)
+        denom = np.linalg.norm(v1, axis=1).reshape(-1, 1) * \
+            np.linalg.norm(v2, axis=1)
+        similarity_matrix = num / denom
+        similarity_matrix[np.isneginf(similarity_matrix)] = 0
+        similarity_matrix = 0.5 + 0.5 * similarity_matrix
+        return similarity_matrix
+
+    vectorizer = TfidfVectorizer(stop_words='english')
+    tfidf_matrix = vectorizer.fit_transform(logs)
+    embed_matrix = tfidf_matrix.toarray()
+
+    if embed_matrix.shape[0] % num_in_batch:
+        n_clusters = embed_matrix.shape[0] // num_in_batch + 1
+    else:
+        n_clusters = embed_matrix.shape[0] // num_in_batch
+
+    # K-means clustering
+    kmeans = KMeans(n_clusters=n_clusters, random_state=0,
+                    n_init="auto").fit(embed_matrix)
+    similarity_matrix = _calculate_cos_similarities(
+        embed_matrix, kmeans.cluster_centers_)  # [n_samples, n_clusters]
+    similarity_rankings = np.argsort(-similarity_matrix, axis=1)
+    groups = [[] for _ in range(n_clusters)]
+    for sample_idx, label in enumerate(kmeans.labels_):
+        groups[label].append(sample_idx)
+    # Reassign to equalize the number of samples in each cluster
+    for group_idx, group in enumerate(groups):
+        if len(group) > num_in_batch:
+            groups[group_idx] = sorted(
+                group, key=lambda x: similarity_matrix[x, group_idx], reverse=True)
+            samples_to_reassign = groups[group_idx][num_in_batch:]
+            groups[group_idx] = groups[group_idx][:num_in_batch]
+            for sample_idx in samples_to_reassign:
+                for candi_group_idx in similarity_rankings[sample_idx]:
+                    if len(groups[candi_group_idx]) < num_in_batch:
+                        groups[candi_group_idx].append(sample_idx)
+                        break
+    return groups
