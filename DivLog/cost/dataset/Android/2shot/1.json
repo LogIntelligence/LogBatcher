@@ -1,0 +1,2 @@
+{"text": "getMode...", "label": "getMode...", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis={vis} mask={mask} oldVal={oldVal} newVal={newVal} diff={diff} fullscreenStackVis={fullscreenStackVis} dockedStackVis={dockedStackVis}, fullscreenStackBounds=Rect({fullscreenStackBounds}), dockedStackBounds=Rect({dockedStackBounds})", "type": 1}

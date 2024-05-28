@@ -1,0 +1,2 @@
+{"text": "removing ftp", "label": "removing {service}", "type": 1}
+{"text": "RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131563319 when last update time is 1131563319 (minimum one second step)", "label": "RRD_update ({path}): illegal attempt to update using time {timestamp} when last update time is {timestamp} (minimum one second step)", "type": 1}

@@ -1,0 +1,2 @@
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok {path}", "type": 1}
+{"text": "jk2_init() Found child 32668 in scoreboard slot 10", "label": "jk2_init() Found child {child} in scoreboard slot {slot}", "type": 1}

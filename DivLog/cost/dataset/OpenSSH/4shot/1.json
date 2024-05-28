@@ -1,0 +1,4 @@
+{"text": "Invalid user postgres1 from 187.141.143.180", "label": "Invalid user {user} from {ip}", "type": 1}
+{"text": "reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!", "label": "reverse mapping checking getaddrinfo for {hostname} [{ip_address}] failed - POSSIBLE BREAK-IN ATTEMPT!", "type": 1}
+{"text": "pam_unix(sshd:auth): check pass; user unknown", "label": "pam_unix(sshd:auth): check pass; user unknown", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 51094 ssh2", "label": "Failed password for {user} from {ip} port {port} ssh2", "type": 1}

@@ -1,0 +1,4 @@
+{"text": "Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Unknown base file: {path}", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image {instance} at ({path}): in use: on this node {count} local, {count} on other nodes sharing this instance storage", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image {instance} at ({path}): checking", "type": 1}
+{"text": "10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/43204226-2f87-4da7-b7ee-4d20cc66e846 HTTP/1.1\" status: 204 len: 203 time: 0.2904482", "label": "{ip_address} \"DELETE {endpoint}\" status: {status} len: {len} time: {time}", "type": 1}

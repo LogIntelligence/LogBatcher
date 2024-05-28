@@ -45,7 +45,8 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-key', type=str, default="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", help='openai key')
+    parser.add_argument(
+        '-key', type=str, default="sk-proj-5EkdZfTfjJ1GJim17pgQT3BlbkFJHCMqWAOX7dTSGOcFOjrn", help='openai key')
     parser.add_argument('--log_path', type=str, default='dataset', help='log path')
     parser.add_argument('--result_path', type=str, default='results', help='result path')
     parser.add_argument('--map_path', type=str, default='maps', help='map path')

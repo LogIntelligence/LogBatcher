@@ -370,7 +370,7 @@ and put the template after <extraction> tag and between <START> and <END> tags."
       else:
         # if the result file does not exist, use api to generate result
         print("Result file does not exist, generating result ...")
-        list_prompt = []
+        prompt_list = {}
         for line_idx in tqdm(range(len(self.log_test[:limit]))):
             re_id = 0
             temperature = 0
@@ -379,43 +379,45 @@ and put the template after <extraction> tag and between <START> and <END> tags."
             token_len = len(enc.encode(line.strip())) + 20
             # get a prompt with five examples for each log message
             prompt, similarist_gt = self.generatePrompt(line, nearest_num=N)
-            list_prompt.append(instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ")
-        with open(f'cost/cost_divlog_for_{self.dataset}.json', 'w', encoding='utf-8') as file:
-            json.dump(list_prompt, file, ensure_ascii=False, indent=4)
-        while True:
-            try:
-                response = openai.Completion.create(
-                    model=model, 
-                    prompt=instruction + "\n\n\n" + prompt + "<prompt>:" + line.strip() + "\n<extraction>: ", 
-                    temperature=temperature,
-                    max_tokens=token_len)
-            except Exception as e: # if exception occurs
-                print(e)
-                re_id += 1
-                if re_id < 5:
-                    time.sleep(0.1)
-                else:
-                    result = similarist_gt
-                answer_list.append(result)
-                print("Too long waiting time, raw log: {}".format(line) + '\n')
-                break
-            else:
-                # if no exception, the model response a dict
-                # to avoid empty response
-                result = self.extractResultTemplate(response["choices"][0]["text"])
-                if result != "":
+            full_prompt = instruction + "\n\n\n" + prompt + \
+                "<prompt>:" + line.strip() + "\n<extraction>: "
+            if full_prompt in prompt_list:
+                answer_list.append(prompt_list[full_prompt])
+                continue
+            while True:
+                try:
+                    response = openai.Completion.create(
+                        model=model, 
+                        prompt=full_prompt, 
+                        temperature=temperature,
+                        max_tokens=token_len)
+                except Exception as e: # if exception occurs
+                    print(e)
+                    re_id += 1
+                    if re_id < 5:
+                        time.sleep(0.1)
+                    else:
+                        result = similarist_gt
                     answer_list.append(result)
+                    print("Too long waiting time, raw log: {}".format(line) + '\n')
                     break
                 else:
-                    if re_id >= 1:
-                        result = similarist_gt
+                    # if no exception, the model response a dict
+                    # to avoid empty response
+                    result = self.extractResultTemplate(response["choices"][0]["text"])
+                    if result != "":
                         answer_list.append(result)
                         break
                     else:
-                        token_len += 10
-                        re_id += 1
-                        temperature += 0.25
-
+                        if re_id >= 1:
+                            result = similarist_gt
+                            answer_list.append(result)
+                            break
+                        else:
+                            token_len += 10
+                            re_id += 1
+                            temperature += 0.25
+                    prompt_list[full_prompt] = result
       print("Writing result into {} ...".format(self.result_path))
       if not os.path.exists(self.result_path):
         self.writeResult(answer_list, self.result_path, limit)

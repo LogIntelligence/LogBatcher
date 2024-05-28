@@ -120,6 +120,7 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
+    datasets = ['Thunderbird', 'Spark', 'Linux']
     model = args.model
     module = ''
     if 'gpt' not in model:
