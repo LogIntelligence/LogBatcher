@@ -4,9 +4,9 @@
 # done
 model=(mistralai/Mixtral-8x7B-Instruct-v0.1 mistralai/Mistral-7B-Instruct-v0.3)
 
-for i in "${model[@]}"; do
-    D:/Develop/anaconda/envs/langchain38/python.exe parsing_for_2k.py --model "$i"
-done
+# for i in "${model[@]}"; do
+#     D:/Develop/anaconda/envs/langchain38/python.exe parsing_for_2k.py --model "$i"
+# done
 
 # for a in 5 15 20
 # do
@@ -17,3 +17,8 @@ done
 # do
 #     D:/Develop/anaconda/envs/langchain38/python.exe parsing_for_2k.py --shot $a
 # done
+
+for i in 1 2 3
+do
+    D:/Develop/anaconda/envs/langchain38/python.exe parsing_for_2k.py --rerun $i
+done

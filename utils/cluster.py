@@ -19,7 +19,7 @@ class Cluster:
         # self.shuffle()
         # self.mutation()
         if remove_duplicate:
-            # self.remove_duplicate()
+            self.remove_duplicate()
 
             # ablation: without batching
             # self.logs = [self.logs[0]]
@@ -53,14 +53,13 @@ class Cluster:
 
         # sample
         if self.sample_method == "dpp":
-        
             similarity_matrix = cosine_similarity(tfidf_matrix)
             result = dpp_sample(similarity_matrix, remain_num)
         elif self.sample_method == "random":
             random.seed(0)
             result = random.sample(range(0, len(self.logs)), remain_num)
         elif self.sample_method == "similar":
-            result = group_samples_clustering(self.logs, remain_num)[0]
+            result = group_samples_clustering(tfidf_matrix, remain_num)[0]
         else:
             raise ValueError("Invalid sample method")
         self.logs = [self.logs[i] for i in result]
@@ -69,7 +68,6 @@ class Cluster:
 def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
     words = re.split(tokenize_pattern, log_content)
     new_words = []
-    list = ['/', 'kb', 'sec', 'byte', 'mb']
     list = ['/']
     for index, word in enumerate(words):
         if '=' in word:

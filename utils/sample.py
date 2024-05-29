@@ -103,7 +103,7 @@ def sample_byword(df, k, method='dpp', showLogs=False):
     return set(vars)
 
 
-def group_samples_clustering(logs, num_in_batch):
+def group_samples_clustering(embed_matrix, num_in_batch):
     def _calculate_cos_similarities(v1: np.array, v2: np.array):
         num = np.dot(v1, v2.T)
         denom = np.linalg.norm(v1, axis=1).reshape(-1, 1) * \
@@ -112,10 +112,6 @@ def group_samples_clustering(logs, num_in_batch):
         similarity_matrix[np.isneginf(similarity_matrix)] = 0
         similarity_matrix = 0.5 + 0.5 * similarity_matrix
         return similarity_matrix
-
-    vectorizer = TfidfVectorizer(stop_words='english')
-    tfidf_matrix = vectorizer.fit_transform(logs)
-    embed_matrix = tfidf_matrix.toarray()
 
     if embed_matrix.shape[0] % num_in_batch:
         n_clusters = embed_matrix.shape[0] // num_in_batch + 1
