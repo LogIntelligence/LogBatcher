@@ -11,3 +11,8 @@ __pycache__/
 # PyCharm
 .idea/
 logparser/
+
+.gitignore
+evaluation.ipynb
+utils.demostration_infromationentropy
+tuils/oracle_template_correction/
