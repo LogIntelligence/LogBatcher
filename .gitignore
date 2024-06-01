@@ -11,3 +11,5 @@ __pycache__/
 # PyCharm
 .idea/
 logparser/
+
+.gitignore

@@ -2,7 +2,6 @@ import os
 from utils.evaluator import evaluate
 import pandas as pd
 from IPython.display import HTML
-from utils.email import Email_send
 
 
 def calculate_avg(numbers, round_num = 4):
@@ -12,7 +11,7 @@ def calculate_avg(numbers, round_num = 4):
     return numbers
 
 
-def evaluate_all_datasets(file_name, send_email=False):
+def evaluate_all_datasets(file_name):
 
     table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Windows Linux Android HealthApp Apache OpenSSH OpenStack Mac'
     datasets = table_order.split(' ')
@@ -49,9 +48,6 @@ def evaluate_all_datasets(file_name, send_email=False):
         df.to_csv(result_table_path, index=False)
 
     table = df.to_html(index=False)
-    if send_email:
-        sender = Email_send(file_name)
-        sender.send_table(table)
     return table
 
 

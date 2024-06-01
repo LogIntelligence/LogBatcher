@@ -17,7 +17,6 @@ class Cluster_Parser:
     def __init__(self, theme, config):
         
         self.model = config['model']
-        self.batch_num = config['batch_num']
         self.theme = theme
         if 'gpt' in self.model:
             self.api_key = config['api_key_from_openai']

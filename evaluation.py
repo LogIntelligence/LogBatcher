@@ -23,7 +23,6 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
 
     # output file
-    os.makedirs(output_dir, exist_ok=True)
 
     outputs = [None for _ in range(2000)]
     tmps_list = [None for _ in range(2000)]
@@ -110,8 +109,6 @@ def set_args():
                         help='The size of a batch')
     parser.add_argument('--sample_method', type=str, default='dpp',
                         help='Sample method: dpp, random, similar.')
-    parser.add_argument('--rerun', type=int, default=1,
-                        help='rerun')
     # 解析命令行参数
     args = parser.parse_args()
     # 调用处理函数
@@ -133,9 +130,14 @@ if __name__ == "__main__":
     elif module:
         theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_{module}"
     else:
-        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_with_{args.rerun}"
+        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize"
 
     output_dir = f'outputs/parser/{theme}/'
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    else:
+        print(f'{output_dir} already exists.\nresults is here: {output_dir}')
+        exit()
     with open('config.json', 'r') as f:
         config = json.load(f)
     config['model'] = args.model
@@ -151,4 +153,4 @@ if __name__ == "__main__":
             Concurrent=False,
             sample_method = args.sample_method
         )
-    # evaluate_all_datasets(theme,send_email=True)
+    evaluate_all_datasets(theme,send_email=True)
