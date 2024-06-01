@@ -1,24 +1,31 @@
+from collections import OrderedDict
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import DBSCAN
-from utils.sample_byword import dpp_sample
+from utils.algorithms import dpp_sample
+from utils.sample import group_samples_clustering
 from utils.util import mutate
 import random
 
 class Cluster:
-    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=False, remain_num=10, sample_method="dpp"):
+    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=True, remain_num=10, sample_method="dpp"):
         self.label = label
+        self.static_logs = logs
         self.logs = logs
         self.indexs = indexs
         self.oracle_template = oracle_template
         self.sample_method = sample_method
-        self.shuffle()
+        # self.shuffle()
         # self.mutation()
         if remove_duplicate:
             self.remove_duplicate()
-            # if len(self.logs) > remain_num:
-            #     self.sample(remain_num)
+
+            # ablation: without batching
+            # self.logs = [self.logs[0]]
+
+            if len(self.logs) > remain_num:
+                self.sample(remain_num)
     
     def mutation(self):
         length = len(self.logs)
@@ -30,8 +37,8 @@ class Cluster:
                     self.logs[0].replace(token, mutate(token))
     
     def remove_duplicate(self):
-        self.logs = list(set(self.logs))
-
+        # self.logs = list(set(self.logs))
+        self.logs = list(OrderedDict.fromkeys(self.logs))
 
     def shuffle(self):
         seed = 0
@@ -51,13 +58,16 @@ class Cluster:
         elif self.sample_method == "random":
             random.seed(0)
             result = random.sample(range(0, len(self.logs)), remain_num)
+        elif self.sample_method == "similar":
+            result = group_samples_clustering(tfidf_matrix, remain_num)[0]
+        else:
+            raise ValueError("Invalid sample method")
         self.logs = [self.logs[i] for i in result]
         return
 
 def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
     words = re.split(tokenize_pattern, log_content)
     new_words = []
-    list = ['/', 'kb', 'sec', 'byte', 'mb']
     list = ['/']
     for index, word in enumerate(words):
         if '=' in word:
@@ -82,7 +92,7 @@ def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
 
 
 def vectorize(tokenized_logs):
-    vectorizer = TfidfVectorizer(tokenizer=lambda x: x, lowercase=False)
+    vectorizer = TfidfVectorizer(tokenizer=lambda x: x, lowercase=False, token_pattern=None)
     return vectorizer.fit_transform(tokenized_logs)
 
 

@@ -1,6 +1,8 @@
 from collections import Counter
 import random
 
+import tiktoken
+
 def choose(tmps: list, templates : list):
     """
     choose the most frequent template from the list
@@ -85,3 +87,39 @@ def truncate(logs : list, max_length : int):
 
     prompt = '\n'.join(logs)
     return prompt
+
+
+def count_prompt_tokens(prompt, model_name):
+    # 根据模型名称加载合适的编码器
+    if model_name == "gpt-4":
+        encoder = tiktoken.encoding_for_model("gpt-4")
+    elif model_name == "gpt-3.5-turbo":
+        encoder = tiktoken.encoding_for_model("gpt-3.5-turbo")
+    else:
+        raise ValueError("未知的模型名称")
+
+    # 计算编码后的token数
+    prompt_tokens = encoder.encode(prompt)
+    return len(prompt_tokens)
+
+
+def count_message_tokens(messages, model_name):
+    # 根据模型名称加载合适的编码器
+    if model_name == "gpt-4":
+        encoder = tiktoken.encoding_for_model("gpt-4")
+    elif model_name == "gpt-3.5-turbo":
+        encoder = tiktoken.encoding_for_model("gpt-3.5-turbo")
+    else:
+        raise ValueError("未知的模型名称")
+
+    # 初始化token计数
+    token_count = 0
+
+    # 计算每个消息的token数
+    for message in messages:
+        role_tokens = encoder.encode(message['role'])
+        content_tokens = encoder.encode(message['content'])
+        token_count += len(role_tokens) + \
+            len(content_tokens) + 4  # 加上特殊的消息分隔符的token数
+
+    return token_count

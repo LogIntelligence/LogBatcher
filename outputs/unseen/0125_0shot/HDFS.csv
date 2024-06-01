@@ -1,3 +1,0 @@
-Output,EventTemplate
-10.250.15.198:50010 Starting thread to transfer block blk_4292382298896622412 to 10.250.15.240:50010,<*> Starting thread to transfer block <*> to <*>
-BLOCK* ask 10.250.14.38:50010 to replicate blk_-7571492020523929240 to datanode(s) 10.251.122.38:50010,BLOCK* ask <*> to replicate <*> to datanode(s) <*>

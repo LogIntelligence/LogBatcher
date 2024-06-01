@@ -1,120 +1,157 @@
+import json
 import re
 from openai import OpenAI
+from together import Together
 from tenacity import retry, stop_after_attempt, wait_random_exponential
-from utils.postprocess import post_process
+from utils.postprocess import post_process, post_process_for_batch_output
+from utils.prune import prune_from_cluster
+from utils.sample import nearest_k_pairs_from_log
 from utils.util import choose, truncate
-from utils.sample_byword import matches_template
+from utils.sample_byword import extract_variables, matches_template
+from utils.cluster import Cluster
+from utils.postprocess import correct_single_template
 import httpx
 
 class Cluster_Parser:
     
-    def __init__(self, config):
-        self.api_key = config['api_key']
+    def __init__(self, theme, config):
+        
         self.model = config['model']
-        self.batch_num = config['batch_num']
-        self.instruction_for_batch_logs = config['instruction_for_batch_logs']
-        self.instruction_for_one_log = config['instruction_for_one_log']
-        self.additional_incontext = config['additional_incontext']
-        if config['transfer_url']:
+        self.theme = theme
+        if 'gpt' in self.model:
+            self.api_key = config['api_key_from_openai']
             self.client = OpenAI(
-                base_url=config['transfer_url'],  # 中转url
-                api_key=self.api_key,                      # api_key
+                api_key=self.api_key,   # api_key
                 http_client=httpx.Client(
-                    proxies=config['proxies']  # 代理地址
+                    proxies="http://127.0.0.1:7890"  # proxies
                 ),
             )
         else:
-            self.client = OpenAI(
-                api_key=self.api_key,                      # api_key
-                http_client=httpx.Client(
-                    proxies=config['proxies']  # 代理地址
-                ),
-            )
+            self.api_key = config['api_key_from_together']
+            self.client = Together(
+                    api_key=self.api_key   # api_key
+                )
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
     @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
-    def chat(self, messages, add=0):
+    def chat(self, messages):
         response = self.client.chat.completions.create(
             model=self.model,
             messages=messages,
-            temperature=0.0 + add*0.5,
+            temperature=0.0,
         )
-        if response.model != self.model:
-            print(f"model error: {response.model}")
         return response.choices[0].message.content.strip('\n')
     
-    def get_responce(self, f, cluster, cached_pairs=[]):
-        label, logs, indexs, ground_truth = cluster.label, cluster.logs, cluster.indexs, cluster.oracle_template
-    
-        length = len(indexs)
+    def get_responce(self, cluster, clusters_num, cached_pairs=[], sample_pairs=[], shot = 0):
+        logs =cluster.logs
+        length = len(cluster.indexs)
+        sample_log = logs[0]
+        if type(logs) == str:
+            logs = [logs]
+        new_cluster = None
 
-        tmps = []
-        templates = []
-
-        for i in range(0, len(logs), self.batch_num):
-            batch_logs = logs[i:i+self.batch_num]
-            # if all logs's length is 1, and not contain any digit, return the log itself
-            # can't handle log like setLightOn(true)
-            if all(len(re.split(' ', log)) == 1 and not any(char.isdigit() for char in log) for log in batch_logs):
-                return [],batch_logs[0]
-
-            # cache
-            additional_incontext = ''
-            for cached_pair in cached_pairs:
-                match_result = matches_template(batch_logs[0], cached_pair)
+        # caching
+        for cached_pair in cached_pairs:
+            for log in cluster.static_logs:
+                match_result = matches_template(log, cached_pair)
                 if match_result != None:
-                    f.write(f"---------------------------\n")
-                    f.write(f"cluster {label}: len={length}\n")
-                    f.write(f"{ground_truth} (ground truth)\n")
-                    f.write(f"{match_result} (match result)\n")
-                    f.write(f"---------------------------\n")
-                    return [], match_result 
-                    # additional_incontext = f"Based on the previous logs, the template is likely to be: {cached_template.replace('<*>', '{{variable}}')}"
-                    # break
-            # end
+                    cluster, new_cluster = prune_from_cluster(
+                        cached_pair[1], cluster, clusters_num)
+                    print(f"cache hit: {match_result}")
+                    return '', match_result, cluster, new_cluster
 
-            # prompt format: instruction + (demonstration) + query(logs)
-            messages = []
+        demonstrations = ''
+        can_match = False
 
-            # instruction
-            if len(batch_logs) == 1:
-                messages.append({"role": "system", "content": self.instruction_for_one_log})
-            else:
-                messages.append({"role": "system", "content": self.instruction_for_batch_logs})
-
-            # entropy based sampling
-            # messages.append({"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
-            # messages.append({"role": "assistant", "content": '`{{timestamp}} ksfetch[{{process_and_thread_id}}] [lvl={{log_level}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{request_id}}> { URL: {{request_url}} }) to folder:{{folder_path}}`'})
+        # using labelled data
+        if shot > 0:
+            nearest_k_pairs = nearest_k_pairs_from_log(
+                sample_log, sample_pairs, shot)
+            for i in range(shot):
+                # demonstrations += f"\nThe template of log message `{nearest_k_pairs[shot - i - 1][0]}` is `{nearest_k_pairs[shot - i - 1][1]}`." 
+                demonstrations += f"Log message: `{nearest_k_pairs[shot - i - 1][0]}`\nLog template: `{nearest_k_pairs[shot - i - 1][1].replace('<*>', '{{variable}}')}`\n"
 
 
-            # query
-            prompt = truncate(batch_logs, 4096)
-            messages.append(
-                {"role": "user", "content": f"{prompt}\n{additional_incontext}".strip('\n')})
+
+        # prompt format: instruction + (demonstration) + query(logs)
+        instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message." + demonstrations +"\nPrint the input log's template delimited by backticks."
+        instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+        
+        # ablation for clustering
+        # instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template separated by line break."
+
+        if demonstrations != '':
+            query = demonstrations + 'Log message: ' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
+            # query = 'Log message: ' + '\n'.join([f'`{log}`'for log in logs])
+        else:
+            query = '\n'.join(logs)
+    
+        # messages
+        messages = [
+            {"role": "system", "content": instruction},
+            {"role": "user", "content":  query}
+        ]
+
+        with open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8') as file:
+            json.dump(messages, file, ensure_ascii=False, indent=4)
+            file.write('\n')
+        
+        # for i in range(3):
+        answer = self.chat(messages)
 
 
-            for i in range(3):
-                answer = self.chat(messages, add=i)
-                tmp, template = post_process(response = answer, reference_log = batch_logs[0]) # tmp means the template before post process
-                if template != '':
-                    tmps.append(tmp)
-                    templates.append(template)
+        tmp, template = post_process(answer)
+        if template == '':
+            can_match = False
+        else:
+            # matching
+            for log in logs:
+                matches = extract_variables(log, template)
+                if matches != None:
+                    # refine for the empty variable
+                    parts = template.split('<*>')
+                    template = parts[0]
+                    for index, match in enumerate(matches):
+                        if match != '':
+                            template += '<*>'
+                        template += parts[index + 1]
+                    can_match = True
                     break
-                else:
-                    pass
+        # pruning
+        if can_match:
+            cluster, new_cluster = prune_from_cluster(
+                template, cluster, clusters_num)
+        else:
+            template = correct_single_template(sample_log)
+            print(f"can not match any log in this batch, return a sampled log as template")
 
+        # ablation for clustering:
+        # tmp = ''
+        # match_template = ''
+        # templates = post_process_for_batch_output(answer)
+        # for template in templates:
+        #     for log in logs:
+        #         matches = extract_variables(log, template)
+        #         if matches != None:
+        #             # refine for the empty variable
+        #             parts = template.split('<*>')
+        #             template = parts[0]
+        #             for index, match in enumerate(matches):
+        #                 if match != '':
+        #                     template += '<*>'
+        #                 template += parts[index + 1]
+        #             match_template =template
+        #             break
 
-        final_template, freq, freq_tmp = choose(tmps, templates)
-        if templates == []:
-            print("no template found, should inference again")
+        # # pruning
+        # if match_template != '':
+        #     template = match_template
+        #     cluster, new_cluster = prune_from_cluster(
+        #         match_template, cluster, clusters_num)
+        # else:
+        #     template = correct_single_template(sample_log)
+        #     print(f"can not match any log in this batch, return a sampled log as template")
 
-        f.write(f"---------------------------\n")
-        f.write(f"cluster {label}: len={length}\n")
-        f.write(f"{ground_truth} (ground truth)\n")
-        f.write(f"{final_template} (final_template)\n")
-        for key, value in freq_tmp.items():
-            f.write(f"{key}: {value}\n")
-        for key, value in freq.items():
-            f.write(f"{key}: {value}\n")
-        f.write(f"---------------------------\n")
-        return tmps, final_template
+        
+        print(f"final template: {template}")
+        return tmp, template, cluster, new_cluster
