@@ -1,18 +1,7 @@
-
-dataset/BGL/BGL_full.log_structured.csv
-outputs/parser/Test_full_dataset/BGL.csv
-
+# vscode and pycahce
 .vscode/
 __pycache__/
 
-# macOS
-.DS_Store
+# figures
+outputs/figures/
 
-# PyCharm
-.idea/
-logparser/
-
-.gitignore
-evaluation.ipynb
-utils.demostration_infromationentropy
-tuils/oracle_template_correction/
