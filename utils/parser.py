@@ -42,6 +42,27 @@ class Cluster_Parser:
         )
         return response.choices[0].message.content.strip('\n')
     
+    # @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
+    def inference(self, prompt):
+        retry_times = 0
+        output = ''
+        while True:
+            try:
+                response = self.client.completions.create(
+                    model=self.model,
+                    prompt=prompt,
+                    temperature=0.0,
+                )
+                output = response.choices[0].text.strip('\n')
+            except Exception as e:
+                print(e)
+                retry_times += 1
+                if retry_times > 3:
+                    return output
+            else:
+                return output
+            
+    
     def get_responce(self, cluster, clusters_num, cached_pairs=[], sample_pairs=[], shot = 0):
         logs =cluster.logs
         length = len(cluster.indexs)
@@ -68,36 +89,40 @@ class Cluster_Parser:
             nearest_k_pairs = nearest_k_pairs_from_log(
                 sample_log, sample_pairs, shot)
             for i in range(shot):
-                # demonstrations += f"\nThe template of log message `{nearest_k_pairs[shot - i - 1][0]}` is `{nearest_k_pairs[shot - i - 1][1]}`." 
                 demonstrations += f"Log message: `{nearest_k_pairs[shot - i - 1][0]}`\nLog template: `{nearest_k_pairs[shot - i - 1][1].replace('<*>', '{{variable}}')}`\n"
 
-
-
         # prompt format: instruction + (demonstration) + query(logs)
-        instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message." + demonstrations +"\nPrint the input log's template delimited by backticks."
         instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
         
         # ablation for clustering
         # instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template separated by line break."
 
         if demonstrations != '':
-            query = demonstrations + 'Log message: ' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
+            query = demonstrations + 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
             # query = 'Log message: ' + '\n'.join([f'`{log}`'for log in logs])
+        elif all(model_tpye not in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
+            query = 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
         else:
             query = '\n'.join(logs)
     
-        # messages
-        messages = [
-            {"role": "system", "content": instruction},
-            {"role": "user", "content":  query}
-        ]
-
-        with open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8') as file:
-            json.dump(messages, file, ensure_ascii=False, indent=4)
-            file.write('\n')
         
-        # for i in range(3):
-        answer = self.chat(messages)
+
+        # invoke LLM
+        cost_file = open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8')
+        if any(model_tpye in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
+            messages = [
+                {"role": "system", "content": instruction},
+                {"role": "user", "content":  query}
+            ]
+            json.dump(messages, cost_file, ensure_ascii=False, indent=4)
+            cost_file.write('\n')
+            answer = self.chat(messages)
+        else:
+            prompt = f"{instruction}\n{query}"
+            json.dump(prompt, cost_file, ensure_ascii=False, indent=4)
+            answer = self.inference(prompt)
+        cost_file.close()
+            
 
 
         tmp, template = post_process(answer)

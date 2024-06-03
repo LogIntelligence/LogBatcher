@@ -23,9 +23,8 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
 
     # output file
-
-    outputs = [None for _ in range(2000)]
-    tmps_list = [None for _ in range(2000)]
+    outputs = [None for _ in range(len(logs))]
+    tmps_list = [None for _ in range(len(logs))]
     
     inputs = []
     for i in range(cluster_nums):
@@ -153,4 +152,4 @@ if __name__ == "__main__":
             Concurrent=False,
             sample_method = args.sample_method
         )
-    evaluate_all_datasets(theme,send_email=True)
+    evaluate_all_datasets(theme)
