@@ -1,5 +1,6 @@
 import json
 import re
+import time
 from openai import OpenAI
 from together import Together
 from tenacity import retry, stop_after_attempt, wait_random_exponential
@@ -18,6 +19,7 @@ class Cluster_Parser:
         
         self.model = config['model']
         self.theme = theme
+        self.time_consumption_llm = 0
         if 'gpt' in self.model:
             self.api_key = config['api_key_from_openai']
             self.client = OpenAI(
@@ -35,11 +37,13 @@ class Cluster_Parser:
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
     @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
     def chat(self, messages):
+        t1 = time.time()
         response = self.client.chat.completions.create(
             model=self.model,
             messages=messages,
             temperature=0.0,
         )
+        self.time_consumption_llm += (time.time() - t1)
         return response.choices[0].message.content.strip('\n')
     
     # @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
@@ -78,9 +82,11 @@ class Cluster_Parser:
                 if match_result != None:
                     cluster, new_cluster = prune_from_cluster(
                         cached_pair[1], cluster, clusters_num)
-                    print(f"cache hit: {match_result}")
+                    print(cluster.logs)
+                    if new_cluster != None:
+                        print(new_cluster.logs)
+                    # print(f"cache hit: {match_result}")
                     return '', match_result, cluster, new_cluster
-
         demonstrations = ''
         can_match = False
 
@@ -126,6 +132,7 @@ class Cluster_Parser:
 
 
         tmp, template = post_process(answer)
+
         if template == '':
             can_match = False
         else:
@@ -148,7 +155,8 @@ class Cluster_Parser:
                 template, cluster, clusters_num)
         else:
             template = correct_single_template(sample_log)
-            print(f"can not match any log in this batch, return a sampled log as template")
+            # print(f"can not match any log in this batch, return a sampled log as template")
+
 
         # ablation for clustering:
         # tmp = ''
@@ -178,5 +186,5 @@ class Cluster_Parser:
         #     print(f"can not match any log in this batch, return a sampled log as template")
 
         
-        print(f"final template: {template}")
+        # print(f"final template: {template}")
         return tmp, template, cluster, new_cluster

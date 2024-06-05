@@ -19,5 +19,5 @@ def prune_from_cluster(template, cluster, cluster_nums):
         old_indexs = [index for index in indexs if index not in new_indexs]
         cluster.static_logs = old_logs
         cluster.indexs = old_indexs
-        print(f"prune {len(new_logs)} logs from {length} logs in mathcing process")
+        # print(f"prune {len(new_logs)} logs from {length} logs in mathcing process")
         return cluster, Cluster(cluster_nums, new_logs, new_indexs, '')

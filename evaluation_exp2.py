@@ -2,12 +2,16 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
 import os
+import time
 import pandas as pd
 from tqdm import tqdm
 from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
 from evaluate import evaluate_all_datasets, evaluate_single_dataset
 from utils.sample import sample_from_clusters
+from tqdm import tqdm
+
+
 
 
 def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, chunk_size ,Concurrent=True, sample_method = 'dpp'):
@@ -20,8 +24,8 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     outputs = [None for _ in range(len(logs))]
     tmps_list = [None for _ in range(len(logs))]
     cache_pairs = []
-
     for chunk_index,log_chunk in enumerate(logs_list):
+
         print(f"-" * 40)
         print(f"parsing the chunk {chunk_index}")
         print(f"-" * 40)
@@ -49,9 +53,9 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     
 
         # parse each cluster
-        for index, c in enumerate(clusters):
-            print(f"=" * 40)
-            print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
+        for index, c in enumerate(tqdm(clusters)):
+            # print(f"=" * 40)
+            # print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
             tmp, template, c, new_cluster = parser.get_responce( c, cluster_nums, cache_pairs, [], shot)
 
             # update clusters
@@ -67,12 +71,12 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
             for index in c.indexs:
                 outputs[index] = template
                 tmps_list[index] = tmp
-
+    t2 = time.time()
     # write to file
-    df['Tmps'] = tmps_list
-    df['EventTemplate'] = outputs
-    df[['Content','Tmps','EventTemplate']].to_csv(
-        output_dir + f'{dataset}_2k.log_structured.csv', index=False)
+    df_new = pd.DataFrame()
+    df_new['Content'] = logs
+    df_new['EventTemplate'] = outputs
+    df_new.to_csv(output_dir + f'{dataset}_2k.log_structured.csv', index=False)
     evaluate_single_dataset(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
 
 
@@ -99,24 +103,25 @@ def set_args():
 
 if __name__ == "__main__":
     args = set_args()
-    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
-                'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-
+    # datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
+    #             'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
+    datasets = ['HDFS']
     model = args.model
     
-    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.chunk_size}chunksize"
+    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.chunk_size}chunksize_full"
 
     output_dir = f'outputs/parser/{theme}/'
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    else:
-        print(f'{output_dir} already exists.\nresults is here: {output_dir}')
-        exit()
+    # if not os.path.exists(output_dir):
+    #     os.makedirs(output_dir)
+    # else:
+    #     print(f'{output_dir} already exists.\nresults is here: {output_dir}')
+    #     exit()
     with open('config.json', 'r') as f:
         config = json.load(f)
     config['model'] = args.model
-    parser = Cluster_Parser(theme, config)
+    
     for index, dataset in enumerate(datasets):
+        parser = Cluster_Parser(theme, config)
         single_dataset_paring(
             dataset=dataset, 
             output_dir=output_dir, 
@@ -129,4 +134,5 @@ if __name__ == "__main__":
             sample_method = args.sample_method
             
         )
+        print('time cost by llm: ', parser.time_consumption)
     # evaluate_all_datasets(theme)
