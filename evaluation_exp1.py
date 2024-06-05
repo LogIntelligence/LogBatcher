@@ -1,7 +1,7 @@
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
-import os
+import re
 import time
 import pandas as pd
 from tqdm import tqdm
@@ -13,20 +13,56 @@ from tqdm import tqdm
 
 from utils.sample_byword import matches_template
 
+def generate_logformat_regex(logformat):
+        """ Function to generate regular expression to split log messages
+        """
+        headers = []
+        splitters = re.split(r'(<[^<>]+>)', logformat)
+        regex = ''
+        for k in range(len(splitters)):
+            if k % 2 == 0:
+                splitter = re.sub(' +', '\\\s+', splitters[k])
+                regex += splitter
+            else:
+                header = splitters[k].strip('<').strip('>')
+                regex += '(?P<%s>.*?)' % header
+                headers.append(header)
+        regex = re.compile('^' + regex + '$')
+        return headers, regex
 
 
+def log_to_dataframe(log_file, regex, headers, size):
+        """ Function to transform log file to contents 
+        """
+        log_messages = []
+        linecount = 0
+        with open(log_file, 'r') as file:
+            for line in [next(file) for _ in range(size)]:
+                try:
+                    match = regex.search(line.strip())
+                    message = [match.group(header) for header in headers]
+                    log_messages.append(message[-1])
+                except Exception as e:
+                    pass
+        return log_messages
 
-def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, chunk_size ,Concurrent=True, sample_method = 'dpp'):
-    num = 1000000
-    print(f'Parsing {num/1000}k logs in dataset {dataset}...')
+
+def single_dataset_paring(dataset,log_format, output_dir, parser, shot, candidate, batch_size, chunk_size ,Concurrent=True, sample_method = 'dpp'):
+    # num = 1000000
+    # print(f'Parsing {int(num/1000)}k logs in dataset {dataset}...')
     t0 = time.time()
     # initialize
-    df = pd.read_csv(
-        f'dataset/{dataset}/{dataset}_full.log_structured.csv', nrows=num + 20)
+    # headers, regex = generate_logformat_regex(log_format)
+    # log_file = f'dataset/{dataset}/{dataset}.log'
+    # logs = log_to_dataframe(log_file, regex, headers, num)
+    # df = pd.read_csv(f'dataset/{dataset}/{dataset}_full.log_structured.csv', nrows=num + 10)
+    
+    df = pd.read_csv(f'dataset/{dataset}/{dataset}_full.log_structured.csv')
     logs = df['Content'].tolist()
-    logs = logs[:num]
+    # logs = logs[:num]
+    print(f'Parsing {len(logs)} logs in dataset {dataset}...')
     outputs = [None for _ in range(len(logs))]
-    cache_pairs = []
+    cache_pairs = {}
 
     log_chunk = []
     log_chunk_index = []
@@ -37,16 +73,24 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
 
     for index, log in enumerate(tqdm(logs)):
 
-        for cached_pair in cache_pairs:
-            match_result = matches_template(log, cached_pair)
-            if match_result != None:
+        if index % 10000 == 0 and len(cache_pairs) != 0:
+            cache_pairs = dict(sorted(cache_pairs.items(), key=lambda item: item[1][1], reverse=True))
+            # keys_to_remove = [k for k,v in cache_pairs.items() if v[1] == 0]
+            # for k in keys_to_remove:
+            #     del cache_pairs[k]
+
+        for template, value_f in cache_pairs.items():
+            match_result = matches_template(log, [value_f[0], template])
+            if match_result != None and match_result in cache_pairs:
+                cache_pairs[match_result][1] += 1
                 outputs[index] = match_result
                 break
+    
         if outputs[index] == None:
             log_chunk.append(log)
             log_chunk_index.append(index)
 
-        if len(log_chunk) == chunk_size or index == len(logs) - 1:
+        if len(log_chunk) == chunk_size or (len(log_chunk)!=0 and index == len(logs) - 1):
             # parsing start
             # tokenize -> vectorize -> cluster -> reassign_clusters
             tokenized_logs = [tokenize(log) for log in log_chunk]
@@ -73,18 +117,16 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
             for index, c in enumerate(clusters):
                 # print(f"=" * 40)
                 # print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
-                tmp, template, c, new_cluster = parser.get_responce( c, cluster_nums, cache_pairs, [], shot)
+                tmp, template, c, new_cluster, cached = parser.get_responce( c, cluster_nums, cache_pairs, [], shot)
 
                 # update clusters
                 if new_cluster != None:
                     clusters.append(new_cluster)
                     cluster_nums += 1
 
-                # update cache
-                template_exist = any(pair[1] == template for pair in cache_pairs)
-                if not template_exist and template != '<*>' and template.strip() != '':
-                    cache_pairs.append([c.logs[0],template])
-
+                if template not in cache_pairs and template.replace('<*>','').replace(' ','') != '':
+                    cache_pairs[template] = [c.logs[0], 0]
+                
                 for index in c.indexs:
                     outputs[index] = template
             log_chunk = []
@@ -99,6 +141,9 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     df_new['Content'] = logs
     df_new['EventTemplate'] = outputs
     df_new.to_csv(output_dir + f'{dataset}_2k.log_structured.csv', index=False)
+    with open(output_dir + f'{dataset}_2k.log_templates.txt', 'w') as f:
+        for template, value_f in cache_pairs.items():
+            f.write("%7d:%s\n" % (value_f[1], template))
     # evaluate_single_dataset(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
 
 
@@ -127,7 +172,14 @@ if __name__ == "__main__":
     args = set_args()
     # datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
     #             'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    datasets = ['HDFS']
+    dataset_format = {
+        'BGL':'<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+        'HDFS':'<Date> <Time> <Pid> <Level> <Component>: <Content>',
+        'OpenStack':'<Timestamp> <Node> <Component> <Level> <Content>',
+        'Zookeeper':'<Date> <Time> <Level> \[<Node>:<Component>@<Id>\] - <Content>',
+        'OpenSSH':'<Date> <Time> <Pid> <Level> <Component> <Content>',
+        }
+    datasets = ['OpenSSH']
     model = args.model
     
     theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.chunk_size}chunksize_full"
@@ -146,6 +198,7 @@ if __name__ == "__main__":
         parser = Cluster_Parser(theme, config)
         single_dataset_paring(
             dataset=dataset, 
+            log_format = dataset_format[dataset],
             output_dir=output_dir, 
             parser=parser, 
             shot=args.shot,

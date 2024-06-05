@@ -67,7 +67,7 @@ class Cluster_Parser:
                 return output
             
     
-    def get_responce(self, cluster, clusters_num, cached_pairs=[], sample_pairs=[], shot = 0):
+    def get_responce(self, cluster, clusters_num, cached_pairs={}, sample_pairs=[], shot = 0):
         logs =cluster.logs
         length = len(cluster.indexs)
         sample_log = logs[0]
@@ -76,17 +76,14 @@ class Cluster_Parser:
         new_cluster = None
 
         # caching
-        for cached_pair in cached_pairs:
+        for template, value_f in cached_pairs.items():
             for log in cluster.static_logs:
-                match_result = matches_template(log, cached_pair)
+                match_result = matches_template(log, [value_f[0], template])
                 if match_result != None:
                     cluster, new_cluster = prune_from_cluster(
-                        cached_pair[1], cluster, clusters_num)
-                    print(cluster.logs)
-                    if new_cluster != None:
-                        print(new_cluster.logs)
+                        template, cluster, clusters_num)
                     # print(f"cache hit: {match_result}")
-                    return '', match_result, cluster, new_cluster
+                    return '', match_result, cluster, new_cluster, True
         demonstrations = ''
         can_match = False
 
@@ -187,4 +184,4 @@ class Cluster_Parser:
 
         
         # print(f"final template: {template}")
-        return tmp, template, cluster, new_cluster
+        return tmp, template, cluster, new_cluster, False

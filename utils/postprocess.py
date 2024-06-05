@@ -23,7 +23,7 @@ def post_process(response):
     template = re.sub(r'\{\{.*?\}\}', '<*>', tmp)
     # Todo: some varaible part might be '', need to correct the template, which should have a log to compare
     template = correct_single_template(template)
-    if template.replace('<*>', '').strip() == '':
+    if template.replace('<*>', '').replace(' ','') == '':
         template = ''
 
     return tmp, template
@@ -98,7 +98,7 @@ def correct_single_template(template, user_strings=None):
             token = '<*>'
 
         # apply WV
-        if re.match(r'^[^\s\/]*<\*>[^\s\/]*$', token) or all(x in token for x in {'<*>', '.', '/'}) or all(x in token for x in {'<*>', '/', ':'}):
+        if re.match(r'^[^\s\/]*<\*>[^\s\/]*$', token):
             # if token != '<*>/<*>':  # need to check this because `/` is not a deliminator
             token = '<*>'
 
@@ -107,6 +107,12 @@ def correct_single_template(template, user_strings=None):
 
     # make the template using new_tokens
     template = ''.join(new_tokens)
+
+    for token in template.split(' '):
+        if all(x in token for x in {'<*>', '.', '/'}) or all(x in token for x in {'<*>', '/', ':'}):
+            template = template.replace(token, '<*>')
+        if token == '<*>.':
+            template = template.replace(token, '<*>')
 
     # Substitute consecutive variables only if separated with any delimiter including "." (DV)
     while True:
