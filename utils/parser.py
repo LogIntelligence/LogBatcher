@@ -83,7 +83,7 @@ class Cluster_Parser:
                     cluster, new_cluster = prune_from_cluster(
                         template, cluster, clusters_num)
                     # print(f"cache hit: {match_result}")
-                    return '', match_result, cluster, new_cluster, True
+                    return '', match_result, cluster, new_cluster
         demonstrations = ''
         can_match = False
 
@@ -184,4 +184,4 @@ class Cluster_Parser:
 
         
         # print(f"final template: {template}")
-        return tmp, template, cluster, new_cluster, False
+        return tmp, template, cluster, new_cluster

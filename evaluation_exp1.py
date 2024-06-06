@@ -117,7 +117,7 @@ def single_dataset_paring(dataset,log_format, output_dir, parser, shot, candidat
             for index, c in enumerate(clusters):
                 # print(f"=" * 40)
                 # print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
-                tmp, template, c, new_cluster, cached = parser.get_responce( c, cluster_nums, cache_pairs, [], shot)
+                _, template, c, new_cluster = parser.get_responce( c, cluster_nums, cache_pairs, [], shot)
 
                 # update clusters
                 if new_cluster != None:
@@ -172,17 +172,18 @@ if __name__ == "__main__":
     args = set_args()
     # datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
     #             'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    dataset_format = {
-        'BGL':'<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-        'HDFS':'<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'OpenStack':'<Timestamp> <Node> <Component> <Level> <Content>',
-        'Zookeeper':'<Date> <Time> <Level> \[<Node>:<Component>@<Id>\] - <Content>',
-        'OpenSSH':'<Date> <Time> <Pid> <Level> <Component> <Content>',
-        }
-    datasets = ['OpenSSH']
+    # dataset_format = {
+    #     'BGL':'<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+    #     'HDFS':'<Date> <Time> <Pid> <Level> <Component>: <Content>',
+    #     'OpenStack':'<Timestamp> <Node> <Component> <Level> <Content>',
+    #     'Zookeeper':'<Date> <Time> <Level> \[<Node>:<Component>@<Id>\] - <Content>',
+    #     'OpenSSH':'<Date> <Time> <Pid> <Level> <Component> <Content>',
+    #     'Apache':'<Content>',
+    #     }
+    datasets = ['HDFS']
     model = args.model
     
-    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.chunk_size}chunksize_full"
+    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.chunk_size}chunksize_full_time"
 
     output_dir = f'outputs/parser/{theme}/'
     # if not os.path.exists(output_dir):
@@ -198,7 +199,8 @@ if __name__ == "__main__":
         parser = Cluster_Parser(theme, config)
         single_dataset_paring(
             dataset=dataset, 
-            log_format = dataset_format[dataset],
+            # log_format = dataset_format[dataset],
+            log_format = '',
             output_dir=output_dir, 
             parser=parser, 
             shot=args.shot,
