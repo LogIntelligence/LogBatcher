@@ -1,0 +1,2016 @@
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.22.87,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2314210`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"GET {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0848172`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1583 time: 0.1919448`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: aa3c44d7-41bb-4249-83ed-a5042cd87a27] Claim successful`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Claim successful`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Creating image`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 636b44eb-4c54-4438-90a6-68a156f33b6d] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 2b590f10-49fd-4ec9-ae41-19596c2f4b25] VM Stopped (Lifecycle Event)`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `While synchronizing instance power states, found {variables} instances in the database and {variables} instances on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `image {variables} at ({variables}): in use: on this node {variables} local, {variables} on other nodes sharing this instance storage`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 636b44eb-4c54-4438-90a6-68a156f33b6d] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] VM Started (Lifecycle Event)`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 636b44eb-4c54-4438-90a6-68a156f33b6d] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] VM Paused (Lifecycle Event)`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: f3253bb8-9a74-431d-8b5c-317caec23c3a] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `image {variables} at ({variables}): checking`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `image {variables} at ({variables}): in use: on this node {variables} local, {variables} on other nodes sharing this instance storage`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `image {variables} at ({variables}): in use: on this node {variables} local, {variables} on other nodes sharing this instance storage`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `image {variables} at ({variables}): checking`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `While synchronizing instance power states, found {variables} instances in the database and {variables} instances on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Active base files: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Removable base files: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Unknown base file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Creating event network-vif-plugged:ce3e00e6-2c8f-4cfc-94b1-919be083a332 for instance 71e8341c-c336-46a3-a49b-589a1b627742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Creating event {variables} for instance {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `HTTP exception thrown: No instances found for any event`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `HTTP exception thrown: No instances found for any event`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Creating event network-vif-plugged:95fcdc5e-3159-4e86-968a-13a2a06e9e89 for instance 3edec1e4-9678-4a3a-a21b-a145a4ee5e61`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0848172`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.22.87,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2314210`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"GET {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.0929029`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 636b44eb-4c54-4438-90a6-68a156f33b6d] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] VM Resumed (Lifecycle Event)`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] VM Resumed (Lifecycle Event)`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3113fe9b-1a8f-4058-bd3d-20d6dea72bce] Instance destroyed successfully.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Instance destroyed successfully.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Instance spawned successfully.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `While synchronizing instance power states, found {variables} instances in the database and {variables} instances on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: f3253bb8-9a74-431d-8b5c-317caec23c3a] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Took 20.58 seconds to spawn the instance on the hypervisor.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 4e05e0e0-9ec3-4beb-a6f4-4e071884ec98] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 5f15892f-b15b-4ad4-9097-05d02f7627a8] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Took 21.38 seconds to build instance.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0848172`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.22.87,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2314210`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"GET {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/3edec1e4-9678-4a3a-a21b-a145a4ee5e61 HTTP/1.1\" status: 204 len: 203 time: 0.2484462`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: f8f2e2b3-b51e-448c-9232-27c14f0cb580] Deleting instance files /var/lib/nova/instances/f8f2e2b3-b51e-448c-9232-27c14f0cb580_del`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Deleting instance files {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Terminating instance`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3113fe9b-1a8f-4058-bd3d-20d6dea72bce] Instance destroyed successfully.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Instance destroyed successfully.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Instance destroyed successfully.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: f8f2e2b3-b51e-448c-9232-27c14f0cb580] Deleting instance files /var/lib/nova/instances/f8f2e2b3-b51e-448c-9232-27c14f0cb580_del`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Deleting instance files {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: f3253bb8-9a74-431d-8b5c-317caec23c3a] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Deleting instance files /var/lib/nova/instances/3edec1e4-9678-4a3a-a21b-a145a4ee5e61_del`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7dbd5529-cf1b-4a39-9675-05799231ab97] Deletion of /var/lib/nova/instances/7dbd5529-cf1b-4a39-9675-05799231ab97_del complete`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Deletion of {variables} complete`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Deletion of /var/lib/nova/instances/3edec1e4-9678-4a3a-a21b-a145a4ee5e61_del complete`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `While synchronizing instance power states, found {variables} instances in the database and {variables} instances on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: f3253bb8-9a74-431d-8b5c-317caec23c3a] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Took 0.99 seconds to destroy the instance on the hypervisor.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 4e05e0e0-9ec3-4beb-a6f4-4e071884ec98] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 5f15892f-b15b-4ad4-9097-05d02f7627a8] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3edec1e4-9678-4a3a-a21b-a145a4ee5e61] Took 0.47 seconds to deallocate network for instance.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `HTTP exception thrown: No instances found for any event`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `HTTP exception thrown: No instances found for any event`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Creating event network-vif-plugged:ce3e00e6-2c8f-4cfc-94b1-919be083a332 for instance 71e8341c-c336-46a3-a49b-589a1b627742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Creating event {variables} for instance {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `While synchronizing instance power states, found {variables} instances in the database and {variables} instances on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `HTTP exception thrown: No instances found for any event`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Unknown base file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Removing base or swap file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Active base files: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Removable base files: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Active base files: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Unknown base file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Removing base or swap file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Unknown base file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Active base files: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 920b37c7-c1f0-46cc-a8d8-e7a3e6c13179] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Attempting claim: memory {variables} MB, disk {variables} GB, vcpus {variables} CPU`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3113fe9b-1a8f-4058-bd3d-20d6dea72bce] memory limit: 96258.00 MB, free: 95746.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] memory limit: {variables} MB, free: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: b5d4786c-9aee-455d-8d72-fb3c1a16ebff] Total memory: 64172 MB, used: 512.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total memory: {variables} MB, used: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: b5d4786c-9aee-455d-8d72-fb3c1a16ebff] Total memory: 64172 MB, used: 512.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total memory: {variables} MB, used: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3113fe9b-1a8f-4058-bd3d-20d6dea72bce] memory limit: 96258.00 MB, free: 95746.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] memory limit: {variables} MB, free: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 58b8c07c-6c6d-4f46-bbb6-d58c12102892] Total disk: 15 GB, used: 0.00 GB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total disk: {variables} GB, used: {variables} GB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Total memory: 64172 MB, used: 512.00 MB`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3113fe9b-1a8f-4058-bd3d-20d6dea72bce] memory limit: 96258.00 MB, free: 95746.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] memory limit: {variables} MB, free: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: b5d4786c-9aee-455d-8d72-fb3c1a16ebff] Total memory: 64172 MB, used: 512.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total memory: {variables} MB, used: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 920b37c7-c1f0-46cc-a8d8-e7a3e6c13179] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Attempting claim: memory {variables} MB, disk {variables} GB, vcpus {variables} CPU`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] memory limit: 96258.00 MB, free: 95746.00 MB`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 58b8c07c-6c6d-4f46-bbb6-d58c12102892] Total disk: 15 GB, used: 0.00 GB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total disk: {variables} GB, used: {variables} GB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 09b7ff78-c305-473d-acc8-da3b23f5aaa9] Total vcpu: 16 VCPU, used: 0.00 VCPU`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total vcpu: {variables} VCPU, used: {variables} VCPU`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: b5d4786c-9aee-455d-8d72-fb3c1a16ebff] Total memory: 64172 MB, used: 512.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total memory: {variables} MB, used: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Total disk: 15 GB, used: 0.00 GB`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 4e05e0e0-9ec3-4beb-a6f4-4e071884ec98] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 5f15892f-b15b-4ad4-9097-05d02f7627a8] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] disk limit not specified, defaulting to unlimited`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 09b7ff78-c305-473d-acc8-da3b23f5aaa9] Total vcpu: 16 VCPU, used: 0.00 VCPU`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total vcpu: {variables} VCPU, used: {variables} VCPU`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 58b8c07c-6c6d-4f46-bbb6-d58c12102892] Total disk: 15 GB, used: 0.00 GB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total disk: {variables} GB, used: {variables} GB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: b5d4786c-9aee-455d-8d72-fb3c1a16ebff] Total memory: 64172 MB, used: 512.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total memory: {variables} MB, used: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Total vcpu: 16 VCPU, used: 0.00 VCPU`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 5f15892f-b15b-4ad4-9097-05d02f7627a8] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 4e05e0e0-9ec3-4beb-a6f4-4e071884ec98] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] vcpu limit not specified, defaulting to unlimited`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: aa3c44d7-41bb-4249-83ed-a5042cd87a27] Claim successful`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Claim successful`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Claim successful`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Auditing locally available compute resources for node {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Compute_service record updated for {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Creating event network-vif-plugged:ce3e00e6-2c8f-4cfc-94b1-919be083a332 for instance 71e8341c-c336-46a3-a49b-589a1b627742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Creating event {variables} for instance {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Total usable vcpus: 16, total allocated vcpus: 1`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Total usable vcpus: {variables}, total allocated vcpus: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: b5d4786c-9aee-455d-8d72-fb3c1a16ebff] Total memory: 64172 MB, used: 512.00 MB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total memory: {variables} MB, used: {variables} MB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 58b8c07c-6c6d-4f46-bbb6-d58c12102892] Total disk: 15 GB, used: 0.00 GB`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Total disk: {variables} GB, used: {variables} GB`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Total usable vcpus: 16, total allocated vcpus: 1`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Final resource view: name={variables} phys_ram={variables} used_ram={variables} phys_disk={variables} used_disk={variables} total_vcpus={variables} used_vcpus={variables} pci_stats={variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0848172`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Compute_service record updated for {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Creating event network-vif-plugged:ce3e00e6-2c8f-4cfc-94b1-919be083a332 for instance 71e8341c-c336-46a3-a49b-589a1b627742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Creating event {variables} for instance {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Auditing locally available compute resources for node {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `HTTP exception thrown: No instances found for any event`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `HTTP exception thrown: No instances found for any event`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `While synchronizing instance power states, found {variables} instances in the database and {variables} instances on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Successfully synced instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us'.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Creating event network-vif-plugged:ce3e00e6-2c8f-4cfc-94b1-919be083a332 for instance 71e8341c-c336-46a3-a49b-589a1b627742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Creating event {variables} for instance {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 8f7dc3db-c009-4304-a725-3de747fca161] Terminating instance`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Terminating instance`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Compute_service record updated for {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `The instance sync for host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match. Re-created its InstanceList.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Removing base or swap file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Active base files: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Unknown base file: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Base or swap file too young to remove: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 5f15892f-b15b-4ad4-9097-05d02f7627a8] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 4e05e0e0-9ec3-4beb-a6f4-4e071884ec98] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: f3253bb8-9a74-431d-8b5c-317caec23c3a] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] During sync_power_state the instance has a pending task (spawning). Skip.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `couldn't obtain the vcpu count from domain id: b93203d4-c79b-41fe-8090-5f2b89b0d081, exception: Requested operation is not valid: cpu affinity is not supported`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Creating event network-vif-plugged:ce3e00e6-2c8f-4cfc-94b1-919be083a332 for instance 71e8341c-c336-46a3-a49b-589a1b627742`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Creating event {variables} for instance {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `Auditing locally available compute resources for node {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Running instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from 2017-05-15 01:00:00 to 2017-05-15 02:00:00. 88 instances.`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0848172`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Error during ComputeManager._run_image_cache_manager_pass`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0848172`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Bad response code while validating token: 503`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5575180`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0848172`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `{variables} \"POST {variables} {variables}\" status: {variables} len: {variables} time: {variables}`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 942d95b2-843b-4199-9d3d-a68dfeba5780] Creating image`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Creating image`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Identity response: <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">`"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You are an expert of log parsing, and now you will help to do log parsing."
+    },
+    {
+        "role": "user",
+        "content": "I want you to act like an expert of log parsing. I will give you a log message delimited by backticks. You must identify and abstract all the dynamic variables in logs with {placeholder} and output a static log template. Print the input log's template delimited by backticks."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help you with log parsing."
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 4e05e0e0-9ec3-4beb-a6f4-4e071884ec98] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] disk limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 5f15892f-b15b-4ad4-9097-05d02f7627a8] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] vcpu limit not specified, defaulting to unlimited`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `[instance: 7953dc44-3e59-4a77-86a6-333ad03f4efa] Took 19.90 seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "assistant",
+        "content": "Log template: `[instance: {variables}] Took {variables} seconds to spawn the instance on the hypervisor.`"
+    },
+    {
+        "role": "user",
+        "content": "Log message: `Unable to validate token: Failed to fetch token data from identity server`"
+    }
+]

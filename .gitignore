@@ -1,0 +1,13 @@
+DivLog/
+
+__pycache__/
+
+
+
+# full dataset
+dataset/**/*full*
+outputs/parser/*full*/
+
+
+dataset/HDFS/HDFS_full.log_structured.csv
+dataset/Apache/Apache_full.log_structured.csv
