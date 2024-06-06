@@ -1,13 +1,19 @@
 DivLog/
-
+RAG/
 __pycache__/
+.vscode/
+dataset_logpub/
+outputs/reverse/
 
 
+dataset/Correct_Details.md
 
 # full dataset
 dataset/**/*full*
 outputs/parser/*full*/
 
 
-dataset/HDFS/HDFS_full.log_structured.csv
-dataset/Apache/Apache_full.log_structured.csv
+# python file
+utils/email.py
+utils/unused_functions.py
+utils/demostration_infromationentropy.json

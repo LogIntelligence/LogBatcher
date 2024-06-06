@@ -1,96 +1,12 @@
-from collections import Counter
-import random
-
+import re
 import tiktoken
-
-def choose(tmps: list, templates : list):
-    """
-    choose the most frequent template from the list
-
-    Args: 
-        tmps: the list of output templates
-        templates: the list of postprocess templates
-    Returns:
-        final_template: the most frequent template
-        freq: the frequency of the postprocess templates
-        freq_tmp: the frequency of the output templates
-    """
-
-    freq_tmp = Counter(tmps)
-    freq = Counter(templates)
-    candidates = freq.most_common(len(freq))
-
-
-    # discard the template that contains digit if there exists a template that does not contain digit
-    if not all(any(char.isdigit() for char in tmp) for tmp in templates):
-        candidates = [candidate for candidate in candidates if not any(
-            char.isdigit() for char in candidate[0])]
-    
-    # if there is no template, return empty string
-    if len(candidates) == 0:
-        final_template = ''
-
-    # if there is only one template, return the template
-    elif len(candidates) == 1:
-        final_template = candidates[0][0]
-        
-
-    # check if there is a template that does not contain '<*>'
-    elif not all('<*>' in candidate[0] for candidate in candidates):
-        for candidate in candidates:
-            if '<*>' not in candidate[0]:
-                final_template = candidate[0]
-                break
-    
-    # majority vote
-    else:
-        final_template = candidates[0][0]
-
-    return final_template, freq, freq_tmp
-
-
-def mutate(token : str):
-    """
-    randomly change the number in the token
-
-    Args:
-        token: the token to be mutated
-
-    Returns:
-        token: the mutated token
-    """
-    random_number = random.randint(0, 9)
-    token_list = list(token)
-    for index, char in enumerate(token_list):
-        if char.isdigit():
-            token_list[index] = str((int(char)+random_number) % 10)
-    return ''.join(token_list)
-
-def truncate(logs : list, max_length : int):
-    """
-    truncate the logs to a certain length
-
-    Args:
-        logs: the logs to be truncated
-        max_length: the maximum length of the logs
-
-    Returns:
-        logs: the truncated logs
-    """
-
-    
-    length = sum(len(log) for log in logs)
-    # truncate
-    # while (length > max_length):
-    #     logs = logs[0::2]
-    #     length = sum(len(log) for log in logs)
-
-    prompt = '\n'.join(logs)
-    return prompt
 
 
 def count_prompt_tokens(prompt, model_name):
-    # 根据模型名称加载合适的编码器
+    """
+    Count the number of tokens in the prompt
+    Models supported: gpt-4, gpt-3.5-turbo
+    """
     if model_name == "gpt-4":
         encoder = tiktoken.encoding_for_model("gpt-4")
     elif model_name == "gpt-3.5-turbo":
@@ -104,7 +20,10 @@ def count_prompt_tokens(prompt, model_name):
 
 
 def count_message_tokens(messages, model_name):
-    # 根据模型名称加载合适的编码器
+    """
+    Count the number of tokens in the messages
+    Models supported: gpt-4, gpt-3.5-turbo
+    """
     if model_name == "gpt-4":
         encoder = tiktoken.encoding_for_model("gpt-4")
     elif model_name == "gpt-3.5-turbo":
@@ -123,3 +42,50 @@ def count_message_tokens(messages, model_name):
             len(content_tokens) + 4  # 加上特殊的消息分隔符的token数
 
     return token_count
+
+
+def generate_logformat_regex(logformat):
+        """ 
+        Function to generate regular expression to split log messages
+        Args:
+            logformat: log format, a string
+        Returns:
+            headers: headers of log messages
+            regex: regular expression to split log messages
+        """
+        headers = []
+        splitters = re.split(r'(<[^<>]+>)', logformat)
+        regex = ''
+        for k in range(len(splitters)):
+            if k % 2 == 0:
+                splitter = re.sub(' +', '\\\s+', splitters[k])
+                regex += splitter
+            else:
+                header = splitters[k].strip('<').strip('>')
+                regex += '(?P<%s>.*?)' % header
+                headers.append(header)
+        regex = re.compile('^' + regex + '$')
+        return headers, regex
+
+
+def log_to_dataframe(log_file, regex, headers, size):
+        """ 
+        Function to transform log file to contents
+        Args:
+            log_file: log file path
+            regex: regular expression to split log messages
+            headers: headers of log messages
+            size: number of log messages to read
+        Returns:
+            log_messages: list of log contents
+        """
+        log_contents = []
+        with open(log_file, 'r') as file:
+            for line in [next(file) for _ in range(size)]:
+                try:
+                    match = regex.search(line.strip())
+                    message = [match.group(header) for header in headers]
+                    log_contents.append(message[-1])
+                except Exception as e:
+                    pass
+        return log_contents

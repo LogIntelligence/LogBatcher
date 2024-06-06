@@ -7,44 +7,13 @@ import pandas as pd
 from tqdm import tqdm
 from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
-from evaluate import evaluate_all_datasets, evaluate_single_dataset
+from utils.evaluator import evaluate
 from utils.sample import sample_from_clusters
 from tqdm import tqdm
 
-from utils.sample_byword import matches_template
-
-def generate_logformat_regex(logformat):
-        """ Function to generate regular expression to split log messages
-        """
-        headers = []
-        splitters = re.split(r'(<[^<>]+>)', logformat)
-        regex = ''
-        for k in range(len(splitters)):
-            if k % 2 == 0:
-                splitter = re.sub(' +', '\\\s+', splitters[k])
-                regex += splitter
-            else:
-                header = splitters[k].strip('<').strip('>')
-                regex += '(?P<%s>.*?)' % header
-                headers.append(header)
-        regex = re.compile('^' + regex + '$')
-        return headers, regex
+from utils.matching import matches_template
 
 
-def log_to_dataframe(log_file, regex, headers, size):
-        """ Function to transform log file to contents 
-        """
-        log_messages = []
-        linecount = 0
-        with open(log_file, 'r') as file:
-            for line in [next(file) for _ in range(size)]:
-                try:
-                    match = regex.search(line.strip())
-                    message = [match.group(header) for header in headers]
-                    log_messages.append(message[-1])
-                except Exception as e:
-                    pass
-        return log_messages
 
 
 def single_dataset_paring(dataset,log_format, output_dir, parser, shot, candidate, batch_size, chunk_size ,Concurrent=True, sample_method = 'dpp'):
@@ -69,7 +38,7 @@ def single_dataset_paring(dataset,log_format, output_dir, parser, shot, candidat
 
     t1 = time.time()
 
-    t_caching = 0
+    t_caching = 0 
 
     for index, log in enumerate(tqdm(logs)):
 
@@ -144,7 +113,8 @@ def single_dataset_paring(dataset,log_format, output_dir, parser, shot, candidat
     with open(output_dir + f'{dataset}_2k.log_templates.txt', 'w') as f:
         for template, value_f in cache_pairs.items():
             f.write("%7d:%s\n" % (value_f[1], template))
-    # evaluate_single_dataset(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
+    
+    # evaluate(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
 
 
 def set_args():

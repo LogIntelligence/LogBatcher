@@ -1,6 +1,4 @@
 import re
-from utils.sample_byword import extract_variables
-
 
 def post_process(response):
 

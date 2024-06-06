@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
-from evaluate import evaluate_all_datasets, evaluate_single_dataset
+from utils.evaluator import evaluate, evaluate_all_datasets
 from utils.sample import sample_from_clusters
 
 
@@ -92,7 +92,7 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     df['EventTemplate'] = outputs
     df[['Content','Tmps','EventTemplate']].to_csv(
         output_dir + f'{dataset}_2k.log_structured.csv', index=False)
-    evaluate_single_dataset(output_dir + f'{dataset}_2k.log_structured.csv', dataset)
+    evaluate(output_dir + f'{dataset}_2k.log_structured.csv',f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset)
 
 
 def set_args():

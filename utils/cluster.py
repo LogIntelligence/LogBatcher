@@ -3,8 +3,7 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import DBSCAN
-from utils.algorithms import dpp_sample
-from utils.sample import group_samples_clustering
+from utils.sample import group_samples_clustering, dpp_sample
 from utils.util import mutate
 import random
 

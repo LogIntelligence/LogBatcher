@@ -8,7 +8,7 @@ from utils.postprocess import post_process, post_process_for_batch_output
 from utils.prune import prune_from_cluster
 from utils.sample import nearest_k_pairs_from_log
 from utils.util import choose, truncate
-from utils.sample_byword import extract_variables, matches_template
+from utils.matching import extract_variables, matches_template
 from utils.cluster import Cluster
 from utils.postprocess import correct_single_template
 import httpx
