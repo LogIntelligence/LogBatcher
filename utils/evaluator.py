@@ -68,10 +68,13 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug=False
 
     # Ouput Mismatch Logs
     if mismatch:
-        head,_,_ = output_file.rpartition('/')
-        os.makedirs(f'{head}/mismatch', exist_ok=True)
-        df_mismatch = df2[df1.EventTemplate != df2.EventTemplate]
-        df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
+        df_mismatch = df1[df1.EventTemplate != df2.EventTemplate]
+        df_mismatch.to_csv(f'test.csv', index=False)
+        # print
+        # head,_,_ = output_file.rpartition('/')
+        # os.makedirs(f'{head}/mismatch', exist_ok=True)
+        # df_mismatch = df2[df1.EventTemplate != df2.EventTemplate]
+        # df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
 
     # ED and NED
     edit_distance_result = []

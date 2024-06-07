@@ -24,7 +24,7 @@ def post_process(response):
     if template.replace('<*>', '').replace(' ','') == '':
         template = ''
 
-    return tmp, template
+    return template
 
 
 def post_process_for_batch_output(response):
@@ -76,7 +76,7 @@ def correct_single_template(template, user_strings=None):
     p_tokens = re.split('(' + '|'.join(path_delimiters) + ')', template)
     new_p_tokens = []
     for p_token in p_tokens:
-        if re.match(r'^(\/[^\/]+)+$', p_token):
+        if re.match(r'^(\/[^\/]+)+$', p_token) or all(x in p_token for x in {'<*>', '.', '/'}):
             p_token = '<*>'
         new_p_tokens.append(p_token)
     template = ''.join(new_p_tokens)
@@ -107,9 +107,7 @@ def correct_single_template(template, user_strings=None):
     template = ''.join(new_tokens)
 
     for token in template.split(' '):
-        if all(x in token for x in {'<*>', '.', '/'}) or all(x in token for x in {'<*>', '/', ':'}):
-            template = template.replace(token, '<*>')
-        if token == '<*>.':
+        if all(x in token for x in {'<*>', '.', ':'}):
             template = template.replace(token, '<*>')
 
     # Substitute consecutive variables only if separated with any delimiter including "." (DV)

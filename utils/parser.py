@@ -5,11 +5,8 @@ from openai import OpenAI
 from together import Together
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 from utils.postprocess import post_process, post_process_for_batch_output
-from utils.prune import prune_from_cluster
 from utils.sample import nearest_k_pairs_from_log
-from utils.util import choose, truncate
-from utils.matching import extract_variables, matches_template
-from utils.cluster import Cluster
+from utils.matching import extract_variables, matches_template, prune_from_cluster
 from utils.postprocess import correct_single_template
 import httpx
 
@@ -83,7 +80,7 @@ class Cluster_Parser:
                     cluster, new_cluster = prune_from_cluster(
                         template, cluster, clusters_num)
                     # print(f"cache hit: {match_result}")
-                    return '', match_result, cluster, new_cluster
+                    return match_result, cluster, new_cluster
         demonstrations = ''
         can_match = False
 
@@ -128,7 +125,7 @@ class Cluster_Parser:
             
 
 
-        tmp, template = post_process(answer)
+        template = post_process(answer)
 
         if template == '':
             can_match = False
@@ -147,16 +144,16 @@ class Cluster_Parser:
                     can_match = True
                     break
         # pruning
-        if can_match:
-            cluster, new_cluster = prune_from_cluster(
-                template, cluster, clusters_num)
-        else:
+        if not can_match:
             template = correct_single_template(sample_log)
             # print(f"can not match any log in this batch, return a sampled log as template")
+        cluster, new_cluster = prune_from_cluster(
+            template, cluster, clusters_num)
+        
+        
 
 
         # ablation for clustering:
-        # tmp = ''
         # match_template = ''
         # templates = post_process_for_batch_output(answer)
         # for template in templates:
@@ -184,4 +181,4 @@ class Cluster_Parser:
 
         
         # print(f"final template: {template}")
-        return tmp, template, cluster, new_cluster
+        return template, cluster, new_cluster

@@ -1,5 +1,4 @@
 import argparse
-from concurrent.futures import ThreadPoolExecutor
 import json
 import os
 import pandas as pd
@@ -10,7 +9,7 @@ from utils.evaluator import evaluate, evaluate_all_datasets
 from utils.sample import sample_from_clusters
 
 
-def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, Concurrent=True, sample_method = 'dpp'):
+def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, sample_method = 'dpp'):
     print(f'Parsing {dataset}...')
 
     # initialize
@@ -24,7 +23,6 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
 
     # output file
     outputs = [None for _ in range(len(logs))]
-    tmps_list = [None for _ in range(len(logs))]
     
     inputs = []
     for i in range(cluster_nums):
@@ -52,47 +50,34 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     #     clusters.append(Cluster(i, logs[i*batch_size:(i+1)*batch_size], [j for j in range(i*batch_size,(i+1)*batch_size)], '', remove_duplicate=True, remain_num=batch_size, sample_method=sample_method))
 
 
-    # Concurrent or not
-    # if Concurrent, then the parsing process will be faster but we can't do something like cache parsing
-    if Concurrent:
-        templates = []
-        with ThreadPoolExecutor(max_workers=16) as executor:
-            templates = list(
-                tqdm(executor.map(parser.get_responce,[f]*len(clusters), clusters),
-                    total=len(clusters)))
-        for label, template in enumerate(templates):
-            for index in inputs[label][2]:
-                outputs[index] = template
-    else:
-        clusters = sorted(clusters, key=lambda cluster: len(cluster.indexs), reverse=True)
-        cache_pairs = []
-        for index, c in enumerate(clusters):
-            print(f"=" * 40)
-            print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
-            #ablation: without caching
-            # tmps, template = parser.get_responce(f, c, [])
-            tmp, template, c, new_cluster = parser.get_responce( c, cluster_nums, cache_pairs, sample_pairs, shot)
+    
+    clusters = sorted(clusters, key=lambda cluster: len(cluster.indexs), reverse=True)
+    cache_pairs = {}
+    for index, c in enumerate(clusters):
+        print(f"=" * 40)
+        print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
+        #ablation: without caching
+        # tmps, template = parser.get_responce(f, c, [])
+        template, c, new_cluster = parser.get_responce( c, cluster_nums, cache_pairs, sample_pairs, shot)
+        print(f"template: {template}")
 
-            # update clusters
-            if new_cluster != None:
-                clusters.append(new_cluster)
-                cluster_nums += 1
+        # update clusters
+        if new_cluster != None:
+            clusters.append(new_cluster)
+            cluster_nums += 1
 
-            # update cache
-            template_exist = any(pair[1] == template for pair in cache_pairs)
-            if not template_exist and template != '<*>' and template.strip() != '':
-                cache_pairs.append([c.logs[0],template])
+        # update cache
+        if template not in cache_pairs and template.replace('<*>','').replace(' ','') != '':
+            cache_pairs[template] = [c.logs[0], 0]
 
-            for index in c.indexs:
-                outputs[index] = template
-                tmps_list[index] = tmp
+        for index in c.indexs:
+            outputs[index] = template
 
     # write to file
-    df['Tmps'] = tmps_list
     df['EventTemplate'] = outputs
-    df[['Content','Tmps','EventTemplate']].to_csv(
+    df[['Content','EventTemplate']].to_csv(
         output_dir + f'{dataset}_2k.log_structured.csv', index=False)
-    evaluate(output_dir + f'{dataset}_2k.log_structured.csv',f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset)
+    evaluate(output_dir + f'{dataset}_2k.log_structured.csv',f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset, mismatch= True)
 
 
 def set_args():
@@ -115,7 +100,7 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-
+    datasets = ['proxifier']
     model = args.model
     module = ''
     if 'gpt' not in model:
@@ -126,14 +111,14 @@ if __name__ == "__main__":
     elif module:
         theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_{module}"
     else:
-        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize"
+        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_test4"
 
     output_dir = f'outputs/parser/{theme}/'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     else:
         print(f'{output_dir} already exists.\nresults is here: {output_dir}')
-        exit()
+        # exit()
     with open('config.json', 'r') as f:
         config = json.load(f)
     config['model'] = args.model
@@ -146,7 +131,6 @@ if __name__ == "__main__":
             shot=args.shot,
             candidate=args.candidate,
             batch_size=args.batch_size,
-            Concurrent=False,
             sample_method = args.sample_method
         )
-    evaluate_all_datasets(theme)
+    evaluate_all_datasets(theme, datasets=datasets, data_tpye='2k')
