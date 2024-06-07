@@ -1,4 +1,10 @@
 Content,EventTemplate
+"proxy.cse.cuhk.edu.hk:5070 close, 2933 bytes (2.86 KB) sent, 11721005 bytes (11.1 MB) received, lifetime 02:48","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 47856 bytes (46.7 KB) sent, 4090387 bytes (3.90 MB) received, lifetime 01:01","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 31257 bytes (30.5 KB) sent, 1846301 bytes (1.76 MB) received, lifetime 01:33","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 7437 bytes (7.26 KB) sent, 2235596 bytes (2.13 MB) received, lifetime 00:07","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"r6---sn-i3b7kn7d.googlevideo.com:443 close, 12789 bytes (12.4 KB) sent, 13833013 bytes (13.1 MB) received, lifetime 01:01","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"r6---sn-i3b7knez.googlevideo.com:443 close, 13118 bytes (12.8 KB) sent, 3242984 bytes (3.09 MB) received, lifetime 00:31","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
 223.167.104.147:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 mtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 www.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
@@ -18,4 +24,7 @@ www.qq.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Co
 get.sogou.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 101.226.211.46:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
+"r2---sn-i3b7kne6.googlevideo.com:443 close, 17742 bytes (17.3 KB) sent, 11581393 bytes (11.0 MB) received, lifetime 01:08","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"video-hkg3-2.xx.fbcdn.net:443 close, 58373 bytes (57.0 KB) sent, 8896991 bytes (8.48 MB) received, lifetime 02:25","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
 client.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
+"r1---sn-i3belnez.googlevideo.com:443 close, 10046 bytes (9.81 KB) sent, 5657896 bytes (5.39 MB) received, lifetime 00:54","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
