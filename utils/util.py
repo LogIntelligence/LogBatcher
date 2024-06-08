@@ -38,9 +38,9 @@ def count_message_tokens(messages, model_name):
     for message in messages:
         role_tokens = encoder.encode(message['role'])
         content_tokens = encoder.encode(message['content'])
-        token_count += len(role_tokens) + \
-            len(content_tokens) + 4  # 加上特殊的消息分隔符的token数
-
+        token_count += len(role_tokens) + len(content_tokens) + 4  # 加上特殊的消息分隔符的token数
+        # token_count +=  len(content_tokens) + 4  # 加上特殊的消息分隔符的token数
+        # print(token_count)
     return token_count
 
 
