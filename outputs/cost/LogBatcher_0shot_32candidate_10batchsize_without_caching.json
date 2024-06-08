@@ -45,6 +45,26 @@
     },
     {
         "role": "user",
+        "content": "proxy.cse.cuhk.edu.hk:5070 close, 403 bytes sent, 426 bytes received, lifetime <1 sec\ncnzz.mmstat.com:80 close, 686 bytes sent, 579 bytes received, lifetime <1 sec\nclients6.google.com:443 close, 568 bytes sent, 156 bytes received, lifetime <1 sec\nlog.getdropbox.com:80 close, 739 bytes sent, 404 bytes received, lifetime <1 sec\nfs-conn-doctor.qq.com:443 close, 184 bytes sent, 134 bytes received, lifetime <1 sec\ncgi.qqweb.qq.com:80 close, 477 bytes sent, 448 bytes received, lifetime <1 sec\n203.205.151.204:80 close, 357 bytes sent, 484 bytes received, lifetime <1 sec\np3p.sogou.com:80 close, 441 bytes sent, 139 bytes received, lifetime <1 sec\ntcpconn3.tencent.com:443 close, 149 bytes sent, 121 bytes received, lifetime <1 sec\nyt3.ggpht.com:443 close, 733 bytes sent, 229 bytes received, lifetime <1 sec"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "2052.flash2-http.qq.com:80 close, 466 bytes sent, 125682 bytes (122 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 815 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 704 bytes sent, 2476 bytes (2.41 KB) received, lifetime <1 sec\nc.baidu.com:80 close, 1052 bytes (1.02 KB) sent, 113 bytes received, lifetime <1 sec\nupdate.googleapis.com:443 close, 298 bytes sent, 4250 bytes (4.15 KB) received, lifetime <1 sec\n12.client-channel.google.com:443 close, 474 bytes sent, 4042 bytes (3.94 KB) received, lifetime <1 sec\nd0.sina.com.cn:443 close, 328 bytes sent, 3654 bytes (3.56 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1301 bytes (1.27 KB) sent, 434 bytes received, lifetime <1 sec\npuui.qpic.cn:80 close, 379 bytes sent, 7852 bytes (7.66 KB) received, lifetime <1 sec\ntc.dl.pinyin.sogoucdn.com:80 close, 158 bytes sent, 46624 bytes (45.5 KB) received, lifetime <1 sec"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
         "content": "tcpconn6.tencent.com:443 error : A connection request was canceled before the completion.\noimagec7.ydstatic.com:80 error : A connection request was canceled before the completion.\noimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.\noimageb3.ydstatic.com:80 error : A connection request was canceled before the completion.\noimageb1.ydstatic.com:80 error : A connection request was canceled before the completion.\noimagea3.ydstatic.com:80 error : A connection request was canceled before the completion.\noimagec1.ydstatic.com:80 error : A connection request was canceled before the completion.\nhm.baidu.com:80 error : A connection request was canceled before the completion.\ncsdnimg.cn:80 error : A connection request was canceled before the completion.\nclient-cf.dropbox.com:443 error : A connection request was canceled before the completion."
     }
 ]
@@ -56,6 +76,16 @@
     {
         "role": "user",
         "content": "qa.sockets.stackexchange.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\n13.client-channel.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nwww.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nclient-cf.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\n16.client-channel.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nbolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nmtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nclient-lb.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "proxy.cse.cuhk.edu.hk:5070 close, 1268 bytes (1.23 KB) sent, 6274 bytes (6.12 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1327 bytes (1.29 KB) sent, 3250 bytes (3.17 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1107 bytes (1.08 KB) sent, 29322 bytes (28.6 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1133 bytes (1.10 KB) sent, 11393 bytes (11.1 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1119 bytes (1.09 KB) sent, 3210 bytes (3.13 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1372 bytes (1.33 KB) sent, 1224 bytes (1.19 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1986 bytes (1.93 KB) sent, 1180 bytes (1.15 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1448 bytes (1.41 KB) sent, 1794 bytes (1.75 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1080 bytes (1.05 KB) sent, 4111 bytes (4.01 KB) received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 5349 bytes (5.22 KB) sent, 1767 bytes (1.72 KB) received, lifetime <1 sec"
     }
 ]
 [
@@ -115,6 +145,16 @@
     },
     {
         "role": "user",
-        "content": "user-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 03:15\nproxy.cse.cuhk.edu.hk:5070 close, 397 bytes sent, 3558 bytes (3.47 KB) received, lifetime 00:01\ndslb.cdn.krcom.cn:80 close, 446 bytes sent, 195160 bytes (190 KB) received, lifetime 00:59\n13.client-channel.google.com:443 close, 474 bytes sent, 4464 bytes (4.35 KB) received, lifetime 01:30\nodr.mookie1.com:443 close, 361 bytes sent, 4839 bytes (4.72 KB) received, lifetime 00:11\nzhihu-web-analytics.zhihu.com:443 close, 343 bytes sent, 3122 bytes (3.04 KB) received, lifetime 00:17\np2.qhimg.com:80 close, 230 bytes sent, 1125 bytes (1.09 KB) received, lifetime 00:09\nd3cv4a9a9wh0bt.cloudfront.net:443 close, 820 bytes sent, 5619 bytes (5.48 KB) received, lifetime 02:00\nf-log-extension.grammarly.io:443 close, 643 bytes sent, 3276 bytes (3.19 KB) received, lifetime 00:19\nwn.pos.baidu.com:443 close, 330 bytes sent, 4169 bytes (4.07 KB) received, lifetime 00:22"
+        "content": "proxy.cse.cuhk.edu.hk:5070 close, 1143 bytes (1.11 KB) sent, 365 bytes received, lifetime 00:01\ncontent.googleapis.com:443 close, 2094 bytes (2.04 KB) sent, 623 bytes received, lifetime 04:00\nrs.sinajs.cn:80 close, 1187 bytes (1.15 KB) sent, 472 bytes received, lifetime 00:12\nwww.weibo.com:80 close, 11058 bytes (10.7 KB) sent, 451 bytes received, lifetime 00:07\nplay.google.com:443 close, 2130 bytes (2.08 KB) sent, 1009 bytes received, lifetime 03:24\nproxy.cse.cuhk.edu.hk:5070 close, 1731 bytes (1.69 KB) sent, 864 bytes received, lifetime 02:53\nqa.sockets.stackexchange.com:443 close, 1603 bytes (1.56 KB) sent, 527 bytes received, lifetime 22:32\nstatic.doubleclick.net:443 close, 2553 bytes (2.49 KB) sent, 641 bytes received, lifetime 06:39\ndj1.baidu.com:80 close, 1369 bytes (1.33 KB) sent, 289 bytes received, lifetime 00:30\nlong.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime 00:27"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "proxy.cse.cuhk.edu.hk:5070 close, 1118 bytes (1.09 KB) sent, 340 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1301 bytes (1.27 KB) sent, 434 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1180 bytes (1.15 KB) sent, 337 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 2035 bytes (1.98 KB) sent, 469 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1920 bytes (1.87 KB) sent, 338 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1808 bytes (1.76 KB) sent, 346 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 1104 bytes (1.07 KB) sent, 406 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 2587 bytes (2.52 KB) sent, 317 bytes received, lifetime <1 sec\nproxy.cse.cuhk.edu.hk:5070 close, 2844 bytes (2.77 KB) sent, 279 bytes received, lifetime <1 sec\nc.baidu.com:80 close, 1052 bytes (1.02 KB) sent, 113 bytes received, lifetime <1 sec"
     }
 ]

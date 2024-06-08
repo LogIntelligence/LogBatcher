@@ -79,7 +79,7 @@ class Cluster_Parser:
                 if match_result != None:
                     cluster, new_cluster = prune_from_cluster(
                         template, cluster, clusters_num)
-                    # print(f"cache hit: {match_result}")
+                    print(f"cache hit: {match_result}")
                     return match_result, cluster, new_cluster
         demonstrations = ''
         can_match = False

@@ -57,7 +57,7 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
         print(f"=" * 40)
         print(f"parsing the cluster {index} in {cluster_nums} clusters\nsample log: {c.logs[0]}")
         #ablation: without caching
-        # tmps, template = parser.get_responce(f, c, [])
+        # template, c, new_cluster = parser.get_responce(c, cluster_nums, {}, sample_pairs, shot)
         template, c, new_cluster = parser.get_responce( c, cluster_nums, cache_pairs, sample_pairs, shot)
         print(f"template: {template}")
 
@@ -90,7 +90,7 @@ def set_args():
                         help='The num of demostrations.')
     parser.add_argument('--batch_size', type=int, default=10, 
                         help='The size of a batch')
-    parser.add_argument('--sample_method', type=str, default='dpp',
+    parser.add_argument('--sample_method', type=str, default='similar',
                         help='Sample method: dpp, random, similar.')
     args = parser.parse_args()
     return args
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    datasets = ['proxifier', 'Linux']
+    datasets = ['proxifier']
     model = args.model
     module = ''
     if 'gpt' not in model:
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     elif module:
         theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_{module}"
     else:
-        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_testtesttest"
+        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_with_similarity_sample"
 
     output_dir = f'outputs/parser/{theme}/'
     if not os.path.exists(output_dir):
@@ -133,4 +133,4 @@ if __name__ == "__main__":
             batch_size=args.batch_size,
             sample_method = args.sample_method
         )
-    evaluate_all_datasets(theme, datasets=datasets, data_tpye='2k')
+    # evaluate_all_datasets(theme, datasets=datasets, data_tpye='2k')
