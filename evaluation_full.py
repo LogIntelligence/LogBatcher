@@ -1,6 +1,7 @@
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
+import os
 import re
 import time
 import pandas as pd
@@ -148,36 +149,26 @@ def set_args():
 if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
-                'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    # dataset_format = {
-    #     'BGL':'<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-    #     'HDFS':'<Date> <Time> <Pid> <Level> <Component>: <Content>',
-    #     'OpenStack':'<Timestamp> <Node> <Component> <Level> <Content>',
-    #     'Zookeeper':'<Date> <Time> <Level> \[<Node>:<Component>@<Id>\] - <Content>',
-    #     'OpenSSH':'<Date> <Time> <Pid> <Level> <Component> <Content>',
-    #     'Apache':'<Content>',
-    #     }
-    datasets = ['HDFS']
-    model = args.model
-    
-    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.chunk_size}chunksize_full_time"
+                'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'Proxifier']
+    dataset_format = {} # need to be filled
+    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}_sampling_{args.chunk_size}chunk_size"
 
     output_dir = f'outputs/parser/{theme}/'
-    # if not os.path.exists(output_dir):
-    #     os.makedirs(output_dir)
-    # else:
-    #     print(f'{output_dir} already exists.\nresults is here: {output_dir}')
-    #     exit()
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    else:
+        print(f'{output_dir} already exists.\nresults is here: {output_dir}')
+        exit()
+
+    # load api key
     with open('config.json', 'r') as f:
         config = json.load(f)
-    config['model'] = args.model
     
     for index, dataset in enumerate(datasets):
-        parser = Cluster_Parser(theme, config)
+        parser = Cluster_Parser(args.model, theme, config)
         single_dataset_paring(
             dataset=dataset, 
-            # log_format = dataset_format[dataset],
-            log_format = '',
+            log_format = dataset_format[dataset],
             output_dir=output_dir, 
             parser=parser, 
             shot=args.shot,
