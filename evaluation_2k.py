@@ -90,28 +90,21 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
-    model = args.model
-    module = ''
-    if 'gpt' not in model:
-        if '/' in model:
-            theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model.replace('/','_')}"
-        else:
-            theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{model}"
-    elif module:
-        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_{module}"
-    else:
-        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_with_similarity_sample"
-
+    
+    theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}_sampling"
     output_dir = f'outputs/parser/{theme}/'
+
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     else:
         print(f'{output_dir} already exists.\nresults is here: {output_dir}')
-        # exit()
+        exit()
+    
+    # load api key
     with open('config.json', 'r') as f:
         config = json.load(f)
-    config['model'] = args.model
-    parser = Cluster_Parser(theme, config)
+    
+    parser = Cluster_Parser(args.model, theme, config)
     for index, dataset in enumerate(datasets):
         single_dataset_paring(
             dataset=dataset, 

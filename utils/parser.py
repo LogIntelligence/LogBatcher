@@ -1,5 +1,4 @@
 import json
-import re
 import time
 from openai import OpenAI
 from together import Together
@@ -11,9 +10,9 @@ from utils.postprocess import correct_single_template
 
 class Cluster_Parser:
     
-    def __init__(self, theme, config):
+    def __init__(self, model,  theme, config):
         
-        self.model = config['model']
+        self.model = model
         self.theme = theme
         self.time_consumption_llm = 0
         if 'gpt' in self.model:
@@ -24,8 +23,8 @@ class Cluster_Parser:
         else:
             self.api_key = config['api_key_from_together']
             self.client = Together(
-                    api_key=self.api_key   # api_key
-                )
+                api_key=self.api_key   # api_key
+            )
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
     @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
