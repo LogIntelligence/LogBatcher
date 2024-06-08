@@ -100,7 +100,7 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux']
-    datasets = ['proxifier']
+    datasets = ['proxifier', 'Linux']
     model = args.model
     module = ''
     if 'gpt' not in model:
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     elif module:
         theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_without_{module}"
     else:
-        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_test4"
+        theme = f"LogBatcher_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_testtesttest"
 
     output_dir = f'outputs/parser/{theme}/'
     if not os.path.exists(output_dir):

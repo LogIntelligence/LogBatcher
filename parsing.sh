@@ -1,5 +1,5 @@
 # Description: Script to run the evaluation.py script with different parameters
-for i in 2000
+for i in 5 10 15 20
 do
-    python evaluation_exp1.py --chunk_size $i
+    python evaluation_2k.py --batch_size $i
 done

@@ -1,30 +1,47 @@
 Content,EventTemplate
-"proxy.cse.cuhk.edu.hk:5070 close, 2933 bytes (2.86 KB) sent, 11721005 bytes (11.1 MB) received, lifetime 02:48","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 47856 bytes (46.7 KB) sent, 4090387 bytes (3.90 MB) received, lifetime 01:01","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 31257 bytes (30.5 KB) sent, 1846301 bytes (1.76 MB) received, lifetime 01:33","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 7437 bytes (7.26 KB) sent, 2235596 bytes (2.13 MB) received, lifetime 00:07","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-"r6---sn-i3b7kn7d.googlevideo.com:443 close, 12789 bytes (12.4 KB) sent, 13833013 bytes (13.1 MB) received, lifetime 01:01","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-"r6---sn-i3b7knez.googlevideo.com:443 close, 13118 bytes (12.8 KB) sent, 3242984 bytes (3.09 MB) received, lifetime 00:31","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-223.167.104.147:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-mtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-www.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-awqiizxequsixgr:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-www.baidu.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-c.baidu.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-s1.bdstatic.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-s1.bdstatic.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-ss.bdimg.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-ss.bdimg.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-ss.bdimg.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-clients4.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-wpad:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-www.qq.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-203.205.151.204:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-get.sogou.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-101.226.211.46:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-"r2---sn-i3b7kne6.googlevideo.com:443 close, 17742 bytes (17.3 KB) sent, 11581393 bytes (11.0 MB) received, lifetime 01:08","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-"video-hkg3-2.xx.fbcdn.net:443 close, 58373 bytes (57.0 KB) sent, 8896991 bytes (8.48 MB) received, lifetime 02:25","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
-client.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-"r1---sn-i3belnez.googlevideo.com:443 close, 10046 bytes (9.81 KB) sent, 5657896 bytes (5.39 MB) received, lifetime 00:54","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Authentication failed from <*> (<*>): <*>
+*** info [mice.c(1766)]:,*** info [<*>(<*>)]:
+imps2: Auto-detected intellimouse PS/2,imps2: Auto-detected intellimouse PS/2
+ROOT LOGIN ON tty2,<*> LOGIN ON tty2
+Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004,Linux version <*> (<*>) #<*> <*>
+BIOS-e820: 0000000000000000 - 00000000000a0000 (usable),BIOS-e820: <*> - <*> (usable)
+BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved),BIOS-e820: <*> - <*> (reserved)
+BIOS-e820: 0000000000100000 - 0000000007eae000 (usable),BIOS-e820: <*> - <*> (usable)
+BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved),BIOS-e820: <*> - <*> (reserved)
+BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved),BIOS-e820: <*> - <*> (reserved)
+You can enable it with acpi=force,You can enable it with acpi=force
+Kernel command line: ro root=LABEL=/ rhgb quiet,Kernel command line: ro <*>=LABEL=/ rhgb quiet
+Initializing CPU#0,Initializing CPU#<*>
+portmap startup succeeded,<*> startup succeeded
+Console: colour VGA+ 80x25,Console: colour VGA+ 80x25
+Calibrating delay loop... 1445.88 BogoMIPS,Calibrating delay loop... <*>
+"There is already a security framework initialized, register_security failed.","There is already a <*> initialized, <*> failed."
+selinux_register_security:  Registering secondary module capability,selinux_register_security: Registering secondary module capability
+"CPU: L1 I cache: 16K, L1 D cache: 16K","CPU: L1 I cache: <*>, L1 D cache: <*>"
+CPU: L2 cache: 256K,CPU: L2 cache: 256K
+Intel machine check reporting enabled on CPU#0.,Intel machine check reporting enabled on CPU#<*>.
+mtrr: v2.0 (20020519),mtrr: v2.<*> (<*>)
+Linux Plug and Play Support v0.97 (c) Adam Belay,Linux Plug and Play Support <*> (c) <*>
+usbcore: registered new driver usbfs,usbcore: registered new driver usbfs
+usbcore: registered new driver hub,usbcore: registered new driver hub
+PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,PCI: Using IRQ router PIIX/ICH [8086/2410] at <*>
+kernel.core_uses_pid = 1,kernel.core_uses_pid = <*>
+hcid startup succeeded,<*> startup succeeded
+sdpd startup succeeded,<*> startup succeeded
+sdpd v1.5 started,<*> <*> started
+pci_hotplug: PCI Hot Plug PCI Core version: 0.5,pci_hotplug: PCI Hot Plug PCI Core version: <*>
+Linux agpgart interface v0.100 (c) Dave Jones,Linux agpgart interface v0.<*> (c) Dave Jones

@@ -15,7 +15,7 @@ def calculate_avg(numbers, round_num = 4):
 
 def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k'):
     if datasets == []:
-        table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Windows Linux Android HealthApp Apache OpenSSH OpenStack Mac'
+        table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Windows Linux Android HealthApp Apache Proxifier OpenSSH OpenStack Mac'
         datasets = table_order.split(' ')
     
 

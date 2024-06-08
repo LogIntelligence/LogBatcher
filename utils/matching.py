@@ -1,6 +1,6 @@
 import random
 import re
-from utils.cluster import Cluster
+from utils.cluster import Cluster, tokenize
 
 def extract_variables(log, template):
     log = re.sub(r'\s+', ' ', log.strip()) # DS
@@ -20,13 +20,34 @@ def matches_template(log, cached_pair):
     template = cached_pair[1]
 
     # length matters
-    if len(log.split()) != len(reference_log.split()):
+    if abs(len(log.split()) - len(reference_log.split())) > 1:
         return None
-    
+
+    # print(f"reference_log: {reference_log}")
+    # print(f"log: {log}")
+
+    # len_not_same = 0
+    # for token in log.split():
+    #     if not re.search(r'\d', token):
+    #         len_not_same += 1
+    # for token in reference_log.split():
+    #     if not re.search(r'\d', token):
+    #         len_not_same -= 1
+
+    # if len_not_same:
+    #     return None
+
     groups = extract_variables(log, template)
+
+    
 
     if not groups:
         return None
+
+    # length matter
+    # for group in groups:
+    #     if len(tokenize(group)) >= 2:
+    #         return None
 
     # consider the case where the varaible is empty
     parts = []
