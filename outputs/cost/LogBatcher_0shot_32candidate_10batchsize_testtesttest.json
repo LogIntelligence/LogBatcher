@@ -1,0 +1,120 @@
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\n182.254.114.110:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\ngithub-windows.s3.amazonaws.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\ntc.dl.pinyin.sogoucdn.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\n203.205.146.15:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\npeople-pa.clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\nf-log-extension.grammarly.io:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\nxf-com-update-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\nsrc.wei.focus.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS\nvideo-hkg3-2.xx.fbcdn.net:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "r2---sn-i3b7kn7r.googlevideo.com:443 close, 2883 bytes (2.81 KB) sent, 90785 bytes (88.6 KB) received, lifetime 00:30\nproxy.cse.cuhk.edu.hk:5070 close, 3425 bytes (3.34 KB) sent, 212164 bytes (207 KB) received, lifetime 00:18\nf-log-extension.grammarly.io:443 close, 1363 bytes (1.33 KB) sent, 3549 bytes (3.46 KB) received, lifetime 00:33\n183.62.156.108:22 close, 89652 bytes (87.5 KB) sent, 599249 bytes (585 KB) received, lifetime 37:51\nlong.open.weixin.qq.com:443 close, 1985 bytes (1.93 KB) sent, 4832 bytes (4.71 KB) received, lifetime 00:02\nbolt.dropbox.com:443 close, 15427 bytes (15.0 KB) sent, 8268 bytes (8.07 KB) received, lifetime 15:31\ntc.dl.pinyin.sogoucdn.com:80 close, 1537 bytes (1.50 KB) sent, 7856 bytes (7.67 KB) received, lifetime 01:00\nscontent-hkg3-2.xx.fbcdn.net:443 close, 3732 bytes (3.64 KB) sent, 804155 bytes (785 KB) received, lifetime 01:10\nassets-cdn.github.com:443 close, 1227 bytes (1.19 KB) sent, 4890 bytes (4.77 KB) received, lifetime 06:19\nc.csdnimg.cn:80 close, 1314 bytes (1.28 KB) sent, 27289 bytes (26.6 KB) received, lifetime 03:09"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:17\ntxt.go.sohu.com:80 close, 606 bytes sent, 857 bytes received, lifetime 00:07\nf-log-extension.grammarly.io:443 close, 0 bytes sent, 0 bytes received, lifetime 00:11\nblog.csdn.net:80 close, 670 bytes sent, 421 bytes received, lifetime 00:29\ncidian.youdao.com:80 close, 923 bytes sent, 456 bytes received, lifetime 09:53\nr6---sn-i3b7knl6.googlevideo.com:443 close, 733 bytes sent, 151 bytes received, lifetime 00:15\njs.passport.qihucdn.com:80 close, 496 bytes sent, 426 bytes received, lifetime 00:16\n24.135.95.248:443 close, 131 bytes sent, 153 bytes received, lifetime 00:12\ntc.dl.pinyin.sogoucdn.com:80 close, 799 bytes sent, 346 bytes received, lifetime 01:00\ngtms03.alicdn.com:80 close, 399 bytes sent, 498 bytes received, lifetime 02:06"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "proxy.cse.cuhk.edu.hk:5070 close, 1143 bytes (1.11 KB) sent, 365 bytes received, lifetime 00:01\nuser-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 03:15\np2.qhimg.com:80 close, 230 bytes sent, 1125 bytes (1.09 KB) received, lifetime 00:09\ndslb.cdn.krcom.cn:80 close, 446 bytes sent, 195160 bytes (190 KB) received, lifetime 00:59\nqa.sockets.stackexchange.com:443 close, 1603 bytes (1.56 KB) sent, 527 bytes received, lifetime 22:32\n13.client-channel.google.com:443 close, 474 bytes sent, 4464 bytes (4.35 KB) received, lifetime 01:30\nf-log-extension.grammarly.io:443 close, 643 bytes sent, 3276 bytes (3.19 KB) received, lifetime 00:19\nlong.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime 00:28\nstatic.doubleclick.net:443 close, 2553 bytes (2.49 KB) sent, 641 bytes received, lifetime 06:39\nzhihu-web-analytics.zhihu.com:443 close, 343 bytes sent, 3122 bytes (3.04 KB) received, lifetime 00:17"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "tcpconn6.tencent.com:443 error : A connection request was canceled before the completion.\noimagec7.ydstatic.com:80 error : A connection request was canceled before the completion.\noimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.\noimageb3.ydstatic.com:80 error : A connection request was canceled before the completion.\noimageb1.ydstatic.com:80 error : A connection request was canceled before the completion.\noimagea3.ydstatic.com:80 error : A connection request was canceled before the completion.\noimagec1.ydstatic.com:80 error : A connection request was canceled before the completion.\nhm.baidu.com:80 error : A connection request was canceled before the completion.\ncsdnimg.cn:80 error : A connection request was canceled before the completion.\nclient-cf.dropbox.com:443 error : A connection request was canceled before the completion."
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "qa.sockets.stackexchange.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\n13.client-channel.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nwww.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nclient-cf.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\n16.client-channel.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nbolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nmtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061\nclient-lb.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "223.167.104.147:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\nmtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\ns1.bdstatic.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\nss.bdimg.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\nbolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\nwww.qq.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n203.205.151.204:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\nget.sogou.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001\n101.226.211.46:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "formi.baidu.com:843 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403\n127.0.0.1:135 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403\n203.205.129.102:8080 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403\nmtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403\nupdate.hicloud.com:8180 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403\nlocal-p2p.qq.com:443 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 503\nqd-update.qq.com:8080 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403\ni2.itc.cn:80 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 503"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "proxy.cse.cuhk.edu.hk:5070 close, 2933 bytes (2.86 KB) sent, 11721005 bytes (11.1 MB) received, lifetime 02:48\nproxy.cse.cuhk.edu.hk:5070 close, 47856 bytes (46.7 KB) sent, 4090387 bytes (3.90 MB) received, lifetime 01:01\nproxy.cse.cuhk.edu.hk:5070 close, 31257 bytes (30.5 KB) sent, 1846301 bytes (1.76 MB) received, lifetime 01:33\nproxy.cse.cuhk.edu.hk:5070 close, 7437 bytes (7.26 KB) sent, 2235596 bytes (2.13 MB) received, lifetime 00:07\nr6---sn-i3b7kn7d.googlevideo.com:443 close, 12789 bytes (12.4 KB) sent, 13833013 bytes (13.1 MB) received, lifetime 01:01\nr6---sn-i3b7knez.googlevideo.com:443 close, 13118 bytes (12.8 KB) sent, 3242984 bytes (3.09 MB) received, lifetime 00:31\nr2---sn-i3b7kne6.googlevideo.com:443 close, 17742 bytes (17.3 KB) sent, 11581393 bytes (11.0 MB) received, lifetime 01:08\nvideo-hkg3-2.xx.fbcdn.net:443 close, 58373 bytes (57.0 KB) sent, 8896991 bytes (8.48 MB) received, lifetime 02:25\nr1---sn-i3belnez.googlevideo.com:443 close, 10046 bytes (9.81 KB) sent, 5657896 bytes (5.39 MB) received, lifetime 00:54"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "tcpconn4.tencent.com:80 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.\n86.99.222.235:443 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.\nconfig.pinyin.sogou.com:80 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly."
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 SOCKS5"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "user-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 03:15\nproxy.cse.cuhk.edu.hk:5070 close, 397 bytes sent, 3558 bytes (3.47 KB) received, lifetime 00:01\ndslb.cdn.krcom.cn:80 close, 446 bytes sent, 195160 bytes (190 KB) received, lifetime 00:59\n13.client-channel.google.com:443 close, 474 bytes sent, 4464 bytes (4.35 KB) received, lifetime 01:30\nodr.mookie1.com:443 close, 361 bytes sent, 4839 bytes (4.72 KB) received, lifetime 00:11\nzhihu-web-analytics.zhihu.com:443 close, 343 bytes sent, 3122 bytes (3.04 KB) received, lifetime 00:17\np2.qhimg.com:80 close, 230 bytes sent, 1125 bytes (1.09 KB) received, lifetime 00:09\nd3cv4a9a9wh0bt.cloudfront.net:443 close, 820 bytes sent, 5619 bytes (5.48 KB) received, lifetime 02:00\nf-log-extension.grammarly.io:443 close, 643 bytes sent, 3276 bytes (3.19 KB) received, lifetime 00:19\nwn.pos.baidu.com:443 close, 330 bytes sent, 4169 bytes (4.07 KB) received, lifetime 00:22"
+    }
+]

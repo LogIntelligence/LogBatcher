@@ -1,11 +1,10 @@
 from collections import OrderedDict
 import re
+import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import DBSCAN
-from utils.algorithms import dpp_sample
-from utils.sample import group_samples_clustering
-from utils.util import mutate
+from utils.sample import group_samples_clustering, dpp_sample
 import random
 
 class Cluster:
@@ -17,7 +16,6 @@ class Cluster:
         self.oracle_template = oracle_template
         self.sample_method = sample_method
         # self.shuffle()
-        # self.mutation()
         if remove_duplicate:
             self.remove_duplicate()
 
@@ -27,17 +25,7 @@ class Cluster:
             if len(self.logs) > remain_num:
                 self.sample(remain_num)
     
-    def mutation(self):
-        length = len(self.logs)
-        pattern1 = r'^[a-zA-Z]+[0-9]+$' # may not be a varaible
-        pattern2 = r"[^012][3-9]"  # may be a varaible
-        if length > 1:
-            for token in tokenize(self.logs[0], removeDight=False):
-                if re.search(pattern2, token) and not re.match(pattern1, token):
-                    self.logs[0].replace(token, mutate(token))
-    
     def remove_duplicate(self):
-        # self.logs = list(set(self.logs))
         self.logs = list(OrderedDict.fromkeys(self.logs))
 
     def shuffle(self):
@@ -65,6 +53,24 @@ class Cluster:
         self.logs = [self.logs[i] for i in result]
         return
 
+def clean(s):
+    """ Preprocess log message
+    Parameters
+    ----------
+    s: str, raw log message
+    Returns
+    -------
+    str, preprocessed log message without number tokens and special characters
+    """
+    s = re.sub(':|\(|\)|=|,|"|\{|\}|@|$|\[|\]|\||;|\.', ' ', s)
+    s = " ".join([word.lower() if word.isupper() else word for word in s.strip().split()])
+    s = re.sub('([A-Z][a-z]+)', r' \1', re.sub('([A-Z]+)', r' \1', s))
+    s = " ".join([word for word in s.split() if not bool(re.search(r'\d', word))])
+    trantab = str.maketrans(dict.fromkeys(list(string.punctuation)))
+    s = s.translate(trantab)
+    s = " ".join([word.lower().strip() for word in s.strip().split()])
+    return s
+
 def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
     words = re.split(tokenize_pattern, log_content)
     new_words = []
@@ -77,6 +83,7 @@ def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
             else:
                 # might be some parameters of a URL 
                 pass 
+
             # new_words.append(word.split('=')[0])
 
         elif removeDight and re.search(r'\d', word):

@@ -1,9 +1,20 @@
-# vscode and pycahce
-.vscode/
+DivLog/
+LILAC/
+RAG/
 __pycache__/
+.vscode/
+dataset_logpub/
+outputs/reverse/
 
-.gitignore
 
-# figures
-outputs/figures/
+dataset/Correct_Details.md
 
+# full dataset
+dataset/**/*full*
+outputs/parser/*full*/
+
+
+# python file
+utils/email.py
+utils/unused_functions.py
+utils/demostration_infromationentropy.json

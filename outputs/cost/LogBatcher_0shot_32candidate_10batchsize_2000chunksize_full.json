@@ -1,0 +1,290 @@
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "instruction cache parity error corrected"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit 3"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "1347195 double-hummer alignment exceptions\n63578 double-hummer alignment exceptions\n63478 double-hummer alignment exceptions\n63558 double-hummer alignment exceptions\n63543 double-hummer alignment exceptions\n63576 double-hummer alignment exceptions\n12826 double-hummer alignment exceptions\n12304 double-hummer alignment exceptions\n12283 double-hummer alignment exceptions\n12306 double-hummer alignment exceptions"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "CE sym 25, at 0x04bfb9e0, mask 0x20\nCE sym 2, at 0x0b85f8a0, mask 0x06\nCE sym 0, at 0x0b858280, mask 0xa0\nCE sym 0, at 0x0b858c80, mask 0x30\nCE sym 2, at 0x0b85ec80, mask 0x07\nCE sym 2, at 0x0b85ee80, mask 0x0f\nCE sym 2, at 0x0b85f680, mask 0x0e\nCE sym 23, at 0x0210f640, mask 0x80\nCE sym 0, at 0x1b858080, mask 0x40\nCE sym 10, at 0x08e30580, mask 0x08"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "generating core.304\ngenerating core.17\ngenerating core.784\ngenerating core.253\ngenerating core.320\ngenerating core.65\ngenerating core.3616\ngenerating core.1024\ngenerating core.3585\ngenerating core.15"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: Error loading /p/gb2/stella/RAPTOR/65641/raptor: invalid or missing program image, No such file or directory\nciod: Error loading /p/gb2/stella/RAPTOR/65640/raptor: invalid or missing program image, No such file or directory"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "1 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 3\n13 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 0\n6 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 2\n14 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 1\n16 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 2\n12 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 3\n17 ddr errors(s) detected and corrected on rank 0, symbol 2, bit 6\n15 ddr errors(s) detected and corrected on rank 0, symbol 23, bit 0\n10 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 4\n1 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "total of 1 ddr error(s) detected and corrected\ntotal of 6 ddr error(s) detected and corrected\ntotal of 31 ddr error(s) detected and corrected\ntotal of 3 ddr error(s) detected and corrected\ntotal of 15 ddr error(s) detected and corrected\ntotal of 10 ddr error(s) detected and corrected\ntotal of 12 ddr error(s) detected and corrected"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "3450051 L3 EDRAM error(s) (dcr 0x0157) detected and corrected\n16176627 L3 EDRAM error(s) (dcr 0x0157) detected and corrected\n207907 L3 EDRAM error(s) (dcr 0x0157) detected and corrected\n2312722 L3 EDRAM error(s) (dcr 0x0157) detected and corrected\n555 L3 EDRAM error(s) (dcr 0x0157) detected and corrected"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ddr: activating redundant bit steering: rank=0 symbol=0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ddr: excessive soft failures, consider replacing the card"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "data TLB error interrupt"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "ciod: LOGIN chdir(/p/gb2/draeger/benchmark/dat32k_060205) failed: No such file or directory\nciod: LOGIN chdir(/p/gb2/glosli) failed: No such file or directory\nciod: LOGIN chdir(/nfs/tmp1/ddcMD_jng/8M_5000Ktest) failed: No such file or directory"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "instruction address: 0x0000df30\ninstruction address: 0x00362618"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "machine state register: 0x0000f000\nmachine state register: 0x00003000"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "wait state enable.................0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "critical input interrupt enable...0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "external input interrupt enable...1\nexternal input interrupt enable...0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "problem state (0=sup,1=usr).......1\nproblem state (0=sup,1=usr).......0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "floating point instr. enabled.....1"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "machine check enable..............1"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "floating pt ex mode 0 enable......0\nfloating pt ex mode 1 enable......0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "debug wait enable.................0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "debug interrupt enable............0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "instruction address space.........0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "data address space................0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "core configuration register: 0x00002000"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "disable store gathering..................0"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+    },
+    {
+        "role": "user",
+        "content": "disable apu instruction broadcast........0"
+    }
+]

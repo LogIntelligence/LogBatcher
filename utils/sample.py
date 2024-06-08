@@ -1,15 +1,39 @@
-import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from utils.algorithms import dpp_sample, entropy_calculate
-from utils.sample_byword import extract_variables
 import random
 from sklearn.cluster import KMeans
 import numpy as np
 
-# entropy based sampling
-# messages.append({"role": "user", "content": '2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005110b0> { URL: https://tools.google.com/service/update2?cup2hreq=53f725cf03f511fab16f19e789ce64aa1eed72395fc246e9f1100748325002f4&cup2key=7:1132320327 }) to folder:/tmp/KSOutOfProcessFetcher.YH2CjY1tnx/download'})
-# messages.append({"role": "assistant", "content": '`{{timestamp}} ksfetch[{{process_and_thread_id}}] [lvl={{log_level}}] main() ksfetch fetching URL (<NSMutableURLRequest: {{request_id}}> { URL: {{request_url}} }) to folder:{{folder_path}}`'})
+
+def dpp_sample(S, k):
+    # S: similarity matrix
+    # k: number of items to sample
+    n = S.shape[0]
+
+    # Initialize empty set Y
+    Y = set()
+
+    for _ in range(k):
+        best_i = -1
+        best_p = -1
+
+        for i in range(n):
+            if i not in Y:
+                # Compute determinant of submatrix
+                det_Yi = np.linalg.det(S[np.ix_(list(Y) + [i], list(Y) + [i])])
+
+                # Compute probability of adding i to Y
+                p_add = det_Yi / (1 + det_Yi)
+
+                if p_add > best_p:
+                    best_p = p_add
+                    best_i = i
+
+        # Add best item to Y
+        Y.add(best_i)
+
+    return list(Y)
+
 
 def sample_from_clusters(clusters, shot = 32):
     clusters = sorted(clusters, key=lambda cluster: len(cluster.indexs), reverse=True)
@@ -49,59 +73,6 @@ def nearest_k_pairs_from_log(log, sample_pairs, k):
     nearest_k_pairs = [sample_pairs[i] for i in nearest_k_indices]
     
     return nearest_k_pairs
-
-def sample_based_on_entropy(dataset, shot = 5):
-    # sample log-template pairs from other datasets
-    datasets = ['BGL', 'HDFS', 'Linux', 'HealthApp', 'OpenStack', 'OpenSSH', 'Proxifier', 'HPC', 'Zookeeper', 'Mac',
-            'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark']
-    datasets.remove(dataset)
-    pairs =[]
-    templates = []
-    for d in datasets:
-        df = pd.read_csv(f'dataset\{d}\{d}_2k.log_structured_corrected.csv')
-        list1 = df['Content'].tolist()
-        list2 = df['EventTemplate'].tolist()
-        for log, template  in zip(list1, list2):
-            if template not in templates:
-                pairs.append((log, template, d))
-                templates.append(template)
-
-    # filter
-    # for pair in pairs:
-    #     if len(pair[0]) >= 500:
-    #         pairs.remove(pair)
-    return entropy_calculate(pairs, shot, type = 'pair')
-
-def sample_byword(df, k, method='dpp', showLogs=False):
-
-    logs = df['Content'].tolist()
-    templates = df['EventTemplate'].tolist()
-    
-
-    # vetorize logs
-    vectorizer = TfidfVectorizer()
-    tfidf_matrix = vectorizer.fit_transform(logs)  # logs 是你的文本日志列表
-    tfidf_matrix = tfidf_matrix.toarray()
-
-    # sample
-    if method == "dpp":
-        similarity_matrix = cosine_similarity(tfidf_matrix)
-        result = dpp_sample(similarity_matrix, 5)
-    elif method == "random":
-        random.seed(0)
-        result = random.sample(range(0, 2000), 5)
-
-    # extract variables
-    vars = []
-    for i in result:
-        if showLogs:
-            print(logs[i])
-        variables = extract_variables(logs[i], templates[i])
-        for var in variables:
-            if var not in vars:
-                vars.append(var)
-    return set(vars)
-
 
 def group_samples_clustering(embed_matrix, num_in_batch):
     def _calculate_cos_similarities(v1: np.array, v2: np.array):
