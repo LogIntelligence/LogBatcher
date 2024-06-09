@@ -1,6 +1,5 @@
 from collections import OrderedDict
 import re
-import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import DBSCAN
@@ -8,116 +7,47 @@ from utils.sample import group_samples_clustering, dpp_sample
 import random
 
 class Cluster:
-    def __init__(self, label, logs, indexs, oracle_template, remove_duplicate=True, remain_num=10, sample_method="dpp"):
-        self.label = label
-        self.static_logs = logs
-        self.logs = logs
-        self.indexs = indexs
-        self.oracle_template = oracle_template
-        self.sample_method = sample_method
-        # self.shuffle()
-        if remove_duplicate:
-            self.remove_duplicate()
+    def __init__(self):
+        self.logs = []
+        self.batch_logs = []
+        self.indexs = []
+        self.size = 0
+        
 
-            # ablation: without batching
-            # self.logs = [self.logs[0]]
-
-            if len(self.logs) > remain_num:
-                self.sample(remain_num)
+    def append_log(self, log, index):
+        self.logs.append(log)
+        self.indexs.append(index)
+        self.size += 1
     
-    def remove_duplicate(self):
-        self.logs = list(OrderedDict.fromkeys(self.logs))
+    def batching(self, batch_size=10, sample_method="dpp"):
+        self.batch_logs = list(OrderedDict.fromkeys(self.logs)) # remove duplicates
+        if len(self.batch_logs) > batch_size:
+            self.sample(batch_size, sample_method)
 
-    def shuffle(self):
-        seed = 0
-        random.seed(seed)
-        random.shuffle(self.logs)
-
-    def sample(self, remain_num):
+    def sample(self, batch_size, sample_method):
         # vetorize logs
         vectorizer = TfidfVectorizer()
-        tfidf_matrix = vectorizer.fit_transform(self.logs)  # logs 是你的文本日志列表
+        tfidf_matrix = vectorizer.fit_transform(self.batch_logs)
         tfidf_matrix = tfidf_matrix.toarray()
 
         # sample
-        if self.sample_method == "dpp":
+        if sample_method == "dpp":
             similarity_matrix = cosine_similarity(tfidf_matrix)
-            result = dpp_sample(similarity_matrix, remain_num)
-        elif self.sample_method == "random":
+            result = dpp_sample(similarity_matrix, batch_size)
+        elif sample_method == "random":
             random.seed(0)
-            result = random.sample(range(0, len(self.logs)), remain_num)
-        elif self.sample_method == "similar":
-            result = group_samples_clustering(tfidf_matrix, remain_num)[0]
+            result = random.sample(range(0, len(self.batch_logs)), batch_size)
+        elif sample_method == "similar":
+            result = group_samples_clustering(tfidf_matrix, batch_size)[0]
         else:
             raise ValueError("Invalid sample method")
-        self.logs = [self.logs[i] for i in result]
+        self.batch_logs = [self.batch_logs[i] for i in result]
         return
 
-def clean(s):
-    """ Preprocess log message
-    Parameters
-    ----------
-    s: str, raw log message
-    Returns
-    -------
-    str, preprocessed log message without number tokens and special characters
-    """
-    s = re.sub(':|\(|\)|=|,|"|\{|\}|@|$|\[|\]|\||;|\.', ' ', s)
-    s = " ".join([word.lower() if word.isupper() else word for word in s.strip().split()])
-    s = re.sub('([A-Z][a-z]+)', r' \1', re.sub('([A-Z]+)', r' \1', s))
-    s = " ".join([word for word in s.split() if not bool(re.search(r'\d', word))])
-    trantab = str.maketrans(dict.fromkeys(list(string.punctuation)))
-    s = s.translate(trantab)
-    s = " ".join([word.lower().strip() for word in s.strip().split()])
-    return s
-# def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
-#     Rexs =  [
-#             "((?<=[^A-Za-z0-9])|^)(([0-9a-f]{2,}:){3,}([0-9a-f]{2,}))((?=[^A-Za-z0-9])|$)",
-#             "((?<=[^A-Za-z0-9])|^)(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})((?=[^A-Za-z0-9])|$)",
-#             "((?<=[^A-Za-z0-9])|^)([0-9a-f]{6,} ?){3,}((?=[^A-Za-z0-9])|$)",
-#             "((?<=[^A-Za-z0-9])|^)([0-9A-F]{4} ?){4,}((?=[^A-Za-z0-9])|$)",
-#             "((?<=[^A-Za-z0-9])|^)(0x[a-f0-9A-F]+)((?=[^A-Za-z0-9])|$)",
-#             "((?<=[^A-Za-z0-9])|^)([\\-\\+]?\\d+)((?=[^A-Za-z0-9])|$)",
-#             "(?<=executed cmd )(\".+?\")",
-#             "(\\w+):\\/\\/([^/:]+)(:\\d*)?([^# ]*)",
-#             "\\/[<\\*>|\\w]+\\/([<\\*>|\\w]+\\/?)+",
-#             "(<\\*>)(\\s*<\\*>){4,}",
-#             "(<\\*>)(##*<\\*>){2,}",
-#             "(\\w{0,1}<\\*>-){2,}(\\w|<\\*>)*",
-#             "<\\*>(\\.\\w+|\\(\\)|\\/)",
-#             "(false|true|root|ROOT)"
-#         ]
-#     for rex in Rexs:
-#         log_content = re.sub(rex, "", log_content)
-#     tokens = re.split('', log_content)
-#     new_tokens = []
-#     for token in tokens:
-#         if '=' in token:
-#             ws = token.split('=')
-#             if len(ws) <= 2:
-#                 new_tokens.append(ws[0])
-#             else:
-#                 # might be some parameters of a URL 
-#                 pass 
-
-#             # new_words.append(word.split('=')[0])
-#         elif removeDight and re.search(r'\d', token):
-#             pass
-#         elif '/' in token:
-#             pass
-#         else:
-#             new_tokens.append(token)
-#     new_tokens = [token for token in new_tokens if token or len(token)==1]   # remove null
-#     if new_tokens == []:
-#         new_tokens.append(re.sub(r'\d+(\.\d+)?', '0', log_content))
-#     return new_tokens
-
-    # return clean(log_content).split()
 def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
     words = re.split(tokenize_pattern, log_content)
     new_words = []
-    list = ['/']
-    for index, word in enumerate(words):
+    for word in words:
         if '=' in word:
             ws = word.split('=')
             if len(ws) <= 2:
@@ -126,11 +56,9 @@ def tokenize(log_content, tokenize_pattern=r'[ ,|]', removeDight=True):
                 # might be some parameters of a URL 
                 pass 
 
-            # new_words.append(word.split('=')[0])
-
         elif removeDight and re.search(r'\d', word):
             pass
-        elif any(i in word.lower() for i in list):
+        elif '/' in word.lower():
             pass
         else:
             new_words.append(word)

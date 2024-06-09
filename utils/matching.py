@@ -23,31 +23,9 @@ def matches_template(log, cached_pair):
     if abs(len(log.split()) - len(reference_log.split())) > 1:
         return None
 
-    # print(f"reference_log: {reference_log}")
-    # print(f"log: {log}")
-
-    # len_not_same = 0
-    # for token in log.split():
-    #     if not re.search(r'\d', token):
-    #         len_not_same += 1
-    # for token in reference_log.split():
-    #     if not re.search(r'\d', token):
-    #         len_not_same -= 1
-
-    # if len_not_same:
-    #     return None
-
     groups = extract_variables(log, template)
-
-    
-
     if not groups:
         return None
-
-    # length matter
-    # for group in groups:
-    #     if len(tokenize(group)) >= 2:
-    #         return None
 
     # consider the case where the varaible is empty
     parts = []
@@ -63,20 +41,20 @@ def matches_template(log, cached_pair):
 
 
 
-def prune_from_cluster(template, cluster, cluster_nums):
-    new_logs = []
-    new_indexs = []
-    logs, indexs = cluster.static_logs, cluster.indexs
+def prune_from_cluster(template, cluster):
+
+    new_cluster = Cluster()
+    logs, indexs = cluster.logs, cluster.indexs
     for log, index in zip(logs, indexs):
         if extract_variables(log, template) == None:
-            new_logs.append(log)
-            new_indexs.append(index)
-    if new_logs == []:
-        return cluster, None
+            new_cluster.append_log(log, index)
+
+    if new_cluster.size == 0:
+        return cluster, new_cluster
     else:
-        old_logs = [log for log in logs if log not in new_logs]
-        old_indexs = [index for index in indexs if index not in new_indexs]
-        cluster.static_logs = old_logs
+        old_logs = [log for log in logs if log not in new_cluster.logs]
+        old_indexs = [index for index in indexs if index not in new_cluster.indexs]
+        cluster.logs = old_logs
         cluster.indexs = old_indexs
-        # print(f"prune {len(new_logs)} logs from {length} logs in mathcing process")
-        return cluster, Cluster(cluster_nums, new_logs, new_indexs, '')
+        print(f"prune {new_cluster.size} logs from {len(logs)} logs in mathcing process")
+        return cluster, new_cluster

@@ -4,7 +4,8 @@ import time
 from openai import OpenAI
 from together import Together
 from tenacity import retry, stop_after_attempt, wait_random_exponential
-from utils.postprocess import post_process, post_process_for_batch_output
+from utils.cluster import Cluster
+from utils.postprocess import post_process
 from utils.sample import nearest_k_pairs_from_log
 from utils.matching import extract_variables, matches_template, prune_from_cluster
 from utils.postprocess import correct_single_template
@@ -12,9 +13,9 @@ import httpx
 
 class Cluster_Parser:
     
-    def __init__(self, theme, config):
+    def __init__(self, model, theme, config):
         
-        self.model = config['model']
+        self.model = model
         self.theme = theme
         self.time_consumption_llm = 0
         if 'gpt' in self.model:
@@ -64,25 +65,26 @@ class Cluster_Parser:
                 return output
             
     
-    def get_responce(self, cluster, clusters_num, cached_pairs={}, sample_pairs=[], shot = 0):
-        logs =cluster.logs
-        length = len(cluster.indexs)
+    def get_responce(self, cluster, cached_pairs={}, sample_pairs=[], shot = 0):
+
+        # initialize
+        logs =cluster.batch_logs
         sample_log = logs[0]
         if type(logs) == str:
             logs = [logs]
-        new_cluster = None
-
+        new_cluster = Cluster()
         # caching
-        for template, value_f in cached_pairs.items():
-            for log in cluster.static_logs:
-                match_result = matches_template(log, [value_f[0], template])
+        for template, referlog_and_freq in cached_pairs.items():
+            for log in cluster.logs:
+                match_result = matches_template(log, [referlog_and_freq[0], template])
                 if match_result != None:
-                    cluster, new_cluster = prune_from_cluster(
-                        template, cluster, clusters_num)
+                    cluster, new_cluster = prune_from_cluster(template, cluster)
+                    cached_pairs[template][1] += len(new_cluster.logs)
                     print(f"cache hit: {match_result}")
                     return match_result, cluster, new_cluster
+                
+
         demonstrations = ''
-        can_match = False
 
         # using labelled data
         if shot > 0:
@@ -93,20 +95,14 @@ class Cluster_Parser:
 
         # prompt format: instruction + (demonstration) + query(logs)
         instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
-        
-        # ablation for clustering
-        # instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template separated by line break."
 
         if demonstrations != '':
             query = demonstrations + 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
-            # query = 'Log message: ' + '\n'.join([f'`{log}`'for log in logs])
         elif all(model_tpye not in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
             query = 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
         else:
             query = '\n'.join(logs)
     
-        
-
         # invoke LLM
         cost_file = open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8')
         if any(model_tpye in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
@@ -124,61 +120,21 @@ class Cluster_Parser:
         cost_file.close()
             
 
-
         template = post_process(answer)
 
-        if template == '':
-            can_match = False
+        # matching and pruning
+        for log in logs:
+            matches = extract_variables(log, template)
+            if matches != None:
+                parts = template.split('<*>')
+                template = parts[0]
+                for index, match in enumerate(matches):
+                    if match != '':
+                        template += '<*>'
+                    template += parts[index + 1]
+                cluster, new_cluster = prune_from_cluster(template, cluster)
+                break
         else:
-            # matching
-            for log in logs:
-                matches = extract_variables(log, template)
-                if matches != None:
-                    # refine for the empty variable
-                    parts = template.split('<*>')
-                    template = parts[0]
-                    for index, match in enumerate(matches):
-                        if match != '':
-                            template += '<*>'
-                        template += parts[index + 1]
-                    can_match = True
-                    break
-        # pruning
-        if not can_match:
             template = correct_single_template(sample_log)
-            # print(f"can not match any log in this batch, return a sampled log as template")
-        cluster, new_cluster = prune_from_cluster(
-            template, cluster, clusters_num)
-        
-        
-
-
-        # ablation for clustering:
-        # match_template = ''
-        # templates = post_process_for_batch_output(answer)
-        # for template in templates:
-        #     for log in logs:
-        #         matches = extract_variables(log, template)
-        #         if matches != None:
-        #             # refine for the empty variable
-        #             parts = template.split('<*>')
-        #             template = parts[0]
-        #             for index, match in enumerate(matches):
-        #                 if match != '':
-        #                     template += '<*>'
-        #                 template += parts[index + 1]
-        #             match_template =template
-        #             break
-
-        # # pruning
-        # if match_template != '':
-        #     template = match_template
-        #     cluster, new_cluster = prune_from_cluster(
-        #         match_template, cluster, clusters_num)
-        # else:
-        #     template = correct_single_template(sample_log)
-        #     print(f"can not match any log in this batch, return a sampled log as template")
-
-        
-        # print(f"final template: {template}")
+        cluster, new_cluster = prune_from_cluster(template, cluster)
         return template, cluster, new_cluster

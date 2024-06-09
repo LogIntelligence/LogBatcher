@@ -2,19 +2,28 @@ DivLog/
 LILAC/
 RAG/
 __pycache__/
+utils/__pycache__/
 .vscode/
 dataset_logpub/
 outputs/reverse/
 
-
 dataset/Correct_Details.md
 
-# full dataset
+# dataset
 dataset/**/*full*
 outputs/parser/*full*/
+dataset/data_loader.py
+
+# output
+outputs/cost/
+outputs/parser/*DivLog*
+outputs/parser/*LILAC*
+outputs/parser/*with*
+outputs/parser/*without*
 
 
 # python file
-utils/email.py
 utils/unused_functions.py
-utils/demostration_infromationentropy.json
+
+config.json
+tools.ipynb

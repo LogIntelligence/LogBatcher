@@ -12,7 +12,6 @@ def dpp_sample(S, k):
 
     # Initialize empty set Y
     Y = set()
-
     for _ in range(k):
         best_i = -1
         best_p = -1
