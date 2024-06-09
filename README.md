@@ -69,7 +69,7 @@ We evaluate the importance of each component by removing each of them from the f
 <p align="center"><img src="outputs/figures/batch_size.png" width="200"></p>
 
 - Sampling method
-<p align="center"><img src="outputs/figures/sampling_method.png" width="400"></p>
+<p align="center"><img src="outputs/figures/Sampling_method.png" width="400"></p>
 
 - LLM selection
 <p align="center"><img src="outputs/figures/different_LLMs.png" width="350"></p>
