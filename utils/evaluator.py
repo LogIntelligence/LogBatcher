@@ -53,7 +53,7 @@ def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k'):
     table = df.to_html(index=False)
     return table
 
-def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug=False):
+def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
 
     df1 = pd.read_csv(output_file)
     df2 = pd.read_csv(groundtruth_file)
@@ -68,22 +68,17 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug=False
 
     # Ouput Mismatch Logs
     if mismatch:
+        head,_,_ = output_file.rpartition('/')
+        os.makedirs(f'{head}/mismatch', exist_ok=True)
         df_mismatch = df1[df1.EventTemplate != df2.EventTemplate]
-        df_mismatch.to_csv(f'test.csv', index=False)
-        # print
-        # head,_,_ = output_file.rpartition('/')
-        # os.makedirs(f'{head}/mismatch', exist_ok=True)
-        # df_mismatch = df2[df1.EventTemplate != df2.EventTemplate]
-        # df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
+        df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
 
     # ED and NED
     edit_distance_result = []
     normalized_ed_result = []
     for i, j in zip(np.array(df1.EventTemplate.values, dtype='str'),
                     np.array(df2.EventTemplate.values, dtype='str')):
-        if i == j:
-            pass
-        else:
+        if i != j:
             ed = edit_distance(i, j)
             normalized_ed = 1 - ed / max(len(i), len(j))
             edit_distance_result.append(ed)
