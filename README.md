@@ -13,7 +13,7 @@ Log Batcher contians three main components: **Partitioning, Caching and Batching
 To satrt with LogBatcher, you need....
 
 Install all library:
-```shell
+```bash
 $ pip install -r requirements.txt
 ```
 Upload your API Key in `config.json`:
@@ -26,7 +26,7 @@ Upload your API Key in `config.json`:
 
 - To evaluate on smaller dataset with LogBatcher, execute:
 
-```shell
+```bash
 python evaluation_2k.py --batch_size [batch size] --sampling_method [sampling method] --model [model]
 ```
 
