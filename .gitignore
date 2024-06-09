@@ -25,5 +25,5 @@ outputs/parser/*without*
 # python file
 utils/unused_functions.py
 
-config.json
+# config.json
 tools.ipynb
