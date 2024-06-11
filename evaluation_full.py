@@ -122,7 +122,6 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
 
 
 def set_args():
-    # 定义命令行参数
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='gpt-3.5-turbo-0125',
                         help='use which model to parse the log.')
@@ -132,9 +131,7 @@ def set_args():
                         help='Sample method: dpp, random, similar.')
     parser.add_argument('--chunk_size', type=int, default=2000,
                         help='Size of logs in a chunk')
-    # 解析命令行参数
     args = parser.parse_args()
-    # 调用处理函数
     return args
 
 
