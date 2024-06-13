@@ -80,7 +80,7 @@ class Cluster_Parser:
                 if match_result != None:
                     cluster, new_cluster = prune_from_cluster(template, cluster)
                     cached_pairs[template][1] += len(new_cluster.logs)
-                    print(f"cache hit: {match_result}")
+                    # print(f"cache hit: {match_result}")
                     return match_result, cluster, new_cluster
                 
 
@@ -132,7 +132,6 @@ class Cluster_Parser:
                     if match != '':
                         template += '<*>'
                     template += parts[index + 1]
-                cluster, new_cluster = prune_from_cluster(template, cluster)
                 break
         else:
             template = correct_single_template(sample_log)
