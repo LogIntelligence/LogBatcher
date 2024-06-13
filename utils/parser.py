@@ -11,10 +11,11 @@ from utils.matching import extract_variables, matches_template, prune_from_clust
 from utils.postprocess import correct_single_template
 import httpx
 
+
 class Cluster_Parser:
-    
+
     def __init__(self, model, theme, config):
-        
+
         self.model = model
         self.theme = theme
         self.time_consumption_llm = 0
@@ -29,8 +30,8 @@ class Cluster_Parser:
         else:
             self.api_key = config['api_key_from_together']
             self.client = Together(
-                    api_key=self.api_key   # api_key
-                )
+                api_key=self.api_key   # api_key
+            )
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
     @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
@@ -43,7 +44,7 @@ class Cluster_Parser:
         )
         self.time_consumption_llm += (time.time() - t1)
         return response.choices[0].message.content.strip('\n')
-    
+
     # @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
     def inference(self, prompt):
         retry_times = 0
@@ -63,12 +64,11 @@ class Cluster_Parser:
                     return output
             else:
                 return output
-            
-    
-    def get_responce(self, cluster, cached_pairs={}, sample_pairs=[], shot = 0):
+
+    def get_responce(self, cluster, cached_pairs={}, sample_pairs=[], shot=0):
 
         # initialize
-        logs =cluster.batch_logs
+        logs = cluster.batch_logs
         sample_log = logs[0]
         if type(logs) == str:
             logs = [logs]
@@ -76,13 +76,14 @@ class Cluster_Parser:
         # caching
         for template, referlog_and_freq in cached_pairs.items():
             for log in cluster.logs:
-                match_result = matches_template(log, [referlog_and_freq[0], template])
+                match_result = matches_template(
+                    log, [referlog_and_freq[0], template])
                 if match_result != None:
-                    cluster, new_cluster = prune_from_cluster(template, cluster)
+                    cluster, new_cluster = prune_from_cluster(
+                        template, cluster)
                     cached_pairs[template][1] += len(new_cluster.logs)
-                    print(f"cache hit: {match_result}")
+                    # print(f"cache hit: {match_result}")
                     return match_result, cluster, new_cluster
-                
 
         demonstrations = ''
 
@@ -97,14 +98,17 @@ class Cluster_Parser:
         instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
 
         if demonstrations != '':
-            query = demonstrations + 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
+            query = demonstrations + 'Log message:\n' + \
+                '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
         elif all(model_tpye not in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
-            query = 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
+            query = 'Log message:\n' + \
+                '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
         else:
             query = '\n'.join(logs)
-    
+
         # invoke LLM
-        cost_file = open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8')
+        cost_file = open(
+            f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8')
         if any(model_tpye in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
             messages = [
                 {"role": "system", "content": instruction},
@@ -118,7 +122,6 @@ class Cluster_Parser:
             json.dump(prompt, cost_file, ensure_ascii=False, indent=4)
             answer = self.inference(prompt)
         cost_file.close()
-            
 
         template = post_process(answer)
 
@@ -132,7 +135,6 @@ class Cluster_Parser:
                     if match != '':
                         template += '<*>'
                     template += parts[index + 1]
-                cluster, new_cluster = prune_from_cluster(template, cluster)
                 break
         else:
             template = correct_single_template(sample_log)

@@ -2,24 +2,26 @@ import argparse
 import json
 import os
 import pandas as pd
-from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
+from utils.cluster import Cluster, tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
 from utils.evaluator import evaluate, evaluate_all_datasets
 from utils.sample import sample_from_clusters
 
 
-def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, sample_method = 'dpp'):
+def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, sample_method='dpp'):
     print(f'Parsing {dataset}...')
 
     # initialize
-    df = pd.read_csv(f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
+    df = pd.read_csv(
+        f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv')
     logs = df['Content'].tolist()
 
     # Partitioning:
     # tokenize -> vectorize -> cluster -> reassign_clusters
     tokenized_logs = [tokenize(log) for log in logs]
     labels, cluster_nums = cluster(vectorize(tokenized_logs))
-    labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
+    labels, cluster_nums = reassign_clusters(
+        labels, cluster_nums, tokenized_logs)
 
     # inputs, outputs and cache
     clusters = [None for _ in range(cluster_nums)]
@@ -33,11 +35,12 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
         clusters[label].append_log(logs[index], index)
 
     # sorting
-    clusters = sorted(clusters, key=lambda cluster: len(cluster.logs), reverse=True)
+    clusters = sorted(clusters, key=lambda cluster: len(
+        cluster.logs), reverse=True)
 
     # batching
     [cluster.batching(batch_size, sample_method) for cluster in clusters]
-    
+
     # sampling labeled data if needed
     sample_pairs = []
     # sample_pairs = sample_from_clusters(clusters, candidate)
@@ -46,8 +49,10 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     for index, old_cluster in enumerate(clusters):
 
         print(f"=" * 40)
-        print(f"parsing the cluster {index} in {cluster_nums} clusters\nFirst log: {old_cluster.logs[0]}")
-        template, old_cluster, new_cluster = parser.get_responce(old_cluster, cache_pairs, sample_pairs, shot)
+        print(
+            f"parsing the cluster {index} in {cluster_nums} clusters\nFirst log: {old_cluster.logs[0]}")
+        template, old_cluster, new_cluster = parser.get_responce(
+            old_cluster, cache_pairs, sample_pairs, shot)
         print(f"template: {template}")
 
         # update clusters
@@ -57,7 +62,7 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
             cluster_nums += 1
 
         # update cache
-        if template not in cache_pairs and template.replace('<*>','').replace(' ','') != '':
+        if template not in cache_pairs and template.replace('<*>', '').replace(' ', '') != '':
             cache_pairs[template] = [old_cluster.logs[0], 0]
 
         for index in old_cluster.indexs:
@@ -65,9 +70,10 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
 
     # write to file
     df['EventTemplate'] = outputs
-    df[['Content','EventTemplate']].to_csv(
+    df[['Content', 'EventTemplate']].to_csv(
         output_dir + f'{dataset}_2k.log_structured.csv', index=False)
-    evaluate(output_dir + f'{dataset}_2k.log_structured.csv',f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset, mismatch= False)
+    evaluate(output_dir + f'{dataset}_2k.log_structured.csv',
+             f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset, mismatch=False)
 
 
 def set_args():
@@ -78,7 +84,7 @@ def set_args():
                         help='The num of candidate pairs.')
     parser.add_argument('--shot', type=int, default=0,
                         help='The num of demostrations.')
-    parser.add_argument('--batch_size', type=int, default=10, 
+    parser.add_argument('--batch_size', type=int, default=10,
                         help='The size of a batch')
     parser.add_argument('--sample_method', type=str, default='dpp',
                         help='Sample method: dpp, random, similar.')

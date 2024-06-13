@@ -42,7 +42,7 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
     cache_pairs = {}
     log_chunk = []
     log_chunk_index = []
-    cache_sort_step = len(logs) / 100
+    cache_sort_step = len(logs) // 100
     print(f'Parsing {len(logs)} logs in dataset {dataset}...')
 
     # Parsing
@@ -50,7 +50,7 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
     for index, log in enumerate(tqdm(logs)):
 
         # Cache Sorting
-        if index % cache_sort_step == 0 and len(cache_pairs) != 0:
+        if (index % cache_sort_step) == 0 and len(cache_pairs) != 0:
             cache_pairs = dict(sorted(cache_pairs.items(), key=lambda item: item[1][1], reverse=True))
 
         # Cache Matching
@@ -108,17 +108,17 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
     print(f'initial time: {t1 - t0}')
     print(f'parsing time: {t2 - t1}')
     print(f'idetified templates: {len(set(outputs))}')
-    # write to file
-    df_new = pd.DataFrame()
-    df_new['Content'] = logs
-    df_new['EventTemplate'] = outputs
+    # output results
     output_log_file = output_dir + f'{dataset}_{data_type}.log_structured.csv'
-    df_new.to_csv(output_log_file, index=False)
-    with open(output_log_file.replace('structured.csv', 'templates.txt'), 'w') as f:
-        for template, value_f in cache_pairs.items():
-            f.write("%7d:%s\n" % (value_f[1], template))
+    df = pd.DataFrame({'Content': logs, 'EventTemplate': outputs})
+    df.to_csv(output_log_file, index=False)
+
+    # output cache
+    df =pd.DataFrame.from_dict(cache_pairs, orient='index', columns=['ReferLog', 'Freq']).reset_index()
+    df.rename(columns={'index': 'EventTemplate'}, inplace=True)
+    df.to_csv(output_log_file.replace('structured.csv', 'cache.csv'), index=False)
     
-    evaluate(output_log_file, structured_log_file, dataset)
+    # evaluate(output_log_file, structured_log_file, dataset)
 
 
 def set_args():
@@ -142,6 +142,7 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
+    datasets = ['HDFS']
     
     datasets_format = {
         'HDFS': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
@@ -162,7 +163,7 @@ if __name__ == "__main__":
         'Mac': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>'
     }
     
-    theme = f"LogBatcher_full_{args.batch_size}batchsize_{args.chunk_size}chunksize_full_time_{args.model.replace('/','_')}_{args.sample_method}_sampling"
+    theme = f"LogBatcher_full_{args.batch_size}batchsize_{args.chunk_size}chunksize_{args.model.replace('/','_')}_{args.sample_method}_sampling"
     output_dir = f'outputs/parser/{theme}/'
     
     if not os.path.exists(output_dir):
@@ -174,7 +175,7 @@ if __name__ == "__main__":
     
     parser = Cluster_Parser(args.model, theme, config)
     for index, dataset in enumerate(datasets):
-        if os.path.exists(f'{output_dir}{dataset}_2k.log_structured.csv'):
+        if os.path.exists(f'{output_dir}{dataset}_full.log_structured.csv'):
             print(f'{dataset} has been parsed, skip it.')
             continue
         single_dataset_paring(
@@ -182,8 +183,6 @@ if __name__ == "__main__":
             log_format = datasets_format[dataset],
             output_dir=output_dir, 
             parser=parser, 
-            shot=args.shot,
-            candidate=args.candidate,
             batch_size=args.batch_size,
             chunk_size=args.chunk_size,
             sample_method = args.sample_method,
