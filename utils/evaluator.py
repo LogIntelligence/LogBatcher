@@ -53,7 +53,10 @@ def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k'):
     table = df.to_html(index=False)
     return table
 
-def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
+def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = False):
+
+    if debug:
+        print(f'loading {dataset}....')
 
     df1 = pd.read_csv(output_file)
     df2 = pd.read_csv(groundtruth_file)
@@ -64,6 +67,8 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
     df2 = df2.loc[null_logids]
 
     # MLA
+    if debug:
+        print('Calculating Message-Level Accuracy....')
     accuracy_MLA = accuracy_score(np.array(df1['EventTemplate'].values, dtype='str'),np.array(df2['EventTemplate'], dtype='str'))
 
     # Ouput Mismatch Logs
@@ -76,8 +81,14 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
     # ED and NED
     edit_distance_result = []
     normalized_ed_result = []
-    for i, j in zip(np.array(df1.EventTemplate.values, dtype='str'),
-                    np.array(df2.EventTemplate.values, dtype='str')):
+
+    iterable = zip(np.array(df1.EventTemplate.values, dtype='str'),
+                   np.array(df2.EventTemplate.values, dtype='str'))
+    if debug:
+        print('Calculating Edit Distance....')
+        iterable = tqdm(iterable, total=len(df1.EventTemplate.values))
+
+    for i, j in iterable:
         if i != j:
             ed = edit_distance(i, j)
             normalized_ed = 1 - ed / max(len(i), len(j))
@@ -90,7 +101,7 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
 
     
     # GA
-    accuracy_GA = get_accuracy_GA(df1['EventTemplate'],df2['EventTemplate'])
+    accuracy_GA = get_accuracy_GA(df1['EventTemplate'],df2['EventTemplate'], debug)
 
     dataset = ' ' * (12 - len(dataset)) + dataset 
     print('%s: Group Accuracy: %.4f, Message-Level Accuracy: %.4f, Edit Distance: %.4f, Normalized Edit Distance: %.4f' % (dataset, accuracy_GA, accuracy_MLA, accuracy_ED, accuracy_NED))
@@ -98,11 +109,17 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False):
 
 
 
-def get_accuracy_GA(series_groundtruth, series_parsedlog):
+def get_accuracy_GA(series_groundtruth, series_parsedlog, debug):
 
     series_parsedlog_valuecounts = series_parsedlog.value_counts()
     accurate_events = 0  # determine how many lines are correctly parsed
-    for parsed_eventId in series_parsedlog_valuecounts.index:
+
+    iterable = series_parsedlog_valuecounts.index
+    if debug:
+        print('Calculating Group Accuracy....')
+        iterable = tqdm(iterable, total=len(series_parsedlog_valuecounts.index))
+
+    for parsed_eventId in iterable:
         logIds = series_parsedlog[series_parsedlog == parsed_eventId].index
         series_groundtruth_logId_valuecounts = series_groundtruth[logIds].value_counts()
         if series_groundtruth_logId_valuecounts.size == 1:
