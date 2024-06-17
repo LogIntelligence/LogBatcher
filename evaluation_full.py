@@ -47,7 +47,8 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
 
     # Parsing
     t1 = time.time()
-    for index, log in enumerate(tqdm(logs)):
+    iterable = tqdm(enumerate(logs), total=len(logs), unit="log")
+    for index, log in iterable:
 
         # Cache Sorting
         if (index % cache_sort_step) == 0 and len(cache_pairs) != 0:
@@ -142,7 +143,7 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
-    datasets = ['HDFS']
+    datasets = ['Thunderbird']
     
     datasets_format = {
         'HDFS': '<Date> <Time> <Pid> <Level> <Component>: <Content>',

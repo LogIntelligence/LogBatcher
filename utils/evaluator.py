@@ -60,6 +60,7 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = Fal
 
     df1 = pd.read_csv(output_file)
     df2 = pd.read_csv(groundtruth_file)
+    length_logs = len(df1['EventTemplate'].values)
 
     # Remove invalid groundtruth event Ids
     null_logids = df2[~df2['EventTemplate'].isnull()].index
@@ -67,9 +68,17 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = Fal
     df2 = df2.loc[null_logids]
 
     # MLA
+    iterable = zip(df1['EventTemplate'].values, df2['EventTemplate'].values)
     if debug:
         print('Calculating Message-Level Accuracy....')
-    accuracy_MLA = accuracy_score(np.array(df1['EventTemplate'].values, dtype='str'),np.array(df2['EventTemplate'], dtype='str'))
+        iterable = tqdm(iterable, total=length_logs)
+    # accuracy_MLA = accuracy_score(np.array(df1['EventTemplate'].values, dtype='str'),np.array(df2['EventTemplate'], dtype='str'))
+    count_MLA = 0
+    for i, j in iterable:
+        if i == j:
+            count_MLA += 1
+    accuracy_MLA = count_MLA / length_logs
+    print(accuracy_MLA)
 
     # Ouput Mismatch Logs
     if mismatch:
@@ -82,11 +91,10 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = Fal
     edit_distance_result = []
     normalized_ed_result = []
 
-    iterable = zip(np.array(df1.EventTemplate.values, dtype='str'),
-                   np.array(df2.EventTemplate.values, dtype='str'))
+    iterable = zip(df1['EventTemplate'].values, df2['EventTemplate'].values)
     if debug:
         print('Calculating Edit Distance....')
-        iterable = tqdm(iterable, total=len(df1.EventTemplate.values))
+        iterable = tqdm(iterable, total=length_logs)
 
     for i, j in iterable:
         if i != j:
