@@ -61,17 +61,15 @@ def sample_from_clusters(clusters, shot = 32):
 
 
 def nearest_k_pairs_from_log(log, sample_pairs, k):
-    # Calculate similarity
     vectorizer = TfidfVectorizer()
     tfidf_matrix = vectorizer.fit_transform([log] + [pair[0] for pair in sample_pairs])
     similarity_matrix = cosine_similarity(tfidf_matrix)
     similarity = similarity_matrix[0][1:]
-    
-    # Get the nearest k pairs
     nearest_k_indices = similarity.argsort()[-k:][::-1]
     nearest_k_pairs = [sample_pairs[i] for i in nearest_k_indices]
-    
     return nearest_k_pairs
+
+
 
 def group_samples_clustering(embed_matrix, num_in_batch):
     def _calculate_cos_similarities(v1: np.array, v2: np.array):

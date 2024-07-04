@@ -13,7 +13,7 @@ def calculate_avg(numbers, round_num = 4):
     return numbers
 
 
-def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k'):
+def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k', mismatch = False, debug = False):
     if datasets == []:
         table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Windows Linux Android HealthApp Apache Proxifier OpenSSH OpenStack Mac'
         datasets = table_order.split(' ')
@@ -35,7 +35,7 @@ def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k'):
             table_data['dataset'].append(dataset)
             output_file = f'outputs/parser/{file_name}/{dataset}_{data_tpye}.log_structured.csv'
 
-            a, b, c, d = evaluate(output_file=output_file, groundtruth_file=f'dataset/{dataset}/{dataset}_{data_tpye}.log_structured_corrected.csv', dataset=dataset)
+            a, b, c, d = evaluate(output_file=output_file, groundtruth_file=f'dataset/{dataset}/{dataset}_{data_tpye}.log_structured_corrected.csv', dataset=dataset, mismatch=mismatch, debug=debug)
             ga.append(a)
             pa.append(b)
             ed.append(c)
@@ -78,14 +78,15 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = Fal
         if i == j:
             count_MLA += 1
     accuracy_MLA = count_MLA / length_logs
-    print(accuracy_MLA)
+    # print(accuracy_MLA)
 
     # Ouput Mismatch Logs
     if mismatch:
         head,_,_ = output_file.rpartition('/')
         os.makedirs(f'{head}/mismatch', exist_ok=True)
         df_mismatch = df1[df1.EventTemplate != df2.EventTemplate]
-        df_mismatch.to_csv(f'{head}/mismatch/{dataset}.csv', index=False)
+        df_mismatch[['Content', 'EventTemplate']].to_csv(
+            f'{head}/mismatch/{dataset}.csv', index=False)
 
     # ED and NED
     edit_distance_result = []

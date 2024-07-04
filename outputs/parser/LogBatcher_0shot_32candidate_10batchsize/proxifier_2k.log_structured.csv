@@ -6,58 +6,58 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 403 bytes sent, 426 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 403 bytes sent, 426 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 18846 bytes (18.4 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 445 bytes sent, 5174 bytes (5.05 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 18846 bytes (18.4 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 445 bytes sent, 5174 bytes (5.05 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1190 bytes (1.16 KB) sent, 1671 bytes (1.63 KB) received, lifetime 00:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 3098 bytes (3.02 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 815 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 815 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 783 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 783 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 850 bytes sent, 10547 bytes (10.2 KB) received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 408 bytes sent, 421 bytes received, lifetime 00:03","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 19904 bytes (19.4 KB) sent, 27629 bytes (26.9 KB) received, lifetime 02:19","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1118 bytes (1.09 KB) sent, 340 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1118 bytes (1.09 KB) sent, 340 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1143 bytes (1.11 KB) sent, 365 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1093 bytes (1.06 KB) sent, 1006 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 428 bytes sent, 5365 bytes (5.23 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 428 bytes sent, 5365 bytes (5.23 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1268 bytes (1.23 KB) sent, 6274 bytes (6.12 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 845 bytes sent, 12076 bytes (11.7 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1268 bytes (1.23 KB) sent, 6274 bytes (6.12 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 845 bytes sent, 12076 bytes (11.7 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 431 bytes sent, 7896 bytes (7.71 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 431 bytes sent, 9780 bytes (9.55 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
+proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
+proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
+"proxy.cse.cuhk.edu.hk:5070 close, 431 bytes sent, 7896 bytes (7.71 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 431 bytes sent, 9780 bytes (9.55 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1590 bytes (1.55 KB) sent, 472 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 416 bytes sent, 10670 bytes (10.4 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1327 bytes (1.29 KB) sent, 3250 bytes (3.17 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1327 bytes (1.29 KB) sent, 3250 bytes (3.17 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1107 bytes (1.08 KB) sent, 29322 bytes (28.6 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1107 bytes (1.08 KB) sent, 29322 bytes (28.6 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:17","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -66,78 +66,78 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1133 bytes (1.10 KB) sent, 11393 bytes (11.1 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1133 bytes (1.10 KB) sent, 11393 bytes (11.1 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 483 bytes sent, 342 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1210 bytes (1.18 KB) sent, 366 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 483 bytes sent, 342 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1210 bytes (1.18 KB) sent, 366 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 697 bytes sent, 324 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 704 bytes sent, 2476 bytes (2.41 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 697 bytes sent, 324 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 704 bytes sent, 2476 bytes (2.41 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 7829 bytes (7.64 KB) sent, 578548 bytes (564 KB) received, lifetime 00:18","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 3425 bytes (3.34 KB) sent, 212164 bytes (207 KB) received, lifetime 00:18","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 934 bytes sent, 5869 bytes (5.73 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 934 bytes sent, 5869 bytes (5.73 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1325 bytes (1.29 KB) sent, 514 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2439 bytes (2.38 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
+"proxy.cse.cuhk.edu.hk:5070 close, 1325 bytes (1.29 KB) sent, 514 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2439 bytes (2.38 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 508 bytes sent, 29786 bytes (29.0 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 508 bytes sent, 47293 bytes (46.1 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
+proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
+"proxy.cse.cuhk.edu.hk:5070 close, 508 bytes sent, 29786 bytes (29.0 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 508 bytes sent, 47293 bytes (46.1 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1190 bytes (1.16 KB) sent, 367 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1190 bytes (1.16 KB) sent, 367 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2247 bytes (2.19 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1033 bytes (1.00 KB) sent, 46810 bytes (45.7 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 2380 bytes (2.32 KB) sent, 678 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2247 bytes (2.19 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1033 bytes (1.00 KB) sent, 46810 bytes (45.7 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 2380 bytes (2.32 KB) sent, 678 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 974 bytes sent, 9624 bytes (9.39 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 974 bytes sent, 9624 bytes (9.39 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 4512 bytes (4.40 KB) sent, 82166 bytes (80.2 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1119 bytes (1.09 KB) sent, 3210 bytes (3.13 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 458 bytes sent, 1781 bytes (1.73 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1188 bytes (1.16 KB) sent, 421 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1257 bytes (1.22 KB) sent, 421 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1257 bytes (1.22 KB) sent, 421 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1119 bytes (1.09 KB) sent, 3210 bytes (3.13 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 458 bytes sent, 1781 bytes (1.73 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1188 bytes (1.16 KB) sent, 421 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1257 bytes (1.22 KB) sent, 421 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1257 bytes (1.22 KB) sent, 421 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1301 bytes (1.27 KB) sent, 434 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1301 bytes (1.27 KB) sent, 434 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1034 bytes (1.00 KB) sent, 17383 bytes (16.9 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1034 bytes (1.00 KB) sent, 17383 bytes (16.9 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:04","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:17","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1248 bytes (1.21 KB) sent, 334 bytes received, lifetime 00:20","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1682 bytes (1.64 KB) sent, 472 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1682 bytes (1.64 KB) sent, 472 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2473 bytes (2.41 KB) sent, 1926 bytes (1.88 KB) received, lifetime 00:20","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2459 bytes (2.40 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2460 bytes (2.40 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2459 bytes (2.40 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2460 bytes (2.40 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2440 bytes (2.38 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2440 bytes (2.38 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1133 bytes (1.10 KB) sent, 3274 bytes (3.19 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 489 bytes sent, 566 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1372 bytes (1.33 KB) sent, 1224 bytes (1.19 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 489 bytes sent, 566 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1372 bytes (1.33 KB) sent, 1224 bytes (1.19 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -147,20 +147,20 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1198 bytes (1.16 KB) sent, 344 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1198 bytes (1.16 KB) sent, 344 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:19","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 303 bytes sent, 275 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 303 bytes sent, 275 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1180 bytes (1.15 KB) sent, 421 bytes received, lifetime 02:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2437 bytes (2.37 KB) sent, 842 bytes received, lifetime 02:04","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 952 bytes sent, 782 bytes received, lifetime 00:10","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 301 bytes sent, 278 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 301 bytes sent, 278 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1853 bytes (1.80 KB) sent, 4179 bytes (4.08 KB) received, lifetime 02:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1166 bytes (1.13 KB) sent, 336 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1180 bytes (1.15 KB) sent, 337 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 2035 bytes (1.98 KB) sent, 469 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1166 bytes (1.13 KB) sent, 336 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1180 bytes (1.15 KB) sent, 337 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 2035 bytes (1.98 KB) sent, 469 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 3690 bytes (3.60 KB) sent, 1306 bytes (1.27 KB) received, lifetime 02:03","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -171,13 +171,13 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1325 bytes (1.29 KB) sent, 511 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1325 bytes (1.29 KB) sent, 511 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 896 bytes sent, 375 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 896 bytes sent, 375 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -186,22 +186,22 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:17","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1166 bytes (1.13 KB) sent, 363 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1166 bytes (1.13 KB) sent, 363 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2455 bytes (2.39 KB) sent, 727 bytes received, lifetime 00:43","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 2457 bytes (2.39 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 2457 bytes (2.39 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 1500 bytes (1.46 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 1490 bytes (1.45 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 1500 bytes (1.46 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 1490 bytes (1.45 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 429 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1285 bytes (1.25 KB) sent, 1490 bytes (1.45 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -221,14 +221,14 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 939 bytes sent, 4231 bytes (4.13 KB) received, lifetime 02:00","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 469 bytes sent, 1617 bytes (1.57 KB) received, lifetime 02:00","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2636 bytes (2.57 KB) sent, 2279 bytes (2.22 KB) received, lifetime 01:05","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 SOCKS5,<*> open through proxy <*> SOCKS5
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 3684 bytes (3.59 KB) sent, 8009 bytes (7.82 KB) received, lifetime 02:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 946 bytes sent, 783 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 946 bytes sent, 783 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 946 bytes sent, 783 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 946 bytes sent, 783 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -243,21 +243,21 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 2933 bytes (2.86 KB) sent, 11721005 bytes (11.1 MB) received, lifetime 02:48","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 2933 bytes (2.86 KB) sent, 11721005 bytes (11.1 MB) received, lifetime 02:48","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1432 bytes (1.39 KB) sent, 44376 bytes (43.3 KB) received, lifetime 00:31","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"get.sogou.com:80 close, 859 bytes sent, 316 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"get.sogou.com:80 close, 859 bytes sent, 316 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 35850 bytes (35.0 KB) sent, 13903 bytes (13.5 KB) received, lifetime 04:12","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"tcpconn.tencent.com:80 close, 133 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"tcpconn.tencent.com:80 close, 133 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 tcpconn6.tencent.com:443 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
 tcpconn4.tencent.com:80 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.,<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.
-"get.sogou.com:80 close, 651 bytes sent, 346 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 651 bytes sent, 346 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"get.sogou.com:80 close, 651 bytes sent, 346 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 651 bytes sent, 346 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1237 bytes (1.20 KB) sent, 676064 bytes (660 KB) received, lifetime 00:07","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -266,7 +266,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 3585 bytes (3.50 KB) sent, 56498 bytes (55.1 KB) received, lifetime 01:57","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2636 bytes (2.57 KB) sent, 2279 bytes (2.22 KB) received, lifetime 01:05","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 745 bytes sent, 4661 bytes (4.55 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 745 bytes sent, 4661 bytes (4.55 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1840 bytes (1.79 KB) sent, 1212 bytes (1.18 KB) received, lifetime 03:05","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 18242 bytes (17.8 KB) sent, 10525 bytes (10.2 KB) received, lifetime 02:58","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -280,29 +280,29 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 14623 bytes (14.2 KB) sent, 124877 bytes (121 KB) received, lifetime 02:41","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2717 bytes (2.65 KB) sent, 1911 bytes (1.86 KB) received, lifetime 04:50","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 397 bytes sent, 3558 bytes (3.47 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 519 bytes sent, 313 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 415 bytes sent, 599 bytes received, lifetime 00:04","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 5248 bytes (5.12 KB) sent, 1114 bytes (1.08 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 5248 bytes (5.12 KB) sent, 1114 bytes (1.08 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1006 bytes sent, 6198 bytes (6.05 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 811 bytes sent, 186 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 811 bytes sent, 186 bytes received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 860 bytes sent, 3314 bytes (3.23 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1986 bytes (1.93 KB) sent, 1180 bytes (1.15 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1986 bytes (1.93 KB) sent, 1180 bytes (1.15 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 463 bytes sent, 426 bytes received, lifetime 00:09","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -310,7 +310,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 592 bytes sent, 4760 bytes (4.64 KB) received, lifetime 00:16","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 592 bytes sent, 4760 bytes (4.64 KB) received, lifetime 00:16","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2800 bytes (2.73 KB) sent, 17757 bytes (17.3 KB) received, lifetime 01:07","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1457 bytes (1.42 KB) sent, 5146 bytes (5.02 KB) received, lifetime 00:10","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -327,7 +327,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:03","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:03","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -365,7 +365,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "183.62.156.108:22 close, 89652 bytes (87.5 KB) sent, 599249 bytes (585 KB) received, lifetime 37:51","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -384,31 +384,31 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 1731 bytes (1.69 KB) sent, 864 bytes received, lifetime 02:53","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 182.254.114.110:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 tcpconn.tencent.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"tcpconn3.tencent.com:80 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"tcpconn3.tencent.com:80 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 183.60.49.182:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"tcpconn6.tencent.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"tcpconn6.tencent.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 tcpconn3.tencent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"tcpconn6.tencent.com:80 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"tcpconn6.tencent.com:80 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 tcpconn6.tencent.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 tcpconn6.tencent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"tcpconn3.tencent.com:443 close, 149 bytes sent, 121 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"tcpconn3.tencent.com:443 close, 149 bytes sent, 121 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"cgi.qqweb.qq.com:80 close, 477 bytes sent, 448 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"cgi.qqweb.qq.com:80 close, 477 bytes sent, 448 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 cgi.qqweb.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "qqmail.tencent.com:80 close, 336 bytes sent, 2854 bytes (2.78 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"get.sogou.com:80 close, 724 bytes sent, 516 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 724 bytes sent, 516 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"showxml.qq.com:80 close, 600 bytes sent, 1716 bytes (1.67 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"2052.flash2-http.qq.com:80 close, 466 bytes sent, 125682 bytes (122 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"showxml.qq.com:80 close, 600 bytes sent, 1716 bytes (1.67 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"2052.flash2-http.qq.com:80 close, 466 bytes sent, 125682 bytes (122 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 493 bytes sent, 523 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1002 bytes sent, 12309 bytes (12.0 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 493 bytes sent, 523 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 493 bytes sent, 523 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -423,11 +423,11 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 1644 bytes (1.60 KB) sent, 388 bytes received, lifetime 01:06","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 3319 bytes (3.24 KB) sent, 2402 bytes (2.34 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 oimagec7.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
-"proxy.cse.cuhk.edu.hk:5070 close, 293 bytes sent, 514 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 293 bytes sent, 514 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -445,12 +445,12 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 47856 bytes (46.7 KB) sent, 4090387 bytes (3.90 MB) received, lifetime 01:01","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 47856 bytes (46.7 KB) sent, 4090387 bytes (3.90 MB) received, lifetime 01:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 877 bytes sent, 3806 bytes (3.71 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"get.sogou.com:80 close, 967 bytes sent, 316 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 101 bytes sent, 3449 bytes (3.36 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 353 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"get.sogou.com:80 close, 967 bytes sent, 316 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 101 bytes sent, 3449 bytes (3.36 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2928 bytes (2.85 KB) sent, 567520 bytes (554 KB) received, lifetime 01:55","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -466,9 +466,9 @@ oimagec7.ydstatic.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*>
 "91.190.218.125:80 close, 5 bytes sent, 0 bytes received, lifetime 00:05","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "91.190.216.125:443 close, 5 bytes sent, 0 bytes received, lifetime 00:04","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 287 bytes sent, 2229 bytes (2.17 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 287 bytes sent, 2229 bytes (2.17 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 429 bytes sent, 318 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 429 bytes sent, 318 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1028 bytes (1.00 KB) sent, 4559 bytes (4.45 KB) received, lifetime 00:08","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "24.135.95.248:443 close, 131 bytes sent, 153 bytes received, lifetime 00:12","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -528,23 +528,23 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 2279 bytes (2.22 KB) sent, 279 bytes received, lifetime 00:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 3115 bytes (3.04 KB) sent, 1252 bytes (1.22 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 31257 bytes (30.5 KB) sent, 1846301 bytes (1.76 MB) received, lifetime 01:33","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 31257 bytes (30.5 KB) sent, 1846301 bytes (1.76 MB) received, lifetime 01:33","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 468 bytes sent, 3515 bytes (3.43 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 780 bytes sent, 1401 bytes (1.36 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 780 bytes sent, 1401 bytes (1.36 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 409 bytes sent, 52645 bytes (51.4 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1119 bytes (1.09 KB) sent, 417 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 474 bytes sent, 1047 bytes (1.02 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 675 bytes sent, 7178 bytes (7.00 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1119 bytes (1.09 KB) sent, 417 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 474 bytes sent, 1047 bytes (1.02 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 675 bytes sent, 7178 bytes (7.00 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 628 bytes sent, 466 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 513 bytes sent, 22162 bytes (21.6 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -567,7 +567,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1299 bytes (1.26 KB) sent, 1029 bytes (1.00 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1299 bytes (1.26 KB) sent, 1029 bytes (1.00 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1007 bytes sent, 355 bytes received, lifetime 00:08","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1354 bytes (1.32 KB) sent, 902 bytes received, lifetime 00:15","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
@@ -588,11 +588,11 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 555 bytes sent, 400 bytes received, lifetime 00:04","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 935 bytes sent, 6675 bytes (6.51 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 935 bytes sent, 6675 bytes (6.51 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1205 bytes (1.17 KB) sent, 391 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 7437 bytes (7.26 KB) sent, 2235596 bytes (2.13 MB) received, lifetime 00:07","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 7437 bytes (7.26 KB) sent, 2235596 bytes (2.13 MB) received, lifetime 00:07","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 634 bytes sent, 538 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -601,20 +601,20 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 3254 bytes (3.17 KB) sent, 5295 bytes (5.17 KB) received, lifetime 00:04","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 553 bytes sent, 1424 bytes (1.39 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 3205 bytes (3.12 KB) sent, 15704 bytes (15.3 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 553 bytes sent, 1424 bytes (1.39 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 3205 bytes (3.12 KB) sent, 15704 bytes (15.3 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1341 bytes (1.30 KB) sent, 290 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1023 bytes sent, 4076 bytes (3.98 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 553 bytes sent, 28794 bytes (28.1 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 553 bytes sent, 28794 bytes (28.1 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 996 bytes sent, 367 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1536 bytes (1.50 KB) sent, 5325 bytes (5.20 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -628,12 +628,12 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 1522 bytes (1.48 KB) sent, 1765 bytes (1.72 KB) received, lifetime 00:53","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 5992 bytes (5.85 KB) sent, 74512 bytes (72.7 KB) received, lifetime 00:51","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1236 bytes (1.20 KB) sent, 408 bytes received, lifetime 00:06","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1680 bytes (1.64 KB) sent, 935 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1680 bytes (1.64 KB) sent, 935 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1730 bytes (1.68 KB) sent, 4796 bytes (4.68 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2737 bytes (2.67 KB) sent, 1375 bytes (1.34 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -660,32 +660,32 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 848 bytes sent, 310 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1920 bytes (1.87 KB) sent, 338 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1920 bytes (1.87 KB) sent, 338 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1501 bytes (1.46 KB) sent, 601 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1808 bytes (1.76 KB) sent, 346 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1808 bytes (1.76 KB) sent, 346 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1672 bytes (1.63 KB) sent, 771 bytes received, lifetime 00:05","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 4272 bytes (4.17 KB) sent, 20283 bytes (19.8 KB) received, lifetime 00:20","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1624 bytes (1.58 KB) sent, 375 bytes received, lifetime 00:03","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1104 bytes (1.07 KB) sent, 406 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1104 bytes (1.07 KB) sent, 406 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 726 bytes sent, 310 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2442 bytes (2.38 KB) sent, 9401 bytes (9.18 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 2587 bytes (2.52 KB) sent, 317 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 2587 bytes (2.52 KB) sent, 317 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 939 bytes sent, 398 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 939 bytes sent, 398 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:07","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -698,9 +698,9 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 786 bytes sent, 348 bytes received, lifetime 00:03","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 968 bytes sent, 272 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 968 bytes sent, 272 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2224 bytes (2.17 KB) sent, 659 bytes received, lifetime 00:03","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
@@ -712,7 +712,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1448 bytes (1.41 KB) sent, 1794 bytes (1.75 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1448 bytes (1.41 KB) sent, 1794 bytes (1.75 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 722 bytes sent, 310 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1173 bytes (1.14 KB) sent, 375 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:13","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -721,7 +721,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 10069 bytes (9.83 KB) sent, 4062 bytes (3.96 KB) received, lifetime 00:45","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
-"proxy.cse.cuhk.edu.hk:5070 close, 694 bytes sent, 892 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 694 bytes sent, 892 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:15","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:16","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -744,11 +744,11 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1572 bytes (1.53 KB) sent, 696 bytes received, lifetime 00:42","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1155 bytes (1.12 KB) sent, 378 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 1359 bytes (1.32 KB) sent, 378 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 1359 bytes (1.32 KB) sent, 378 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2842 bytes (2.77 KB) sent, 282 bytes received, lifetime 00:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2842 bytes (2.77 KB) sent, 282 bytes received, lifetime 00:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -760,11 +760,11 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:17","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1173 bytes (1.14 KB) sent, 375 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2132 bytes (2.08 KB) sent, 822 bytes received, lifetime 00:29","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 722 bytes sent, 310 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 722 bytes sent, 310 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2842 bytes (2.77 KB) sent, 279 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 588 bytes sent, 215882 bytes (210 KB) received, lifetime 00:03","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 941 bytes sent, 398 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 941 bytes sent, 398 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 5280 bytes (5.15 KB) sent, 6808 bytes (6.64 KB) received, lifetime 00:04","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2842 bytes (2.77 KB) sent, 279 bytes received, lifetime 00:05","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -773,7 +773,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 696 bytes sent, 889 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 696 bytes sent, 889 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -800,17 +800,17 @@ oimagea5.ydstatic.com:80 error : A connection request was canceled before the co
 "proxy.cse.cuhk.edu.hk:5070 close, 2532 bytes (2.47 KB) sent, 750 bytes received, lifetime 00:41","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 618 bytes sent, 3235 bytes (3.15 KB) received, lifetime 00:41","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 725 bytes sent, 310 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 725 bytes sent, 310 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:03","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 942 bytes sent, 398 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 942 bytes sent, 398 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2844 bytes (2.77 KB) sent, 279 bytes received, lifetime 00:04","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 2844 bytes (2.77 KB) sent, 279 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 2844 bytes (2.77 KB) sent, 279 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1010 bytes sent, 21976 bytes (21.4 KB) received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1455 bytes (1.42 KB) sent, 1794 bytes (1.75 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -818,7 +818,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 2535 bytes (2.47 KB) sent, 750 bytes received, lifetime 00:15","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 4528 bytes (4.42 KB) sent, 648 bytes received, lifetime 01:03","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:15","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -826,7 +826,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 697 bytes sent, 889 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 697 bytes sent, 889 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2230 bytes (2.17 KB) sent, 659 bytes received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -858,32 +858,32 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
 "proxy.cse.cuhk.edu.hk:5070 close, 2798 bytes (2.73 KB) sent, 15599 bytes (15.2 KB) received, lifetime 04:05","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 356 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 356 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
 oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
-"proxy.cse.cuhk.edu.hk:5070 close, 259 bytes sent, 5197 bytes (5.07 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 259 bytes sent, 5197 bytes (5.07 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
 "proxy.cse.cuhk.edu.hk:5070 close, 3090 bytes (3.01 KB) sent, 1093 bytes (1.06 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1408 bytes (1.37 KB) sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1408 bytes (1.37 KB) sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:04","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1065 bytes (1.04 KB) sent, 11966 bytes (11.6 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1065 bytes (1.04 KB) sent, 11966 bytes (11.6 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1905 bytes (1.86 KB) sent, 11087 bytes (10.8 KB) received, lifetime 00:08","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1080 bytes (1.05 KB) sent, 4111 bytes (4.01 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1080 bytes (1.05 KB) sent, 4111 bytes (4.01 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1036 bytes (1.01 KB) sent, 4343 bytes (4.24 KB) received, lifetime 00:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 1054 bytes (1.02 KB) sent, 366 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1054 bytes (1.02 KB) sent, 366 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 1077 bytes (1.05 KB) sent, 2610 bytes (2.54 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 1077 bytes (1.05 KB) sent, 2610 bytes (2.54 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:04","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -897,7 +897,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 2813 bytes (2.74 KB) sent, 1241 bytes (1.21 KB) received, lifetime 00:05","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2301 bytes (2.24 KB) sent, 9442 bytes (9.22 KB) received, lifetime 00:07","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 948 bytes sent, 782 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 948 bytes sent, 782 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -905,7 +905,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "127.0.0.1:135 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 441 bytes sent, 687 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 441 bytes sent, 687 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1237 bytes (1.20 KB) sent, 1164 bytes (1.13 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 2001 bytes (1.95 KB) sent, 18018 bytes (17.5 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 oimageb3.ydstatic.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
@@ -942,13 +942,13 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1225 bytes (1.19 KB) sent, 1093 bytes (1.06 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 964 bytes sent, 848 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 964 bytes sent, 848 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 948 bytes sent, 782 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"proxy.cse.cuhk.edu.hk:5070 close, 5349 bytes (5.22 KB) sent, 1767 bytes (1.72 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 948 bytes sent, 782 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"proxy.cse.cuhk.edu.hk:5070 close, 5349 bytes (5.22 KB) sent, 1767 bytes (1.72 KB) received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -960,7 +960,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "proxy.cse.cuhk.edu.hk:5070 close, 1978 bytes (1.93 KB) sent, 29237 bytes (28.5 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 1217 bytes (1.18 KB) sent, 592 bytes received, lifetime 01:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "proxy.cse.cuhk.edu.hk:5070 close, 1770 bytes (1.72 KB) sent, 1297 bytes (1.26 KB) received, lifetime 02:12","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -969,7 +969,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:02","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"proxy.cse.cuhk.edu.hk:5070 close, 564 bytes sent, 28902 bytes (28.2 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"proxy.cse.cuhk.edu.hk:5070 close, 564 bytes sent, 28902 bytes (28.2 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 www.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1014,14 +1014,14 @@ d.agkn.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open thro
 "clients6.google.com:443 close, 3216 bytes (3.14 KB) sent, 2391 bytes (2.33 KB) received, lifetime 05:04","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "i.ytimg.com:443 close, 2836 bytes (2.76 KB) sent, 125622 bytes (122 KB) received, lifetime 06:33","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 d.agkn.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"r6---sn-i3b7kn7d.googlevideo.com:443 close, 12789 bytes (12.4 KB) sent, 13833013 bytes (13.1 MB) received, lifetime 01:01","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"r6---sn-i3b7kn7d.googlevideo.com:443 close, 12789 bytes (12.4 KB) sent, 13833013 bytes (13.1 MB) received, lifetime 01:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 "odr.mookie1.com:443 close, 1045 bytes (1.02 KB) sent, 5662 bytes (5.52 KB) received, lifetime 01:06","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 odr.mookie1.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 static.doubleclick.net:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 d.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 fonts.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 static.doubleclick.net:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"r6---sn-i3b7knez.googlevideo.com:443 close, 13118 bytes (12.8 KB) sent, 3242984 bytes (3.09 MB) received, lifetime 00:31","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"r6---sn-i3b7knez.googlevideo.com:443 close, 13118 bytes (12.8 KB) sent, 3242984 bytes (3.09 MB) received, lifetime 00:31","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1029,7 +1029,7 @@ timg.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open t
 sclick.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 sclick.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 ecmb.bdimg.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"c.baidu.com:80 close, 1052 bytes (1.02 KB) sent, 113 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <1 sec"
+"c.baidu.com:80 close, 1052 bytes (1.02 KB) sent, 113 bytes received, lifetime <1 sec","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "t12.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:10","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "t12.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:10","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "timg.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:10","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -1056,7 +1056,7 @@ w.cnzz.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open throu
 www.4399.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "cpro.baidustatic.com:443 close, 334 bytes sent, 3713 bytes (3.62 KB) received, lifetime 00:48","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "www.4399.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:21","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"cnzz.mmstat.com:80 close, 686 bytes sent, 579 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"cnzz.mmstat.com:80 close, 686 bytes sent, 579 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 hm.baidu.com:80 error : A connection request was canceled before the completion.,<*> error : A connection request was canceled before the completion.
 "app.4399.cn:80 close, 1381 bytes (1.34 KB) sent, 38524 bytes (37.6 KB) received, lifetime 00:52","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "www.google.com:443 close, 9034 bytes (8.82 KB) sent, 3696 bytes (3.60 KB) received, lifetime 07:26","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -1065,7 +1065,7 @@ hm.baidu.com:80 error : A connection request was canceled before the completion.
 "q7.cnzz.com:80 close, 0 bytes sent, 0 bytes received, lifetime 01:00","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "w.cnzz.com:80 close, 570 bytes sent, 11519 bytes (11.2 KB) received, lifetime 02:00","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 client-lb.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:33","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 www.google.com.hk:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1080,7 +1080,7 @@ get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open th
 cidian.youdao.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "clientservices.googleapis.com:443 close, 1051 bytes (1.02 KB) sent, 592 bytes received, lifetime 04:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:32","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"short.weixin.qq.com:80 close, 425 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"short.weixin.qq.com:80 close, 425 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "info.pinyin.sogou.com:80 close, 1020 bytes sent, 607 bytes received, lifetime 00:30","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "203.205.129.102:8080 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
@@ -1136,7 +1136,7 @@ newsapp.5054399.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> o
 "c.cnzz.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:30","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "www.evernote.com:443 close, 4733 bytes (4.62 KB) sent, 8179 bytes (7.98 KB) received, lifetime 04:12","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:32","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "clients4.google.com:443 close, 11736 bytes (11.4 KB) sent, 8496 bytes (8.29 KB) received, lifetime 08:46","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "clients6.google.com:443 close, 3025 bytes (2.95 KB) sent, 6726 bytes (6.56 KB) received, lifetime 05:20","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
@@ -1163,8 +1163,8 @@ ubmcmm.baidustatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 eclick.baidu.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "dup.baidustatic.com:443 close, 333 bytes sent, 3697 bytes (3.61 KB) received, lifetime 00:14","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "dj1.baidu.com:80 close, 1369 bytes (1.33 KB) sent, 289 bytes received, lifetime 00:30","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"client-lb.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"short.weixin.qq.com:80 close, 785 bytes sent, 145 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"client-lb.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"short.weixin.qq.com:80 close, 785 bytes sent, 145 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 clients5.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 s1.bdstatic.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1204,13 +1204,13 @@ long.open.weixin.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,
 long.open.weixin.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "long.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime 00:27","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 qbwup.imtt.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"update.googleapis.com:443 close, 298 bytes sent, 4250 bytes (4.15 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"update.googleapis.com:443 close, 298 bytes sent, 4250 bytes (4.15 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 long.open.weixin.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "dl-debug.dropbox.com:443 close, 163539 bytes (159 KB) sent, 4712 bytes (4.60 KB) received, lifetime 01:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 long.open.weixin.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "long.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime 00:28","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "long.open.weixin.qq.com:443 close, 1985 bytes (1.93 KB) sent, 4832 bytes (4.71 KB) received, lifetime 00:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"www.google.com.hk:443 close, 734 bytes sent, 160 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"www.google.com.hk:443 close, 734 bytes sent, 160 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 fonts.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "lh4.googleusercontent.com:443 close, 471 bytes sent, 4692 bytes (4.58 KB) received, lifetime 00:11","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -1266,7 +1266,7 @@ clients1.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> 
 "zhihu-web-analytics.zhihu.com:443 close, 343 bytes sent, 3122 bytes (3.04 KB) received, lifetime 00:11","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "content.googleapis.com:443 close, 2094 bytes (2.04 KB) sent, 623 bytes received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 "pubads.g.doubleclick.net:443 close, 476 bytes sent, 4417 bytes (4.31 KB) received, lifetime 00:14","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"short.weixin.qq.com:80 close, 425 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"short.weixin.qq.com:80 close, 425 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 notifications.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 avatars3.githubusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1278,8 +1278,8 @@ api.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open 
 "user-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 03:15","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "user-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 03:15","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 lh6.googleusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"clients6.google.com:443 close, 568 bytes sent, 156 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"12.client-channel.google.com:443 close, 474 bytes sent, 4042 bytes (3.94 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"clients6.google.com:443 close, 568 bytes sent, 156 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"12.client-channel.google.com:443 close, 474 bytes sent, 4042 bytes (3.94 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "csi.gstatic.com:443 close, 733 bytes sent, 229 bytes received, lifetime 00:13","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "lh6.googleusercontent.com:443 close, 471 bytes sent, 4693 bytes (4.58 KB) received, lifetime 00:12","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 csi.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1298,7 +1298,7 @@ s.weibo.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open thro
 d0.sina.com.cn:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 api.weibo.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "www.zhihu.com:443 close, 1685 bytes (1.64 KB) sent, 10151 bytes (9.91 KB) received, lifetime 05:03","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"d0.sina.com.cn:443 close, 328 bytes sent, 3654 bytes (3.56 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"d0.sina.com.cn:443 close, 328 bytes sent, 3654 bytes (3.56 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "contentrecommend-out.uve.weibo.com:443 close, 0 bytes sent, 0 bytes received, lifetime 00:10","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 strip.alicdn.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 strip.alicdn.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1349,7 +1349,7 @@ proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<
 "api.github.com:443 close, 781 bytes sent, 6147 bytes (6.00 KB) received, lifetime 00:10","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 tools.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"security.ie.sogou.com:80 close, 691 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"security.ie.sogou.com:80 close, 691 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 www.evernote.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:38","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -1367,7 +1367,7 @@ notifications.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
 "www.google-analytics.com:443 close, 1430 bytes (1.39 KB) sent, 4938 bytes (4.82 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "clients2.google.com:443 close, 154863 bytes (151 KB) sent, 321609 bytes (314 KB) received, lifetime 01:00:12","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"apis.google.com:443 close, 461 bytes sent, 4217 bytes (4.11 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"apis.google.com:443 close, 461 bytes sent, 4217 bytes (4.11 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 gm1.ggpht.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 api.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 api.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1426,7 +1426,7 @@ dict.youdao.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open 
 "d.dropbox.com:443 close, 1337 bytes (1.30 KB) sent, 4946 bytes (4.83 KB) received, lifetime 01:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 clients4.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 log.getdropbox.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"security.ie.sogou.com:80 close, 735 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"security.ie.sogou.com:80 close, 735 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 security.ie.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 s.youtube.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 yt3.ggpht.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1491,7 +1491,7 @@ clients4.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk
 bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 wpad:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 www.qq.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-"short.weixin.qq.com:80 close, 357 bytes sent, 468 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"short.weixin.qq.com:80 close, 357 bytes sent, 468 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 dict.youdao.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "dj1.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:33","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 t11.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1558,17 +1558,17 @@ www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open 
 "pubads.g.doubleclick.net:443 close, 476 bytes sent, 4417 bytes (4.31 KB) received, lifetime 00:23","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 www.evernote.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "engine.adzerk.net:443 close, 2419 bytes (2.36 KB) sent, 4742 bytes (4.63 KB) received, lifetime 01:07","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"short.weixin.qq.com:80 close, 357 bytes sent, 484 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"short.weixin.qq.com:80 close, 357 bytes sent, 484 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "ogs.google.com:443 close, 2476 bytes (2.41 KB) sent, 2643 bytes (2.58 KB) received, lifetime 04:28","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "sb.scorecardresearch.com:443 close, 3818 bytes (3.72 KB) sent, 6276 bytes (6.12 KB) received, lifetime 11:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "client-cf.dropbox.com:443 close, 3460 bytes (3.37 KB) sent, 5211 bytes (5.08 KB) received, lifetime 01:04","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"short.weixin.qq.com:80 close, 409 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"short.weixin.qq.com:80 close, 409 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 c.trello.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 secure.quantserve.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 trello.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"security.ie.sogou.com:80 close, 735 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"security.ie.sogou.com:80 close, 735 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "c.trello.com:443 close, 326 bytes sent, 5710 bytes (5.57 KB) received, lifetime 00:12","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "www.google.com.hk:443 close, 734 bytes sent, 229 bytes received, lifetime 00:12","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 security.ie.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1581,7 +1581,7 @@ security.ie.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*>
 get.sogou.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
 101.226.211.46:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,<*> error : Could not connect to proxy <*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>
-"short.weixin.qq.com:80 close, 484 bytes sent, 30152 bytes (29.4 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"short.weixin.qq.com:80 close, 484 bytes sent, 30152 bytes (29.4 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 info.pinyin.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 s.youtube.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 f-log-extension.grammarly.io:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1598,7 +1598,7 @@ odr.mookie1.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open
 "d.agkn.com:443 close, 324 bytes sent, 2764 bytes (2.69 KB) received, lifetime 00:12","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 play.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"log.getdropbox.com:80 close, 739 bytes sent, 404 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"log.getdropbox.com:80 close, 739 bytes sent, 404 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 203.205.151.204:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "hangouts.google.com:443 close, 13281 bytes (12.9 KB) sent, 19539 bytes (19.0 KB) received, lifetime 04:17","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -1610,15 +1610,15 @@ puui.qpic.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open thr
 fs-conn-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 puui.qpic.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 fs-conn-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"fs-conn-doctor.qq.com:443 close, 184 bytes sent, 134 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"puui.qpic.cn:80 close, 379 bytes sent, 7852 bytes (7.66 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"fs-conn-doctor.qq.com:443 close, 184 bytes sent, 134 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"puui.qpic.cn:80 close, 379 bytes sent, 7852 bytes (7.66 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 fs-conn-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 puui.qpic.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 fs-conn-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 fs-conn-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 puui.qpic.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"puui.qpic.cn:80 close, 384 bytes sent, 8537 bytes (8.33 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"puui.qpic.cn:80 close, 379 bytes sent, 9409 bytes (9.18 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"puui.qpic.cn:80 close, 384 bytes sent, 8537 bytes (8.33 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"puui.qpic.cn:80 close, 379 bytes sent, 9409 bytes (9.18 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 puui.qpic.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "puui.qpic.cn:80 close, 379 bytes sent, 6983 bytes (6.81 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "puui.qpic.cn:80 close, 384 bytes sent, 8601 bytes (8.39 KB) received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -1639,7 +1639,7 @@ safebrowsing.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HT
 "safebrowsing.googleapis.com:443 close, 1571 bytes (1.53 KB) sent, 7822 bytes (7.63 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 input.shouji.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 203.205.150.89:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"short.weixin.qq.com:80 close, 425 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"short.weixin.qq.com:80 close, 425 bytes sent, 161 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 www.googleadservices.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 fonts.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "r1---sn-i3beln7k.googlevideo.com:443 close, 733 bytes sent, 151 bytes received, lifetime 00:12","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -1648,18 +1648,18 @@ fonts.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> op
 "fonts.gstatic.com:443 close, 463 bytes sent, 4787 bytes (4.67 KB) received, lifetime 00:31","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:37","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "www.evernote.com:443 close, 2487 bytes (2.42 KB) sent, 2361 bytes (2.30 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "client-cf.dropbox.com:443 close, 1573 bytes (1.53 KB) sent, 16743 bytes (16.3 KB) received, lifetime 01:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "client-cf.dropbox.com:443 close, 5129 bytes (5.00 KB) sent, 17057 bytes (16.6 KB) received, lifetime 01:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "s.youtube.com:443 close, 733 bytes sent, 292 bytes received, lifetime 04:00","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 tc.dl.pinyin.sogoucdn.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "tc.dl.pinyin.sogoucdn.com:80 close, 1537 bytes (1.50 KB) sent, 7856 bytes (7.67 KB) received, lifetime 01:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "tc.dl.pinyin.sogoucdn.com:80 close, 799 bytes sent, 346 bytes received, lifetime 01:00","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"p3p.sogou.com:80 close, 441 bytes sent, 139 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"client-lb.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"p3p.sogou.com:80 close, 441 bytes sent, 139 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"client-lb.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "mtalk.google.com:443 close, 696 bytes sent, 5004 bytes (4.88 KB) received, lifetime 14:59","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 mtalk.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "g.msn.com:80 close, 170 bytes sent, 370 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -1673,7 +1673,7 @@ short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> o
 "www.googleapis.com:443 close, 1736 bytes (1.69 KB) sent, 1052 bytes (1.02 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "www.googleapis.com:443 close, 1106 bytes (1.08 KB) sent, 1167 bytes (1.13 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:34","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 s.youtube.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
@@ -1681,7 +1681,7 @@ mtalk.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> ope
 "ogs.google.com:443 close, 461 bytes sent, 4217 bytes (4.11 KB) received, lifetime 00:29","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "lh3.googleusercontent.com:443 close, 471 bytes sent, 4694 bytes (4.58 KB) received, lifetime 00:29","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 r2---sn-i3b7kne6.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"r2---sn-i3b7kne6.googlevideo.com:443 close, 17742 bytes (17.3 KB) sent, 11581393 bytes (11.0 MB) received, lifetime 01:08","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"r2---sn-i3b7kne6.googlevideo.com:443 close, 17742 bytes (17.3 KB) sent, 11581393 bytes (11.0 MB) received, lifetime 01:08","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 www.evernote.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 clients1.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 r3---sn-i3beln7k.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1715,7 +1715,7 @@ github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open thro
 avatars0.githubusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 collector.githubapp.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "pagead2.googlesyndication.com:443 close, 16398 bytes (16.0 KB) sent, 93642 bytes (91.4 KB) received, lifetime 07:56","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"video-hkg3-2.xx.fbcdn.net:443 close, 58373 bytes (57.0 KB) sent, 8896991 bytes (8.48 MB) received, lifetime 02:25","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"video-hkg3-2.xx.fbcdn.net:443 close, 58373 bytes (57.0 KB) sent, 8896991 bytes (8.48 MB) received, lifetime 02:25","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 "ssl.google-analytics.com:443 close, 974 bytes sent, 4680 bytes (4.57 KB) received, lifetime 04:02","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "client-cf.dropbox.com:443 close, 9985 bytes (9.75 KB) sent, 9719 bytes (9.49 KB) received, lifetime 01:27","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "client-cf.dropbox.com:443 close, 22083 bytes (21.5 KB) sent, 71944 bytes (70.2 KB) received, lifetime 01:28","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -1725,7 +1725,7 @@ collector.githubapp.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,
 "api.github.com:443 close, 328 bytes sent, 3642 bytes (3.55 KB) received, lifetime 00:15","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "avatars0.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 00:39","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 "avatars0.githubusercontent.com:443 close, 568 bytes sent, 160 bytes received, lifetime 00:39","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"203.205.151.204:80 close, 357 bytes sent, 484 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"203.205.151.204:80 close, 357 bytes sent, 484 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 d.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 go.microsoft.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 rssgov.windows.microsoft.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1755,12 +1755,12 @@ clientservices.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 
 clients5.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 clients5.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 play.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"bolt.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"bolt.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 ssl.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"get.sogou.com:80 close, 671 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 671 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "client-lb.dropbox.com:443 close, 1531 bytes (1.49 KB) sent, 16765 bytes (16.3 KB) received, lifetime 01:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "dict.youdao.com:80 close, 941 bytes sent, 163 bytes received, lifetime 05:00","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "clients2.google.com:443 close, 733 bytes sent, 292 bytes received, lifetime 04:00","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
@@ -1771,7 +1771,7 @@ play.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open
 mail.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "client-cf.dropbox.com:443 close, 5129 bytes (5.00 KB) sent, 17049 bytes (16.6 KB) received, lifetime 01:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "security.ie.sogou.com:80 close, 735 bytes sent, 184 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 d.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "config.pinyin.sogou.com:80 close, 545 bytes sent, 278 bytes received, lifetime 01:05","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 qdun-data.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1786,14 +1786,14 @@ clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> 
 "clients4.google.com:443 close, 1738 bytes (1.69 KB) sent, 487 bytes received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 play.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "clients6.google.com:443 close, 2867 bytes (2.79 KB) sent, 1014 bytes received, lifetime 05:12","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
-"security.ie.sogou.com:80 close, 691 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"security.ie.sogou.com:80 close, 691 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 info.pinyin.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 tc.dl.pinyin.sogoucdn.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 tc.dl.pinyin.sogoucdn.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 tc.dl.pinyin.sogoucdn.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"tc.dl.pinyin.sogoucdn.com:80 close, 158 bytes sent, 33899 bytes (33.1 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
-"tc.dl.pinyin.sogoucdn.com:80 close, 158 bytes sent, 46624 bytes (45.5 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec"
+"tc.dl.pinyin.sogoucdn.com:80 close, 158 bytes sent, 33899 bytes (33.1 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
+"tc.dl.pinyin.sogoucdn.com:80 close, 158 bytes sent, 46624 bytes (45.5 KB) received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "qa.sockets.stackexchange.com:443 close, 4755 bytes (4.64 KB) sent, 4917 bytes (4.80 KB) received, lifetime 02:02:11","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "www.evernote.com:443 close, 2485 bytes (2.42 KB) sent, 2359 bytes (2.30 KB) received, lifetime 04:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -1831,31 +1831,31 @@ p3p.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open th
 clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "bolt.dropbox.com:443 close, 15427 bytes (15.0 KB) sent, 8268 bytes (8.07 KB) received, lifetime 15:31","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "clients6.google.com:443 close, 6895 bytes (6.73 KB) sent, 3475 bytes (3.39 KB) received, lifetime 01:39","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "clients4.google.com:443 close, 2302 bytes (2.24 KB) sent, 5187 bytes (5.06 KB) received, lifetime 02:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 www.evernote.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 cidian.youdao.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"security.ie.sogou.com:80 close, 691 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
-"client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"security.ie.sogou.com:80 close, 691 bytes sent, 184 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
+"client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "info.pinyin.sogou.com:80 close, 1035 bytes (1.01 KB) sent, 40820 bytes (39.8 KB) received, lifetime 00:30","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "client-cf.dropbox.com:443 close, 913 bytes sent, 3881 bytes (3.79 KB) received, lifetime 01:00","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
 "mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
 client-lb.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "clients6.google.com:443 close, 5304 bytes (5.17 KB) sent, 4396 bytes (4.29 KB) received, lifetime 09:38","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime 00:01","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 p5.ssl.qhimg.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "p2.qhimg.com:80 close, 230 bytes sent, 1125 bytes (1.09 KB) received, lifetime 00:09","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
 get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "safebrowsing.googleapis.com:443 close, 1848 bytes (1.80 KB) sent, 2305 bytes (2.25 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "www.evernote.com:443 close, 2486 bytes (2.42 KB) sent, 2337 bytes (2.28 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 play.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1871,7 +1871,7 @@ client-lb.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*
 "clients6.google.com:443 close, 5015 bytes (4.89 KB) sent, 2599 bytes (2.53 KB) received, lifetime 06:47","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "client-cf.dropbox.com:443 close, 1573 bytes (1.53 KB) sent, 16750 bytes (16.3 KB) received, lifetime 01:02","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "www.evernote.com:443 close, 2486 bytes (2.42 KB) sent, 2337 bytes (2.28 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "clients4.google.com:443 close, 2570 bytes (2.50 KB) sent, 626 bytes received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1879,7 +1879,7 @@ clients4.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> 
 safebrowsing.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "play.google.com:443 close, 3874 bytes (3.78 KB) sent, 2186 bytes (2.13 KB) received, lifetime 08:13","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "clients6.google.com:443 close, 7738 bytes (7.55 KB) sent, 8620 bytes (8.41 KB) received, lifetime 07:17","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 pki.google.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1890,7 +1890,7 @@ client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*
 safebrowsing.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 cidian.youdao.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 clientservices.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 info.pinyin.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "info.pinyin.sogou.com:80 close, 548 bytes sent, 166 bytes received, lifetime 00:30","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 www.evernote.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1899,10 +1899,10 @@ clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> 
 "clients6.google.com:443 close, 2867 bytes (2.79 KB) sent, 1014 bytes received, lifetime 05:39","<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>"
 clients4.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 log.getdropbox.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "clients6.google.com:443 close, 2987 bytes (2.91 KB) sent, 5913 bytes (5.77 KB) received, lifetime 07:04","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
-"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 css.sohu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 xy.brand.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 pv.mini.sohu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
@@ -1936,20 +1936,20 @@ r18---sn-vgqsenes.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5
 r5---sn-i3b7kn7z.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 r13---sn-vgqsenee.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "d3cv4a9a9wh0bt.cloudfront.net:443 close, 820 bytes sent, 5619 bytes (5.48 KB) received, lifetime 02:00","<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>"
-"r1---sn-i3belnez.googlevideo.com:443 close, 10046 bytes (9.81 KB) sent, 5657896 bytes (5.39 MB) received, lifetime 00:54","<*> close, <*> bytes (<*>) sent, <*> bytes (<*>) received, lifetime <*>"
+"r1---sn-i3belnez.googlevideo.com:443 close, 10046 bytes (9.81 KB) sent, 5657896 bytes (5.39 MB) received, lifetime 00:54","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>"
 r5---sn-i3b7kn7r.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 r2---sn-i3b7kn7r.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "r6---sn-p5qs7n7s.googlevideo.com:443 close, 1175 bytes (1.14 KB) sent, 11041 bytes (10.7 KB) received, lifetime 00:01","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "r2---sn-i3b7kn7r.googlevideo.com:443 close, 2883 bytes (2.81 KB) sent, 90785 bytes (88.6 KB) received, lifetime 00:30","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "mtalk.google.com:443 close, 985 bytes sent, 463 bytes received, lifetime 14:59","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"bolt.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"bolt.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 bolt.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "www.googleapis.com:443 close, 1046 bytes (1.02 KB) sent, 5463 bytes (5.33 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 "cidian.youdao.com:80 close, 923 bytes sent, 456 bytes received, lifetime 09:53","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 notifications.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "lh3.googleusercontent.com:443 close, 745 bytes sent, 229 bytes received, lifetime 00:14","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
-"qdun-data.qq.com:443 close, 261 bytes sent, 70 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"qdun-data.qq.com:443 close, 261 bytes sent, 70 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 "qd-update.qq.com:8080 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
 "qd-update.qq.com:8080 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403","<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
 "www.gstatic.com:443 close, 1239 bytes (1.20 KB) sent, 20185 bytes (19.7 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
@@ -1957,7 +1957,7 @@ notifications.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
 r8---sn-i3b7knez.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "clients4.google.com:443 close, 4552 bytes (4.44 KB) sent, 1616 bytes (1.57 KB) received, lifetime 04:00","<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>"
 yt3.ggpht.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
-"yt3.ggpht.com:443 close, 733 bytes sent, 229 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec"
+"yt3.ggpht.com:443 close, 733 bytes sent, 229 bytes received, lifetime <1 sec","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 www.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS
 "r6---sn-i3b7knl6.googlevideo.com:443 close, 733 bytes sent, 151 bytes received, lifetime 00:15","<*> close, <*> bytes sent, <*> bytes received, lifetime <*>"
 clients1.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*> open through proxy <*> HTTPS

@@ -20,6 +20,9 @@ outputs/parser/*DivLog*
 outputs/parser/*LILAC*
 outputs/parser/*with*
 outputs/parser/*without*
+outputs/parser/*3batchsize*
+
+outputs/parser/**/*mismatch*
 
 
 # python file
