@@ -1,7 +1,9 @@
 import argparse
+from collections import Counter
 import json
 import os
 import re
+import string
 import time
 import pandas as pd
 from tqdm import tqdm
@@ -14,11 +16,15 @@ from tqdm import tqdm
 
 from utils.matching import matches_template
 
+def verify_template(template):
+    template = template.replace("<*>", "")
+    template = template.replace(" ", "")
+    return any(char not in string.punctuation for char in template)
 
-def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, chunk_size , sample_method = 'dpp', log_file_format = 'structured', data_type = 'full'):
+
+def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, chunk_size , sample_method = 'dpp', log_file_format = 'structured', data_type = 'full', debug=True):
 
     # Initializing
-    t0 = time.time()
     if data_type == '2k':
         structured_log_file = f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv'
     elif data_type == 'full':
@@ -39,6 +45,7 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
         raise ValueError('log_file_format should be structured or raw')
 
     outputs = [None for _ in range(len(logs))]
+    identified_templates_num = 0
     cache_pairs = {}
     log_chunk = []
     log_chunk_index = []
@@ -68,6 +75,7 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
         # Parsing with LLM
         if len(log_chunk) == chunk_size or (len(log_chunk)!=0 and index == len(logs) - 1):
             # parsing start
+            print(f'Parsing {len(log_chunk)} logs...') if debug else None
             # tokenize -> vectorize -> cluster -> reassign_clusters
             tokenized_logs = [tokenize(log) for log in log_chunk]
             labels, cluster_nums = cluster(vectorize(tokenized_logs))
@@ -90,13 +98,20 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
             for index, old_cluster in enumerate(clusters):
                 template, old_cluster, new_cluster = parser.get_responce(old_cluster, cache_pairs)
 
+                if debug:
+                    print('=' * 20)
+                    print(f'New cluster processed, {identified_templates_num + 1} templates identified till now:')
+                    print(f'Refer Log: {old_cluster.logs[0]}')
+                    print(f'Output Template: {template}')
+
                 # update clusters
                 if new_cluster.size != 0:
                     new_cluster.batching(batch_size, sample_method)
                     clusters.append(new_cluster)
                     cluster_nums += 1
 
-                if template not in cache_pairs and template.replace('<*>','').replace(' ','') != '':
+                if template not in cache_pairs and verify_template(template):
+                    identified_templates_num += 1
                     cache_pairs[template] = [old_cluster.logs[0], 0]
                 
                 for index in old_cluster.indexs:
@@ -104,26 +119,42 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
             log_chunk = []
             log_chunk_index = []
     
+    
     # Result
     t2 = time.time()
-    print(f'initial time: {t1 - t0}')
     print(f'parsing time: {t2 - t1}')
     print(f'idetified templates: {len(set(outputs))}')
-    # output results
+
+    # output logs
     output_log_file = output_dir + f'{dataset}_{data_type}.log_structured.csv'
     df = pd.DataFrame({'Content': logs, 'EventTemplate': outputs})
     df.to_csv(output_log_file, index=False)
 
-    # output cache
-    df =pd.DataFrame.from_dict(cache_pairs, orient='index', columns=['ReferLog', 'Freq']).reset_index()
-    df.rename(columns={'index': 'EventTemplate'}, inplace=True)
-    df.to_csv(output_log_file.replace('structured.csv', 'cache.csv'), index=False)
-    
-    # evaluate(output_log_file, structured_log_file, dataset)
+    # output templates
+    counter = Counter(outputs)
+    items = list(counter.items())
+    items.sort(key=lambda x: x[1], reverse=True)
+    output_template_file = output_dir + f'{dataset}_{data_type}.template_structured.csv'
+    template_df = pd.DataFrame(items, columns=['EventTemplate', 'Occurrence'])
+    template_df['EventID'] = [f"E{i + 1}" for i in range(len(template_df))]
+    template_df[['EventID', 'EventTemplate', 'Occurrence']].to_csv(output_template_file, index=False)
+
+    # Save time cost
+    time_cost_file = output_dir + 'time_cost.json'
+    time_table = {}
+    if os.path.exists(time_cost_file):
+        with open(time_cost_file, 'r') as file:
+            time_table = json.load(file)
+    time_table[dataset] = {
+        'InvocatingTime': parser.time_consumption_llm.__round__(3),
+        'ParsingTime': (t2 - t1).__round__(3)
+    }
+    parser.time_consumption_llm = 0
+    with open(time_cost_file, 'w') as file:
+        json.dump(time_table, file)
 
 
 def set_args():
-    # 定义命令行参数
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='gpt-3.5-turbo-0125',
                         help='use which model to parse the log.')
@@ -133,9 +164,7 @@ def set_args():
                         help='Sample method: dpp, random, similar.')
     parser.add_argument('--chunk_size', type=int, default=2000,
                         help='Size of logs in a chunk')
-    # 解析命令行参数
     args = parser.parse_args()
-    # 调用处理函数
     return args
 
 

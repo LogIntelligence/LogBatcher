@@ -1,4 +1,4 @@
 {
-    "api_key_from_openai": "sk-api-key",
+    "api_key_from_openai": "your openai api key",
     "api_key_from_together":""
 }

@@ -24,7 +24,7 @@ def matches_template(log, cached_pair):
         return None
 
     groups = extract_variables(log, template)
-    if not groups:
+    if groups == None:
         return None
 
     # consider the case where the varaible is empty

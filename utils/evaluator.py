@@ -89,24 +89,26 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = Fal
             f'{head}/mismatch/{dataset}.csv', index=False)
 
     # ED and NED
-    edit_distance_result = []
-    normalized_ed_result = []
+    # edit_distance_result = []
+    # normalized_ed_result = []
 
-    iterable = zip(df1['EventTemplate'].values, df2['EventTemplate'].values)
-    if debug:
-        print('Calculating Edit Distance....')
-        iterable = tqdm(iterable, total=length_logs)
+    # iterable = zip(df1['EventTemplate'].values, df2['EventTemplate'].values)
+    # if debug:
+    #     print('Calculating Edit Distance....')
+    #     iterable = tqdm(iterable, total=length_logs)
 
-    for i, j in iterable:
-        if i != j:
-            ed = edit_distance(i, j)
-            normalized_ed = 1 - ed / max(len(i), len(j))
-            edit_distance_result.append(ed)
-            normalized_ed_result.append(normalized_ed)
+    # for i, j in iterable:
+    #     if i != j:
+    #         ed = edit_distance(i, j)
+    #         normalized_ed = 1 - ed / max(len(i), len(j))
+    #         edit_distance_result.append(ed)
+    #         normalized_ed_result.append(normalized_ed)
 
-    length_logs = len(df1['EventTemplate'].values)
-    accuracy_ED = sum(edit_distance_result) / length_logs
-    accuracy_NED = (sum(normalized_ed_result) + length_logs - len(normalized_ed_result)) / length_logs
+    # length_logs = len(df1['EventTemplate'].values)
+    # accuracy_ED = sum(edit_distance_result) / length_logs
+    # accuracy_NED = (sum(normalized_ed_result) + length_logs - len(normalized_ed_result)) / length_logs
+    accuracy_ED = 0
+    accuracy_NED = 0
 
     
     # GA

@@ -94,7 +94,7 @@ class Cluster_Parser:
                 demonstrations += f"Log message: `{nearest_k_pairs[shot - i - 1][0]}`\nLog template: `{nearest_k_pairs[shot - i - 1][1].replace('<*>', '{{variable}}')}`\n"
 
         # prompt format: instruction + (demonstration) + query(logs)
-        instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
+        instruction = "You will be provided with some log contents separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log content.\nPrint the input log's template delimited by backticks."
 
         if demonstrations != '':
             query = demonstrations + 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
