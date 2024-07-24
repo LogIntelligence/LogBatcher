@@ -1,6 +1,8 @@
 import argparse
+from collections import Counter
 import json
 import os
+import string
 import pandas as pd
 from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
 from utils.parser import Cluster_Parser
@@ -8,7 +10,12 @@ from utils.evaluator import evaluate, evaluate_all_datasets
 from utils.sample import sample_from_clusters
 
 
-def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, sample_method = 'dpp'):
+def verify_template(template):
+    template = template.replace("<*>", "")
+    template = template.replace(" ", "")
+    return any(char not in string.punctuation for char in template)
+
+def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_size, sample_method = 'dpp', debug = True):
     print(f'Parsing {dataset}...')
 
     # initialize
@@ -25,6 +32,7 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     clusters = [None for _ in range(cluster_nums)]
     outputs = [None for _ in range(len(logs))]
     cache_pairs = {}
+    identified_templates_num = 0
 
     # create clusters
     for index, label in enumerate(labels):
@@ -45,10 +53,14 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
     # Parsing
     for index, old_cluster in enumerate(clusters):
 
-        print(f"=" * 40)
-        print(f"parsing the cluster {index} in {cluster_nums} clusters\nFirst log: {old_cluster.logs[0]}")
         template, old_cluster, new_cluster = parser.get_responce(old_cluster, cache_pairs, sample_pairs, shot)
-        print(f"template: {template}")
+
+        if debug:
+            print('=' * 20)
+            print(
+                f'New cluster processed, {identified_templates_num + 1} templates identified till now:')
+            print(f'Refer Log: {old_cluster.logs[0]}')
+            print(f'Output Template: {template}')
 
         # update clusters
         if new_cluster.size != 0:
@@ -57,16 +69,29 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
             cluster_nums += 1
 
         # update cache
-        if template not in cache_pairs and template.replace('<*>','').replace(' ','') != '':
+        if template not in cache_pairs and verify_template(template):
             cache_pairs[template] = [old_cluster.logs[0], 0]
+            identified_templates_num += 1
 
         for index in old_cluster.indexs:
             outputs[index] = template
+    
+    # output logs
+    output_log_file = output_dir + f'{dataset}_2k.log_structured.csv'
+    df = pd.DataFrame({'Content': logs, 'EventTemplate': outputs})
+    df.to_csv(output_log_file, index=False)
 
-    # write to file
-    df['EventTemplate'] = outputs
-    df[['Content','EventTemplate']].to_csv(
-        output_dir + f'{dataset}_2k.log_structured.csv', index=False)
+    # output templates
+    counter = Counter(outputs)
+    items = list(counter.items())
+    items.sort(key=lambda x: x[1], reverse=True)
+    output_template_file = output_dir + \
+        f'{dataset}_2k.template_structured.csv'
+    template_df = pd.DataFrame(items, columns=['EventTemplate', 'Occurrence'])
+    template_df['EventID'] = [f"E{i + 1}" for i in range(len(template_df))]
+    template_df[['EventID', 'EventTemplate', 'Occurrence']].to_csv(
+        output_template_file, index=False)
+
     evaluate(output_dir + f'{dataset}_2k.log_structured.csv',f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv', dataset, mismatch= False)
 
 
@@ -82,16 +107,19 @@ def set_args():
                         help='The size of a batch')
     parser.add_argument('--sample_method', type=str, default='dpp',
                         help='Sample method: dpp, random, similar.')
+    parser.add_argument('--dataset', type=str, default='null')
+    parser.add_argument('--time', type=int, default=1)
     args = parser.parse_args()
     return args
 
 
 if __name__ == "__main__":
     args = set_args()
-    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
-                'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
+    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper','Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
+    if args.dataset != 'null':
+        datasets = [args.dataset]
 
-    theme = f"LogBatcher_2k_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}_sampling"
+    theme = f"LogBatcher_2k_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}_sampling_{args.time}"
     output_dir = f'outputs/parser/{theme}/'
 
     if not os.path.exists(output_dir):
@@ -103,9 +131,9 @@ if __name__ == "__main__":
 
     parser = Cluster_Parser(args.model, theme, config)
     for index, dataset in enumerate(datasets):
-        if os.path.exists(f'{output_dir}{dataset}_2k.log_structured.csv'):
-            print(f'{dataset} has been parsed, skip it.')
-            continue
+        # if os.path.exists(f'{output_dir}{dataset}_2k.log_structured.csv'):
+        #     print(f'{dataset} has been parsed, skip it.')
+        #     continue
         single_dataset_paring(
             dataset=dataset,
             output_dir=output_dir,

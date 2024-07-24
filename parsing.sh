@@ -1,5 +1,4 @@
-# Description: Script to run the evaluation.py script with different parameters
-for i in 5 15 20
+for i in 2 3 4 5
 do
-    python evaluation_2k.py --batch_size $i
+    python evaluation_2k.py --time $i
 done

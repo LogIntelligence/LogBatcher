@@ -1,51 +1,51 @@
-EventId,EventTemplate
-E1,******* GOODBYE <*>:<*> ********
-E2,Accepted socket connection from <*>:<*>
-E3,autopurge.purgeInterval set to <*>
-E4,autopurge.snapRetainCount set to <*>
-E5,Cannot open channel to <*> at election address <*>:<*>
-E6,caught end of stream exception
-E7,Client attempting to establish new session at <*>:<*>
-E8,Client attempting to renew session <*> at <*>:<*>
-E9,Closed socket connection for client <*>:<*> (no session established for client)
-E10,Closed socket connection for client <*>:<*> which had sessionid <*>
-E11,"Connection broken for id <*>, my id = <*>, error ="
-E12,Connection request from old client <*>:<*>; will be dropped if server is in r-o mode
-E13,Established session <*> with negotiated timeout <*> for client <*>:<*>
-E14,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
-E15,"Expiring session <*>, timeout of <*> exceeded"
-E16,First is <*>
-E17,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>
-E18,FOLLOWING
-E19,FOLLOWING - LEADER ELECTION TOOK - <*>
-E20,Getting a snapshot from leader
-E21,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>
-E22,Have quorum of supporters; starting up and setting last processed zxid: <*>
-E23,"Have smaller server identifier, so dropping the connection: (<*>, <*>)"
-E24,Interrupted while waiting for message on queue
-E25,Interrupting SendWorker
-E26,LOOKING
-E27,maxSessionTimeout set to <*>
-E28,minSessionTimeout set to <*>
-E29,My election bind port: <*>/<*>:<*>
-E30,"New election. My id = <*>, proposed zxid=<*>"
-E31,Notification time out: <*>
-E32,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)"
-E33,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)"
-E34,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)"
-E35,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)"
-E36,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)"
-E37,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)"
-E38,Processed session termination for sessionid: <*>
-E39,Reading snapshot <*>
-E40,Received connection request <*>:<*>
-E41,Revalidating client: <*>
-E42,Send worker leaving thread
-E43,Sending DIFF
-E44,Server environment:<*>
-E45,shutdown of request processor complete
-E46,Snapshotting: <*> to <*>
-E47,Starting quorum peer
-E48,tickTime set to <*>
-E49,Unexpected exception causing shutdown while sock still open
-E50,Unexpected Exception:
+EventID,EventTemplate,Occurrence
+E1,Interrupted while waiting for message on queue,314
+E2,Received connection request <*>,299
+E3,"Connection broken for id <*>, my id = <*>, error =",291
+E4,Interrupting SendWorker,266
+E5,Send worker leaving thread,262
+E6,Cannot open channel to <*> at election address <*>,86
+E7,Established session <*> with negotiated timeout <*> for client <*>,50
+E8,Accepted socket connection from <*>,48
+E9,Processed session termination for sessionid: <*>,47
+E10,Closed socket connection for client <*> which had sessionid <*>,44
+E11,Client attempting to establish new session at <*>,41
+E12,"Expiring session <*>, timeout of <*> exceeded",40
+E13,Connection request from old client <*>; will be dropped if server is in r-o mode,39
+E14,Notification time out: <*>,37
+E15,caught end of stream exception,37
+E16,******* GOODBYE <*> ********,19
+E17,Unexpected exception causing shutdown while sock still open,12
+E18,Server environment:<*>,11
+E19,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",5
+E20,LOOKING,4
+E21,Closed socket connection for client <*> (no session established for client),4
+E22,Client attempting to renew session <*> at <*>,3
+E23,Revalidating client: <*>,3
+E24,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,3
+E25,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",3
+E26,autopurge.purgeInterval set to <*>,3
+E27,FOLLOWING,2
+E28,FOLLOWING - LEADER ELECTION TOOK - <*>,2
+E29,Snapshotting: <*> to <*>,2
+E30,Getting a snapshot from leader,2
+E31,minSessionTimeout set to <*>,2
+E32,Unexpected Exception:,1
+E33,My election bind port: <*>/<*>,1
+E34,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",1
+E35,"New election. My id = <*>, proposed zxid=<*>",1
+E36,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",1
+E37,autopurge.snapRetainCount set to <*>,1
+E38,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",1
+E39,tickTime set to <*>,1
+E40,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,1
+E41,Starting quorum peer,1
+E42,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,1
+E43,maxSessionTimeout set to <*>,1
+E44,Have quorum of supporters; starting up and setting last processed zxid: <*>,1
+E45,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",1
+E46,shutdown of request processor complete,1
+E47,First is <*>,1
+E48,Reading snapshot <*>,1
+E49,Sending DIFF,1
+E50,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",1

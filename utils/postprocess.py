@@ -61,7 +61,7 @@ def correct_single_template(template, user_strings=None):
         r'\[', r'\]', r'\(', r'\)', r'\{', r'\}'
     }
     token_delimiters = path_delimiters.union({  # all delimiters for tokenizing the remaining rules
-        r'\.', r'\-', r'\+', r'\@', r'\#', r'\$', r'\%', r'\&',
+        r'\.', r'\-', r'\+', r'\@', r'\#', r'\$', r'\%', r'\&', 
     })
 
     if user_strings:
@@ -76,7 +76,10 @@ def correct_single_template(template, user_strings=None):
     p_tokens = re.split('(' + '|'.join(path_delimiters) + ')', template)
     new_p_tokens = []
     for p_token in p_tokens:
-        if re.match(r'^(\/[^\/]+)+$', p_token) or all(x in p_token for x in {'<*>', '.', '/'}):
+        # print(p_token)
+        if re.match(r'^(\/[^\/]+)+$', p_token) or re.match(r'^([a-zA-Z0-9-]+\.){2,}[a-zA-Z]+$', p_token):
+            p_token = '<*>'
+        if all(x in p_token for x in {'<*>', '.', '/'}):
             p_token = '<*>'
         new_p_tokens.append(p_token)
     template = ''.join(new_p_tokens)
@@ -106,9 +109,9 @@ def correct_single_template(template, user_strings=None):
     # make the template using new_tokens
     template = ''.join(new_tokens)
 
-    for token in template.split(' '):
-        if all(x in token for x in {'<*>', '.', ':'}):
-            template = template.replace(token, '<*>')
+    # for token in template.split(' '):
+    #     if all(x in token for x in {'<*>', '.', ':'}):
+    #         template = template.replace(token, '<*>')
 
     # Substitute consecutive variables only if separated with any delimiter including "." (DV)
     while True:
@@ -135,35 +138,85 @@ def correct_single_template(template, user_strings=None):
         template = template.replace("<*>/<*>", "<*>")
 
     # newly added
-    while " #<*># " in template:
-        template = template.replace(" #<*># ", " <*> ")
+    # while " #<*># " in template:
+    #     template = template.replace(" #<*># ", " <*> ")
 
-    while " #<*> " in template:
-        template = template.replace(" #<*> ", " <*> ")
+    # while " #<*> " in template:
+    #     template = template.replace(" #<*> ", " <*> ")
 
-    while "<*>:<*>" in template:
-        template = template.replace("<*>:<*>", "<*>")
+    # while "<*>:<*>" in template:
+    #     template = template.replace("<*>:<*>", "<*>")
 
-    while "<*>#<*>" in template:
-        template = template.replace("<*>#<*>", "<*>")
+    # while "<*>#<*>" in template:
+    #     template = template.replace("<*>#<*>", "<*>")
 
-    while "<*>/<*>" in template:
-        template = template.replace("<*>/<*>", "<*>")
+    # while "<*>/<*>" in template:
+    #     template = template.replace("<*>/<*>", "<*>")
 
-    while "<*>@<*>" in template:
-        template = template.replace("<*>@<*>", "<*>")
+    # while "<*>@<*>" in template:
+    #     template = template.replace("<*>@<*>", "<*>")
 
-    while "<*>.<*>" in template:
-        template = template.replace("<*>.<*>", "<*>")
+    # while "<*>.<*>" in template:
+    #     template = template.replace("<*>.<*>", "<*>")
 
-    while ' "<*>" ' in template:
-        template = template.replace(' "<*>" ', ' <*> ')
+    # while ' "<*>" ' in template:
+    #     template = template.replace(' "<*>" ', ' <*> ')
 
-    while " '<*>' " in template:
-        template = template.replace(" '<*>' ", " <*> ")
+    # while " '<*>' " in template:
+    #     template = template.replace(" '<*>' ", " <*> ")
 
-    while "<*><*>" in template:
-        template = template.replace("<*><*>", "<*>")
+    # while "<*><*>" in template:
+    #     template = template.replace("<*><*>", "<*>")
 
     return template
 
+
+if __name__ == '__main__':
+    import re
+
+    # pattern = r'^([a-zA-Z0-9-]+\.){2,}[a-zA-Z]+$'
+    # test_strings = [
+    #     "example.com",
+    #     "subdomain.example.com",
+    #     "sub.subdomain.example.com",
+    #     "sub-domain.example.co.uk",
+    #     "example..com",
+    #     "-example.com",
+    #     "example-.com",
+    #     "proxy.cse.cuhk.edu.hk",
+    #     "example"
+    # ]
+
+    # for string in test_strings:
+    #     if re.match(pattern, string):
+    #         print(f"Matched: {string}")
+    #     else:
+    #         print(f"Did not match: {string}")
+
+    print(correct_single_template(
+        "proxy.cse.cuhk.edu.hk:5070 close, 1190 bytes (1.16 KB) sent, 1671 bytes (1.63 KB) received, lifetime 00:02"))
+    # import pandas as pd
+    # datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Mac',
+    #             'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
+    # num_2 = 0
+    # for dataset in datasets:
+    #     logs = []
+    #     print("Processing", dataset)
+    #     templates = pd.read_csv(
+    #         f'../dataset/{dataset}/{dataset}_2k.log_templates_corrected.csv')
+    #     num = 0
+    #     for template,occur in zip(templates['EventTemplate'], templates['Occurrence']):
+    #         if template != correct_single_template(template):
+    #             print("=" * 10)
+    #             num+=occur
+    #             print(dataset)
+    #             print(template)
+    #             print(correct_single_template(template))
+    #             print()
+            # correct_single_template(template)
+            # if "<*> <*>" in template:
+            #     print("=" * 10)
+            #     print(dataset)
+            #     print(template)
+            #     print(correct_single_template(template))
+            #     print()

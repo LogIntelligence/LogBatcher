@@ -94,7 +94,7 @@ class Cluster_Parser:
                 demonstrations += f"Log message: `{nearest_k_pairs[shot - i - 1][0]}`\nLog template: `{nearest_k_pairs[shot - i - 1][1].replace('<*>', '{{variable}}')}`\n"
 
         # prompt format: instruction + (demonstration) + query(logs)
-        instruction = "You will be provided with some log contents separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log content.\nPrint the input log's template delimited by backticks."
+        instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
 
         if demonstrations != '':
             query = demonstrations + 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
@@ -104,27 +104,30 @@ class Cluster_Parser:
             query = '\n'.join(logs)
     
         # invoke LLM
-        cost_file = open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8')
+        # cost_file = open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8')
         if any(model_tpye in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
             messages = [
                 {"role": "system", "content": instruction},
                 {"role": "user", "content":  query}
             ]
-            json.dump(messages, cost_file, ensure_ascii=False, indent=4)
-            cost_file.write('\n')
+            # json.dump(messages, cost_file, ensure_ascii=False, indent=4)
+            # cost_file.write('\n')
             answer = self.chat(messages)
         else:
             prompt = f"{instruction}\n{query}"
-            json.dump(prompt, cost_file, ensure_ascii=False, indent=4)
+            # json.dump(prompt, cost_file, ensure_ascii=False, indent=4)
             answer = self.inference(prompt)
-        cost_file.close()
+        # cost_file.close()
             
 
         template = post_process(answer)
 
         # matching and pruning
         for log in logs:
-            matches = extract_variables(log, template)
+            try:
+                matches = extract_variables(log, template)
+            except:
+                matches = None
             if matches != None:
                 parts = template.split('<*>')
                 template = parts[0]

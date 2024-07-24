@@ -31,3 +31,10 @@ utils/unused_functions.py
 # config.json
 tools.ipynb
 test.ipynb
+
+outputs/parser/LogBatcher**
+
+BGL/
+
+e.py
+test.py

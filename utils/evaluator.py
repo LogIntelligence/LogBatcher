@@ -4,6 +4,7 @@ from nltk.metrics.distance import edit_distance
 from sklearn.metrics import accuracy_score
 import numpy as np
 from tqdm import tqdm
+from utils.postprocess import correct_single_template
 
 
 def calculate_avg(numbers, round_num = 4):
@@ -60,6 +61,7 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = Fal
 
     df1 = pd.read_csv(output_file)
     df2 = pd.read_csv(groundtruth_file)
+    # df2['EventTemplate'] = df2['EventTemplate'].apply(correct_single_template)
     length_logs = len(df1['EventTemplate'].values)
 
     # Remove invalid groundtruth event Ids

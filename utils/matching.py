@@ -1,7 +1,37 @@
 import random
 import re
 from utils.cluster import Cluster, tokenize
+import threading
+from functools import wraps
 
+
+class TimeoutException(Exception):
+    pass
+
+
+def timeout(seconds, error_message="Function call timed out"):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            result = [TimeoutException(error_message)]
+
+            def target():
+                try:
+                    result[0] = func(*args, **kwargs)
+                except Exception as e:
+                    result[0] = e
+
+            thread = threading.Thread(target=target)
+            thread.start()
+            thread.join(seconds)
+            if isinstance(result[0], BaseException):
+                raise result[0]
+            return result[0]
+        return wrapper
+    return decorator
+
+
+@timeout(10)
 def extract_variables(log, template):
     log = re.sub(r'\s+', ' ', log.strip()) # DS
     pattern_parts = template.split("<*>")
@@ -23,7 +53,10 @@ def matches_template(log, cached_pair):
     if abs(len(log.split()) - len(reference_log.split())) > 1:
         return None
 
-    groups = extract_variables(log, template)
+    try:
+        groups = extract_variables(log, template)
+    except:
+        groups = None
     if groups == None:
         return None
 

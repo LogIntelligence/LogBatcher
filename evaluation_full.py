@@ -164,6 +164,7 @@ def set_args():
                         help='Sample method: dpp, random, similar.')
     parser.add_argument('--chunk_size', type=int, default=2000,
                         help='Size of logs in a chunk')
+    parser.add_argument('--dataset', type=str, default='null')
     args = parser.parse_args()
     return args
 
@@ -172,7 +173,8 @@ if __name__ == "__main__":
     args = set_args()
     datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
                 'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
-    datasets = ['Thunderbird']
+    if args.dataset != 'null':
+        datasets = [args.dataset]
     
     datasets_format = {
         'HDFS': '<Date> <Time> <Pid> <Level> <Component>: <Content>',

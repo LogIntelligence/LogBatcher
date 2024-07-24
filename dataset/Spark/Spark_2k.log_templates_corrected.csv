@@ -1,37 +1,37 @@
-EventId,EventTemplate
-E1,<*>: Committed
-E2,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
-E3,"Block <*> stored as values in memory (estimated size <*>, free <*>)"
-E4,Changing modify acls to: <*>
-E5,Changing view acls to: <*>
-E6,Connecting to driver: <*>
-E7,Created local directory at <*>
-E8,File Output Committer Algorithm version is <*>
-E9,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
-E10,Found block <*> locally
-E11,Got assigned task <*>
-E12,Input split: <*>
-E13,"mapred.job.id is deprecated. Instead, use mapreduce.job.id"
-E14,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id"
-E15,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap"
-E16,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition"
-E17,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id"
-E18,MemoryStore started with capacity <*> GB
-E19,"Partition <*> not found, computing it"
-E20,Reading broadcast variable <*> took <*> ms
-E21,Registered BlockManager
-E22,"Registered signal handlers for [TERM, HUP, INT]"
-E23,Remoting started; listening on addresses :[<*>]
-E24,Running task <*> in stage <*> (TID <*>)
-E25,Saved output of task '<*>' to <*>
-E26,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
-E27,Server created on <*>
-E28,Slf4jLogger started
-E29,Started reading broadcast variable <*>
-E30,Starting executor ID <*> on host <*>
-E31,Starting remoting
-E32,Successfully registered with driver
-E33,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.
-E34,Successfully started service 'sparkExecutorActorSystem' on port <*>.
-E35,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
-E36,Trying to register BlockManager
+EventID,EventTemplate,Occurrence
+E1,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",375
+E2,Got assigned task <*>,305
+E3,Running task <*> in stage <*> (TID <*>),305
+E4,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,300
+E5,Found block <*> locally,257
+E6,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",112
+E7,"Partition <*> not found, computing it",75
+E8,Input split: <*>,45
+E9,Started reading broadcast variable <*>,37
+E10,Reading broadcast variable <*> took <*> ms,37
+E11,"Block <*> stored as values in memory (estimated size <*>, free <*>)",37
+E12,File Output Committer Algorithm version is <*>,30
+E13,Saved output of task '<*>' to <*>,30
+E14,<*>: Committed,30
+E15,Changing view acls to: <*>,2
+E16,Changing modify acls to: <*>,2
+E17,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",2
+E18,"Registered signal handlers for [TERM, HUP, INT]",1
+E19,Slf4jLogger started,1
+E20,Starting remoting,1
+E21,Remoting started; listening on addresses :[<*>],1
+E22,Successfully started service 'sparkExecutorActorSystem' on port <*>.,1
+E23,Created local directory at <*>,1
+E24,MemoryStore started with capacity <*> GB,1
+E25,Connecting to driver: <*>,1
+E26,Successfully registered with driver,1
+E27,Starting executor ID <*> on host <*>,1
+E28,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,1
+E29,Server created on <*>,1
+E30,Trying to register BlockManager,1
+E31,Registered BlockManager,1
+E32,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1
+E33,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",1
+E34,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",1
+E35,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+E36,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
