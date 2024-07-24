@@ -95,7 +95,7 @@ def correct_single_template(template, user_strings=None):
 
         # apply DG
         # Note: hexadecimal num also appears a lot in the logs
-        if re.match(r'^\d+$', token) or re.match(r'\b0[xX][0-9a-fA-F]+\b', token):
+        if re.match(r'^\d+$', token) or re.match(r'\b0[xX][0-9a-fA-F]+\b', token) or len(re.findall(r'\d', token)) >= 4:
             token = '<*>'
 
         # apply WV
@@ -194,10 +194,10 @@ if __name__ == '__main__':
     #         print(f"Did not match: {string}")
 
     print(correct_single_template(
-        "proxy.cse.cuhk.edu.hk:5070 close, 1190 bytes (1.16 KB) sent, 1671 bytes (1.63 KB) received, lifetime 00:02"))
+        "[ib_sm_bringup.c:577]: Force neighbor port (node=5ad000004b488, port=1, state=4) to DOWN because (1) 1st sweep or (2) role change."))
     # import pandas as pd
     # datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Mac',
-    #             'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
+    #             'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'Proxifier']
     # num_2 = 0
     # for dataset in datasets:
     #     logs = []
@@ -206,13 +206,13 @@ if __name__ == '__main__':
     #         f'../dataset/{dataset}/{dataset}_2k.log_templates_corrected.csv')
     #     num = 0
     #     for template,occur in zip(templates['EventTemplate'], templates['Occurrence']):
-    #         if template != correct_single_template(template):
-    #             print("=" * 10)
-    #             num+=occur
-    #             print(dataset)
-    #             print(template)
-    #             print(correct_single_template(template))
-    #             print()
+            # if template != correct_single_template(template):
+            #     print("=" * 10)
+            #     num+=occur
+            #     print(dataset)
+            #     print(template)
+            #     print(correct_single_template(template))
+            #     print()
             # correct_single_template(template)
             # if "<*> <*>" in template:
             #     print("=" * 10)

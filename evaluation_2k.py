@@ -8,6 +8,8 @@ from utils.cluster import Cluster,tokenize, vectorize, cluster, reassign_cluster
 from utils.parser import Cluster_Parser
 from utils.evaluator import evaluate, evaluate_all_datasets
 from utils.sample import sample_from_clusters
+from utils.add_cluster import hierichical_clustering, meanshift_clustering
+import pdb
 
 
 def verify_template(template):
@@ -24,9 +26,13 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
 
     # Partitioning:
     # tokenize -> vectorize -> cluster -> reassign_clusters
-    tokenized_logs = [tokenize(log) for log in logs]
-    labels, cluster_nums = cluster(vectorize(tokenized_logs))
-    labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
+    # tokenized_logs = [tokenize(log) for log in logs]
+    # labels, cluster_nums = cluster(vectorize(tokenized_logs))
+    # labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
+
+    # another clustering
+    # labels, cluster_nums = hierichical_clustering(logs, granularity="fine")
+    labels, cluster_nums = meanshift_clustering(logs)
 
     # inputs, outputs and cache
     clusters = [None for _ in range(cluster_nums)]
@@ -115,11 +121,11 @@ def set_args():
 
 if __name__ == "__main__":
     args = set_args()
-    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper','Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
+    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper','Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'Proxifier']
     if args.dataset != 'null':
         datasets = [args.dataset]
 
-    theme = f"LogBatcher_2k_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}_sampling_{args.time}"
+    theme = f"LogBatcher_2k_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}_sampling_meanshift"
     output_dir = f'outputs/parser/{theme}/'
 
     if not os.path.exists(output_dir):
@@ -131,9 +137,9 @@ if __name__ == "__main__":
 
     parser = Cluster_Parser(args.model, theme, config)
     for index, dataset in enumerate(datasets):
-        # if os.path.exists(f'{output_dir}{dataset}_2k.log_structured.csv'):
-        #     print(f'{dataset} has been parsed, skip it.')
-        #     continue
+        if os.path.exists(f'{output_dir}{dataset}_2k.log_structured.csv'):
+            print(f'{dataset} has been parsed, skip it.')
+            continue
         single_dataset_paring(
             dataset=dataset,
             output_dir=output_dir,
