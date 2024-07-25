@@ -77,7 +77,7 @@ def correct_single_template(template, user_strings=None):
     new_p_tokens = []
     for p_token in p_tokens:
         # print(p_token)
-        if re.match(r'^(\/[^\/]+)+$', p_token) or re.match(r'^([a-zA-Z0-9-]+\.){2,}[a-zA-Z]+$', p_token):
+        if re.match(r'^(\/[^\/]+)+\/?$', p_token) or re.match(r'^([a-zA-Z0-9-]+\.){2,}[a-zA-Z]+$', p_token):
             p_token = '<*>'
         if all(x in p_token for x in {'<*>', '.', '/'}):
             p_token = '<*>'
@@ -138,6 +138,11 @@ def correct_single_template(template, user_strings=None):
         template = template.replace("<*>/<*>", "<*>")
 
     # newly added
+    while " -<*>" in template:
+        template = template.replace(" -<*>", " <*>")
+
+    if "<*> KB" in template or "<*> MB" in template:
+        template = template.replace("<*> KB", "<*>").replace("<*> MB", "<*>")
     # while " #<*># " in template:
     #     template = template.replace(" #<*># ", " <*> ")
 
@@ -171,9 +176,9 @@ def correct_single_template(template, user_strings=None):
     return template
 
 
-if __name__ == '__main__':
-    import re
-
+# if __name__ == '__main__':
+    # import re
+    # print(re.match(r'^(\/[^\/]+)+\/?$', "/"))
     # pattern = r'^([a-zA-Z0-9-]+\.){2,}[a-zA-Z]+$'
     # test_strings = [
     #     "example.com",
@@ -193,8 +198,8 @@ if __name__ == '__main__':
     #     else:
     #         print(f"Did not match: {string}")
 
-    print(correct_single_template(
-        "proxy.cse.cuhk.edu.hk:5070 close, 1190 bytes (1.16 KB) sent, 1671 bytes (1.63 KB) received, lifetime 00:02"))
+    # print(correct_single_template(
+    #     "proxy.cse.cuhk.edu.hk:5070 close, 1190 bytes (1.16 KB) sent, 1671 bytes (1.63 KB) received, lifetime 00:02"))
     # import pandas as pd
     # datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Mac',
     #             'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
@@ -205,18 +210,19 @@ if __name__ == '__main__':
     #     templates = pd.read_csv(
     #         f'../dataset/{dataset}/{dataset}_2k.log_templates_corrected.csv')
     #     num = 0
-    #     for template,occur in zip(templates['EventTemplate'], templates['Occurrence']):
-    #         if template != correct_single_template(template):
-    #             print("=" * 10)
-    #             num+=occur
-    #             print(dataset)
-    #             print(template)
-    #             print(correct_single_template(template))
-    #             print()
-            # correct_single_template(template)
-            # if "<*> <*>" in template:
-            #     print("=" * 10)
-            #     print(dataset)
-            #     print(template)
-            #     print(correct_single_template(template))
-            #     print()
+        # for template,occur in zip(templates['EventTemplate'], templates['Occurrence']):
+        #     # if template != correct_single_template(template):
+        #     #     print("=" * 10)
+        #     #     num+=occur
+        #     #     print(dataset)
+        #     #     print(template)
+        #     #     print(correct_single_template(template))
+        #     #     print()
+        #     # correct_single_template(template)
+        #     if re.search(r'^(\/[^\/]+)+\/?$', template):
+        #         print("=" * 10)
+        #         print(dataset)
+        #         print(template)
+        #         print(correct_single_template(template))
+        #         print()
+        

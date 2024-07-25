@@ -122,7 +122,10 @@ class Cluster_Parser:
             
 
         template = post_process(answer)
-
+        
+        if "mod_jk child init" in answer:
+            print("ok")
+            pass
         # matching and pruning
         for log in logs:
             try:
