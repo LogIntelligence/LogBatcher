@@ -61,7 +61,16 @@ It raises a question about whether to include brackets in placeholders.
 ```
 
 ## (b)
+<div style="text-align: center; display: flex; justify-content: space-between;">
 
+|  **datasets** | **#Log entries** | **GA** | **MLA** | **ED** | **FGA** | **FTA** |
+|:-------------:|-----------------|:------:|:-------:|:------:|:-------:|:-------:|
+|    **HPC**    |     429,987     |  0.992 |   0.99  |  0.997 |  0.888  |  0.838  |
+| **Proxifier** |      21,320     |    1.00   |    1.00    |    1.00   |    1.00    |    1.00    |
+|   **Spark**   |    16,075,117   |  0.974 |  0.997  |  0.999 |  0.832  |  0.702  |
+|  **OpenSSH**  |     638,946     | 0.9672 |  0.9976 |  0.999 |  0.800  |  0.800  |
+
+</div>
 
 ## Work Flow
 ![workflow](outputs/figures/workflow.png)
