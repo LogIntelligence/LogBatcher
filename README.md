@@ -1,13 +1,7 @@
 # LogBatcher
 Repository for the paper: Demonstration-Free: Towards More Practical Log Parsing with Large Language Models
-
-## Work Flow
-![workflow](outputs/figures/workflow.png)
-
-In this work, we propose LogBatcher, a cost-effective LLM-based log parser that requires no training process or labeled data.
-Log Batcher contians three main components: **Partitioning, Caching and Batching - Querying** 
-
-# A1
+## Additional Results
+### A1. Performance of LILAC with different numbers of demonstration
 
 <div style="text-align: center;">
 
@@ -25,7 +19,7 @@ Log Batcher contians three main components: **Partitioning, Caching and Batching
 
 ![A1](outputs/figures/A1.png)
 
-# A2
+### A2. Performance of LogBatcher over 5 iterations
 
 <div style="text-align: center;">
 
@@ -39,7 +33,7 @@ Log Batcher contians three main components: **Partitioning, Caching and Batching
 
 </div>
 
-# A3
+### A3. Performance of LogBatcher on larger datasets
 
 ## (a)
 Examples of nconsistent labels across log data in loghub-2.0 is shown below:
@@ -67,6 +61,14 @@ It raises a question about whether to include brackets in placeholders.
 ```
 
 ## (b)
+
+
+## Work Flow
+![workflow](outputs/figures/workflow.png)
+
+In this work, we propose LogBatcher, a cost-effective LLM-based log parser that requires no training process or labeled data.
+Log Batcher contians three main components: **Partitioning, Caching and Batching - Querying** 
+
 
 ## Setup
 
