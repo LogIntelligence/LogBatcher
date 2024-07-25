@@ -11,6 +11,7 @@ from utils.matching import extract_variables, matches_template, prune_from_clust
 from utils.postprocess import correct_single_template
 import httpx
 
+
 class Cluster_Parser:
     
     def __init__(self, model, theme, config):
