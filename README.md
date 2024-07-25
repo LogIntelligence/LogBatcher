@@ -47,10 +47,23 @@ Examples of nconsistent labels across log data in loghub-2.0 is shown below:
 In dataset Linux and Thunderbird, there are similar logs contains:
 `session opened for user cyrus by (uid=0)` and `session opened for user root by LOGIN(uid=0)`
 In Linux the label of them is `session opened for user <*> by <*>(uid=<*>)`, while In Thunderbird it is `session opened for user <*> by <*>`
-It raise another question about whether placeholder represents null value should appear:
+It raises another question about whether placeholder represents null value should appear:
 Previous work labeled `connection from 84.139.180.196 (p548BB4C4.dip0.t-ipconnect.de) at Fri Jan 6 15:53:55 2006` and `connection from 84.139.180.196 () at Fri Jan 6 15:53:55 2006` into:
 `connection from <*> (<*>) at <*>` and `connection from <*> () at <*>`, while loghub-2.0 use the same label `connection from <*> (<*>) at <*>` to cover both of them.
 
+In dataset HPC, loghub-2.0 labels:
+`PSU status ( on off )` -> `PSU status ( <*> <*> )`
+`Fan speeds ( 3552 3552 3391 4245 3515 3497 )` -> `Fan speeds ( <*> )`
+It raise a question about whether to merge continous placeholders.
+also some uncorrected labels happened:
+`ambient=40 threshold exceeded` -> `ambient=<*>`
+
+In dataset Hadoop
+`TaskAttempt: [attempt_1445087491445_0005_m_000009_0] using containerId: [container_1445087491445_0005_01_000009] on NM: [04DN8IQ.fareast.corp.microsoft.com:55452]`
+-> `TaskAttempt: [<*>] using containerId: [<*>] on NM: [<*>]`
+`Failed to renew lease for [DFSClient_NONMAPREDUCE_483047941_1] for 46 seconds. Will retry shortly ...`
+-> `Failed to renew lease for <*> for <*> seconds. Will retry shortly ...`
+It raises a question about whether to include brackets in placeholders.
 ```
 
 ## (b)
