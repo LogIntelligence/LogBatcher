@@ -42,10 +42,14 @@ Log Batcher contians three main components: **Partitioning, Caching and Batching
 # A3
 
 ## (a)
-
+Examples of nconsistent labels across log data in loghub-2.0 is shown below:
 ```
-Example: In dataset Proxifier, the label is inconsistent between loghub-2k, loghub-2.0, loghub-2.0 2k version and the proposed guidelines in the paper.
-Refer Log: `session opened for user root by (uid=0)` and `session opened for user root by root(uid=0)` 
+In dataset Linux and Thunderbird, there are similar logs contains:
+`session opened for user cyrus by (uid=0)` and `session opened for user root by LOGIN(uid=0)`
+In Linux the label of them is `session opened for user <*> by <*>(uid=<*>)`, while In Thunderbird it is `session opened for user <*> by <*>`
+It raise another question about whether placeholder represents null value should appear:
+Previous work labeled `connection from 84.139.180.196 (p548BB4C4.dip0.t-ipconnect.de) at Fri Jan 6 15:53:55 2006` and `connection from 84.139.180.196 () at Fri Jan 6 15:53:55 2006` into:
+`connection from <*> (<*>) at <*>` and `connection from <*> () at <*>`, while loghub-2.0 use the same label `connection from <*> (<*>) at <*>` to cover both of them.
 
 ```
 
