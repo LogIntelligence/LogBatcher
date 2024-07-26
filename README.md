@@ -72,6 +72,36 @@ It raises a question about whether to include brackets in placeholders.
 
 </div>
 
+### A4. Effiency of LogBatcher
+We estimate the cost of using OpenAI API using:
+
+```
+cost = #tokens * USD$0.003 / 1000
+```
+
+The carbon footprint is estimated as follows:
+```
+Carbon Footprint = Tokens x Energy per Token x gCO2e/KWh
+```
+`gCO2e/KWh`: 240.6 `gCO2e/KWh` for Microsoft Azure US West
+`Energy per Token`: ~4 Joules per output token = 0.001 kWh per 1000 tokens
+
+** Total cost on 16 2k-datasets: **
+
+|                      | **DivLog** | **LILAC** | **LogBatcher** |
+|:--------------------:|:----------:|:---------:|:--------------:|
+|  #Token per dataset  |   469109   |   24020   |      11701     |
+|   Total Cost (USD)   |  22.517232 |  1.15296  |    0.561648    |
+| Carbon Footprint (g) | 1805.88201 | 92.467392 |   45.0441696   |
+
+** Cost per LLM invocation: **
+
+|                       | **DivLog** | **LILAC** | **LogBatcher** |
+|:---------------------:|:----------:|:---------:|:--------------:|
+| #Token per invocation |     235    |    309    |       173      |
+|    Total Cost (USD)   |  0.010575  |  0.013905 |    0.007785    |
+|  Carbon Footprint (g) |  0.848115  |  1.115181 |    0.624357    |
+
 ## Work Flow
 ![workflow](outputs/figures/workflow.png)
 
