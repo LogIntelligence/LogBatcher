@@ -135,6 +135,11 @@ def correct_single_template(template, user_strings=None):
         template = template.replace("<*>/<*>", "<*>")
 
     # newly added
+    while " -<*>" in template:
+        template = template.replace(" -<*>", " <*>")
+
+    if "<*> KB" in template or "<*> MB" in template:
+        template = template.replace("<*> KB", "<*>").replace("<*> MB", "<*>")
     # while " #<*># " in template:
     #     template = template.replace(" #<*># ", " <*> ")
 
@@ -318,9 +323,9 @@ def correct_single_template_full(template, user_strings=None):
     return template
 
 
-if __name__ == '__main__':
-    import re
-
+# if __name__ == '__main__':
+    # import re
+    # print(re.match(r'^(\/[^\/]+)+\/?$', "/"))
     # pattern = r'^([a-zA-Z0-9-]+\.){2,}[a-zA-Z]+$'
     # test_strings = [
     #     "example.com",

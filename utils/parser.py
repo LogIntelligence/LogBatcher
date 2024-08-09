@@ -12,6 +12,7 @@ from utils.matching import extract_variables, matches_template, prune_from_clust
 from utils.postprocess import correct_single_template_full
 import httpx
 
+
 def not_varibility(logs):
     a_logs = [re.sub(r'\d+', '', log) for log in logs]
     if len(set(a_logs)) == 1:
@@ -154,6 +155,10 @@ class Cluster_Parser:
         if not verify_template(template):
             template = correct_single_template_full(sample_log)
 
+        
+        if "mod_jk child init" in answer:
+            print("ok")
+            pass
         # matching and pruning
         for log in logs:
             try:
