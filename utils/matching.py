@@ -4,41 +4,36 @@ from utils.cluster import Cluster, tokenize
 import threading
 from functools import wraps
 
+import signal
 
 class TimeoutException(Exception):
     pass
 
+def timeout_handler(signum, frame):
+    raise TimeoutException()
 
-def timeout(seconds, error_message="Function call timed out"):
-    def decorator(func):
-        @wraps(func)
-        def wrapper(*args, **kwargs):
-            result = [TimeoutException(error_message)]
-
-            def target():
-                try:
-                    result[0] = func(*args, **kwargs)
-                except Exception as e:
-                    result[0] = e
-
-            thread = threading.Thread(target=target)
-            thread.start()
-            thread.join(seconds)
-            if isinstance(result[0], BaseException):
-                raise result[0]
-            return result[0]
-        return wrapper
-    return decorator
+def safe_search(pattern, string, timeout=0.5):
+    # 设置超时信号
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.alarm(timeout)
+    try:
+        result = re.search(pattern, string)
+    except TimeoutException:
+        result = None
+    finally:
+        signal.alarm(0)  # 取消超时
+    return result
 
 
-@timeout(10)
+# @timeout(10)
 def extract_variables(log, template):
     log = re.sub(r'\s+', ' ', log.strip()) # DS
     pattern_parts = template.split("<*>")
     pattern_parts_escaped = [re.escape(part) for part in pattern_parts]
     regex_pattern = "(.*?)".join(pattern_parts_escaped)
     regex = "^" + regex_pattern + "$"  
-    matches = re.search(regex, log)
+    # matches = re.search(regex, log)
+    matches = safe_search(regex, log, 1)
     if matches:
         return matches.groups()
     else:

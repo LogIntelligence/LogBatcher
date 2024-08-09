@@ -14,9 +14,10 @@ def calculate_avg(numbers, round_num = 4):
     return numbers
 
 
-def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k', mismatch = False, debug = False):
+def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k', mismatch = False, debug = True):
     if datasets == []:
         table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Windows Linux Android HealthApp Apache Proxifier OpenSSH OpenStack Mac'
+        # table_order = 'HDFS Hadoop Spark Zookeeper BGL HPC Thunderbird Linux HealthApp Apache Proxifier OpenSSH OpenStack Mac'
         datasets = table_order.split(' ')
     
 
@@ -35,8 +36,12 @@ def evaluate_all_datasets(file_name, datasets = [], data_tpye = '2k', mismatch =
         for dataset in datasets:
             table_data['dataset'].append(dataset)
             output_file = f'outputs/parser/{file_name}/{dataset}_{data_tpye}.log_structured.csv'
+            if data_tpye == "2k":
+                groundtruth_file = f'dataset/{dataset}/{dataset}_2k.log_structured_corrected.csv'
+            else:
+                groundtruth_file = f'dataset/{dataset}/{dataset}_full.log_structured.csv'
 
-            a, b, c, d = evaluate(output_file=output_file, groundtruth_file=f'dataset/{dataset}/{dataset}_{data_tpye}.log_structured_corrected.csv', dataset=dataset, mismatch=mismatch, debug=debug)
+            a, b, c, d = evaluate(output_file=output_file, groundtruth_file=groundtruth_file, dataset=dataset, mismatch=mismatch, debug=debug)
             ga.append(a)
             pa.append(b)
             ed.append(c)
@@ -91,26 +96,26 @@ def evaluate(output_file, groundtruth_file, dataset, mismatch=False, debug = Fal
             f'{head}/mismatch/{dataset}.csv', index=False)
 
     # ED and NED
-    # edit_distance_result = []
-    # normalized_ed_result = []
+    edit_distance_result = []
+    normalized_ed_result = []
 
-    # iterable = zip(df1['EventTemplate'].values, df2['EventTemplate'].values)
-    # if debug:
-    #     print('Calculating Edit Distance....')
-    #     iterable = tqdm(iterable, total=length_logs)
+    iterable = zip(df1['EventTemplate'].values, df2['EventTemplate'].values)
+    if debug:
+        print('Calculating Edit Distance....')
+        iterable = tqdm(iterable, total=length_logs)
 
-    # for i, j in iterable:
-    #     if i != j:
-    #         ed = edit_distance(i, j)
-    #         normalized_ed = 1 - ed / max(len(i), len(j))
-    #         edit_distance_result.append(ed)
-    #         normalized_ed_result.append(normalized_ed)
+    for i, j in iterable:
+        if i != j:
+            ed = edit_distance(i, j)
+            normalized_ed = 1 - ed / max(len(i), len(j))
+            edit_distance_result.append(ed)
+            normalized_ed_result.append(normalized_ed)
 
-    # length_logs = len(df1['EventTemplate'].values)
-    # accuracy_ED = sum(edit_distance_result) / length_logs
-    # accuracy_NED = (sum(normalized_ed_result) + length_logs - len(normalized_ed_result)) / length_logs
-    accuracy_ED = 0
-    accuracy_NED = 0
+    length_logs = len(df1['EventTemplate'].values)
+    accuracy_ED = sum(edit_distance_result) / length_logs
+    accuracy_NED = (sum(normalized_ed_result) + length_logs - len(normalized_ed_result)) / length_logs
+    # accuracy_ED = 0
+    # accuracy_NED = 0
 
     
     # GA

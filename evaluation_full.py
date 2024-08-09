@@ -1,5 +1,5 @@
 import argparse
-from collections import Counter
+from collections import Counter, OrderedDict
 import json
 import os
 import re
@@ -32,6 +32,9 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
     else:
         raise ValueError('data_type should be 2k or full')
     
+    # temp
+    structured_log_file = f'../autodl-tmp/loghub-2.0/{dataset}/{dataset}_full.log_structured.csv'
+
     if log_file_format == 'structured':
         df = pd.read_csv(structured_log_file)
         logs = df['Content'].tolist()
@@ -44,13 +47,19 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
     else:
         raise ValueError('log_file_format should be structured or raw')
 
-    outputs = [None for _ in range(len(logs))]
+    
     identified_templates_num = 0
     cache_pairs = {}
     log_chunk = []
     log_chunk_index = []
     cache_sort_step = len(logs) // 100
     print(f'Parsing {len(logs)} logs in dataset {dataset}...')
+
+    # temp to store parsing results
+    temp_logs = logs.copy()
+    logs = list(OrderedDict.fromkeys(logs))
+    outputs = [None for _ in range(len(logs))]
+    
 
     # Parsing
     t1 = time.time()
@@ -96,7 +105,7 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
         
             # parsing
             for index, old_cluster in enumerate(clusters):
-                template, old_cluster, new_cluster = parser.get_responce(old_cluster, cache_pairs)
+                template, old_cluster, new_cluster = parser.get_responce(old_cluster, cache_pairs, dataset = dataset)
 
                 if debug:
                     print('=' * 20)
@@ -119,6 +128,13 @@ def single_dataset_paring(dataset, log_format, output_dir, parser, batch_size, c
             log_chunk = []
             log_chunk_index = []
     
+    print("map the outputs")
+    log_to_index = {log: index for index, log in enumerate(logs)}
+    temp_outputs = []
+    for log in tqdm(temp_logs):
+        temp_outputs.append(outputs[log_to_index[log]])
+    outputs = temp_outputs
+    logs = temp_logs
     
     # Result
     t2 = time.time()
@@ -171,8 +187,12 @@ def set_args():
 
 if __name__ == "__main__":
     args = set_args()
-    datasets = ['BGL', 'HDFS', 'HealthApp', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper',
-                'Mac', 'Hadoop', 'Android', 'Windows', 'Apache', 'Thunderbird', 'Spark', 'Linux', 'proxifier']
+
+    # ! Done: ['BGL', 'HDFS', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Spark', 'Proxifier', 'HealthApp', 'Mac', 'Hadoop']
+    # ! Not Done: ['Apache', 'Linux', 'Thunderbird']
+
+    datasets = ['HDFS', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Spark', 'HealthApp', 'Mac', 'Hadoop', 'Apache', 'Linux']
+
     if args.dataset != 'null':
         datasets = [args.dataset]
     
@@ -195,11 +215,13 @@ if __name__ == "__main__":
         'Mac': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>'
     }
     
-    theme = f"LogBatcher_full_{args.batch_size}batchsize_{args.chunk_size}chunksize_{args.model.replace('/','_')}_{args.sample_method}_sampling"
+    # theme = f"LogBatcher_full_{args.batch_size}batchsize_{args.chunk_size}chunksize_{args.model.replace('/','_')}_{args.sample_method}_sampling"
+    theme = "full_test2"
     output_dir = f'outputs/parser/{theme}/'
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
+        os.makedirs(output_dir + 'temp')
 
     # load api key
     with open('config.json', 'r') as f:
@@ -207,9 +229,9 @@ if __name__ == "__main__":
     
     parser = Cluster_Parser(args.model, theme, config)
     for index, dataset in enumerate(datasets):
-        if os.path.exists(f'{output_dir}{dataset}_full.log_structured.csv'):
-            print(f'{dataset} has been parsed, skip it.')
-            continue
+        # if os.path.exists(f'{output_dir}{dataset}_full.log_structured.csv'):
+        #     print(f'{dataset} has been parsed, skip it.')
+        #     continue
         single_dataset_paring(
             dataset=dataset, 
             log_format = datasets_format[dataset],

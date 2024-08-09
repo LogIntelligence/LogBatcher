@@ -26,13 +26,13 @@ def single_dataset_paring(dataset, output_dir, parser, shot, candidate, batch_si
 
     # Partitioning:
     # tokenize -> vectorize -> cluster -> reassign_clusters
-    # tokenized_logs = [tokenize(log) for log in logs]
-    # labels, cluster_nums = cluster(vectorize(tokenized_logs))
-    # labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
+    tokenized_logs = [tokenize(log) for log in logs]
+    labels, cluster_nums = cluster(vectorize(tokenized_logs))
+    labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
 
     # another clustering
-    # labels, cluster_nums = hierichical_clustering(logs, granularity="fine")
-    labels, cluster_nums = meanshift_clustering(logs)
+    # labels, cluster_nums = hierichical_clustering(logs, granularity="coarse")
+    # labels, cluster_nums = meanshift_clustering(logs)
 
     # inputs, outputs and cache
     clusters = [None for _ in range(cluster_nums)]
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     if args.dataset != 'null':
         datasets = [args.dataset]
 
-    theme = f"LogBatcher_2k_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}_sampling_meanshift"
+    theme = f"LogBatcher_2k_{args.shot}shot_{args.candidate}candidate_{args.batch_size}batchsize_{args.model.replace('/','_')}_{args.sample_method}"
     output_dir = f'outputs/parser/{theme}/'
 
     if not os.path.exists(output_dir):

@@ -1,5 +1,6 @@
 import json
 import re
+import string
 import time
 from openai import OpenAI
 from together import Together
@@ -8,8 +9,19 @@ from utils.cluster import Cluster
 from utils.postprocess import post_process
 from utils.sample import nearest_k_pairs_from_log
 from utils.matching import extract_variables, matches_template, prune_from_cluster
-from utils.postprocess import correct_single_template
+from utils.postprocess import correct_single_template_full
 import httpx
+
+def not_varibility(logs):
+    a_logs = [re.sub(r'\d+', '', log) for log in logs]
+    if len(set(a_logs)) == 1:
+        return True
+    return False
+
+def verify_template(template):
+    template = template.replace("<*>", "")
+    template = template.replace(" ", "")
+    return any(char not in string.punctuation for char in template)
 
 class Cluster_Parser:
     
@@ -22,9 +34,10 @@ class Cluster_Parser:
             self.api_key = config['api_key_from_openai']
             self.client = OpenAI(
                 api_key=self.api_key,   # api_key
-                http_client=httpx.Client(
-                    proxies="http://127.0.0.1:7890"  # proxies
-                ),
+                # http_client=httpx.Client(
+                #     proxies="http://127.0.0.1:7890"  # proxies
+                # ),
+                base_url="https://api.xty.app/v1",
             )
         else:
             self.api_key = config['api_key_from_together']
@@ -33,15 +46,13 @@ class Cluster_Parser:
                 )
 
     # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
-    @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
+    @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(10))
     def chat(self, messages):
-        t1 = time.time()
         response = self.client.chat.completions.create(
             model=self.model,
             messages=messages,
             temperature=0.0,
         )
-        self.time_consumption_llm += (time.time() - t1)
         return response.choices[0].message.content.strip('\n')
     
     # @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(20))
@@ -65,13 +76,18 @@ class Cluster_Parser:
                 return output
             
     
-    def get_responce(self, cluster, cached_pairs={}, sample_pairs=[], shot = 0):
+    def get_responce(self, cluster, cached_pairs={}, sample_pairs=[], shot = 0, dataset = 'Apache'):
 
         # initialize
         logs =cluster.batch_logs
         sample_log = logs[0]
         if type(logs) == str:
             logs = [logs]
+
+        if not_varibility(logs):
+            print("no varibility")
+            logs = [sample_log]
+
         new_cluster = Cluster()
         # caching
         for template, referlog_and_freq in cached_pairs.items():
@@ -112,15 +128,31 @@ class Cluster_Parser:
             ]
             # json.dump(messages, cost_file, ensure_ascii=False, indent=4)
             # cost_file.write('\n')
-            answer = self.chat(messages)
+            try:
+                t0 = time.time()
+                answer = self.chat(messages)
+                self.time_consumption_llm += (time.time() - t0)
+            except Exception as e:
+                print("invoke LLM error")
+                answer = sample_log
         else:
             prompt = f"{instruction}\n{query}"
             # json.dump(prompt, cost_file, ensure_ascii=False, indent=4)
             answer = self.inference(prompt)
         # cost_file.close()
-            
+
+        # store messages to compute token consumption
+        with open(f'/root/LogBatcher/messages.json', 'r') as f:
+            messages_list = json.load(f)
+        if messages_list.get(dataset) == None:
+            messages_list[dataset] = []
+        messages_list[dataset].append(messages)
+        with open(f'/root/LogBatcher/messages.json', 'w') as f:
+            json.dump(messages_list, f)
 
         template = post_process(answer)
+        if not verify_template(template):
+            template = correct_single_template_full(sample_log)
 
         # matching and pruning
         for log in logs:
@@ -137,6 +169,6 @@ class Cluster_Parser:
                     template += parts[index + 1]
                 break
         else:
-            template = correct_single_template(sample_log)
+            template = correct_single_template_full(sample_log)
         cluster, new_cluster = prune_from_cluster(template, cluster)
         return template, cluster, new_cluster
