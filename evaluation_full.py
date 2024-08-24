@@ -188,10 +188,7 @@ def set_args():
 if __name__ == "__main__":
     args = set_args()
 
-    # ! Done: ['BGL', 'HDFS', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Spark', 'Proxifier', 'HealthApp', 'Mac', 'Hadoop']
-    # ! Not Done: ['Apache', 'Linux', 'Thunderbird']
-
-    datasets = ['HDFS', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Spark', 'HealthApp', 'Mac', 'Hadoop', 'Apache', 'Linux']
+    datasets = ['BGL', 'HDFS', 'OpenStack', 'OpenSSH', 'HPC', 'Zookeeper', 'Spark', 'Proxifier', 'HealthApp', 'Mac', 'Hadoop', 'Apache', 'Linux', 'Thunderbird']
 
     if args.dataset != 'null':
         datasets = [args.dataset]
@@ -216,7 +213,7 @@ if __name__ == "__main__":
     }
     
     # theme = f"LogBatcher_full_{args.batch_size}batchsize_{args.chunk_size}chunksize_{args.model.replace('/','_')}_{args.sample_method}_sampling"
-    theme = "full_test2"
+    theme = "full_test3"
     output_dir = f'outputs/parser/{theme}/'
     
     if not os.path.exists(output_dir):

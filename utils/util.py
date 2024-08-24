@@ -19,7 +19,7 @@ def count_prompt_tokens(prompt, model_name):
     return len(prompt_tokens)
 
 
-def count_message_tokens(messages, model_name):
+def count_message_tokens(messages, model_name="gpt-3.5-turbo"):
     """
     Count the number of tokens in the messages
     Models supported: gpt-4, gpt-3.5-turbo

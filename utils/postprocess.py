@@ -279,7 +279,7 @@ def correct_single_template_full(template, user_strings=None):
         template = re.sub(r'<\*><\*>', '<*>', template)
         if prev == template:
             break
-    # incorrect in HealthApp
+
     while "#<*>#" in template:
         template = template.replace("#<*>#", "<*>")
 
@@ -288,10 +288,6 @@ def correct_single_template_full(template, user_strings=None):
 
     while "<*>/<*>" in template:
         template = template.replace("<*>/<*>", "<*>")
-
-    # newly added
-    while " #<*># " in template:
-        template = template.replace(" #<*># ", " <*> ")
 
     while " #<*> " in template:
         template = template.replace(" #<*> ", " <*> ")
@@ -319,6 +315,8 @@ def correct_single_template_full(template, user_strings=None):
 
     while "<*><*>" in template:
         template = template.replace("<*><*>", "<*>")
+
+    template = re.sub(r'<\*> [KGTM]?B\b', '<*>', template)
 
     return template
 

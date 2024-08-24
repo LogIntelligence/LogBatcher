@@ -35,10 +35,12 @@ class Cluster_Parser:
             self.api_key = config['api_key_from_openai']
             self.client = OpenAI(
                 api_key=self.api_key,   # api_key
-                # http_client=httpx.Client(
-                #     proxies="http://127.0.0.1:7890"  # proxies
-                # ),
-                base_url="https://api.xty.app/v1",
+                http_client=httpx.Client(
+                    proxies={
+                        "http://": "http://127.0.0.1:7890",
+                        "https://": "http://127.0.0.1:7890"
+                    }  # proxies
+                )
             )
         else:
             self.api_key = config['api_key_from_together']
@@ -87,6 +89,7 @@ class Cluster_Parser:
 
         if not_varibility(logs):
             print("no varibility")
+            logs = [f'`{sample_log}`']
             logs = [sample_log]
 
         new_cluster = Cluster()
