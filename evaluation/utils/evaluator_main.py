@@ -228,7 +228,7 @@ def evaluator(
              "{:.3f}".format(PA) + ',' + \
              "{:.3f}".format(FGA) + ',' + \
              "{:.3f}".format(FTA) + ',' + \
-             "{:.3f}".format(ED) + '\n'
+             "{:.3f}".format(NED) + '\n'
 
     with open(os.path.join(output_dir, result_file), 'a') as summary_file:
         summary_file.write(result)

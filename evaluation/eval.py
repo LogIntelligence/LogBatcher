@@ -43,15 +43,16 @@ datasets_2k = [
     "Android"
 ]
 
-datasets_full = datasets_2k.remove("Windows").remove("Android")
+datasets_full = datasets_2k[:-2]
 
 if __name__ == "__main__":
     args = common_args()
     datasets = datasets_2k if args.data_type == "2k" else datasets_full
+    otc = True if args.data_type == "2k" else False
 
     # ! Replace the path
-    input_dir = "../../autodl-tmp/loghub-2.0/"
-    output_dir = f"/root/autodl-tmp/{args.config}" 
+    input_dir = "../datasets/loghub-2k/"
+    output_dir = f"../outputs/parser/{args.config}" 
 
     if not os.path.exists(output_dir):
         raise FileNotFoundError(f"Output directory {output_dir} does not exist.")
@@ -60,7 +61,7 @@ if __name__ == "__main__":
     # prepare results file
     result_file = prepare_results(
         output_dir=output_dir,
-        otc=args.oracle_template_correction,
+        otc=otc,
     )
     if args.dataset != "null":
         datasets = [args.dataset]
@@ -78,7 +79,7 @@ if __name__ == "__main__":
             input_dir=input_dir,
             output_dir=output_dir,
             log_file=log_file,
-            otc=args.oracle_template_correction,
+            otc=otc,
             result_file=result_file,
         )  # it internally saves the results into a summary file
     metric_file = os.path.join(output_dir, result_file)

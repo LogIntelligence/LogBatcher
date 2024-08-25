@@ -1,0 +1,26 @@
+EventID,EventTemplate,Occurrence
+E1,Received disconnect from <*>: <*>: Bye Bye [preauth],413
+E2,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,384
+E3,Failed password for <*> from <*> port <*> ssh2,383
+E4,pam_unix(sshd:auth): check pass; user unknown,135
+E5,Failed password for invalid user <*> from <*> port <*> ssh2,135
+E6,Invalid user <*> from <*>,113
+E7,input_userauth_request: invalid user <*> [preauth],113
+E8,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,110
+E9,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,85
+E10,error: Received disconnect from <*>: <*>: <*> [preauth],45
+E11,Connection closed by <*> [preauth],34
+E12,Did not receive identification string from <*>,10
+E13,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,8
+E14,PAM service(sshd) ignoring max retries; <*> > <*>,7
+E15,Received disconnect from <*>: <*>: Closed due to user request. [preauth],7
+E16,Failed none for invalid user <*> from <*> port <*> ssh2,4
+E17,Disconnecting: Too many authentication failures for <*> [preauth],3
+E18,message repeated <*> times: [ Failed password for <*> from <*> port <*> ssh2],2
+E19,error: Received disconnect from <*>: <*>: <*>,2
+E20,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,2
+E21,Accepted password for <*> from <*> port <*> ssh2,1
+E22,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+E23,Received disconnect from <*>: <*>: disconnected by user,1
+E24,pam_unix(sshd:session): session closed for user <*>,1
+E25,fatal: Write failed: Connection reset by peer [preauth],1

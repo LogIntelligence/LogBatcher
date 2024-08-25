@@ -1,0 +1,15 @@
+EventID,EventTemplate,Occurrence
+E1,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>,314
+E2,PacketResponder <*> for block <*> terminating,311
+E3,Received block <*> of size <*> from <*>,292
+E4,Receiving block <*> src: <*> dest: <*>,292
+E5,Deleting block <*> file <*>,263
+E6,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>,224
+E7,BLOCK* NameSystem.allocateBlock: <*> <*>,115
+E8,<*> Served block <*> to <*>,80
+E9,<*>:Got exception while serving <*> to <*>:,80
+E10,Verification succeeded for <*>,20
+E11,BLOCK* ask <*> to delete <*>,5
+E12,Received block <*> src: <*> dest: <*> of size <*>,2
+E13,<*> Starting thread to transfer block <*> to <*>,1
+E14,BLOCK* ask <*> to replicate <*> to datanode(s) <*>,1

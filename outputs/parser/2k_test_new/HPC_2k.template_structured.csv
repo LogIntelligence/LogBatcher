@@ -1,0 +1,47 @@
+EventID,EventTemplate,Occurrence
+E1,Linkerror event interval expired,394
+E2,ambient=<*>,292
+E3,normal,206
+E4,warning,205
+E5,running,162
+E6,configured out,91
+E7,NIFF: node <*> has detected an available network connection on network <*> via interface <*>,91
+E8,Fan speeds ( <*> <*> <*> **** <*> <*> ),79
+E9,boot (command <*>),67
+E10,wait (command <*>),66
+E11,not responding,60
+E12,link errors remain current,56
+E13,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>,36
+E14,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,32
+E15,critical,20
+E16,blocked,15
+E17,Link error,13
+E18,Link ok,13
+E19,Component State Change: Component <*> is in the unavailable state (HWID=<*>),12
+E20,ServerFileSystem: ServerFileSystem domain <*> is full,12
+E21,Fan speeds ( <*> <*> <*> <*> <*> <*> ),11
+E22,Command has completed successfully,10
+E23,<*> in <*>,9
+E24,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>,5
+E25,psu failure\ ambient=<*>,5
+E26,active,5
+E27,Targeting domains:node-<*> and nodes:node-<*>,4
+E28,Link error on broadcast tree Interconnect-<*>,4
+E29,halt (command <*>),3
+E30,clusterAddMember (command <*>),2
+E31,bootGenvmunix (command <*>),2
+E32,Temperature (<*>) exceeds warning threshold,2
+E33,NIFF: node <*> detected a failed network connection on network <*> via interface <*>,2
+E34,inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>,2
+E35,<*> (command <*>),1
+E36,ServerFileSystem: An <*> panic has occurred on <*>,1
+E37,Command has been aborted,1
+E38,power/control problem,1
+E39,not-responding,1
+E40,inconsistent nodesets node-<*> <*> <ok>,1
+E41,starting,1
+E42,closing,1
+E43,inconsistent nodesets <*> <*> <ok>,1
+E44,<*> (command <*>) Error: Timed out while waiting for <*>: <*>,1
+E45,boot (command <*>) Error: <*> cannot continue,1
+E46,Failed subcommands <*>,1
