@@ -1,0 +1,2 @@
+Dataset,invacation_time,parsing_time,identified_templates,ground_templates,GA,PA,FGA,FTA,ED
+Apache,4.366,4.756,6,6,1.000,1.000,1.000,1.000,1.000

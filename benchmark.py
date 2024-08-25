@@ -2,19 +2,19 @@ import argparse
 import json
 import os
 import pandas as pd
-from logbatcher.llm_parser import Parser
+from logbatcher.parser import Parser
 from logbatcher.util import generate_logformat_regex, log_to_dataframe
 from LogBatcher.logbatcher.parsing_base import single_dataset_paring
 
 def set_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_type', type=str, default='2k',
+    parser.add_argument('--data_type', type=str, default='2k', choices=['2k', 'full'],
                         help='evaluate on 2k or full dataset.')
     parser.add_argument('--model', type=str, default='gpt-3.5-turbo-0125',
-                        help='use which model to parse the log.')
+                        help='the Large Lauguage model used in LogBatcher, default to be gpt-3.5-turbo-0125.')
     parser.add_argument('--batch_size', type=int, default=10, 
                         help='The size of a batch.')
-    parser.add_argument('--sample_method', type=str, default='dpp',
+    parser.add_argument('--sample_method', type=str, default='dpp', choices=['dpp', 'random', 'similar'],
                         help='Sample method: dpp, random, similar.')
     parser.add_argument('--chunk_size', type=int, default=2000,
                         help='Size of logs in a chunk.')
@@ -37,13 +37,11 @@ if __name__ == "__main__":
         datasets = [args.dataset]
     
     # the file name of the output
-    theme = "2k_test_new"
+    theme = f"logbatcher_{args.data_type}"
     output_dir = f'outputs/parser/{theme}/'
     
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
 
-    # load api key
+    # load api key and dataset format
     with open('config.json', 'r') as f:
         config = json.load(f)
     

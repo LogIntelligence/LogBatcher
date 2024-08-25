@@ -9,7 +9,10 @@ from logbatcher.matching import matches_template
 from logbatcher.util import verify_template
 
 
-def single_dataset_paring(dataset, contents, output_dir, parser, batch_size, chunk_size , sample_method = 'dpp', data_type = 'full', debug=True):
+def single_dataset_paring(dataset, contents, output_dir, parser, batch_size = 10, chunk_size = 2000 , sample_method = 'dpp', data_type = '2k', debug=True):
+
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
     logs = contents
     identified_templates_num = 0

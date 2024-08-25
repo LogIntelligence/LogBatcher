@@ -1,6 +1,19 @@
 import re
 import string
+
+import pandas as pd
 import tiktoken
+
+def data_loader(file_name, dataset_format, file_format):
+    if file_format == 'structured':
+        df = pd.read_csv(file_name)
+        contents = df['Content'].tolist()
+    elif file_format == 'raw':
+        with open(file_name, 'r') as f:
+            log_raws = f.readlines()
+        headers, regex = generate_logformat_regex(dataset_format)
+        contents = log_to_dataframe(file_name, regex, headers, len(log_raws))
+    return contents
 
 
 def count_prompt_tokens(prompt, model_name):
