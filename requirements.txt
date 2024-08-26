@@ -7,3 +7,4 @@ tenacity
 nltk
 tqdm
 pandas
+natsort
