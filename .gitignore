@@ -25,16 +25,11 @@ outputs/parser/*3batchsize*
 outputs/parser/**/*mismatch*
 
 
-# python file
-utils/unused_functions.py
-
 # config.json
 tools.ipynb
 test.ipynb
 
 outputs/parser/LogBatcher**
 
-BGL/
-
-e.py
+.ignore
 
