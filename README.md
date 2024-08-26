@@ -70,7 +70,8 @@ Download the log datasets from [Loghub-2.0](https://zenodo.org/records/8275861) 
  ┣ 📜README.md
  ┣ 📜benchmark.py
  ┣ 📜config.json
- ┗ 📜requirements.txt
+ ┣ 📜requirements.txt
+ ┗ 📜test.py
 ```
 
 ## Usage
