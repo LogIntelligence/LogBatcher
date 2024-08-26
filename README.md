@@ -79,13 +79,11 @@ Download the log datasets from [Loghub-2.0](https://zenodo.org/records/8275861) 
 
 Following the data format from [LOGPAI](https://github.com/logpai/loghub), the data can be a **log file**, a **structured log file** or a **content list**.
 
-A **log file** is a log file with each line representing a complete log. A **structured log file** is a CSV file that includes at least the `LineID` and `Content` columns for parsing, with optional `EventID` and `EventTemplate` columns for evaluation. Or provide a simple content list for parsing.
+A **raw log file** is a log file with each line representing a complete log. A **structured log file** is a CSV file that includes at least the `LineID` and `Content` columns for parsing, with optional `EventID` and `EventTemplate` columns for evaluation. Or provide a simple content list for parsing.
 
 ### 2. Usage example
 
-We provide a usage example for more convenient reuse, which is presented as follows. We test on a specific dataset **Apache** from [LOGPAI](https://github.com/logpai/loghub). You can modify the code to parse log data in any of the formats mentioned above. Please note that if a **log file** is provided, you need to add the dataset name and its format in the datasets_format field of config.json, as well as the log to extract the contents from the log. The results can be found in `outputs/parser/test` folder.
-
-
+We provide a usage example for more convenient reuse, which is presented as follows. The example provides a test on a specific dataset **Apache** from [LOGPAI](https://github.com/logpai/loghub). If you want to evaluate LogBatcher on your own datasets, please replace the arguments `file_name` and `dataset_format` with your own raw log file path to load log data and the corresponding dataset format to extract the contents. The results can be found in `outputs/parser/test` folder.
 
 ```python
 import json
@@ -98,11 +96,11 @@ model, dataset, folder_name ='gpt-3.5-turbo-0125', 'Apache', 'test'
 config = json.load(open('config.json', 'r'))
 parser = Parser(model, folder_name, config)
 
-# load contents from log file, structured log file or content list
+# load contents from raw log file, structured log file or content list
 contents = data_loader(
-    file_name=f"datasets/loghub-2k/{dataset}/{dataset}_2k.log_structured_corrected.csv",
+    file_name=f"datasets/loghub-2k/{dataset}/{dataset}_2k.log",
     dataset_format= config['datasets_format'][dataset],
-    file_format ='structured'
+    file_format ='raw'
 )
 
 # parse logs

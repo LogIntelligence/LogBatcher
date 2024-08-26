@@ -8,11 +8,11 @@ model, dataset, folder_name ='gpt-3.5-turbo-0125', 'Apache', 'test'
 config = json.load(open('config.json', 'r'))
 parser = Parser(model, folder_name, config)
 
-# load contents from log file, structured log file or content list
+# load contents from raw log file, structured log file or content list
 contents = data_loader(
-    file_name=f"datasets/loghub-2k/{dataset}/{dataset}_2k.log_structured_corrected.csv",
+    file_name=f"datasets/loghub-2k/{dataset}/{dataset}_2k.log",
     dataset_format= config['datasets_format'][dataset],
-    file_format ='structured'
+    file_format ='raw'
 )
 
 # parse logs
