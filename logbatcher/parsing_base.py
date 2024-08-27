@@ -5,11 +5,12 @@ import pandas as pd
 from collections import Counter, OrderedDict
 from tqdm import tqdm
 from logbatcher.cluster import Cluster,tokenize, vectorize, cluster, reassign_clusters
+from logbatcher.additional_cluster import hierichical_clustering,meanshift_clustering
 from logbatcher.matching import matches_template
 from logbatcher.util import verify_template
 
 
-def single_dataset_paring(dataset, contents, output_dir, parser, batch_size = 10, chunk_size = 2000 , sample_method = 'dpp', data_type = '2k', debug=True):
+def single_dataset_paring(dataset, contents, output_dir, parser, batch_size = 10, chunk_size = 2000 , sample_method = 'dpp', clustering_method = 'dbscan', data_type = '2k', debug=True):
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -53,10 +54,17 @@ def single_dataset_paring(dataset, contents, output_dir, parser, batch_size = 10
         if len(log_chunk) == chunk_size or (len(log_chunk)!=0 and index == len(logs) - 1):
             # parsing start
             print(f'Parsing {len(log_chunk)} logs...') if debug else None
-            # tokenize -> vectorize -> cluster -> reassign_clusters
-            tokenized_logs = [tokenize(log) for log in log_chunk]
-            labels, cluster_nums = cluster(vectorize(tokenized_logs))
-            labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
+            if clustering_method == 'dbscan':
+                # tokenize -> vectorize -> cluster -> reassign_clusters
+                tokenized_logs = [tokenize(log) for log in log_chunk]
+                labels, cluster_nums = cluster(vectorize(tokenized_logs))
+                labels, cluster_nums = reassign_clusters(labels, cluster_nums, tokenized_logs)
+            elif clustering_method == 'hierarchical':
+                labels, cluster_nums = hierichical_clustering(log_chunk)
+            elif clustering_method == 'meanshift':
+                labels, cluster_nums = meanshift_clustering(log_chunk)
+            else:
+                raise ValueError('Invalid clustering method')
 
             # create clusters
             clusters = [None for _ in range(cluster_nums)]
