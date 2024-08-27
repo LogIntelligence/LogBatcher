@@ -148,6 +148,36 @@ idetified templates: 6
 ```
 </details>
 
+### Evaluation
+
+To evaluate the output of the usage example, run the following command
+```bash
+cd evaluation && python logbatcher_eval.py --config test --dataset Apache
+```
+
+<details>
+<summary>Expected output</summary>
+
+
+```
+Calculating Edit Distance....
+100%|███████████████████████████████████████████████████████████| 2000/2000 [00:00<00:00, 4029110.47it/s]
+Normalized_Edit_distance (NED): 1.0000, ED: 0.0000,
+Grouping Accuracy calculation done. [Time taken: 0.002]
+Start compute grouping accuracy
+100%|███████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 2084.64it/s]
+Grouping_Accuracy (GA): 1.0000, FGA: 1.0000,
+Grouping Accuracy calculation done. [Time taken: 0.006]
+Parsing_Accuracy (PA): 1.0000
+Parsing Accuracy calculation done. [Time taken: 0.001]
+100%|███████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 10677.06it/s]
+PTA: 1.0000, RTA: 1.0000 FTA: 1.0000
+Identify : 6, Groundtruth : 6
+Template-level accuracy calculation done. [Time taken: 0.003]
+```
+</details>
+
+The results of evaluation metrics can be found in `outputs/parser/test` folder
 
 ## Benchmark
 
@@ -185,39 +215,7 @@ The description of the arguments can be found in `benchmark.py` or below:
   sampling method used in the batching stage, Options: ['dpp', 'similar', 'random'], default: 'dpp'.
 ```
 
-## Evaluation
-
-
-
-To evaluate the output of the usage example, run the following command
-```bash
-cd evaluation && python logbatcher_eval.py --config test --dataset Apache
-```
-
-<details>
-<summary>Expected output</summary>
-
-
-```
-Calculating Edit Distance....
-100%|███████████████████████████████████████████████████████████| 2000/2000 [00:00<00:00, 4029110.47it/s]
-Normalized_Edit_distance (NED): 1.0000, ED: 0.0000,
-Grouping Accuracy calculation done. [Time taken: 0.002]
-Start compute grouping accuracy
-100%|███████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 2084.64it/s]
-Grouping_Accuracy (GA): 1.0000, FGA: 1.0000,
-Grouping Accuracy calculation done. [Time taken: 0.006]
-Parsing_Accuracy (PA): 1.0000
-Parsing Accuracy calculation done. [Time taken: 0.001]
-100%|███████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 10677.06it/s]
-PTA: 1.0000, RTA: 1.0000 FTA: 1.0000
-Identify : 6, Groundtruth : 6
-Template-level accuracy calculation done. [Time taken: 0.003]
-```
-</details>
-
-The results of evaluation metrics can be found in `outputs/parser/test` folder
-
+### Evaluation
 
 To evaluate the output of benchmark, run the following command
 ```bash
@@ -238,4 +236,3 @@ The description of the arguments:
 --dataset
   To evaluate on a single dataset, default: 'null'.
 ```
-
