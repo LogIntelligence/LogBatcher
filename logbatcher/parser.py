@@ -23,9 +23,7 @@ class Parser:
         if 'gpt' in self.model:
             self.api_key = config['api_key_from_openai']
             self.client = OpenAI(
-                # api_key=self.api_key,   # api_key
-                api_key='sk-DioNHT7QiDI1a84n900aFd05E2E84bEe85F88451A5DfBe67', 
-                base_url="https://3.5.996444.icu/v1",
+                api_key=self.api_key,   # api_key
                 # http_client=httpx.Client(
                 #     proxies={
                 #         "http://": "http://127.0.0.1:7890",
