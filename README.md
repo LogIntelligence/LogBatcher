@@ -34,14 +34,14 @@ Git Clone LogBatcher from github
 git clone https://github.com/LogIntelligence/LogBatcher.git && cd LogBatcher
 ```
 
-The code is implemented in Python 3.8. To install the required packages, run the following command (conda is optional):
+The code is implemented in **Python 3.8**. To install the required packages, run the following command (conda is optional):
 ```bash
 conda create -n logbatcher python==3.8
 conda activate logbatcher
 pip install -r requirements.txt
 ```
 
-Upload your API Key in `config.json`:
+Upload your **OpenAI API Key** in `config.json`:
 ```json
 {
     "api_key_from_openai": "Your API Key from OpenAI"
