@@ -35,13 +35,18 @@ Upload your API Key in `config.json`:
 
 _To run with docker:_
 
-### 2. Prepare datasets
+Download docker image from zenodo 
 
-We have already provided loghub-2k datasets in `datasets/loghub-2.0` folder.
+Docker image DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13373216.svg)](https://doi.org/10.5281/zenodo.13373216)
 
-Download the log datasets from [Loghub-2.0](https://zenodo.org/records/8275861) or Run `datasets/loghub-2.0/download.sh` if you want to evaluate LogBatcher on loghub-2.0.
+Running the following command
 
-### 3. Project Tree
+```bash
+docker build -t logbatcher .
+docker run -it logbatcher
+```
+
+### 2. Project Tree
 
 ```
 📦LogBatcher
@@ -131,7 +136,20 @@ idetified templates: 6
 </details>
 
 
-### 3. Benchmark
+## Benchmark
+
+### Prepare datasets
+
+We have already provided _loghub-2k_ datasets in `datasets/loghub-2.0` folder.
+
+if you want to benchmark on _Loghub-2.0_ datasets, please Run `datasets/loghub-2.0/download.sh` or download the datasets:
+
+
+1. Datasets DOI: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8275861.svg)
+2. Datasets Homepage: [Loghub-2.0](https://zenodo.org/records/8275861)
+
+### Reproduce
+
 To benchmark on all datasets in loghub-2k or loghub-2.0, you can run the following commands:
 ```bash
 python benchmark.py --data_type [DATATYPE] --model [MODEL] --batch_size [BATCHSIZE] --chunk_size [CHUNKSIZE] --sampling_method [SAMPLINGMETHOD]
@@ -154,7 +172,7 @@ The description of the arguments can be found in `benchmark.py` or below:
   sampling method used in the batching stage, Options: ['dpp', 'similar', 'random'], default: 'dpp'.
 ```
 
-### 4. Evaluation
+## Evaluation
 
 
 
