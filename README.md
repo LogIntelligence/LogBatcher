@@ -15,10 +15,12 @@ Log Batcher contians three main components: **Partitioning, Caching and Batching
   - [Usage](#usage)
     - [Data format](#data-format)
     - [Usage example](#usage-example)
+    - [Example Evaluation](#example-evaluation)
   - [Benchmark](#benchmark)
     - [Prepare datasets](#prepare-datasets)
     - [Reproduce](#reproduce)
-  - [Evaluation](#evaluation)
+    - [Benchmark Evaluation](#benchmark-evaluation)
+  
 
 ## Setup
 
@@ -148,7 +150,7 @@ idetified templates: 6
 ```
 </details>
 
-### Evaluation
+### Example Evaluation
 
 To evaluate the output of the usage example, run the following command
 ```bash
@@ -215,7 +217,7 @@ The description of the arguments can be found in `benchmark.py` or below:
   sampling method used in the batching stage, Options: ['dpp', 'similar', 'random'], default: 'dpp'.
 ```
 
-### Evaluation
+### Benchmark Evaluation
 
 To evaluate the output of benchmark, run the following command
 ```bash
