@@ -24,12 +24,12 @@ class Parser:
             self.api_key = config['api_key_from_openai']
             self.client = OpenAI(
                 api_key=self.api_key,   # api_key
-                http_client=httpx.Client(
-                    proxies={
-                        "http://": "http://127.0.0.1:7890",
-                        "https://": "http://127.0.0.1:7890"
-                    }  # proxies
-                )
+                # http_client=httpx.Client(
+                #     proxies={
+                #         "http://": "http://127.0.0.1:7890",
+                #         "https://": "http://127.0.0.1:7890"
+                #     }  # proxies
+                # )
             )
         else:
             self.api_key = config['api_key_from_together']

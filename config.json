@@ -1,5 +1,5 @@
 {
-    "api_key_from_openai": "sk-proj-5EkdZfTfjJ1GJim17pgQT3BlbkFJHCMqWAOX7dTSGOcFOjrn",
+    "api_key_from_openai": "Your API Key from OpenAI",
     "api_key_from_together":"",
     "datasets_format" : {
         "HDFS": "<Date> <Time> <Pid> <Level> <Component>: <Content>",
