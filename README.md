@@ -12,15 +12,17 @@ Log Batcher contians three main components: **Partitioning, Caching and Batching
 
 ### 1. Library and Config
 
-To satrt with LogBatcher, you need:
+_To run at the local environment:_
 
 Git Clone LogBatcher from github
 ```bash
 git clone https://github.com/LogIntelligence/LogBatcher.git && cd LogBatcher
 ```
 
-Install all libs
+The code is implemented in Python 3.8. To install the required packages, run the following command (conda is optional):
 ```bash
+conda create -n logbatcher python==3.8
+conda activate logbatcher
 pip install -r requirements.txt
 ```
 
@@ -30,6 +32,8 @@ Upload your API Key in `config.json`:
     "api_key_from_openai": "Your API Key from OpenAI"
 }
 ```
+
+_To run with docker:_
 
 ### 2. Prepare datasets
 
@@ -78,9 +82,9 @@ Download the log datasets from [Loghub-2.0](https://zenodo.org/records/8275861) 
 
 ### 1. Data format
 
-Following the data format from [LOGPAI](https://github.com/logpai/loghub), the data can be a **log file**, a **structured log file** or a **content list**.
+LogBatcher mainly takes **a raw log file** (in plain text format) as input and outputs the **parsed log file** (in CSV format). A **raw log file** is a log file with each line representing a complete log. 
 
-A **raw log file** is a log file with each line representing a complete log. A **structured log file** is a CSV file that includes at least the `LineID` and `Content` columns for parsing, with optional `EventID` and `EventTemplate` columns for evaluation. Or provide a simple content list for parsing.
+Following the data format from [LOGPAI](https://github.com/logpai/loghub), the data can also be a **structured log file**. A **structured log file** is a CSV file that includes at least the `LineID` and `Content` columns for parsing, with optional `EventID` and `EventTemplate` columns for evaluation.
 
 ### 2. Usage example
 
@@ -137,7 +141,7 @@ The description of the arguments can be found in `benchmark.py` or below:
 
 ```bash
 --data_type
-  Datasets type, Options: ['2k', 'full']
+  Datasets type, Options: ['2k', 'full'], default: '2k'.
 --model
   the Large Lauguage model used in LogBatcher, default: 'gpt-3.5-turbo-0125'.
 --batch_size
@@ -145,9 +149,9 @@ The description of the arguments can be found in `benchmark.py` or below:
 --chunk_size
   size of a log chunk, default: 2000.
 --clustering_method
-  clustering method used in the partitioning stage, Options: ['dbscan', 'meanshift', 'hierarchical'].
+  clustering method used in the partitioning stage, Options: ['dbscan', 'meanshift', 'hierarchical'], default: 'dbscan'.
 --sampling_method
-  sampling method used in the batching stage, Options: ['dpp', 'similar', 'random'].
+  sampling method used in the batching stage, Options: ['dpp', 'similar', 'random'], default: 'dpp'.
 ```
 
 ### 4. Evaluation
@@ -188,4 +192,19 @@ To evaluate the output of benchmark, run the following command
 ```bash
 cd evaluation && python logbatcher_eval.py --config logbatcher_2k
 ```
+
+
 The expected results will be similar with that presented in the paper, also see [experimental_results](docs/experimental_results.md).
+
+
+The description of the arguments:
+
+```bash
+--config
+  The folder name of the outputs, Options: ['test', 'logbatcher_2k', 'logbatcher_full']
+--data_type
+  Datasets type, Options: ['2k', 'full'], default: '2k'
+--dataset
+  To evaluate on a single dataset, default: 'null'.
+```
+
