@@ -7,10 +7,24 @@
 ![workflow](outputs/figures/workflow.png)
 Log Batcher contians three main components: **Partitioning, Caching and Batching - Querying** 
 
+
+- [LogBatcher](#logbatcher)
+  - [Work Flow](#work-flow)
+  - [Setup](#setup)
+    - [Get start](#get-start)
+    - [Project Tree](#project-tree)
+  - [Usage](#usage)
+    - [Data format](#data-format)
+    - [Usage example](#usage-example)
+  - [Benchmark](#benchmark)
+    - [Prepare datasets](#prepare-datasets)
+    - [Reproduce](#reproduce)
+  - [Evaluation](#evaluation)
+
 ## Setup
 
 
-### 1. Library and Config
+### Get start
 
 _To run at the local environment:_
 
@@ -46,7 +60,7 @@ docker build -t logbatcher .
 docker run -it logbatcher
 ```
 
-### 2. Project Tree
+### Project Tree
 
 ```
 📦LogBatcher
@@ -85,13 +99,13 @@ docker run -it logbatcher
 
 ## Usage
 
-### 1. Data format
+### Data format
 
 LogBatcher mainly takes **a raw log file** (in plain text format) as input and outputs the **parsed log file** (in CSV format). A **raw log file** is a log file with each line representing a complete log. 
 
 Following the data format from [LOGPAI](https://github.com/logpai/loghub), the data can also be a **structured log file**. A **structured log file** is a CSV file that includes at least the `LineID` and `Content` columns for parsing, with optional `EventID` and `EventTemplate` columns for evaluation.
 
-### 2. Usage example
+### Usage example
 
 We provide a usage example for more convenient reuse, which is presented as follows. The example provides a test on a specific dataset **Apache** from [LOGPAI](https://github.com/logpai/loghub). If you want to evaluate LogBatcher on your own dataset, please replace the arguments `file_name` and `dataset_format` with your own raw log file path to load log data and the corresponding dataset format to extract the contents. The results can be found in `outputs/parser/test` folder.
 
