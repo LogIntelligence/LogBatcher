@@ -8,8 +8,7 @@
 Log Batcher contians three main components: **Partitioning, Caching and Batching - Querying** 
 
 
-- [LogBatcher](#logbatcher)
-  - [Work Flow](#work-flow)
+**Table of Contents**
   - [Setup](#setup)
     - [Get start](#get-start)
     - [Project Tree](#project-tree)
