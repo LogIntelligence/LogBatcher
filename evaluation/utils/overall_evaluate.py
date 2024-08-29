@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 import os
 from IPython import embed
+import re
 
 def evaluate(dataset, output_path, groundtruth, parsedresult, result_path):
     df_groundtruth = pd.read_csv(groundtruth)
