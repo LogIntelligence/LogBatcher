@@ -4,7 +4,7 @@ import os
 import pandas as pd
 from logbatcher.parser import Parser
 from logbatcher.util import generate_logformat_regex, log_to_dataframe
-from LogBatcher.logbatcher.parsing_base import single_dataset_paring
+from logbatcher.parsing_base import single_dataset_paring
 
 def set_args():
     parser = argparse.ArgumentParser()
