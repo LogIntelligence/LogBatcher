@@ -1,0 +1,4 @@
+build/
+logbatcher.egg-info/
+outputs/
+__pycache__/

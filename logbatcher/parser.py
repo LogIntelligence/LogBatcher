@@ -13,31 +13,27 @@ from logbatcher.postprocess import correct_single_template_full, correct_single_
 from logbatcher.util import verify_template, not_varibility
 import httpx
 
+
 class Parser:
-    
+
     def __init__(self, model, theme, config):
-        
+
         self.model = model
         self.theme = theme
         self.time_consumption_llm = 0
+        if config['api_key_from_openai'] == '<OpenAI_API_KEY>' and config['api_key_from_together'] == '<Together_API_KEY>':
+            raise ValueError("Please provide your OpenAI API key and Together API key in the config.json file.")
         if 'gpt' in self.model:
             self.api_key = config['api_key_from_openai']
             self.client = OpenAI(
-                api_key=self.api_key,   # api_key
-                # http_client=httpx.Client(
-                #     proxies={
-                #         "http://": "http://127.0.0.1:7890",
-                #         "https://": "http://127.0.0.1:7890"
-                #     }  # proxies
-                # )
+                api_key=self.api_key,
             )
         else:
             self.api_key = config['api_key_from_together']
             self.client = Together(
-                    api_key=self.api_key   # api_key
-                )
+                api_key=self.api_key   # api_key
+            )
 
-    # @backoff.on_exception(backoff.expo, (openai.APIStatusError, openai.InternalServerError), max_tries=5)
     @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(10))
     def chat(self, messages):
         response = self.client.chat.completions.create(
@@ -46,7 +42,7 @@ class Parser:
             temperature=0.0,
         )
         return response.choices[0].message.content.strip('\n')
-    
+
     @retry(wait=wait_random_exponential(min=1, max=8), stop=stop_after_attempt(10))
     def inference(self, prompt):
         retry_times = 0
@@ -66,12 +62,11 @@ class Parser:
                     return output
             else:
                 return output
-            
-    
-    def get_responce(self, cluster, cached_pairs={}, sample_pairs=[], shot = 0, dataset = 'Apache', data_type = '2k'):
+
+    def get_responce(self, cluster, cached_pairs={}, sample_pairs=[], shot=0, dataset='Apache', data_type='2k'):
 
         # initialize
-        logs =cluster.batch_logs
+        logs = cluster.batch_logs
         sample_log = logs[0]
         if type(logs) == str:
             logs = [logs]
@@ -85,13 +80,14 @@ class Parser:
         # caching
         for template, referlog_and_freq in cached_pairs.items():
             for log in cluster.logs:
-                match_result = matches_template(log, [referlog_and_freq[0], template])
+                match_result = matches_template(
+                    log, [referlog_and_freq[0], template])
                 if match_result != None:
-                    cluster, new_cluster = prune_from_cluster(template, cluster)
+                    cluster, new_cluster = prune_from_cluster(
+                        template, cluster)
                     cached_pairs[template][1] += len(new_cluster.logs)
                     # print(f"cache hit: {match_result}")
                     return match_result, cluster, new_cluster
-                
 
         demonstrations = ''
 
@@ -106,21 +102,21 @@ class Parser:
         instruction = "You will be provided with some log messages separated by line break. You must abstract variables with `{{placeholders}}` to extract the corresponding template. There might be no variables in the log message.\nPrint the input log's template delimited by backticks."
 
         if demonstrations != '':
-            query = demonstrations + 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
+            query = demonstrations + 'Log message:\n' + \
+                '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
         elif all(model_tpye not in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
-            query = 'Log message:\n' + '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
+            query = 'Log message:\n' + \
+                '\n'.join([f'`{log}`'for log in logs]) + '\nLog template: '
         else:
             query = '\n'.join(logs)
-    
+
         # invoke LLM
-        # cost_file = open(f'outputs/cost/{self.theme}.json', 'a', encoding='utf-8')
         if any(model_tpye in self.model for model_tpye in ['gpt', 'instruct', 'chat']):
             messages = [
                 {"role": "system", "content": instruction},
                 {"role": "user", "content":  query}
             ]
-            # json.dump(messages, cost_file, ensure_ascii=False, indent=4)
-            # cost_file.write('\n')
+            
             try:
                 t0 = time.time()
                 answer = self.chat(messages)
@@ -130,19 +126,8 @@ class Parser:
                 answer = sample_log
         else:
             prompt = f"{instruction}\n{query}"
-            # json.dump(prompt, cost_file, ensure_ascii=False, indent=4)
             answer = self.inference(prompt)
-        # cost_file.close()
-
-        # store messages to compute token consumption
-        # with open(f'/root/LogBatcher/messages.json', 'r') as f:
-        #     messages_list = json.load(f)
-        # if messages_list.get(dataset) == None:
-        #     messages_list[dataset] = []
-        # messages_list[dataset].append(messages)
-        # with open(f'/root/LogBatcher/messages.json', 'w') as f:
-        #     json.dump(messages_list, f)
-
+        
         template = post_process(answer, data_type)
         if not verify_template(template):
             if data_type == 'full':

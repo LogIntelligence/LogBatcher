@@ -1,6 +1,6 @@
 {
-    "api_key_from_openai": "Your API Key from OpenAI",
-    "api_key_from_together":"",
+    "api_key_from_openai": "<OpenAI_API_KEY>",
+    "api_key_from_together":"<Together_API_KEY>",
     "datasets_format" : {
         "HDFS": "<Date> <Time> <Pid> <Level> <Component>: <Content>",
         "Hadoop": "<Date> <Time> <Level> \\[<Process>\\] <Component>: <Content>",

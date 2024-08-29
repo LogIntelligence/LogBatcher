@@ -15,9 +15,7 @@ Copyright (C) 2022 University of Luxembourg
 
 from __future__ import print_function
 
-import os
 import pandas as pd
-from evaluation.utils.common import is_abstract
 from tqdm import tqdm
 
 
