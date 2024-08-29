@@ -95,7 +95,7 @@ docker run -it logbatcher
  ┣ 📜benchmark.py
  ┣ 📜config.json
  ┣ 📜requirements.txt
- ┗ 📜test.py
+ ┗ 📜demo.py
 ```
 
 ## Usage
@@ -142,7 +142,7 @@ single_dataset_paring(
 <summary>Expected output</summary>
 
 ```
-python test.py
+python demo.py
 Parsing 2000 logs in dataset Apache...
 100%|██████████████████████████████████| 2000/2000 [00:04<00:00, 420.55log/s]
 parsing time: 4.756490230560303

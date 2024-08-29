@@ -1,30 +1,33 @@
-import json
-from logbatcher.parsing_base import single_dataset_paring
 from logbatcher.parser import Parser
-from logbatcher.util import data_loader
+from logbatcher.util import (
+    count_message_tokens,
+    count_prompt_tokens,
+    data_loader,
+    generate_logformat_regex,
+)
+from logbatcher.parsing_base import (
+    single_dataset_paring
+)
 
-# load api key, dataset format and parser
-if __name__ == '__main__':
-    model, dataset, folder_name ='gpt-3.5-turbo-0125', 'Apache', 'test'
-    config = json.load(open('config.json', 'r'))
-    if config['api_key_from_openai'] == '<OpenAI_API_KEY>' and config['api_key_from_together'] == '<Together_API_KEY>':
-        print("Please provide your OpenAI API key and Together API key in the config.json file.")
-        exit(0)
+def test_basic():
+    dataset = 'Apache'
+    config = {
+        "api_key_from_openai": "<OpenAI_API_KEY>",
+        "api_key_from_together": "<Together_API_KEY>",
+        "datasets_format" : {
+            "Apache": "\\[<Time>\\] \\[<Level>\\] <Content>",
+        }
+    }
 
-    parser = Parser(model, folder_name, config)
+    try:
+        parser = Parser("gpt-3.5-turbo-0125", "test", config)
+    except ValueError as e:
+        assert str(e) == "Please provide your OpenAI API key and Together API key in the config.json file."
 
-    # load contents from raw log file, structured log file or content list
     contents = data_loader(
         file_name=f"datasets/loghub-2k/{dataset}/{dataset}_2k.log",
         dataset_format= config['datasets_format'][dataset],
         file_format ='raw'
     )
 
-    # parse logs
-    single_dataset_paring(
-        dataset=dataset,
-        contents=contents,
-        output_dir= f'outputs/parser/{folder_name}/',
-        parser=parser,
-        debug=False
-    )
+    assert len(contents) == 2000
