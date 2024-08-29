@@ -1,4 +1,7 @@
 # LogBatcher
+[![pypi package](https://img.shields.io/pypi/v/logbatcher.svg)](https://pypi.org/project/logbatcher/)
+[![Build and test](https://github.com/LogIntelligence/LogBatcher/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/LogIntelligence/LogBatcher/actions/workflows/build_and_test.yml)
+[![Upload Python Package](https://github.com/LogIntelligence/LogBatcher/actions/workflows/python-publish.yml/badge.svg)](https://github.com/LogIntelligence/LogBatcher/actions/workflows/python-publish.yml)
 
 
 **LogBatcher** is a cost-effective LLM-based log parser that requires no training process or labeled data. This repository includes artifacts for reuse and reproduction of experimental results presented in our ASE'24 paper titled *"Demonstration-Free: Towards More Practical Log Parsing with Large Language Models"*.
@@ -36,7 +39,7 @@ git clone https://github.com/LogIntelligence/LogBatcher.git && cd LogBatcher
 
 The code is implemented in **Python 3.8**. To install the required packages, run the following command (conda is optional):
 ```bash
-conda create -n logbatcher python==3.8
+conda create -n logbatcher python==3.9
 conda activate logbatcher
 pip install -r requirements.txt
 ```
