@@ -44,7 +44,17 @@ conda activate logbatcher
 pip install -r requirements.txt
 ```
 
-Upload your **OpenAI API Key** in `config.json`:
+Install LogBatcher from PyPI
+```bash
+pip install logbatcher
+```
+
+OR, Install LogBatcher from source
+```bash
+pip install -e .
+```
+
+Set your **OpenAI API Key** in `config.json`:
 ```json
 {
     "api_key_from_openai": "Your API Key from OpenAI"
