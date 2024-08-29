@@ -6,7 +6,12 @@ from logbatcher.util import data_loader
 # load api key, dataset format and parser
 model, dataset, folder_name ='gpt-3.5-turbo-0125', 'Apache', 'test'
 config = json.load(open('config.json', 'r'))
-parser = Parser(model, folder_name, config)
+
+try:
+    parser = Parser(model, folder_name, config)
+except Exception as e:
+    print(e)
+    exit()
 
 # load contents from raw log file, structured log file or content list
 contents = data_loader(
