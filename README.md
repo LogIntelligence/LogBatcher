@@ -2,6 +2,7 @@
 [![pypi package](https://img.shields.io/pypi/v/logbatcher.svg)](https://pypi.org/project/logbatcher/)
 [![Build and test](https://github.com/LogIntelligence/LogBatcher/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/LogIntelligence/LogBatcher/actions/workflows/build_and_test.yml)
 [![Upload Python Package](https://github.com/LogIntelligence/LogBatcher/actions/workflows/python-publish.yml/badge.svg)](https://github.com/LogIntelligence/LogBatcher/actions/workflows/python-publish.yml)
+[![Downloads](https://static.pepy.tech/badge/logbatcher)](https://pepy.tech/projects/logbatcher)
 
 
 **LogBatcher** is a cost-effective LLM-based log parser that requires no training process or labeled data. This repository includes artifacts for reuse and reproduction of experimental results presented in our ASE'24 paper titled *"Demonstration-Free: Towards More Practical Log Parsing with Large Language Models"*.
