@@ -37,7 +37,7 @@ Git Clone LogBatcher from github
 git clone https://github.com/LogIntelligence/LogBatcher.git && cd LogBatcher
 ```
 
-The code is implemented in **Python 3.8**. To install the required packages, run the following command (conda is optional):
+The code is implemented in **Python >= 3.9**. To install the required packages, run the following command (conda is optional):
 ```bash
 conda create -n logbatcher python==3.9
 conda activate logbatcher
