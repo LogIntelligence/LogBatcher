@@ -64,9 +64,9 @@ Set your **OpenAI API Key** in `config.json`:
 
 _To run with docker:_
 
-Download docker image from zenodo 
+Download the pre-installed docker image from Zenodo.
 
-Docker image DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13373216.svg)](https://doi.org/10.5281/zenodo.13373216)
+Docker image DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13508548.svg)](https://doi.org/10.5281/zenodo.13508548)
 
 Running the following command
 
