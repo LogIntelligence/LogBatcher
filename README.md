@@ -55,9 +55,11 @@ OR, Install LogBatcher from source
 pip install -e .
 ```
 
-Set your **API Key** in `config.json`:
+Set your **API Key** in `config.json`
 
-To ensure the long-term reusability of LogBatcher, we recommend using OpenAI's latest released models. For example, as indicated on [Open AI](https://platform.openai.com/docs/deprecations), the GPT-3.5 series is soon to be deprecated, and it is recommended to switch to the newer gpt-4o-min model. Additionally, we also support the open-source LLMs as the base model. You can use the API provided by [Together AI](https://www.together.ai/) to replace LogBatcher's base model with their commercially available open-source models (such as LLama 3.1, etc.).
+Note that if you find the access to specific API versions is lost, please refer to the following:
+
+To ensure the long-term reusability of LogBatcher, we recommend using OpenAI's latest released models. For example, as indicated on [Open AI](https://platform.openai.com/docs/deprecations), the GPT-3.5 series is soon to be deprecated, and it is recommended to switch to the newer gpt-4o-mini model. Additionally, we also support the open-source LLMs as the base model. You can use the API provided by [Together AI](https://www.together.ai/) to replace LogBatcher's base model with their commercially available open-source models (such as LLama 3.1, etc.).
 
 ```json
 "api_key_from_openai": "<OpenAI_API_KEY>",
@@ -66,9 +68,9 @@ To ensure the long-term reusability of LogBatcher, we recommend using OpenAI's l
 
 _To run with docker:_
 
-Download the pre-installed docker image from Zenodo.
+Download the pre-installed docker image from our Zenodo repository, which also includes the source code, benchmarks and scripts.
 
-Docker image DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13508548.svg)](https://doi.org/10.5281/zenodo.13508548)
+Zenodo repository DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13508548.svg)](https://doi.org/10.5281/zenodo.13508548)
 
 Running the following command
 
@@ -208,7 +210,7 @@ We have already provided _loghub-2k_ datasets in `datasets/loghub-2.0` folder.
 if you want to benchmark on _Loghub-2.0_ datasets, please Run `datasets/loghub-2.0/download.sh` or download the datasets:
 
 
-1. Datasets DOI: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8275861.svg)
+1. Datasets DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8275861.svg)](https://doi.org/10.5281/zenodo.8275861)
 2. Datasets Homepage: [Loghub-2.0](https://zenodo.org/records/8275861)
 
 ### Reproduce
