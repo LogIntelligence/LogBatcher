@@ -70,7 +70,7 @@ _To run with docker:_
 
 Download the pre-installed docker image from our Zenodo repository, which also includes the source code, benchmarks and scripts.
 
-Zenodo repository DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13508548.svg)](https://doi.org/10.5281/zenodo.13508548)
+Zenodo repository DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13752709.svg)](https://doi.org/10.5281/zenodo.13752709)
 
 Running the following command
 
