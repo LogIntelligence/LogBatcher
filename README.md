@@ -55,11 +55,13 @@ OR, Install LogBatcher from source
 pip install -e .
 ```
 
-Set your **OpenAI API Key** in `config.json`:
+Set your **API Key** in `config.json`:
+
+To ensure the long-term reusability of LogBatcher, we recommend using OpenAI's latest released models. For example, as indicated on [Open AI](https://platform.openai.com/docs/deprecations), the GPT-3.5 series is soon to be deprecated, and it is recommended to switch to the newer gpt-4o-min model. Additionally, we also support the open-source LLMs as the base model. You can use the API provided by [Together AI](https://www.together.ai/) to replace LogBatcher's base model with their commercially available open-source models (such as LLama 3.1, etc.).
+
 ```json
-{
-    "api_key_from_openai": "Your API Key from OpenAI"
-}
+"api_key_from_openai": "<OpenAI_API_KEY>",
+"api_key_from_together":"<Together_API_KEY>",
 ```
 
 _To run with docker:_
@@ -71,6 +73,8 @@ Docker image DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13508548.s
 Running the following command
 
 ```bash
+docker load -i logbatcher.tar
+docker images
 docker build -t logbatcher .
 docker run -it logbatcher
 ```
@@ -122,7 +126,7 @@ Following the data format from [LOGPAI](https://github.com/logpai/loghub), the d
 
 ### Usage example
 
-We provide a usage example for more convenient reuse, which is presented as follows. The example provides a test on a specific dataset **Apache** from [LOGPAI](https://github.com/logpai/loghub). If you want to evaluate LogBatcher on your own dataset, please replace the arguments `file_name` and `dataset_format` with your own raw log file path to load log data and the corresponding dataset format to extract the contents. The results can be found in `outputs/parser/test` folder.
+We provide a usage example for more convenient reuse, which is presented as follows. The usage example can be found in file `demo.py`. The example provides a test on a specific dataset **Apache** from [LOGPAI](https://github.com/logpai/loghub). If you want to evaluate LogBatcher on your own dataset, please replace the arguments `file_name` and `dataset_format` with your own raw log file path to load log data and the corresponding dataset format to extract the contents. Run `python demo.py` and find the results in `outputs/parser/test` folder.
 
 ```python
 import json
