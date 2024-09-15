@@ -76,12 +76,14 @@ Running the following command after downloading the pre-built Docker image:
 
 ```bash
 docker load -i logbatcher.tar
+docker images
 docker run -it logbatcher
 ```
 
 Or you can build the docker image from the `Dockerfile` we provide:
 ```bash
 docker build -t logbatcher .
+docker images
 docker run -it logbatcher
 ```
 
