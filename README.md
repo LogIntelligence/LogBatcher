@@ -72,11 +72,15 @@ Download the pre-installed docker image from our Zenodo repository, which also i
 
 Zenodo repository DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13752709.svg)](https://doi.org/10.5281/zenodo.13752709)
 
-Running the following command
+Running the following command after downloading the pre-built Docker image:
 
 ```bash
 docker load -i logbatcher.tar
-docker images
+docker run -it logbatcher
+```
+
+Or you can build the docker image from the `Dockerfile` we provide:
+```bash
 docker build -t logbatcher .
 docker run -it logbatcher
 ```
